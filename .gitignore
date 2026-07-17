@@ -1,0 +1,15 @@
+# Generated Synthea/FHIR artifacts
+2026/patients/raw/**
+2026/patients/enriched/**
+!2026/patients/raw/.gitkeep
+!2026/patients/enriched/.gitkeep
+
+# Generated validation outputs can be large; keep curated summaries tracked.
+2026/scorecards/inferno/raw/**
+2026/cohorts/*/reports/raw/**
+2026/patients/ingest-responses*/
+2026/patients/*response*.json
+
+.env
+*.log
+__pycache__/

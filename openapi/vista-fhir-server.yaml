@@ -1,0 +1,112 @@
+openapi: 3.0.3
+info:
+  title: VistA FHIR Server Quality Testing API
+  version: 0.1.0
+  description: Public devfhir endpoints used for CMS eCQM cohort work and hosted Inferno US Quality Core validation.
+servers:
+  - url: https://devfhir.vistaplex.org
+    description: devfhir HTTPS front door for existing /fhir paths
+  - url: http://devfhir.vistaplex.org:9080
+    description: direct fhirdev22 listener; use for hosted /altfhir validation until HTTPS proxy includes /altfhir
+paths:
+  /fhir/metadata:
+    get:
+      summary: VistA-generated FHIR CapabilityStatement
+      responses:
+        '200': { description: CapabilityStatement }
+  /fhir:
+    get:
+      summary: VistA-generated FHIR dashboard or patient bundle
+      parameters:
+        - { name: dfn, in: query, schema: { type: integer }, description: VistA patient DFN }
+        - { name: view, in: query, schema: { type: string }, description: Use browser for HTML bundle browser }
+      responses:
+        '200': { description: HTML dashboard or FHIR Bundle }
+  /fhir/{resource}:
+    get:
+      summary: VistA-generated FHIR resource search
+      parameters:
+        - { name: resource, in: path, required: true, schema: { type: string } }
+        - { name: patient, in: query, schema: { type: string } }
+        - { name: subject, in: query, schema: { type: string } }
+        - { name: _id, in: query, schema: { type: string } }
+        - { name: code, in: query, schema: { type: string } }
+        - { name: category, in: query, schema: { type: string } }
+        - { name: date, in: query, schema: { type: string } }
+      responses:
+        '200': { description: Searchset Bundle or OperationOutcome }
+  /fhir/{resource}/{id}:
+    get:
+      summary: VistA-generated FHIR resource read
+      parameters:
+        - { name: resource, in: path, required: true, schema: { type: string } }
+        - { name: id, in: path, required: true, schema: { type: string } }
+      responses:
+        '200': { description: FHIR resource or OperationOutcome }
+  /altfhir:
+    get:
+      summary: Graph-source stored Synthea FHIR bundle by graph IEN
+      parameters:
+        - { name: ien, in: query, required: true, schema: { type: integer }, description: fhir-intake graph row IEN }
+        - { name: format, in: query, schema: { type: string, enum: [json, tjson] } }
+      responses:
+        '200': { description: Stored FHIR Bundle }
+  /altfhir/metadata:
+    get:
+      summary: Graph-source FHIR CapabilityStatement
+      responses:
+        '200': { description: CapabilityStatement }
+  /altfhir/{resource}:
+    get:
+      summary: Graph-source FHIR resource search scoped by graph IEN
+      parameters:
+        - { name: resource, in: path, required: true, schema: { type: string } }
+        - { name: ien, in: query, schema: { type: integer } }
+        - { name: patient, in: query, schema: { type: string }, description: Graph IEN or Patient/{IEN} }
+        - { name: subject, in: query, schema: { type: string }, description: Graph IEN or Patient/{IEN} }
+        - { name: _id, in: query, schema: { type: string } }
+        - { name: code, in: query, schema: { type: string } }
+        - { name: category, in: query, schema: { type: string } }
+        - { name: date, in: query, schema: { type: string } }
+      responses:
+        '200': { description: Searchset Bundle or OperationOutcome }
+  /altfhir/{resource}/{id}:
+    get:
+      summary: Graph-source FHIR resource read
+      parameters:
+        - { name: resource, in: path, required: true, schema: { type: string } }
+        - { name: id, in: path, required: true, schema: { type: string } }
+        - { name: ien, in: query, schema: { type: integer }, description: Required for non-Patient reads when id is not enough to resolve graph row }
+      responses:
+        '200': { description: FHIR resource or OperationOutcome }
+  /addpatient:
+    post:
+      summary: Add a Synthea/FHIR bundle to fhir-intake graph and optionally load into VistA
+      parameters:
+        - { name: load, in: query, schema: { type: integer, enum: [0, 1] }, description: 0 graph-only; 1 graph plus VistA domain load }
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: { type: object }
+      responses:
+        '200': { description: Intake result with graph IEN and optional DFN }
+  /showfhir:
+    get:
+      summary: Existing graph-source stored bundle endpoint
+      parameters:
+        - { name: ien, in: query, schema: { type: integer } }
+        - { name: dfn, in: query, schema: { type: integer } }
+        - { name: icn, in: query, schema: { type: string } }
+      responses:
+        '200': { description: Stored FHIR Bundle }
+  /fhir-dashboard:
+    get:
+      summary: Existing patient dashboard
+      responses:
+        '200': { description: HTML dashboard }
+  /fhir-quality-dashboard:
+    get:
+      summary: Quality measure dashboard and cohort tooling links
+      responses:
+        '200': { description: HTML dashboard }
