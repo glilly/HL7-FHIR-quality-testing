@@ -1,0 +1,108 @@
+SUMMARY=2026/scorecards/inferno/altfhir-ien482-searchfix.md
+ `ebed3727-c334-4bd6-838a-62eb47e204f9`
+- URL: `https://devfhir.vistaplex.org/altfhir`
+- Patient IDs: `482`
+- Session URL: https://inferno.healthit.gov/suites/us_quality_core_v050/5mmZDvZBzLN
+
+## Result Counts
+
+- pass: 404
+- fail: 47
+- skip: 47
+
+## Non-Passing Results
+
+- `fail` us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_medicationrequest-us_quality_core_v050_medicationrequest_validation_test: Resource does not conform to the profile http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-medicationrequest|0.5.0
+- `skip` us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_coverage-us_quality_core_v050_coverage_patient_search_test: No Coverage resources appear to be available. Please use patients with more information
+- `skip` us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_coverage-us_quality_core_v050_coverage_read_test: No Coverage resources appear to be available. Please use patients with more information.
+- `skip` us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_coverage-us_quality_core_v050_coverage_provenance_revinclude_search_test: No Provenance resources appear to be available. Please use patients with more information
+- `skip` us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_coverage-us_quality_core_v050_coverage_validation_test: No Coverage resources conforming to the http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-coverage profile were returned
+- `skip` us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_coverage-us_quality_core_v050_coverage_must_support_test: No Coverage resources were found
+- `skip` us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_coverage-us_quality_core_v050_coverage_reference_resolution_test: No Coverage resources appear to be available. Please use patients with more information.
+- `skip` us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_coverage: 
+- `fail` us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_devicerequest-us_quality_core_v050_devicerequest_patient_do_not_perform_search_test: DeviceRequest/usqualitycore-devicenotrequested did not match the search parameters: * Expected: false * Found: true
+- `skip` us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_devicerequest-us_quality_core_v050_devicerequest_patient_code_search_test: No DeviceRequest resources appear to be available. Please use patients with more information
+- `skip` us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_devicerequest: 
+- `fail` us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_devicenotrequested-us_quality_core_v050_devicenotrequested_patient_do_not_perform_search_test: DeviceRequest/usqualitycore-devicerequest did not match the search parameters: * Expected: true * Found: false
+- `skip` us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_devicenotrequested-us_quality_core_v050_devicenotrequested_patient_code_search_test: No DeviceRequest resources appear to be available. Please use patients with more information
+- `fail` us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_devicenotrequested-us_quality_core_v050_devicenotrequested_validation_test: Resource does not conform to the profile http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-devicenotrequested|0.5.0
+- `fail` us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_devicenotrequested: 
+- `skip` us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_diagnostic_report_note-us_quality_core_v050_diagnostic_report_note_reference_resolution_test: Could not resolve and validate any Must Support references for media.link element: Reference
+- `skip` us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_diagnostic_report_note: 
+- `skip` us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_document_reference-us_quality_core_v050_document_reference_patient_category_date_search_test: No DocumentReference resources appear to be available. Please use patients with more information
+- `skip` us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_document_reference: 
+- `skip` us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_medicationadministration-us_quality_core_v050_medicationadministration_patient_code_search_test: No MedicationAdministration resources appear to be available. Please use patients with more information
+- `skip` us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_medicationadministration: 
+- `skip` us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_medicationadministrationnotdone-us_quality_core_v050_medicationadministrationnotdone_patient_code_search_test: No MedicationAdministration resources appear to be available. Please use patients with more information
+- `fail` us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_medicationrequest-us_quality_core_v050_medicationrequest_patient_intent_do_not_perform_search_test: MedicationRequest/usqualitycore-medicationnotrequested did not match the search parameters: * Expected: proposal * Found: "order"
+- `fail` us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_medicationrequest: 
+- `fail` us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_medicationnotrequested-us_quality_core_v050_medicationnotrequested_patient_intent_do_not_perform_search_test: MedicationRequest/usqualitycore-medicationnotrequested did not match the search parameters: * Expected: proposal * Found: "order"
+- `fail` us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_medicationnotrequested-us_quality_core_v050_medicationnotrequested_validation_test: Resource does not conform to the profile http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-medicationnotrequested|0.5.0
+- `fail` us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_medicationnotrequested: 
+- `skip` us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_observation_screening_assessment-us_quality_core_v050_observation_screening_assessment_patient_category_date_search_test: No Observation resources appear to be available. Please use patients with more information
+- `fail` us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_observationcancelled-us_quality_core_v050_observationcancelled_patient_category_date_search_test: Observation/usqualitycore-simple-observation-3 did not match the search parameters: * Expected: lt2013-04-03T10:30:10+01:00 * Found: "2013-04-03T10:30:10+01:00"
+- `fail` us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_simple_observation-us_quality_core_v050_simple_observation_patient_category_date_search_test: Observation/usqualitycore-simple-observation-3 did not match the search parameters: * Expected: lt2013-04-03T10:30:10+01:00 * Found: "2013-04-03T10:30:10+01:00"
+- `fail` us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_simple_observation: 
+- `skip` us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_observation_screening_assessment: 
+- `fail` us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_observationcancelled: 
+- `fail` us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_us_core_observation_pregnancystatus-us_quality_core_v050_us_core_observation_pregnancystatus_patient_category_date_search_test: Observation/usqualitycore-us-core-observation-pregnancyintent did not match the search parameters: * Expected: lt2022-08-25T10:39:52+00:00 * Found: "2022-09-23T22:39:43Z"
+- `fail` us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_us_core_observation_pregnancystatus: 
+- `fail` us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_us_core_smokingstatus-us_quality_core_v050_us_core_smokingstatus_patient_category_date_search_test: Observation/usqualitycore-us-core-observation-pregnancyintent did not match the search parameters: * Expected: lt2016-03-19T05:27:04+00:00 * Found: "2022-09-23T22:39:43Z"
+- `fail` us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_us_core_smokingstatus: 
+- `fail` us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_us_core_observation_occupation-us_quality_core_v050_us_core_observation_occupation_patient_category_date_search_test: Observation/usqualitycore-us-core-observation-pregnancyintent did not match the search parameters: * Expected: lt2015-04-25T00:00:00+00:00 * Found: "2022-09-23T22:39:43Z"
+- `fail` us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_us_core_observation_occupation: 
+- `fail` us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_us_core_blood_pressure-us_quality_core_v050_us_core_blood_pressure_patient_category_date_search_test: Observation/usqualitycore-head-circumference-percentile did not match the search parameters: * Expected: lt1999-07-03T00:00:00+00:00 * Found: "2020-07-01"
+- `fail` us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_us_core_blood_pressure: 
+- `fail` us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_us_core_bmi-us_quality_core_v050_us_core_bmi_patient_category_date_search_test: Observation/usqualitycore-head-circumference-percentile did not match the search parameters: * Expected: lt1999-07-03T00:00:00+00:00 * Found: "2020-07-01"
+- `fail` us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_us_core_bmi: 
+- `fail` us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_pediatric_bmi_for_age-us_quality_core_v050_pediatric_bmi_for_age_patient_category_date_search_test: Observation/usqualitycore-head-circumference-percentile did not match the search parameters: * Expected: lt2019-05-05T12:12:29-07:00 * Found: "2020-07-01"
+- `fail` us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_pediatric_bmi_for_age: 
+- `fail` us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_us_core_body_height-us_quality_core_v050_us_core_body_height_patient_category_date_search_test: Observation/usqualitycore-head-circumference-percentile did not match the search parameters: * Expected: lt1999-07-03T00:00:00+00:00 * Found: "2020-07-01"
+- `fail` us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_us_core_body_height: 
+- `fail` us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_us_core_body_temperature-us_quality_core_v050_us_core_body_temperature_patient_category_date_search_test: Observation/usqualitycore-head-circumference-percentile did not match the search parameters: * Expected: lt1999-07-03T00:00:00+00:00 * Found: "2020-07-01"
+- `fail` us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_us_core_body_temperature: 
+- `fail` us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_us_core_body_weight-us_quality_core_v050_us_core_body_weight_patient_category_date_search_test: Observation/usqualitycore-head-circumference-percentile did not match the search parameters: * Expected: lt1999-07-03T00:00:00+00:00 * Found: "2020-07-01"
+- `fail` us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_us_core_body_weight: 
+- `skip` us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_head_occipital_frontal_circumference_percentile-us_quality_core_v050_head_occipital_frontal_circumference_percentile_patient_category_date_search_test: No Observation resources appear to be available. Please use patients with more information
+- `skip` us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_head_occipital_frontal_circumference_percentile: 
+- `fail` us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_us_core_heart_rate-us_quality_core_v050_us_core_heart_rate_patient_category_date_search_test: Observation/usqualitycore-head-circumference-percentile did not match the search parameters: * Expected: lt1999-07-03T00:00:00+00:00 * Found: "2020-07-01"
+- `fail` us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_us_core_heart_rate: 
+- `fail` us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_us_core_pulse_oximetry-us_quality_core_v050_us_core_pulse_oximetry_patient_category_date_search_test: Observation/usqualitycore-head-circumference-percentile did not match the search parameters: * Expected: lt1999-07-03T00:00:00+00:00 * Found: "2020-07-01"
+- `fail` us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_us_core_pulse_oximetry: 
+- `fail` us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_us_core_respiratory_rate-us_quality_core_v050_us_core_respiratory_rate_patient_category_date_search_test: Observation/usqualitycore-head-circumference-percentile did not match the search parameters: * Expected: lt1999-07-03T00:00:00+00:00 * Found: "2020-07-01"
+- `fail` us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_us_core_respiratory_rate: 
+- `skip` us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_pediatric_weight_for_height-us_quality_core_v050_pediatric_weight_for_height_patient_category_date_search_test: No Observation resources appear to be available. Please use patients with more information
+- `skip` us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_pediatric_weight_for_height: 
+- `skip` us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_procedure-us_quality_core_v050_procedure_patient_date_search_test: No Procedure resources appear to be available. Please use patients with more information
+- `skip` us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_procedure: 
+- `skip` us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_procedurenotdone-us_quality_core_v050_procedurenotdone_patient_date_search_test: No Procedure resources appear to be available. Please use patients with more information
+- `skip` us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_procedurenotdone: 
+- `fail` us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_servicerequest-us_quality_core_v050_servicerequest_patient_do_not_perform_search_test: ServiceRequest/usqualitycore-servicenotrequested did not match the search parameters: * Expected: false * Found: true
+- `fail` us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_servicerequest-us_quality_core_v050_servicerequest_validation_test: Resource does not conform to the profile http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-servicerequest|0.5.0
+- `fail` us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_servicerequest: 
+- `fail` us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_servicenotrequested-us_quality_core_v050_servicenotrequested_patient_do_not_perform_search_test: ServiceRequest/usqualitycore-servicerequest did not match the search parameters: * Expected: true * Found: false
+- `fail` us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_servicenotrequested-us_quality_core_v050_servicenotrequested_validation_test: Resource does not conform to the profile http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-servicenotrequested|0.5.0
+- `fail` us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_servicenotrequested: 
+- `skip` us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_task-us_quality_core_v050_task_patient_status_search_test: No Task resources appear to be available. Please use patients with more information
+- `skip` us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_task-us_quality_core_v050_task_patient_search_test: No Task resources appear to be available. Please use patients with more information
+- `skip` us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_task-us_quality_core_v050_task_patient_code_search_test: Could not find values for all search params `patient`, `code`
+- `skip` us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_task-us_quality_core_v050_task_read_test: No Task resources appear to be available. Please use patients with more information.
+- `skip` us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_task-us_quality_core_v050_task_provenance_revinclude_search_test: No Provenance resources appear to be available. Please use patients with more information
+- `skip` us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_task-us_quality_core_v050_task_validation_test: No Task resources conforming to the http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-task profile were returned
+- `skip` us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_task-us_quality_core_v050_task_must_support_test: No Task resources were found
+- `skip` us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_task-us_quality_core_v050_task_reference_resolution_test: No Task resources appear to be available. Please use patients with more information.
+- `skip` us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_task: 
+- `skip` us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_taskrejected-us_quality_core_v050_taskrejected_patient_status_search_test: No Task resources appear to be available. Please use patients with more information
+- `skip` us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_taskrejected-us_quality_core_v050_taskrejected_patient_search_test: No Task resources appear to be available. Please use patients with more information
+- `skip` us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_taskrejected-us_quality_core_v050_taskrejected_patient_code_search_test: Could not find values for all search params `patient`, `code`
+- `skip` us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_taskrejected-us_quality_core_v050_taskrejected_read_test: No Task resources appear to be available. Please use patients with more information.
+- `skip` us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_taskrejected-us_quality_core_v050_taskrejected_provenance_revinclude_search_test: No Provenance resources appear to be available. Please use patients with more information
+- `skip` us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_taskrejected-us_quality_core_v050_taskrejected_validation_test: No Task resources conforming to the http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-taskrejected profile were returned
+- `skip` us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_taskrejected-us_quality_core_v050_taskrejected_must_support_test: No Task resources were found
+- `skip` us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_taskrejected-us_quality_core_v050_taskrejected_reference_resolution_test: No Task resources appear to be available. Please use patients with more information.
+- `skip` us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_taskrejected: 
+- `skip` us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_practitioner_role-us_quality_core_v050_practitioner_role_reference_resolution_test: Could not resolve and validate any Must Support references for endpoint element: Reference
+- `skip` us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_practitioner_role: 
+- `fail` us_quality_core_v050-us_quality_core_v050_fhir_api: 
+- `fail` 0a1c7e74-f45b-4c10-93fe-0750b7abe4e9: 
+- `fail` us_quality_core_v050-us_quality_core_v050_fhir_api: 

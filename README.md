@@ -9,7 +9,6 @@ Authoritative validation runs use public `devfhir` endpoints so hosted Inferno c
 - Source-bundle phase: `https://devfhir.vistaplex.org/altfhir`
 - VistA round-trip phase: `https://devfhir.vistaplex.org/fhir`
 - Intake: `https://devfhir.vistaplex.org/addpatient?load=0|1`
-- Direct listener for `/altfhir` hosted validation: `http://devfhir.vistaplex.org:9080/altfhir`
 
 Local containers are useful for smoke testing, but scorecards in this repo should come from hosted Inferno against `devfhir`.
 

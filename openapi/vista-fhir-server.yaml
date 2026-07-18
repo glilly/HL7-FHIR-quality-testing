@@ -5,9 +5,7 @@ info:
   description: Public devfhir endpoints used for CMS eCQM cohort work and hosted Inferno US Quality Core validation.
 servers:
   - url: https://devfhir.vistaplex.org
-    description: devfhir HTTPS front door for existing /fhir paths
-  - url: http://devfhir.vistaplex.org:9080
-    description: direct fhirdev22 listener; use for hosted /altfhir validation until HTTPS proxy includes /altfhir
+    description: devfhir / fhirdev22 public validation host
 paths:
   /fhir/metadata:
     get:

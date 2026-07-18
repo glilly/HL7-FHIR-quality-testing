@@ -1,0 +1,19 @@
+{
+  "name": "hl7-fhir-quality-testing",
+  "version": "1.0.0",
+  "description": "Workspace for preparing VistA/RPMS FHIR quality testing for the September HL7 Connectathon. The repo combines CMS eCQM cohort work, Synthea patient enrichment, hosted Inferno US Quality Core validation, and scorecards for `devfhir`.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cql-execution": "^3.3.2",
+    "cqm-execution": "^4.4.3"
+  }
+}

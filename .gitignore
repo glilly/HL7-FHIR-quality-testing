@@ -9,7 +9,10 @@
 2026/cohorts/*/reports/raw/**
 2026/patients/ingest-responses*/
 2026/patients/*response*.json
+2026/cohorts/**/load1-response-*.json
 
 .env
 *.log
 __pycache__/
+node_modules/
+2026/artifacts/

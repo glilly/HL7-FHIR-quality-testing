@@ -1,0 +1,180 @@
+# altfhir IEN 482 US Quality Core Dissection
+
+- Source: `https://devfhir.vistaplex.org/altfhir?ien=482`
+- Normalized Inferno session: https://inferno.healthit.gov/suites/us_quality_core_v050/54qGxr5Eued
+- Read-fix Inferno session: https://inferno.healthit.gov/suites/us_quality_core_v050/eJM5qEPg8xi
+- Search-fix Inferno session: https://inferno.healthit.gov/suites/us_quality_core_v050/5mmZDvZBzLN
+- Before Patient-reference normalization: pass 103, fail 247, skip 148.
+- After normalization: pass 186, fail 195, skip 117.
+- After non-Patient READ fix: pass 242, fail 154, skip 102.
+- After POST `_search` and broad resource searchset fix: pass 404, fail 47, skip 47.
+- Key finding: the bundle is rich enough to activate most USQC groups; remaining failures are now mostly search semantics and resource profile conformance rather than routing or Bundle shape.
+
+## Resource Inventory
+
+- `Observation`: 34
+- `AllergyIntolerance`: 21
+- `Condition`: 8
+- `DiagnosticReport`: 4
+- `Encounter`: 3
+- `Immunization`: 3
+- `MedicationRequest`: 3
+- `Procedure`: 3
+- `ServiceRequest`: 3
+- `Task`: 3
+- `DeviceRequest`: 2
+- `MedicationAdministration`: 2
+- `MedicationDispense`: 2
+- `QuestionnaireResponse`: 2
+- `Endpoint`: 1
+- `Media`: 1
+- `Specimen`: 1
+- `DocumentReference`: 1
+- `Provenance`: 1
+- `AdverseEvent`: 1
+- `CarePlan`: 1
+- `CareTeam`: 1
+- `Coverage`: 1
+- `Device`: 1
+- `FamilyMemberHistory`: 1
+- `Goal`: 1
+- `Group`: 1
+- `Location`: 1
+- `Medication`: 1
+- `Organization`: 1
+- `Patient`: 1
+- `Practitioner`: 1
+- `PractitionerRole`: 1
+- `RelatedPerson`: 1
+- `Questionnaire`: 1
+
+## Entry/Profile To Test-Group Map
+
+- `adverse_event`: entries 1; Inferno pass 0, fail 2, skip 6; examples `AdverseEvent/usqualitycore-adverse-event`.
+- `allergy_intolerance`: entries 21; Inferno pass 4, fail 2, skip 0; examples `AllergyIntolerance/usqualitycore-allergy-intolerance`, `AllergyIntolerance/usqualitycore-allergy-intolerance-dup1`, `AllergyIntolerance/usqualitycore-allergy-intolerance-dup10`, `AllergyIntolerance/usqualitycore-allergy-intolerance-dup11`, `AllergyIntolerance/usqualitycore-allergy-intolerance-dup12` plus 16 more.
+- `condition_encounter_diagnosis`: entries 1; Inferno pass 5, fail 2, skip 1; examples `Condition/usqualitycore-condition-encounter-diagnosis`.
+- `condition_problems_health_concerns`: entries 1; Inferno pass 6, fail 2, skip 0; examples `Condition/usqualitycore-condition-problems-health-concerns`.
+- `coverage`: entries 1; Inferno pass 0, fail 2, skip 4; examples `Coverage/usqualitycore-coverage`.
+- `device`: entries 1; Inferno pass 0, fail 0, skip 0; examples `Device/usqualitycore-device`.
+- `devicenotrequested`: entries 1; Inferno pass 0, fail 3, skip 4; examples `DeviceRequest/usqualitycore-devicenotrequested`.
+- `devicerequest`: entries 1; Inferno pass 0, fail 3, skip 5; examples `DeviceRequest/usqualitycore-devicerequest`.
+- `diagnostic_report_note`: entries 1; Inferno pass 6, fail 2, skip 1; examples `DiagnosticReport/usqualitycore-diagnostic-report-note`.
+- `encounter`: entries 1; Inferno pass 5, fail 3, skip 1; examples `Encounter/usqualitycore-encounter`.
+- `family_member_history`: entries 1; Inferno pass 0, fail 2, skip 3; examples `FamilyMemberHistory/usqualitycore-family-member-history`.
+- `goal`: entries 1; Inferno pass 0, fail 2, skip 4; examples `Goal/usqualitycore-goal`.
+- `head_occipital_frontal_circumference_percentile`: entries 1; Inferno pass 6, fail 2, skip 1; examples `Observation/usqualitycore-head-circumference-percentile`.
+- `immunization`: entries 1; Inferno pass 5, fail 2, skip 0; examples `Immunization/usqualitycore-immunization`.
+- `immunizationnotdone`: entries 2; Inferno pass 5, fail 2, skip 0; examples `Immunization/usqualitycore-immunizationnotdone`, `Immunization/usqualitycore-immunizationnotdone-2`.
+- `location`: entries 1; Inferno pass 0, fail 1, skip 3; examples `Location/usqualitycore-location`.
+- `medication`: entries 1; Inferno pass 0, fail 0, skip 0; examples `Medication/usqualitycore-medication`.
+- `medicationadministration`: entries 1; Inferno pass 0, fail 3, skip 6; examples `MedicationAdministration/usqualitycore-medicationadministration`.
+- `medicationadministrationnotdone`: entries 1; Inferno pass 0, fail 3, skip 5; examples `MedicationAdministration/usqualitycore-medicationadministrationnotdone`.
+- `medicationdispense`: entries 1; Inferno pass 0, fail 3, skip 4; examples `MedicationDispense/usqualitycore-medicationdispense`.
+- `medicationdispensedeclined`: entries 1; Inferno pass 0, fail 3, skip 4; examples `MedicationDispense/usqualitycore-medicationdispensedeclined`.
+- `medicationnotrequested`: entries 1; Inferno pass 3, fail 3, skip 1; examples `MedicationRequest/usqualitycore-medicationnotrequested`.
+- `medicationrequest`: entries 1; Inferno pass 3, fail 3, skip 1; examples `MedicationRequest/usqualitycore-medicationrequest`.
+- `observation_clinical_result`: entries 4; Inferno pass 7, fail 2, skip 0; examples `Observation/usqualitycore-observation-clinical-result`, `Observation/usqualitycore-observation-clinical-result-2`, `Observation/usqualitycore-observation-clinical-result-3`, `Observation/usqualitycore-observation-clinical-result-4`.
+- `observation_lab`: entries 4; Inferno pass 6, fail 2, skip 1; examples `Observation/usqualitycore-observation-lab`, `Observation/usqualitycore-observation-lab-2`, `Observation/usqualitycore-observation-lab-3`, `Observation/usqualitycore-observation-lab-4`.
+- `observation_screening_assessment`: entries 4; Inferno pass 5, fail 2, skip 2; examples `Observation/usqualitycore-observation-screening-assessment`, `Observation/usqualitycore-observation-screening-assessment-2`, `Observation/usqualitycore-observation-screening-assessment-3`, `Observation/usqualitycore-observation-screening-assessment-4`.
+- `observationcancelled`: entries 1; Inferno pass 5, fail 3, skip 0; examples `Observation/usqualitycore-observationcancelled`.
+- `organization`: entries 1; Inferno pass 0, fail 1, skip 2; examples `Organization/usqualitycore-organization`.
+- `patient`: entries 1; Inferno pass 4, fail 1, skip 0; examples `Patient/usqualitycore-patient`.
+- `pediatric_bmi_for_age`: entries 1; Inferno pass 6, fail 3, skip 0; examples `Observation/usqualitycore-pediatric-bmi-for-age`.
+- `pediatric_weight_for_height`: entries 1; Inferno pass 6, fail 2, skip 1; examples `Observation/usqualitycore-pediatric-weight-for-height`.
+- `practitioner`: entries 1; Inferno pass 0, fail 1, skip 2; examples `Practitioner/usqualitycore-practitioner`.
+- `practitionerrole`: entries 1; Inferno pass 0, fail 0, skip 0; examples `PractitionerRole/usqualitycore-practitioner-role`.
+- `procedure`: entries 1; Inferno pass 4, fail 2, skip 2; examples `Procedure/usqualitycore-procedure`.
+- `procedurenotdone`: entries 1; Inferno pass 4, fail 2, skip 2; examples `Procedure/usqualitycore-procedurenotdone`.
+- `questionnaireresponse`: entries 1; Inferno pass 0, fail 0, skip 0; examples `QuestionnaireResponse/usqualitycore-questionnaire-response`.
+- `relatedperson`: entries 1; Inferno pass 0, fail 0, skip 0; examples `RelatedPerson/usqualitycore-related-person`.
+- `servicenotrequested`: entries 1; Inferno pass 0, fail 3, skip 8; examples `ServiceRequest/usqualitycore-servicenotrequested`.
+- `servicerequest`: entries 1; Inferno pass 0, fail 3, skip 8; examples `ServiceRequest/usqualitycore-servicerequest`.
+- `simple_observation`: entries 4; Inferno pass 5, fail 3, skip 1; examples `Observation/usqualitycore-simple-observation`, `Observation/usqualitycore-simple-observation-2`, `Observation/usqualitycore-simple-observation-3`, `Observation/usqualitycore-simple-observation-4`.
+- `task`: entries 1; Inferno pass 0, fail 3, skip 5; examples `Task/usqualitycore-task`.
+- `taskrejected`: entries 2; Inferno pass 0, fail 3, skip 5; examples `Task/usqualitycore-taskrejected`, `Task/usqualitycore-taskrejected-2`.
+- `us_core_blood_pressure`: entries 2; Inferno pass 6, fail 3, skip 0; examples `Observation/usqualitycore-us-core-blood-pressure`, `Observation/usqualitycore-us-core-bp-data-absent-reason`.
+- `us_core_bmi`: entries 1; Inferno pass 6, fail 3, skip 0; examples `Observation/usqualitycore-us-core-bmi`.
+- `us_core_body_height`: entries 1; Inferno pass 6, fail 3, skip 0; examples `Observation/usqualitycore-us-core-body-height`.
+- `us_core_body_temperature`: entries 1; Inferno pass 6, fail 3, skip 0; examples `Observation/usqualitycore-us-core-body-temperature`.
+- `us_core_body_weight`: entries 1; Inferno pass 6, fail 3, skip 0; examples `Observation/usqualitycore-us-core-body-weight`.
+- `us_core_documentreference`: entries 1; Inferno pass 0, fail 0, skip 0; examples `DocumentReference/usqualitycore-document-reference`.
+- `us_core_heart_rate`: entries 1; Inferno pass 6, fail 3, skip 0; examples `Observation/usqualitycore-us-core-heart-rate`.
+- `us_core_observation_occupation`: entries 1; Inferno pass 6, fail 3, skip 0; examples `Observation/usqualitycore-us-core-observation-occupation`.
+- `us_core_observation_pregnancyintent`: entries 1; Inferno pass 7, fail 2, skip 0; examples `Observation/usqualitycore-us-core-observation-pregnancyintent`.
+- `us_core_observation_pregnancystatus`: entries 1; Inferno pass 6, fail 3, skip 0; examples `Observation/usqualitycore-us-core-observation-pregnancystatus`.
+- `us_core_provenance`: entries 1; Inferno pass 0, fail 0, skip 0; examples `Provenance/usqualitycore-provenance`.
+- `us_core_pulse_oximetry`: entries 1; Inferno pass 6, fail 3, skip 0; examples `Observation/usqualitycore-us-core-pulse-oximetry`.
+- `us_core_respiratory_rate`: entries 1; Inferno pass 6, fail 3, skip 0; examples `Observation/usqualitycore-us-core-respiratory-rate`.
+- `us_core_smokingstatus`: entries 1; Inferno pass 6, fail 3, skip 0; examples `Observation/usqualitycore-us-core-smokingstatus`.
+- `us_core_specimen`: entries 1; Inferno pass 0, fail 0, skip 0; examples `Specimen/usqualitycore-specimen`.
+
+## Present But Not Directly Mapped By Profile
+
+- `Endpoint/usqualitycore-r4-endpoint`
+- `Media/usqualitycore-r4-media`
+- `CarePlan/usqualitycore-care-plan`
+- `CareTeam/usqualitycore-care-team`
+- `DiagnosticReport/usqualitycore-diagnostic-report-lab`
+- `Group/usqualitycore-group`
+- `DiagnosticReport/diagnostic-report-problem-list-pick-list`
+- `Encounter/d4ff3309-d4ff-44ff-ad4f-d4ff3309d4ff`
+- `Condition/`
+- `Questionnaire/`
+- `QuestionnaireResponse/`
+- `Observation/`
+- `Condition/`
+- `Procedure/`
+- `DiagnosticReport/`
+- `ServiceRequest/`
+- `MedicationRequest/`
+- `Encounter/0ae3464b-0ae3-4ae3-a0ae-0ae3464b0ae3`
+- `Condition/`
+- `Condition/`
+- `Condition/`
+- `Condition/`
+
+## Tests Turned By IEN 482
+
+- `allergy_intolerance`: 4 passing tests; representative entries `AllergyIntolerance/usqualitycore-allergy-intolerance`, `AllergyIntolerance/usqualitycore-allergy-intolerance-dup1`, `AllergyIntolerance/usqualitycore-allergy-intolerance-dup10`.
+- `condition_encounter_diagnosis`: 5 passing tests; representative entries `Condition/usqualitycore-condition-encounter-diagnosis`.
+- `condition_problems_health_concerns`: 6 passing tests; representative entries `Condition/usqualitycore-condition-problems-health-concerns`.
+- `diagnostic_report_lab`: 6 passing tests; representative entries no direct profiled entry found.
+- `diagnostic_report_note`: 6 passing tests; representative entries `DiagnosticReport/usqualitycore-diagnostic-report-note`.
+- `document_reference`: 5 passing tests; representative entries no direct profiled entry found.
+- `encounter`: 5 passing tests; representative entries `Encounter/usqualitycore-encounter`.
+- `head_occipital_frontal_circumference_percentile`: 6 passing tests; representative entries `Observation/usqualitycore-head-circumference-percentile`.
+- `immunization`: 5 passing tests; representative entries `Immunization/usqualitycore-immunization`.
+- `immunizationnotdone`: 5 passing tests; representative entries `Immunization/usqualitycore-immunizationnotdone`, `Immunization/usqualitycore-immunizationnotdone-2`.
+- `medicationnotrequested`: 3 passing tests; representative entries `MedicationRequest/usqualitycore-medicationnotrequested`.
+- `medicationrequest`: 3 passing tests; representative entries `MedicationRequest/usqualitycore-medicationrequest`.
+- `observation_clinical_result`: 7 passing tests; representative entries `Observation/usqualitycore-observation-clinical-result`, `Observation/usqualitycore-observation-clinical-result-2`, `Observation/usqualitycore-observation-clinical-result-3`.
+- `observation_lab`: 6 passing tests; representative entries `Observation/usqualitycore-observation-lab`, `Observation/usqualitycore-observation-lab-2`, `Observation/usqualitycore-observation-lab-3`.
+- `observation_screening_assessment`: 5 passing tests; representative entries `Observation/usqualitycore-observation-screening-assessment`, `Observation/usqualitycore-observation-screening-assessment-2`, `Observation/usqualitycore-observation-screening-assessment-3`.
+- `observationcancelled`: 5 passing tests; representative entries `Observation/usqualitycore-observationcancelled`.
+- `patient`: 4 passing tests; representative entries `Patient/usqualitycore-patient`.
+- `pediatric_bmi_for_age`: 6 passing tests; representative entries `Observation/usqualitycore-pediatric-bmi-for-age`.
+- `pediatric_weight_for_height`: 6 passing tests; representative entries `Observation/usqualitycore-pediatric-weight-for-height`.
+- `procedure`: 4 passing tests; representative entries `Procedure/usqualitycore-procedure`.
+- `procedurenotdone`: 4 passing tests; representative entries `Procedure/usqualitycore-procedurenotdone`.
+- `provenance`: 2 passing tests; representative entries no direct profiled entry found.
+- `simple_observation`: 5 passing tests; representative entries `Observation/usqualitycore-simple-observation`, `Observation/usqualitycore-simple-observation-2`, `Observation/usqualitycore-simple-observation-3`.
+- `us_core_blood_pressure`: 6 passing tests; representative entries `Observation/usqualitycore-us-core-blood-pressure`, `Observation/usqualitycore-us-core-bp-data-absent-reason`.
+- `us_core_bmi`: 6 passing tests; representative entries `Observation/usqualitycore-us-core-bmi`.
+- `us_core_body_height`: 6 passing tests; representative entries `Observation/usqualitycore-us-core-body-height`.
+- `us_core_body_temperature`: 6 passing tests; representative entries `Observation/usqualitycore-us-core-body-temperature`.
+- `us_core_body_weight`: 6 passing tests; representative entries `Observation/usqualitycore-us-core-body-weight`.
+- `us_core_heart_rate`: 6 passing tests; representative entries `Observation/usqualitycore-us-core-heart-rate`.
+- `us_core_observation_occupation`: 6 passing tests; representative entries `Observation/usqualitycore-us-core-observation-occupation`.
+- `us_core_observation_pregnancyintent`: 7 passing tests; representative entries `Observation/usqualitycore-us-core-observation-pregnancyintent`.
+- `us_core_observation_pregnancystatus`: 6 passing tests; representative entries `Observation/usqualitycore-us-core-observation-pregnancystatus`.
+- `us_core_pulse_oximetry`: 6 passing tests; representative entries `Observation/usqualitycore-us-core-pulse-oximetry`.
+- `us_core_respiratory_rate`: 6 passing tests; representative entries `Observation/usqualitycore-us-core-respiratory-rate`.
+- `us_core_smokingstatus`: 6 passing tests; representative entries `Observation/usqualitycore-us-core-smokingstatus`.
+
+## Current Server Gaps Exposed
+
+- POST `_search` now returns `200` searchset Bundles for Patient, AllergyIntolerance, Observation, Condition, DiagnosticReport, DocumentReference, Immunization, Procedure, and Encounter.
+- Non-Patient read URLs now return single resources instead of searchset Bundles, for example `/altfhir/Condition/usqualitycore-condition-encounter-diagnosis`, `/altfhir/AllergyIntolerance/usqualitycore-allergy-intolerance`, and `/altfhir/Observation/usqualitycore-us-core-body-weight`.
+- Broad IEN 482 resource searches now return searchset Bundles for resource types that previously returned OperationOutcome, including Coverage, DeviceRequest, FamilyMemberHistory, Goal, MedicationAdministration, MedicationDispense, RelatedPerson, ServiceRequest, and Task.
+- Remaining search failures are now semantic filters: `do-not-perform` on DeviceRequest and ServiceRequest, `intent` plus `do-not-perform` on MedicationRequest, and date range comparisons returning resources outside Inferno's expected date window.
+- Remaining validation failures are resource-content/profile issues for MedicationRequest, DeviceRequest, ServiceRequest, and related "not requested" profiles.
