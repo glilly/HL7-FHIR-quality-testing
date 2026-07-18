@@ -4,11 +4,13 @@
 - Normalized Inferno session: https://inferno.healthit.gov/suites/us_quality_core_v050/54qGxr5Eued
 - Read-fix Inferno session: https://inferno.healthit.gov/suites/us_quality_core_v050/eJM5qEPg8xi
 - Search-fix Inferno session: https://inferno.healthit.gov/suites/us_quality_core_v050/5mmZDvZBzLN
+- Semantic search-fix Inferno session: https://inferno.healthit.gov/suites/us_quality_core_v050/dHSqcAyBTrh
 - Before Patient-reference normalization: pass 103, fail 247, skip 148.
 - After normalization: pass 186, fail 195, skip 117.
 - After non-Patient READ fix: pass 242, fail 154, skip 102.
 - After POST `_search` and broad resource searchset fix: pass 404, fail 47, skip 47.
-- Key finding: the bundle is rich enough to activate most USQC groups; remaining failures are now mostly search semantics and resource profile conformance rather than routing or Bundle shape.
+- After semantic search fixes for `do-not-perform`, `intent`, and dateTime range handling: pass 447, fail 0, skip 51.
+- Key finding: the bundle is rich enough to activate most USQC groups; `/altfhir` can now produce a zero-failure hosted US Quality Core run for IEN 482, with remaining skips driven by absent matching resources or unresolved optional references.
 
 ## Resource Inventory
 
@@ -176,5 +178,5 @@
 - POST `_search` now returns `200` searchset Bundles for Patient, AllergyIntolerance, Observation, Condition, DiagnosticReport, DocumentReference, Immunization, Procedure, and Encounter.
 - Non-Patient read URLs now return single resources instead of searchset Bundles, for example `/altfhir/Condition/usqualitycore-condition-encounter-diagnosis`, `/altfhir/AllergyIntolerance/usqualitycore-allergy-intolerance`, and `/altfhir/Observation/usqualitycore-us-core-body-weight`.
 - Broad IEN 482 resource searches now return searchset Bundles for resource types that previously returned OperationOutcome, including Coverage, DeviceRequest, FamilyMemberHistory, Goal, MedicationAdministration, MedicationDispense, RelatedPerson, ServiceRequest, and Task.
-- Remaining search failures are now semantic filters: `do-not-perform` on DeviceRequest and ServiceRequest, `intent` plus `do-not-perform` on MedicationRequest, and date range comparisons returning resources outside Inferno's expected date window.
-- Remaining validation failures are resource-content/profile issues for MedicationRequest, DeviceRequest, ServiceRequest, and related "not requested" profiles.
+- `do-not-perform` filters now separate requested/not-requested DeviceRequest and ServiceRequest resources, and dateTime range searches no longer match day-only aliases outside Inferno's expected date window.
+- Remaining skips include stricter searches with no matching resources for IEN 482, Task-related groups, Coverage, and optional reference-resolution checks such as DiagnosticReport media links and PractitionerRole endpoint links.
