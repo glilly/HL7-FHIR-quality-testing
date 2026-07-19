@@ -262,7 +262,8 @@ First-slice status:
 - `CMS165v14` currently checks hypertension evidence and systolic/diastolic BP evidence.
 - `CMS122v14` currently checks diabetes evidence and HbA1c evidence.
 - Generated pick-list actions are advisory and `clinician-reviewed`; none are default-selected.
-- Next step is to make accepted actions produce a deterministic update Bundle for the VistA helper layer.
+- Update Bundle + apply-review path files Encounter / DocumentReference / Condition; vitals via `C0FWVIT`.
+- **2026-07-18:** `C0FWLAB` now files laboratory `Observation` through `LABADD^SYNDHP63` / ISI. HTTP smoke on DFN `101090` loaded HbA1c `7.4` and `/fhir` laboratory search returned it. Quality UI apply for `cms122-import-hba1c` is the remaining morning confirmation.
 
 ## Open Questions
 

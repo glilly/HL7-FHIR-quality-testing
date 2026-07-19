@@ -27,10 +27,36 @@ The CMS EC artifacts are QDM/CQL, not FHIR-native DEQM `Measure` resources. Ther
 1. **QDM execution path:** Convert each Synthea FHIR bundle to a CQM/QDM patient JSON model, then run `cqm-execution` against the official QDM CQL/ELM/value-set package.
 2. **FHIR-native path:** Locate or author equivalent FHIR `Measure`/`Library` packages for the target measures, then run cqf-ruler or another FHIR R4 `$evaluate-measure` server.
 
-The repository now installs `cqm-execution`/`cql-execution` and includes `scripts/fetch-2026-ecqm-artifacts.py` to fetch/extract official QDM packages. The next implementation step is the FHIR-to-QDM bridge for the highest-yield measures, starting with `CMS165v14` because its logic maps cleanly to FHIR Conditions, Encounters, and Blood Pressure Observations.
+The repository now installs `cqm-execution`/`cql-execution` and includes `scripts/fetch-2026-ecqm-artifacts.py` to fetch/extract official QDM packages.
+
+## Bridge status (2026-07-19)
+
+Prioritized before more cohort classification:
+
+1. `scripts/fhir-to-qdm-patient.js` converts a FHIR R4 Bundle into a Project Tacoma QDM patient JSON sketch (Patient / Condition / Encounter / Observation including BP components and labs).
+2. `scripts/evaluate-cms165-qdm.js` converts selected CMS165 bundles into `2026/cohorts/CMS165v14/qdm-patients/` and, when present, runs `cqm-execution` against:
+   - `2026/measures/CMS165v14/cqm/measure.json`
+   - `2026/measures/CMS165v14/cqm/value_sets.json`
+
+Important gap: the official eCQI 2026 QDM ZIP contains CQL/ELM libraries under `2026/artifacts/extracted-shortlist/CMS165-v14.0.000-QDM/`, but **not** a Bonnie/cqm-models measure + value-set package. Until that export is added under `2026/measures/CMS165v14/cqm/`, the bridge stops after patient conversion and does not yet emit official MeasureReports.
+
+Example:
+
+```bash
+node scripts/fhir-to-qdm-patient.js path/to/bundle.json /tmp/patient.qdm.json
+node scripts/evaluate-cms165-qdm.js
+```
 
 ## Current Cohort Inventory
 
 - Generated Synthea batch: `2026/patients/raw/synthea-1000-20260901-20260101/manifest.tsv`
 - Devfhir graph cohort: `2026/patients/devfhir-ingest-load0-success-1000.tsv`
 - Hosted Inferno source/round-trip scorecards: `2026/scorecards/inferno/`
+
+## Honesty note (2026-07-18)
+
+CMS165v14 membership currently comes from `scripts/cms165-fhir-preclassifier.py`
+(193 denominator / 76 numerator among 1000 bundles). That is a **heuristic FHIR
+proxy**, not an official QDM/CQL MeasureReport. September Connectathon docs should
+label it as such until `cqm-execution` or FHIR `$evaluate-measure` produces
+machine MeasureReports for the selected patients.

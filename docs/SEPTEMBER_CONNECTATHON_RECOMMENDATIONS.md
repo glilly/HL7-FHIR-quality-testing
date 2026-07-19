@@ -47,8 +47,8 @@ Provenance prototype result:
 
 | CMS ID | Candidate Status | Notes |
 | --- | --- | --- |
-| CMS122v14 | pending cohort classification | Diabetes/HbA1c should be high yield. |
-| CMS165v14 | pending cohort classification | Blood pressure overlaps strong USQC vital-sign groups. |
+| CMS122v14 | engineering active | Quality AI Consult pick-list + C0FWLAB SYN/ISI writeback for HbA1c Observation; cohort classification still pending. |
+| CMS165v14 | heuristic proxy only | FHIR preclassifier found 193 denom / 76 numer among 1000 Synthea bundles; 18 numerator proxies loaded. Not yet official QDM/CQL MeasureReports. Showcase Inferno: IEN 482 / DFN 101090 reached 0 failures. |
 | CMS130v14 | pending cohort classification | Screening numerator support may expose Procedure/DiagnosticReport gaps. |
 | CMS125v14 | pending cohort classification | Mammography evidence likely needs source enrichment. |
 | CMS147v14 | verify against 2026 ZIP | Strong Immunization validation overlap if still present. |

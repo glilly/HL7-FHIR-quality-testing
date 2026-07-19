@@ -7,6 +7,8 @@
     "doc": "docs"
   },
   "scripts": {
+    "fhir-to-qdm": "node scripts/fhir-to-qdm-patient.js",
+    "evaluate-cms165": "node scripts/evaluate-cms165-qdm.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
