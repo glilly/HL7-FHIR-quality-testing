@@ -66,12 +66,30 @@ function main() {
     process.exit(0);
   }
 
+  const valueSets = loadJson(valueSetsPath);
+  const expanded = (Array.isArray(valueSets) ? valueSets : []).filter(
+    (vs) => Array.isArray(vs.concepts) && vs.concepts.length > 0
+  ).length;
+  if (!expanded) {
+    console.log("");
+    console.log("measure.json / value_sets.json present, but no expanded concepts.");
+    console.log("Run: VSAC_API_KEY=... node scripts/build-cms165-cqm-package.js");
+    console.log("Or replace value_sets.json with a Bonnie/MADiE export.");
+    console.log(`Converted patients: ${OUT_DIR}`);
+    process.exit(0);
+  }
+
   const Calculator = require("cqm-execution").Calculator;
   const measure = loadJson(measurePath);
-  const valueSets = loadJson(valueSetsPath);
-  const results = Calculator.calculate(measure, patients, valueSets, {
-    doPretty: true,
-  });
+  let results;
+  try {
+    results = Calculator.calculate(measure, patients, valueSets, {
+      doPretty: true,
+    });
+  } catch (err) {
+    console.error("cqm-execution failed:", err.message || err);
+    process.exit(1);
+  }
   const reportPath = path.join(ROOT, "2026/cohorts/CMS165v14/reports/cqm-execution-batch.json");
   fs.mkdirSync(path.dirname(reportPath), { recursive: true });
   fs.writeFileSync(reportPath, JSON.stringify(results, null, 2) + "\n");

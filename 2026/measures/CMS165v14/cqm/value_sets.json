@@ -1,0 +1,261 @@
+[
+  {
+    "_id": "2.16.840.1.113883.3.526.3.1002",
+    "oid": "2.16.840.1.113883.3.526.3.1002",
+    "display_name": "Chronic Kidney Disease, Stage 5",
+    "version": "eCQI-2026-CMS165v14",
+    "concepts": []
+  },
+  {
+    "_id": "2.16.840.1.113883.3.464.1003.109.12.1013",
+    "oid": "2.16.840.1.113883.3.464.1003.109.12.1013",
+    "display_name": "Dialysis Services",
+    "version": "eCQI-2026-CMS165v14",
+    "concepts": []
+  },
+  {
+    "_id": "2.16.840.1.113883.3.464.1003.101.12.1010",
+    "oid": "2.16.840.1.113883.3.464.1003.101.12.1010",
+    "display_name": "Emergency Department Evaluation and Management Visit",
+    "version": "eCQI-2026-CMS165v14",
+    "concepts": []
+  },
+  {
+    "_id": "2.16.840.1.113883.3.666.5.307",
+    "oid": "2.16.840.1.113883.3.666.5.307",
+    "display_name": "Encounter Inpatient",
+    "version": "eCQI-2026-CMS165v14",
+    "concepts": []
+  },
+  {
+    "_id": "2.16.840.1.113883.3.526.3.353",
+    "oid": "2.16.840.1.113883.3.526.3.353",
+    "display_name": "End Stage Renal Disease",
+    "version": "eCQI-2026-CMS165v14",
+    "concepts": []
+  },
+  {
+    "_id": "2.16.840.1.113883.3.464.1003.109.12.1014",
+    "oid": "2.16.840.1.113883.3.464.1003.109.12.1014",
+    "display_name": "ESRD Monthly Outpatient Services",
+    "version": "eCQI-2026-CMS165v14",
+    "concepts": []
+  },
+  {
+    "_id": "2.16.840.1.113883.3.464.1003.104.12.1011",
+    "oid": "2.16.840.1.113883.3.464.1003.104.12.1011",
+    "display_name": "Essential Hypertension",
+    "version": "eCQI-2026-CMS165v14",
+    "concepts": []
+  },
+  {
+    "_id": "2.16.840.1.114222.4.11.837",
+    "oid": "2.16.840.1.114222.4.11.837",
+    "display_name": "Ethnicity",
+    "version": "eCQI-2026-CMS165v14",
+    "concepts": []
+  },
+  {
+    "_id": "2.16.840.1.113883.3.464.1003.109.12.1012",
+    "oid": "2.16.840.1.113883.3.464.1003.109.12.1012",
+    "display_name": "Kidney Transplant",
+    "version": "eCQI-2026-CMS165v14",
+    "concepts": []
+  },
+  {
+    "_id": "2.16.840.1.113883.3.464.1003.109.12.1029",
+    "oid": "2.16.840.1.113883.3.464.1003.109.12.1029",
+    "display_name": "Kidney Transplant Recipient",
+    "version": "eCQI-2026-CMS165v14",
+    "concepts": []
+  },
+  {
+    "_id": "2.16.840.1.113762.1.4.1021.121",
+    "oid": "2.16.840.1.113762.1.4.1021.121",
+    "display_name": "Federal Administrative Sex",
+    "version": "eCQI-2026-CMS165v14",
+    "concepts": []
+  },
+  {
+    "_id": "2.16.840.1.114222.4.11.3591",
+    "oid": "2.16.840.1.114222.4.11.3591",
+    "display_name": "Payer Type",
+    "version": "eCQI-2026-CMS165v14",
+    "concepts": []
+  },
+  {
+    "_id": "2.16.840.1.113883.3.526.3.378",
+    "oid": "2.16.840.1.113883.3.526.3.378",
+    "display_name": "Pregnancy",
+    "version": "eCQI-2026-CMS165v14",
+    "concepts": []
+  },
+  {
+    "_id": "2.16.840.1.114222.4.11.836",
+    "oid": "2.16.840.1.114222.4.11.836",
+    "display_name": "Race",
+    "version": "eCQI-2026-CMS165v14",
+    "concepts": []
+  },
+  {
+    "_id": "2.16.840.1.113883.3.526.3.1240",
+    "oid": "2.16.840.1.113883.3.526.3.1240",
+    "display_name": "Annual Wellness Visit",
+    "version": "eCQI-2026-CMS165v14",
+    "concepts": []
+  },
+  {
+    "_id": "2.16.840.1.113883.3.464.1003.101.12.1016",
+    "oid": "2.16.840.1.113883.3.464.1003.101.12.1016",
+    "display_name": "Home Healthcare Services",
+    "version": "eCQI-2026-CMS165v14",
+    "concepts": []
+  },
+  {
+    "_id": "2.16.840.1.113883.3.464.1003.101.12.1001",
+    "oid": "2.16.840.1.113883.3.464.1003.101.12.1001",
+    "display_name": "Office Visit",
+    "version": "eCQI-2026-CMS165v14",
+    "concepts": []
+  },
+  {
+    "_id": "2.16.840.1.113883.3.464.1003.101.12.1025",
+    "oid": "2.16.840.1.113883.3.464.1003.101.12.1025",
+    "display_name": "Preventive Care Services Established Office Visit, 18 and Up",
+    "version": "eCQI-2026-CMS165v14",
+    "concepts": []
+  },
+  {
+    "_id": "2.16.840.1.113883.3.464.1003.101.12.1023",
+    "oid": "2.16.840.1.113883.3.464.1003.101.12.1023",
+    "display_name": "Preventive Care Services Initial Office Visit, 18 and Up",
+    "version": "eCQI-2026-CMS165v14",
+    "concepts": []
+  },
+  {
+    "_id": "2.16.840.1.113883.3.464.1003.101.12.1080",
+    "oid": "2.16.840.1.113883.3.464.1003.101.12.1080",
+    "display_name": "Telephone Visits",
+    "version": "eCQI-2026-CMS165v14",
+    "concepts": []
+  },
+  {
+    "_id": "2.16.840.1.113883.3.464.1003.101.12.1089",
+    "oid": "2.16.840.1.113883.3.464.1003.101.12.1089",
+    "display_name": "Virtual Encounter",
+    "version": "eCQI-2026-CMS165v14",
+    "concepts": []
+  },
+  {
+    "_id": "2.16.840.1.113883.3.464.1003.110.12.1082",
+    "oid": "2.16.840.1.113883.3.464.1003.110.12.1082",
+    "display_name": "Advanced Illness",
+    "version": "eCQI-2026-CMS165v14",
+    "concepts": []
+  },
+  {
+    "_id": "2.16.840.1.113883.3.464.1003.196.12.1510",
+    "oid": "2.16.840.1.113883.3.464.1003.196.12.1510",
+    "display_name": "Dementia Medications",
+    "version": "eCQI-2026-CMS165v14",
+    "concepts": []
+  },
+  {
+    "_id": "2.16.840.1.113883.3.464.1003.118.12.1300",
+    "oid": "2.16.840.1.113883.3.464.1003.118.12.1300",
+    "display_name": "Frailty Device",
+    "version": "eCQI-2026-CMS165v14",
+    "concepts": []
+  },
+  {
+    "_id": "2.16.840.1.113883.3.464.1003.113.12.1074",
+    "oid": "2.16.840.1.113883.3.464.1003.113.12.1074",
+    "display_name": "Frailty Diagnosis",
+    "version": "eCQI-2026-CMS165v14",
+    "concepts": []
+  },
+  {
+    "_id": "2.16.840.1.113883.3.464.1003.101.12.1088",
+    "oid": "2.16.840.1.113883.3.464.1003.101.12.1088",
+    "display_name": "Frailty Encounter",
+    "version": "eCQI-2026-CMS165v14",
+    "concepts": []
+  },
+  {
+    "_id": "2.16.840.1.113883.3.464.1003.113.12.1075",
+    "oid": "2.16.840.1.113883.3.464.1003.113.12.1075",
+    "display_name": "Frailty Symptom",
+    "version": "eCQI-2026-CMS165v14",
+    "concepts": []
+  },
+  {
+    "_id": "2.16.840.1.113883.3.117.1.7.1.292",
+    "oid": "2.16.840.1.113883.3.117.1.7.1.292",
+    "display_name": "Emergency Department Visit",
+    "version": "eCQI-2026-CMS165v14",
+    "concepts": []
+  },
+  {
+    "_id": "2.16.840.1.113762.1.4.1029.206",
+    "oid": "2.16.840.1.113762.1.4.1029.206",
+    "display_name": "Intensive Care Unit",
+    "version": "eCQI-2026-CMS165v14",
+    "concepts": []
+  },
+  {
+    "_id": "2.16.840.1.113762.1.4.1111.143",
+    "oid": "2.16.840.1.113762.1.4.1111.143",
+    "display_name": "Observation Services",
+    "version": "eCQI-2026-CMS165v14",
+    "concepts": []
+  },
+  {
+    "_id": "2.16.840.1.113762.1.4.1110.38",
+    "oid": "2.16.840.1.113762.1.4.1110.38",
+    "display_name": "Outpatient Surgery Service",
+    "version": "eCQI-2026-CMS165v14",
+    "concepts": []
+  },
+  {
+    "_id": "2.16.840.1.113883.3.526.3.1584",
+    "oid": "2.16.840.1.113883.3.526.3.1584",
+    "display_name": "Hospice Care Ambulatory",
+    "version": "eCQI-2026-CMS165v14",
+    "concepts": []
+  },
+  {
+    "_id": "2.16.840.1.113883.3.464.1003.1165",
+    "oid": "2.16.840.1.113883.3.464.1003.1165",
+    "display_name": "Hospice Diagnosis",
+    "version": "eCQI-2026-CMS165v14",
+    "concepts": []
+  },
+  {
+    "_id": "2.16.840.1.113883.3.464.1003.1003",
+    "oid": "2.16.840.1.113883.3.464.1003.1003",
+    "display_name": "Hospice Encounter",
+    "version": "eCQI-2026-CMS165v14",
+    "concepts": []
+  },
+  {
+    "_id": "2.16.840.1.113883.3.464.1003.1167",
+    "oid": "2.16.840.1.113883.3.464.1003.1167",
+    "display_name": "Palliative Care Diagnosis",
+    "version": "eCQI-2026-CMS165v14",
+    "concepts": []
+  },
+  {
+    "_id": "2.16.840.1.113883.3.464.1003.101.12.1090",
+    "oid": "2.16.840.1.113883.3.464.1003.101.12.1090",
+    "display_name": "Palliative Care Encounter",
+    "version": "eCQI-2026-CMS165v14",
+    "concepts": []
+  },
+  {
+    "_id": "2.16.840.1.113883.3.464.1003.198.12.1135",
+    "oid": "2.16.840.1.113883.3.464.1003.198.12.1135",
+    "display_name": "Palliative Care Intervention",
+    "version": "eCQI-2026-CMS165v14",
+    "concepts": []
+  }
+]

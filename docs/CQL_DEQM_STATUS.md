@@ -38,12 +38,18 @@ Prioritized before more cohort classification:
    - `2026/measures/CMS165v14/cqm/measure.json`
    - `2026/measures/CMS165v14/cqm/value_sets.json`
 
-Important gap: the official eCQI 2026 QDM ZIP contains CQL/ELM libraries under `2026/artifacts/extracted-shortlist/CMS165-v14.0.000-QDM/`, but **not** a Bonnie/cqm-models measure + value-set package. Until that export is added under `2026/measures/CMS165v14/cqm/`, the bridge stops after patient conversion and does not yet emit official MeasureReports.
+Important gap: the official eCQI 2026 QDM ZIP contains CQL/ELM libraries under `2026/artifacts/extracted-shortlist/CMS165-v14.0.000-QDM/`, but **not** expanded value sets. `scripts/build-cms165-cqm-package.js` can assemble a best-effort `measure.json` from that ELM; `value_sets.json` still needs either:
+
+1. `VSAC_API_KEY` / `UMLS_API_KEY` when running the builder, or
+2. a Bonnie / MADiE export dropped into `2026/measures/CMS165v14/cqm/`.
+
+Until value sets are expanded, the bridge converts patients but does not yet emit trustworthy MeasureReports.
 
 Example:
 
 ```bash
 node scripts/fhir-to-qdm-patient.js path/to/bundle.json /tmp/patient.qdm.json
+VSAC_API_KEY=... node scripts/build-cms165-cqm-package.js
 node scripts/evaluate-cms165-qdm.js
 ```
 
