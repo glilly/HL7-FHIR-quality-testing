@@ -18,10 +18,23 @@ function resources(bundle) {
     .filter(Boolean);
 }
 
+function asBundle(input) {
+  if (input && input.resourceType === "Bundle") {
+    return input;
+  }
+  if (input && input.fhirBundle && input.fhirBundle.resourceType === "Bundle") {
+    return input.fhirBundle;
+  }
+  throw new Error(
+    "Input must be a FHIR Bundle. Codex updatepatient responses are not source bundles; use the original selected-18.tsv bundle path or a /fhir Bundle export."
+  );
+}
+
 function codingList(codeable) {
   if (!codeable) return [];
+  const rawCodings = codeable.code && codeable.system ? [codeable] : codeable.coding || [];
   const out = [];
-  for (const coding of codeable.coding || []) {
+  for (const coding of rawCodings) {
     if (!coding || !coding.code) continue;
     out.push({
       code: String(coding.code),
@@ -40,6 +53,9 @@ function systemOid(system) {
   if (system.includes("loinc")) return "2.16.840.1.113883.6.1";
   if (system.includes("icd-10")) return "2.16.840.1.113883.6.90";
   if (system.includes("cpt")) return "2.16.840.1.113883.6.12";
+  if (system.includes("administrative-gender")) return "2.16.840.1.113883.5.1";
+  if (system.includes("race")) return "2.16.840.1.113883.6.238";
+  if (system.includes("ethnicity")) return "2.16.840.1.113883.6.238";
   return system;
 }
 
@@ -73,6 +89,7 @@ function periodFrom(resource) {
 }
 
 function patientFrom(bundle) {
+  bundle = asBundle(bundle);
   const all = resources(bundle);
   const patient = all.find((r) => r.resourceType === "Patient") || {};
   const name = (patient.name && patient.name[0]) || {};
@@ -99,6 +116,27 @@ function patientFrom(bundle) {
     qdmVersion: "5.6",
     _type: "QDM::PatientCharacteristicBirthdate",
   });
+
+  if (patient.gender) {
+    dataElements.push({
+      authorDatetime: birth,
+      category: "patient_characteristic",
+      dataElementCodes: [
+        {
+          code: patient.gender[0].toUpperCase(),
+          display: patient.gender,
+          system: "2.16.840.1.113883.5.1",
+          version: null,
+          _type: "QDM::Code",
+        },
+      ],
+      description: "Patient Characteristic Sex",
+      hqmfOid: "2.16.840.1.113883.10.20.28.4.55",
+      qdmStatus: "gender",
+      qdmVersion: "5.6",
+      _type: "QDM::PatientCharacteristicSex",
+    });
+  }
 
   for (const resource of all) {
     if (resource.resourceType === "Condition") {
@@ -220,7 +258,12 @@ function main() {
 }
 
 if (require.main === module) {
-  main();
+  try {
+    main();
+  } catch (error) {
+    console.error(error.message || String(error));
+    process.exit(1);
+  }
 }
 
 module.exports = { patientFrom, resources };
