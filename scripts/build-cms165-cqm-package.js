@@ -126,9 +126,15 @@ async function fetchVsacConcepts(oid, apiKey) {
     };
     const code = get("code");
     if (!code) continue;
+    const codeSystem = get("codeSystem");
     concepts.push({
       code,
-      code_system_oid: get("codeSystem"),
+      // Match ELM / patient codes that use urn:oid:... systems
+      code_system_oid: codeSystem.startsWith("urn:oid:")
+        ? codeSystem
+        : codeSystem
+          ? `urn:oid:${codeSystem}`
+          : codeSystem,
       code_system_name: get("codeSystemName"),
       display_name: get("displayName"),
     });

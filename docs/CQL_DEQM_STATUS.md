@@ -37,7 +37,7 @@ The repository now installs `cqm-execution`/`cql-execution` and includes `script
 
 **VSAC gate (cleared 2026-07-23):** 37/37 value sets expanded (5079 concepts). Key lives in `~/ops/secrets/`; load with `eval "$(~/ops/scripts/load-vsac-api-key.sh)"`. Full run notes: `docs/VSAC_CMS165_RUN_2026-07-23.md`.
 
-**First batch result:** `selected-18` → 18/18 engine `state=complete`, but **IPP/DENOM/NUMER all 0**. Not a VSAC failure — FHIR→QDM gaps remain (e.g. Condition `prevalencePeriod` closed at onset so hypertension does not overlap MP 2026). Heuristic FHIR-proxy membership stays labeled proxy until converter fixes yield non-zero official populations.
+**selected-18 after FHIR→QDM fixes (same day):** IPP **15** / DENOM **15** / NUMER **15** (of 18). Converter now keeps active Condition prevalence open-ended, expands BP panel components to SBP/DBP Physical Exam with `mm[Hg]`, and uses `urn:oid:` code systems. Broader preclassifier cohorts stay labeled **heuristic proxy** until a full-cohort CQL pass is reviewed.
 
 Example:
 
@@ -57,7 +57,7 @@ node scripts/evaluate-cms165-qdm.js
 
 CMS165v14 cohort lists from `scripts/cms165-fhir-preclassifier.py`
 (193 denominator / 76 numerator among 1000 bundles) remain a **heuristic FHIR
-proxy**. Official `cqm-execution` now runs with VSAC expansions, but the first
-`selected-18` batch produced **0 IPP** — so Connectathon docs must still not claim
-official numerator/denominator membership until converter + re-eval show non-zero
-populations that we have reviewed.
+proxy** at cohort scale. On the curated `selected-18` set, official
+`cqm-execution` now reports **15 NUMER** after VSAC expand + converter fixes.
+Connectathon messaging may cite that validated subset; do not equate the full
+preclassifier counts with CQL MeasureReports until a wider pass is done.

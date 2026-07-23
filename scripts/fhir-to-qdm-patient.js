@@ -47,16 +47,26 @@ function codingList(codeable) {
   return out;
 }
 
+function asUrnOid(oidOrUrn) {
+  if (!oidOrUrn) return null;
+  const s = String(oidOrUrn);
+  if (s.startsWith("urn:oid:")) return s;
+  if (/^\d+(\.\d+)+$/.test(s)) return `urn:oid:${s}`;
+  return s;
+}
+
 function systemOid(system) {
   if (!system) return null;
-  if (system.includes("snomed")) return "2.16.840.1.113883.6.96";
-  if (system.includes("loinc")) return "2.16.840.1.113883.6.1";
-  if (system.includes("icd-10")) return "2.16.840.1.113883.6.90";
-  if (system.includes("cpt")) return "2.16.840.1.113883.6.12";
-  if (system.includes("administrative-gender")) return "2.16.840.1.113883.5.1";
-  if (system.includes("race")) return "2.16.840.1.113883.6.238";
-  if (system.includes("ethnicity")) return "2.16.840.1.113883.6.238";
-  return system;
+  // ELM direct-code retrieves use urn:oid:... codesystem ids; keep that form
+  // so Physical Exam LOINC SBP/DBP matches CMS165.
+  if (system.includes("snomed")) return "urn:oid:2.16.840.1.113883.6.96";
+  if (system.includes("loinc")) return "urn:oid:2.16.840.1.113883.6.1";
+  if (system.includes("icd-10")) return "urn:oid:2.16.840.1.113883.6.90";
+  if (system.includes("cpt")) return "urn:oid:2.16.840.1.113883.6.12";
+  if (system.includes("administrative-gender")) return "urn:oid:2.16.840.1.113883.5.1";
+  if (system.includes("race")) return "urn:oid:2.16.840.1.113883.6.238";
+  if (system.includes("ethnicity")) return "urn:oid:2.16.840.1.113883.6.238";
+  return asUrnOid(system);
 }
 
 function instant(value) {
@@ -83,6 +93,71 @@ function periodFrom(resource) {
   return {
     low,
     high: instant(end) || low,
+    lowClosed: true,
+    highClosed: true,
+  };
+}
+
+function clinicalStatusCode(resource) {
+  const coding =
+    (resource.clinicalStatus && resource.clinicalStatus.coding) || [];
+  return String((coding[0] && coding[0].code) || "").toLowerCase();
+}
+
+/** QDM/CQL Quantity result; normalize UCUM mmHg → mm[Hg] for CMS165. */
+function quantityResult(vq) {
+  if (!vq || vq.value == null || vq.value === "") return null;
+  let unit = vq.code || vq.unit || null;
+  if (!unit) return null;
+  if (unit === "mmHg" || unit === "mm Hg") unit = "mm[Hg]";
+  return { value: Number(vq.value), unit };
+}
+
+/**
+ * QDM Diagnosis prevalencePeriod.
+ * FHIR Conditions often have onset without abatement; treating that as a
+ * point-in-time interval makes CMS165 "overlaps MP" fail. Ongoing /
+ * active (or unspecified) conditions use high=null + highClosed=true, which
+ * cql-execution treats as +infinity.
+ */
+function prevalencePeriodFrom(resource) {
+  const start =
+    resource.onsetDateTime ||
+    resource.onsetPeriod?.start ||
+    resource.recordedDate ||
+    null;
+  const abatement =
+    resource.abatementDateTime ||
+    resource.abatementPeriod?.end ||
+    resource.abatementPeriod?.start ||
+    null;
+  const low = instant(start);
+  if (!low) return null;
+
+  if (abatement) {
+    return {
+      low,
+      high: instant(abatement) || low,
+      lowClosed: true,
+      highClosed: true,
+    };
+  }
+
+  const status = clinicalStatusCode(resource);
+  const ended = status === "resolved" || status === "inactive" || status === "remission";
+  if (ended) {
+    // No abatement timestamp: keep a closed point at onset/recorded.
+    return {
+      low,
+      high: low,
+      lowClosed: true,
+      highClosed: true,
+    };
+  }
+
+  return {
+    low,
+    high: null,
     lowClosed: true,
     highClosed: true,
   };
@@ -148,7 +223,7 @@ function patientFrom(bundle) {
         dataElementCodes: codes,
         description: "Diagnosis: " + (resource.code?.text || codes[0].code),
         hqmfOid: "2.16.840.1.113883.10.20.28.4.110",
-        prevalencePeriod: periodFrom(resource),
+        prevalencePeriod: prevalencePeriodFrom(resource),
         qdmVersion: "5.6",
         _type: "QDM::Diagnosis",
       });
@@ -186,23 +261,46 @@ function patientFrom(bundle) {
         .flatMap((c) => (c.coding || []).map((x) => String(x.code || "").toLowerCase()));
       const isVital = categories.includes("vital-signs") || codes.some((c) => c.code === "85354-9");
       const isLab = categories.includes("laboratory");
+      const when =
+        instant(resource.effectiveDateTime) ||
+        instant(resource.effectivePeriod?.start) ||
+        instant(resource.issued);
+      const period = periodFrom(resource);
       const components = [];
+
+      // CMS165 retrieves SBP/DBP as distinct Physical Exam, Performed codes
+      // (8480-6 / 8462-4) with Quantity result.unit = 'mm[Hg]'. Synthea stores
+      // those as components of a blood-pressure panel — expand them.
       for (const comp of resource.component || []) {
         const cCodes = codingList(comp.code);
-        const result = comp.valueQuantity?.value;
-        if (!cCodes.length || result == null) continue;
+        const q = quantityResult(comp.valueQuantity);
+        if (!cCodes.length || !q) continue;
         components.push({
           code: cCodes[0],
-          result,
+          result: q,
           _type: "QDM::Component",
         });
+        if (!isLab) {
+          dataElements.push({
+            authorDatetime: when,
+            category: "physical_exam",
+            dataElementCodes: cCodes,
+            description: "Physical Exam, Performed: " + (cCodes[0].display || cCodes[0].code),
+            hqmfOid: "2.16.840.1.113883.10.20.28.4.62",
+            relevantDatetime: when,
+            relevantPeriod: period,
+            result: q,
+            qdmStatus: "performed",
+            qdmVersion: "5.6",
+            _type: "QDM::PhysicalExamPerformed",
+            _bridgeHint: "observation-component",
+          });
+        }
       }
-      const result =
-        resource.valueQuantity?.value != null
-          ? resource.valueQuantity.value
-          : null;
+
+      const result = quantityResult(resource.valueQuantity);
       dataElements.push({
-        authorDatetime: instant(resource.effectiveDateTime) || instant(resource.issued),
+        authorDatetime: when,
         category: isLab ? "laboratory_test" : "physical_exam",
         components,
         dataElementCodes: codes,
@@ -210,10 +308,10 @@ function patientFrom(bundle) {
           + (resource.code?.text || codes[0].code),
         hqmfOid: isLab
           ? "2.16.840.1.113883.10.20.28.4.42"
-          : "2.16.840.1.113883.10.20.28.4.47",
-        relevantPeriod: periodFrom(resource),
+          : "2.16.840.1.113883.10.20.28.4.62",
+        relevantDatetime: when,
+        relevantPeriod: period,
         result,
-        resultDatetime: instant(resource.effectiveDateTime) || instant(resource.issued),
         qdmStatus: "performed",
         qdmVersion: "5.6",
         _type: isLab
@@ -266,4 +364,4 @@ if (require.main === module) {
   }
 }
 
-module.exports = { patientFrom, resources };
+module.exports = { patientFrom, resources, prevalencePeriodFrom, periodFrom };
