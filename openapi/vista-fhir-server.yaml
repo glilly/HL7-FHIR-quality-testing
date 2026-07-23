@@ -105,6 +105,31 @@ paths:
         '200': { description: HTML dashboard }
   /fhir-quality-dashboard:
     get:
-      summary: Quality measure dashboard and cohort tooling links
+      summary: Legacy alias for active quality dashboards summary
+      responses:
+        '200': { description: HTML dashboard }
+  /fhir-quality-dashboards:
+    get:
+      summary: Active quality measures summary (navigates to per-measure dashboards)
+      parameters:
+        - in: query
+          name: view
+          schema: { type: string, enum: [all] }
+          description: Pass view=all for full catalog including inactive measures
+        - in: query
+          name: measure
+          schema: { type: string }
+          description: Optional CMS id (e.g. CMS165v14) for single-measure dashboard
+      responses:
+        '200': { description: HTML dashboard }
+  /fhir-quality-dashboards/{measure}:
+    get:
+      summary: Single-measure quality dashboard
+      parameters:
+        - in: path
+          name: measure
+          required: true
+          schema: { type: string }
+          description: CMS measure id (e.g. CMS165v14)
       responses:
         '200': { description: HTML dashboard }
