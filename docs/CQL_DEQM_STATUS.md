@@ -1,6 +1,6 @@
 # CQL/DEQM Status
 
-Status date: 2026-07-17
+Status date: 2026-07-23 (VSAC expand + first cqm-execution batch)
 
 The official 2026 Eligible Clinician eCQM package is downloadable from eCQI as:
 
@@ -29,27 +29,21 @@ The CMS EC artifacts are QDM/CQL, not FHIR-native DEQM `Measure` resources. Ther
 
 The repository now installs `cqm-execution`/`cql-execution` and includes `scripts/fetch-2026-ecqm-artifacts.py` to fetch/extract official QDM packages.
 
-## Bridge status (2026-07-19)
-
-Prioritized before more cohort classification:
+## Bridge status (2026-07-23)
 
 1. `scripts/fhir-to-qdm-patient.js` converts a FHIR R4 Bundle into a Project Tacoma QDM patient JSON sketch (Patient / Condition / Encounter / Observation including BP components and labs).
-2. `scripts/evaluate-cms165-qdm.js` converts selected CMS165 bundles into `2026/cohorts/CMS165v14/qdm-patients/` and, when present, runs `cqm-execution` against:
-   - `2026/measures/CMS165v14/cqm/measure.json`
-   - `2026/measures/CMS165v14/cqm/value_sets.json`
+2. `scripts/build-cms165-cqm-package.js` assembles `measure.json` from eCQI ELM and, with `VSAC_API_KEY` / `UMLS_API_KEY`, expands all CMS165 ELM value sets via VSAC SVS into local `value_sets.json` (**gitignored**; do not publish expansions).
+3. `scripts/evaluate-cms165-qdm.js` converts selected CMS165 bundles and **awaits** `cqm-execution.Calculator.calculate`.
 
-Important gap: the official eCQI 2026 QDM ZIP contains CQL/ELM libraries under `2026/artifacts/extracted-shortlist/CMS165-v14.0.000-QDM/`, but **not** expanded value sets. `scripts/build-cms165-cqm-package.js` can assemble a best-effort `measure.json` from that ELM; `value_sets.json` still needs either:
+**VSAC gate (cleared 2026-07-23):** 37/37 value sets expanded (5079 concepts). Key lives in `~/ops/secrets/`; load with `eval "$(~/ops/scripts/load-vsac-api-key.sh)"`. Full run notes: `docs/VSAC_CMS165_RUN_2026-07-23.md`.
 
-1. `VSAC_API_KEY` / `UMLS_API_KEY` when running the builder, or
-2. a Bonnie / MADiE export dropped into `2026/measures/CMS165v14/cqm/`.
-
-Until value sets are expanded, the bridge converts patients but does not yet emit trustworthy MeasureReports.
+**First batch result:** `selected-18` → 18/18 engine `state=complete`, but **IPP/DENOM/NUMER all 0**. Not a VSAC failure — FHIR→QDM gaps remain (e.g. Condition `prevalencePeriod` closed at onset so hypertension does not overlap MP 2026). Heuristic FHIR-proxy membership stays labeled proxy until converter fixes yield non-zero official populations.
 
 Example:
 
 ```bash
-node scripts/fhir-to-qdm-patient.js path/to/bundle.json /tmp/patient.qdm.json
-VSAC_API_KEY=... node scripts/build-cms165-cqm-package.js
+eval "$(~/ops/scripts/load-vsac-api-key.sh)"
+node scripts/build-cms165-cqm-package.js
 node scripts/evaluate-cms165-qdm.js
 ```
 
@@ -59,10 +53,11 @@ node scripts/evaluate-cms165-qdm.js
 - Devfhir graph cohort: `2026/patients/devfhir-ingest-load0-success-1000.tsv`
 - Hosted Inferno source/round-trip scorecards: `2026/scorecards/inferno/`
 
-## Honesty note (2026-07-18)
+## Honesty note (2026-07-23)
 
-CMS165v14 membership currently comes from `scripts/cms165-fhir-preclassifier.py`
-(193 denominator / 76 numerator among 1000 bundles). That is a **heuristic FHIR
-proxy**, not an official QDM/CQL MeasureReport. September Connectathon docs should
-label it as such until `cqm-execution` or FHIR `$evaluate-measure` produces
-machine MeasureReports for the selected patients.
+CMS165v14 cohort lists from `scripts/cms165-fhir-preclassifier.py`
+(193 denominator / 76 numerator among 1000 bundles) remain a **heuristic FHIR
+proxy**. Official `cqm-execution` now runs with VSAC expansions, but the first
+`selected-18` batch produced **0 IPP** — so Connectathon docs must still not claim
+official numerator/denominator membership until converter + re-eval show non-zero
+populations that we have reviewed.

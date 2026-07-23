@@ -115,16 +115,26 @@ async function fetchVsacConcepts(oid, apiKey) {
     throw new Error(`VSAC ${oid} HTTP ${status}`);
   }
   const concepts = [];
-  const re =
-    /<Concept[^>]*code="([^"]+)"[^>]*codeSystem="([^"]+)"[^>]*codeSystemName="([^"]*)"[^>]*displayName="([^"]*)"/g;
+  // VSAC SVS XML uses a namespace prefix (e.g. <ns0:Concept .../>).
+  const re = /<(?:[\w.-]+:)?Concept\b([^>]*)\/?>/g;
   let m;
   while ((m = re.exec(body))) {
+    const attrs = m[1];
+    const get = (name) => {
+      const am = attrs.match(new RegExp(`\\b${name}="([^"]*)"`));
+      return am ? am[1] : "";
+    };
+    const code = get("code");
+    if (!code) continue;
     concepts.push({
-      code: m[1],
-      code_system_oid: m[2],
-      code_system_name: m[3],
-      display_name: m[4],
+      code,
+      code_system_oid: get("codeSystem"),
+      code_system_name: get("codeSystemName"),
+      display_name: get("displayName"),
     });
+  }
+  if (!concepts.length) {
+    throw new Error(`VSAC ${oid} returned 200 but parsed 0 concepts`);
   }
   return concepts;
 }
@@ -138,17 +148,20 @@ async function buildValueSets(byOid) {
     if (apiKey) {
       try {
         concepts = await fetchVsacConcepts(oid, apiKey);
-        expanded += 1;
+        if (concepts.length) expanded += 1;
         console.log(`VSAC expanded ${oid} (${concepts.length} concepts)`);
       } catch (err) {
         console.warn(`VSAC failed for ${oid}: ${err.message}`);
       }
     }
+    // cqm-execution / cql-execution look up ELM ids as urn:oid:...
+    const urn = oid.startsWith("urn:oid:") ? oid : `urn:oid:${oid}`;
     out.push({
-      _id: oid,
-      oid,
+      _id: urn,
+      oid: urn,
       display_name,
-      version: "eCQI-2026-CMS165v14",
+      // Empty version: ELM refs omit version; CodeService then picks any expansion.
+      version: "",
       concepts,
     });
   }

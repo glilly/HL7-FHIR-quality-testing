@@ -36,7 +36,7 @@ function listInputs(argv) {
     .filter((p) => p && fs.existsSync(p));
 }
 
-function main() {
+async function main() {
   const inputs = listInputs(process.argv.slice(2));
   if (!inputs.length) {
     throw new Error("No FHIR bundle inputs found");
@@ -83,7 +83,8 @@ function main() {
   const measure = loadJson(measurePath);
   let results;
   try {
-    results = Calculator.calculate(measure, patients, valueSets, {
+    // Calculator.calculate is async in cqm-execution >= current
+    results = await Calculator.calculate(measure, patients, valueSets, {
       doPretty: true,
     });
   } catch (err) {
@@ -96,9 +97,7 @@ function main() {
   console.log(`Wrote ${reportPath}`);
 }
 
-try {
-  main();
-} catch (err) {
+main().catch((err) => {
   console.error(err.message || err);
   process.exit(1);
-}
+});

@@ -1,0 +1,152 @@
+{
+  "date": "2026-07-23",
+  "cohort": "2026/cohorts/CMS165v14/numer/selected-18.tsv",
+  "note": "selected-18 was heuristic FHIR-proxy numerator set; CQL results may disagree",
+  "population_true_counts": {},
+  "patients": [
+    {
+      "patient": "6a626b987f31b8078d5b1f3c",
+      "IPP": 0,
+      "DENOM": 0,
+      "NUMER": 0,
+      "DENEX": 0,
+      "state": "complete"
+    },
+    {
+      "patient": "6a626b987f31b8078d5b20f6",
+      "IPP": 0,
+      "DENOM": 0,
+      "NUMER": 0,
+      "DENEX": 0,
+      "state": "complete"
+    },
+    {
+      "patient": "6a626b987f31b8078d5b2c86",
+      "IPP": 0,
+      "DENOM": 0,
+      "NUMER": 0,
+      "DENEX": 0,
+      "state": "complete"
+    },
+    {
+      "patient": "6a626b997f31b8078d5b2f8c",
+      "IPP": 0,
+      "DENOM": 0,
+      "NUMER": 0,
+      "DENEX": 0,
+      "state": "complete"
+    },
+    {
+      "patient": "6a626b997f31b8078d5b3142",
+      "IPP": 0,
+      "DENOM": 0,
+      "NUMER": 0,
+      "DENEX": 0,
+      "state": "complete"
+    },
+    {
+      "patient": "6a626b997f31b8078d5b5145",
+      "IPP": 0,
+      "DENOM": 0,
+      "NUMER": 0,
+      "DENEX": 0,
+      "state": "complete"
+    },
+    {
+      "patient": "6a626b9a7f31b8078d5b6361",
+      "IPP": 0,
+      "DENOM": 0,
+      "NUMER": 0,
+      "DENEX": 0,
+      "state": "complete"
+    },
+    {
+      "patient": "6a626b9a7f31b8078d5b6653",
+      "IPP": 0,
+      "DENOM": 0,
+      "NUMER": 0,
+      "DENEX": 0,
+      "state": "complete"
+    },
+    {
+      "patient": "6a626b9a7f31b8078d5b7a15",
+      "IPP": 0,
+      "DENOM": 0,
+      "NUMER": 0,
+      "DENEX": 0,
+      "state": "complete"
+    },
+    {
+      "patient": "6a626b9a7f31b8078d5b7d85",
+      "IPP": 0,
+      "DENOM": 0,
+      "NUMER": 0,
+      "DENEX": 0,
+      "state": "complete"
+    },
+    {
+      "patient": "6a626b9a7f31b8078d5b7fa9",
+      "IPP": 0,
+      "DENOM": 0,
+      "NUMER": 0,
+      "DENEX": 0,
+      "state": "complete"
+    },
+    {
+      "patient": "6a626b9a7f31b8078d5b821b",
+      "IPP": 0,
+      "DENOM": 0,
+      "NUMER": 0,
+      "DENEX": 0,
+      "state": "complete"
+    },
+    {
+      "patient": "6a626b9a7f31b8078d5b8359",
+      "IPP": 0,
+      "DENOM": 0,
+      "NUMER": 0,
+      "DENEX": 0,
+      "state": "complete"
+    },
+    {
+      "patient": "6a626b9a7f31b8078d5b851f",
+      "IPP": 0,
+      "DENOM": 0,
+      "NUMER": 0,
+      "DENEX": 0,
+      "state": "complete"
+    },
+    {
+      "patient": "6a626b9b7f31b8078d5b92b1",
+      "IPP": 0,
+      "DENOM": 0,
+      "NUMER": 0,
+      "DENEX": 0,
+      "state": "complete"
+    },
+    {
+      "patient": "6a626b9b7f31b8078d5b976b",
+      "IPP": 0,
+      "DENOM": 0,
+      "NUMER": 0,
+      "DENEX": 0,
+      "state": "complete"
+    },
+    {
+      "patient": "6a626b9b7f31b8078d5b9d3f",
+      "IPP": 0,
+      "DENOM": 0,
+      "NUMER": 0,
+      "DENEX": 0,
+      "state": "complete"
+    },
+    {
+      "patient": "6a626b9b7f31b8078d5ba6bd",
+      "IPP": 0,
+      "DENOM": 0,
+      "NUMER": 0,
+      "DENEX": 0,
+      "state": "complete"
+    }
+  ]
+}

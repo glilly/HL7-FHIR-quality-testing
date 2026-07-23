@@ -16,3 +16,12 @@
 __pycache__/
 node_modules/
 2026/artifacts/
+
+# VSAC expansions are UMLS-license-sensitive — regenerate locally, do not publish.
+2026/measures/**/cqm/value_sets.json
+2026/measures/**/cqm/value_sets.stub-pre-vsac-*.json
+2026/measures/**/cqm/value_sets.vsac*.json
+
+# Full cqm-execution dumps are large; keep the summary tracked if desired.
+2026/cohorts/**/reports/cqm-execution-batch.json
+
