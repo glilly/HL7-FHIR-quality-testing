@@ -2,6 +2,8 @@
 
 Status: working document, updated as cohorts and scorecards are produced.
 
+**Measure × Inferno element analysis (one patient per measure):** see [`SEPTEMBER_MEASURE_INFERNO_ELEMENT_MAPPING.md`](./SEPTEMBER_MEASURE_INFERNO_ELEMENT_MAPPING.md).
+
 ## Selection Rule
 
 A measure/patient cohort becomes a September candidate when it has evidence in all three layers:

@@ -34,3 +34,5 @@ Use `devfhir` for all authoritative testing so hosted Inferno can reach the endp
 ## September Demo Selection
 
 Prefer 3-5 measures with strong evidence across all three layers: confirmed MeasureReports, hosted Inferno scorecards on `/altfhir`, and hosted Inferno scorecards on `/fhir` after VistA load.
+
+For the “one patient per measure covering missing Inferno families” plan and the measure↔Inferno mapping table, see [`SEPTEMBER_MEASURE_INFERNO_ELEMENT_MAPPING.md`](./SEPTEMBER_MEASURE_INFERNO_ELEMENT_MAPPING.md).
