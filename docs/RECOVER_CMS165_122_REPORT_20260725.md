@@ -72,7 +72,7 @@ FHIR URL from Inferno: `http://host.docker.internal:5178/fhir`.
 |-----------|-----:|-----:|-----:|------:|---------|
 | vendev15-fhir-dfn101090 | 218 | 0 | 829 | 128 | [dsRvJ14T7qt](http://vendev15.vistaplex.org:8088/us_quality_core_v050/dsRvJ14T7qt) |
 | vendev15-fhir-dfn101076 | 133 | 0 | 797 | 90 | [36MBUy4QqpK](http://vendev15.vistaplex.org:8088/us_quality_core_v050/36MBUy4QqpK) |
-| CMS165 selected-18 | — | — | — | — | **Failed** mid-run: Inferno API HTTP 500 (likely validator/memory under concurrent load) |
+| vendev15-fhir-cms165-selected18 | 84 | 2 | 358 | 54 | [4zuYtTn1SYI](http://vendev15.vistaplex.org:8088/us_quality_core_v050/4zuYtTn1SYI) (solo retry; prior concurrent run HTTP 500) |
 
 ## Script hardening (this recovery)
 
@@ -89,10 +89,25 @@ FHIR URL from Inferno: `http://host.docker.internal:5178/fhir`.
 - `logs/vendev15-inferno-101090.log`
 - `logs/vendev15-inferno-101076.log`
 - `logs/vendev15-inferno-cms165-selected18.log`
+- `logs/vendev15-inferno-cms165-selected18-retry.log`
+
+## Enrich → load (devfhir addpatient)
+
+Showcase enriched bundles (`overnight-enrich-manifest.tsv`) now all have **load=1** DFNs after ingest retry (`devfhir-bulk-ingest.py` retries + IncompleteRead handling):
+
+| Measure showcase | DFN |
+|------------------|-----|
+| CMS122 / CMS138 / CMS68 / CMS22 (Abdul…) | 101114 / 101120 / 101117 / 101118 |
+| CMS2 (Aaron…) | 101121 |
+| CMS130 (Adolfo…) | 101115 |
+| CMS125 (Alane…) | 101116 |
+| CMS131 (Alex…) | 101119 |
+
+See `2026/patients/devfhir-ingest-overnight-load1.tsv`.
 
 ## Next
 
-1. Retry vendev15 CMS165 selected-18 **alone**.
-2. Fix enrich→load (HTTP 000s) so showcase DFNs land on graph/fhirdev.
+1. ~~Retry vendev15 CMS165 selected-18 alone.~~ **Done** (84 pass / 2 fail / 54 error).
+2. ~~Fix enrich→load (HTTP 000s).~~ **Done** (8/8 load=1).
 3. Map selected-18 → DFNs + `SETPOP^C0FQUAL` for patient rows on dashboards.
 4. Activate next shortlist measures when showcase + Inferno look good.
