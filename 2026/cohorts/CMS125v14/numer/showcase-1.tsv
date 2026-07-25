@@ -1,0 +1,2 @@
+bundle_path	patient_id	birthDate	gender	age	detail	graph_ien	dfn
+/home/glilly/work/vista-stack/HL7-FHIR-quality-testing/2026/patients/raw/synthea-1000-20260901-20260101/fhir/Alane21_Shenita872_Tromp100_b4c69ebf-5758-ae2b-a255-da04364d7f6d.json	b4c69ebf-5758-ae2b-a255-da04364d7f6d	1972-09-05	female	54	mammo=6	507	

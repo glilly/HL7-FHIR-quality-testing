@@ -1,0 +1,56 @@
+[
+  {
+    "cms_id": "CMS165v14",
+    "denominator": 193,
+    "numerator": 76,
+    "scanned": 1000
+  },
+  {
+    "cms_id": "CMS122v14",
+    "denominator": 332,
+    "numerator": 156,
+    "scanned": 1000
+  },
+  {
+    "cms_id": "CMS138v14",
+    "denominator": 842,
+    "numerator": 824,
+    "scanned": 1000
+  },
+  {
+    "cms_id": "CMS2v15",
+    "denominator": 903,
+    "numerator": 881,
+    "scanned": 1000
+  },
+  {
+    "cms_id": "CMS130v14",
+    "denominator": 390,
+    "numerator": 210,
+    "scanned": 1000
+  },
+  {
+    "cms_id": "CMS125v14",
+    "denominator": 236,
+    "numerator": 9,
+    "scanned": 1000
+  },
+  {
+    "cms_id": "CMS131v14",
+    "denominator": 332,
+    "numerator": 33,
+    "scanned": 1000
+  },
+  {
+    "cms_id": "CMS68v15",
+    "denominator": 842,
+    "numerator": 835,
+    "scanned": 1000
+  },
+  {
+    "cms_id": "CMS22v14",
+    "denominator": 842,
+    "numerator": 842,
+    "scanned": 1000
+  }
+]

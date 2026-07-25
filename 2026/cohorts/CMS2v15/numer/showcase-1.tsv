@@ -1,0 +1,2 @@
+bundle_path	patient_id	birthDate	gender	age	detail	graph_ien	dfn
+/home/glilly/work/vista-stack/HL7-FHIR-quality-testing/2026/patients/raw/synthea-1000-20260901-20260101/fhir/Aaron697_Rempel203_71b66807-e4eb-984b-eb6f-9a5076c6a420.json	71b66807-e4eb-984b-eb6f-9a5076c6a420	2009-03-21	male	17	screens=16;follow=14;plans=1	483	

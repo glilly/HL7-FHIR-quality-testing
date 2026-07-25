@@ -1,0 +1,7 @@
+{
+  "cms_id": "CMS68v15",
+  "patients": 18,
+  "expanded_value_sets": 10,
+  "batch": "/home/glilly/work/vista-stack/HL7-FHIR-quality-testing/2026/cohorts/CMS68v15/reports/cqm-execution-batch.json",
+  "note": "See batch JSON for per-patient population results"
+}

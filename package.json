@@ -9,6 +9,10 @@
   "scripts": {
     "fhir-to-qdm": "node scripts/fhir-to-qdm-patient.js",
     "evaluate-cms165": "node scripts/evaluate-cms165-qdm.js",
+    "build-cqm": "node scripts/build-cqm-package.js",
+    "evaluate-cqm": "node scripts/evaluate-cqm.js",
+    "preclassify": "python3 scripts/multi-measure-fhir-preclassifier.py",
+    "overnight": "bash scripts/overnight-marathon.sh",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

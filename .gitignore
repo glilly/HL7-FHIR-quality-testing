@@ -25,3 +25,12 @@ node_modules/
 # Full cqm-execution dumps are large; keep the summary tracked if desired.
 2026/cohorts/**/reports/cqm-execution-batch.json
 
+# Regenerable QDM patient conversions (large).
+2026/cohorts/**/qdm-patients/**
+
+# Empty overnight overwrite artifact (keep local only).
+2026/measures/**/cqm/value_sets.empty-*.json
+
+# Local run logs directory (also covered by *.log).
+logs/
+

@@ -1,0 +1,2 @@
+bundle_path	patient_id	birthDate	gender	age	detail	graph_ien	dfn
+/home/glilly/work/vista-stack/HL7-FHIR-quality-testing/2026/patients/raw/synthea-1000-20260901-20260101/fhir/Abdul218_Dickinson688_42001217-993a-8fbf-4723-d1eac0b295d7.json	42001217-993a-8fbf-4723-d1eac0b295d7	1984-09-14	male	42	bp_obs=10;follow=7	485	

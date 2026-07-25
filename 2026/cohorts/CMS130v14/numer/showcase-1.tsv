@@ -1,0 +1,2 @@
+bundle_path	patient_id	birthDate	gender	age	detail	graph_ien	dfn
+/home/glilly/work/vista-stack/HL7-FHIR-quality-testing/2026/patients/raw/synthea-1000-20260901-20260101/fhir/Adolfo777_Conroy74_0bee0f5a-558a-345c-74c9-aedf42b17610.json	0bee0f5a-558a-345c-74c9-aedf42b17610	1957-04-18	male	69	colon=2;fit=0	494	
