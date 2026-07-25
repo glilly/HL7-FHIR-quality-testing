@@ -1,0 +1,24 @@
+cms	dfn	ipp	denom	numer	denex	evidence	mode
+CMS165v14	101094	1	1	1	0	name-match SCHMELER639/ADAM631 uuid=27429a40… cql=1/1/1/0	official-cql
+CMS165v14	101095	1	1	1	0	name-match HAAG279/AILENE520 uuid=62d14026… cql=1/1/1/0	official-cql
+CMS165v14	101096	1	1	1	0	name-match BAUMBACH677/ALLINE927 uuid=2fc7f987… cql=1/1/1/0	official-cql
+CMS165v14	101097	1	1	1	0	name-match WATERS156/ALVERTA45 uuid=812da67a… cql=1/1/1/0	official-cql
+CMS165v14	101098	1	1	1	0	name-match SCHMIDT332/ALVIN56 uuid=e539a03b… cql=1/1/1/0	official-cql
+CMS165v14	101099	0	0	0	0	name-match KUHLMAN484/ANDREA7 uuid=2cb21845… cql=0/0/0/0	official-cql
+CMS165v14	101101	1	1	1	0	name-match SCHROEDER447/ANNELLE169 uuid=79f87991… cql=1/1/1/0	official-cql
+CMS165v14	101100	1	1	1	0	name-match O'REILLY797/ARRON144 uuid=4987faff… cql=1/1/1/0	official-cql
+CMS165v14	101102	0	0	0	0	name-match DOYLE959/ASHTON21 uuid=9da46e0a… cql=0/0/0/0	official-cql
+CMS165v14	101103	1	1	1	0	name-match MOHR916/AURELIA213 uuid=3f7d08b7… cql=1/1/1/0	official-cql
+CMS165v14	101104	0	0	0	0	name-match CONSIDINE820/BEATA187 uuid=d6c7b975… cql=0/0/0/0	official-cql
+CMS165v14	101105	1	1	1	0	name-match WITTING912/BENITA195 uuid=d5835c7f… cql=1/1/1/0	official-cql
+CMS165v14	101107	1	1	1	0	name-match TROMP100/BRANDEN904 uuid=cbfe15cf… cql=1/1/1/0	official-cql
+CMS165v14	101106	1	1	1	0	name-match MARQUARDT819/BRITTA584 uuid=b67caea9… cql=1/1/1/0	official-cql
+CMS165v14	101108	1	1	1	0	name-match REYNOLDS644/CARLA633 uuid=43dc74f8… cql=1/1/1/0	official-cql
+CMS165v14	101109	1	1	1	0	name-match STOLTENBERG489/CARSON894 uuid=968cf124… cql=1/1/1/0	official-cql
+CMS165v14	101110	1	1	1	0	name-match SCHULTZ619/CLARIBEL706 uuid=cfd0564b… cql=1/1/1/0	official-cql
+CMS122v14	101120	0	0	0	0	uuid-map uuid=42001217… cql=0/0/0/0	official-cql
+CMS122v14	101095	1	1	0	0	uuid-map uuid=62d14026… cql=1/1/0/0	official-cql
+CMS122v14	101096	1	1	0	0	uuid-map uuid=2fc7f987… cql=1/1/0/0	official-cql
+CMS122v14	101098	1	1	0	0	uuid-map uuid=e539a03b… cql=1/1/0/0	official-cql
+CMS122v14	101100	0	0	0	0	uuid-map uuid=4987faff… cql=0/0/0/0	official-cql
+CMS122v14	101102	0	0	0	0	uuid-map uuid=9da46e0a… cql=0/0/0/0	official-cql

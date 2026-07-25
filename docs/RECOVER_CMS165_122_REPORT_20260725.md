@@ -109,5 +109,5 @@ See `2026/patients/devfhir-ingest-overnight-load1.tsv`.
 
 1. ~~Retry vendev15 CMS165 selected-18 alone.~~ **Done** (84 pass / 2 fail / 54 error).
 2. ~~Fix enrich→load (HTTP 000s).~~ **Done** (8/8 load=1).
-3. Map selected-18 → DFNs + `SETPOP^C0FQUAL` for patient rows on dashboards.
+3. ~~Map selected-18 → DFNs + `SETPOP^C0FQUAL`.~~ **Done** (CMS165: 17/18 name-matched; CMS122: 6 UUID-mapped). Dashboard shows **Curated CQL cohort** table. Missing: Audrea654/Harber290 (not in DFN 101094–111 range).
 4. Activate next shortlist measures when showcase + Inferno look good.
