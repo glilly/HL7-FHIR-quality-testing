@@ -111,4 +111,5 @@ See `2026/patients/devfhir-ingest-overnight-load1.tsv`.
 2. ~~Fix enrich→load (HTTP 000s).~~ **Done** (8/8 load=1).
 3. ~~Map selected-18 → DFNs + `SETPOP^C0FQUAL`.~~ **Done** (CMS165: **18/18** incl. Audrea DFN **101122** load=1 on fhirdev; CMS122: 6 UUID-mapped). Dashboard **Curated CQL cohort** live on vehu10.
 4. ~~Activate CMS130.~~ **Done** (seed v4; Active; SUM 9/9/0; SETPOP **101115**).
-5. ~~Activate CMS138.~~ **Done** (seed `^C0FQUAL(0)=5`; Active; SUM 1/0/0; SETPOP showcase **101120**). Next: CMS2 / CMS125 when ready.
+5. ~~Activate CMS138.~~ **Done** (seed v5; Active; SUM 1/0/0; SETPOP **101120**).
+6. ~~Activate CMS2.~~ **Done** (seed `^C0FQUAL(0)=6`; Active; SUM 6/6/0; SETPOP showcase **101121** + uuid-mapped 101120/101115/101094). Next: CMS125 when ready.
