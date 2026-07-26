@@ -109,8 +109,9 @@ See `2026/patients/devfhir-ingest-overnight-load1.tsv`.
 
 1. ~~Retry vendev15 CMS165 selected-18 alone.~~ **Done** (84 pass / 2 fail / 54 error).
 2. ~~Fix enrich→load (HTTP 000s).~~ **Done** (8/8 load=1).
-3. ~~Map selected-18 → DFNs + `SETPOP^C0FQUAL`.~~ **Done** (CMS165: **18/18** incl. Audrea DFN **101122** load=1 on fhirdev; CMS122: 6 UUID-mapped). Dashboard **Curated CQL cohort** live on vehu10.
+3. ~~Map selected-18 → DFNs + `SETPOP^C0FQUAL`.~~ **Done** (CMS165: **18/18** incl. Audrea DFN **101122** load=1 on fhirdev; CMS122: 6 UUID-mapped).
 4. ~~Activate CMS130.~~ **Done** (seed v4; Active; SUM 9/9/0; SETPOP **101115**).
 5. ~~Activate CMS138.~~ **Done** (seed v5; Active; SUM 1/0/0; SETPOP **101120**).
 6. ~~Activate CMS2.~~ **Done** (seed v6; Active; SUM 6/6/0; SETPOP **101121** + 101120/101115/101094).
-7. ~~Activate CMS125.~~ **Done** (seed `^C0FQUAL(0)=7`; Active; SUM 0/0/0 n=9; SETPOP showcase **101116**). First-wave shortlist measures now active on dashboards.
+7. ~~Activate CMS125.~~ **Done** (seed `^C0FQUAL(0)=7`; Active; SUM 0/0/0 n=9; SETPOP showcase **101116**).
+8. ~~Move dashboards + SETPOP to fhirdev for hosted Inferno.~~ **Done** — `https://devfhir.vistaplex.org/fhir-quality-dashboards` (6 active; CMS165 curated 18/18 with real names). FHIR base for Inferno: `https://devfhir.vistaplex.org/fhir`. Re-apply: `scripts/fhirdev-apply-setpop.sh`. Next: hosted Inferno stage for shortlist / CMS165 selected-18.
