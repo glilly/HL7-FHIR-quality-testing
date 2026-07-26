@@ -54,15 +54,16 @@ Published into `^C0FQUAL` (seed v3):
 - **CMS165v14** — 14 / 14 / 14 (n=18), `official-cql`
 - **CMS122v14** — 5 / 5 / 0 (n=18), `official-cql`
 
-URLs: `http://127.0.0.1:9085/fhir-quality-dashboards`, gateway `http://localhost:5177/fhir-quality-dashboards`.
+URLs: **`https://devfhir.vistaplex.org/fhir-quality-dashboards`** (demo host). Local vehu10 `9085` / gateway `5177` are sandbox only.
 
 ## Hosted Inferno (inferno.healthit.gov)
 
-| Scorecard | pass | fail | skip | Session |
-|-----------|-----:|-----:|-----:|---------|
-| recover-altfhir-ien482 | 443 | 0 | 55 | [41TuYXN0w73](https://inferno.healthit.gov/suites/us_quality_core_v050/41TuYXN0w73) |
-| recover-fhir-dfn101090 | 135 | 5 | 358 | [6mWW9A4q8I5](https://inferno.healthit.gov/suites/us_quality_core_v050/6mWW9A4q8I5) |
-| recover-altfhir-cms165-selected18 | 89 | 111 | 298 | [lLtnzfUFZJ7](https://inferno.healthit.gov/suites/us_quality_core_v050/lLtnzfUFZJ7) |
+| Scorecard | pass | fail | skip | error | Session |
+|-----------|-----:|-----:|-----:|------:|---------|
+| recover-altfhir-ien482 | 443 | 0 | 55 | — | [41TuYXN0w73](https://inferno.healthit.gov/suites/us_quality_core_v050/41TuYXN0w73) |
+| recover-fhir-dfn101090 | 135 | 5 | 358 | — | [6mWW9A4q8I5](https://inferno.healthit.gov/suites/us_quality_core_v050/6mWW9A4q8I5) |
+| recover-altfhir-cms165-selected18 | 89 | 111 | 298 | — | [lLtnzfUFZJ7](https://inferno.healthit.gov/suites/us_quality_core_v050/lLtnzfUFZJ7) |
+| **fhirdev-fhir-cms165-selected18** | **114** | **25** | **354** | **5** | [hOd61vtVwJF](https://inferno.healthit.gov/suites/us_quality_core_v050/hOd61vtVwJF) |
 
 ## vendev15 Inferno (`http://vendev15.vistaplex.org:8088/`)
 
@@ -114,4 +115,5 @@ See `2026/patients/devfhir-ingest-overnight-load1.tsv`.
 5. ~~Activate CMS138.~~ **Done** (seed v5; Active; SUM 1/0/0; SETPOP **101120**).
 6. ~~Activate CMS2.~~ **Done** (seed v6; Active; SUM 6/6/0; SETPOP **101121** + 101120/101115/101094).
 7. ~~Activate CMS125.~~ **Done** (seed `^C0FQUAL(0)=7`; Active; SUM 0/0/0 n=9; SETPOP showcase **101116**).
-8. ~~Move dashboards + SETPOP to fhirdev for hosted Inferno.~~ **Done** — `https://devfhir.vistaplex.org/fhir-quality-dashboards` (6 active; CMS165 curated 18/18 with real names). FHIR base for Inferno: `https://devfhir.vistaplex.org/fhir`. Re-apply: `scripts/fhirdev-apply-setpop.sh`. Next: hosted Inferno stage for shortlist / CMS165 selected-18.
+8. ~~Move dashboards + SETPOP to fhirdev for hosted Inferno.~~ **Done** — `https://devfhir.vistaplex.org/fhir-quality-dashboards` (6 active; CMS165 curated 18/18 with real names). FHIR base for Inferno: `https://devfhir.vistaplex.org/fhir`. Re-apply: `scripts/fhirdev-apply-setpop.sh`.
+9. ~~Hosted Inferno CMS165 selected-18 against fhirdev.~~ **Done** — **114 pass / 25 fail / 354 skip / 5 error** — session [hOd61vtVwJF](https://inferno.healthit.gov/suites/us_quality_core_v050/hOd61vtVwJF); scorecard `2026/scorecards/inferno/fhirdev-fhir-cms165-selected18.*`. Next: triage fails (Condition/DocumentReference/Immunization/Observation lab validation) or run showcase Inferno for other active measures.
