@@ -1,0 +1,15 @@
+{
+  "session_id": "b4k7IkH6Spc",
+  "session_url": "https://inferno.healthit.gov/suites/us_quality_core_v050/b4k7IkH6Spc",
+  "fhir_url": "https://devfhir.vistaplex.org/fhir",
+  "patient_ids": "101090,101094,101095,101096,101097,101098,101099,101100,101101,101102,101103,101104,101105,101106,101107,101108,101109,101110,101122",
+  "suite_counts": {
+    "pass": 136,
+    "skip": 362
+  },
+  "leaf_counts": {
+    "pass": 128,
+    "skip": 310
+  },
+  "fails": []
+}

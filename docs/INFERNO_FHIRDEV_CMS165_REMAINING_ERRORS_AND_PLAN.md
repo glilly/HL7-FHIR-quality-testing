@@ -3,10 +3,12 @@
 Status date: **2026-07-27**  
 Primary session (baseline): [bU76WglB84Q](https://inferno.healthit.gov/suites/us_quality_core_v050/bU76WglB84Q)  
 Post–Phase 1 re-run: [6mxkzqWWNgp](https://inferno.healthit.gov/suites/us_quality_core_v050/6mxkzqWWNgp)  
+Post–Phase 1b (remaining-4 cleared): [b4k7IkH6Spc](https://inferno.healthit.gov/suites/us_quality_core_v050/b4k7IkH6Spc)  
 FHIR base: `https://devfhir.vistaplex.org/fhir`  
 Cohort: CMS165 selected-18 **+ DFN 101090** (19 patients)  
 Scorecard: `2026/scorecards/inferno/fhirdev-fhir-cms165-selected18-plus101090.json`  
 Post–Phase 1: `2026/scorecards/inferno/fhirdev-fhir-cms165-selected18-plus101090-post-phase1.json`  
+Post–Phase 1b: `2026/scorecards/inferno/fhirdev-fhir-cms165-selected18-plus101090-post-phase1b.json`  
 Machine triage: `2026/scorecards/inferno/fhirdev-fhir-cms165-selected18-plus101090-triage.json`
 
 Related earlier run (selected-18 only): [hOd61vtVwJF](https://inferno.healthit.gov/suites/us_quality_core_v050/hOd61vtVwJF) — 114p / 25f / 354s / 5e.
@@ -21,6 +23,8 @@ Related earlier run (selected-18 only): [hOd61vtVwJF](https://inferno.healthit.g
 | **Baseline leaf** | **115** | **12** | **310** | **1** | Actionable triage set |
 | **Post–Phase 1 suite** | 129 | 11 | 358 | 0 | Session `6mxkzqWWNgp` |
 | **Post–Phase 1 leaf** | **123** | **4** | **311** | **0** | Vitals/DocRef/encounter-search cleared |
+| **Post–Phase 1b suite** | 136 | 0 | 362 | 0 | Session `b4k7IkH6Spc` |
+| **Post–Phase 1b leaf** | **128** | **0** | **310** | **0** | Phase 1 validation exit met |
 
 Inferno marks a parent group `fail` when a child validation fails, which inflates fail/error/skip counts. **Use leaf counts for planning.**
 
