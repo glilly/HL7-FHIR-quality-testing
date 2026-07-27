@@ -4,11 +4,15 @@ Status date: **2026-07-27**
 Primary session (baseline): [bU76WglB84Q](https://inferno.healthit.gov/suites/us_quality_core_v050/bU76WglB84Q)  
 Post–Phase 1 re-run: [6mxkzqWWNgp](https://inferno.healthit.gov/suites/us_quality_core_v050/6mxkzqWWNgp)  
 Post–Phase 1b (remaining-4 cleared): [b4k7IkH6Spc](https://inferno.healthit.gov/suites/us_quality_core_v050/b4k7IkH6Spc)  
+Post–Phase 2 Encounter MS: [ciGSfwD025U](https://inferno.healthit.gov/suites/us_quality_core_v050/ciGSfwD025U) (MS pass; validation failed on rank/POA)  
+Post–Phase 2b Encounter MS fixed: [bA7DlEQpQLi](https://inferno.healthit.gov/suites/us_quality_core_v050/bA7DlEQpQLi)  
 FHIR base: `https://devfhir.vistaplex.org/fhir`  
 Cohort: CMS165 selected-18 **+ DFN 101090** (19 patients)  
 Scorecard: `2026/scorecards/inferno/fhirdev-fhir-cms165-selected18-plus101090.json`  
 Post–Phase 1: `2026/scorecards/inferno/fhirdev-fhir-cms165-selected18-plus101090-post-phase1.json`  
 Post–Phase 1b: `2026/scorecards/inferno/fhirdev-fhir-cms165-selected18-plus101090-post-phase1b.json`  
+Post–Phase 2: `2026/scorecards/inferno/inferno-fhirdev-cms165-20260727T204751Z-post-phase2-encounter-ms.json`  
+Post–Phase 2b: `2026/scorecards/inferno/inferno-fhirdev-cms165-20260727T211824Z-post-phase2b-encounter-ms.json`  
 Machine triage: `2026/scorecards/inferno/fhirdev-fhir-cms165-selected18-plus101090-triage.json`
 
 Related earlier run (selected-18 only): [hOd61vtVwJF](https://inferno.healthit.gov/suites/us_quality_core_v050/hOd61vtVwJF) — 114p / 25f / 354s / 5e.
@@ -25,6 +29,7 @@ Related earlier run (selected-18 only): [hOd61vtVwJF](https://inferno.healthit.g
 | **Post–Phase 1 leaf** | **123** | **4** | **311** | **0** | Vitals/DocRef/encounter-search cleared |
 | **Post–Phase 1b suite** | 136 | 0 | 362 | 0 | Session `b4k7IkH6Spc` |
 | **Post–Phase 1b leaf** | **128** | **0** | **310** | **0** | Phase 1 validation exit met |
+| **Post–Phase 2b suite** | 138 | 0 | 360 | 0 | Session `bA7DlEQpQLi` — Encounter MS + validation green |
 
 Inferno marks a parent group `fail` when a child validation fails, which inflates fail/error/skip counts. **Use leaf counts for planning.**
 
@@ -142,7 +147,7 @@ High-value MS skips (resources present, MS incomplete):
 | Group | Missing Must Support (abridged) |
 |-------|----------------------------------|
 | Patient | `name.suffix`, `extension:tribalAffiliation` |
-| Encounter | `priority`, `reasonReference`, `diagnosis`, `hospitalization*`, POA extension |
+| Encounter | ~~`priority`, `reasonReference`, `diagnosis`, `hospitalization*`, POA extension~~ **done (Phase 2b)** |
 | DocumentReference | `identifier`, `content.attachment.url`, `content.format`, `context.period` |
 | Observation lab | `issued`, `valueCodeableConcept`, `specimen` |
 | BP | `component.dataAbsentReason` (systolic/diastolic) |
@@ -188,7 +193,7 @@ Order by ROI:
 
 Prioritize MS that unblock Inferno “could not find … in the N provided resource(s)” for **green families**:
 
-1. **Encounter** — diagnosis, reasonReference, hospitalization/discharge when visit data exists  
+1. **Encounter** — **done (Phase 2b / `bA7DlEQpQLi`)**: diagnosis, reasonReference, priority, hospitalization, POA  
 2. **DocumentReference** — type already in Phase 1; add `content.format`, `context.period`, attachment url or stable contentType  
 3. **Observation lab** — `issued`, Specimen link when LABADD creates specimen  
 4. **Organization / Practitioner / Location** — telecom/address/NPI slices  
