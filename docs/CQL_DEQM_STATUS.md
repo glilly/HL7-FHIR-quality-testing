@@ -37,6 +37,8 @@ The repository now installs `cqm-execution`/`cql-execution` and includes `script
 
 **VSAC gate (cleared 2026-07-23):** 37/37 value sets expanded (5079 concepts). Key lives in `~/ops/secrets/`; load with `eval "$(~/ops/scripts/load-vsac-api-key.sh)"`. Full run notes: `docs/VSAC_CMS165_RUN_2026-07-23.md`.
 
+**VistA-native parallel:** NLM value sets also live in FileMan **#802.2** (`^PXRM(802.2`), loaded via [svsimport](https://github.com/glilly/svsimport)). That path is for live membership / Reminder taxonomies / Consult helpers—not a replacement for this Node `value_sets.json` CQL pipeline. See `Vista-on-FHIR/docs/NLM_VALUE_SETS_8022_AND_SVSIMPORT.md`.
+
 **selected-18 after FHIR→QDM fixes (same day):** IPP **15** / DENOM **15** / NUMER **15** (of 18). Converter now keeps active Condition prevalence open-ended, expands BP panel components to SBP/DBP Physical Exam with `mm[Hg]`, and uses `urn:oid:` code systems. Broader preclassifier cohorts stay labeled **heuristic proxy** until a full-cohort CQL pass is reviewed.
 
 Example:
