@@ -1,7 +1,7 @@
 cms	dfn	ipp	denom	numer	denex	evidence	mode
 CMS122v14	101087	1	0	0	0	c0x-sparql-ipp proxy (no synthea map)	heuristic-c0x
 CMS122v14	101095	1	1	0	0	uuid-map uuid=62d14026… cql=1/1/0/0	official-cql
-CMS122v14	101096	1	1	0	0	c0x-map synthea cql=1/1/0/0	official-cql
+CMS122v14	101096	1	1	1	0	closed-loop A1c file cql=1/1/1/0	official-cql
 CMS122v14	101098	1	1	0	0	uuid-map uuid=e539a03b… cql=1/1/0/0	official-cql
 CMS122v14	101100	0	0	0	0	uuid-map uuid=4987faff… cql=0/0/0/0	official-cql
 CMS122v14	101102	0	0	0	0	c0x-map synthea cql=0/0/0/0	official-cql

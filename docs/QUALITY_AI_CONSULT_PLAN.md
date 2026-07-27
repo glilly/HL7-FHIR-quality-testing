@@ -264,7 +264,9 @@ First-slice status:
 - Generated pick-list actions are advisory and `clinician-reviewed`; none are default-selected.
 - Update Bundle + apply-review path files Encounter / DocumentReference / Condition; vitals via `C0FWVIT`.
 - **2026-07-18:** `C0FWLAB` now files laboratory `Observation` through `LABADD^SYNDHP63` / ISI. HTTP smoke on DFN `101090` loaded HbA1c `7.4` and `/fhir` laboratory search returned it. Quality UI apply for `cms122-import-hba1c` is the remaining morning confirmation.
-- **2026-07-27:** CMS165 closed loop on DFN **101115** (was DENOM yes / NUMER no): cds1 now offers `cms165-record-blood-pressure` when BP is uncontrolled; HTTP update-bundle + `/updatepatient` filed **128/78** via GMVDCSAV; `/fhir` read-back OK; official CQL on Synthea+injected BP → **1/1/1**; dashboard SETPOP/SUM **16/16 (100%)**. See `docs/CMS165_CLOSED_LOOP_101115.md` and `scripts/cms165-closed-loop-101115.sh`. Remaining: rehmp UI confirmation + auto SETPOP refresh; Codex `/fhir` alone still too thin for CQL.
+- **2026-07-27:** CMS165 closed loop on DFN **101115** (was DENOM yes / NUMER no): cds1 offers `cms165-record-blood-pressure` when BP is uncontrolled; HTTP update-bundle + `/updatepatient` filed **128/78** via GMVDCSAV; `/fhir` read-back OK; official CQL on Synthea+injected BP → **1/1/1**; dashboard SETPOP/SUM **16/16 (100%)**. See `docs/CMS165_CLOSED_LOOP_101115.md`.
+- **2026-07-27 (same day):** rehmp Finish Note / Send now calls `POST /fhir-quality-recompute` (Codex `WSRECOMP^C0FQUAL`) for heuristic SETPOP/SUM refresh after accepted quality actions (CMS165 controlled BP; CMS122 HbA1c **>9%**). Gateway proxies recompute to `QUALITY_BACKEND` (fhirdev).
+- **2026-07-27:** CMS122 closed loop on DFN **101096** (was DENOM yes / NUMER no): filed HbA1c **9.2** via `C0FWLAB`/`LABADD`; heuristic recompute + official CQL → **1/1/1**; dashboard SUM **5/4/1 (25%)**. See `docs/CMS122_CLOSED_LOOP_101096.md` and `scripts/cms122-closed-loop-101096.sh`. Remaining: Codex `/fhir` alone still too thin for CQL (use Synthea+inject or denser export).
 
 ## Open Questions
 

@@ -49,8 +49,8 @@ inputs for **Record a controlled blood pressure for numerator**. Flow:
 - `cds-hooks-on-fhir` `QualityDiagnosticReportFactory.cms165()` — offer record-BP when uncontrolled  
 - Deployed Stage 2 to `cds1.vistaplex.org`
 
-## Next
+## Next (status 2026-07-27 evening)
 
-- Wire rehmp “after send” hook to one-DFN CQL+SETPOP refresh  
-- Same closed loop for CMS122 (HbA1c) with correct measure polarity  
+- ~~Wire rehmp “after send” hook~~ → `POST /fhir-quality-recompute` (heuristic SETPOP)  
+- ~~CMS122 closed loop~~ → see `docs/CMS122_CLOSED_LOOP_101096.md`  
 - Improve Codex `/fhir` density so CQL can run without Synthea inject  
