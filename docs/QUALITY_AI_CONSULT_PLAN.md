@@ -264,6 +264,7 @@ First-slice status:
 - Generated pick-list actions are advisory and `clinician-reviewed`; none are default-selected.
 - Update Bundle + apply-review path files Encounter / DocumentReference / Condition; vitals via `C0FWVIT`.
 - **2026-07-18:** `C0FWLAB` now files laboratory `Observation` through `LABADD^SYNDHP63` / ISI. HTTP smoke on DFN `101090` loaded HbA1c `7.4` and `/fhir` laboratory search returned it. Quality UI apply for `cms122-import-hba1c` is the remaining morning confirmation.
+- **2026-07-27:** CMS165 closed loop on DFN **101115** (was DENOM yes / NUMER no): cds1 now offers `cms165-record-blood-pressure` when BP is uncontrolled; HTTP update-bundle + `/updatepatient` filed **128/78** via GMVDCSAV; `/fhir` read-back OK; official CQL on Synthea+injected BP → **1/1/1**; dashboard SETPOP/SUM **16/16 (100%)**. See `docs/CMS165_CLOSED_LOOP_101115.md` and `scripts/cms165-closed-loop-101115.sh`. Remaining: rehmp UI confirmation + auto SETPOP refresh; Codex `/fhir` alone still too thin for CQL.
 
 ## Open Questions
 
