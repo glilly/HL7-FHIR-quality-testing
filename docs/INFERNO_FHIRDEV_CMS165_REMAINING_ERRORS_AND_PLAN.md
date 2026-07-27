@@ -1,10 +1,12 @@
 # Hosted Inferno remaining errors & skips — fhirdev CMS165 cohort
 
 Status date: **2026-07-27**  
-Primary session: [bU76WglB84Q](https://inferno.healthit.gov/suites/us_quality_core_v050/bU76WglB84Q)  
+Primary session (baseline): [bU76WglB84Q](https://inferno.healthit.gov/suites/us_quality_core_v050/bU76WglB84Q)  
+Post–Phase 1 re-run: [6mxkzqWWNgp](https://inferno.healthit.gov/suites/us_quality_core_v050/6mxkzqWWNgp)  
 FHIR base: `https://devfhir.vistaplex.org/fhir`  
 Cohort: CMS165 selected-18 **+ DFN 101090** (19 patients)  
 Scorecard: `2026/scorecards/inferno/fhirdev-fhir-cms165-selected18-plus101090.json`  
+Post–Phase 1: `2026/scorecards/inferno/fhirdev-fhir-cms165-selected18-plus101090-post-phase1.json`  
 Machine triage: `2026/scorecards/inferno/fhirdev-fhir-cms165-selected18-plus101090-triage.json`
 
 Related earlier run (selected-18 only): [hOd61vtVwJF](https://inferno.healthit.gov/suites/us_quality_core_v050/hOd61vtVwJF) — 114p / 25f / 354s / 5e.
@@ -15,8 +17,10 @@ Related earlier run (selected-18 only): [hOd61vtVwJF](https://inferno.healthit.g
 
 | Scope | Pass | Fail | Skip | Error | Notes |
 |-------|-----:|-----:|-----:|------:|-------|
-| **Suite total (API)** | 117 | 23 | 353 | 5 | Includes `test_group` aggregate rows |
-| **Leaf tests (`test_id` present)** | **115** | **12** | **310** | **1** | Actionable triage set |
+| **Baseline suite (API)** | 117 | 23 | 353 | 5 | Includes `test_group` aggregate rows |
+| **Baseline leaf** | **115** | **12** | **310** | **1** | Actionable triage set |
+| **Post–Phase 1 suite** | 129 | 11 | 358 | 0 | Session `6mxkzqWWNgp` |
+| **Post–Phase 1 leaf** | **123** | **4** | **311** | **0** | Vitals/DocRef/encounter-search cleared |
 
 Inferno marks a parent group `fail` when a child validation fails, which inflates fail/error/skip counts. **Use leaf counts for planning.**
 
@@ -159,6 +163,8 @@ These are the skip rows worth engineering after Bucket A–E validation fails ar
 
 ### Phase 1 — Clear validation fails (Codex `/fhir` shape) — target: **12 → ≤2 leaf fails**
 
+**Status 2026-07-27:** Code synced to fhirdev22; key DFN caches rebuilt (`INV^C0FWCAC` + `REFRESH` for 101090/101095/101096/101115/101122). Live smoke green for Condition SCT, lab/vital UCUM, CVX 208 display, Encounter string `code`. **Hosted Inferno re-run still needed** to confirm leaf fail counts.
+
 Order by ROI:
 
 | Step | Bucket | Change | Verify |
@@ -219,18 +225,19 @@ Parallel: Phase 3 showcase patients for CMS130/138/smoking/meds
 
 ## Appendix — leaf fail checklist
 
-Phase 1 code deployed to fhirdev **2026-07-27** (Codex `C0FHIRD`/`C0FHIRL`/`C0FHIRM`/`C0FHIRBU`/`C0FWCAC`). CMS165 cohort caches rebuilt via `?refresh=1`. **Re-run Inferno session to confirm leaf counts.**
+Phase 1 code deployed to fhirdev **2026-07-27** (`C0FHIRD` SCTFROM + UCUM/VDEFU, `C0FHIRL` LABQTY, `C0FHIRM` CVXDISP, `C0FHIRBU` FORCESTR valueString, Encounter `"code","\s"`). Stale `fhir-dataframe` cache hid lab UCUM until INV+rebuild. **Re-run Inferno session to confirm leaf counts.**
 
-Smoke after deploy+refresh:
+Smoke after deploy+cache rebuild (no `refresh=` required):
 
 | Resource | Result |
 |----------|--------|
 | `Condition/C2577` | SNOMED `38341003` (was ICD-10) |
-| `Condition/C2272` | ICD-10 `F45.22` (not mislabeled SCT) |
-| `Immunization/IM1336` | CVX 208 display `COVID-19, mRNA, LNP-S, PF, 30 mcg/0.3 mL dose` |
-| `Observation/V57252` (PAIN) | UCUM `{score}` |
-| `Observation/LCH-6749371.918171-4` | `valueQuantity` 0.7 (was numeric `valueString`) |
-| DocRef / BP UCUM | Already green on live before this slice |
+| Labs DFN 101122 | `valueQuantity` with UCUM `mg/dL` (was unit-only) |
+| Imm CVX 208 | `COVID-19, mRNA, LNP-S, PF, 30 mcg/0.3 mL dose` |
+| Pain vitals | UCUM `{score}` |
+| BP components | UCUM `mm[Hg]` |
+| Encounter type coding | JSON string `code` (no unquoted numerics) |
+| DocRef category/type | Already green on live before this slice |
 
 - [x] `us_core_blood_pressure_validation_test` — UCUM on components (live smoke)
 - [x] `us_core_body_height_validation_test` — UCUM (live smoke)

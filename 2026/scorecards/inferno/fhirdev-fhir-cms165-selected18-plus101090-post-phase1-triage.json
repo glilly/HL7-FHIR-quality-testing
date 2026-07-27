@@ -1,0 +1,83 @@
+{
+  "session_id": "6mxkzqWWNgp",
+  "session_url": "https://inferno.healthit.gov/suites/us_quality_core_v050/6mxkzqWWNgp",
+  "fhir_url": "https://devfhir.vistaplex.org/fhir",
+  "patient_ids": "101090,101094,101095,101096,101097,101098,101099,101100,101101,101102,101103,101104,101105,101106,101107,101108,101109,101110,101122",
+  "suite_counts": {
+    "pass": 129,
+    "skip": 358,
+    "fail": 11
+  },
+  "leaf_counts": {
+    "pass": 123,
+    "skip": 311,
+    "fail": 4
+  },
+  "fails": [
+    {
+      "test": "us_quality_core_v050_condition_problems_health_concerns_validation_test",
+      "test_id": "us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_condition_problems_health_concerns-us_quality_core_v050_condition_problems_health_concerns_validation_test",
+      "result": "fail",
+      "result_message": "Resource does not conform to the profile http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-condition-problems-health-concerns|0.5.0",
+      "sample_errors": [
+        "Condition/C2273: Condition.category[0]: Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/condition-category|0.5.0",
+        "Condition/C2272: Condition: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)",
+        "Condition/C2577: Condition.category[0]: Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/condition-category|0.5.0",
+        "Condition/C2578: Condition.category[0]: Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/condition-category|0.5.0",
+        "Condition/C2294: Condition.category[1]: None of the codings provided are in the value set 'Condition Category Codes' (http://hl7.org/fhir/ValueSet/condition-category|4.0.1), and a coding should come from this value set u",
+        "Condition/C2295: Condition: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)",
+        "Condition/C2297: Condition.category[0]: Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/condition-category|0.5.0",
+        "Condition/C2298: Condition: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)"
+      ]
+    },
+    {
+      "test": "us_quality_core_v050_immunization_validation_test",
+      "test_id": "us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_immunization-us_quality_core_v050_immunization_validation_test",
+      "result": "fail",
+      "result_message": "Resource does not conform to the profile http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-immunization|0.5.0",
+      "sample_errors": [
+        "Immunization/IM1301: Immunization.status: Reference to draft CodeSystem http://hl7.org/fhir/event-status|4.0.1",
+        "Immunization/IM1336: Immunization.status: Reference to draft CodeSystem http://hl7.org/fhir/event-status|4.0.1",
+        "Immunization/IM1301: Immunization.vaccineCode: None of the codings provided are in the value set 'CVX Vaccines Administered Vaccine Set' (http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1010.6|20220701), and a",
+        "Immunization/IM1338: Immunization.status: Reference to draft CodeSystem http://hl7.org/fhir/event-status|4.0.1",
+        "Immunization/IM1341: Immunization.status: Reference to draft CodeSystem http://hl7.org/fhir/event-status|4.0.1",
+        "Immunization/IM1344: Immunization.status: Reference to draft CodeSystem http://hl7.org/fhir/event-status|4.0.1",
+        "Immunization/IM1348: Immunization.status: Reference to draft CodeSystem http://hl7.org/fhir/event-status|4.0.1",
+        "Immunization/IM1350: Immunization.status: Reference to draft CodeSystem http://hl7.org/fhir/event-status|4.0.1"
+      ]
+    },
+    {
+      "test": "us_quality_core_v050_observation_lab_validation_test",
+      "test_id": "us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_observation_lab-us_quality_core_v050_observation_lab_validation_test",
+      "result": "fail",
+      "result_message": "Resource does not conform to the profile http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-observation-lab|0.5.0",
+      "sample_errors": [
+        "Observation/LCH-6739279.7753-462: Observation.interpretation[0]: No code provided, and a code should be provided from the value set 'Observation Interpretation Codes' (http://hl7.org/fhir/ValueSet/observation-interpretat",
+        "Observation/LCH-6739279.776-462: Observation.category[0]: Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/observation-category|0.1.0",
+        "Observation/LCH-6739279.776-462: Observation: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommen",
+        "Observation/LCH-6739280.839975-462: Observation.code: No code provided, and a code should be provided from the value set 'US Core Laboratory Test Codes' (http://hl7.org/fhir/us/core/ValueSet/us-core-laboratory-test-codes",
+        "Observation/LCH-6739280.895-462: Observation.category[0]: Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/observation-category|0.1.0",
+        "Observation/LCH-6739280.895-462: Observation: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommen",
+        "Observation/LCH-6739280.948558-462: Observation.interpretation[0]: No code provided, and a code should be provided from the value set 'Observation Interpretation Codes' (http://hl7.org/fhir/ValueSet/observation-interpret",
+        "Observation/LCH-6739279.7753-462: Observation.code: No code provided, and a code should be provided from the value set 'US Core Laboratory Test Codes' (http://hl7.org/fhir/us/core/ValueSet/us-core-laboratory-test-codes|6"
+      ]
+    },
+    {
+      "test": "us_quality_core_v050_encounter_validation_test",
+      "test_id": "us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_encounter-us_quality_core_v050_encounter_validation_test",
+      "result": "fail",
+      "result_message": "Resource does not conform to the profile http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-encounter|0.5.0",
+      "sample_errors": [
+        "Encounter/E15954: Encounter.reasonCode[0].coding[0].code: Unknown code 'R97.20' in the CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/900000000000207008/version/20250201' (International Edition)",
+        "Encounter/E16026: Encounter.reasonCode[0].coding[0].code: Unknown code 'I10' in the CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/900000000000207008/version/20250201' (International Edition)",
+        "Encounter/E16031: Encounter.reasonCode[0].coding[0].code: Unknown code 'K05.10' in the CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/900000000000207008/version/20250201' (International Edition)",
+        "Encounter/E16037: Encounter.reasonCode[0].coding[0].code: Unknown code 'Z60.4' in the CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/900000000000207008/version/20250201' (International Edition)",
+        "Encounter/E16040: Encounter.reasonCode[0].coding[0].code: Unknown code 'K05.10' in the CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/900000000000207008/version/20250201' (International Edition)",
+        "Encounter/E16046: Encounter.reasonCode[0].coding[0].code: Unknown code 'K05.10' in the CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/900000000000207008/version/20250201' (International Edition)",
+        "Encounter/E15952: Encounter.reasonCode[0].coding[0].code: Unknown code 'R97.20' in the CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/900000000000207008/version/20250201' (International Edition)",
+        "Encounter/E16024: Encounter.reasonCode[0].coding[0].code: Unknown code 'R52' in the CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/900000000000207008/version/20250201' (International Edition)"
+      ]
+    }
+  ],
+  "errors": []
+}
