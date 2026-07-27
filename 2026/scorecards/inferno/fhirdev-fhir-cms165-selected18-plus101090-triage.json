@@ -1,0 +1,623 @@
+{
+  "session_id": "bU76WglB84Q",
+  "session_url": "https://inferno.healthit.gov/suites/us_quality_core_v050/bU76WglB84Q",
+  "fhir_url": "https://devfhir.vistaplex.org/fhir",
+  "patient_ids": "101090,101094,101095,101096,101097,101098,101099,101100,101101,101102,101103,101104,101105,101106,101107,101108,101109,101110,101122",
+  "reported_suite_counts": {
+    "pass": 117,
+    "fail": 23,
+    "skip": 353,
+    "error": 5
+  },
+  "leaf_counts": {
+    "pass": 115,
+    "skip": 310,
+    "fail": 12,
+    "error": 1
+  },
+  "note": "Suite totals include test_group aggregate rows; leaf counts are actionable test cases (have test_id).",
+  "fails": [
+    {
+      "group": "condition_problems_health_concerns",
+      "test": "condition_problems_health_concerns_validation_test",
+      "bucket": "Condition: SNOMED under wrong code system",
+      "result_message": "Resource does not conform to the profile http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-condition-problems-health-concerns|0.5.0",
+      "error_count": 83,
+      "sample_errors": [
+        "Condition/C2577: Condition.code.coding[0].code: Unknown code '38341003' in the CodeSystem 'http://hl7.org/fhir/sid/icd-10-cm' version '2026-04-01'",
+        "Condition/C2578: Condition.code.coding[0].code: Unknown code '73211009' in the CodeSystem 'http://hl7.org/fhir/sid/icd-10-cm' version '2026-04-01'",
+        "Condition/C2302: Condition.code.coding[0].code: Unknown code '40055000' in the CodeSystem 'http://hl7.org/fhir/sid/icd-9-cm' version '2015'",
+        "Condition/C2303: Condition.code.coding[0].code: Unknown code '59621000' in the CodeSystem 'http://hl7.org/fhir/sid/icd-10-cm' version '2026-04-01'",
+        "Condition/C2304: Condition.code.coding[0].code: Unknown code '162864005' in the CodeSystem 'http://hl7.org/fhir/sid/icd-9-cm' version '2015'",
+        "Condition/C2305: Condition.code.coding[0].code: Unknown code '267020005' in the CodeSystem 'http://hl7.org/fhir/sid/icd-9-cm' version '2015'",
+        "Condition/C2306: Condition.code.coding[0].code: Unknown code '714628002' in the CodeSystem 'http://hl7.org/fhir/sid/icd-9-cm' version '2015'",
+        "Condition/C2307: Condition.code.coding[0].code: Unknown code '271737000' in the CodeSystem 'http://hl7.org/fhir/sid/icd-9-cm' version '2015'"
+      ]
+    },
+    {
+      "group": "document_reference",
+      "test": "document_reference_validation_test",
+      "bucket": "DocRef: add category + type",
+      "result_message": "Resource does not conform to the profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-documentreference|6.1.0",
+      "error_count": 1646,
+      "sample_errors": [
+        "DocumentReference/D15458: DocumentReference: DocumentReference.category: minimum required = 1, but only found 0 (from http://hl7.org/fhir/us/core/StructureDefinition/us-core-documentreference|6.1.0)",
+        "DocumentReference/D15458: DocumentReference.type: No code provided, and a code is required from the value set 'US Core DocumentReference Type' (http://hl7.org/fhir/us/core/ValueSet/us-core-documentreference-type|6.1.0)",
+        "DocumentReference/D15459: DocumentReference: DocumentReference.category: minimum required = 1, but only found 0 (from http://hl7.org/fhir/us/core/StructureDefinition/us-core-documentreference|6.1.0)",
+        "DocumentReference/D15459: DocumentReference.type: No code provided, and a code is required from the value set 'US Core DocumentReference Type' (http://hl7.org/fhir/us/core/ValueSet/us-core-documentreference-type|6.1.0)",
+        "DocumentReference/D15460: DocumentReference: DocumentReference.category: minimum required = 1, but only found 0 (from http://hl7.org/fhir/us/core/StructureDefinition/us-core-documentreference|6.1.0)",
+        "DocumentReference/D15460: DocumentReference.type: No code provided, and a code is required from the value set 'US Core DocumentReference Type' (http://hl7.org/fhir/us/core/ValueSet/us-core-documentreference-type|6.1.0)",
+        "DocumentReference/D15461: DocumentReference: DocumentReference.category: minimum required = 1, but only found 0 (from http://hl7.org/fhir/us/core/StructureDefinition/us-core-documentreference|6.1.0)",
+        "DocumentReference/D15461: DocumentReference.type: No code provided, and a code is required from the value set 'US Core DocumentReference Type' (http://hl7.org/fhir/us/core/ValueSet/us-core-documentreference-type|6.1.0)"
+      ]
+    },
+    {
+      "group": "immunization",
+      "test": "immunization_validation_test",
+      "bucket": "Immunization: CVX display string",
+      "result_message": "Resource does not conform to the profile http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-immunization|0.5.0",
+      "error_count": 34,
+      "sample_errors": [
+        "Immunization/IM1336: Immunization.vaccineCode.coding[0].display: Wrong Display Name 'COVID-19 (PFIZER), MRNA, LNP-S, PF, 30 MCG/0.3 ML DOSE' for http://hl7.org/fhir/sid/cvx#208. Valid display is one of 2 choices: 'COVID-",
+        "Immunization/IM1337: Immunization.vaccineCode.coding[0].display: Wrong Display Name 'COVID-19 (PFIZER), MRNA, LNP-S, PF, 30 MCG/0.3 ML DOSE' for http://hl7.org/fhir/sid/cvx#208. Valid display is one of 2 choices: 'COVID-",
+        "Immunization/IM1341: Immunization.vaccineCode.coding[0].display: Wrong Display Name 'COVID-19 (PFIZER), MRNA, LNP-S, PF, 30 MCG/0.3 ML DOSE' for http://hl7.org/fhir/sid/cvx#208. Valid display is one of 2 choices: 'COVID-",
+        "Immunization/IM1342: Immunization.vaccineCode.coding[0].display: Wrong Display Name 'COVID-19 (PFIZER), MRNA, LNP-S, PF, 30 MCG/0.3 ML DOSE' for http://hl7.org/fhir/sid/cvx#208. Valid display is one of 2 choices: 'COVID-",
+        "Immunization/IM1344: Immunization.vaccineCode.coding[0].display: Wrong Display Name 'COVID-19 (PFIZER), MRNA, LNP-S, PF, 30 MCG/0.3 ML DOSE' for http://hl7.org/fhir/sid/cvx#208. Valid display is one of 2 choices: 'COVID-",
+        "Immunization/IM1345: Immunization.vaccineCode.coding[0].display: Wrong Display Name 'COVID-19 (PFIZER), MRNA, LNP-S, PF, 30 MCG/0.3 ML DOSE' for http://hl7.org/fhir/sid/cvx#208. Valid display is one of 2 choices: 'COVID-",
+        "Immunization/IM1352: Immunization.vaccineCode.coding[0].display: Wrong Display Name 'COVID-19 (PFIZER), MRNA, LNP-S, PF, 30 MCG/0.3 ML DOSE' for http://hl7.org/fhir/sid/cvx#208. Valid display is one of 2 choices: 'COVID-",
+        "Immunization/IM1353: Immunization.vaccineCode.coding[0].display: Wrong Display Name 'COVID-19 (PFIZER), MRNA, LNP-S, PF, 30 MCG/0.3 ML DOSE' for http://hl7.org/fhir/sid/cvx#208. Valid display is one of 2 choices: 'COVID-"
+      ]
+    },
+    {
+      "group": "observation_lab",
+      "test": "observation_lab_validation_test",
+      "bucket": "Lab Obs: value[x] JSON type (number vs string)",
+      "result_message": "Resource does not conform to the profile http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-observation-lab|0.5.0",
+      "error_count": 2,
+      "sample_errors": [
+        "Observation/LCH-6749371.918171-4: Observation.value[x]: Error parsing JSON: the primitive value must be a string",
+        "Observation/LCH-6789394.918171-4: Observation.value[x]: Error parsing JSON: the primitive value must be a string"
+      ]
+    },
+    {
+      "group": "us_core_blood_pressure",
+      "test": "us_core_blood_pressure_validation_test",
+      "bucket": "Vitals: emit UCUM system+code on Quantity",
+      "result_message": "Resource does not conform to the profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-blood-pressure|6.1.0",
+      "error_count": 2220,
+      "sample_errors": [
+        "Observation/V57853: Observation.component[0].value.ofType(Quantity): Observation.component:systolic.value[x].system: minimum required = 1, but only found 0 (from http://hl7.org/fhir/us/core/StructureDefinition/us-core-bl",
+        "Observation/V57853: Observation.component[0].value.ofType(Quantity): Observation.component:systolic.value[x].code: minimum required = 1, but only found 0 (from http://hl7.org/fhir/us/core/StructureDefinition/us-core-bloo",
+        "Observation/V57853: Observation.component[1].value.ofType(Quantity): Observation.component:diastolic.value[x].system: minimum required = 1, but only found 0 (from http://hl7.org/fhir/us/core/StructureDefinition/us-core-b",
+        "Observation/V57853: Observation.component[1].value.ofType(Quantity): Observation.component:diastolic.value[x].code: minimum required = 1, but only found 0 (from http://hl7.org/fhir/us/core/StructureDefinition/us-core-blo",
+        "Observation/V57853: Observation.value.ofType(string): This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/bp|4.0.1 and slicing is CLOSED: Observation.value.ofType(st",
+        "Observation/V57853: Observation.value.ofType(string): The Profile 'http://hl7.org/fhir/StructureDefinition/bp|4.0.1' definition allows for the type Quantity but found type string",
+        "Observation/V57853: Observation.component[0].value.ofType(Quantity): Observation.component:SystolicBP.value[x].system: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/bp|4.0.1)",
+        "Observation/V57853: Observation.component[0].value.ofType(Quantity): Observation.component:SystolicBP.value[x].code: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/bp|4.0.1)"
+      ]
+    },
+    {
+      "group": "us_core_body_height",
+      "test": "us_core_body_height_validation_test",
+      "bucket": "Vitals: emit UCUM system+code on Quantity",
+      "result_message": "Resource does not conform to the profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-body-height|6.1.0",
+      "error_count": 824,
+      "sample_errors": [
+        "Observation/V57850: Observation.value.ofType(Quantity): Observation.value[x]:valueQuantity.system: minimum required = 1, but only found 0 (from http://hl7.org/fhir/us/core/StructureDefinition/us-core-body-height|6.1.0)",
+        "Observation/V57850: Observation.value.ofType(Quantity): Observation.value[x]:valueQuantity.code: minimum required = 1, but only found 0 (from http://hl7.org/fhir/us/core/StructureDefinition/us-core-body-height|6.1.0)",
+        "Observation/V57850: Observation.value.ofType(Quantity): Observation.value[x]:valueQuantity.system: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/bodyheight|4.0.1)",
+        "Observation/V57850: Observation.value.ofType(Quantity): Observation.value[x]:valueQuantity.code: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/bodyheight|4.0.1)",
+        "Observation/V57856: Observation.value.ofType(Quantity): Observation.value[x]:valueQuantity.system: minimum required = 1, but only found 0 (from http://hl7.org/fhir/us/core/StructureDefinition/us-core-body-height|6.1.0)",
+        "Observation/V57856: Observation.value.ofType(Quantity): Observation.value[x]:valueQuantity.code: minimum required = 1, but only found 0 (from http://hl7.org/fhir/us/core/StructureDefinition/us-core-body-height|6.1.0)",
+        "Observation/V57856: Observation.value.ofType(Quantity): Observation.value[x]:valueQuantity.system: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/bodyheight|4.0.1)",
+        "Observation/V57856: Observation.value.ofType(Quantity): Observation.value[x]:valueQuantity.code: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/bodyheight|4.0.1)"
+      ]
+    },
+    {
+      "group": "us_core_body_temperature",
+      "test": "us_core_body_temperature_validation_test",
+      "bucket": "Vitals: emit UCUM system+code on Quantity",
+      "result_message": "Resource does not conform to the profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-body-temperature|6.1.0",
+      "error_count": 40,
+      "sample_errors": [
+        "Observation/V58129: Observation.value.ofType(Quantity): Observation.value[x]:valueQuantity.system: minimum required = 1, but only found 0 (from http://hl7.org/fhir/us/core/StructureDefinition/us-core-body-temperature|6.1",
+        "Observation/V58129: Observation.value.ofType(Quantity): Observation.value[x]:valueQuantity.code: minimum required = 1, but only found 0 (from http://hl7.org/fhir/us/core/StructureDefinition/us-core-body-temperature|6.1.0",
+        "Observation/V58129: Observation.value.ofType(Quantity): Observation.value[x]:valueQuantity.system: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/bodytemp|4.0.1)",
+        "Observation/V58129: Observation.value.ofType(Quantity): Observation.value[x]:valueQuantity.code: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/bodytemp|4.0.1)",
+        "Observation/V58357: Observation.value.ofType(Quantity): Observation.value[x]:valueQuantity.system: minimum required = 1, but only found 0 (from http://hl7.org/fhir/us/core/StructureDefinition/us-core-body-temperature|6.1",
+        "Observation/V58357: Observation.value.ofType(Quantity): Observation.value[x]:valueQuantity.code: minimum required = 1, but only found 0 (from http://hl7.org/fhir/us/core/StructureDefinition/us-core-body-temperature|6.1.0",
+        "Observation/V58357: Observation.value.ofType(Quantity): Observation.value[x]:valueQuantity.system: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/bodytemp|4.0.1)",
+        "Observation/V58357: Observation.value.ofType(Quantity): Observation.value[x]:valueQuantity.code: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/bodytemp|4.0.1)"
+      ]
+    },
+    {
+      "group": "us_core_body_weight",
+      "test": "us_core_body_weight_validation_test",
+      "bucket": "Vitals: emit UCUM system+code on Quantity",
+      "result_message": "Resource does not conform to the profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-body-weight|6.1.0",
+      "error_count": 948,
+      "sample_errors": [
+        "Observation/V57852: Observation.value.ofType(Quantity): Observation.value[x]:valueQuantity.system: minimum required = 1, but only found 0 (from http://hl7.org/fhir/us/core/StructureDefinition/us-core-body-weight|6.1.0)",
+        "Observation/V57852: Observation.value.ofType(Quantity): Observation.value[x]:valueQuantity.code: minimum required = 1, but only found 0 (from http://hl7.org/fhir/us/core/StructureDefinition/us-core-body-weight|6.1.0)",
+        "Observation/V57852: Observation.value.ofType(Quantity): Observation.value[x]:valueQuantity.system: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/bodyweight|4.0.1)",
+        "Observation/V57852: Observation.value.ofType(Quantity): Observation.value[x]:valueQuantity.code: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/bodyweight|4.0.1)",
+        "Observation/V57858: Observation.value.ofType(Quantity): Observation.value[x]:valueQuantity.system: minimum required = 1, but only found 0 (from http://hl7.org/fhir/us/core/StructureDefinition/us-core-body-weight|6.1.0)",
+        "Observation/V57858: Observation.value.ofType(Quantity): Observation.value[x]:valueQuantity.code: minimum required = 1, but only found 0 (from http://hl7.org/fhir/us/core/StructureDefinition/us-core-body-weight|6.1.0)",
+        "Observation/V57858: Observation.value.ofType(Quantity): Observation.value[x]:valueQuantity.system: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/bodyweight|4.0.1)",
+        "Observation/V57858: Observation.value.ofType(Quantity): Observation.value[x]:valueQuantity.code: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/bodyweight|4.0.1)"
+      ]
+    },
+    {
+      "group": "us_core_heart_rate",
+      "test": "us_core_heart_rate_validation_test",
+      "bucket": "Vitals: emit UCUM system+code on Quantity",
+      "result_message": "Resource does not conform to the profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-heart-rate|6.1.0",
+      "error_count": 824,
+      "sample_errors": [
+        "Observation/V57854: Observation.value.ofType(Quantity): Observation.value[x]:valueQuantity.system: minimum required = 1, but only found 0 (from http://hl7.org/fhir/us/core/StructureDefinition/us-core-heart-rate|6.1.0)",
+        "Observation/V57854: Observation.value.ofType(Quantity): Observation.value[x]:valueQuantity.code: minimum required = 1, but only found 0 (from http://hl7.org/fhir/us/core/StructureDefinition/us-core-heart-rate|6.1.0)",
+        "Observation/V57854: Observation.value.ofType(Quantity): Observation.value[x]:valueQuantity.system: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/heartrate|4.0.1)",
+        "Observation/V57854: Observation.value.ofType(Quantity): Observation.value[x]:valueQuantity.code: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/heartrate|4.0.1)",
+        "Observation/V57860: Observation.value.ofType(Quantity): Observation.value[x]:valueQuantity.system: minimum required = 1, but only found 0 (from http://hl7.org/fhir/us/core/StructureDefinition/us-core-heart-rate|6.1.0)",
+        "Observation/V57860: Observation.value.ofType(Quantity): Observation.value[x]:valueQuantity.code: minimum required = 1, but only found 0 (from http://hl7.org/fhir/us/core/StructureDefinition/us-core-heart-rate|6.1.0)",
+        "Observation/V57860: Observation.value.ofType(Quantity): Observation.value[x]:valueQuantity.system: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/heartrate|4.0.1)",
+        "Observation/V57860: Observation.value.ofType(Quantity): Observation.value[x]:valueQuantity.code: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/heartrate|4.0.1)"
+      ]
+    },
+    {
+      "group": "us_core_pulse_oximetry",
+      "test": "us_core_pulse_oximetry_validation_test",
+      "bucket": "Pulse ox: LOINC O2Sat slice + UCUM system/code",
+      "result_message": "Resource does not conform to the profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-pulse-oximetry|6.1.0",
+      "error_count": 6,
+      "sample_errors": [
+        "Observation/V59002: Observation.code: Slice 'Observation.code.coding:O2Sat': a matching slice is required, but not found (from http://hl7.org/fhir/us/core/StructureDefinition/us-core-pulse-oximetry|6.1.0). Note that othe",
+        "Observation/V59002: Observation.value.ofType(Quantity): Observation.value[x]:valueQuantity.system: minimum required = 1, but only found 0 (from http://hl7.org/fhir/us/core/StructureDefinition/us-core-pulse-oximetry|6.1.0",
+        "Observation/V59002: Observation.value.ofType(Quantity): Observation.value[x]:valueQuantity.code: minimum required = 1, but only found 0 (from http://hl7.org/fhir/us/core/StructureDefinition/us-core-pulse-oximetry|6.1.0)",
+        "Observation/V59002: Observation.code: OxygenSatCode: magic LOINC code 2708-6 required, but not found (from http://hl7.org/fhir/StructureDefinition/oxygensat|4.0.1). Note that other Observation codes are allowed in additi",
+        "Observation/V59002: Observation.value.ofType(Quantity): Observation.value[x]:valueQuantity.system: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/oxygensat|4.0.1)",
+        "Observation/V59002: Observation.value.ofType(Quantity): Observation.value[x]:valueQuantity.code: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/oxygensat|4.0.1)"
+      ]
+    },
+    {
+      "group": "us_core_respiratory_rate",
+      "test": "us_core_respiratory_rate_validation_test",
+      "bucket": "Vitals: emit UCUM system+code on Quantity",
+      "result_message": "Resource does not conform to the profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-respiratory-rate|6.1.0",
+      "error_count": 820,
+      "sample_errors": [
+        "Observation/V57855: Observation.value.ofType(Quantity): Observation.value[x]:valueQuantity.system: minimum required = 1, but only found 0 (from http://hl7.org/fhir/us/core/StructureDefinition/us-core-respiratory-rate|6.1",
+        "Observation/V57855: Observation.value.ofType(Quantity): Observation.value[x]:valueQuantity.code: minimum required = 1, but only found 0 (from http://hl7.org/fhir/us/core/StructureDefinition/us-core-respiratory-rate|6.1.0",
+        "Observation/V57855: Observation.value.ofType(Quantity): Observation.value[x]:valueQuantity.system: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/resprate|4.0.1)",
+        "Observation/V57855: Observation.value.ofType(Quantity): Observation.value[x]:valueQuantity.code: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/resprate|4.0.1)",
+        "Observation/V57861: Observation.value.ofType(Quantity): Observation.value[x]:valueQuantity.system: minimum required = 1, but only found 0 (from http://hl7.org/fhir/us/core/StructureDefinition/us-core-respiratory-rate|6.1",
+        "Observation/V57861: Observation.value.ofType(Quantity): Observation.value[x]:valueQuantity.code: minimum required = 1, but only found 0 (from http://hl7.org/fhir/us/core/StructureDefinition/us-core-respiratory-rate|6.1.0",
+        "Observation/V57861: Observation.value.ofType(Quantity): Observation.value[x]:valueQuantity.system: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/resprate|4.0.1)",
+        "Observation/V57861: Observation.value.ofType(Quantity): Observation.value[x]:valueQuantity.code: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/resprate|4.0.1)"
+      ]
+    },
+    {
+      "group": "encounter",
+      "test": "encounter_validation_test",
+      "bucket": "Encounter/Lab: JSON primitive type (code/value must be string)",
+      "result_message": "Resource does not conform to the profile http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-encounter|0.5.0",
+      "error_count": 1,
+      "sample_errors": [
+        "Encounter/E16602: Encounter.type[0].coding[0].code: Error parsing JSON: the primitive value must be a string"
+      ]
+    }
+  ],
+  "errors": [
+    {
+      "group": "encounter",
+      "test": "encounter_patient_type_search_test",
+      "result_message": "Error: undefined method `casecmp?' for an instance of Integer\n\n/usr/local/bundle/gems/us_quality_core_test_kit-0.1.2/lib/us_quality_core_test_kit/search_test.rb:892:in `token_matches?'"
+    }
+  ],
+  "skip_classes": {
+    "B. missing must-support / referenced elements": 76,
+    "A. cohort lacks resource type": 233,
+    "F. other: Could not resolve and validate any Must Support references for author ": 1
+  },
+  "skip_by_group": {
+    "patient": {
+      "B. missing must-support / referenced elements": 1
+    },
+    "adverse_event": {
+      "A. cohort lacks resource type": 6,
+      "B. missing must-support / referenced elements": 2
+    },
+    "allergy_intolerance": {
+      "B. missing must-support / referenced elements": 1
+    },
+    "care_plan": {
+      "A. cohort lacks resource type": 6
+    },
+    "care_team": {
+      "A. cohort lacks resource type": 6
+    },
+    "condition_problems_health_concerns": {
+      "B. missing must-support / referenced elements": 1
+    },
+    "coverage": {
+      "A. cohort lacks resource type": 6
+    },
+    "devicerequest": {
+      "A. cohort lacks resource type": 7,
+      "B. missing must-support / referenced elements": 1
+    },
+    "devicenotrequested": {
+      "A. cohort lacks resource type": 6,
+      "B. missing must-support / referenced elements": 1
+    },
+    "diagnostic_report_note": {
+      "A. cohort lacks resource type": 6,
+      "B. missing must-support / referenced elements": 2
+    },
+    "diagnostic_report_lab": {
+      "A. cohort lacks resource type": 6,
+      "B. missing must-support / referenced elements": 2
+    },
+    "document_reference": {
+      "A. cohort lacks resource type": 1,
+      "B. missing must-support / referenced elements": 1,
+      "F. other: Could not resolve and validate any Must Support references for author ": 1
+    },
+    "family_member_history": {
+      "A. cohort lacks resource type": 5
+    },
+    "goal": {
+      "A. cohort lacks resource type": 6
+    },
+    "immunizationnotdone": {
+      "A. cohort lacks resource type": 6
+    },
+    "medicationadministration": {
+      "A. cohort lacks resource type": 7,
+      "B. missing must-support / referenced elements": 2
+    },
+    "medicationadministrationnotdone": {
+      "A. cohort lacks resource type": 6,
+      "B. missing must-support / referenced elements": 2
+    },
+    "medicationdispense": {
+      "A. cohort lacks resource type": 7
+    },
+    "medicationdispensedeclined": {
+      "A. cohort lacks resource type": 7
+    },
+    "medicationrequest": {
+      "A. cohort lacks resource type": 6,
+      "B. missing must-support / referenced elements": 1
+    },
+    "medicationnotrequested": {
+      "A. cohort lacks resource type": 6,
+      "B. missing must-support / referenced elements": 1
+    },
+    "observation_clinical_result": {
+      "A. cohort lacks resource type": 6,
+      "B. missing must-support / referenced elements": 3
+    },
+    "simple_observation": {
+      "A. cohort lacks resource type": 6,
+      "B. missing must-support / referenced elements": 3
+    },
+    "observation_screening_assessment": {
+      "A. cohort lacks resource type": 6,
+      "B. missing must-support / referenced elements": 3
+    },
+    "observationcancelled": {
+      "A. cohort lacks resource type": 5,
+      "B. missing must-support / referenced elements": 3
+    },
+    "us_core_observation_pregnancyintent": {
+      "A. cohort lacks resource type": 6,
+      "B. missing must-support / referenced elements": 3
+    },
+    "us_core_observation_pregnancystatus": {
+      "A. cohort lacks resource type": 6,
+      "B. missing must-support / referenced elements": 3
+    },
+    "us_core_smokingstatus": {
+      "A. cohort lacks resource type": 6,
+      "B. missing must-support / referenced elements": 3
+    },
+    "observation_lab": {
+      "B. missing must-support / referenced elements": 2
+    },
+    "us_core_observation_occupation": {
+      "A. cohort lacks resource type": 6,
+      "B. missing must-support / referenced elements": 3
+    },
+    "us_core_blood_pressure": {
+      "B. missing must-support / referenced elements": 1
+    },
+    "us_core_bmi": {
+      "A. cohort lacks resource type": 6,
+      "B. missing must-support / referenced elements": 3
+    },
+    "pediatric_bmi_for_age": {
+      "A. cohort lacks resource type": 6,
+      "B. missing must-support / referenced elements": 3
+    },
+    "head_occipital_frontal_circumference_percentile": {
+      "A. cohort lacks resource type": 6,
+      "B. missing must-support / referenced elements": 3
+    },
+    "us_core_pulse_oximetry": {
+      "B. missing must-support / referenced elements": 1
+    },
+    "pediatric_weight_for_height": {
+      "A. cohort lacks resource type": 6,
+      "B. missing must-support / referenced elements": 3
+    },
+    "procedure": {
+      "A. cohort lacks resource type": 7,
+      "B. missing must-support / referenced elements": 1
+    },
+    "procedurenotdone": {
+      "A. cohort lacks resource type": 7,
+      "B. missing must-support / referenced elements": 1
+    },
+    "related_person": {
+      "A. cohort lacks resource type": 6,
+      "B. missing must-support / referenced elements": 1
+    },
+    "servicerequest": {
+      "A. cohort lacks resource type": 7,
+      "B. missing must-support / referenced elements": 4
+    },
+    "servicenotrequested": {
+      "A. cohort lacks resource type": 7,
+      "B. missing must-support / referenced elements": 4
+    },
+    "task": {
+      "A. cohort lacks resource type": 7,
+      "B. missing must-support / referenced elements": 1
+    },
+    "taskrejected": {
+      "A. cohort lacks resource type": 7,
+      "B. missing must-support / referenced elements": 1
+    },
+    "encounter": {
+      "B. missing must-support / referenced elements": 1
+    },
+    "location": {
+      "B. missing must-support / referenced elements": 1
+    },
+    "organization": {
+      "B. missing must-support / referenced elements": 1
+    },
+    "practitioner": {
+      "B. missing must-support / referenced elements": 1
+    },
+    "practitioner_role": {
+      "A. cohort lacks resource type": 4
+    },
+    "specimen": {
+      "A. cohort lacks resource type": 4,
+      "B. missing must-support / referenced elements": 1
+    }
+  },
+  "must_support_skips": [
+    {
+      "group": "patient",
+      "message": "Could not find name.suffix, Patient.extension:tribalAffiliation in the 19 provided resource(s)"
+    },
+    {
+      "group": "adverse_event",
+      "message": "No AdverseEvent resources were found"
+    },
+    {
+      "group": "allergy_intolerance",
+      "message": "Could not find onset[x], lastOccurrence in the 11 provided resource(s)"
+    },
+    {
+      "group": "care_plan",
+      "message": "No CarePlan resources were found"
+    },
+    {
+      "group": "care_team",
+      "message": "No CareTeam resources were found"
+    },
+    {
+      "group": "condition_problems_health_concerns",
+      "message": "Could not find abatementDateTime in the 291 provided resource(s)"
+    },
+    {
+      "group": "coverage",
+      "message": "No Coverage resources were found"
+    },
+    {
+      "group": "devicerequest",
+      "message": "No DeviceRequest resources were found"
+    },
+    {
+      "group": "devicenotrequested",
+      "message": "No DeviceRequest resources were found"
+    },
+    {
+      "group": "diagnostic_report_note",
+      "message": "No DiagnosticReport resources were found"
+    },
+    {
+      "group": "diagnostic_report_lab",
+      "message": "No DiagnosticReport resources were found"
+    },
+    {
+      "group": "document_reference",
+      "message": "Could not find identifier, content.attachment.url, content.format, context.period in the 1336 provided resource(s)"
+    },
+    {
+      "group": "family_member_history",
+      "message": "No FamilyMemberHistory resources were found"
+    },
+    {
+      "group": "goal",
+      "message": "No Goal resources were found"
+    },
+    {
+      "group": "immunizationnotdone",
+      "message": "No Immunization resources were found"
+    },
+    {
+      "group": "medicationadministration",
+      "message": "No MedicationAdministration resources were found"
+    },
+    {
+      "group": "medicationadministrationnotdone",
+      "message": "No MedicationAdministration resources were found"
+    },
+    {
+      "group": "medicationdispense",
+      "message": "No MedicationDispense resources were found"
+    },
+    {
+      "group": "medicationdispensedeclined",
+      "message": "No MedicationDispense resources were found"
+    },
+    {
+      "group": "medicationrequest",
+      "message": "No MedicationRequest resources were found"
+    },
+    {
+      "group": "medicationnotrequested",
+      "message": "No MedicationRequest resources were found"
+    },
+    {
+      "group": "observation_clinical_result",
+      "message": "No Observation resources were found"
+    },
+    {
+      "group": "simple_observation",
+      "message": "No Observation resources were found"
+    },
+    {
+      "group": "observation_screening_assessment",
+      "message": "No Observation resources were found"
+    },
+    {
+      "group": "observationcancelled",
+      "message": "No Observation resources were found"
+    },
+    {
+      "group": "us_core_observation_pregnancyintent",
+      "message": "No Observation resources were found"
+    },
+    {
+      "group": "us_core_observation_pregnancystatus",
+      "message": "No Observation resources were found"
+    },
+    {
+      "group": "us_core_smokingstatus",
+      "message": "No Observation resources were found"
+    },
+    {
+      "group": "observation_lab",
+      "message": "Could not find issued, valueCodeableConcept, specimen in the 205 provided resource(s)"
+    },
+    {
+      "group": "us_core_observation_occupation",
+      "message": "No Observation resources were found"
+    },
+    {
+      "group": "us_core_blood_pressure",
+      "message": "Could not find component.dataAbsentReason, component:systolic.dataAbsentReason, component:diastolic.dataAbsentReason in the 285 provided resource(s)"
+    },
+    {
+      "group": "us_core_bmi",
+      "message": "No Observation resources were found"
+    },
+    {
+      "group": "pediatric_bmi_for_age",
+      "message": "No Observation resources were found"
+    },
+    {
+      "group": "head_occipital_frontal_circumference_percentile",
+      "message": "No Observation resources were found"
+    },
+    {
+      "group": "us_core_pulse_oximetry",
+      "message": "Could not find component, component.code, component.valueQuantity, component:FlowRate.code, component:FlowRate.valueQuantity, component:FlowRate.valueQuantity.value, component:FlowRate.valueQuantity.unit, component:FlowRate.valueQuantity.system:http://unitsofmeasure.org, component:FlowRate.valueQuantity.code:L/min, component:Concentration.code, component:Concentration.valueQuantity, component:Concentration.valueQuantity.value, component:Concentration.valueQuantity.unit, component:Concentration.valueQuantity.system:http://unitsofmeasure.org, component:Concentration.valueQuantity.code:%, Observation.component:FlowRate, Observation.component:Concentration in the 2 provided resource(s)"
+    },
+    {
+      "group": "pediatric_weight_for_height",
+      "message": "No Observation resources were found"
+    },
+    {
+      "group": "procedure",
+      "message": "No Procedure resources were found"
+    },
+    {
+      "group": "procedurenotdone",
+      "message": "No Procedure resources were found"
+    },
+    {
+      "group": "related_person",
+      "message": "No RelatedPerson resources were found"
+    },
+    {
+      "group": "servicerequest",
+      "message": "No ServiceRequest resources were found"
+    },
+    {
+      "group": "servicenotrequested",
+      "message": "No ServiceRequest resources were found"
+    },
+    {
+      "group": "task",
+      "message": "No Task resources were found"
+    },
+    {
+      "group": "taskrejected",
+      "message": "No Task resources were found"
+    },
+    {
+      "group": "encounter",
+      "message": "Could not find priority, reasonReference, diagnosis, hospitalization, hospitalization.dischargeDisposition, Encounter.diagnosis.extension:diagnosisPresentOnAdmission in the 1344 provided resource(s)"
+    },
+    {
+      "group": "location",
+      "message": "Could not find telecom, address, address.line, address.city, address.state, address.postalCode, managingOrganization in the 1 provided resource(s)"
+    },
+    {
+      "group": "organization",
+      "message": "Could not find telecom, telecom.system, telecom.value, address, address.line, address.city, address.state, address.postalCode, address.country, Organization.identifier:NPI, Organization.identifier:ccn, Organization.identifier:ein in the 1 provided resource(s)"
+    },
+    {
+      "group": "practitioner",
+      "message": "Could not find identifier:NPI.system, identifier:NPI.value, identifier:ein.system, identifier:ein.value, telecom, telecom.system, telecom.value, address, address.line, address.city, address.state, address.postalCode, address.country, Practitioner.identifier:NPI, Practitioner.identifier:ein in the 1 provided resource(s)"
+    },
+    {
+      "group": "practitioner_role",
+      "message": "No PractitionerRole resources were found"
+    },
+    {
+      "group": "specimen",
+      "message": "No Specimen resources were found"
+    }
+  ],
+  "cohort_missing_resource_types": {
+    "Observation": 59,
+    "Provenance": 36,
+    "MedicationDispense": 12,
+    "Procedure": 12,
+    "ServiceRequest": 12,
+    "Task": 12,
+    "DeviceRequest": 11,
+    "MedicationAdministration": 11,
+    "DiagnosticReport": 10,
+    "MedicationRequest": 10,
+    "AdverseEvent": 5,
+    "CarePlan": 5,
+    "CareTeam": 5,
+    "Coverage": 5,
+    "Goal": 5,
+    "Immunization": 5,
+    "RelatedPerson": 5,
+    "FamilyMemberHistory": 4,
+    "PractitionerRole": 4,
+    "Specimen": 4,
+    "DocumentReference": 1
+  }
+}

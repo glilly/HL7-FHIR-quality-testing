@@ -1,7 +1,11 @@
 # US Quality Core Connectathon — Inferno Sessions & Demo Plan
 
-Status date: **2026-07-09**  
+Status date: **2026-07-09** (triage pointer updated **2026-07-27**)  
 Connectathon target: **Tuesday, 2026-07-14** (next Tuesday)
+
+**Hosted fhirdev CMS165 remaining fails/skips:** see
+[`../INFERNO_FHIRDEV_CMS165_REMAINING_ERRORS_AND_PLAN.md`](../INFERNO_FHIRDEV_CMS165_REMAINING_ERRORS_AND_PLAN.md)
+(session [bU76WglB84Q](https://inferno.healthit.gov/suites/us_quality_core_v050/bU76WglB84Q)).
 
 Companion to [`US_QUALITY_CORE_CONNECTATHON_READINESS.md`](./US_QUALITY_CORE_CONNECTATHON_READINESS.md).  
 This note freezes the Inferno sessions we have already exercised, the suite-level
