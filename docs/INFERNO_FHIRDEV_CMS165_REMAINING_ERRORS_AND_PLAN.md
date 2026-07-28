@@ -233,12 +233,17 @@ Patient IDs: `101090,101114,101115,101116,101120,101121,101119`
 Scorecard: `2026/scorecards/inferno/inferno-fhirdev-september-showcase-20260728T204226Z-baseline.{json,md}`  
 Headline (all results): **152 pass / 5 fail / 341 skip**; leaf: **139 pass / 1 fail / 298 skip**.
 
+**After tobacco writeback + smoking Observation export (2026-07-28):** [fGZ4GGiXk2V](https://inferno.healthit.gov/suites/us_quality_core_v050/fGZ4GGiXk2V)  
+Scorecard: `2026/scorecards/inferno/inferno-fhirdev-september-showcase-20260728T225052Z-smoking-fixed.{json,md}`  
+Leaf: **148 pass / 1 fail / 289 skip** (smokingstatus search/read/MS/**validation** all pass).
+
 | Finding | Detail |
 | ------- | ------ |
 | Leaf fail | Immunization validation — CVX **212** wrong display (`ChAdOx1` vs required Ad26 / SARS-COV-2 Ad26 strings) on `IM1424`/`IM1444` |
-| Still Class A (no resources) | Procedure, MedicationRequest, CarePlan, ServiceRequest, SmokingStatus, Clinical Result, Goal, … |
+| SmokingStatus | **Exercised** via writeback HFs on DFN **101120** + `GETSMOK^C0FHIRD` → Observation `SMK-*` LOINC `72166-2` |
+| Still Class A (no resources) | Procedure, MedicationRequest, CarePlan, ServiceRequest, Clinical Result, Goal, … |
 | Partially exercised | DiagnosticReport Lab has **1 leaf pass** on this union (still mostly no-resources across patients) |
-| Smoke gap | Showcase DFNs need `Patient?_id={dfn}&refresh=1` before READ; after warm, Encounter/Condition/Observation/DocRef present but Procedure/MedRequest/CarePlan/smoking LOINC `72166-2` remain **0** on `/fhir` |
+| fhirdev HF bootstrap | Created missing `^AUTTHF` LCS category/factors (`LCS CURRENT SMOKER`, `LCS YEARS SMOKED`, `LCS PACKS/DAY`, …) before writeback could file |
 
 Do **not** overload the CMS165 19. Instead:
 
