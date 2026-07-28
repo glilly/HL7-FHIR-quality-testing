@@ -5,16 +5,14 @@ Primary session (baseline): [bU76WglB84Q](https://inferno.healthit.gov/suites/us
 Post–Phase 1 re-run: [6mxkzqWWNgp](https://inferno.healthit.gov/suites/us_quality_core_v050/6mxkzqWWNgp)  
 Post–Phase 1b (remaining-4 cleared): [b4k7IkH6Spc](https://inferno.healthit.gov/suites/us_quality_core_v050/b4k7IkH6Spc)  
 Post–Phase 2 Encounter MS: [ciGSfwD025U](https://inferno.healthit.gov/suites/us_quality_core_v050/ciGSfwD025U) (MS pass; validation failed on rank/POA)  
-Post–Phase 2b Encounter MS fixed: [bA7DlEQpQLi](https://inferno.healthit.gov/suites/us_quality_core_v050/bA7DlEQpQLi)
-Post–Phase 2 DocRef MS: [46h5H1ZckSE](https://inferno.healthit.gov/suites/us_quality_core_v050/46h5H1ZckSE)  
+Post–Phase 2b Encounter MS fixed: [bA7DlEQpQLi](https://inferno.healthit.gov/suites/us_quality_core_v050/bA7DlEQpQLi)  
 FHIR base: `https://devfhir.vistaplex.org/fhir`  
 Cohort: CMS165 selected-18 **+ DFN 101090** (19 patients)  
 Scorecard: `2026/scorecards/inferno/fhirdev-fhir-cms165-selected18-plus101090.json`  
 Post–Phase 1: `2026/scorecards/inferno/fhirdev-fhir-cms165-selected18-plus101090-post-phase1.json`  
 Post–Phase 1b: `2026/scorecards/inferno/fhirdev-fhir-cms165-selected18-plus101090-post-phase1b.json`  
 Post–Phase 2: `2026/scorecards/inferno/inferno-fhirdev-cms165-20260727T204751Z-post-phase2-encounter-ms.json`  
-Post–Phase 2b: `2026/scorecards/inferno/inferno-fhirdev-cms165-20260727T211824Z-post-phase2b-encounter-ms.json`
-Post–Phase 2 DocRef: `2026/scorecards/inferno/inferno-fhirdev-cms165-20260728T001010Z-post-phase2-docref-ms.json`  
+Post–Phase 2b: `2026/scorecards/inferno/inferno-fhirdev-cms165-20260727T211824Z-post-phase2b-encounter-ms.json`  
 Machine triage: `2026/scorecards/inferno/fhirdev-fhir-cms165-selected18-plus101090-triage.json`
 
 Related earlier run (selected-18 only): [hOd61vtVwJF](https://inferno.healthit.gov/suites/us_quality_core_v050/hOd61vtVwJF) — 114p / 25f / 354s / 5e.
@@ -23,16 +21,17 @@ Related earlier run (selected-18 only): [hOd61vtVwJF](https://inferno.healthit.g
 
 ## Suite scoreboard
 
-| Scope | Pass | Fail | Skip | Error | Notes |
-|-------|-----:|-----:|-----:|------:|-------|
-| **Baseline suite (API)** | 117 | 23 | 353 | 5 | Includes `test_group` aggregate rows |
-| **Baseline leaf** | **115** | **12** | **310** | **1** | Actionable triage set |
-| **Post–Phase 1 suite** | 129 | 11 | 358 | 0 | Session `6mxkzqWWNgp` |
-| **Post–Phase 1 leaf** | **123** | **4** | **311** | **0** | Vitals/DocRef/encounter-search cleared |
-| **Post–Phase 1b suite** | 136 | 0 | 362 | 0 | Session `b4k7IkH6Spc` |
-| **Post–Phase 1b leaf** | **128** | **0** | **310** | **0** | Phase 1 validation exit met |
-| **Post–Phase 2b suite** | 138 | 0 | 360 | 0 | Session `bA7DlEQpQLi` — Encounter MS + validation green |
-| **Post–Phase 2 DocRef suite** | 139 | 0 | 359 | 0 | Session `46h5H1ZckSE` — DocRef MS + validation green |
+
+| Scope                    | Pass    | Fail   | Skip    | Error | Notes                                                   |
+| ------------------------ | ------- | ------ | ------- | ----- | ------------------------------------------------------- |
+| **Baseline suite (API)** | 117     | 23     | 353     | 5     | Includes `test_group` aggregate rows                    |
+| **Baseline leaf**        | **115** | **12** | **310** | **1** | Actionable triage set                                   |
+| **Post–Phase 1 suite**   | 129     | 11     | 358     | 0     | Session `6mxkzqWWNgp`                                   |
+| **Post–Phase 1 leaf**    | **123** | **4**  | **311** | **0** | Vitals/DocRef/encounter-search cleared                  |
+| **Post–Phase 1b suite**  | 136     | 0      | 362     | 0     | Session `b4k7IkH6Spc`                                   |
+| **Post–Phase 1b leaf**   | **128** | **0**  | **310** | **0** | Phase 1 validation exit met                             |
+| **Post–Phase 2b suite**  | 138     | 0      | 360     | 0     | Session `bA7DlEQpQLi` — Encounter MS + validation green |
+
 
 Inferno marks a parent group `fail` when a child validation fails, which inflates fail/error/skip counts. **Use leaf counts for planning.**
 
@@ -56,15 +55,17 @@ All 12 leaf fails are **profile validation** tests (not search). They collapse i
 
 ### Bucket A — Vitals Quantity missing UCUM `system` + `code` (7 fails)
 
-| Group | Profile |
-|-------|---------|
-| `us_core_blood_pressure` | us-core-blood-pressure\|6.1.0 |
-| `us_core_body_height` | us-core-body-height\|6.1.0 |
-| `us_core_body_weight` | us-core-body-weight\|6.1.0 |
-| `us_core_heart_rate` | us-core-heart-rate\|6.1.0 |
-| `us_core_respiratory_rate` | us-core-respiratory-rate\|6.1.0 |
-| `us_core_body_temperature` | us-core-body-temperature\|6.1.0 |
-| `us_core_pulse_oximetry` | us-core-pulse-oximetry\|6.1.0 |
+
+| Group                      | Profile                        |
+| -------------------------- | ------------------------------ |
+| `us_core_blood_pressure`   | us-core-blood-pressure|6.1.0   |
+| `us_core_body_height`      | us-core-body-height|6.1.0      |
+| `us_core_body_weight`      | us-core-body-weight|6.1.0      |
+| `us_core_heart_rate`       | us-core-heart-rate|6.1.0       |
+| `us_core_respiratory_rate` | us-core-respiratory-rate|6.1.0 |
+| `us_core_body_temperature` | us-core-body-temperature|6.1.0 |
+| `us_core_pulse_oximetry`   | us-core-pulse-oximetry|6.1.0   |
+
 
 **Dominant validator errors** (thousands of instances across resources):
 
@@ -88,7 +89,7 @@ All 12 leaf fails are **profile validation** tests (not search). They collapse i
 
 ### Bucket C — DocumentReference missing category + type (1 fail)
 
-`document_reference_validation_test` vs us-core-documentreference\|6.1.0
+`document_reference_validation_test` vs us-core-documentreference6.1.0
 
 - `DocumentReference.category` required, found 0 (**823** resources)
 - `DocumentReference.type` required from US Core DocumentReference Type VS (**823** resources)
@@ -106,10 +107,12 @@ All 12 leaf fails are **profile validation** tests (not search). They collapse i
 
 ### Bucket E — JSON primitive types (2 fails)
 
-| Group | Symptom |
-|-------|---------|
+
+| Group             | Symptom                                                                                               |
+| ----------------- | ----------------------------------------------------------------------------------------------------- |
 | `observation_lab` | `Observation.value[x]: Error parsing JSON: the primitive value must be a string` (2 lab Observations) |
-| `encounter` | `Encounter.type[0].coding[0].code`: primitive must be a string (`Encounter/E16602`) |
+| `encounter`       | `Encounter.type[0].coding[0].code`: primitive must be a string (`Encounter/E16602`)                   |
+
 
 **Likely cause:** M/`XLFJSON` (or custom encoder) emits numeric JSON for FHIR string elements (`code`, and possibly some `value` forms). Validator then rejects the resource.
 
@@ -119,9 +122,11 @@ All 12 leaf fails are **profile validation** tests (not search). They collapse i
 
 ## Leaf errors (1)
 
-| Test | Message |
-|------|---------|
+
+| Test                                 | Message                                                                                                           |
+| ------------------------------------ | ----------------------------------------------------------------------------------------------------------------- |
 | `encounter_patient_type_search_test` | `undefined method 'casecmp?' for an instance of Integer` in `us_quality_core_test_kit-0.1.2` `search_test.rb:892` |
+
 
 **Classification:** Triggered by our payload (non-string `Encounter.type.coding.code`), surfaces as an Inferno kit crash. Fixing Bucket E should clear this without waiting on an Inferno patch. Optionally file upstream against the test kit.
 
@@ -129,11 +134,13 @@ All 12 leaf fails are **profile validation** tests (not search). They collapse i
 
 ## Leaf skips (310) — taxonomy
 
-| Class | Count | Meaning |
-|------:|------:|---------|
-| **A. Cohort lacks resource type** | **233** | Inferno: “No X resources appear to be available / were found” |
-| **B. Must Support / referenced elements missing** | **76** | Resources exist, but required MS elements not present in any returned instance |
-| **Other** | 1 | Provenance author reference resolve |
+
+| Class                                             | Count   | Meaning                                                                        |
+| ------------------------------------------------- | ------- | ------------------------------------------------------------------------------ |
+| **A. Cohort lacks resource type**                 | **233** | Inferno: “No X resources appear to be available / were found”                  |
+| **B. Must Support / referenced elements missing** | **76**  | Resources exist, but required MS elements not present in any returned instance |
+| **Other**                                         | 1       | Provenance author reference resolve                                            |
+
 
 ### Class A — expected for a CMS165 vitals/HTN cohort
 
@@ -147,17 +154,19 @@ Missing resource types driving Class A (from skip messages): Observation subtype
 
 High-value MS skips (resources present, MS incomplete):
 
-| Group | Missing Must Support (abridged) |
-|-------|----------------------------------|
-| Patient | `name.suffix`, `extension:tribalAffiliation` |
-| Encounter | ~~`priority`, `reasonReference`, `diagnosis`, `hospitalization*`, POA extension~~ **done (Phase 2b)** |
-| DocumentReference | ~~`identifier`, `content.attachment.url`, `content.format`, `context.period`~~ **done (Phase 2 DocRef)** |
-| Observation lab | `issued`, `valueCodeableConcept`, `specimen` |
-| BP | `component.dataAbsentReason` (systolic/diastolic) |
-| Pulse ox | `component` FlowRate slice + quantities |
-| Condition (problems) | `abatementDateTime` |
-| AllergyIntolerance | `onset[x]`, `lastOccurrence` |
-| Location / Organization / Practitioner | address/telecom/NPI-style identifiers |
+
+| Group                                  | Missing Must Support (abridged)                                                                       |
+| -------------------------------------- | ----------------------------------------------------------------------------------------------------- |
+| Patient                                | `name.suffix`, `extension:tribalAffiliation`                                                          |
+| Encounter                              | ~~`priority`, `reasonReference`, `diagnosis`, `hospitalization*`, POA extension~~ **done (Phase 2b)** |
+| DocumentReference                      | `identifier`, `content.attachment.url`, `content.format`, `context.period`                            |
+| Observation lab                        | `issued`, `valueCodeableConcept`, `specimen`                                                          |
+| BP                                     | `component.dataAbsentReason` (systolic/diastolic)                                                     |
+| Pulse ox                               | `component` FlowRate slice + quantities                                                               |
+| Condition (problems)                   | `abatementDateTime`                                                                                   |
+| AllergyIntolerance                     | `onset[x]`, `lastOccurrence`                                                                          |
+| Location / Organization / Practitioner | address/telecom/NPI-style identifiers                                                                 |
+
 
 These are the skip rows worth engineering after Bucket A–E validation fails are green.
 
@@ -179,14 +188,16 @@ These are the skip rows worth engineering after Bucket A–E validation fails ar
 
 Order by ROI:
 
-| Step | Bucket | Change | Verify |
-|------|--------|--------|--------|
-| 1.1 | A | Emit UCUM `system` + `code` on all vital `valueQuantity` / BP components; stop emitting BP panel `value` as bare string | BP/height/weight/HR/RR/temp validation pass |
-| 1.2 | A′ | Pulse ox: LOINC O2Sat coding slice + UCUM; FlowRate component if data exists | pulse ox validation pass |
-| 1.3 | E | Force FHIR string JSON for `Coding.code` (Encounter.type, etc.) and fix lab `value[x]` encoding | encounter + lab validation pass; encounter patient+type search no longer **error** |
-| 1.4 | B | Condition Coding: SNOMED → `http://snomed.info/sct`; ICD-10/9 → correct sid; never put SCT codes under ICD systems | problems/health-concerns validation pass |
-| 1.5 | C | DocumentReference: `category` clinical-note + `type` from TIU title/LOINC map | DocRef validation pass |
-| 1.6 | D | Immunization: CVX canonical display (or drop display) | immunization validation pass |
+
+| Step | Bucket | Change                                                                                                                  | Verify                                                                             |
+| ---- | ------ | ----------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
+| 1.1  | A      | Emit UCUM `system` + `code` on all vital `valueQuantity` / BP components; stop emitting BP panel `value` as bare string | BP/height/weight/HR/RR/temp validation pass                                        |
+| 1.2  | A′     | Pulse ox: LOINC O2Sat coding slice + UCUM; FlowRate component if data exists                                            | pulse ox validation pass                                                           |
+| 1.3  | E      | Force FHIR string JSON for `Coding.code` (Encounter.type, etc.) and fix lab `value[x]` encoding                         | encounter + lab validation pass; encounter patient+type search no longer **error** |
+| 1.4  | B      | Condition Coding: SNOMED → `http://snomed.info/sct`; ICD-10/9 → correct sid; never put SCT codes under ICD systems      | problems/health-concerns validation pass                                           |
+| 1.5  | C      | DocumentReference: `category` clinical-note + `type` from TIU title/LOINC map                                           | DocRef validation pass                                                             |
+| 1.6  | D      | Immunization: CVX canonical display (or drop display)                                                                   | immunization validation pass                                                       |
+
 
 **Owner surface:** `VistA-FHIR-Server-Codex` observation/condition/document/immunization export routines (vitals path centered on `C0FWVIT` / related Observation builders).
 
@@ -196,10 +207,10 @@ Order by ROI:
 
 Prioritize MS that unblock Inferno “could not find … in the N provided resource(s)” for **green families**:
 
-1. **Encounter** — **done (Phase 2b / `bA7DlEQpQLi`)**: diagnosis, reasonReference, priority, hospitalization, POA  
-2. **DocumentReference** — **done (`46h5H1ZckSE`)**: identifier, format, attachment.url, context.period  
-3. **Observation lab** — `issued`, Specimen link when LABADD creates specimen  
-4. **Organization / Practitioner / Location** — telecom/address/NPI slices  
+1. **Encounter** — **done (Phase 2b / `bA7DlEQpQLi`)**: diagnosis, reasonReference, priority, hospitalization, POA
+2. **DocumentReference** — type already in Phase 1; add `content.format`, `context.period`, attachment url or stable contentType
+3. **Observation lab** — **done (`2ZWFBO4q4fD`)**: issued, specimen, valueString/valueCodeableConcept showcase
+4. **Organization / Practitioner / Location** — telecom/address/NPI slices
 5. **Patient** — only if easy wins; tribalAffiliation/suffix are low clinical value for demo
 
 **Exit criteria:** MS skip count on Encounter/DocRef/Lab/Org/Pract drops; no new validation fails.
@@ -216,8 +227,8 @@ Do **not** overload the CMS165 19. Instead:
 
 ### Phase 4 — Upstream / hygiene
 
-1. File Inferno test-kit issue for `casecmp?` Integer crash (with repro Encounter JSON).  
-2. Optionally suppress or downgrade noisy Condition category draft-CodeSystem infos once coding is fixed.  
+1. File Inferno test-kit issue for `casecmp?` Integer crash (with repro Encounter JSON).
+2. Optionally suppress or downgrade noisy Condition category draft-CodeSystem infos once coding is fixed.
 3. Refresh connectathon session doc with new leaf scoreboard after Phase 1.
 
 ---
@@ -235,21 +246,23 @@ Parallel: Phase 3 showcase patients for CMS130/138/smoking/meds
 
 ---
 
-## Appendix — leaf fail checklist
-
-Phase 1 code deployed to fhirdev **2026-07-27** (`C0FHIRD` SCTFROM + UCUM/VDEFU, `C0FHIRL` LABQTY, `C0FHIRM` CVXDISP, `C0FHIRBU` FORCESTR valueString, Encounter `"code","\s"`). Stale `fhir-dataframe` cache hid lab UCUM until INV+rebuild. **Re-run Inferno session to confirm leaf counts.**
-
-Smoke after deploy+cache rebuild (no `refresh=` required):
-
-| Resource | Result |
-|----------|--------|
-| `Condition/C2577` | SNOMED `38341003` (was ICD-10) |
-| Labs DFN 101122 | `valueQuantity` with UCUM `mg/dL` (was unit-only) |
-| Imm CVX 208 | `COVID-19, mRNA, LNP-S, PF, 30 mcg/0.3 mL dose` |
-| Pain vitals | UCUM `{score}` |
-| BP components | UCUM `mm[Hg]` |
-| Encounter type coding | JSON string `code` (no unquoted numerics) |
-| DocRef category/type | Already green on live before this slice |
+> ## Appendix — leaf fail checklist
+>
+> Phase 1 code deployed to fhirdev **2026-07-27** (`C0FHIRD` SCTFROM + UCUM/VDEFU, `C0FHIRL` LABQTY, `C0FHIRM` CVXDISP, `C0FHIRBU` FORCESTR valueString, Encounter `"code","\s"`). Stale `fhir-dataframe` cache hid lab UCUM until INV+rebuild. **Re-run Inferno session to confirm leaf counts.**
+>
+> Smoke after deploy+cache rebuild (no `refresh=` required):
+>
+>
+> | Resource              | Result                                            |
+> | --------------------- | ------------------------------------------------- |
+> | `Condition/C2577`     | SNOMED `38341003` (was ICD-10)                    |
+> | Labs DFN 101122       | `valueQuantity` with UCUM `mg/dL` (was unit-only) |
+> | Imm CVX 208           | `COVID-19, mRNA, LNP-S, PF, 30 mcg/0.3 mL dose`   |
+> | Pain vitals           | UCUM `{score}`                                    |
+> | BP components         | UCUM `mm[Hg]`                                     |
+> | Encounter type coding | JSON string `code` (no unquoted numerics)         |
+> | DocRef category/type  | Already green on live before this slice           |
+>
 
 - [x] `us_core_blood_pressure_validation_test` — UCUM on components (live smoke)
 - [x] `us_core_body_height_validation_test` — UCUM (live smoke)
@@ -275,3 +288,4 @@ python3 - <<'PY'
 # artifact: 2026/scorecards/inferno/fhirdev-fhir-cms165-selected18-plus101090-triage.json
 PY
 ```
+
