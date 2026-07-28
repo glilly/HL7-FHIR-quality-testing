@@ -31,6 +31,8 @@ Related earlier run (selected-18 only): [hOd61vtVwJF](https://inferno.healthit.g
 | **Post–Phase 1b suite**  | 136     | 0      | 362     | 0     | Session `b4k7IkH6Spc`                                   |
 | **Post–Phase 1b leaf**   | **128** | **0**  | **310** | **0** | Phase 1 validation exit met                             |
 | **Post–Phase 2b suite**  | 138     | 0      | 360     | 0     | Session `bA7DlEQpQLi` — Encounter MS + validation green |
+| **Post–Phase 2 DocRef**  | 139     | 0      | 359     | 0     | Session `46h5H1ZckSE` — DocRef MS + validation green    |
+| **Post–Phase 2 lab**     | 148     | 0      | 350     | 0     | Session `2ZWFBO4q4fD` — lab MS + validation green       |
 
 
 Inferno marks a parent group `fail` when a child validation fails, which inflates fail/error/skip counts. **Use leaf counts for planning.**
@@ -160,7 +162,7 @@ High-value MS skips (resources present, MS incomplete):
 | Patient                                | `name.suffix`, `extension:tribalAffiliation`                                                          |
 | Encounter                              | ~~`priority`, `reasonReference`, `diagnosis`, `hospitalization*`, POA extension~~ **done (Phase 2b)** |
 | DocumentReference                      | `identifier`, `content.attachment.url`, `content.format`, `context.period`                            |
-| Observation lab                        | `issued`, `valueCodeableConcept`, `specimen`                                                          |
+| Observation lab                        | ~~`issued`, `valueCodeableConcept`, `valueString`, `specimen`~~ **done**                               |
 | BP                                     | `component.dataAbsentReason` (systolic/diastolic)                                                     |
 | Pulse ox                               | `component` FlowRate slice + quantities                                                               |
 | Condition (problems)                   | `abatementDateTime`                                                                                   |
