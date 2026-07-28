@@ -1,11 +1,13 @@
 # Hosted Inferno remaining errors & skips — fhirdev CMS165 cohort
 
-Status date: **2026-07-27**  
+Status date: **2026-07-28**  
 Primary session (baseline): [bU76WglB84Q](https://inferno.healthit.gov/suites/us_quality_core_v050/bU76WglB84Q)  
 Post–Phase 1 re-run: [6mxkzqWWNgp](https://inferno.healthit.gov/suites/us_quality_core_v050/6mxkzqWWNgp)  
 Post–Phase 1b (remaining-4 cleared): [b4k7IkH6Spc](https://inferno.healthit.gov/suites/us_quality_core_v050/b4k7IkH6Spc)  
 Post–Phase 2 Encounter MS: [ciGSfwD025U](https://inferno.healthit.gov/suites/us_quality_core_v050/ciGSfwD025U) (MS pass; validation failed on rank/POA)  
 Post–Phase 2b Encounter MS fixed: [bA7DlEQpQLi](https://inferno.healthit.gov/suites/us_quality_core_v050/bA7DlEQpQLi)  
+Post–Phase 2 Org/Prac/Loc (intermediate): [tdgGrrmrW8](https://inferno.healthit.gov/suites/us_quality_core_v050/tdgGrrmrW8) (9 fail — NPI/address shape)  
+Post–Phase 2b Org/Prac/Loc MS green: [aMDGuIZYfcf](https://inferno.healthit.gov/suites/us_quality_core_v050/aMDGuIZYfcf)  
 FHIR base: `https://devfhir.vistaplex.org/fhir`  
 Cohort: CMS165 selected-18 **+ DFN 101090** (19 patients)  
 Scorecard: `2026/scorecards/inferno/fhirdev-fhir-cms165-selected18-plus101090.json`  
@@ -13,6 +15,8 @@ Post–Phase 1: `2026/scorecards/inferno/fhirdev-fhir-cms165-selected18-plus1010
 Post–Phase 1b: `2026/scorecards/inferno/fhirdev-fhir-cms165-selected18-plus101090-post-phase1b.json`  
 Post–Phase 2: `2026/scorecards/inferno/inferno-fhirdev-cms165-20260727T204751Z-post-phase2-encounter-ms.json`  
 Post–Phase 2b: `2026/scorecards/inferno/inferno-fhirdev-cms165-20260727T211824Z-post-phase2b-encounter-ms.json`  
+Post–Phase 2 Org/Prac/Loc: `2026/scorecards/inferno/inferno-fhirdev-cms165-20260728T025519Z-post-phase2-org-prac-loc-ms.json`  
+Post–Phase 2b Org/Prac/Loc: `2026/scorecards/inferno/inferno-fhirdev-cms165-20260728T055404Z-post-phase2b-org-prac-loc-ms.json`  
 Machine triage: `2026/scorecards/inferno/fhirdev-fhir-cms165-selected18-plus101090-triage.json`
 
 Related earlier run (selected-18 only): [hOd61vtVwJF](https://inferno.healthit.gov/suites/us_quality_core_v050/hOd61vtVwJF) — 114p / 25f / 354s / 5e.
@@ -33,6 +37,8 @@ Related earlier run (selected-18 only): [hOd61vtVwJF](https://inferno.healthit.g
 | **Post–Phase 2b suite**  | 138     | 0      | 360     | 0     | Session `bA7DlEQpQLi` — Encounter MS + validation green |
 | **Post–Phase 2 DocRef**  | 139     | 0      | 359     | 0     | Session `46h5H1ZckSE` — DocRef MS + validation green    |
 | **Post–Phase 2 lab**     | 148     | 0      | 350     | 0     | Session `2ZWFBO4q4fD` — lab MS + validation green       |
+| **Post–Phase 2 Org/Prac/Loc** | 143 | 9      | 346     | 0     | Session `tdgGrrmrW8` — intermediate (NPI/address fails) |
+| **Post–Phase 2b Org/Prac/Loc** | 154 | 0    | 344     | 0     | Session `aMDGuIZYfcf` — Org/Pract/Location MS + validation green |
 
 
 Inferno marks a parent group `fail` when a child validation fails, which inflates fail/error/skip counts. **Use leaf counts for planning.**
@@ -212,7 +218,7 @@ Prioritize MS that unblock Inferno “could not find … in the N provided resou
 1. **Encounter** — **done (Phase 2b / `bA7DlEQpQLi`)**: diagnosis, reasonReference, priority, hospitalization, POA
 2. **DocumentReference** — type already in Phase 1; add `content.format`, `context.period`, attachment url or stable contentType
 3. **Observation lab** — **done (`2ZWFBO4q4fD`)**: issued, specimen, valueString/valueCodeableConcept showcase
-4. **Organization / Practitioner / Location** — telecom/address/NPI slices
+4. **Organization / Practitioner / Location** — **done (`aMDGuIZYfcf`)**: telecom/address/NPI/CCN/EIN
 5. **Patient** — only if easy wins; tribalAffiliation/suffix are low clinical value for demo
 
 **Exit criteria:** MS skip count on Encounter/DocRef/Lab/Org/Pract drops; no new validation fails.
