@@ -1,0 +1,15 @@
+# September Inferno showcase union (Phase 3)
+# One loaded showcase DFN per first-wave measure (+ CMS131 stretch).
+# FHIR base: https://devfhir.vistaplex.org/fhir
+# Frozen: 2026-07-28
+#
+# CMS165  101090  CHALMERS,PETER          HTN / BP anchor
+# CMS122  101114  DICKINSON688,ABDUL218   diabetes / labs
+# CMS130  101115  CONROY74,ADOLFO777      colorectal / procedure
+# CMS125  101116  TROMP100,ALANE21        mammography / note DR
+# CMS138  101120  DICKINSON688,ABDUL218   smoking (Abdul CMS138 load)
+# CMS2    101121  REMPEL203,AARON697      depression screening
+# CMS131  101119  MANTE251,ALEX454        eye exam stretch
+#
+# Comma list for inferno-run.py --patient-ids:
+101090,101114,101115,101116,101120,101121,101119

@@ -225,11 +225,27 @@ Prioritize MS that unblock Inferno “could not find … in the N provided resou
 
 ### Phase 3 — Cohort / showcase expansion for Class A skips (September track)
 
+**Working Inferno cohort (frozen 2026-07-28):** `2026/cohorts/inferno/september-showcase-union.txt`  
+Patient IDs: `101090,101114,101115,101116,101120,101121,101119`  
+(CMS165/122/130/125/138/2 + CMS131 stretch). Keep CMS165-19 as regression-only.
+
+**Phase 3 baseline Inferno (2026-07-28):** [lXXzcnYYP8x](https://inferno.healthit.gov/suites/us_quality_core_v050/lXXzcnYYP8x)  
+Scorecard: `2026/scorecards/inferno/inferno-fhirdev-september-showcase-20260728T204226Z-baseline.{json,md}`  
+Headline (all results): **152 pass / 5 fail / 341 skip**; leaf: **139 pass / 1 fail / 298 skip**.
+
+| Finding | Detail |
+| ------- | ------ |
+| Leaf fail | Immunization validation — CVX **212** wrong display (`ChAdOx1` vs required Ad26 / SARS-COV-2 Ad26 strings) on `IM1424`/`IM1444` |
+| Still Class A (no resources) | Procedure, MedicationRequest, CarePlan, ServiceRequest, SmokingStatus, Clinical Result, Goal, … |
+| Partially exercised | DiagnosticReport Lab has **1 leaf pass** on this union (still mostly no-resources across patients) |
+| Smoke gap | Showcase DFNs need `Patient?_id={dfn}&refresh=1` before READ; after warm, Encounter/Condition/Observation/DocRef present but Procedure/MedRequest/CarePlan/smoking LOINC `72166-2` remain **0** on `/fhir` |
+
 Do **not** overload the CMS165 19. Instead:
 
 1. Maintain a **showcase DFN matrix** (one patient covering each missing Inferno family) — already sketched in `SEPTEMBER_MEASURE_INFERNO_ELEMENT_MAPPING.md`.
-2. Prefer Synthea enrichment + `load=1` for Procedure, SmokingStatus, MedicationRequest, ServiceRequest, DiagnosticReport Lab, CarePlan as needed for CMS130/138/122 demos.
-3. Run Inferno with a **union patient ID list** (CMS165 core + showcase add-ons) when measuring suite completeness.
+2. Prefer Synthea enrichment + `load=1` (and/or reminders HF `KBAILCS2` for smoking) for Procedure, SmokingStatus, MedicationRequest, ServiceRequest, DiagnosticReport Lab, CarePlan as needed for CMS130/138/122 demos — **data must land in VistA graphs that Codex exports**, not only in source bundles.
+3. Run Inferno with the **showcase union** above when measuring suite completeness (not the CMS165 selected-18 list).
+4. Fix CVX 212 display map (quick hygiene) so showcase baseline leaf fail returns to 0.
 
 **Exit criteria:** Class A skips for first-wave September measures move to exercised (pass or MS-gap Class B), not “no resources.”
 
