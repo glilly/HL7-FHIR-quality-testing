@@ -50,7 +50,7 @@ Inferno marks a parent group `fail` when a child validation fails, which inflate
 Leaf groups with **no fails** and meaningful passes on this cohort:
 
 - **Patient**, **Condition Encounter Diagnosis** (8/8), **Provenance**
-- **AllergyIntolerance**, **Location**, **Organization**, **Practitioner** (search/read mostly green; Must Support still skips)
+- **AllergyIntolerance**; **Location**, **Organization**, **Practitioner** (MS + validation green as of `aMDGuIZYfcf`)
 - Vital **search/read** paths largely pass; failures are concentrated in **validation** tests
 
 CMS165-oriented evidence (encounters, vitals, hypertension conditions, immunizations, labs, notes) is present enough for Inferno to exercise those families — the remaining work is **shape/coding quality**, not “no data at all” for the CMS165 core.
@@ -173,7 +173,7 @@ High-value MS skips (resources present, MS incomplete):
 | Pulse ox                               | `component` FlowRate slice + quantities                                                               |
 | Condition (problems)                   | `abatementDateTime`                                                                                   |
 | AllergyIntolerance                     | `onset[x]`, `lastOccurrence`                                                                          |
-| Location / Organization / Practitioner | address/telecom/NPI-style identifiers                                                                 |
+| Location / Organization / Practitioner | ~~address/telecom/NPI-style identifiers~~ **done (Phase 2b / `aMDGuIZYfcf`)**                          |
 
 
 These are the skip rows worth engineering after Bucket A–E validation fails are green.
