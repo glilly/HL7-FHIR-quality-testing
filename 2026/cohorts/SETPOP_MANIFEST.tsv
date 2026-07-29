@@ -26,7 +26,6 @@ CMS130v14	101110	0	0	0	0	c0x-map synthea cql=0/0/0/0	official-cql
 CMS130v14	101115	1	1	0	0	c0x-map synthea cql=1/1/0/0	official-cql
 CMS130v14	101116	0	0	0	0	c0x-map synthea cql=0/0/0/0	official-cql
 CMS130v14	101119	0	0	0	0	c0x-map synthea cql=0/0/0/0	official-cql
-CMS138v14	101120	0	0	0	0	showcase Abdul218/Dickinson688 uuid=42001217… cql=0/0/0/0	official-cql
 CMS165v14	101077	1	0	0	0	c0x-sparql-ipp proxy (no synthea map)	heuristic-c0x
 CMS165v14	101084	1	0	0	0	c0x-sparql-ipp proxy (no synthea map)	heuristic-c0x
 CMS165v14	101088	1	0	0	0	c0x-sparql-ipp proxy (no synthea map)	heuristic-c0x
@@ -54,3 +53,36 @@ CMS2v15	101094	1	1	0	0	uuid-map Adam631/Schmeler639 uuid=27429a40… cql=1/1/0/0
 CMS2v15	101115	1	1	0	0	uuid-map Adolfo777/Conroy74 uuid=0bee0f5a… cql=1/1/0/0	official-cql
 CMS2v15	101120	1	1	0	0	uuid-map Abdul218/Dickinson688 uuid=42001217… cql=1/1/0/0	official-cql
 CMS2v15	101121	0	0	0	0	showcase Aaron697/Rempel203 uuid=71b66807… cql=0/0/0/0	official-cql
+CMS138v14	101065	0	0	0	0	fhirdev-live-cql=0/0/0/0 assessment-performed	official-cql
+CMS138v14	101077	1	1	1	0	fhirdev-live-cql=1/1/1/0 assessment-performed	official-cql
+CMS138v14	101078	0	0	0	0	fhirdev-live-cql=0/0/0/0 assessment-performed	official-cql
+CMS138v14	101084	1	1	0	0	fhirdev-live-cql=1/1/0/0 assessment-performed	official-cql
+CMS138v14	101087	0	0	0	0	fhirdev-live-cql=0/0/0/0 assessment-performed	official-cql
+CMS138v14	101088	0	0	0	0	fhirdev-live-cql=0/0/0/0 assessment-performed	official-cql
+CMS138v14	101089	1	1	0	0	fhirdev-live-cql=1/1/0/0 assessment-performed	official-cql
+CMS138v14	101090	1	1	0	0	fhirdev-live-cql=1/1/0/0 assessment-performed	official-cql
+CMS138v14	101094	1	1	0	0	fhirdev-live-cql=1/1/0/0 assessment-performed	official-cql
+CMS138v14	101095	1	1	0	0	fhirdev-live-cql=1/1/0/0 assessment-performed	official-cql
+CMS138v14	101096	1	1	0	0	fhirdev-live-cql=1/1/0/0 assessment-performed	official-cql
+CMS138v14	101097	1	1	0	0	fhirdev-live-cql=1/1/0/0 assessment-performed	official-cql
+CMS138v14	101098	1	1	0	0	fhirdev-live-cql=1/1/0/0 assessment-performed	official-cql
+CMS138v14	101099	1	1	0	0	fhirdev-live-cql=1/1/0/0 assessment-performed	official-cql
+CMS138v14	101100	1	1	0	0	fhirdev-live-cql=1/1/0/0 assessment-performed	official-cql
+CMS138v14	101101	1	1	0	0	fhirdev-live-cql=1/1/0/0 assessment-performed	official-cql
+CMS138v14	101102	1	1	0	0	fhirdev-live-cql=1/1/0/0 assessment-performed	official-cql
+CMS138v14	101103	1	1	0	0	fhirdev-live-cql=1/1/0/0 assessment-performed	official-cql
+CMS138v14	101104	1	1	0	0	fhirdev-live-cql=1/1/0/0 assessment-performed	official-cql
+CMS138v14	101105	1	1	0	0	fhirdev-live-cql=1/1/0/0 assessment-performed	official-cql
+CMS138v14	101106	1	1	0	0	fhirdev-live-cql=1/1/0/0 assessment-performed	official-cql
+CMS138v14	101107	1	1	0	0	fhirdev-live-cql=1/1/0/0 assessment-performed	official-cql
+CMS138v14	101108	1	1	0	0	fhirdev-live-cql=1/1/0/0 assessment-performed	official-cql
+CMS138v14	101109	1	1	0	0	fhirdev-live-cql=1/1/0/0 assessment-performed	official-cql
+CMS138v14	101110	1	1	0	0	fhirdev-live-cql=1/1/0/0 assessment-performed	official-cql
+CMS138v14	101111	1	1	0	0	fhirdev-live-cql=1/1/0/0 assessment-performed	official-cql
+CMS138v14	101114	1	1	0	0	fhirdev-live-cql=1/1/0/0 assessment-performed	official-cql
+CMS138v14	101115	1	1	0	0	fhirdev-live-cql=1/1/0/0 assessment-performed	official-cql
+CMS138v14	101116	0	0	0	0	fhirdev-live-cql=0/0/0/0 assessment-performed	official-cql
+CMS138v14	101119	0	0	0	0	fhirdev-live-cql=0/0/0/0 assessment-performed	official-cql
+CMS138v14	101120	1	1	1	0	fhirdev-live-cql=1/1/1/0 assessment-performed	official-cql
+CMS138v14	101121	0	0	0	0	fhirdev-live-cql=0/0/0/0 assessment-performed	official-cql
+CMS138v14	101122	1	1	0	0	fhirdev-live-cql=1/1/0/0 assessment-performed	official-cql

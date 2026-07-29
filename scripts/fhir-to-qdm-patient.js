@@ -113,6 +113,30 @@ function quantityResult(vq) {
   return { value: Number(vq.value), unit };
 }
 
+/** CMS138 Tobacco Use Screening LOINCs (VSAC oid 2.16.840.1.113883.3.526.3.1278). */
+const TOBACCO_SCREENING_LOINC = new Set([
+  "72166-2",
+  "68535-4",
+  "68536-2",
+  "39240-7",
+]);
+
+/** QDM Code result from FHIR CodeableConcept (smoking status, etc.). */
+function codeableResult(codeable) {
+  const codes = codingList(codeable);
+  return codes.length ? codes[0] : null;
+}
+
+function isTobaccoScreeningObservation(resource, codes) {
+  if (codes.some((c) => TOBACCO_SCREENING_LOINC.has(String(c.code)))) return true;
+  const categories = (resource.category || [])
+    .flatMap((c) => (c.coding || []).map((x) => String(x.code || "").toLowerCase()));
+  if (categories.includes("social-history") && codes.some((c) => String(c.code).startsWith("72166"))) {
+    return true;
+  }
+  return false;
+}
+
 /**
  * QDM Diagnosis prevalencePeriod.
  * FHIR Conditions often have onset without abatement; treating that as a
@@ -267,6 +291,27 @@ function patientFrom(bundle) {
         instant(resource.issued);
       const period = periodFrom(resource);
       const components = [];
+
+      // CMS138: Tobacco Use Screening is Assessment, Performed (not Physical Exam).
+      if (isTobaccoScreeningObservation(resource, codes)) {
+        const result = codeableResult(resource.valueCodeableConcept);
+        dataElements.push({
+          authorDatetime: when,
+          category: "assessment",
+          dataElementCodes: codes,
+          description:
+            "Assessment, Performed: " + (resource.code?.text || codes[0].display || codes[0].code),
+          hqmfOid: "2.16.840.1.113883.10.20.28.4.117",
+          relevantDatetime: when,
+          relevantPeriod: period,
+          result,
+          qdmStatus: "performed",
+          qdmVersion: "5.6",
+          _type: "QDM::AssessmentPerformed",
+          _bridgeHint: "tobacco-screening",
+        });
+        continue;
+      }
 
       // CMS165 retrieves SBP/DBP as distinct Physical Exam, Performed codes
       // (8480-6 / 8462-4) with Quantity result.unit = 'mm[Hg]'. Synthea stores

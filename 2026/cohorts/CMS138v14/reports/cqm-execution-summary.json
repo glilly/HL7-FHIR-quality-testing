@@ -2,6 +2,9 @@
   "cms_id": "CMS138v14",
   "patients": 18,
   "expanded_value_sets": 36,
+  "ipp": 1,
+  "denom": 0,
+  "numer": 0,
   "batch": "/home/glilly/work/vista-stack/HL7-FHIR-quality-testing/2026/cohorts/CMS138v14/reports/cqm-execution-batch.json",
-  "note": "See batch JSON for per-patient population results"
+  "note": "selected-18 Synthea source bundles; dashboard uses fhirdev live SETPOP"
 }

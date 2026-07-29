@@ -1,0 +1,52 @@
+{
+  "generatedAt": "2026-07-29T19:26:30Z",
+  "source": "2026/cohorts/SETPOP_MANIFEST.tsv",
+  "period": {
+    "start": "2026-01-01",
+    "end": "2026-12-31"
+  },
+  "measures": {
+    "CMS122v14": {
+      "path": "CMS122v14/index.json",
+      "html": "CMS122v14/index.html",
+      "summary": "CMS122v14/summary.json",
+      "bundle": "CMS122v14/Bundle-all.json",
+      "patients": 9
+    },
+    "CMS125v14": {
+      "path": "CMS125v14/index.json",
+      "html": "CMS125v14/index.html",
+      "summary": "CMS125v14/summary.json",
+      "bundle": "CMS125v14/Bundle-all.json",
+      "patients": 1
+    },
+    "CMS130v14": {
+      "path": "CMS130v14/index.json",
+      "html": "CMS130v14/index.html",
+      "summary": "CMS130v14/summary.json",
+      "bundle": "CMS130v14/Bundle-all.json",
+      "patients": 17
+    },
+    "CMS138v14": {
+      "path": "CMS138v14/index.json",
+      "html": "CMS138v14/index.html",
+      "summary": "CMS138v14/summary.json",
+      "bundle": "CMS138v14/Bundle-all.json",
+      "patients": 33
+    },
+    "CMS165v14": {
+      "path": "CMS165v14/index.json",
+      "html": "CMS165v14/index.html",
+      "summary": "CMS165v14/summary.json",
+      "bundle": "CMS165v14/Bundle-all.json",
+      "patients": 23
+    },
+    "CMS2v15": {
+      "path": "CMS2v15/index.json",
+      "html": "CMS2v15/index.html",
+      "summary": "CMS2v15/summary.json",
+      "bundle": "CMS2v15/Bundle-all.json",
+      "patients": 4
+    }
+  }
+}

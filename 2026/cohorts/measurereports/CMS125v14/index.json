@@ -1,0 +1,25 @@
+{
+  "measure": "CMS125v14",
+  "canonical": "https://ecqi.healthit.gov/ecqm/ec/CMS125v14",
+  "summary": "summary.json",
+  "bundle": "Bundle-all.json",
+  "individuals": [
+    {
+      "id": "CMS125v14-Patient-101116",
+      "dfn": "101116",
+      "path": "Patient-101116.json",
+      "ipp": 0,
+      "denom": 0,
+      "numer": 0,
+      "denex": 0,
+      "mode": "official-cql"
+    }
+  ],
+  "counts": {
+    "patients": 1,
+    "ipp": 0,
+    "denom": 0,
+    "numer": 0,
+    "denex": 0
+  }
+}

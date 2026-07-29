@@ -34,6 +34,19 @@ function readManifest(file) {
   return rows;
 }
 
+function statementTrue(pc, names) {
+  const srRoot = pc.statement_results || {};
+  const sr = Object.values(srRoot)[0] || {};
+  for (const name of names) {
+    if (Number(pc[name] || 0)) return true;
+    const st = sr[name];
+    if (!st) continue;
+    if (st === true || st === 1) return true;
+    if (typeof st === "object" && (st.raw === true || st.final === "TRUE" || st.pretty === true)) return true;
+  }
+  return false;
+}
+
 function popsFromResult(result) {
   const patientResults = result.patientResults || result || {};
   const keys = Object.keys(patientResults);
@@ -41,10 +54,11 @@ function popsFromResult(result) {
   const pr = patientResults[keys[0]] || {};
   const pc = pr.PopulationCriteria1 || Object.values(pr)[0] || {};
   return {
-    ipp: Number(pc.IPP || 0) ? 1 : 0,
-    denom: Number(pc.DENOM || 0) ? 1 : 0,
-    numer: Number(pc.NUMER || 0) ? 1 : 0,
-    denex: Number(pc.DENEX || 0) ? 1 : 0,
+    ipp: statementTrue(pc, ["IPP", "Initial Population"]) ? 1 : 0,
+    // CMS138 is multi-rate (Denominator 1/2/3); accept any rate for cohort flags.
+    denom: statementTrue(pc, ["DENOM", "Denominator", "Denominator 1", "Denominator 2", "Denominator 3"]) ? 1 : 0,
+    numer: statementTrue(pc, ["NUMER", "Numerator", "Numerator 1", "Numerator 2", "Numerator 3"]) ? 1 : 0,
+    denex: statementTrue(pc, ["DENEX", "Denominator Exclusion"]) ? 1 : 0,
   };
 }
 

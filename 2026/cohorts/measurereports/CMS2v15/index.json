@@ -1,0 +1,55 @@
+{
+  "measure": "CMS2v15",
+  "canonical": "https://ecqi.healthit.gov/ecqm/ec/CMS2v15",
+  "summary": "summary.json",
+  "bundle": "Bundle-all.json",
+  "individuals": [
+    {
+      "id": "CMS2v15-Patient-101094",
+      "dfn": "101094",
+      "path": "Patient-101094.json",
+      "ipp": 1,
+      "denom": 1,
+      "numer": 0,
+      "denex": 0,
+      "mode": "official-cql"
+    },
+    {
+      "id": "CMS2v15-Patient-101115",
+      "dfn": "101115",
+      "path": "Patient-101115.json",
+      "ipp": 1,
+      "denom": 1,
+      "numer": 0,
+      "denex": 0,
+      "mode": "official-cql"
+    },
+    {
+      "id": "CMS2v15-Patient-101120",
+      "dfn": "101120",
+      "path": "Patient-101120.json",
+      "ipp": 1,
+      "denom": 1,
+      "numer": 0,
+      "denex": 0,
+      "mode": "official-cql"
+    },
+    {
+      "id": "CMS2v15-Patient-101121",
+      "dfn": "101121",
+      "path": "Patient-101121.json",
+      "ipp": 0,
+      "denom": 0,
+      "numer": 0,
+      "denex": 0,
+      "mode": "official-cql"
+    }
+  ],
+  "counts": {
+    "patients": 4,
+    "ipp": 3,
+    "denom": 3,
+    "numer": 0,
+    "denex": 0
+  }
+}

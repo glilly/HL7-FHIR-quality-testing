@@ -1,0 +1,245 @@
+{
+  "measure": "CMS165v14",
+  "canonical": "https://ecqi.healthit.gov/ecqm/ec/CMS165v14",
+  "summary": "summary.json",
+  "bundle": "Bundle-all.json",
+  "individuals": [
+    {
+      "id": "CMS165v14-Patient-101077",
+      "dfn": "101077",
+      "path": "Patient-101077.json",
+      "ipp": 1,
+      "denom": 0,
+      "numer": 0,
+      "denex": 0,
+      "mode": "heuristic-c0x"
+    },
+    {
+      "id": "CMS165v14-Patient-101084",
+      "dfn": "101084",
+      "path": "Patient-101084.json",
+      "ipp": 1,
+      "denom": 0,
+      "numer": 0,
+      "denex": 0,
+      "mode": "heuristic-c0x"
+    },
+    {
+      "id": "CMS165v14-Patient-101088",
+      "dfn": "101088",
+      "path": "Patient-101088.json",
+      "ipp": 1,
+      "denom": 0,
+      "numer": 0,
+      "denex": 0,
+      "mode": "heuristic-c0x"
+    },
+    {
+      "id": "CMS165v14-Patient-101094",
+      "dfn": "101094",
+      "path": "Patient-101094.json",
+      "ipp": 1,
+      "denom": 1,
+      "numer": 1,
+      "denex": 0,
+      "mode": "official-cql"
+    },
+    {
+      "id": "CMS165v14-Patient-101095",
+      "dfn": "101095",
+      "path": "Patient-101095.json",
+      "ipp": 1,
+      "denom": 1,
+      "numer": 1,
+      "denex": 0,
+      "mode": "official-cql"
+    },
+    {
+      "id": "CMS165v14-Patient-101096",
+      "dfn": "101096",
+      "path": "Patient-101096.json",
+      "ipp": 1,
+      "denom": 1,
+      "numer": 1,
+      "denex": 0,
+      "mode": "official-cql"
+    },
+    {
+      "id": "CMS165v14-Patient-101097",
+      "dfn": "101097",
+      "path": "Patient-101097.json",
+      "ipp": 1,
+      "denom": 1,
+      "numer": 1,
+      "denex": 0,
+      "mode": "official-cql"
+    },
+    {
+      "id": "CMS165v14-Patient-101098",
+      "dfn": "101098",
+      "path": "Patient-101098.json",
+      "ipp": 1,
+      "denom": 1,
+      "numer": 1,
+      "denex": 0,
+      "mode": "official-cql"
+    },
+    {
+      "id": "CMS165v14-Patient-101099",
+      "dfn": "101099",
+      "path": "Patient-101099.json",
+      "ipp": 0,
+      "denom": 0,
+      "numer": 0,
+      "denex": 0,
+      "mode": "official-cql"
+    },
+    {
+      "id": "CMS165v14-Patient-101100",
+      "dfn": "101100",
+      "path": "Patient-101100.json",
+      "ipp": 1,
+      "denom": 1,
+      "numer": 1,
+      "denex": 0,
+      "mode": "official-cql"
+    },
+    {
+      "id": "CMS165v14-Patient-101101",
+      "dfn": "101101",
+      "path": "Patient-101101.json",
+      "ipp": 1,
+      "denom": 1,
+      "numer": 1,
+      "denex": 0,
+      "mode": "official-cql"
+    },
+    {
+      "id": "CMS165v14-Patient-101102",
+      "dfn": "101102",
+      "path": "Patient-101102.json",
+      "ipp": 0,
+      "denom": 0,
+      "numer": 0,
+      "denex": 0,
+      "mode": "official-cql"
+    },
+    {
+      "id": "CMS165v14-Patient-101103",
+      "dfn": "101103",
+      "path": "Patient-101103.json",
+      "ipp": 1,
+      "denom": 1,
+      "numer": 1,
+      "denex": 0,
+      "mode": "official-cql"
+    },
+    {
+      "id": "CMS165v14-Patient-101104",
+      "dfn": "101104",
+      "path": "Patient-101104.json",
+      "ipp": 0,
+      "denom": 0,
+      "numer": 0,
+      "denex": 0,
+      "mode": "official-cql"
+    },
+    {
+      "id": "CMS165v14-Patient-101105",
+      "dfn": "101105",
+      "path": "Patient-101105.json",
+      "ipp": 1,
+      "denom": 1,
+      "numer": 1,
+      "denex": 0,
+      "mode": "official-cql"
+    },
+    {
+      "id": "CMS165v14-Patient-101106",
+      "dfn": "101106",
+      "path": "Patient-101106.json",
+      "ipp": 1,
+      "denom": 1,
+      "numer": 1,
+      "denex": 0,
+      "mode": "official-cql"
+    },
+    {
+      "id": "CMS165v14-Patient-101107",
+      "dfn": "101107",
+      "path": "Patient-101107.json",
+      "ipp": 1,
+      "denom": 1,
+      "numer": 1,
+      "denex": 0,
+      "mode": "official-cql"
+    },
+    {
+      "id": "CMS165v14-Patient-101108",
+      "dfn": "101108",
+      "path": "Patient-101108.json",
+      "ipp": 1,
+      "denom": 1,
+      "numer": 1,
+      "denex": 0,
+      "mode": "official-cql"
+    },
+    {
+      "id": "CMS165v14-Patient-101109",
+      "dfn": "101109",
+      "path": "Patient-101109.json",
+      "ipp": 1,
+      "denom": 1,
+      "numer": 1,
+      "denex": 0,
+      "mode": "official-cql"
+    },
+    {
+      "id": "CMS165v14-Patient-101110",
+      "dfn": "101110",
+      "path": "Patient-101110.json",
+      "ipp": 1,
+      "denom": 1,
+      "numer": 1,
+      "denex": 0,
+      "mode": "official-cql"
+    },
+    {
+      "id": "CMS165v14-Patient-101111",
+      "dfn": "101111",
+      "path": "Patient-101111.json",
+      "ipp": 1,
+      "denom": 1,
+      "numer": 1,
+      "denex": 0,
+      "mode": "official-cql"
+    },
+    {
+      "id": "CMS165v14-Patient-101115",
+      "dfn": "101115",
+      "path": "Patient-101115.json",
+      "ipp": 1,
+      "denom": 1,
+      "numer": 1,
+      "denex": 0,
+      "mode": "official-cql"
+    },
+    {
+      "id": "CMS165v14-Patient-101122",
+      "dfn": "101122",
+      "path": "Patient-101122.json",
+      "ipp": 0,
+      "denom": 0,
+      "numer": 0,
+      "denex": 0,
+      "mode": "official-cql"
+    }
+  ],
+  "counts": {
+    "patients": 23,
+    "ipp": 19,
+    "denom": 16,
+    "numer": 16,
+    "denex": 0
+  }
+}
