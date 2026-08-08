@@ -105,6 +105,65 @@ Public host (when published):
 
 Local `deqm-test-server` also accepts anonymous POSTs on `:3000`.
 
+## Live demo script (10-minute loop, then run it twice)
+
+The demo walks the DEQM exchange pattern end to end — clinical data
+source → measure evaluation → Summary MeasureReport → validation →
+receiver — live, from public endpoints. Then it repeats from RPMS.
+
+1. **Data, not slides.** Pull one patient's collection Bundle live from
+   the in-M FHIR server:
+
+   ```bash
+   curl -s 'https://devfhir.vistaplex.org/fhir?dfn=101115' \
+     -H 'Accept: application/fhir+json' | jq '.entry | length'
+   ```
+
+2. **Evaluate live** (official CMS CQL, VSAC-expanded value sets;
+   per-patient IPP/DENOM/NUMER/DENEX prints as it runs). Manifest is
+   `bundle_path<TAB>dfn` rows over the bundles fetched in step 1
+   (RPMS-lane example: `2026/cohorts/rpms/CMS165v14/eval-manifest.tsv`):
+
+   ```bash
+   node scripts/evaluate-cqm-manifest.js CMS165v14 \
+     --manifest /tmp/demo-bundles/eval-manifest.tsv \
+     --out-dir /tmp/demo-cql
+   ```
+
+3. **Build the Summary MeasureReport** (QRDA-III replacement artifact)
+   from the counts just produced:
+
+   ```bash
+   python3 scripts/build-deqm-summary.py --cms CMS165v14 \
+     --ipp <IPP> --denom <DENOM> --numer <NUMER> --denex <DENEX> \
+     --cohort-size <N> --mode official-cql --source "live demo" \
+     --out-dir /tmp/demo-reports
+   ```
+
+4. **Gate it** — validator (DEQM 5.0.0 profile; expect 0 actionable
+   errors, explain the known IG supplementalData slice noise) then
+   **POST to the receiver** and show the `201 Created`:
+
+   ```bash
+   ./scripts/deqm-summary-receiver-smoke.sh \
+     /tmp/demo-reports/CMS165v14-summary-deqm.json --validate --docker
+   ```
+
+   At the event, swap the local receiver for the track's reference
+   receiver or a peer system — that POST is the Connectathon objective;
+   local `deqm-test-server` is the rehearsed fallback.
+
+5. **The dual-platform moment.** Repeat 1–4 from
+   `https://rpmsfhir.vistaplex.org/fhir?dfn=1143` with
+   `--reporter rpms`. Same reporter codebase, two systems, two reporter
+   Organizations; CMS165 NUMER=14 matches across lanes. Present the
+   IPP/DENOM differences as a finding (round-trip fidelity differs by
+   server), not a discrepancy to hide.
+
+Talking points along the way: honest-counts discipline (zero NUMER stays
+zero), CRS/GPRA modernization framing for IHS, and the known-limitations
+list below stated up front.
+
 ## Coordination
 
 - Strategy home: `Vista-on-FHIR/docs/DEQM_SUMMARY_MEASUREREPORT_QRDA3_REPLACEMENT_STRATEGY.md`
@@ -144,3 +203,7 @@ github.com/glilly/HL7-FHIR-quality-testing (docs/deqm-summary/).
       Summary MeasureReport validated + accepted (see RPMS lane section)
 7. [x] RPMS lane extended to CMS122/130/2/22: round-trip CQL counts,
       reports validated + accepted (`results/rpms-multi-measure-smoke.md`)
+8. [ ] Timed dry-run of the live demo script (both lanes) from clean
+      terminals; note timings and fallbacks
+9. [ ] Optional stretch: host `deqm-test-server` publicly so VistaPlex
+      can also act as receiver for peers (doubles scorecard surface)
