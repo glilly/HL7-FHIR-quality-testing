@@ -29,8 +29,23 @@ MEASURE_SCORING_EXT = (
 POP_SYSTEM = "http://terminology.hl7.org/CodeSystem/measure-population"
 SCORING_SYSTEM = "http://terminology.hl7.org/CodeSystem/measure-scoring"
 IMPROVE_SYSTEM = "http://terminology.hl7.org/CodeSystem/measure-improvement-notation"
-ORG_ID = "vistaplex-demo"
-ORG_REF = f"Organization/{ORG_ID}"
+
+REPORTERS = {
+    "vistaplex": {
+        "org_id": "vistaplex-demo",
+        "org_name": "VistaPlex FHIR Quality Demo (fhirdev)",
+        "display": "VistaPlex FHIR Quality Demo",
+        "url": "https://devfhir.vistaplex.org/fhir-quality-dashboards",
+        "file_tag": "",
+    },
+    "rpms": {
+        "org_id": "vistaplex-rpms-demo",
+        "org_name": "VistaPlex RPMS FHIR Quality Demo (rpmsfhir)",
+        "display": "VistaPlex RPMS FHIR Quality Demo",
+        "url": "https://rpmsfhir.vistaplex.org/fhir",
+        "file_tag": "rpms-",
+    },
+}
 
 
 def measure_canonical(cms: str) -> str:
@@ -55,10 +70,10 @@ def pop(code: str, display: str, count: int) -> dict[str, Any]:
     }
 
 
-def organization() -> dict[str, Any]:
+def organization(rep: dict[str, str]) -> dict[str, Any]:
     return {
         "resourceType": "Organization",
-        "id": ORG_ID,
+        "id": rep["org_id"],
         "meta": {
             "profile": [
                 "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-organization"
@@ -67,14 +82,12 @@ def organization() -> dict[str, Any]:
         "identifier": [
             {
                 "system": "https://vistaplex.org/fhir/sid/organization",
-                "value": "vistaplex-demo",
+                "value": rep["org_id"],
             }
         ],
         "active": True,
-        "name": "VistaPlex FHIR Quality Demo (fhirdev)",
-        "telecom": [
-            {"system": "url", "value": "https://devfhir.vistaplex.org/fhir-quality-dashboards"}
-        ],
+        "name": rep["org_name"],
+        "telecom": [{"system": "url", "value": rep["url"]}],
     }
 
 
@@ -91,9 +104,10 @@ def summary_report(
     period_start: str,
     period_end: str,
     as_of: str,
+    rep: dict[str, str],
 ) -> dict[str, Any]:
     score = (float(numer) / float(denom)) if denom else 0.0
-    rid = f"{cms}-summary-deqm"
+    rid = f"{cms}-{rep['file_tag']}summary-deqm"
     return {
         "resourceType": "MeasureReport",
         "id": rid,
@@ -138,7 +152,10 @@ def summary_report(
         "type": "summary",
         "measure": measure_canonical(cms),
         "date": as_of,
-        "reporter": {"reference": ORG_REF, "display": "VistaPlex FHIR Quality Demo"},
+        "reporter": {
+            "reference": f"Organization/{rep['org_id']}",
+            "display": rep["display"],
+        },
         "period": {"start": period_start, "end": period_end},
         "improvementNotation": {
             "coding": [
@@ -175,6 +192,7 @@ def summary_report(
 
 
 def transaction_bundle(report: dict[str, Any], org: dict[str, Any], ts: str) -> dict[str, Any]:
+    org_ref = f"Organization/{org['id']}"
     return {
         "resourceType": "Bundle",
         "id": f"{report['id']}-transaction",
@@ -182,9 +200,9 @@ def transaction_bundle(report: dict[str, Any], org: dict[str, Any], ts: str) -> 
         "timestamp": ts,
         "entry": [
             {
-                "fullUrl": f"urn:uuid:{ORG_ID}",
+                "fullUrl": f"urn:uuid:{org['id']}",
                 "resource": org,
-                "request": {"method": "PUT", "url": ORG_REF},
+                "request": {"method": "PUT", "url": org_ref},
             },
             {
                 "fullUrl": f"urn:uuid:{report['id']}",
@@ -242,7 +260,14 @@ def main() -> int:
     ap.add_argument("--period-start", default="2026-01-01")
     ap.add_argument("--period-end", default="2026-12-31")
     ap.add_argument("--out-dir", default=str(OUT_DIR))
+    ap.add_argument(
+        "--reporter",
+        choices=sorted(REPORTERS),
+        default="vistaplex",
+        help="Reporter Organization preset (rpms = rpmsfhir lane)",
+    )
     args = ap.parse_args()
+    rep = REPORTERS[args.reporter]
 
     if args.from_setpop:
         ipp, denom, numer, denex, n = counts_from_manifest(
@@ -263,7 +288,9 @@ def main() -> int:
     now = datetime.now(timezone.utc)
     as_of = now.strftime("%Y-%m-%dT%H:%M:%SZ")
     out = pathlib.Path(args.out_dir)
-    org = organization()
+    if args.reporter != "vistaplex" and args.out_dir == str(OUT_DIR):
+        out = OUT_DIR / args.reporter
+    org = organization(rep)
     report = summary_report(
         cms=args.cms,
         ipp=ipp,
@@ -276,18 +303,23 @@ def main() -> int:
         period_start=args.period_start,
         period_end=args.period_end,
         as_of=as_of,
+        rep=rep,
     )
     bundle = transaction_bundle(report, org, as_of)
+    tag = rep["file_tag"]
 
-    write_json(out / "Organization-vistaplex-demo.json", org)
-    write_json(out / f"{args.cms}-summary-deqm.json", report)
-    write_json(out / f"Bundle-{args.cms}-summary-transaction.json", bundle)
+    write_json(out / f"Organization-{rep['org_id']}.json", org)
+    write_json(out / f"{args.cms}-{tag}summary-deqm.json", report)
+    write_json(out / f"Bundle-{args.cms}-{tag}summary-transaction.json", bundle)
 
-    # Also mirror under cohorts for dashboard adjacency
-    cohort_out = ROOT / "2026/cohorts/deqm-summary" / args.cms
-    write_json(cohort_out / "summary-deqm.json", report)
-    write_json(cohort_out / "Organization-vistaplex-demo.json", org)
-    write_json(cohort_out / "Bundle-summary-transaction.json", bundle)
+    if args.reporter == "vistaplex" and args.out_dir == str(OUT_DIR):
+        # Also mirror under cohorts for dashboard adjacency (VistA lane only,
+        # default out-dir only — keeps ad-hoc/regression runs from touching
+        # the tracked mirror)
+        cohort_out = ROOT / "2026/cohorts/deqm-summary" / args.cms
+        write_json(cohort_out / "summary-deqm.json", report)
+        write_json(cohort_out / "Organization-vistaplex-demo.json", org)
+        write_json(cohort_out / "Bundle-summary-transaction.json", bundle)
 
     score = report["group"][0]["measureScore"]["value"]
     print(
@@ -295,7 +327,7 @@ def main() -> int:
         f"score={score} cohort={cohort_size} mode={mode}",
         flush=True,
     )
-    print(f"OUT={out / (args.cms + '-summary-deqm.json')}", flush=True)
+    print(f"OUT={out / (args.cms + '-' + tag + 'summary-deqm.json')}", flush=True)
     return 0
 
 

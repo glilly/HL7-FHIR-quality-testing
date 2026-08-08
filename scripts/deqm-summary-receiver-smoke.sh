@@ -6,7 +6,13 @@
 set -euo pipefail
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 REPORT="${1:-$ROOT/docs/deqm-summary/prototypes/CMS165v14-summary-deqm.json}"
-BUNDLE="$ROOT/docs/deqm-summary/prototypes/Bundle-CMS165v14-summary-transaction.json"
+# Transaction Bundle sits next to the report: {CMS}[-rpms]-summary-deqm.json
+# -> Bundle-{CMS}[-rpms]-summary-transaction.json
+REPORT_BASE="$(basename "$REPORT" .json)"
+BUNDLE="$(dirname "$REPORT")/Bundle-${REPORT_BASE%-deqm}-transaction.json"
+if [[ ! -f "$BUNDLE" ]]; then
+  BUNDLE="$ROOT/docs/deqm-summary/prototypes/Bundle-CMS165v14-summary-transaction.json"
+fi
 PROFILE='http://hl7.org/fhir/us/davinci-deqm/StructureDefinition/summary-measurereport-deqm'
 DO_VALIDATE=0
 DO_DOCKER=0

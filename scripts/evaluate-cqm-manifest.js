@@ -3,9 +3,10 @@
  * Evaluate CQL for a manifest of FHIR Bundle paths (with DFN).
  *
  * Usage:
- *   node scripts/evaluate-cqm-manifest.js CMS165v14 --manifest path.tsv
+ *   node scripts/evaluate-cqm-manifest.js CMS165v14 --manifest path.tsv [--out-dir dir]
  *
  * Manifest TSV columns: bundle_path<TAB>dfn
+ * --out-dir defaults to 2026/cohorts/{cms}/c0x-cql (historical devfhir lane).
  */
 "use strict";
 
@@ -89,7 +90,11 @@ async function main() {
 
   const { Calculator } = require("cqm-execution");
   const measure = loadJson(measurePath);
-  const outDir = path.join(ROOT, "2026/cohorts", cmsId, "c0x-cql");
+  const oIdx = args.indexOf("--out-dir");
+  const outDir =
+    oIdx >= 0 && args[oIdx + 1]
+      ? path.resolve(args[oIdx + 1])
+      : path.join(ROOT, "2026/cohorts", cmsId, "c0x-cql");
   fs.mkdirSync(outDir, { recursive: true });
 
   const outRows = ["dfn\tbundle_path\tipp\tdenom\tnumer\tdenex\telements\n"];

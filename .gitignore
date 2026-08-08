@@ -28,6 +28,11 @@ node_modules/
 # Regenerable QDM patient conversions (large).
 2026/cohorts/**/qdm-patients/**
 
+# RPMS round-trip patient Bundle exports and QDM conversions are
+# large/regenerable (refetch via GET /fhir?dfn= per eval-manifest.tsv).
+2026/cohorts/rpms/**/bundles/**
+2026/cohorts/rpms/**/cql/*.qdm.json
+
 # Empty overnight overwrite artifact (keep local only).
 2026/measures/**/cqm/value_sets.empty-*.json
 

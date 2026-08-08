@@ -1,13 +1,15 @@
 # Connectathon packet — DEQM Summary MeasureReport reporter
 
-Status date: 2026-08-07  
+Status date: 2026-08-08  
 Track target: HL7 FHIR Connectathon **Sep 19–25, 2026 Rockville**
 (“FHIR Quality Reporting with DEQM” / related quality tracks).
 
 ## Role
 
 VistaPlex acts as a **DEQM Summary MeasureReport reporter** (QRDA-III
-replacement), not a Cypress/QRDA submitter for this track.
+replacement), not a Cypress/QRDA submitter for this track. The same
+reporter codebase serves **both VistA-lineage (devfhir) and RPMS-lineage
+(rpmsfhir) data** — see the RPMS lane below.
 
 ## Pinned stack
 
@@ -39,6 +41,27 @@ Artifacts:
 - Per-measure: `prototypes/{CMS}-summary-deqm.json`
 - Multi POST: `prototypes/Bundle-selected18-summary-transaction.json`
 - Phase 2 CMS165 evidence: `results/CMS165v14-phase2-smoke.md`
+- RPMS lane: `prototypes/rpms/CMS165v14-rpms-summary-deqm.json` +
+  `results/CMS165v14-rpms-phase2-smoke.md`
+
+## RPMS lane (in progress)
+
+RPMS is IHS's VistA-derived EHR; its native aggregate quality report is
+**CRS (Clinical Reporting System, `BQI`)** — annual GPRA
+numerator/denominator reports transmitted facility → Area. DEQM Summary
+MeasureReport is the same modernization story for CRS/GPRA that it is
+for QRDA-III, so the Connectathon claim is: **one open-source reporter
+emits DEQM Summary MeasureReports from both VistA and RPMS**.
+
+Status:
+
+| Step | State |
+|---|---|
+| `rpmsfhir.vistaplex.org` FHIR server + REST adapter (vendev15 `:5177`) | Up; ~1,000 Synthea patients loaded 2026-08-04 (`2026/patients/rpmsfhir-ingest-1000-20260804.tsv`) |
+| Selected-18 cohort on rpmsfhir | **Loaded 19/19** 2026-08-08 (DFNs **1143–1161**); ledger `2026/patients/rpmsfhir-ingest-selected18-20260808.tsv`; spot-checked Patient `_id`/read + Observation search via tunnel |
+| Official CQL runs (FHIR→QDM / cqm-execution) against rpmsfhir | **Done 2026-08-08** on round-trip exports (`GET /fhir?dfn=`), n=19: CMS165 **19/19/14/1**, CMS122 **10/10/9/0**, CMS130 **15/15/1/0**, CMS2 **19/19/0/0**, CMS22 **19/19/0/19**. Counts `rpms-roundtrip-counts.tsv`; per-patient `2026/cohorts/rpms/{CMS}/cql/` |
+| RPMS-labeled Summary MeasureReports (distinct `reporter` Organization) | **Done ×5** — `prototypes/rpms/{CMS}-rpms-summary-deqm.json` (`Organization/vistaplex-rpms-demo`, `build-deqm-summary.py --reporter rpms`); validator 0 actionable errors each; receiver **201 Created** each. Evidence `results/CMS165v14-rpms-phase2-smoke.md` + `results/rpms-multi-measure-smoke.md` |
+| Cross-platform equivalence demo (same patients, same CQL, two systems) | Partial: CMS165 **NUMER=14 matches devfhir**; RPMS lane IPP/DENOM (and CMS122/130 NUMER) higher because the rpmsfhir collection Bundle round-trips more data; CMS22 DENEX=19 is coherent (hypertension cohort excluded from BP screening). Keep lanes separate; never merge counts |
 
 ## Known limitations (state at Connectathon)
 
@@ -51,6 +74,11 @@ Artifacts:
 4. Inferno validator may emit known DEQM IG noise for R5
    `extension-MeasureReport.supplementalData` slicing on
    `extension-measureScoring` (also present on IG golden examples).
+5. RPMS lane uses **Synthea synthetic data** loaded into an RPMS-shaped
+   FHIR server — no real IHS clinical data, and no CRS/`BQI` extraction;
+   RPMS enters the pipeline at the FHIR layer, same as VistA.
+6. RPMS counts will be whatever the CQL run produces (honest zero-NUMER
+   stays zero), reported under a distinct RPMS `reporter` Organization.
 
 ## How peers can pull / POST
 
@@ -93,6 +121,11 @@ Pinned: DEQM STU5 5.0.0 summary-measurereport-deqm. First measure CMS165v14
 with honest zero-NUMER where CQL has no depth yet. Evaluation today is
 FHIR→QDM + cqm-execution; FHIR-native $evaluate is stretch.
 
+We also run an RPMS-lineage FHIR server (IHS's VistA derivative), aiming to
+demo the same reporter emitting Summary MeasureReports from both VistA and
+RPMS data — the DEQM path as a CRS/GPRA modernization story for IHS/tribal
+sites (synthetic data only).
+
 Looking for the Quality Reporting / DEQM track contact and any preferred
 receiver CapabilityStatement for Summary MeasureReport POST. Packet:
 github.com/glilly/HL7-FHIR-quality-testing (docs/deqm-summary/).
@@ -107,3 +140,7 @@ github.com/glilly/HL7-FHIR-quality-testing (docs/deqm-summary/).
       `scripts/fhirdev-publish-measurereports.sh --build`
 5. [ ] Optional: bring Individual MeasureReport spike
       (`CMS165v14-Patient-101115-individual-deqm.json`) for QRDA-I analogue demo
+6. [x] RPMS lane CMS165: cohort loaded, official CQL run, RPMS-labeled
+      Summary MeasureReport validated + accepted (see RPMS lane section)
+7. [x] RPMS lane extended to CMS122/130/2/22: round-trip CQL counts,
+      reports validated + accepted (`results/rpms-multi-measure-smoke.md`)
