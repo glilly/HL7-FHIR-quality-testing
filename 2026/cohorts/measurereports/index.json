@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-29T19:26:30Z",
+  "generatedAt": "2026-08-08T04:02:05Z",
   "source": "2026/cohorts/SETPOP_MANIFEST.tsv",
   "period": {
     "start": "2026-01-01",
@@ -10,6 +10,7 @@
       "path": "CMS122v14/index.json",
       "html": "CMS122v14/index.html",
       "summary": "CMS122v14/summary.json",
+      "summaryDeqm": "CMS122v14/summary-deqm.json",
       "bundle": "CMS122v14/Bundle-all.json",
       "patients": 9
     },
@@ -17,6 +18,7 @@
       "path": "CMS125v14/index.json",
       "html": "CMS125v14/index.html",
       "summary": "CMS125v14/summary.json",
+      "summaryDeqm": "CMS125v14/summary-deqm.json",
       "bundle": "CMS125v14/Bundle-all.json",
       "patients": 1
     },
@@ -24,6 +26,7 @@
       "path": "CMS130v14/index.json",
       "html": "CMS130v14/index.html",
       "summary": "CMS130v14/summary.json",
+      "summaryDeqm": "CMS130v14/summary-deqm.json",
       "bundle": "CMS130v14/Bundle-all.json",
       "patients": 17
     },
@@ -31,6 +34,7 @@
       "path": "CMS138v14/index.json",
       "html": "CMS138v14/index.html",
       "summary": "CMS138v14/summary.json",
+      "summaryDeqm": "CMS138v14/summary-deqm.json",
       "bundle": "CMS138v14/Bundle-all.json",
       "patients": 33
     },
@@ -38,6 +42,7 @@
       "path": "CMS165v14/index.json",
       "html": "CMS165v14/index.html",
       "summary": "CMS165v14/summary.json",
+      "summaryDeqm": "CMS165v14/summary-deqm.json",
       "bundle": "CMS165v14/Bundle-all.json",
       "patients": 23
     },
@@ -45,6 +50,7 @@
       "path": "CMS2v15/index.json",
       "html": "CMS2v15/index.html",
       "summary": "CMS2v15/summary.json",
+      "summaryDeqm": "CMS2v15/summary-deqm.json",
       "bundle": "CMS2v15/Bundle-all.json",
       "patients": 4
     }

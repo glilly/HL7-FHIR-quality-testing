@@ -11,6 +11,8 @@ HTTP_BASE="${FHIRDEV_HTTP_BASE:-https://devfhir.vistaplex.org}"
 DEST_REL="quality/measurereports"
 
 if [[ "${1:-}" == "--build" ]]; then
+  # Official-cql DEQM freezes (copied into summary-deqm.json when present)
+  python3 "${ROOT}/scripts/build-deqm-summary-batch.py" --check || true
   python3 "${ROOT}/scripts/build-measurereports-from-setpop.py"
 fi
 
@@ -43,10 +45,11 @@ echo "==> Smoke"
 for path in \
   "/filesystem/${DEST_REL}/index.json" \
   "/filesystem/${DEST_REL}/CMS165v14/summary.json" \
+  "/filesystem/${DEST_REL}/CMS165v14/summary-deqm.json" \
   "/filesystem/${DEST_REL}/CMS165v14/Patient-101094.json"
 do
   code=$(curl -sS -o /tmp/mr-smoke.json -w '%{http_code}' "${HTTP_BASE}${path}" || true)
   echo "HTTP ${code} ${path}"
 done
-python3 -c "import json; d=json.load(open('/tmp/mr-smoke.json')); print('last', d.get('resourceType'), d.get('id'))"
+python3 -c "import json; d=json.load(open('/tmp/mr-smoke.json')); print('last', d.get('resourceType'), d.get('id'), (d.get('meta') or {}).get('profile'))"
 echo "Done. ${HTTP_BASE}/filesystem/${DEST_REL}/index.json"

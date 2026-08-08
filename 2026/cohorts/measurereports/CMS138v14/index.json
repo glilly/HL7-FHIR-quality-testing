@@ -1,7 +1,8 @@
 {
   "measure": "CMS138v14",
-  "canonical": "https://ecqi.healthit.gov/ecqm/ec/CMS138v14",
+  "canonical": "https://ecqi.healthit.gov/ecqm/ec/CMS138v14|14.0.000",
   "summary": "summary.json",
+  "summaryDeqm": "summary-deqm.json",
   "bundle": "Bundle-all.json",
   "individuals": [
     {

@@ -7,8 +7,9 @@ Outputs under 2026/cohorts/measurereports/{CMS}/:
   index.json            — lightweight catalog of generated ids/paths
   Bundle-all.json       — collection Bundle of all reports for the measure
 
-These are CQL/SETPOP-derived reports for dashboard linking. They are not yet
-served as native /fhir/MeasureReport resources.
+These are CQL/SETPOP-derived reports for dashboard linking. Summary reports
+use the DEQM Summary MeasureReport profile (QRDA-III replacement). They are
+not yet served as native /fhir/MeasureReport resources.
 """
 from __future__ import annotations
 
@@ -21,12 +22,26 @@ from typing import Any
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 POP_SYSTEM = "http://terminology.hl7.org/CodeSystem/measure-population"
+SCORING_SYSTEM = "http://terminology.hl7.org/CodeSystem/measure-scoring"
 IMPROVE_SYSTEM = "http://terminology.hl7.org/CodeSystem/measure-improvement-notation"
+DEQM_SUMMARY_PROFILE = (
+    "http://hl7.org/fhir/us/davinci-deqm/StructureDefinition/summary-measurereport-deqm"
+)
+MEASURE_SCORING_EXT = (
+    "http://hl7.org/fhir/us/davinci-deqm/StructureDefinition/extension-measureScoring"
+)
+ORG_REF = "Organization/vistaplex-demo"
 DEFAULT_PERIOD = ("2026-01-01", "2026-12-31")
 
 
 def measure_canonical(cms: str) -> str:
-    return f"https://ecqi.healthit.gov/ecqm/ec/{cms}"
+    # DEQM deqm-0 requires |version. Placeholder until CMS FHIR dQM packages pin.
+    version = "0.0.1"
+    if "v" in cms:
+        tail = cms.rsplit("v", 1)[-1]
+        if tail.isdigit():
+            version = f"{int(tail)}.0.000"
+    return f"https://ecqi.healthit.gov/ecqm/ec/{cms}|{version}"
 
 
 def pop_coding(code: str, display: str) -> dict[str, Any]:
@@ -137,18 +152,58 @@ def summary_report(
     modes = sorted({r["mode"] for r in rows if r["mode"]})
     mode = modes[0] if len(modes) == 1 else "mixed"
     rid = f"{cms}-summary"
+    score = (float(numer) / float(denom)) if denom else 0.0
     rep = base_report(rid=rid, rtype="summary", cms=cms, period=period, as_of=as_of, mode=mode)
-    rep["group"] = [population_group(ipp, denom, numer, denex)]
-    rep["extension"] = [
+    # Upgrade to DEQM Summary profile (QRDA-III replacement path).
+    rep["meta"]["profile"] = [DEQM_SUMMARY_PROFILE]
+    rep["meta"]["tag"] = [
         {
-            "url": "https://vistaplex.org/fhir/StructureDefinition/vista-quality-cohort-size",
-            "valueInteger": n,
+            "system": "https://vistaplex.org/fhir/CodeSystem/quality-calc-mode",
+            "code": mode or "setpop-aggregate",
+            "display": mode or "setpop-aggregate",
         },
         {
-            "url": "https://vistaplex.org/fhir/StructureDefinition/vista-quality-source",
-            "valueString": "SETPOP_MANIFEST.tsv (cqm-execution / curated flags)",
+            "system": "https://vistaplex.org/fhir/CodeSystem/quality-cohort-size",
+            "code": str(n),
+            "display": f"cohort-size={n}",
+        },
+        {
+            "system": "https://vistaplex.org/fhir/CodeSystem/quality-source",
+            "code": "provenance",
+            "display": "SETPOP_MANIFEST.tsv (cqm-execution / curated flags)",
         },
     ]
+    rep["extension"] = [
+        {
+            "url": MEASURE_SCORING_EXT,
+            "valueCodeableConcept": {
+                "coding": [
+                    {
+                        "system": SCORING_SYSTEM,
+                        "code": "proportion",
+                        "display": "Proportion",
+                    }
+                ]
+            },
+        }
+    ]
+    rep["reporter"] = {
+        "reference": ORG_REF,
+        "display": "VistaPlex FHIR Quality Demo",
+    }
+    group = population_group(ipp, denom, numer, denex)
+    group["code"] = {
+        "coding": [
+            {
+                "system": "https://vistaplex.org/fhir/CodeSystem/measure-group",
+                "code": "group-1",
+                "display": "group-1",
+            }
+        ],
+        "text": "group-1",
+    }
+    group["measureScore"] = {"value": round(score, 6)}
+    rep["group"] = [group]
     return rep
 
 
@@ -199,15 +254,17 @@ def html_escape(s: str) -> str:
 def write_root_index_html(path: pathlib.Path, catalog: dict[str, Any]) -> None:
     rows = []
     for cms, info in sorted(catalog.get("measures", {}).items()):
+        deqm = info.get("summaryDeqm") or f"{cms}/summary-deqm.json"
         rows.append(
             "<tr>"
             f"<td><a href=\"{html_escape(cms)}/index.html\">{html_escape(cms)}</a></td>"
             f"<td><a href=\"{html_escape(info['summary'])}\">summary.json</a></td>"
+            f"<td><a href=\"{html_escape(deqm)}\">summary-deqm.json</a></td>"
             f"<td><a href=\"{html_escape(info['bundle'])}\">Bundle-all.json</a></td>"
             f"<td>{info.get('patients', 0)}</td>"
             "</tr>"
         )
-    body = "\n".join(rows) if rows else "<tr><td colspan='4'>No measures</td></tr>"
+    body = "\n".join(rows) if rows else "<tr><td colspan='5'>No measures</td></tr>"
     write_text(
         path,
         f"""<!DOCTYPE html>
@@ -231,7 +288,7 @@ def write_root_index_html(path: pathlib.Path, catalog: dict[str, Any]) -> None:
   %webapi cannot list directories — use this page or explicit JSON paths.</p>
   <p><a href="index.json">index.json</a></p>
   <table>
-    <tr><th>Measure</th><th>Summary</th><th>Bundle</th><th>Patients</th></tr>
+    <tr><th>Measure</th><th>Summary (SETPOP)</th><th>DEQM freeze</th><th>Bundle</th><th>Patients</th></tr>
     {body}
   </table>
 </body>
@@ -279,7 +336,8 @@ def write_measure_index_html(path: pathlib.Path, index: dict[str, Any]) -> None:
      NUMER <strong>{c.get("numer", 0)}</strong> · DENEX <strong>{c.get("denex", 0)}</strong>
      (n={c.get("patients", 0)})</p>
   <p>
-    <a href="summary.json">summary.json</a> ·
+    <a href="summary.json">summary.json</a> (SETPOP aggregate, DEQM profile) ·
+    <a href="summary-deqm.json">summary-deqm.json</a> (official-cql freeze when present) ·
     <a href="Bundle-all.json">Bundle-all.json</a> ·
     <a href="index.json">index.json</a>
   </p>
@@ -328,6 +386,15 @@ def main() -> int:
                 old.unlink()
         summary = summary_report(cms, rows, period, args.as_of)
         write_json(mdir / "summary.json", summary)
+        # Preserve official-cql DEQM freeze if present under docs/deqm-summary/
+        freeze = (
+            ROOT / "docs/deqm-summary/prototypes" / f"{cms}-summary-deqm.json"
+        )
+        if freeze.exists():
+            write_json(mdir / "summary-deqm.json", json.loads(freeze.read_text()))
+        else:
+            # Fallback: SETPOP aggregate already DEQM-profiled
+            write_json(mdir / "summary-deqm.json", summary)
         individuals: list[dict[str, Any]] = []
         entries = []
         for row in sorted(rows, key=lambda r: int(r["dfn"])):
@@ -372,6 +439,7 @@ def main() -> int:
             "measure": cms,
             "canonical": measure_canonical(cms),
             "summary": "summary.json",
+            "summaryDeqm": "summary-deqm.json",
             "bundle": "Bundle-all.json",
             "individuals": individuals,
             "counts": {
@@ -388,6 +456,7 @@ def main() -> int:
             "path": f"{cms}/index.json",
             "html": f"{cms}/index.html",
             "summary": f"{cms}/summary.json",
+            "summaryDeqm": f"{cms}/summary-deqm.json",
             "bundle": f"{cms}/Bundle-all.json",
             "patients": len(rows),
         }

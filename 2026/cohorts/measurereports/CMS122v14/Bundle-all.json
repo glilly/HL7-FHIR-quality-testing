@@ -2,7 +2,7 @@
   "resourceType": "Bundle",
   "id": "CMS122v14-measurereports",
   "type": "collection",
-  "timestamp": "2026-07-29T19:26:30Z",
+  "timestamp": "2026-08-08T04:02:05Z",
   "total": 10,
   "entry": [
     {
@@ -15,14 +15,28 @@
           "tag": [
             {
               "system": "https://vistaplex.org/fhir/CodeSystem/quality-calc-mode",
-              "code": "mixed"
+              "code": "mixed",
+              "display": "mixed"
+            },
+            {
+              "system": "https://vistaplex.org/fhir/CodeSystem/quality-cohort-size",
+              "code": "9",
+              "display": "cohort-size=9"
+            },
+            {
+              "system": "https://vistaplex.org/fhir/CodeSystem/quality-source",
+              "code": "provenance",
+              "display": "SETPOP_MANIFEST.tsv (cqm-execution / curated flags)"
             }
+          ],
+          "profile": [
+            "http://hl7.org/fhir/us/davinci-deqm/StructureDefinition/summary-measurereport-deqm"
           ]
         },
         "status": "complete",
         "type": "summary",
-        "measure": "https://ecqi.healthit.gov/ecqm/ec/CMS122v14",
-        "date": "2026-07-29",
+        "measure": "https://ecqi.healthit.gov/ecqm/ec/CMS122v14|14.0.000",
+        "date": "2026-08-08",
         "period": {
           "start": "2026-01-01",
           "end": "2026-12-31"
@@ -35,6 +49,24 @@
               "display": "Increased score indicates improvement"
             }
           ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/us/davinci-deqm/StructureDefinition/extension-measureScoring",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/measure-scoring",
+                  "code": "proportion",
+                  "display": "Proportion"
+                }
+              ]
+            }
+          }
+        ],
+        "reporter": {
+          "reference": "Organization/vistaplex-demo",
+          "display": "VistaPlex FHIR Quality Demo"
         },
         "group": [
           {
@@ -91,17 +123,20 @@
                 },
                 "count": 0
               }
-            ]
-          }
-        ],
-        "extension": [
-          {
-            "url": "https://vistaplex.org/fhir/StructureDefinition/vista-quality-cohort-size",
-            "valueInteger": 9
-          },
-          {
-            "url": "https://vistaplex.org/fhir/StructureDefinition/vista-quality-source",
-            "valueString": "SETPOP_MANIFEST.tsv (cqm-execution / curated flags)"
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "https://vistaplex.org/fhir/CodeSystem/measure-group",
+                  "code": "group-1",
+                  "display": "group-1"
+                }
+              ],
+              "text": "group-1"
+            },
+            "measureScore": {
+              "value": 0.25
+            }
           }
         ]
       }
@@ -122,8 +157,8 @@
         },
         "status": "complete",
         "type": "individual",
-        "measure": "https://ecqi.healthit.gov/ecqm/ec/CMS122v14",
-        "date": "2026-07-29",
+        "measure": "https://ecqi.healthit.gov/ecqm/ec/CMS122v14|14.0.000",
+        "date": "2026-08-08",
         "period": {
           "start": "2026-01-01",
           "end": "2026-12-31"
@@ -222,8 +257,8 @@
         },
         "status": "complete",
         "type": "individual",
-        "measure": "https://ecqi.healthit.gov/ecqm/ec/CMS122v14",
-        "date": "2026-07-29",
+        "measure": "https://ecqi.healthit.gov/ecqm/ec/CMS122v14|14.0.000",
+        "date": "2026-08-08",
         "period": {
           "start": "2026-01-01",
           "end": "2026-12-31"
@@ -322,8 +357,8 @@
         },
         "status": "complete",
         "type": "individual",
-        "measure": "https://ecqi.healthit.gov/ecqm/ec/CMS122v14",
-        "date": "2026-07-29",
+        "measure": "https://ecqi.healthit.gov/ecqm/ec/CMS122v14|14.0.000",
+        "date": "2026-08-08",
         "period": {
           "start": "2026-01-01",
           "end": "2026-12-31"
@@ -422,8 +457,8 @@
         },
         "status": "complete",
         "type": "individual",
-        "measure": "https://ecqi.healthit.gov/ecqm/ec/CMS122v14",
-        "date": "2026-07-29",
+        "measure": "https://ecqi.healthit.gov/ecqm/ec/CMS122v14|14.0.000",
+        "date": "2026-08-08",
         "period": {
           "start": "2026-01-01",
           "end": "2026-12-31"
@@ -522,8 +557,8 @@
         },
         "status": "complete",
         "type": "individual",
-        "measure": "https://ecqi.healthit.gov/ecqm/ec/CMS122v14",
-        "date": "2026-07-29",
+        "measure": "https://ecqi.healthit.gov/ecqm/ec/CMS122v14|14.0.000",
+        "date": "2026-08-08",
         "period": {
           "start": "2026-01-01",
           "end": "2026-12-31"
@@ -622,8 +657,8 @@
         },
         "status": "complete",
         "type": "individual",
-        "measure": "https://ecqi.healthit.gov/ecqm/ec/CMS122v14",
-        "date": "2026-07-29",
+        "measure": "https://ecqi.healthit.gov/ecqm/ec/CMS122v14|14.0.000",
+        "date": "2026-08-08",
         "period": {
           "start": "2026-01-01",
           "end": "2026-12-31"
@@ -722,8 +757,8 @@
         },
         "status": "complete",
         "type": "individual",
-        "measure": "https://ecqi.healthit.gov/ecqm/ec/CMS122v14",
-        "date": "2026-07-29",
+        "measure": "https://ecqi.healthit.gov/ecqm/ec/CMS122v14|14.0.000",
+        "date": "2026-08-08",
         "period": {
           "start": "2026-01-01",
           "end": "2026-12-31"
@@ -822,8 +857,8 @@
         },
         "status": "complete",
         "type": "individual",
-        "measure": "https://ecqi.healthit.gov/ecqm/ec/CMS122v14",
-        "date": "2026-07-29",
+        "measure": "https://ecqi.healthit.gov/ecqm/ec/CMS122v14|14.0.000",
+        "date": "2026-08-08",
         "period": {
           "start": "2026-01-01",
           "end": "2026-12-31"
@@ -922,8 +957,8 @@
         },
         "status": "complete",
         "type": "individual",
-        "measure": "https://ecqi.healthit.gov/ecqm/ec/CMS122v14",
-        "date": "2026-07-29",
+        "measure": "https://ecqi.healthit.gov/ecqm/ec/CMS122v14|14.0.000",
+        "date": "2026-08-08",
         "period": {
           "start": "2026-01-01",
           "end": "2026-12-31"

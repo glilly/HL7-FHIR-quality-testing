@@ -1,43 +1,26 @@
 {
   "resourceType": "MeasureReport",
-  "id": "CMS130v14-summary",
+  "id": "CMS138v14-summary-deqm",
   "meta": {
-    "source": "urn:vista:c0fqual:setpop",
+    "profile": [
+      "http://hl7.org/fhir/us/davinci-deqm/StructureDefinition/summary-measurereport-deqm"
+    ],
+    "source": "urn:vista:deqm-summary-builder",
     "tag": [
       {
         "system": "https://vistaplex.org/fhir/CodeSystem/quality-calc-mode",
-        "code": "mixed",
-        "display": "mixed"
+        "code": "official-cql",
+        "display": "official-cql"
       },
       {
         "system": "https://vistaplex.org/fhir/CodeSystem/quality-cohort-size",
-        "code": "17",
-        "display": "cohort-size=17"
+        "code": "18",
+        "display": "cohort-size=18"
       },
       {
         "system": "https://vistaplex.org/fhir/CodeSystem/quality-source",
         "code": "provenance",
-        "display": "SETPOP_MANIFEST.tsv (cqm-execution / curated flags)"
-      }
-    ],
-    "profile": [
-      "http://hl7.org/fhir/us/davinci-deqm/StructureDefinition/summary-measurereport-deqm"
-    ]
-  },
-  "status": "complete",
-  "type": "summary",
-  "measure": "https://ecqi.healthit.gov/ecqm/ec/CMS130v14|14.0.000",
-  "date": "2026-08-08",
-  "period": {
-    "start": "2026-01-01",
-    "end": "2026-12-31"
-  },
-  "improvementNotation": {
-    "coding": [
-      {
-        "system": "http://terminology.hl7.org/CodeSystem/measure-improvement-notation",
-        "code": "increase",
-        "display": "Increased score indicates improvement"
+        "display": "RECOVER selected-18 official-cql"
       }
     ]
   },
@@ -55,12 +38,39 @@
       }
     }
   ],
+  "status": "complete",
+  "type": "summary",
+  "measure": "https://ecqi.healthit.gov/ecqm/ec/CMS138v14|14.0.000",
+  "date": "2026-08-08T03:56:50Z",
   "reporter": {
     "reference": "Organization/vistaplex-demo",
     "display": "VistaPlex FHIR Quality Demo"
   },
+  "period": {
+    "start": "2026-01-01",
+    "end": "2026-12-31"
+  },
+  "improvementNotation": {
+    "coding": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/measure-improvement-notation",
+        "code": "increase",
+        "display": "Increased score indicates improvement"
+      }
+    ]
+  },
   "group": [
     {
+      "code": {
+        "coding": [
+          {
+            "system": "https://vistaplex.org/fhir/CodeSystem/measure-group",
+            "code": "group-1",
+            "display": "group-1"
+          }
+        ],
+        "text": "group-1"
+      },
       "population": [
         {
           "code": {
@@ -73,7 +83,7 @@
             ],
             "text": "Initial Population"
           },
-          "count": 13
+          "count": 1
         },
         {
           "code": {
@@ -86,7 +96,7 @@
             ],
             "text": "Denominator"
           },
-          "count": 9
+          "count": 0
         },
         {
           "code": {
@@ -99,7 +109,7 @@
             ],
             "text": "Numerator"
           },
-          "count": 1
+          "count": 0
         },
         {
           "code": {
@@ -115,18 +125,8 @@
           "count": 0
         }
       ],
-      "code": {
-        "coding": [
-          {
-            "system": "https://vistaplex.org/fhir/CodeSystem/measure-group",
-            "code": "group-1",
-            "display": "group-1"
-          }
-        ],
-        "text": "group-1"
-      },
       "measureScore": {
-        "value": 0.111111
+        "value": 0.0
       }
     }
   ]

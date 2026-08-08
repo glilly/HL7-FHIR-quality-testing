@@ -59,10 +59,12 @@ Authoritative demo host: **`devfhir.vistaplex.org`** (`fhirdev22`).
   `deqm-test-server` POST via
   `scripts/deqm-summary-receiver-smoke.sh --validate --docker`
   (evidence `docs/deqm-summary/results/CMS165v14-phase2-smoke.md`).
-  Phase 3 started: batch builder for selected-18 official-cql shortlist
-  (7 Summary MeasureReports + multi transaction Bundle accepted by
-  local `deqm-test-server`); packet
-  `docs/deqm-summary/CONNECTATHON_PACKET.md`.
+  Phase 3: batch builder for selected-18 official-cql shortlist
+  (7 Summary MeasureReports + multi Bundle); SETPOP publisher now emits
+  DEQM-profiled `summary.json` + copies official freeze to
+  `summary-deqm.json`; Individual DEQM spike for CMS165 DFN 101115;
+  Connectathon packet includes `#cql` Zulip draft + Rockville checklist
+  (`docs/deqm-summary/CONNECTATHON_PACKET.md`).
 
 ## Gap analysis
 

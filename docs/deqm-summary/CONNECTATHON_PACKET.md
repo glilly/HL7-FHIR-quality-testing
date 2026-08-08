@@ -69,10 +69,41 @@ curl -fsS -X POST http://127.0.0.1:3000/4_0_1 \
   --data-binary @docs/deqm-summary/prototypes/Bundle-selected18-summary-transaction.json
 ```
 
-Public host notes (fhirdev / cds1) TBD closer to the event; auth is none for
-local `deqm-test-server`.
+Public host (when published):
+
+- `https://devfhir.vistaplex.org/filesystem/quality/measurereports/{CMS}/summary-deqm.json`
+- Dashboard: `https://devfhir.vistaplex.org/fhir-quality-dashboards/{CMS}`
+- Auth: none for filesystem JSON; dashboard HTML is open on fhirdev
+
+Local `deqm-test-server` also accepts anonymous POSTs on `:3000`.
 
 ## Coordination
 
-- Zulip: `#cql` intro — VistaPlex as Summary MeasureReport reporter
 - Strategy home: `Vista-on-FHIR/docs/DEQM_SUMMARY_MEASUREREPORT_QRDA3_REPLACEMENT_STRATEGY.md`
+
+### `#cql` Zulip draft (ready to paste)
+
+```
+Hi #cql — VistaPlex (open-source VistA-on-FHIR) is preparing for the
+Sep 19–25 2026 Rockville Connectathon as a **DEQM Summary MeasureReport
+reporter** (QRDA-III replacement path).
+
+Pinned: DEQM STU5 5.0.0 summary-measurereport-deqm. First measure CMS165v14
+(official-cql selected-18 14/14/14/0); shortlist also has CMS122/130/138/2/125/22
+with honest zero-NUMER where CQL has no depth yet. Evaluation today is
+FHIR→QDM + cqm-execution; FHIR-native $evaluate is stretch.
+
+Looking for the Quality Reporting / DEQM track contact and any preferred
+receiver CapabilityStatement for Summary MeasureReport POST. Packet:
+github.com/glilly/HL7-FHIR-quality-testing (docs/deqm-summary/).
+```
+
+### Rockville registration checklist
+
+1. [ ] Register for HL7 FHIR Connectathon **Sep 19–25, 2026 Rockville**
+2. [ ] Confirm / join **FHIR Quality Reporting with DEQM** (or successor) track
+3. [ ] Post `#cql` intro (draft above)
+4. [ ] Publish `summary-deqm.json` set to fhirdev via
+      `scripts/fhirdev-publish-measurereports.sh --build`
+5. [ ] Optional: bring Individual MeasureReport spike
+      (`CMS165v14-Patient-101115-individual-deqm.json`) for QRDA-I analogue demo
