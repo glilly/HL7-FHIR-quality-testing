@@ -59,9 +59,9 @@ Status:
 |---|---|
 | `rpmsfhir.vistaplex.org` FHIR server + REST adapter (vendev15 `:5177`) | Up; ~1,000 Synthea patients loaded 2026-08-04 (`2026/patients/rpmsfhir-ingest-1000-20260804.tsv`) |
 | Selected-18 cohort on rpmsfhir | **Loaded 19/19** 2026-08-08 (DFNs **1143–1161**); ledger `2026/patients/rpmsfhir-ingest-selected18-20260808.tsv`; spot-checked Patient `_id`/read + Observation search via tunnel |
-| Official CQL runs (FHIR→QDM / cqm-execution) against rpmsfhir | **Done 2026-08-08** on round-trip exports (`GET /fhir?dfn=`), n=19: CMS165 **19/19/14/1**, CMS122 **10/10/9/0**, CMS130 **15/15/1/0**, CMS2 **19/19/0/0**, CMS22 **19/19/0/19**. Counts `rpms-roundtrip-counts.tsv`; per-patient `2026/cohorts/rpms/{CMS}/cql/` |
+| Official CQL runs (FHIR→QDM / cqm-execution) against rpmsfhir | **Done 2026-08-08** on round-trip exports (`GET /fhir?dfn=`), n=19, hierarchy-gated, seven measures: CMS165 **19/19/13/1**, CMS122 **10/10/4/0**, CMS130 **15/15/1/0**, CMS2 **19/19/0/0**, CMS22 **19/19/0/19**, CMS138 **19/19/19/0**, CMS125 **11/11/0/0**. Counts `rpms-roundtrip-counts.tsv`; per-patient `2026/cohorts/rpms/{CMS}/cql/` |
 | RPMS-labeled Summary MeasureReports (distinct `reporter` Organization) | **Done ×5** — `prototypes/rpms/{CMS}-rpms-summary-deqm.json` (`Organization/vistaplex-rpms-demo`, `build-deqm-summary.py --reporter rpms`); validator 0 actionable errors each; receiver **201 Created** each. Evidence `results/CMS165v14-rpms-phase2-smoke.md` + `results/rpms-multi-measure-smoke.md` |
-| Cross-platform equivalence demo (same patients, same CQL, two systems) | Partial: CMS165 **NUMER=14 matches devfhir**; RPMS lane IPP/DENOM (and CMS122/130 NUMER) higher because the rpmsfhir collection Bundle round-trips more data; CMS22 DENEX=19 is coherent (hypertension cohort excluded from BP screening). Keep lanes separate; never merge counts |
+| Cross-platform equivalence demo (same patients, same CQL, two systems) | Partial: CMS165 — 13 of devfhir's 14 NUMER patients match; the 14th is DENEX on the RPMS round-trip. RPMS lane IPP/DENOM (and CMS122/130 NUMER) higher because the rpmsfhir collection Bundle round-trips more data; CMS22 DENEX=19 is coherent (hypertension cohort excluded from BP screening). Keep lanes separate; never merge counts |
 
 ## Known limitations (state at Connectathon)
 
@@ -156,7 +156,8 @@ receiver — live, from public endpoints. Then it repeats from RPMS.
 5. **The dual-platform moment.** Repeat 1–4 from
    `https://rpmsfhir.vistaplex.org/fhir?dfn=1143` with
    `--reporter rpms`. Same reporter codebase, two systems, two reporter
-   Organizations; CMS165 NUMER=14 matches across lanes. Present the
+   Organizations; 13 of devfhir's 14 CMS165 NUMER patients match (the
+   14th is a denominator exclusion on the RPMS round-trip). Present the
    IPP/DENOM differences as a finding (round-trip fidelity differs by
    server), not a discrepancy to hide.
 
@@ -193,17 +194,25 @@ github.com/glilly/HL7-FHIR-quality-testing (docs/deqm-summary/).
 ### Rockville registration checklist
 
 1. [ ] Register for HL7 FHIR Connectathon **Sep 19–25, 2026 Rockville**
-2. [ ] Confirm / join **FHIR Quality Reporting with DEQM** (or successor) track
+2. [ ] Join the **CMS Quality Reporting: QPP & HQR End-to-End Submission**
+      track (confirmed successor to FHIR Quality Reporting with DEQM;
+      related track: Clinical Reasoning) —
+      <https://confluence.hl7.org/spaces/FHIR/pages/477660436/2026+-+09+CMS+Quality+Reporting+QPP+HQR+End-to-End+Submission+Track>
 3. [ ] Post `#cql` intro (draft above)
-4. [ ] Publish `summary-deqm.json` set to fhirdev via
-      `scripts/fhirdev-publish-measurereports.sh --build`
-5. [ ] Optional: bring Individual MeasureReport spike
-      (`CMS165v14-Patient-101115-individual-deqm.json`) for QRDA-I analogue demo
+4. [x] Published `summary-deqm.json` set to fhirdev 2026-08-08 via
+      `scripts/fhirdev-publish-measurereports.sh --build`, now including the
+      RPMS lane: <https://devfhir.vistaplex.org/filesystem/quality/measurereports/rpms/index.json>
+5. [x] Individual MeasureReport spike demo-ready
+      (`CMS165v14-Patient-101115-individual-deqm.json`, QRDA-I analogue):
+      validated 2026-08-08 against `indv-measurereport-deqm` (0 actionable
+      errors, known IG slice noise only); receiver POST **201 Created**
 6. [x] RPMS lane CMS165: cohort loaded, official CQL run, RPMS-labeled
       Summary MeasureReport validated + accepted (see RPMS lane section)
-7. [x] RPMS lane extended to CMS122/130/2/22: round-trip CQL counts,
-      reports validated + accepted (`results/rpms-multi-measure-smoke.md`)
-8. [ ] Timed dry-run of the live demo script (both lanes) from clean
-      terminals; note timings and fallbacks
+7. [x] RPMS lane extended to CMS122/130/2/22 and CMS138/125: round-trip
+      CQL counts, reports validated + accepted
+      (`results/rpms-multi-measure-smoke.md`) — full seven-measure set
+8. [x] Timed dry-run of the live demo script (both lanes) —
+      `results/demo-dryrun-20260808.md` (~30 s VistA loop, ~45 s RPMS
+      loop; found + fixed population-hierarchy counting bug)
 9. [ ] Optional stretch: host `deqm-test-server` publicly so VistaPlex
       can also act as receiver for peers (doubles scorecard surface)

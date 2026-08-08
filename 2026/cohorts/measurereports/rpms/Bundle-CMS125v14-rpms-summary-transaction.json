@@ -1,0 +1,178 @@
+{
+  "resourceType": "Bundle",
+  "id": "CMS125v14-rpms-summary-deqm-transaction",
+  "type": "transaction",
+  "timestamp": "2026-08-08T19:39:03Z",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:vistaplex-rpms-demo",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "vistaplex-rpms-demo",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-organization"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "https://vistaplex.org/fhir/sid/organization",
+            "value": "vistaplex-rpms-demo"
+          }
+        ],
+        "active": true,
+        "name": "VistaPlex RPMS FHIR Quality Demo (rpmsfhir)",
+        "telecom": [
+          {
+            "system": "url",
+            "value": "https://rpmsfhir.vistaplex.org/fhir"
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Organization/vistaplex-rpms-demo"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:CMS125v14-rpms-summary-deqm",
+      "resource": {
+        "resourceType": "MeasureReport",
+        "id": "CMS125v14-rpms-summary-deqm",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/davinci-deqm/StructureDefinition/summary-measurereport-deqm"
+          ],
+          "source": "urn:vista:deqm-summary-builder",
+          "tag": [
+            {
+              "system": "https://vistaplex.org/fhir/CodeSystem/quality-calc-mode",
+              "code": "official-cql",
+              "display": "official-cql"
+            },
+            {
+              "system": "https://vistaplex.org/fhir/CodeSystem/quality-cohort-size",
+              "code": "19",
+              "display": "cohort-size=19"
+            },
+            {
+              "system": "https://vistaplex.org/fhir/CodeSystem/quality-source",
+              "code": "provenance",
+              "display": "rpmsfhir round-trip DFNs 1143-1161 cql gated 2026-08-08; 2026/cohorts/rpms/CMS125v14/cql/cql-results.tsv"
+            }
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/us/davinci-deqm/StructureDefinition/extension-measureScoring",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/measure-scoring",
+                  "code": "proportion",
+                  "display": "Proportion"
+                }
+              ]
+            }
+          }
+        ],
+        "status": "complete",
+        "type": "summary",
+        "measure": "https://ecqi.healthit.gov/ecqm/ec/CMS125v14|14.0.000",
+        "date": "2026-08-08T19:39:03Z",
+        "reporter": {
+          "reference": "Organization/vistaplex-rpms-demo",
+          "display": "VistaPlex RPMS FHIR Quality Demo"
+        },
+        "period": {
+          "start": "2026-01-01",
+          "end": "2026-12-31"
+        },
+        "improvementNotation": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/measure-improvement-notation",
+              "code": "increase",
+              "display": "Increased score indicates improvement"
+            }
+          ]
+        },
+        "group": [
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "https://vistaplex.org/fhir/CodeSystem/measure-group",
+                  "code": "group-1",
+                  "display": "group-1"
+                }
+              ],
+              "text": "group-1"
+            },
+            "population": [
+              {
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/measure-population",
+                      "code": "initial-population",
+                      "display": "Initial Population"
+                    }
+                  ],
+                  "text": "Initial Population"
+                },
+                "count": 11
+              },
+              {
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/measure-population",
+                      "code": "denominator",
+                      "display": "Denominator"
+                    }
+                  ],
+                  "text": "Denominator"
+                },
+                "count": 11
+              },
+              {
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/measure-population",
+                      "code": "numerator",
+                      "display": "Numerator"
+                    }
+                  ],
+                  "text": "Numerator"
+                },
+                "count": 0
+              },
+              {
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/measure-population",
+                      "code": "denominator-exclusion",
+                      "display": "Denominator Exclusion"
+                    }
+                  ],
+                  "text": "Denominator Exclusion"
+                },
+                "count": 0
+              }
+            ],
+            "measureScore": {
+              "value": 0.0
+            }
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "MeasureReport/CMS125v14-rpms-summary-deqm"
+      }
+    }
+  ]
+}

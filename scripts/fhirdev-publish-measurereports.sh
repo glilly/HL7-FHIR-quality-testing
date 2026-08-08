@@ -18,6 +18,28 @@ fi
 
 [[ -f "$SRC/index.json" ]] || { echo "missing $SRC/index.json — run with --build first" >&2; exit 1; }
 
+# Include the RPMS-lane DEQM Summary MeasureReports (distinct reporter Org).
+RPMS_SRC="${ROOT}/docs/deqm-summary/prototypes/rpms"
+if [[ -d "$RPMS_SRC" ]]; then
+  rm -rf "$SRC/rpms"
+  mkdir -p "$SRC/rpms"
+  cp "$RPMS_SRC"/*.json "$SRC/rpms/"
+  python3 - "$SRC/rpms" <<'PY'
+import json, pathlib, sys
+from datetime import datetime, timezone
+d = pathlib.Path(sys.argv[1])
+reports = sorted(p.name for p in d.glob("*-rpms-summary-deqm.json"))
+index = {
+    "generatedAt": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+    "lane": "rpms",
+    "note": "DEQM Summary MeasureReports from rpmsfhir round-trip official CQL (synthetic data); reporter Organization/vistaplex-rpms-demo",
+    "reports": reports,
+}
+(d / "index.json").write_text(json.dumps(index, indent=2) + "\n")
+print(f"rpms lane: {len(reports)} reports indexed")
+PY
+fi
+
 TGZ="$(mktemp /tmp/measurereports.XXXXXX.tgz)"
 cleanup() { rm -f "$TGZ"; }
 trap cleanup EXIT

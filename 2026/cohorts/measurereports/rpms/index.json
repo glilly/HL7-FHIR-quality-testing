@@ -1,0 +1,14 @@
+{
+  "generatedAt": "2026-08-08T19:40:12Z",
+  "lane": "rpms",
+  "note": "DEQM Summary MeasureReports from rpmsfhir round-trip official CQL (synthetic data); reporter Organization/vistaplex-rpms-demo",
+  "reports": [
+    "CMS122v14-rpms-summary-deqm.json",
+    "CMS125v14-rpms-summary-deqm.json",
+    "CMS130v14-rpms-summary-deqm.json",
+    "CMS138v14-rpms-summary-deqm.json",
+    "CMS165v14-rpms-summary-deqm.json",
+    "CMS22v14-rpms-summary-deqm.json",
+    "CMS2v15-rpms-summary-deqm.json"
+  ]
+}

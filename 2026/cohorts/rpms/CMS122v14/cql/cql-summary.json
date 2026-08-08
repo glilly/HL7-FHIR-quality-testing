@@ -4,6 +4,6 @@
   "expanded_value_sets": 30,
   "ipp": 10,
   "denom": 10,
-  "numer": 9,
+  "numer": 4,
   "results": "/home/glilly/work/vista-stack/HL7-FHIR-quality-testing/2026/cohorts/rpms/CMS122v14/cql/cql-results.tsv"
 }

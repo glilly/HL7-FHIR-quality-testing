@@ -1,0 +1,23 @@
+{
+  "resourceType": "Organization",
+  "id": "vistaplex-rpms-demo",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-organization"
+    ]
+  },
+  "identifier": [
+    {
+      "system": "https://vistaplex.org/fhir/sid/organization",
+      "value": "vistaplex-rpms-demo"
+    }
+  ],
+  "active": true,
+  "name": "VistaPlex RPMS FHIR Quality Demo (rpmsfhir)",
+  "telecom": [
+    {
+      "system": "url",
+      "value": "https://rpmsfhir.vistaplex.org/fhir"
+    }
+  ]
+}

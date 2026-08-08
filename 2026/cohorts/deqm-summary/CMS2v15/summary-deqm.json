@@ -41,7 +41,7 @@
   "status": "complete",
   "type": "summary",
   "measure": "https://ecqi.healthit.gov/ecqm/ec/CMS2v15|15.0.000",
-  "date": "2026-08-08T03:56:51Z",
+  "date": "2026-08-08T19:35:14Z",
   "reporter": {
     "reference": "Organization/vistaplex-demo",
     "display": "VistaPlex FHIR Quality Demo"

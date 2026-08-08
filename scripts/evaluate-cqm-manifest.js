@@ -54,13 +54,18 @@ function popsFromResult(result) {
   if (!keys.length) return { ipp: 0, denom: 0, numer: 0, denex: 0 };
   const pr = patientResults[keys[0]] || {};
   const pc = pr.PopulationCriteria1 || Object.values(pr)[0] || {};
-  return {
-    ipp: statementTrue(pc, ["IPP", "Initial Population"]) ? 1 : 0,
-    // CMS138 is multi-rate (Denominator 1/2/3); accept any rate for cohort flags.
-    denom: statementTrue(pc, ["DENOM", "Denominator", "Denominator 1", "Denominator 2", "Denominator 3"]) ? 1 : 0,
-    numer: statementTrue(pc, ["NUMER", "Numerator", "Numerator 1", "Numerator 2", "Numerator 3"]) ? 1 : 0,
-    denex: statementTrue(pc, ["DENEX", "Denominator Exclusion"]) ? 1 : 0,
-  };
+  const ipp = statementTrue(pc, ["IPP", "Initial Population"]) ? 1 : 0;
+  // CMS138 is multi-rate (Denominator 1/2/3); accept any rate for cohort flags.
+  const denomRaw = statementTrue(pc, ["DENOM", "Denominator", "Denominator 1", "Denominator 2", "Denominator 3"]) ? 1 : 0;
+  const numerRaw = statementTrue(pc, ["NUMER", "Numerator", "Numerator 1", "Numerator 2", "Numerator 3"]) ? 1 : 0;
+  const denexRaw = statementTrue(pc, ["DENEX", "Denominator Exclusion"]) ? 1 : 0;
+  // Enforce population hierarchy: DENOM ⊆ IPP; DENEX ⊆ DENOM; NUMER ⊆ DENOM
+  // minus DENEX. Raw CQL statements (e.g. "has controlled BP") can be true
+  // for patients outside the denominator; counting those inflates NUMER.
+  const denom = denomRaw && ipp ? 1 : 0;
+  const denex = denexRaw && denom ? 1 : 0;
+  const numer = numerRaw && denom && !denex ? 1 : 0;
+  return { ipp, denom, numer, denex };
 }
 
 async function main() {

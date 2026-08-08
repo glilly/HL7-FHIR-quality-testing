@@ -1,7 +1,10 @@
-# RPMS lane official CQL counts — rpmsfhir round-trip exports, DFNs 1143-1161 (selected-18 + showcase), 2026-08-08
+# RPMS lane official CQL counts — rpmsfhir round-trip exports, DFNs 1143-1161 (selected-18 + showcase), gated 2026-08-08
+# Population hierarchy enforced: DENOM ⊆ IPP, DENEX ⊆ DENOM, NUMER ⊆ DENOM−DENEX (evaluate-cqm-manifest.js)
 # cms	ipp	denom	numer	denex	cohort_size	source_note
-CMS165v14	19	19	14	1	19	2026/cohorts/rpms/CMS165v14/cql/cql-results.tsv
-CMS122v14	10	10	9	0	19	2026/cohorts/rpms/CMS122v14/cql/cql-results.tsv
+CMS165v14	19	19	13	1	19	2026/cohorts/rpms/CMS165v14/cql/cql-results.tsv
+CMS122v14	10	10	4	0	19	2026/cohorts/rpms/CMS122v14/cql/cql-results.tsv
 CMS130v14	15	15	1	0	19	2026/cohorts/rpms/CMS130v14/cql/cql-results.tsv
 CMS2v15	19	19	0	0	19	2026/cohorts/rpms/CMS2v15/cql/cql-results.tsv
 CMS22v14	19	19	0	19	19	2026/cohorts/rpms/CMS22v14/cql/cql-results.tsv
+CMS138v14	19	19	19	0	19	2026/cohorts/rpms/CMS138v14/cql/cql-results.tsv
+CMS125v14	11	11	0	0	19	2026/cohorts/rpms/CMS125v14/cql/cql-results.tsv

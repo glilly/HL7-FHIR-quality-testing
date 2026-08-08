@@ -12,8 +12,8 @@
   },
   "status": "complete",
   "type": "individual",
-  "measure": "https://ecqi.healthit.gov/ecqm/ec/CMS130v14",
-  "date": "2026-07-29",
+  "measure": "https://ecqi.healthit.gov/ecqm/ec/CMS130v14|14.0.000",
+  "date": "2026-08-08",
   "period": {
     "start": "2026-01-01",
     "end": "2026-12-31"

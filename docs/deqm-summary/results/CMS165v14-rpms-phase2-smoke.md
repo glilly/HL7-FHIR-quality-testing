@@ -16,20 +16,27 @@ Date: 2026-08-08
    --out-dir 2026/cohorts/rpms/CMS165v14/cql`
    (log `logs/rpms-cms165-cql-20260808.log`).
 
-## Counts (n=19)
+## Counts (n=19, hierarchy-gated; corrected later 2026-08-08)
 
 | IPP | DENOM | NUMER | DENEX | score |
 |---:|---:|---:|---:|---:|
-| 19 | 19 | 14 | 1 | 0.736842 |
+| 19 | 19 | 13 | 1 | 0.684211 |
 
 Per-patient: `2026/cohorts/rpms/CMS165v14/cql/cql-results.tsv`.
 
-Comparison vs devfhir lane (selected-18, 14/14/14/0): **NUMER=14 matches**;
-IPP/DENOM are higher on the RPMS lane because the rpmsfhir collection
-Bundle round-trips more of the source data (more qualifying
-encounters/elements survive), and the cohort includes the showcase
-patient (n=19 vs 18). DENEX=1 is DFN 1145. Do not average or merge the
-two lanes; report each under its own reporter Organization.
+Correction note: the initial run counted raw CQL statement results, which
+let DENEX patient DFN 1145 also count in NUMER (14). The evaluator now
+enforces population hierarchy (NUMER ⊆ DENOM−DENEX), giving NUMER=13.
+The devfhir selected-18 counts (14/14/14/0) were re-verified under the
+gated evaluator and are unchanged.
+
+Comparison vs devfhir lane (selected-18, 14/14/14/0): 13 of devfhir's 14
+NUMER patients match; the 14th (DFN 1145) is a denominator exclusion on
+the RPMS round-trip surface. IPP/DENOM are higher on the RPMS lane
+because the rpmsfhir collection Bundle round-trips more of the source
+data, and the cohort includes the showcase patient (n=19 vs 18). Do not
+average or merge the two lanes; report each under its own reporter
+Organization.
 
 ## Phase 2 gates
 
