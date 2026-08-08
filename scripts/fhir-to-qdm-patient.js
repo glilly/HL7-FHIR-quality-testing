@@ -3,9 +3,11 @@
  * Convert a FHIR R4 Bundle (or transaction/collection) into a Project Tacoma
  * QDM patient JSON sketch suitable for later cqm-execution.
  *
- * This is the first bridge slice for CMS165/CMS122: Patient, Conditions,
- * Encounters, and Observations (BP / labs). It does not invent value-set
- * membership; codes are copied through for the evaluator/value-set layer.
+ * Bridge slice for CMS165/CMS122/CMS125/CMS138: Patient, Conditions,
+ * Encounters, Observations (BP / labs / tobacco), and mammography evidence as
+ * Diagnostic Study, Performed. It does not invent value-set membership except
+ * a small SNOMED→LOINC bridge for Synthea mammography Procedures (CMS125 VS is
+ * LOINC-only).
  */
 "use strict";
 
@@ -76,9 +78,50 @@ function instant(value) {
   return d.toISOString();
 }
 
+const SNOMED_OID = "urn:oid:2.16.840.1.113883.6.96";
+const SEX_FINDING = {
+  female: { code: "248152002", display: "Female (finding)" },
+  male: { code: "248153007", display: "Male (finding)" },
+};
+
+function extensionCoding(patient, urlPart) {
+  for (const ext of patient.extension || []) {
+    if (!(ext.url || "").toLowerCase().includes(String(urlPart).toLowerCase())) continue;
+    if (ext.valueCode) return { code: String(ext.valueCode) };
+    const cc = ext.valueCodeableConcept;
+    if (!cc) continue;
+    const coding = (cc.coding || []).find((c) => c && c.code);
+    if (coding) return coding;
+    if (cc.text) return { code: String(cc.text) };
+  }
+  return null;
+}
+
+/** Map FHIR Patient sex → SNOMED finding codes used by CMS125/Federal Administrative Sex. */
+function sexFindingFromPatient(patient) {
+  const sex = extensionCoding(patient, "us-core-sex");
+  if (sex && (sex.code === "248152002" || sex.code === "248153007")) {
+    return {
+      code: sex.code,
+      display: sex.display || (sex.code === "248152002" ? SEX_FINDING.female.display : SEX_FINDING.male.display),
+      system: SNOMED_OID,
+    };
+  }
+  const birthsex = extensionCoding(patient, "us-core-birthsex") || extensionCoding(patient, "birthsex");
+  const bs = String(birthsex?.code || "").toUpperCase();
+  if (bs === "F" || bs === "FEMALE") return { ...SEX_FINDING.female, system: SNOMED_OID };
+  if (bs === "M" || bs === "MALE") return { ...SEX_FINDING.male, system: SNOMED_OID };
+  const g = String(patient.gender || "").toLowerCase();
+  if (g === "female") return { ...SEX_FINDING.female, system: SNOMED_OID };
+  if (g === "male") return { ...SEX_FINDING.male, system: SNOMED_OID };
+  return null;
+}
+
 function periodFrom(resource) {
   const start =
     resource.period?.start ||
+    resource.performedDateTime ||
+    resource.performedPeriod?.start ||
     resource.effectiveDateTime ||
     resource.effectivePeriod?.start ||
     resource.onsetDateTime ||
@@ -86,6 +129,8 @@ function periodFrom(resource) {
     null;
   const end =
     resource.period?.end ||
+    resource.performedPeriod?.end ||
+    resource.performedDateTime ||
     resource.effectivePeriod?.end ||
     start;
   const low = instant(start);
@@ -125,6 +170,85 @@ const TOBACCO_SCREENING_LOINC = new Set([
 function codeableResult(codeable) {
   const codes = codingList(codeable);
   return codes.length ? codes[0] : null;
+}
+
+/** Synthea mammography Procedures use SNOMED; CMS125 Mammography VS is LOINC. */
+const MAMMO_SCT_TO_LOINC = {
+  // CMS125 Mammography VS (2.16.840.1.113883.3.464.1003.108.12.1018) is LOINC-only.
+  "71651007": { code: "24606-6", display: "MG Breast Screening" },
+  "24623002": { code: "24606-6", display: "MG Breast Screening" },
+};
+
+function mammoLoincFromCodes(codes) {
+  for (const c of codes || []) {
+    if (!c || !c.code) continue;
+    if ((c.system || "").includes("113883.6.1") || (c.system || "").toLowerCase().includes("loinc")) {
+      return null; // already LOINC; caller keeps original codes
+    }
+    const bridge = MAMMO_SCT_TO_LOINC[String(c.code)];
+    if (bridge) {
+      return {
+        code: bridge.code,
+        system: "urn:oid:2.16.840.1.113883.6.1",
+        display: bridge.display,
+        version: null,
+        _type: "QDM::Code",
+      };
+    }
+  }
+  return null;
+}
+
+function isMammoEvidence(resource, codes) {
+  if (mammoLoincFromCodes(codes)) return true;
+  for (const c of codes || []) {
+    const sys = (c.system || "").toLowerCase();
+    const disp = (c.display || "").toLowerCase();
+    if (sys.includes("113883.6.1") || sys.includes("loinc")) {
+      if (
+        disp.includes("mg breast") ||
+        disp.includes("mammograph") ||
+        disp.includes("dbt breast") ||
+        String(c.code).startsWith("2460") ||
+        String(c.code).startsWith("2617") ||
+        String(c.code).startsWith("10388")
+      ) {
+        return true;
+      }
+    }
+  }
+  return false;
+}
+
+function pushDiagnosticStudy(dataElements, resource, codes, bridgeHint) {
+  const when =
+    instant(resource.performedDateTime) ||
+    instant(resource.performedPeriod?.start) ||
+    instant(resource.performedPeriod?.end) ||
+    instant(resource.effectiveDateTime) ||
+    instant(resource.effectivePeriod?.start) ||
+    instant(resource.issued);
+  const period =
+    periodFrom(resource) ||
+    (when ? { low: when, high: when, _type: "QDM::Interval" } : null);
+  if (!when && !period) return;
+  const bridged = mammoLoincFromCodes(codes);
+  const dataElementCodes = bridged ? [bridged, ...codes] : codes;
+  dataElements.push({
+    authorDatetime: when || (period && period.low) || null,
+    category: "diagnostic_study",
+    dataElementCodes,
+    description:
+      "Diagnostic Study, Performed: " +
+      (resource.code?.text || dataElementCodes[0].display || dataElementCodes[0].code),
+    hqmfOid: "2.16.840.1.113883.10.20.28.4.23",
+    relevantDatetime: when || (period && period.low) || null,
+    relevantPeriod: period,
+    qdmStatus: "performed",
+    qdmVersion: "5.6",
+    _type: "QDM::DiagnosticStudyPerformed",
+    _bridgeHint: bridgeHint,
+  });
 }
 
 function isTobaccoScreeningObservation(resource, codes) {
@@ -216,15 +340,16 @@ function patientFrom(bundle) {
     _type: "QDM::PatientCharacteristicBirthdate",
   });
 
-  if (patient.gender) {
+  const sexFinding = sexFindingFromPatient(patient);
+  if (sexFinding) {
     dataElements.push({
       authorDatetime: birth,
       category: "patient_characteristic",
       dataElementCodes: [
         {
-          code: patient.gender[0].toUpperCase(),
-          display: patient.gender,
-          system: "2.16.840.1.113883.5.1",
+          code: sexFinding.code,
+          display: sexFinding.display,
+          system: sexFinding.system,
           version: null,
           _type: "QDM::Code",
         },
@@ -277,6 +402,17 @@ function patientFrom(bundle) {
         qdmVersion: "5.6",
         _type: "QDM::EncounterPerformed",
       });
+    }
+    if (resource.resourceType === "Procedure" || resource.resourceType === "DiagnosticReport") {
+      const codes = codingList(resource.code);
+      if (codes.length && isMammoEvidence(resource, codes)) {
+        pushDiagnosticStudy(
+          dataElements,
+          resource,
+          codes,
+          resource.resourceType === "Procedure" ? "procedure-mammo" : "diagnosticreport-mammo"
+        );
+      }
     }
     if (resource.resourceType === "Observation") {
       const codes = codingList(resource.code);
