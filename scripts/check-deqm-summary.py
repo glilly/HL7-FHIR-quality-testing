@@ -45,6 +45,9 @@ def main() -> int:
         fail("type != summary")
     if not rep.get("measure"):
         fail("missing measure")
+    # DEQM invariant deqm-0: Canonical URL SHALL contain a version.
+    if "|" not in str(rep.get("measure")):
+        fail("measure canonical missing '|version' (deqm-0)")
     if not (rep.get("reporter") or {}).get("reference"):
         fail("missing reporter.reference")
     period = rep.get("period") or {}

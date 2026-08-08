@@ -35,7 +35,14 @@ ORG_REF = f"Organization/{ORG_ID}"
 
 def measure_canonical(cms: str) -> str:
     # Placeholder until CMS FHIR dQM Measure packages are pinned for EC.
-    return f"https://ecqi.healthit.gov/ecqm/ec/{cms}"
+    # DEQM invariant deqm-0 requires a version segment after '|'.
+    # CMS165v14 → version 14.0.000 (placeholder, not a published FHIR Measure).
+    version = "0.0.1"
+    if "v" in cms:
+        tail = cms.rsplit("v", 1)[-1]
+        if tail.isdigit():
+            version = f"{int(tail)}.0.000"
+    return f"https://ecqi.healthit.gov/ecqm/ec/{cms}|{version}"
 
 
 def pop(code: str, display: str, count: int) -> dict[str, Any]:
@@ -97,9 +104,22 @@ def summary_report(
                 {
                     "system": "https://vistaplex.org/fhir/CodeSystem/quality-calc-mode",
                     "code": mode,
-                }
+                    "display": mode,
+                },
+                {
+                    "system": "https://vistaplex.org/fhir/CodeSystem/quality-cohort-size",
+                    "code": str(int(cohort_size)),
+                    "display": f"cohort-size={int(cohort_size)}",
+                },
+                {
+                    "system": "https://vistaplex.org/fhir/CodeSystem/quality-source",
+                    "code": "provenance",
+                    "display": source[:200],
+                },
             ],
         },
+        # Keep only DEQM measureScoring on .extension (IG golden pattern).
+        # Cohort provenance lives in meta.tag to avoid supplementalData slice noise.
         "extension": [
             {
                 "url": MEASURE_SCORING_EXT,
@@ -112,14 +132,6 @@ def summary_report(
                         }
                     ]
                 },
-            },
-            {
-                "url": "https://vistaplex.org/fhir/StructureDefinition/vista-quality-cohort-size",
-                "valueInteger": int(cohort_size),
-            },
-            {
-                "url": "https://vistaplex.org/fhir/StructureDefinition/vista-quality-source",
-                "valueString": source,
             },
         ],
         "status": "complete",
@@ -142,6 +154,7 @@ def summary_report(
                 "code": {
                     "coding": [
                         {
+                            # Avoid example.org (validator rejects example URLs).
                             "system": "https://vistaplex.org/fhir/CodeSystem/measure-group",
                             "code": "group-1",
                             "display": "group-1",

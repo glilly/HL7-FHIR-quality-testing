@@ -9,7 +9,18 @@
     "tag": [
       {
         "system": "https://vistaplex.org/fhir/CodeSystem/quality-calc-mode",
-        "code": "official-cql"
+        "code": "official-cql",
+        "display": "official-cql"
+      },
+      {
+        "system": "https://vistaplex.org/fhir/CodeSystem/quality-cohort-size",
+        "code": "18",
+        "display": "cohort-size=18"
+      },
+      {
+        "system": "https://vistaplex.org/fhir/CodeSystem/quality-source",
+        "code": "provenance",
+        "display": "RECOVER_CMS165_122_REPORT_LATEST.md selected-18 official-cql (2026-07-25)"
       }
     ]
   },
@@ -25,20 +36,12 @@
           }
         ]
       }
-    },
-    {
-      "url": "https://vistaplex.org/fhir/StructureDefinition/vista-quality-cohort-size",
-      "valueInteger": 18
-    },
-    {
-      "url": "https://vistaplex.org/fhir/StructureDefinition/vista-quality-source",
-      "valueString": "RECOVER_CMS165_122_REPORT_LATEST.md selected-18 official-cql (2026-07-25)"
     }
   ],
   "status": "complete",
   "type": "summary",
-  "measure": "https://ecqi.healthit.gov/ecqm/ec/CMS165v14",
-  "date": "2026-08-08T00:49:53Z",
+  "measure": "https://ecqi.healthit.gov/ecqm/ec/CMS165v14|14.0.000",
+  "date": "2026-08-08T01:39:31Z",
   "reporter": {
     "reference": "Organization/vistaplex-demo",
     "display": "VistaPlex FHIR Quality Demo"
