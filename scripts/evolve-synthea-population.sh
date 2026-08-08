@@ -1,23 +1,28 @@
 #!/usr/bin/env bash
+# Evolve a Synthea Java population snapshot forward and re-export FHIR.
+# Requires a snap from generate-synthea-1000.sh (-u population.snap), not FHIR JSON.
+# Docs: https://github.com/synthetichealth/synthea/wiki/Evolving-a-Population
 set -euo pipefail
 
-COUNT="${COUNT:-1000}"
-SEED="${SEED:-20260901}"
-STATE="${STATE:-Massachusetts}"
-RUN_DATE="${RUN_DATE:-20260101}"
+SNAP_IN="${1:-}"
+if [[ -z "$SNAP_IN" || ! -f "$SNAP_IN" ]]; then
+  echo "usage: $0 <initial-population.snap> [days]" >&2
+  echo "  days: optional -t N; omit to evolve to current system time" >&2
+  exit 1
+fi
+DAYS="${2:-}"
+
 SYN_SYNTHEA_ROOT="${SYN_SYNTHEA_ROOT:-/home/glilly/work/vista-stack/synthea}"
 OUT_ROOT="${OUT_ROOT:-/home/glilly/work/vista-stack/HL7-FHIR-quality-testing/2026/patients/raw}"
-RUN_ID="${RUN_ID:-synthea-${COUNT}-${SEED}-${RUN_DATE}}"
+STAMP="$(date -u +%Y%m%dT%H%M%SZ)"
+RUN_ID="${RUN_ID:-synthea-evolve-${STAMP}}"
+OUT_DIR="${OUT_DIR:-$OUT_ROOT/$RUN_ID}"
 DOCKER_IMAGE="${SYNTHEA_JDK_IMAGE:-eclipse-temurin:17-jdk}"
 GRADLE_CACHE="${GRADLE_CACHE:-/home/glilly/work/vista-stack/synthea-gradle-cache-user}"
 PROJECT_CACHE="${PROJECT_CACHE:-/home/glilly/work/vista-stack/synthea-gradle-project-cache-user}"
 BUILD_DIR="${BUILD_DIR:-/home/glilly/work/vista-stack/synthea-build-user}"
-# Snapshot keeps the whole population in memory; 6g OOMs around ~1000 with -u.
-MAX_HEAP_SIZE="${MAX_HEAP_SIZE:-12288m}"
-OUT_DIR="$OUT_ROOT/$RUN_ID"
+SNAP_OUT="${SNAP_OUT:-$OUT_DIR/population.snap}"
 MANIFEST="$OUT_DIR/manifest.tsv"
-# Java-serialized Person snapshot for later evolution (-i / -t). Not FHIR.
-SNAP_PATH="${SNAP_PATH:-$OUT_DIR/population.snap}"
 
 if [[ ! -f "$SYN_SYNTHEA_ROOT/run_synthea" ]]; then
   echo "error: missing $SYN_SYNTHEA_ROOT/run_synthea" >&2
@@ -26,20 +31,28 @@ fi
 
 mkdir -p "$OUT_DIR"
 mkdir -p "$GRADLE_CACHE" "$PROJECT_CACHE" "$BUILD_DIR"
-echo "Synthea batch: count=$COUNT seed=$SEED runDate=$RUN_DATE state=$STATE out=$OUT_DIR snap=$SNAP_PATH heap=$MAX_HEAP_SIZE"
+SNAP_IN_ABS="$(cd "$(dirname "$SNAP_IN")" && pwd)/$(basename "$SNAP_IN")"
+
+PARAMS="[\"-i\",\"/snap-in\",\"-u\",\"/out/population.snap\",\"--exporter.fhir.export=true\",\"--exporter.fhir.transaction_bundle=true\",\"--exporter.baseDirectory=/out\""
+if [[ -n "$DAYS" ]]; then
+  PARAMS="${PARAMS},\"-t\",\"${DAYS}\""
+fi
+PARAMS="${PARAMS}]"
+
+echo "Synthea evolve: in=$SNAP_IN_ABS days=${DAYS:-now} out=$OUT_DIR snap=$SNAP_OUT"
 
 docker run --rm \
   -u "$(id -u):$(id -g)" \
   -e GRADLE_USER_HOME=/gradle-cache \
-  -e MAX_HEAP_SIZE="$MAX_HEAP_SIZE" \
   -v "$SYN_SYNTHEA_ROOT:/work" \
   -v "$OUT_DIR:/out" \
+  -v "$SNAP_IN_ABS:/snap-in:ro" \
   -v "$GRADLE_CACHE:/gradle-cache" \
   -v "$PROJECT_CACHE:/project-cache" \
   -v "$BUILD_DIR:/work/build" \
   -w /work \
   "$DOCKER_IMAGE" \
-  sh -lc "./gradlew --project-cache-dir /project-cache run -Params='[\"-p\",\"$COUNT\",\"-s\",\"$SEED\",\"-r\",\"$RUN_DATE\",\"-u\",\"/out/population.snap\",\"--exporter.fhir.export=true\",\"--exporter.fhir.transaction_bundle=true\",\"--exporter.baseDirectory=/out\",\"$STATE\"]'"
+  sh -lc "./gradlew --project-cache-dir /project-cache run -Params='${PARAMS}'"
 
 python3 - "$OUT_DIR" "$MANIFEST" <<'PY2'
 import json, sys
