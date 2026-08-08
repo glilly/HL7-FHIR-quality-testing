@@ -2,7 +2,7 @@
   "resourceType": "Bundle",
   "id": "CMS165v14-summary-deqm-transaction",
   "type": "transaction",
-  "timestamp": "2026-08-08T01:39:31Z",
+  "timestamp": "2026-08-08T03:56:50Z",
   "entry": [
     {
       "fullUrl": "urn:uuid:vistaplex-demo",
@@ -58,7 +58,7 @@
             {
               "system": "https://vistaplex.org/fhir/CodeSystem/quality-source",
               "code": "provenance",
-              "display": "RECOVER_CMS165_122_REPORT_LATEST.md selected-18 official-cql (2026-07-25)"
+              "display": "RECOVER selected-18 official-cql"
             }
           ]
         },
@@ -79,7 +79,7 @@
         "status": "complete",
         "type": "summary",
         "measure": "https://ecqi.healthit.gov/ecqm/ec/CMS165v14|14.0.000",
-        "date": "2026-08-08T01:39:31Z",
+        "date": "2026-08-08T03:56:50Z",
         "reporter": {
           "reference": "Organization/vistaplex-demo",
           "display": "VistaPlex FHIR Quality Demo"

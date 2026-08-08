@@ -1,0 +1,9 @@
+# Official selected-18 (or n noted) CQL counts from RECOVER_CMS165_122_REPORT_LATEST.md
+# cms	ipp	denom	numer	denex	cohort_size	source_note
+CMS165v14	14	14	14	0	18	RECOVER selected-18 official-cql
+CMS122v14	5	5	0	0	18	RECOVER selected-18 official-cql
+CMS130v14	9	9	0	0	18	RECOVER selected-18 official-cql
+CMS138v14	1	0	0	0	18	RECOVER selected-18 official-cql
+CMS2v15	6	6	0	0	18	RECOVER selected-18 official-cql
+CMS125v14	0	0	0	0	9	RECOVER selected-18 subset n=9 official-cql
+CMS22v14	6	6	0	2	18	RECOVER selected-18 official-cql

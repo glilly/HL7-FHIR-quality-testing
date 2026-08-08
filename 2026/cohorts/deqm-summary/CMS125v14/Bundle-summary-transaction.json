@@ -1,8 +1,8 @@
 {
   "resourceType": "Bundle",
-  "id": "CMS165v14-summary-deqm-transaction",
+  "id": "CMS125v14-summary-deqm-transaction",
   "type": "transaction",
-  "timestamp": "2026-08-08T03:56:50Z",
+  "timestamp": "2026-08-08T03:56:51Z",
   "entry": [
     {
       "fullUrl": "urn:uuid:vistaplex-demo",
@@ -35,10 +35,10 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:CMS165v14-summary-deqm",
+      "fullUrl": "urn:uuid:CMS125v14-summary-deqm",
       "resource": {
         "resourceType": "MeasureReport",
-        "id": "CMS165v14-summary-deqm",
+        "id": "CMS125v14-summary-deqm",
         "meta": {
           "profile": [
             "http://hl7.org/fhir/us/davinci-deqm/StructureDefinition/summary-measurereport-deqm"
@@ -52,13 +52,13 @@
             },
             {
               "system": "https://vistaplex.org/fhir/CodeSystem/quality-cohort-size",
-              "code": "18",
-              "display": "cohort-size=18"
+              "code": "9",
+              "display": "cohort-size=9"
             },
             {
               "system": "https://vistaplex.org/fhir/CodeSystem/quality-source",
               "code": "provenance",
-              "display": "RECOVER selected-18 official-cql"
+              "display": "RECOVER selected-18 subset n=9 official-cql"
             }
           ]
         },
@@ -78,8 +78,8 @@
         ],
         "status": "complete",
         "type": "summary",
-        "measure": "https://ecqi.healthit.gov/ecqm/ec/CMS165v14|14.0.000",
-        "date": "2026-08-08T03:56:50Z",
+        "measure": "https://ecqi.healthit.gov/ecqm/ec/CMS125v14|14.0.000",
+        "date": "2026-08-08T03:56:51Z",
         "reporter": {
           "reference": "Organization/vistaplex-demo",
           "display": "VistaPlex FHIR Quality Demo"
@@ -121,7 +121,7 @@
                   ],
                   "text": "Initial Population"
                 },
-                "count": 14
+                "count": 0
               },
               {
                 "code": {
@@ -134,7 +134,7 @@
                   ],
                   "text": "Denominator"
                 },
-                "count": 14
+                "count": 0
               },
               {
                 "code": {
@@ -147,7 +147,7 @@
                   ],
                   "text": "Numerator"
                 },
-                "count": 14
+                "count": 0
               },
               {
                 "code": {
@@ -164,14 +164,14 @@
               }
             ],
             "measureScore": {
-              "value": 1.0
+              "value": 0.0
             }
           }
         ]
       },
       "request": {
         "method": "PUT",
-        "url": "MeasureReport/CMS165v14-summary-deqm"
+        "url": "MeasureReport/CMS125v14-summary-deqm"
       }
     }
   ]

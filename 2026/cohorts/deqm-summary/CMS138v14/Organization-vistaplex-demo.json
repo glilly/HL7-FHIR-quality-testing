@@ -1,0 +1,23 @@
+{
+  "resourceType": "Organization",
+  "id": "vistaplex-demo",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-organization"
+    ]
+  },
+  "identifier": [
+    {
+      "system": "https://vistaplex.org/fhir/sid/organization",
+      "value": "vistaplex-demo"
+    }
+  ],
+  "active": true,
+  "name": "VistaPlex FHIR Quality Demo (fhirdev)",
+  "telecom": [
+    {
+      "system": "url",
+      "value": "https://devfhir.vistaplex.org/fhir-quality-dashboards"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "resourceType": "MeasureReport",
-  "id": "CMS165v14-summary-deqm",
+  "id": "CMS2v15-summary-deqm",
   "meta": {
     "profile": [
       "http://hl7.org/fhir/us/davinci-deqm/StructureDefinition/summary-measurereport-deqm"
@@ -40,8 +40,8 @@
   ],
   "status": "complete",
   "type": "summary",
-  "measure": "https://ecqi.healthit.gov/ecqm/ec/CMS165v14|14.0.000",
-  "date": "2026-08-08T03:56:50Z",
+  "measure": "https://ecqi.healthit.gov/ecqm/ec/CMS2v15|15.0.000",
+  "date": "2026-08-08T03:56:51Z",
   "reporter": {
     "reference": "Organization/vistaplex-demo",
     "display": "VistaPlex FHIR Quality Demo"
@@ -83,7 +83,7 @@
             ],
             "text": "Initial Population"
           },
-          "count": 14
+          "count": 6
         },
         {
           "code": {
@@ -96,7 +96,7 @@
             ],
             "text": "Denominator"
           },
-          "count": 14
+          "count": 6
         },
         {
           "code": {
@@ -109,7 +109,7 @@
             ],
             "text": "Numerator"
           },
-          "count": 14
+          "count": 0
         },
         {
           "code": {
@@ -126,7 +126,7 @@
         }
       ],
       "measureScore": {
-        "value": 1.0
+        "value": 0.0
       }
     }
   ]
