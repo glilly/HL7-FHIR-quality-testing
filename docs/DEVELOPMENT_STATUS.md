@@ -51,6 +51,12 @@ Authoritative demo host: **`devfhir.vistaplex.org`** (`fhirdev22`).
   (2026-07-29).
 - Local untracked Aug artifacts also include rpmsfhir ~1000-patient ingest
   ledgers aligning with `rpms-fhir` bulk-load docs.
+- **DEQM Summary MeasureReport path (QRDA-III replacement) started:**
+  `docs/deqm-summary/` checklist + IG examples; CMS165v14 prototype
+  (official-cql selected-18 **14/14/14/0**) from
+  `scripts/build-deqm-summary.py`; structural gate
+  `scripts/check-deqm-summary.py`. Full FHIR Validator / receiver POST is
+  next (`scripts/deqm-summary-receiver-smoke.sh`).
 
 ## Gap analysis
 
