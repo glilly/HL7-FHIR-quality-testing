@@ -1,0 +1,9 @@
+{
+  "cms_id": "CMS165v14",
+  "patients": 19,
+  "expanded_value_sets": 37,
+  "ipp": 16,
+  "denom": 16,
+  "numer": 15,
+  "results": "/home/glilly/work/vista-stack/HL7-FHIR-quality-testing/2026/cohorts/fhirprod/CMS165v14/cql/cql-results.tsv"
+}

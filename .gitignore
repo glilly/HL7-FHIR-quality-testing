@@ -32,6 +32,8 @@ node_modules/
 # large/regenerable (refetch via GET /fhir?dfn= per eval-manifest.tsv).
 2026/cohorts/rpms/**/bundles/**
 2026/cohorts/rpms/**/cql/*.qdm.json
+2026/cohorts/fhirprod/**/bundles/**
+2026/cohorts/fhirprod/**/cql/*.qdm.json
 
 # Empty overnight overwrite artifact (keep local only).
 2026/measures/**/cqm/value_sets.empty-*.json

@@ -1,0 +1,11 @@
+# fhir.vistaplex.org (fhirprod) lane official CQL counts — round-trip exports, DFNs 1643-1661 (selected-18 + showcase), gated 2026-08-08
+# Cohort loaded + re-filed after server upgrade (SYN routines, SYN maps, Lexicon 757.33 sync from devfhir); see results/three-server-comparison-20260808.md
+# Population hierarchy enforced: DENOM ⊆ IPP, DENEX ⊆ DENOM, NUMER ⊆ DENOM−DENEX (evaluate-cqm-manifest.js)
+# cms	ipp	denom	numer	denex	cohort_size	source_note
+CMS165v14	16	16	15	1	19	2026/cohorts/fhirprod/CMS165v14/cql/cql-results.tsv
+CMS122v14	9	9	9	0	19	2026/cohorts/fhirprod/CMS122v14/cql/cql-results.tsv
+CMS130v14	15	15	0	0	19	2026/cohorts/fhirprod/CMS130v14/cql/cql-results.tsv
+CMS2v15	19	19	0	0	19	2026/cohorts/fhirprod/CMS2v15/cql/cql-results.tsv
+CMS22v14	19	19	2	16	19	2026/cohorts/fhirprod/CMS22v14/cql/cql-results.tsv
+CMS138v14	19	19	19	0	19	2026/cohorts/fhirprod/CMS138v14/cql/cql-results.tsv
+CMS125v14	11	11	0	0	19	2026/cohorts/fhirprod/CMS125v14/cql/cql-results.tsv

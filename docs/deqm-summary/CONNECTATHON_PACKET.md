@@ -63,6 +63,19 @@ Status:
 | RPMS-labeled Summary MeasureReports (distinct `reporter` Organization) | **Done ×5** — `prototypes/rpms/{CMS}-rpms-summary-deqm.json` (`Organization/vistaplex-rpms-demo`, `build-deqm-summary.py --reporter rpms`); validator 0 actionable errors each; receiver **201 Created** each. Evidence `results/CMS165v14-rpms-phase2-smoke.md` + `results/rpms-multi-measure-smoke.md` |
 | Cross-platform equivalence demo (same patients, same CQL, two systems) | Partial: CMS165 — 13 of devfhir's 14 NUMER patients match; the 14th is DENEX on the RPMS round-trip. RPMS lane IPP/DENOM (and CMS122/130 NUMER) higher because the rpmsfhir collection Bundle round-trips more data; CMS22 DENEX=19 is coherent (hypertension cohort excluded from BP screening). Keep lanes separate; never merge counts |
 
+## Third lane: fhir.vistaplex.org (production reference)
+
+2026-08-08: `fhir.vistaplex.org` (the third documented endpoint,
+WorldVistA production reference) was upgraded to the current quality
+stack and loaded with the **same 19-patient cohort** (DFNs
+**1643–1661**). Official CQL on its round-trip exports, seven measures,
+hierarchy-gated: CMS165 **16/16/15/1**, CMS122 **9/9/9/0**, CMS130
+**15/15/0/0**, CMS2 **19/19/0/0**, CMS22 **19/19/2/16**, CMS138
+**19/19/19/0**, CMS125 **11/11/0/0** — after the upgrade this is the
+best VistA-lineage round-trip surface. Counts
+`fhirprod-roundtrip-counts.tsv`; full upgrade story + three-server
+comparison table `results/three-server-comparison-20260808.md`.
+
 ## Known limitations (state at Connectathon)
 
 1. Measure canonicals are **placeholders**

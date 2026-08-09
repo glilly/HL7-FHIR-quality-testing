@@ -1,0 +1,21 @@
+bundle_path	dfn	note
+/home/glilly/work/vista-stack/HL7-FHIR-quality-testing/2026/patients/raw/synthea-1000-20260901-20260101/fhir/Adam631_Schmeler639_27429a40-df43-8f21-49d0-1240c11b0aa3.json	1643	https addpatient
+/home/glilly/work/vista-stack/HL7-FHIR-quality-testing/2026/patients/raw/synthea-1000-20260901-20260101/fhir/Ailene520_Haag279_62d14026-d481-e02e-d29b-53251109247f.json	1644	https addpatient
+/home/glilly/work/vista-stack/HL7-FHIR-quality-testing/2026/patients/raw/synthea-1000-20260901-20260101/fhir/Alline927_Cecil300_Baumbach677_2fc7f987-2521-4576-75be-d4c81b9666ac.json	1645	https addpatient
+/home/glilly/work/vista-stack/HL7-FHIR-quality-testing/2026/patients/raw/synthea-1000-20260901-20260101/fhir/Alverta45_Waters156_812da67a-03c9-80f5-bb45-d4f58236f2a6.json	1646	https addpatient
+/home/glilly/work/vista-stack/HL7-FHIR-quality-testing/2026/patients/raw/synthea-1000-20260901-20260101/fhir/Alvin56_Schmidt332_e539a03b-2fc7-c232-e6b6-e3ae47177d79.json	1647	https addpatient
+/home/glilly/work/vista-stack/HL7-FHIR-quality-testing/2026/patients/raw/synthea-1000-20260901-20260101/fhir/Andrea7_Kuhlman484_2cb21845-8a2d-8918-4a22-0477f0fae710.json	1648	https addpatient
+/home/glilly/work/vista-stack/HL7-FHIR-quality-testing/2026/patients/raw/synthea-1000-20260901-20260101/fhir/Annelle169_Schroeder447_79f87991-363b-b98a-cb33-d7a9235a9b8f.json	1649	https addpatient
+/home/glilly/work/vista-stack/HL7-FHIR-quality-testing/2026/patients/raw/synthea-1000-20260901-20260101/fhir/Arron144_O'Reilly797_4987faff-1f77-ce0d-7225-83afe1627e63.json	1650	https addpatient
+/home/glilly/work/vista-stack/HL7-FHIR-quality-testing/2026/patients/raw/synthea-1000-20260901-20260101/fhir/Ashton21_Sumiko254_Doyle959_9da46e0a-fc90-9ed3-db56-883919263f60.json	1651	https addpatient
+/home/glilly/work/vista-stack/HL7-FHIR-quality-testing/2026/patients/raw/synthea-1000-20260901-20260101/fhir/Audrea654_Harber290_d7700018-b1f2-8da7-00e1-c09a240e4a79.json	1652	https addpatient (SSL EOF, landed server-side)
+/home/glilly/work/vista-stack/HL7-FHIR-quality-testing/2026/patients/raw/synthea-1000-20260901-20260101/fhir/Aurelia213_Mireya881_Mohr916_3f7d08b7-5fb9-2737-b232-08a731f5f415.json	1653	tunnel addpatient
+/home/glilly/work/vista-stack/HL7-FHIR-quality-testing/2026/patients/raw/synthea-1000-20260901-20260101/fhir/Beata187_Giselle809_Considine820_d6c7b975-e090-92f1-0b87-2a94b5dc4093.json	1654	tunnel addpatient
+/home/glilly/work/vista-stack/HL7-FHIR-quality-testing/2026/patients/raw/synthea-1000-20260901-20260101/fhir/Benita195_Norman647_Witting912_d5835c7f-ae9c-5afe-5374-4ae18a1810d6.json	1655	tunnel addpatient
+/home/glilly/work/vista-stack/HL7-FHIR-quality-testing/2026/patients/raw/synthea-1000-20260901-20260101/fhir/Branden904_Tromp100_cbfe15cf-f133-7828-a310-7332d9fe1b60.json	1656	tunnel addpatient
+/home/glilly/work/vista-stack/HL7-FHIR-quality-testing/2026/patients/raw/synthea-1000-20260901-20260101/fhir/Britta584_Brian582_Marquardt819_b67caea9-0836-8a09-737d-ff2d4ae3b7a2.json	1657	tunnel addpatient
+/home/glilly/work/vista-stack/HL7-FHIR-quality-testing/2026/patients/raw/synthea-1000-20260901-20260101/fhir/Carla633_Reynolds644_43dc74f8-7efb-ee00-9ded-f67421bb94fb.json	1658	tunnel addpatient
+/home/glilly/work/vista-stack/HL7-FHIR-quality-testing/2026/patients/raw/synthea-1000-20260901-20260101/fhir/Carson894_Stoltenberg489_968cf124-1e45-75f9-41a6-53c4085fdaa0.json	1659	tunnel addpatient
+/home/glilly/work/vista-stack/HL7-FHIR-quality-testing/2026/patients/raw/synthea-1000-20260901-20260101/fhir/Claribel706_Schultz619_cfd0564b-16ca-f50a-ae2b-5fa05ad98f78.json	1660	tunnel addpatient
+/home/glilly/work/vista-stack/HL7-FHIR-quality-testing/2026/patients/raw/synthea-1000-20260901-20260101/fhir/Colton403_Gusikowski974_1e20ccd9-8dc4-1d17-a522-b9be5ede73be.json	1661	tunnel addpatient
+# all 19 re-filed via /updatepatient?dfn= after server upgrade (SYN routines/maps + Lexicon 757.33 sync) 2026-08-08
