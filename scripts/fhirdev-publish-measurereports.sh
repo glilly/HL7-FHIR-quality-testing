@@ -40,6 +40,28 @@ print(f"rpms lane: {len(reports)} reports indexed")
 PY
 fi
 
+# Include the fhirprod-lane DEQM Summary MeasureReports (fhir.vistaplex.org reporter Org).
+FHIRPROD_SRC="${ROOT}/docs/deqm-summary/prototypes/fhirprod"
+if [[ -d "$FHIRPROD_SRC" ]]; then
+  rm -rf "$SRC/fhirprod"
+  mkdir -p "$SRC/fhirprod"
+  cp "$FHIRPROD_SRC"/*.json "$SRC/fhirprod/"
+  python3 - "$SRC/fhirprod" <<'PY'
+import json, pathlib, sys
+from datetime import datetime, timezone
+d = pathlib.Path(sys.argv[1])
+reports = sorted(p.name for p in d.glob("*-fhirprod-summary-deqm.json"))
+index = {
+    "generatedAt": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+    "lane": "fhirprod",
+    "note": "DEQM Summary MeasureReports from fhir.vistaplex.org round-trip official CQL (synthetic data); reporter Organization/vistaplex-prod-demo",
+    "reports": reports,
+}
+(d / "index.json").write_text(json.dumps(index, indent=2) + "\n")
+print(f"fhirprod lane: {len(reports)} reports indexed")
+PY
+fi
+
 TGZ="$(mktemp /tmp/measurereports.XXXXXX.tgz)"
 cleanup() { rm -f "$TGZ"; }
 trap cleanup EXIT

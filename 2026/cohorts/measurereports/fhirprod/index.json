@@ -1,0 +1,14 @@
+{
+  "generatedAt": "2026-08-09T00:51:43Z",
+  "lane": "fhirprod",
+  "note": "DEQM Summary MeasureReports from fhir.vistaplex.org round-trip official CQL (synthetic data); reporter Organization/vistaplex-prod-demo",
+  "reports": [
+    "CMS122v14-fhirprod-summary-deqm.json",
+    "CMS125v14-fhirprod-summary-deqm.json",
+    "CMS130v14-fhirprod-summary-deqm.json",
+    "CMS138v14-fhirprod-summary-deqm.json",
+    "CMS165v14-fhirprod-summary-deqm.json",
+    "CMS22v14-fhirprod-summary-deqm.json",
+    "CMS2v15-fhirprod-summary-deqm.json"
+  ]
+}

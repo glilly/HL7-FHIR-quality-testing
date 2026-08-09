@@ -76,6 +76,15 @@ best VistA-lineage round-trip surface. Counts
 `fhirprod-roundtrip-counts.tsv`; full upgrade story + three-server
 comparison table `results/three-server-comparison-20260808.md`.
 
+Summary MeasureReports ×7 built with a third reporter Organization
+(`Organization/vistaplex-prod-demo`, `build-deqm-summary.py --reporter
+fhirprod`) under `prototypes/fhirprod/`; validator 0 actionable errors
+each, receiver **201 Created** each; published alongside the VistA and
+RPMS lanes at
+`https://devfhir.vistaplex.org/filesystem/quality/measurereports/fhirprod/index.json`.
+Demo claim upgrade: **one open-source reporter, three reporting
+organizations, three FHIR servers, one CQL pipeline.**
+
 ## Known limitations (state at Connectathon)
 
 1. Measure canonicals are **placeholders**

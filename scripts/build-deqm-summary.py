@@ -45,6 +45,13 @@ REPORTERS = {
         "url": "https://rpmsfhir.vistaplex.org/fhir",
         "file_tag": "rpms-",
     },
+    "fhirprod": {
+        "org_id": "vistaplex-prod-demo",
+        "org_name": "VistaPlex FHIR Production Reference (fhir)",
+        "display": "VistaPlex FHIR Production Reference",
+        "url": "https://fhir.vistaplex.org/fhir",
+        "file_tag": "fhirprod-",
+    },
 }
 
 

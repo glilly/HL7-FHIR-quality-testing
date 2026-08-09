@@ -1,0 +1,133 @@
+{
+  "resourceType": "MeasureReport",
+  "id": "CMS22v14-fhirprod-summary-deqm",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/us/davinci-deqm/StructureDefinition/summary-measurereport-deqm"
+    ],
+    "source": "urn:vista:deqm-summary-builder",
+    "tag": [
+      {
+        "system": "https://vistaplex.org/fhir/CodeSystem/quality-calc-mode",
+        "code": "official-cql",
+        "display": "official-cql"
+      },
+      {
+        "system": "https://vistaplex.org/fhir/CodeSystem/quality-cohort-size",
+        "code": "19",
+        "display": "cohort-size=19"
+      },
+      {
+        "system": "https://vistaplex.org/fhir/CodeSystem/quality-source",
+        "code": "provenance",
+        "display": "fhir.vistaplex.org round-trip DFNs 1643-1661 cql gated 2026-08-08; 2026/cohorts/fhirprod/CMS22v14/cql/cql-results.tsv"
+      }
+    ]
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/us/davinci-deqm/StructureDefinition/extension-measureScoring",
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/measure-scoring",
+            "code": "proportion",
+            "display": "Proportion"
+          }
+        ]
+      }
+    }
+  ],
+  "status": "complete",
+  "type": "summary",
+  "measure": "https://ecqi.healthit.gov/ecqm/ec/CMS22v14|14.0.000",
+  "date": "2026-08-09T00:50:46Z",
+  "reporter": {
+    "reference": "Organization/vistaplex-prod-demo",
+    "display": "VistaPlex FHIR Production Reference"
+  },
+  "period": {
+    "start": "2026-01-01",
+    "end": "2026-12-31"
+  },
+  "improvementNotation": {
+    "coding": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/measure-improvement-notation",
+        "code": "increase",
+        "display": "Increased score indicates improvement"
+      }
+    ]
+  },
+  "group": [
+    {
+      "code": {
+        "coding": [
+          {
+            "system": "https://vistaplex.org/fhir/CodeSystem/measure-group",
+            "code": "group-1",
+            "display": "group-1"
+          }
+        ],
+        "text": "group-1"
+      },
+      "population": [
+        {
+          "code": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/measure-population",
+                "code": "initial-population",
+                "display": "Initial Population"
+              }
+            ],
+            "text": "Initial Population"
+          },
+          "count": 19
+        },
+        {
+          "code": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/measure-population",
+                "code": "denominator",
+                "display": "Denominator"
+              }
+            ],
+            "text": "Denominator"
+          },
+          "count": 19
+        },
+        {
+          "code": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/measure-population",
+                "code": "numerator",
+                "display": "Numerator"
+              }
+            ],
+            "text": "Numerator"
+          },
+          "count": 2
+        },
+        {
+          "code": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/measure-population",
+                "code": "denominator-exclusion",
+                "display": "Denominator Exclusion"
+              }
+            ],
+            "text": "Denominator Exclusion"
+          },
+          "count": 16
+        }
+      ],
+      "measureScore": {
+        "value": 0.105263
+      }
+    }
+  ]
+}
