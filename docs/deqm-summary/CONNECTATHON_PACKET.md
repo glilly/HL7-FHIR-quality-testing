@@ -1,8 +1,9 @@
 # Connectathon packet — DEQM Summary MeasureReport reporter
 
-Status date: 2026-08-08  
-Track target: HL7 FHIR Connectathon **Sep 19–25, 2026 Rockville**
-(“FHIR Quality Reporting with DEQM” / related quality tracks).
+Status date: 2026-08-08 (attendance decision **2026-08-20**)  
+Track target: prepare for **January 2027 virtual** CMS Quality Reporting
+(QPP & HQR E2E); September Rockville = **shadow only** (not attending).
+See `Vista-on-FHIR/docs/CONNECTATHON_43_SHADOW_AND_JANUARY_PLAN.md`.
 
 ## Role
 
@@ -213,28 +214,31 @@ receiver CapabilityStatement for Summary MeasureReport POST. Packet:
 github.com/glilly/HL7-FHIR-quality-testing (docs/deqm-summary/).
 ```
 
-### Rockville registration checklist
+### Registration / shadow checklist (updated 2026-08-20)
 
-1. [ ] Register for HL7 FHIR Connectathon **Sep 19–25, 2026 Rockville**
-2. [ ] Join the **CMS Quality Reporting: QPP & HQR End-to-End Submission**
-      track (confirmed successor to FHIR Quality Reporting with DEQM;
-      related track: Clinical Reasoning) —
+1. [x] ~~Register for Rockville Sep 2026~~ **Not attending** (in-person only)
+2. [ ] Register for **January 12–15, 2027** virtual Connectathon when open
+3. [ ] Join the **CMS Quality Reporting: QPP & HQR End-to-End Submission**
+      track for January (same track family as Sep) —
       <https://confluence.hl7.org/spaces/FHIR/pages/477660436/2026+-+09+CMS+Quality+Reporting+QPP+HQR+End-to-End+Submission+Track>
-3. [ ] Post `#cql` intro (draft above)
-4. [x] Published `summary-deqm.json` set to fhirdev 2026-08-08 via
+4. [ ] Email CMS track lead (shadow interest + January intent); post `#cql`
+      intro if Zulip allows non-attendees (draft above)
+5. [x] Published `summary-deqm.json` set to fhirdev 2026-08-08 via
       `scripts/fhirdev-publish-measurereports.sh --build`, now including the
       RPMS lane: <https://devfhir.vistaplex.org/filesystem/quality/measurereports/rpms/index.json>
-5. [x] Individual MeasureReport spike demo-ready
+6. [x] Individual MeasureReport spike demo-ready
       (`CMS165v14-Patient-101115-individual-deqm.json`, QRDA-I analogue):
       validated 2026-08-08 against `indv-measurereport-deqm` (0 actionable
       errors, known IG slice noise only); receiver POST **201 Created**
-6. [x] RPMS lane CMS165: cohort loaded, official CQL run, RPMS-labeled
+7. [x] RPMS lane CMS165: cohort loaded, official CQL run, RPMS-labeled
       Summary MeasureReport validated + accepted (see RPMS lane section)
-7. [x] RPMS lane extended to CMS122/130/2/22 and CMS138/125: round-trip
+8. [x] RPMS lane extended to CMS122/130/2/22 and CMS138/125: round-trip
       CQL counts, reports validated + accepted
       (`results/rpms-multi-measure-smoke.md`) — full seven-measure set
-8. [x] Timed dry-run of the live demo script (both lanes) —
+9. [x] Timed dry-run of the live demo script (both lanes) —
       `results/demo-dryrun-20260808.md` (~30 s VistA loop, ~45 s RPMS
       loop; found + fixed population-hierarchy counting bug)
-9. [ ] Optional stretch: host `deqm-test-server` publicly so VistaPlex
+10. [ ] Optional stretch: host `deqm-test-server` publicly so VistaPlex
       can also act as receiver for peers (doubles scorecard surface)
+11. [ ] Shadow: freeze dated Inferno US Quality Core scorecards for the
+      packet cohort; short gap note vs `cqframework/dqm-content-cms-2026`

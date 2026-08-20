@@ -2,6 +2,12 @@
 
 Status date: 2026-06-13
 
+> **Superseded for live attendance planning.** September **track** priorities:
+> `Vista-on-FHIR/docs/CONNECTATHON_43_TRACK_RECOMMENDATIONS.md`. **Not attending
+> Rockville** — shadow + January:
+> `Vista-on-FHIR/docs/CONNECTATHON_43_SHADOW_AND_JANUARY_PLAN.md`. This file is
+> retained for the June analysis record.
+
 This document captures the analysis of HL7 FHIR Connectathon options for the
 VistA-on-FHIR program, the fit assessment for the event we are registered
 for, and a concrete preparation plan. It covers the two requests:
@@ -21,7 +27,8 @@ US Realm and CMS connectathons.
 | US Realm Connectathon | Mar 31 – Apr 2, 2026 | Virtual | Past |
 | Connectathon 42 (Rotterdam) | May 16–17, 2026 | In-person + virtual | Past |
 | **CMS HL7 FHIR Connectathon 7** | **Jul 14–16, 2026** | **Virtual, free** | **Registered** |
-| Connectathon 43 (40th Annual Plenary + WGM) | Sep 19–25, 2026 (Connectathon weekend at the start) | In-person (Bethesda North Marriott, Rockville, MD) + virtual | Recommended target for our stack |
+| Connectathon 43 (40th Annual Plenary + WGM) | Sep 19–25, 2026 (Connectathon weekend at the start) | **In-person only** (Rockville, MD) | **Not attending** — shadow evidence only; see Vista-on-FHIR `CONNECTATHON_43_SHADOW_AND_JANUARY_PLAN.md` |
+| January Virtual FHIR Connectathon | Jan 12–15, 2027 | Virtual | **Attendance target** |
 
 Sources: HL7 Confluence Connectathon pages and the CMS event page
 (`confluence.hl7.org`, page 453905739) and HL7 International events listing.
@@ -188,14 +195,8 @@ Day 1, even if many tests fail — connection and auth working is the gate.
 - Every artifact produced (baseline, trip report) is reusable evidence for
   the funding proposal and the CPRS-on-FHIR spec work.
 
-## September (Connectathon 43) — the real target for our stack
+## September (Connectathon 43) — shadow only; January is attendance
 
-Bethesda North Marriott, Rockville, MD, Sep 19–25, 2026 (Connectathon
-weekend at the start). In-person attendance is recommended: it is the
-largest US event, it is in the VA/DC corridor relevant to the HMP-veteran
-staffing thesis, and prior years ran tracks directly aligned with our work
-(e.g. Clinical Order Workflows, US Core / testing). Decision to make by
-late July: join an existing write/order track as a participant, or submit a
-track proposal (proposals open ~12 to ~6 weeks before the event, reviewed
-by the FHIR Management Group) putting VistA-native FHIR writeback in front
-of the spec authors.
+Bethesda / Rockville Sep 2026: **not attending** (in-person only). Shadow +
+January plan lives in Vista-on-FHIR:
+`CONNECTATHON_43_SHADOW_AND_JANUARY_PLAN.md`.

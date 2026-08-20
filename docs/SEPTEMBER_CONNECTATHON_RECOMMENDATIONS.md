@@ -2,6 +2,12 @@
 
 Status: working document, updated as cohorts and scorecards are produced.
 
+> **Attendance (2026-08-20):** We are **not attending** Rockville C43. These
+> measure/Inferno candidates feed the **shadow campaign** and **January 2027
+> virtual** attendance — see
+> `Vista-on-FHIR/docs/CONNECTATHON_43_SHADOW_AND_JANUARY_PLAN.md`. Do not
+> treat this file as a weekend attendance plan.
+
 **Measure × Inferno element analysis (one patient per measure):** see [`SEPTEMBER_MEASURE_INFERNO_ELEMENT_MAPPING.md`](./SEPTEMBER_MEASURE_INFERNO_ELEMENT_MAPPING.md).
 
 ## Selection Rule
