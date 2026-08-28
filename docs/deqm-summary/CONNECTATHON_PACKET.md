@@ -222,7 +222,10 @@ github.com/glilly/HL7-FHIR-quality-testing (docs/deqm-summary/).
       track for January (same track family as Sep) —
       <https://confluence.hl7.org/spaces/FHIR/pages/477660436/2026+-+09+CMS+Quality+Reporting+QPP+HQR+End-to-End+Submission+Track>
 4. [ ] Email CMS track lead (shadow interest + January intent); post `#cql`
-      intro if Zulip allows non-attendees (draft above)
+      intro if Zulip allows non-attendees (draft above). Draft:
+      `Vista-on-FHIR/docs/emails/2026-08-bridget-calvert-cms-quality-track.md`.
+      Weekly upstream keep-up:
+      `Vista-on-FHIR/docs/CONNECTATHON_UPSTREAM_WATCHLIST.md`.
 5. [x] Published `summary-deqm.json` set to fhirdev 2026-08-08 via
       `scripts/fhirdev-publish-measurereports.sh --build`, now including the
       RPMS lane: <https://devfhir.vistaplex.org/filesystem/quality/measurereports/rpms/index.json>
