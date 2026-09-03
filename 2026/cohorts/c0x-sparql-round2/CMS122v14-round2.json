@@ -1,0 +1,26 @@
+{
+  "cms": "CMS122v14",
+  "base": "https://devfhir.vistaplex.org",
+  "ran_at": "2026-09-03T04:20:30+00:00",
+  "query_file": "2026/cohorts/c0x-sparql-round2/queries/CMS122v14.sparql",
+  "query": "PREFIX c0x: <urn:c0x:>\nSELECT ?resource ?code WHERE {\n  VALUES ?code { \"44054006\" \"73211009\" }\n  ?resource c0x:type \"Condition\" .\n  ?resource c0x:code ?code .\n}\nLIMIT 600\n",
+  "server_candidates_field": 10,
+  "candidate_count": 7,
+  "candidate_dfns": [
+    "101087",
+    "101090",
+    "101096",
+    "101102",
+    "101109",
+    "101119",
+    "101124"
+  ],
+  "round1_heuristic": {
+    "count": 5,
+    "new_in_round2": [
+      "101090",
+      "101124"
+    ],
+    "dropped_from_round1": []
+  }
+}

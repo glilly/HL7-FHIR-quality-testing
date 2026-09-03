@@ -1,0 +1,7 @@
+PREFIX c0x: <urn:c0x:>
+SELECT ?resource ?code WHERE {
+  VALUES ?code { "73761001" "444783004" }
+  ?resource c0x:type "Procedure" .
+  ?resource c0x:code ?code .
+}
+LIMIT 600
