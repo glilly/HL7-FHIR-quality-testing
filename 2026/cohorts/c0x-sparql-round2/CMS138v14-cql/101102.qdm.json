@@ -1,0 +1,5931 @@
+{
+  "birthDatetime": "1956-03-15T00:00:00.000Z",
+  "bundleId": "101102",
+  "dataElements": [
+    {
+      "birthDatetime": "1956-03-15T00:00:00.000Z",
+      "category": "patient_characteristic",
+      "dataElementCodes": [
+        {
+          "code": "21112-8",
+          "display": null,
+          "system": "2.16.840.1.113883.6.1",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": null,
+      "hqmfOid": "2.16.840.1.113883.10.20.28.3.54",
+      "qdmStatus": "birthdate",
+      "qdmVersion": "5.6",
+      "_type": "QDM::PatientCharacteristicBirthdate"
+    },
+    {
+      "authorDatetime": "1956-03-15T00:00:00.000Z",
+      "category": "patient_characteristic",
+      "dataElementCodes": [
+        {
+          "code": "248152002",
+          "display": "Female (finding)",
+          "system": "urn:oid:2.16.840.1.113883.6.96",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Patient Characteristic Sex",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.55",
+      "qdmStatus": "gender",
+      "qdmVersion": "5.6",
+      "_type": "QDM::PatientCharacteristicSex"
+    },
+    {
+      "authorDatetime": "2026-07-10T21:28:48.000Z",
+      "category": "encounter",
+      "dataElementCodes": [
+        {
+          "code": "185349003",
+          "system": "urn:oid:2.16.840.1.113883.6.96",
+          "display": "Encounter for check up",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Encounter, Performed",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.5",
+      "relevantPeriod": {
+        "low": "2026-07-10T21:28:48.000Z",
+        "high": "2026-07-10T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::EncounterPerformed"
+    },
+    {
+      "authorDatetime": "2026-04-25T22:44:01.000Z",
+      "category": "encounter",
+      "dataElementCodes": [
+        {
+          "code": "185349003",
+          "system": "urn:oid:2.16.840.1.113883.6.96",
+          "display": "Encounter for check up",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Encounter, Performed",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.5",
+      "relevantPeriod": {
+        "low": "2026-04-25T22:44:01.000Z",
+        "high": "2026-04-25T22:44:01.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::EncounterPerformed"
+    },
+    {
+      "authorDatetime": "2025-07-18T21:28:48.000Z",
+      "category": "encounter",
+      "dataElementCodes": [
+        {
+          "code": "185349003",
+          "system": "urn:oid:2.16.840.1.113883.6.96",
+          "display": "Encounter for check up",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Encounter, Performed",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.5",
+      "relevantPeriod": {
+        "low": "2025-07-18T21:28:48.000Z",
+        "high": "2025-07-18T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::EncounterPerformed"
+    },
+    {
+      "authorDatetime": "2025-07-04T21:28:48.000Z",
+      "category": "encounter",
+      "dataElementCodes": [
+        {
+          "code": "185349003",
+          "system": "urn:oid:2.16.840.1.113883.6.96",
+          "display": "Encounter for check up",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Encounter, Performed",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.5",
+      "relevantPeriod": {
+        "low": "2025-07-04T21:28:48.000Z",
+        "high": "2025-07-04T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::EncounterPerformed"
+    },
+    {
+      "authorDatetime": "2025-05-30T22:26:49.000Z",
+      "category": "encounter",
+      "dataElementCodes": [
+        {
+          "code": "185349003",
+          "system": "urn:oid:2.16.840.1.113883.6.96",
+          "display": "Encounter for check up",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Encounter, Performed",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.5",
+      "relevantPeriod": {
+        "low": "2025-05-30T22:26:49.000Z",
+        "high": "2025-05-30T22:26:49.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::EncounterPerformed"
+    },
+    {
+      "authorDatetime": "2025-03-05T22:28:48.000Z",
+      "category": "encounter",
+      "dataElementCodes": [
+        {
+          "code": "185349003",
+          "system": "urn:oid:2.16.840.1.113883.6.96",
+          "display": "Encounter for check up",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Encounter, Performed",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.5",
+      "relevantPeriod": {
+        "low": "2025-03-05T22:28:48.000Z",
+        "high": "2025-03-05T22:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::EncounterPerformed"
+    },
+    {
+      "authorDatetime": "2024-07-12T21:28:48.000Z",
+      "category": "encounter",
+      "dataElementCodes": [
+        {
+          "code": "185349003",
+          "system": "urn:oid:2.16.840.1.113883.6.96",
+          "display": "Encounter for check up",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Encounter, Performed",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.5",
+      "relevantPeriod": {
+        "low": "2024-07-12T21:28:48.000Z",
+        "high": "2024-07-12T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::EncounterPerformed"
+    },
+    {
+      "authorDatetime": "2024-07-04T22:09:04.000Z",
+      "category": "encounter",
+      "dataElementCodes": [
+        {
+          "code": "185349003",
+          "system": "urn:oid:2.16.840.1.113883.6.96",
+          "display": "Encounter for check up",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Encounter, Performed",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.5",
+      "relevantPeriod": {
+        "low": "2024-07-04T22:09:04.000Z",
+        "high": "2024-07-04T22:09:04.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::EncounterPerformed"
+    },
+    {
+      "authorDatetime": "2024-06-28T21:28:48.000Z",
+      "category": "encounter",
+      "dataElementCodes": [
+        {
+          "code": "185349003",
+          "system": "urn:oid:2.16.840.1.113883.6.96",
+          "display": "Encounter for check up",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Encounter, Performed",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.5",
+      "relevantPeriod": {
+        "low": "2024-06-28T21:28:48.000Z",
+        "high": "2024-06-28T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::EncounterPerformed"
+    },
+    {
+      "authorDatetime": "2024-06-14T21:28:48.000Z",
+      "category": "encounter",
+      "dataElementCodes": [
+        {
+          "code": "185349003",
+          "system": "urn:oid:2.16.840.1.113883.6.96",
+          "display": "Encounter for check up",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Encounter, Performed",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.5",
+      "relevantPeriod": {
+        "low": "2024-06-14T21:28:48.000Z",
+        "high": "2024-06-14T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::EncounterPerformed"
+    },
+    {
+      "authorDatetime": "2024-06-07T21:28:48.000Z",
+      "category": "encounter",
+      "dataElementCodes": [
+        {
+          "code": "185349003",
+          "system": "urn:oid:2.16.840.1.113883.6.96",
+          "display": "Encounter for check up",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Encounter, Performed",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.5",
+      "relevantPeriod": {
+        "low": "2024-06-07T21:28:48.000Z",
+        "high": "2024-06-07T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::EncounterPerformed"
+    },
+    {
+      "authorDatetime": "2024-05-31T21:28:48.000Z",
+      "category": "encounter",
+      "dataElementCodes": [
+        {
+          "code": "185349003",
+          "system": "urn:oid:2.16.840.1.113883.6.96",
+          "display": "Encounter for check up",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Encounter, Performed",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.5",
+      "relevantPeriod": {
+        "low": "2024-05-31T21:28:48.000Z",
+        "high": "2024-05-31T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::EncounterPerformed"
+    },
+    {
+      "authorDatetime": "2024-05-21T04:28:48.000Z",
+      "category": "encounter",
+      "dataElementCodes": [
+        {
+          "code": "185349003",
+          "system": "urn:oid:2.16.840.1.113883.6.96",
+          "display": "Encounter for check up",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Encounter, Performed",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.5",
+      "relevantPeriod": {
+        "low": "2024-05-21T04:28:48.000Z",
+        "high": "2024-05-21T04:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::EncounterPerformed"
+    },
+    {
+      "authorDatetime": "2023-07-10T21:50:13.000Z",
+      "category": "encounter",
+      "dataElementCodes": [
+        {
+          "code": "185349003",
+          "system": "urn:oid:2.16.840.1.113883.6.96",
+          "display": "Encounter for check up",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Encounter, Performed",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.5",
+      "relevantPeriod": {
+        "low": "2023-07-10T21:50:13.000Z",
+        "high": "2023-07-10T21:50:13.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::EncounterPerformed"
+    },
+    {
+      "authorDatetime": "2023-07-07T21:28:48.000Z",
+      "category": "encounter",
+      "dataElementCodes": [
+        {
+          "code": "185349003",
+          "system": "urn:oid:2.16.840.1.113883.6.96",
+          "display": "Encounter for check up",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Encounter, Performed",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.5",
+      "relevantPeriod": {
+        "low": "2023-07-07T21:28:48.000Z",
+        "high": "2023-07-07T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::EncounterPerformed"
+    },
+    {
+      "authorDatetime": "2023-06-23T21:28:48.000Z",
+      "category": "encounter",
+      "dataElementCodes": [
+        {
+          "code": "185349003",
+          "system": "urn:oid:2.16.840.1.113883.6.96",
+          "display": "Encounter for check up",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Encounter, Performed",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.5",
+      "relevantPeriod": {
+        "low": "2023-06-23T21:28:48.000Z",
+        "high": "2023-06-23T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::EncounterPerformed"
+    },
+    {
+      "authorDatetime": "2023-02-16T02:28:48.000Z",
+      "category": "encounter",
+      "dataElementCodes": [
+        {
+          "code": "185349003",
+          "system": "urn:oid:2.16.840.1.113883.6.96",
+          "display": "Encounter for check up",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Encounter, Performed",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.5",
+      "relevantPeriod": {
+        "low": "2023-02-16T02:28:48.000Z",
+        "high": "2023-02-16T02:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::EncounterPerformed"
+    },
+    {
+      "authorDatetime": "2022-08-25T23:40:53.000Z",
+      "category": "encounter",
+      "dataElementCodes": [
+        {
+          "code": "185349003",
+          "system": "urn:oid:2.16.840.1.113883.6.96",
+          "display": "Encounter for check up",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Encounter, Performed",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.5",
+      "relevantPeriod": {
+        "low": "2022-08-25T23:40:53.000Z",
+        "high": "2022-08-25T23:40:53.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::EncounterPerformed"
+    },
+    {
+      "authorDatetime": "2022-07-15T21:28:48.000Z",
+      "category": "encounter",
+      "dataElementCodes": [
+        {
+          "code": "185349003",
+          "system": "urn:oid:2.16.840.1.113883.6.96",
+          "display": "Encounter for check up",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Encounter, Performed",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.5",
+      "relevantPeriod": {
+        "low": "2022-07-15T21:28:48.000Z",
+        "high": "2022-07-15T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::EncounterPerformed"
+    },
+    {
+      "authorDatetime": "2022-07-01T21:28:48.000Z",
+      "category": "encounter",
+      "dataElementCodes": [
+        {
+          "code": "185349003",
+          "system": "urn:oid:2.16.840.1.113883.6.96",
+          "display": "Encounter for check up",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Encounter, Performed",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.5",
+      "relevantPeriod": {
+        "low": "2022-07-01T21:28:48.000Z",
+        "high": "2022-07-01T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::EncounterPerformed"
+    },
+    {
+      "authorDatetime": "2022-06-17T21:28:48.000Z",
+      "category": "encounter",
+      "dataElementCodes": [
+        {
+          "code": "185349003",
+          "system": "urn:oid:2.16.840.1.113883.6.96",
+          "display": "Encounter for check up",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Encounter, Performed",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.5",
+      "relevantPeriod": {
+        "low": "2022-06-17T21:28:48.000Z",
+        "high": "2022-06-17T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::EncounterPerformed"
+    },
+    {
+      "authorDatetime": "2021-06-11T21:28:48.000Z",
+      "category": "encounter",
+      "dataElementCodes": [
+        {
+          "code": "185349003",
+          "system": "urn:oid:2.16.840.1.113883.6.96",
+          "display": "Encounter for check up",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Encounter, Performed",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.5",
+      "relevantPeriod": {
+        "low": "2021-06-11T21:28:48.000Z",
+        "high": "2021-06-11T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::EncounterPerformed"
+    },
+    {
+      "authorDatetime": "2021-04-02T21:28:48.000Z",
+      "category": "encounter",
+      "dataElementCodes": [
+        {
+          "code": "185349003",
+          "system": "urn:oid:2.16.840.1.113883.6.96",
+          "display": "Encounter for check up",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Encounter, Performed",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.5",
+      "relevantPeriod": {
+        "low": "2021-04-02T21:28:48.000Z",
+        "high": "2021-04-02T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::EncounterPerformed"
+    },
+    {
+      "authorDatetime": "2021-03-12T21:28:48.000Z",
+      "category": "encounter",
+      "dataElementCodes": [
+        {
+          "code": "185349003",
+          "system": "urn:oid:2.16.840.1.113883.6.96",
+          "display": "Encounter for check up",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Encounter, Performed",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.5",
+      "relevantPeriod": {
+        "low": "2021-03-12T21:28:48.000Z",
+        "high": "2021-03-12T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::EncounterPerformed"
+    },
+    {
+      "authorDatetime": "2020-10-04T06:37:25.000Z",
+      "category": "encounter",
+      "dataElementCodes": [
+        {
+          "code": "185349003",
+          "system": "urn:oid:2.16.840.1.113883.6.96",
+          "display": "Encounter for check up",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Encounter, Performed",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.5",
+      "relevantPeriod": {
+        "low": "2020-10-04T06:37:25.000Z",
+        "high": "2020-10-04T06:37:25.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::EncounterPerformed"
+    },
+    {
+      "authorDatetime": "2020-09-13T05:24:33.000Z",
+      "category": "encounter",
+      "dataElementCodes": [
+        {
+          "code": "185349003",
+          "system": "urn:oid:2.16.840.1.113883.6.96",
+          "display": "Encounter for check up",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Encounter, Performed",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.5",
+      "relevantPeriod": {
+        "low": "2020-09-13T05:24:33.000Z",
+        "high": "2020-09-13T05:24:33.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::EncounterPerformed"
+    },
+    {
+      "authorDatetime": "2020-06-05T21:28:48.000Z",
+      "category": "encounter",
+      "dataElementCodes": [
+        {
+          "code": "185349003",
+          "system": "urn:oid:2.16.840.1.113883.6.96",
+          "display": "Encounter for check up",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Encounter, Performed",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.5",
+      "relevantPeriod": {
+        "low": "2020-06-05T21:28:48.000Z",
+        "high": "2020-06-05T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::EncounterPerformed"
+    },
+    {
+      "authorDatetime": "2019-06-14T21:28:48.000Z",
+      "category": "encounter",
+      "dataElementCodes": [
+        {
+          "code": "185349003",
+          "system": "urn:oid:2.16.840.1.113883.6.96",
+          "display": "Encounter for check up",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Encounter, Performed",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.5",
+      "relevantPeriod": {
+        "low": "2019-06-14T21:28:48.000Z",
+        "high": "2019-06-14T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::EncounterPerformed"
+    },
+    {
+      "authorDatetime": "2019-05-31T21:28:48.000Z",
+      "category": "encounter",
+      "dataElementCodes": [
+        {
+          "code": "185349003",
+          "system": "urn:oid:2.16.840.1.113883.6.96",
+          "display": "Encounter for check up",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Encounter, Performed",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.5",
+      "relevantPeriod": {
+        "low": "2019-05-31T21:28:48.000Z",
+        "high": "2019-05-31T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::EncounterPerformed"
+    },
+    {
+      "authorDatetime": "2018-07-24T18:28:48.000Z",
+      "category": "encounter",
+      "dataElementCodes": [
+        {
+          "code": "185349003",
+          "system": "urn:oid:2.16.840.1.113883.6.96",
+          "display": "Encounter for check up",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Encounter, Performed",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.5",
+      "relevantPeriod": {
+        "low": "2018-07-24T18:28:48.000Z",
+        "high": "2018-07-24T18:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::EncounterPerformed"
+    },
+    {
+      "authorDatetime": "2018-06-08T21:28:48.000Z",
+      "category": "encounter",
+      "dataElementCodes": [
+        {
+          "code": "185349003",
+          "system": "urn:oid:2.16.840.1.113883.6.96",
+          "display": "Encounter for check up",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Encounter, Performed",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.5",
+      "relevantPeriod": {
+        "low": "2018-06-08T21:28:48.000Z",
+        "high": "2018-06-08T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::EncounterPerformed"
+    },
+    {
+      "authorDatetime": "2018-05-25T21:28:48.000Z",
+      "category": "encounter",
+      "dataElementCodes": [
+        {
+          "code": "185349003",
+          "system": "urn:oid:2.16.840.1.113883.6.96",
+          "display": "Encounter for check up",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Encounter, Performed",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.5",
+      "relevantPeriod": {
+        "low": "2018-05-25T21:28:48.000Z",
+        "high": "2018-05-25T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::EncounterPerformed"
+    },
+    {
+      "authorDatetime": "2017-08-25T23:11:09.000Z",
+      "category": "encounter",
+      "dataElementCodes": [
+        {
+          "code": "185349003",
+          "system": "urn:oid:2.16.840.1.113883.6.96",
+          "display": "Encounter for check up",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Encounter, Performed",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.5",
+      "relevantPeriod": {
+        "low": "2017-08-25T23:11:09.000Z",
+        "high": "2017-08-25T23:11:09.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::EncounterPerformed"
+    },
+    {
+      "authorDatetime": "2017-06-02T21:28:48.000Z",
+      "category": "encounter",
+      "dataElementCodes": [
+        {
+          "code": "185349003",
+          "system": "urn:oid:2.16.840.1.113883.6.96",
+          "display": "Encounter for check up",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Encounter, Performed",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.5",
+      "relevantPeriod": {
+        "low": "2017-06-02T21:28:48.000Z",
+        "high": "2017-06-02T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::EncounterPerformed"
+    },
+    {
+      "authorDatetime": "2017-05-19T21:28:48.000Z",
+      "category": "encounter",
+      "dataElementCodes": [
+        {
+          "code": "185349003",
+          "system": "urn:oid:2.16.840.1.113883.6.96",
+          "display": "Encounter for check up",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Encounter, Performed",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.5",
+      "relevantPeriod": {
+        "low": "2017-05-19T21:28:48.000Z",
+        "high": "2017-05-19T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::EncounterPerformed"
+    },
+    {
+      "authorDatetime": "2016-05-13T21:28:48.000Z",
+      "category": "encounter",
+      "dataElementCodes": [
+        {
+          "code": "185349003",
+          "system": "urn:oid:2.16.840.1.113883.6.96",
+          "display": "Encounter for check up",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Encounter, Performed",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.5",
+      "relevantPeriod": {
+        "low": "2016-05-13T21:28:48.000Z",
+        "high": "2016-05-13T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::EncounterPerformed"
+    },
+    {
+      "authorDatetime": "2015-05-08T21:28:48.000Z",
+      "category": "encounter",
+      "dataElementCodes": [
+        {
+          "code": "185349003",
+          "system": "urn:oid:2.16.840.1.113883.6.96",
+          "display": "Encounter for check up",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Encounter, Performed",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.5",
+      "relevantPeriod": {
+        "low": "2015-05-08T21:28:48.000Z",
+        "high": "2015-05-08T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::EncounterPerformed"
+    },
+    {
+      "authorDatetime": "2011-04-15T21:28:48.000Z",
+      "category": "encounter",
+      "dataElementCodes": [
+        {
+          "code": "185349003",
+          "system": "urn:oid:2.16.840.1.113883.6.96",
+          "display": "Encounter for check up",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Encounter, Performed",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.5",
+      "relevantPeriod": {
+        "low": "2011-04-15T21:28:48.000Z",
+        "high": "2011-04-15T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::EncounterPerformed"
+    },
+    {
+      "authorDatetime": "2007-03-23T21:28:48.000Z",
+      "category": "encounter",
+      "dataElementCodes": [
+        {
+          "code": "185349003",
+          "system": "urn:oid:2.16.840.1.113883.6.96",
+          "display": "Encounter for check up",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Encounter, Performed",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.5",
+      "relevantPeriod": {
+        "low": "2007-03-23T21:28:48.000Z",
+        "high": "2007-03-23T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::EncounterPerformed"
+    },
+    {
+      "authorDatetime": "2002-06-07T21:28:48.000Z",
+      "category": "encounter",
+      "dataElementCodes": [
+        {
+          "code": "185349003",
+          "system": "urn:oid:2.16.840.1.113883.6.96",
+          "display": "Encounter for check up",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Encounter, Performed",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.5",
+      "relevantPeriod": {
+        "low": "2002-06-07T21:28:48.000Z",
+        "high": "2002-06-07T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::EncounterPerformed"
+    },
+    {
+      "authorDatetime": "1991-07-19T21:28:48.000Z",
+      "category": "encounter",
+      "dataElementCodes": [
+        {
+          "code": "185349003",
+          "system": "urn:oid:2.16.840.1.113883.6.96",
+          "display": "Encounter for check up",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Encounter, Performed",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.5",
+      "relevantPeriod": {
+        "low": "1991-07-19T21:28:48.000Z",
+        "high": "1991-07-19T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::EncounterPerformed"
+    },
+    {
+      "authorDatetime": "1987-05-29T21:28:48.000Z",
+      "category": "encounter",
+      "dataElementCodes": [
+        {
+          "code": "185349003",
+          "system": "urn:oid:2.16.840.1.113883.6.96",
+          "display": "Encounter for check up",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Encounter, Performed",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.5",
+      "relevantPeriod": {
+        "low": "1987-05-29T21:28:48.000Z",
+        "high": "1987-05-29T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::EncounterPerformed"
+    },
+    {
+      "authorDatetime": "1981-05-22T21:28:48.000Z",
+      "category": "encounter",
+      "dataElementCodes": [
+        {
+          "code": "185349003",
+          "system": "urn:oid:2.16.840.1.113883.6.96",
+          "display": "Encounter for check up",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Encounter, Performed",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.5",
+      "relevantPeriod": {
+        "low": "1981-05-22T21:28:48.000Z",
+        "high": "1981-05-22T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::EncounterPerformed"
+    },
+    {
+      "authorDatetime": "1974-05-10T21:28:48.000Z",
+      "category": "encounter",
+      "dataElementCodes": [
+        {
+          "code": "185349003",
+          "system": "urn:oid:2.16.840.1.113883.6.96",
+          "display": "Encounter for check up",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Encounter, Performed",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.5",
+      "relevantPeriod": {
+        "low": "1974-05-10T21:28:48.000Z",
+        "high": "1974-05-10T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::EncounterPerformed"
+    },
+    {
+      "authorDatetime": "1973-11-14T21:28:48.000Z",
+      "category": "encounter",
+      "dataElementCodes": [
+        {
+          "code": "185349003",
+          "system": "urn:oid:2.16.840.1.113883.6.96",
+          "display": "Encounter for check up",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Encounter, Performed",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.5",
+      "relevantPeriod": {
+        "low": "1973-11-14T21:28:48.000Z",
+        "high": "1973-11-14T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::EncounterPerformed"
+    },
+    {
+      "authorDatetime": "1972-04-28T21:28:48.000Z",
+      "category": "encounter",
+      "dataElementCodes": [
+        {
+          "code": "185349003",
+          "system": "urn:oid:2.16.840.1.113883.6.96",
+          "display": "Encounter for check up",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Encounter, Performed",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.5",
+      "relevantPeriod": {
+        "low": "1972-04-28T21:28:48.000Z",
+        "high": "1972-04-28T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::EncounterPerformed"
+    },
+    {
+      "authorDatetime": "2026-08-31T06:31:26.000Z",
+      "category": "encounter",
+      "dataElementCodes": [
+        {
+          "code": "185349003",
+          "system": "urn:oid:2.16.840.1.113883.6.96",
+          "display": "Encounter for check up",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Encounter, Performed",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.5",
+      "relevantPeriod": {
+        "low": "2026-08-31T06:31:26.000Z",
+        "high": "2026-08-31T06:31:26.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::EncounterPerformed"
+    },
+    {
+      "authorDatetime": "2026-08-31T08:31:20.000Z",
+      "category": "encounter",
+      "dataElementCodes": [
+        {
+          "code": "185349003",
+          "system": "urn:oid:2.16.840.1.113883.6.96",
+          "display": "Encounter for check up",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Encounter, Performed",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.5",
+      "relevantPeriod": {
+        "low": "2026-08-31T08:31:20.000Z",
+        "high": "2026-08-31T08:31:20.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::EncounterPerformed"
+    },
+    {
+      "authorDatetime": "2026-08-31T08:41:49.000Z",
+      "category": "encounter",
+      "dataElementCodes": [
+        {
+          "code": "185349003",
+          "system": "urn:oid:2.16.840.1.113883.6.96",
+          "display": "Encounter for check up",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Encounter, Performed",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.5",
+      "relevantPeriod": {
+        "low": "2026-08-31T08:41:49.000Z",
+        "high": "2026-08-31T08:41:49.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::EncounterPerformed"
+    },
+    {
+      "authorDatetime": "2026-07-18T11:09:22.000Z",
+      "category": "encounter",
+      "dataElementCodes": [
+        {
+          "code": "185349003",
+          "system": "urn:oid:2.16.840.1.113883.6.96",
+          "display": "Encounter for check up",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Encounter, Performed",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.5",
+      "relevantPeriod": {
+        "low": "2026-07-18T11:09:22.000Z",
+        "high": "2026-07-18T11:09:22.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::EncounterPerformed"
+    },
+    {
+      "authorDatetime": "2026-07-18T00:00:00.000Z",
+      "category": "condition",
+      "dataElementCodes": [
+        {
+          "code": "40055000",
+          "system": "urn:oid:2.16.840.1.113883.6.96",
+          "display": "Chronic sinusitis",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Diagnosis: Chronic sinusitis (disorder) (SCT 40055000)",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.110",
+      "prevalencePeriod": {
+        "low": "1973-11-14T00:00:00.000Z",
+        "high": null,
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "qdmVersion": "5.6",
+      "_type": "QDM::Diagnosis"
+    },
+    {
+      "authorDatetime": "2026-07-18T00:00:00.000Z",
+      "category": "condition",
+      "dataElementCodes": [
+        {
+          "code": "714628002",
+          "system": "urn:oid:2.16.840.1.113883.6.96",
+          "display": "Prediabetes",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Diagnosis: Prediabetes (finding) (SCT 714628002)",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.110",
+      "prevalencePeriod": {
+        "low": "1981-05-22T00:00:00.000Z",
+        "high": null,
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "qdmVersion": "5.6",
+      "_type": "QDM::Diagnosis"
+    },
+    {
+      "authorDatetime": "2026-07-18T00:00:00.000Z",
+      "category": "condition",
+      "dataElementCodes": [
+        {
+          "code": "271737000",
+          "system": "urn:oid:2.16.840.1.113883.6.96",
+          "display": "Anemia",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Diagnosis: Anemia (disorder) (SCT 271737000)",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.110",
+      "prevalencePeriod": {
+        "low": "1987-05-29T00:00:00.000Z",
+        "high": null,
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "qdmVersion": "5.6",
+      "_type": "QDM::Diagnosis"
+    },
+    {
+      "authorDatetime": "2026-07-18T00:00:00.000Z",
+      "category": "condition",
+      "dataElementCodes": [
+        {
+          "code": "37320007",
+          "system": "urn:oid:2.16.840.1.113883.6.96",
+          "display": "Loss of teeth",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Diagnosis: Loss of teeth (disorder) (SCT 37320007)",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.110",
+      "prevalencePeriod": {
+        "low": "1991-07-19T00:00:00.000Z",
+        "high": null,
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "qdmVersion": "5.6",
+      "_type": "QDM::Diagnosis"
+    },
+    {
+      "authorDatetime": "2026-07-18T00:00:00.000Z",
+      "category": "condition",
+      "dataElementCodes": [
+        {
+          "code": "161744009",
+          "system": "urn:oid:2.16.840.1.113883.6.96",
+          "display": "Past pregnancy history of miscarriage",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Diagnosis: Past pregnancy history of miscarriage (situation) (SCT 161744009)",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.110",
+      "prevalencePeriod": {
+        "low": "2002-06-07T00:00:00.000Z",
+        "high": null,
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "qdmVersion": "5.6",
+      "_type": "QDM::Diagnosis"
+    },
+    {
+      "authorDatetime": "2026-07-18T00:00:00.000Z",
+      "category": "condition",
+      "dataElementCodes": [
+        {
+          "code": "59621000",
+          "system": "urn:oid:2.16.840.1.113883.6.96",
+          "display": "Essential hypertension",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Diagnosis: Essential hypertension (disorder) (SCT 59621000)",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.110",
+      "prevalencePeriod": {
+        "low": "2007-03-23T00:00:00.000Z",
+        "high": null,
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "qdmVersion": "5.6",
+      "_type": "QDM::Diagnosis"
+    },
+    {
+      "authorDatetime": "2026-07-18T00:00:00.000Z",
+      "category": "condition",
+      "dataElementCodes": [
+        {
+          "code": "44054006",
+          "system": "urn:oid:2.16.840.1.113883.6.96",
+          "display": "Type 2 diabetes mellitus",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Diagnosis: Diabetes mellitus type 2 (disorder) (SCT 44054006)",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.110",
+      "prevalencePeriod": {
+        "low": "2022-06-17T00:00:00.000Z",
+        "high": null,
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "qdmVersion": "5.6",
+      "_type": "QDM::Diagnosis"
+    },
+    {
+      "authorDatetime": "2026-07-18T00:00:00.000Z",
+      "category": "condition",
+      "dataElementCodes": [
+        {
+          "code": "302870006",
+          "system": "urn:oid:2.16.840.1.113883.6.96",
+          "display": "Hypertriglyceridemia",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Diagnosis: Hypertriglyceridemia (disorder) (SCT 302870006)",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.110",
+      "prevalencePeriod": {
+        "low": "2023-06-23T00:00:00.000Z",
+        "high": null,
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "qdmVersion": "5.6",
+      "_type": "QDM::Diagnosis"
+    },
+    {
+      "authorDatetime": "2026-07-18T00:00:00.000Z",
+      "category": "condition",
+      "dataElementCodes": [
+        {
+          "code": "237602007",
+          "system": "urn:oid:2.16.840.1.113883.6.96",
+          "display": "Metabolic syndrome X",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Diagnosis: Metabolic syndrome X (disorder) (SCT 237602007)",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.110",
+      "prevalencePeriod": {
+        "low": "2024-05-31T00:00:00.000Z",
+        "high": null,
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "qdmVersion": "5.6",
+      "_type": "QDM::Diagnosis"
+    },
+    {
+      "authorDatetime": "2026-07-18T00:00:00.000Z",
+      "category": "condition",
+      "dataElementCodes": [
+        {
+          "code": "422650009",
+          "system": "urn:oid:2.16.840.1.113883.6.96",
+          "display": "Social isolation",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Diagnosis: Social isolation (finding) (SCT 422650009)",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.110",
+      "prevalencePeriod": {
+        "low": "2016-05-13T00:00:00.000Z",
+        "high": "2016-05-13T00:00:00.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "qdmVersion": "5.6",
+      "_type": "QDM::Diagnosis"
+    },
+    {
+      "authorDatetime": "2026-07-18T00:00:00.000Z",
+      "category": "condition",
+      "dataElementCodes": [
+        {
+          "code": "73595000",
+          "system": "urn:oid:2.16.840.1.113883.6.96",
+          "display": "Stress",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Diagnosis: Stress (finding) (SCT 73595000)",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.110",
+      "prevalencePeriod": {
+        "low": "2016-05-13T00:00:00.000Z",
+        "high": "2016-05-13T00:00:00.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "qdmVersion": "5.6",
+      "_type": "QDM::Diagnosis"
+    },
+    {
+      "authorDatetime": "2026-07-18T00:00:00.000Z",
+      "category": "condition",
+      "dataElementCodes": [
+        {
+          "code": "18718003",
+          "system": "urn:oid:2.16.840.1.113883.6.96",
+          "display": "Gingival disease",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Diagnosis: Gingival disease (disorder) (SCT 18718003)",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.110",
+      "prevalencePeriod": {
+        "low": "2017-06-03T00:00:00.000Z",
+        "high": "2017-06-03T00:00:00.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "qdmVersion": "5.6",
+      "_type": "QDM::Diagnosis"
+    },
+    {
+      "authorDatetime": "2026-07-18T00:00:00.000Z",
+      "category": "condition",
+      "dataElementCodes": [
+        {
+          "code": "444814009",
+          "system": "urn:oid:2.16.840.1.113883.6.96",
+          "display": "Viral sinusitis",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Diagnosis: Viral sinusitis (disorder) (SCT 444814009)",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.110",
+      "prevalencePeriod": {
+        "low": "2018-07-24T00:00:00.000Z",
+        "high": "2018-07-24T00:00:00.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "qdmVersion": "5.6",
+      "_type": "QDM::Diagnosis"
+    },
+    {
+      "authorDatetime": "2026-07-18T00:00:00.000Z",
+      "category": "condition",
+      "dataElementCodes": [
+        {
+          "code": "66383009",
+          "system": "urn:oid:2.16.840.1.113883.6.96",
+          "display": "Gingivitis",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Diagnosis: Gingivitis (disorder) (SCT 66383009)",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.110",
+      "prevalencePeriod": {
+        "low": "2019-05-31T00:00:00.000Z",
+        "high": "2019-05-31T00:00:00.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "qdmVersion": "5.6",
+      "_type": "QDM::Diagnosis"
+    },
+    {
+      "authorDatetime": "2026-07-18T00:00:00.000Z",
+      "category": "condition",
+      "dataElementCodes": [
+        {
+          "code": "73438004",
+          "system": "urn:oid:2.16.840.1.113883.6.96",
+          "display": "Unemployed",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Diagnosis: Unemployed (finding) (SCT 73438004)",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.110",
+      "prevalencePeriod": {
+        "low": "2021-06-11T00:00:00.000Z",
+        "high": "2021-06-11T00:00:00.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "qdmVersion": "5.6",
+      "_type": "QDM::Diagnosis"
+    },
+    {
+      "authorDatetime": "2026-07-18T00:00:00.000Z",
+      "category": "condition",
+      "dataElementCodes": [
+        {
+          "code": "10509002",
+          "system": "urn:oid:2.16.840.1.113883.6.96",
+          "display": "Acute bronchitis",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Diagnosis: Acute bronchitis (disorder) (SCT 10509002)",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.110",
+      "prevalencePeriod": {
+        "low": "2024-06-07T00:00:00.000Z",
+        "high": "2024-06-07T00:00:00.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "qdmVersion": "5.6",
+      "_type": "QDM::Diagnosis"
+    },
+    {
+      "authorDatetime": "2025-07-18T21:28:48.000Z",
+      "category": "condition",
+      "dataElementCodes": [
+        {
+          "code": "K05.10",
+          "system": "urn:oid:2.16.840.1.113883.6.90",
+          "display": null,
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Diagnosis: Gingivitis (disorder)",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.110",
+      "prevalencePeriod": {
+        "low": "2025-07-18T21:28:48.000Z",
+        "high": "2025-07-18T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "qdmVersion": "5.6",
+      "_type": "QDM::Diagnosis"
+    },
+    {
+      "authorDatetime": "2025-07-18T21:28:48.000Z",
+      "category": "condition",
+      "dataElementCodes": [
+        {
+          "code": "K06.9",
+          "system": "urn:oid:2.16.840.1.113883.6.90",
+          "display": null,
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Diagnosis: Gingival disease (disorder)",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.110",
+      "prevalencePeriod": {
+        "low": "2025-07-18T21:28:48.000Z",
+        "high": "2025-07-18T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "qdmVersion": "5.6",
+      "_type": "QDM::Diagnosis"
+    },
+    {
+      "authorDatetime": "2025-07-04T21:28:48.000Z",
+      "category": "condition",
+      "dataElementCodes": [
+        {
+          "code": "K05.10",
+          "system": "urn:oid:2.16.840.1.113883.6.90",
+          "display": null,
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Diagnosis: Gingivitis (disorder)",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.110",
+      "prevalencePeriod": {
+        "low": "2025-07-04T21:28:48.000Z",
+        "high": "2025-07-04T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "qdmVersion": "5.6",
+      "_type": "QDM::Diagnosis"
+    },
+    {
+      "authorDatetime": "2025-03-05T22:28:48.000Z",
+      "category": "condition",
+      "dataElementCodes": [
+        {
+          "code": "R69",
+          "system": "urn:oid:2.16.840.1.113883.6.90",
+          "display": null,
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Diagnosis: Viral sinusitis (disorder)",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.110",
+      "prevalencePeriod": {
+        "low": "2025-03-05T22:28:48.000Z",
+        "high": "2025-03-05T22:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "qdmVersion": "5.6",
+      "_type": "QDM::Diagnosis"
+    },
+    {
+      "authorDatetime": "2024-06-28T21:28:48.000Z",
+      "category": "condition",
+      "dataElementCodes": [
+        {
+          "code": "Z73.3",
+          "system": "urn:oid:2.16.840.1.113883.6.90",
+          "display": null,
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Diagnosis: Stress (finding)",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.110",
+      "prevalencePeriod": {
+        "low": "2024-06-28T21:28:48.000Z",
+        "high": "2024-06-28T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "qdmVersion": "5.6",
+      "_type": "QDM::Diagnosis"
+    },
+    {
+      "authorDatetime": "2024-06-14T21:28:48.000Z",
+      "category": "condition",
+      "dataElementCodes": [
+        {
+          "code": "K05.10",
+          "system": "urn:oid:2.16.840.1.113883.6.90",
+          "display": null,
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Diagnosis: Gingivitis (disorder)",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.110",
+      "prevalencePeriod": {
+        "low": "2024-06-14T21:28:48.000Z",
+        "high": "2024-06-14T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "qdmVersion": "5.6",
+      "_type": "QDM::Diagnosis"
+    },
+    {
+      "authorDatetime": "2024-06-07T21:28:48.000Z",
+      "category": "condition",
+      "dataElementCodes": [
+        {
+          "code": "J20.9",
+          "system": "urn:oid:2.16.840.1.113883.6.90",
+          "display": null,
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Diagnosis: Acute bronchitis (disorder)",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.110",
+      "prevalencePeriod": {
+        "low": "2024-06-07T21:28:48.000Z",
+        "high": "2024-06-07T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "qdmVersion": "5.6",
+      "_type": "QDM::Diagnosis"
+    },
+    {
+      "authorDatetime": "2024-05-31T21:28:48.000Z",
+      "category": "condition",
+      "dataElementCodes": [
+        {
+          "code": "E88.810",
+          "system": "urn:oid:2.16.840.1.113883.6.90",
+          "display": null,
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Diagnosis: Metabolic syndrome X (disorder)",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.110",
+      "prevalencePeriod": {
+        "low": "2024-05-31T21:28:48.000Z",
+        "high": "2024-05-31T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "qdmVersion": "5.6",
+      "_type": "QDM::Diagnosis"
+    },
+    {
+      "authorDatetime": "2024-05-31T21:28:48.000Z",
+      "category": "condition",
+      "dataElementCodes": [
+        {
+          "code": "Z56.0",
+          "system": "urn:oid:2.16.840.1.113883.6.90",
+          "display": null,
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Diagnosis: Unemployed (finding)",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.110",
+      "prevalencePeriod": {
+        "low": "2024-05-31T21:28:48.000Z",
+        "high": "2024-05-31T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "qdmVersion": "5.6",
+      "_type": "QDM::Diagnosis"
+    },
+    {
+      "authorDatetime": "2024-05-31T21:28:48.000Z",
+      "category": "condition",
+      "dataElementCodes": [
+        {
+          "code": "K05.10",
+          "system": "urn:oid:2.16.840.1.113883.6.90",
+          "display": null,
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Diagnosis: Gingivitis (disorder)",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.110",
+      "prevalencePeriod": {
+        "low": "2024-05-31T21:28:48.000Z",
+        "high": "2024-05-31T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "qdmVersion": "5.6",
+      "_type": "QDM::Diagnosis"
+    },
+    {
+      "authorDatetime": "2023-06-23T21:28:48.000Z",
+      "category": "condition",
+      "dataElementCodes": [
+        {
+          "code": "E78.1",
+          "system": "urn:oid:2.16.840.1.113883.6.90",
+          "display": null,
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Diagnosis: Hypertriglyceridemia (disorder)",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.110",
+      "prevalencePeriod": {
+        "low": "2023-06-23T21:28:48.000Z",
+        "high": "2023-06-23T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "qdmVersion": "5.6",
+      "_type": "QDM::Diagnosis"
+    },
+    {
+      "authorDatetime": "2023-06-23T21:28:48.000Z",
+      "category": "condition",
+      "dataElementCodes": [
+        {
+          "code": "Z73.3",
+          "system": "urn:oid:2.16.840.1.113883.6.90",
+          "display": null,
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Diagnosis: Stress (finding)",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.110",
+      "prevalencePeriod": {
+        "low": "2023-06-23T21:28:48.000Z",
+        "high": "2023-06-23T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "qdmVersion": "5.6",
+      "_type": "QDM::Diagnosis"
+    },
+    {
+      "authorDatetime": "2022-07-15T21:28:48.000Z",
+      "category": "condition",
+      "dataElementCodes": [
+        {
+          "code": "E11.9",
+          "system": "urn:oid:2.16.840.1.113883.6.90",
+          "display": null,
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Diagnosis: Diabetes mellitus type 2 (disorder)",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.110",
+      "prevalencePeriod": {
+        "low": "2022-07-15T21:28:48.000Z",
+        "high": "2022-07-15T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "qdmVersion": "5.6",
+      "_type": "QDM::Diagnosis"
+    },
+    {
+      "authorDatetime": "2022-07-01T21:28:48.000Z",
+      "category": "condition",
+      "dataElementCodes": [
+        {
+          "code": "K05.10",
+          "system": "urn:oid:2.16.840.1.113883.6.90",
+          "display": null,
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Diagnosis: Gingivitis (disorder)",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.110",
+      "prevalencePeriod": {
+        "low": "2022-07-01T21:28:48.000Z",
+        "high": "2022-07-01T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "qdmVersion": "5.6",
+      "_type": "QDM::Diagnosis"
+    },
+    {
+      "authorDatetime": "2022-06-17T21:28:48.000Z",
+      "category": "condition",
+      "dataElementCodes": [
+        {
+          "code": "E11.9",
+          "system": "urn:oid:2.16.840.1.113883.6.90",
+          "display": null,
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Diagnosis: Diabetes mellitus type 2 (disorder)",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.110",
+      "prevalencePeriod": {
+        "low": "2022-06-17T21:28:48.000Z",
+        "high": "2022-06-17T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "qdmVersion": "5.6",
+      "_type": "QDM::Diagnosis"
+    },
+    {
+      "authorDatetime": "2022-06-17T21:28:48.000Z",
+      "category": "condition",
+      "dataElementCodes": [
+        {
+          "code": "K05.10",
+          "system": "urn:oid:2.16.840.1.113883.6.90",
+          "display": null,
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Diagnosis: Gingivitis (disorder)",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.110",
+      "prevalencePeriod": {
+        "low": "2022-06-17T21:28:48.000Z",
+        "high": "2022-06-17T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "qdmVersion": "5.6",
+      "_type": "QDM::Diagnosis"
+    },
+    {
+      "authorDatetime": "2021-06-11T21:28:48.000Z",
+      "category": "condition",
+      "dataElementCodes": [
+        {
+          "code": "Z56.0",
+          "system": "urn:oid:2.16.840.1.113883.6.90",
+          "display": null,
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Diagnosis: Unemployed (finding)",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.110",
+      "prevalencePeriod": {
+        "low": "2021-06-11T21:28:48.000Z",
+        "high": "2021-06-11T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "qdmVersion": "5.6",
+      "_type": "QDM::Diagnosis"
+    },
+    {
+      "authorDatetime": "2020-10-04T06:37:25.000Z",
+      "category": "condition",
+      "dataElementCodes": [
+        {
+          "code": "K08.109",
+          "system": "urn:oid:2.16.840.1.113883.6.90",
+          "display": null,
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Diagnosis: Loss of teeth (disorder)",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.110",
+      "prevalencePeriod": {
+        "low": "2020-10-04T06:37:25.000Z",
+        "high": "2020-10-04T06:37:25.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "qdmVersion": "5.6",
+      "_type": "QDM::Diagnosis"
+    },
+    {
+      "authorDatetime": "2020-09-13T05:24:33.000Z",
+      "category": "condition",
+      "dataElementCodes": [
+        {
+          "code": "K08.109",
+          "system": "urn:oid:2.16.840.1.113883.6.90",
+          "display": null,
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Diagnosis: Loss of teeth (disorder)",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.110",
+      "prevalencePeriod": {
+        "low": "2020-09-13T05:24:33.000Z",
+        "high": "2020-09-13T05:24:33.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "qdmVersion": "5.6",
+      "_type": "QDM::Diagnosis"
+    },
+    {
+      "authorDatetime": "2019-06-14T21:28:48.000Z",
+      "category": "condition",
+      "dataElementCodes": [
+        {
+          "code": "K05.10",
+          "system": "urn:oid:2.16.840.1.113883.6.90",
+          "display": null,
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Diagnosis: Gingivitis (disorder)",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.110",
+      "prevalencePeriod": {
+        "low": "2019-06-14T21:28:48.000Z",
+        "high": "2019-06-14T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "qdmVersion": "5.6",
+      "_type": "QDM::Diagnosis"
+    },
+    {
+      "authorDatetime": "2019-06-14T21:28:48.000Z",
+      "category": "condition",
+      "dataElementCodes": [
+        {
+          "code": "K06.9",
+          "system": "urn:oid:2.16.840.1.113883.6.90",
+          "display": null,
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Diagnosis: Gingival disease (disorder)",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.110",
+      "prevalencePeriod": {
+        "low": "2019-06-14T21:28:48.000Z",
+        "high": "2019-06-14T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "qdmVersion": "5.6",
+      "_type": "QDM::Diagnosis"
+    },
+    {
+      "authorDatetime": "2019-05-31T21:28:48.000Z",
+      "category": "condition",
+      "dataElementCodes": [
+        {
+          "code": "K05.10",
+          "system": "urn:oid:2.16.840.1.113883.6.90",
+          "display": null,
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Diagnosis: Gingivitis (disorder)",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.110",
+      "prevalencePeriod": {
+        "low": "2019-05-31T21:28:48.000Z",
+        "high": "2019-05-31T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "qdmVersion": "5.6",
+      "_type": "QDM::Diagnosis"
+    },
+    {
+      "authorDatetime": "2018-07-24T18:28:48.000Z",
+      "category": "condition",
+      "dataElementCodes": [
+        {
+          "code": "R69",
+          "system": "urn:oid:2.16.840.1.113883.6.90",
+          "display": null,
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Diagnosis: Viral sinusitis (disorder)",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.110",
+      "prevalencePeriod": {
+        "low": "2018-07-24T18:28:48.000Z",
+        "high": "2018-07-24T18:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "qdmVersion": "5.6",
+      "_type": "QDM::Diagnosis"
+    },
+    {
+      "authorDatetime": "2018-05-25T21:28:48.000Z",
+      "category": "condition",
+      "dataElementCodes": [
+        {
+          "code": "Z73.3",
+          "system": "urn:oid:2.16.840.1.113883.6.90",
+          "display": null,
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Diagnosis: Stress (finding)",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.110",
+      "prevalencePeriod": {
+        "low": "2018-05-25T21:28:48.000Z",
+        "high": "2018-05-25T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "qdmVersion": "5.6",
+      "_type": "QDM::Diagnosis"
+    },
+    {
+      "authorDatetime": "2017-06-02T21:28:48.000Z",
+      "category": "condition",
+      "dataElementCodes": [
+        {
+          "code": "K06.9",
+          "system": "urn:oid:2.16.840.1.113883.6.90",
+          "display": null,
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Diagnosis: Gingival disease (disorder)",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.110",
+      "prevalencePeriod": {
+        "low": "2017-06-02T21:28:48.000Z",
+        "high": "2017-06-02T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "qdmVersion": "5.6",
+      "_type": "QDM::Diagnosis"
+    },
+    {
+      "authorDatetime": "2016-05-13T21:28:48.000Z",
+      "category": "condition",
+      "dataElementCodes": [
+        {
+          "code": "Z60.4",
+          "system": "urn:oid:2.16.840.1.113883.6.90",
+          "display": null,
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Diagnosis: Social isolation (finding)",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.110",
+      "prevalencePeriod": {
+        "low": "2016-05-13T21:28:48.000Z",
+        "high": "2016-05-13T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "qdmVersion": "5.6",
+      "_type": "QDM::Diagnosis"
+    },
+    {
+      "authorDatetime": "2016-05-13T21:28:48.000Z",
+      "category": "condition",
+      "dataElementCodes": [
+        {
+          "code": "Z73.3",
+          "system": "urn:oid:2.16.840.1.113883.6.90",
+          "display": null,
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Diagnosis: Stress (finding)",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.110",
+      "prevalencePeriod": {
+        "low": "2016-05-13T21:28:48.000Z",
+        "high": "2016-05-13T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "qdmVersion": "5.6",
+      "_type": "QDM::Diagnosis"
+    },
+    {
+      "authorDatetime": "2007-03-23T21:28:48.000Z",
+      "category": "condition",
+      "dataElementCodes": [
+        {
+          "code": "I10",
+          "system": "urn:oid:2.16.840.1.113883.6.90",
+          "display": null,
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Diagnosis: Essential hypertension (disorder)",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.110",
+      "prevalencePeriod": {
+        "low": "2007-03-23T21:28:48.000Z",
+        "high": "2007-03-23T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "qdmVersion": "5.6",
+      "_type": "QDM::Diagnosis"
+    },
+    {
+      "authorDatetime": "2002-06-07T21:28:48.000Z",
+      "category": "condition",
+      "dataElementCodes": [
+        {
+          "code": "O02.0",
+          "system": "urn:oid:2.16.840.1.113883.6.90",
+          "display": null,
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Diagnosis: Blighted ovum (disorder)",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.110",
+      "prevalencePeriod": {
+        "low": "2002-06-07T21:28:48.000Z",
+        "high": "2002-06-07T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "qdmVersion": "5.6",
+      "_type": "QDM::Diagnosis"
+    },
+    {
+      "authorDatetime": "2002-06-07T21:28:48.000Z",
+      "category": "condition",
+      "dataElementCodes": [
+        {
+          "code": "Z87.59",
+          "system": "urn:oid:2.16.840.1.113883.6.90",
+          "display": null,
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Diagnosis: Past pregnancy history of miscarriage (situation)",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.110",
+      "prevalencePeriod": {
+        "low": "2002-06-07T21:28:48.000Z",
+        "high": "2002-06-07T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "qdmVersion": "5.6",
+      "_type": "QDM::Diagnosis"
+    },
+    {
+      "authorDatetime": "1991-07-19T21:28:48.000Z",
+      "category": "condition",
+      "dataElementCodes": [
+        {
+          "code": "K08.109",
+          "system": "urn:oid:2.16.840.1.113883.6.90",
+          "display": null,
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Diagnosis: Loss of teeth (disorder)",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.110",
+      "prevalencePeriod": {
+        "low": "1991-07-19T21:28:48.000Z",
+        "high": "1991-07-19T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "qdmVersion": "5.6",
+      "_type": "QDM::Diagnosis"
+    },
+    {
+      "authorDatetime": "1987-05-29T21:28:48.000Z",
+      "category": "condition",
+      "dataElementCodes": [
+        {
+          "code": "D64.9",
+          "system": "urn:oid:2.16.840.1.113883.6.90",
+          "display": null,
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Diagnosis: Anemia (disorder)",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.110",
+      "prevalencePeriod": {
+        "low": "1987-05-29T21:28:48.000Z",
+        "high": "1987-05-29T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "qdmVersion": "5.6",
+      "_type": "QDM::Diagnosis"
+    },
+    {
+      "authorDatetime": "1981-05-22T21:28:48.000Z",
+      "category": "condition",
+      "dataElementCodes": [
+        {
+          "code": "R73.03",
+          "system": "urn:oid:2.16.840.1.113883.6.90",
+          "display": null,
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Diagnosis: Prediabetes (finding)",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.110",
+      "prevalencePeriod": {
+        "low": "1981-05-22T21:28:48.000Z",
+        "high": "1981-05-22T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "qdmVersion": "5.6",
+      "_type": "QDM::Diagnosis"
+    },
+    {
+      "authorDatetime": "1973-11-14T21:28:48.000Z",
+      "category": "condition",
+      "dataElementCodes": [
+        {
+          "code": "J32.9",
+          "system": "urn:oid:2.16.840.1.113883.6.90",
+          "display": null,
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Diagnosis: Chronic sinusitis (disorder)",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.110",
+      "prevalencePeriod": {
+        "low": "1973-11-14T21:28:48.000Z",
+        "high": "1973-11-14T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "qdmVersion": "5.6",
+      "_type": "QDM::Diagnosis"
+    },
+    {
+      "authorDatetime": "2026-07-10T21:28:48.000Z",
+      "category": "physical_exam",
+      "dataElementCodes": [
+        {
+          "code": "8480-6",
+          "system": "urn:oid:2.16.840.1.113883.6.1",
+          "display": "Systolic blood pressure",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Physical Exam, Performed: Systolic blood pressure",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.62",
+      "relevantDatetime": "2026-07-10T21:28:48.000Z",
+      "relevantPeriod": {
+        "low": "2026-07-10T21:28:48.000Z",
+        "high": "2026-07-10T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "result": {
+        "value": 119,
+        "unit": "mm[Hg]"
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::PhysicalExamPerformed",
+      "_bridgeHint": "observation-component"
+    },
+    {
+      "authorDatetime": "2026-07-10T21:28:48.000Z",
+      "category": "physical_exam",
+      "dataElementCodes": [
+        {
+          "code": "8462-4",
+          "system": "urn:oid:2.16.840.1.113883.6.1",
+          "display": "Diastolic blood pressure",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Physical Exam, Performed: Diastolic blood pressure",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.62",
+      "relevantDatetime": "2026-07-10T21:28:48.000Z",
+      "relevantPeriod": {
+        "low": "2026-07-10T21:28:48.000Z",
+        "high": "2026-07-10T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "result": {
+        "value": 89,
+        "unit": "mm[Hg]"
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::PhysicalExamPerformed",
+      "_bridgeHint": "observation-component"
+    },
+    {
+      "authorDatetime": "2026-07-10T21:28:48.000Z",
+      "category": "physical_exam",
+      "components": [
+        {
+          "code": {
+            "code": "8480-6",
+            "system": "urn:oid:2.16.840.1.113883.6.1",
+            "display": "Systolic blood pressure",
+            "version": null,
+            "_type": "QDM::Code"
+          },
+          "result": {
+            "value": 119,
+            "unit": "mm[Hg]"
+          },
+          "_type": "QDM::Component"
+        },
+        {
+          "code": {
+            "code": "8462-4",
+            "system": "urn:oid:2.16.840.1.113883.6.1",
+            "display": "Diastolic blood pressure",
+            "version": null,
+            "_type": "QDM::Code"
+          },
+          "result": {
+            "value": 89,
+            "unit": "mm[Hg]"
+          },
+          "_type": "QDM::Component"
+        }
+      ],
+      "dataElementCodes": [
+        {
+          "code": "4500634",
+          "system": "urn:va:vuid",
+          "display": null,
+          "version": null,
+          "_type": "QDM::Code"
+        },
+        {
+          "code": "85354-9",
+          "system": "urn:oid:2.16.840.1.113883.6.1",
+          "display": "Blood pressure panel with all children optional",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Physical Exam, Performed: BLOOD PRESSURE",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.62",
+      "relevantDatetime": "2026-07-10T21:28:48.000Z",
+      "relevantPeriod": {
+        "low": "2026-07-10T21:28:48.000Z",
+        "high": "2026-07-10T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "result": null,
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::PhysicalExamPerformed",
+      "_bridgeHint": "vital-signs"
+    },
+    {
+      "authorDatetime": "2026-07-10T21:28:48.000Z",
+      "category": "physical_exam",
+      "components": [],
+      "dataElementCodes": [
+        {
+          "code": "4688724",
+          "system": "urn:va:vuid",
+          "display": null,
+          "version": null,
+          "_type": "QDM::Code"
+        },
+        {
+          "code": "8302-2",
+          "system": "urn:oid:2.16.840.1.113883.6.1",
+          "display": "Body height",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Physical Exam, Performed: HEIGHT",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.62",
+      "relevantDatetime": "2026-07-10T21:28:48.000Z",
+      "relevantPeriod": {
+        "low": "2026-07-10T21:28:48.000Z",
+        "high": "2026-07-10T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "result": {
+        "value": 427.48,
+        "unit": "cm"
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::PhysicalExamPerformed",
+      "_bridgeHint": "vital-signs"
+    },
+    {
+      "authorDatetime": "2026-07-10T21:28:48.000Z",
+      "category": "physical_exam",
+      "components": [],
+      "dataElementCodes": [
+        {
+          "code": "4500636",
+          "system": "urn:va:vuid",
+          "display": null,
+          "version": null,
+          "_type": "QDM::Code"
+        },
+        {
+          "code": "8867-4",
+          "system": "urn:oid:2.16.840.1.113883.6.1",
+          "display": "Heart rate",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Physical Exam, Performed: PULSE",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.62",
+      "relevantDatetime": "2026-07-10T21:28:48.000Z",
+      "relevantPeriod": {
+        "low": "2026-07-10T21:28:48.000Z",
+        "high": "2026-07-10T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "result": {
+        "value": 95,
+        "unit": "/min"
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::PhysicalExamPerformed",
+      "_bridgeHint": "vital-signs"
+    },
+    {
+      "authorDatetime": "2026-07-10T21:28:48.000Z",
+      "category": "physical_exam",
+      "components": [],
+      "dataElementCodes": [
+        {
+          "code": "4500635",
+          "system": "urn:va:vuid",
+          "display": null,
+          "version": null,
+          "_type": "QDM::Code"
+        },
+        {
+          "code": "72514-3",
+          "system": "urn:oid:2.16.840.1.113883.6.1",
+          "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Physical Exam, Performed: PAIN",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.62",
+      "relevantDatetime": "2026-07-10T21:28:48.000Z",
+      "relevantPeriod": {
+        "low": "2026-07-10T21:28:48.000Z",
+        "high": "2026-07-10T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "result": {
+        "value": 3,
+        "unit": "{score}"
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::PhysicalExamPerformed",
+      "_bridgeHint": "vital-signs"
+    },
+    {
+      "authorDatetime": "2026-07-10T21:28:48.000Z",
+      "category": "physical_exam",
+      "components": [],
+      "dataElementCodes": [
+        {
+          "code": "4688725",
+          "system": "urn:va:vuid",
+          "display": null,
+          "version": null,
+          "_type": "QDM::Code"
+        },
+        {
+          "code": "9279-1",
+          "system": "urn:oid:2.16.840.1.113883.6.1",
+          "display": "Respiratory rate",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Physical Exam, Performed: RESPIRATION",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.62",
+      "relevantDatetime": "2026-07-10T21:28:48.000Z",
+      "relevantPeriod": {
+        "low": "2026-07-10T21:28:48.000Z",
+        "high": "2026-07-10T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "result": {
+        "value": 14,
+        "unit": "/min"
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::PhysicalExamPerformed",
+      "_bridgeHint": "vital-signs"
+    },
+    {
+      "authorDatetime": "2026-07-10T21:28:48.000Z",
+      "category": "physical_exam",
+      "components": [],
+      "dataElementCodes": [
+        {
+          "code": "4500639",
+          "system": "urn:va:vuid",
+          "display": null,
+          "version": null,
+          "_type": "QDM::Code"
+        },
+        {
+          "code": "29463-7",
+          "system": "urn:oid:2.16.840.1.113883.6.1",
+          "display": "Body weight",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Physical Exam, Performed: WEIGHT",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.62",
+      "relevantDatetime": "2026-07-10T21:28:48.000Z",
+      "relevantPeriod": {
+        "low": "2026-07-10T21:28:48.000Z",
+        "high": "2026-07-10T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "result": {
+        "value": 35.32,
+        "unit": "kg"
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::PhysicalExamPerformed",
+      "_bridgeHint": "vital-signs"
+    },
+    {
+      "authorDatetime": "2025-07-04T21:28:48.000Z",
+      "category": "physical_exam",
+      "dataElementCodes": [
+        {
+          "code": "8480-6",
+          "system": "urn:oid:2.16.840.1.113883.6.1",
+          "display": "Systolic blood pressure",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Physical Exam, Performed: Systolic blood pressure",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.62",
+      "relevantDatetime": "2025-07-04T21:28:48.000Z",
+      "relevantPeriod": {
+        "low": "2025-07-04T21:28:48.000Z",
+        "high": "2025-07-04T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "result": {
+        "value": 114,
+        "unit": "mm[Hg]"
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::PhysicalExamPerformed",
+      "_bridgeHint": "observation-component"
+    },
+    {
+      "authorDatetime": "2025-07-04T21:28:48.000Z",
+      "category": "physical_exam",
+      "dataElementCodes": [
+        {
+          "code": "8462-4",
+          "system": "urn:oid:2.16.840.1.113883.6.1",
+          "display": "Diastolic blood pressure",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Physical Exam, Performed: Diastolic blood pressure",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.62",
+      "relevantDatetime": "2025-07-04T21:28:48.000Z",
+      "relevantPeriod": {
+        "low": "2025-07-04T21:28:48.000Z",
+        "high": "2025-07-04T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "result": {
+        "value": 97,
+        "unit": "mm[Hg]"
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::PhysicalExamPerformed",
+      "_bridgeHint": "observation-component"
+    },
+    {
+      "authorDatetime": "2025-07-04T21:28:48.000Z",
+      "category": "physical_exam",
+      "components": [
+        {
+          "code": {
+            "code": "8480-6",
+            "system": "urn:oid:2.16.840.1.113883.6.1",
+            "display": "Systolic blood pressure",
+            "version": null,
+            "_type": "QDM::Code"
+          },
+          "result": {
+            "value": 114,
+            "unit": "mm[Hg]"
+          },
+          "_type": "QDM::Component"
+        },
+        {
+          "code": {
+            "code": "8462-4",
+            "system": "urn:oid:2.16.840.1.113883.6.1",
+            "display": "Diastolic blood pressure",
+            "version": null,
+            "_type": "QDM::Code"
+          },
+          "result": {
+            "value": 97,
+            "unit": "mm[Hg]"
+          },
+          "_type": "QDM::Component"
+        }
+      ],
+      "dataElementCodes": [
+        {
+          "code": "4500634",
+          "system": "urn:va:vuid",
+          "display": null,
+          "version": null,
+          "_type": "QDM::Code"
+        },
+        {
+          "code": "85354-9",
+          "system": "urn:oid:2.16.840.1.113883.6.1",
+          "display": "Blood pressure panel with all children optional",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Physical Exam, Performed: BLOOD PRESSURE",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.62",
+      "relevantDatetime": "2025-07-04T21:28:48.000Z",
+      "relevantPeriod": {
+        "low": "2025-07-04T21:28:48.000Z",
+        "high": "2025-07-04T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "result": null,
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::PhysicalExamPerformed",
+      "_bridgeHint": "vital-signs"
+    },
+    {
+      "authorDatetime": "2025-07-04T21:28:48.000Z",
+      "category": "physical_exam",
+      "components": [],
+      "dataElementCodes": [
+        {
+          "code": "4688724",
+          "system": "urn:va:vuid",
+          "display": null,
+          "version": null,
+          "_type": "QDM::Code"
+        },
+        {
+          "code": "8302-2",
+          "system": "urn:oid:2.16.840.1.113883.6.1",
+          "display": "Body height",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Physical Exam, Performed: HEIGHT",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.62",
+      "relevantDatetime": "2025-07-04T21:28:48.000Z",
+      "relevantPeriod": {
+        "low": "2025-07-04T21:28:48.000Z",
+        "high": "2025-07-04T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "result": {
+        "value": 427.48,
+        "unit": "cm"
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::PhysicalExamPerformed",
+      "_bridgeHint": "vital-signs"
+    },
+    {
+      "authorDatetime": "2025-07-04T21:28:48.000Z",
+      "category": "physical_exam",
+      "components": [],
+      "dataElementCodes": [
+        {
+          "code": "4500636",
+          "system": "urn:va:vuid",
+          "display": null,
+          "version": null,
+          "_type": "QDM::Code"
+        },
+        {
+          "code": "8867-4",
+          "system": "urn:oid:2.16.840.1.113883.6.1",
+          "display": "Heart rate",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Physical Exam, Performed: PULSE",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.62",
+      "relevantDatetime": "2025-07-04T21:28:48.000Z",
+      "relevantPeriod": {
+        "low": "2025-07-04T21:28:48.000Z",
+        "high": "2025-07-04T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "result": {
+        "value": 70,
+        "unit": "/min"
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::PhysicalExamPerformed",
+      "_bridgeHint": "vital-signs"
+    },
+    {
+      "authorDatetime": "2025-07-04T21:28:48.000Z",
+      "category": "physical_exam",
+      "components": [],
+      "dataElementCodes": [
+        {
+          "code": "4500635",
+          "system": "urn:va:vuid",
+          "display": null,
+          "version": null,
+          "_type": "QDM::Code"
+        },
+        {
+          "code": "72514-3",
+          "system": "urn:oid:2.16.840.1.113883.6.1",
+          "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Physical Exam, Performed: PAIN",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.62",
+      "relevantDatetime": "2025-07-04T21:28:48.000Z",
+      "relevantPeriod": {
+        "low": "2025-07-04T21:28:48.000Z",
+        "high": "2025-07-04T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "result": {
+        "value": 2,
+        "unit": "{score}"
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::PhysicalExamPerformed",
+      "_bridgeHint": "vital-signs"
+    },
+    {
+      "authorDatetime": "2025-07-04T21:28:48.000Z",
+      "category": "physical_exam",
+      "components": [],
+      "dataElementCodes": [
+        {
+          "code": "4688725",
+          "system": "urn:va:vuid",
+          "display": null,
+          "version": null,
+          "_type": "QDM::Code"
+        },
+        {
+          "code": "9279-1",
+          "system": "urn:oid:2.16.840.1.113883.6.1",
+          "display": "Respiratory rate",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Physical Exam, Performed: RESPIRATION",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.62",
+      "relevantDatetime": "2025-07-04T21:28:48.000Z",
+      "relevantPeriod": {
+        "low": "2025-07-04T21:28:48.000Z",
+        "high": "2025-07-04T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "result": {
+        "value": 16,
+        "unit": "/min"
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::PhysicalExamPerformed",
+      "_bridgeHint": "vital-signs"
+    },
+    {
+      "authorDatetime": "2025-07-04T21:28:48.000Z",
+      "category": "physical_exam",
+      "components": [],
+      "dataElementCodes": [
+        {
+          "code": "4500639",
+          "system": "urn:va:vuid",
+          "display": null,
+          "version": null,
+          "_type": "QDM::Code"
+        },
+        {
+          "code": "29463-7",
+          "system": "urn:oid:2.16.840.1.113883.6.1",
+          "display": "Body weight",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Physical Exam, Performed: WEIGHT",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.62",
+      "relevantDatetime": "2025-07-04T21:28:48.000Z",
+      "relevantPeriod": {
+        "low": "2025-07-04T21:28:48.000Z",
+        "high": "2025-07-04T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "result": {
+        "value": 35.32,
+        "unit": "kg"
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::PhysicalExamPerformed",
+      "_bridgeHint": "vital-signs"
+    },
+    {
+      "authorDatetime": "2024-06-28T21:28:48.000Z",
+      "category": "physical_exam",
+      "dataElementCodes": [
+        {
+          "code": "8480-6",
+          "system": "urn:oid:2.16.840.1.113883.6.1",
+          "display": "Systolic blood pressure",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Physical Exam, Performed: Systolic blood pressure",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.62",
+      "relevantDatetime": "2024-06-28T21:28:48.000Z",
+      "relevantPeriod": {
+        "low": "2024-06-28T21:28:48.000Z",
+        "high": "2024-06-28T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "result": {
+        "value": 106,
+        "unit": "mm[Hg]"
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::PhysicalExamPerformed",
+      "_bridgeHint": "observation-component"
+    },
+    {
+      "authorDatetime": "2024-06-28T21:28:48.000Z",
+      "category": "physical_exam",
+      "dataElementCodes": [
+        {
+          "code": "8462-4",
+          "system": "urn:oid:2.16.840.1.113883.6.1",
+          "display": "Diastolic blood pressure",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Physical Exam, Performed: Diastolic blood pressure",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.62",
+      "relevantDatetime": "2024-06-28T21:28:48.000Z",
+      "relevantPeriod": {
+        "low": "2024-06-28T21:28:48.000Z",
+        "high": "2024-06-28T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "result": {
+        "value": 91,
+        "unit": "mm[Hg]"
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::PhysicalExamPerformed",
+      "_bridgeHint": "observation-component"
+    },
+    {
+      "authorDatetime": "2024-06-28T21:28:48.000Z",
+      "category": "physical_exam",
+      "components": [
+        {
+          "code": {
+            "code": "8480-6",
+            "system": "urn:oid:2.16.840.1.113883.6.1",
+            "display": "Systolic blood pressure",
+            "version": null,
+            "_type": "QDM::Code"
+          },
+          "result": {
+            "value": 106,
+            "unit": "mm[Hg]"
+          },
+          "_type": "QDM::Component"
+        },
+        {
+          "code": {
+            "code": "8462-4",
+            "system": "urn:oid:2.16.840.1.113883.6.1",
+            "display": "Diastolic blood pressure",
+            "version": null,
+            "_type": "QDM::Code"
+          },
+          "result": {
+            "value": 91,
+            "unit": "mm[Hg]"
+          },
+          "_type": "QDM::Component"
+        }
+      ],
+      "dataElementCodes": [
+        {
+          "code": "4500634",
+          "system": "urn:va:vuid",
+          "display": null,
+          "version": null,
+          "_type": "QDM::Code"
+        },
+        {
+          "code": "85354-9",
+          "system": "urn:oid:2.16.840.1.113883.6.1",
+          "display": "Blood pressure panel with all children optional",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Physical Exam, Performed: BLOOD PRESSURE",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.62",
+      "relevantDatetime": "2024-06-28T21:28:48.000Z",
+      "relevantPeriod": {
+        "low": "2024-06-28T21:28:48.000Z",
+        "high": "2024-06-28T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "result": null,
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::PhysicalExamPerformed",
+      "_bridgeHint": "vital-signs"
+    },
+    {
+      "authorDatetime": "2024-06-28T21:28:48.000Z",
+      "category": "physical_exam",
+      "components": [],
+      "dataElementCodes": [
+        {
+          "code": "4688724",
+          "system": "urn:va:vuid",
+          "display": null,
+          "version": null,
+          "_type": "QDM::Code"
+        },
+        {
+          "code": "8302-2",
+          "system": "urn:oid:2.16.840.1.113883.6.1",
+          "display": "Body height",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Physical Exam, Performed: HEIGHT",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.62",
+      "relevantDatetime": "2024-06-28T21:28:48.000Z",
+      "relevantPeriod": {
+        "low": "2024-06-28T21:28:48.000Z",
+        "high": "2024-06-28T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "result": {
+        "value": 427.48,
+        "unit": "cm"
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::PhysicalExamPerformed",
+      "_bridgeHint": "vital-signs"
+    },
+    {
+      "authorDatetime": "2024-06-28T21:28:48.000Z",
+      "category": "physical_exam",
+      "components": [],
+      "dataElementCodes": [
+        {
+          "code": "4500636",
+          "system": "urn:va:vuid",
+          "display": null,
+          "version": null,
+          "_type": "QDM::Code"
+        },
+        {
+          "code": "8867-4",
+          "system": "urn:oid:2.16.840.1.113883.6.1",
+          "display": "Heart rate",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Physical Exam, Performed: PULSE",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.62",
+      "relevantDatetime": "2024-06-28T21:28:48.000Z",
+      "relevantPeriod": {
+        "low": "2024-06-28T21:28:48.000Z",
+        "high": "2024-06-28T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "result": {
+        "value": 63,
+        "unit": "/min"
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::PhysicalExamPerformed",
+      "_bridgeHint": "vital-signs"
+    },
+    {
+      "authorDatetime": "2024-06-28T21:28:48.000Z",
+      "category": "physical_exam",
+      "components": [],
+      "dataElementCodes": [
+        {
+          "code": "4500635",
+          "system": "urn:va:vuid",
+          "display": null,
+          "version": null,
+          "_type": "QDM::Code"
+        },
+        {
+          "code": "72514-3",
+          "system": "urn:oid:2.16.840.1.113883.6.1",
+          "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Physical Exam, Performed: PAIN",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.62",
+      "relevantDatetime": "2024-06-28T21:28:48.000Z",
+      "relevantPeriod": {
+        "low": "2024-06-28T21:28:48.000Z",
+        "high": "2024-06-28T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "result": {
+        "value": 1,
+        "unit": "{score}"
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::PhysicalExamPerformed",
+      "_bridgeHint": "vital-signs"
+    },
+    {
+      "authorDatetime": "2024-06-28T21:28:48.000Z",
+      "category": "physical_exam",
+      "components": [],
+      "dataElementCodes": [
+        {
+          "code": "4688725",
+          "system": "urn:va:vuid",
+          "display": null,
+          "version": null,
+          "_type": "QDM::Code"
+        },
+        {
+          "code": "9279-1",
+          "system": "urn:oid:2.16.840.1.113883.6.1",
+          "display": "Respiratory rate",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Physical Exam, Performed: RESPIRATION",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.62",
+      "relevantDatetime": "2024-06-28T21:28:48.000Z",
+      "relevantPeriod": {
+        "low": "2024-06-28T21:28:48.000Z",
+        "high": "2024-06-28T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "result": {
+        "value": 16,
+        "unit": "/min"
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::PhysicalExamPerformed",
+      "_bridgeHint": "vital-signs"
+    },
+    {
+      "authorDatetime": "2024-06-28T21:28:48.000Z",
+      "category": "physical_exam",
+      "components": [],
+      "dataElementCodes": [
+        {
+          "code": "4500639",
+          "system": "urn:va:vuid",
+          "display": null,
+          "version": null,
+          "_type": "QDM::Code"
+        },
+        {
+          "code": "29463-7",
+          "system": "urn:oid:2.16.840.1.113883.6.1",
+          "display": "Body weight",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Physical Exam, Performed: WEIGHT",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.62",
+      "relevantDatetime": "2024-06-28T21:28:48.000Z",
+      "relevantPeriod": {
+        "low": "2024-06-28T21:28:48.000Z",
+        "high": "2024-06-28T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "result": {
+        "value": 35.32,
+        "unit": "kg"
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::PhysicalExamPerformed",
+      "_bridgeHint": "vital-signs"
+    },
+    {
+      "authorDatetime": "2024-05-31T21:28:48.000Z",
+      "category": "physical_exam",
+      "dataElementCodes": [
+        {
+          "code": "8480-6",
+          "system": "urn:oid:2.16.840.1.113883.6.1",
+          "display": "Systolic blood pressure",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Physical Exam, Performed: Systolic blood pressure",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.62",
+      "relevantDatetime": "2024-05-31T21:28:48.000Z",
+      "relevantPeriod": {
+        "low": "2024-05-31T21:28:48.000Z",
+        "high": "2024-05-31T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "result": {
+        "value": 119,
+        "unit": "mm[Hg]"
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::PhysicalExamPerformed",
+      "_bridgeHint": "observation-component"
+    },
+    {
+      "authorDatetime": "2024-05-31T21:28:48.000Z",
+      "category": "physical_exam",
+      "dataElementCodes": [
+        {
+          "code": "8462-4",
+          "system": "urn:oid:2.16.840.1.113883.6.1",
+          "display": "Diastolic blood pressure",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Physical Exam, Performed: Diastolic blood pressure",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.62",
+      "relevantDatetime": "2024-05-31T21:28:48.000Z",
+      "relevantPeriod": {
+        "low": "2024-05-31T21:28:48.000Z",
+        "high": "2024-05-31T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "result": {
+        "value": 96,
+        "unit": "mm[Hg]"
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::PhysicalExamPerformed",
+      "_bridgeHint": "observation-component"
+    },
+    {
+      "authorDatetime": "2024-05-31T21:28:48.000Z",
+      "category": "physical_exam",
+      "components": [
+        {
+          "code": {
+            "code": "8480-6",
+            "system": "urn:oid:2.16.840.1.113883.6.1",
+            "display": "Systolic blood pressure",
+            "version": null,
+            "_type": "QDM::Code"
+          },
+          "result": {
+            "value": 119,
+            "unit": "mm[Hg]"
+          },
+          "_type": "QDM::Component"
+        },
+        {
+          "code": {
+            "code": "8462-4",
+            "system": "urn:oid:2.16.840.1.113883.6.1",
+            "display": "Diastolic blood pressure",
+            "version": null,
+            "_type": "QDM::Code"
+          },
+          "result": {
+            "value": 96,
+            "unit": "mm[Hg]"
+          },
+          "_type": "QDM::Component"
+        }
+      ],
+      "dataElementCodes": [
+        {
+          "code": "4500634",
+          "system": "urn:va:vuid",
+          "display": null,
+          "version": null,
+          "_type": "QDM::Code"
+        },
+        {
+          "code": "85354-9",
+          "system": "urn:oid:2.16.840.1.113883.6.1",
+          "display": "Blood pressure panel with all children optional",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Physical Exam, Performed: BLOOD PRESSURE",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.62",
+      "relevantDatetime": "2024-05-31T21:28:48.000Z",
+      "relevantPeriod": {
+        "low": "2024-05-31T21:28:48.000Z",
+        "high": "2024-05-31T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "result": null,
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::PhysicalExamPerformed",
+      "_bridgeHint": "vital-signs"
+    },
+    {
+      "authorDatetime": "2024-05-31T21:28:48.000Z",
+      "category": "physical_exam",
+      "components": [],
+      "dataElementCodes": [
+        {
+          "code": "4688724",
+          "system": "urn:va:vuid",
+          "display": null,
+          "version": null,
+          "_type": "QDM::Code"
+        },
+        {
+          "code": "8302-2",
+          "system": "urn:oid:2.16.840.1.113883.6.1",
+          "display": "Body height",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Physical Exam, Performed: HEIGHT",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.62",
+      "relevantDatetime": "2024-05-31T21:28:48.000Z",
+      "relevantPeriod": {
+        "low": "2024-05-31T21:28:48.000Z",
+        "high": "2024-05-31T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "result": {
+        "value": 427.48,
+        "unit": "cm"
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::PhysicalExamPerformed",
+      "_bridgeHint": "vital-signs"
+    },
+    {
+      "authorDatetime": "2024-05-31T21:28:48.000Z",
+      "category": "physical_exam",
+      "components": [],
+      "dataElementCodes": [
+        {
+          "code": "4500636",
+          "system": "urn:va:vuid",
+          "display": null,
+          "version": null,
+          "_type": "QDM::Code"
+        },
+        {
+          "code": "8867-4",
+          "system": "urn:oid:2.16.840.1.113883.6.1",
+          "display": "Heart rate",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Physical Exam, Performed: PULSE",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.62",
+      "relevantDatetime": "2024-05-31T21:28:48.000Z",
+      "relevantPeriod": {
+        "low": "2024-05-31T21:28:48.000Z",
+        "high": "2024-05-31T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "result": {
+        "value": 65,
+        "unit": "/min"
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::PhysicalExamPerformed",
+      "_bridgeHint": "vital-signs"
+    },
+    {
+      "authorDatetime": "2024-05-31T21:28:48.000Z",
+      "category": "physical_exam",
+      "components": [],
+      "dataElementCodes": [
+        {
+          "code": "4500635",
+          "system": "urn:va:vuid",
+          "display": null,
+          "version": null,
+          "_type": "QDM::Code"
+        },
+        {
+          "code": "72514-3",
+          "system": "urn:oid:2.16.840.1.113883.6.1",
+          "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Physical Exam, Performed: PAIN",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.62",
+      "relevantDatetime": "2024-05-31T21:28:48.000Z",
+      "relevantPeriod": {
+        "low": "2024-05-31T21:28:48.000Z",
+        "high": "2024-05-31T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "result": {
+        "value": 2,
+        "unit": "{score}"
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::PhysicalExamPerformed",
+      "_bridgeHint": "vital-signs"
+    },
+    {
+      "authorDatetime": "2024-05-31T21:28:48.000Z",
+      "category": "physical_exam",
+      "components": [],
+      "dataElementCodes": [
+        {
+          "code": "4688725",
+          "system": "urn:va:vuid",
+          "display": null,
+          "version": null,
+          "_type": "QDM::Code"
+        },
+        {
+          "code": "9279-1",
+          "system": "urn:oid:2.16.840.1.113883.6.1",
+          "display": "Respiratory rate",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Physical Exam, Performed: RESPIRATION",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.62",
+      "relevantDatetime": "2024-05-31T21:28:48.000Z",
+      "relevantPeriod": {
+        "low": "2024-05-31T21:28:48.000Z",
+        "high": "2024-05-31T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "result": {
+        "value": 12,
+        "unit": "/min"
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::PhysicalExamPerformed",
+      "_bridgeHint": "vital-signs"
+    },
+    {
+      "authorDatetime": "2024-05-31T21:28:48.000Z",
+      "category": "physical_exam",
+      "components": [],
+      "dataElementCodes": [
+        {
+          "code": "4500639",
+          "system": "urn:va:vuid",
+          "display": null,
+          "version": null,
+          "_type": "QDM::Code"
+        },
+        {
+          "code": "29463-7",
+          "system": "urn:oid:2.16.840.1.113883.6.1",
+          "display": "Body weight",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Physical Exam, Performed: WEIGHT",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.62",
+      "relevantDatetime": "2024-05-31T21:28:48.000Z",
+      "relevantPeriod": {
+        "low": "2024-05-31T21:28:48.000Z",
+        "high": "2024-05-31T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "result": {
+        "value": 35.32,
+        "unit": "kg"
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::PhysicalExamPerformed",
+      "_bridgeHint": "vital-signs"
+    },
+    {
+      "authorDatetime": "2024-05-21T04:28:48.000Z",
+      "category": "physical_exam",
+      "components": [],
+      "dataElementCodes": [
+        {
+          "code": "4500638",
+          "system": "urn:va:vuid",
+          "display": null,
+          "version": null,
+          "_type": "QDM::Code"
+        },
+        {
+          "code": "8310-5",
+          "system": "urn:oid:2.16.840.1.113883.6.1",
+          "display": "Body temperature",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Physical Exam, Performed: TEMPERATURE",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.62",
+      "relevantDatetime": "2024-05-21T04:28:48.000Z",
+      "relevantPeriod": {
+        "low": "2024-05-21T04:28:48.000Z",
+        "high": "2024-05-21T04:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "result": {
+        "value": 3.1,
+        "unit": "Cel"
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::PhysicalExamPerformed",
+      "_bridgeHint": "vital-signs"
+    },
+    {
+      "authorDatetime": "2023-06-23T21:28:48.000Z",
+      "category": "physical_exam",
+      "dataElementCodes": [
+        {
+          "code": "8480-6",
+          "system": "urn:oid:2.16.840.1.113883.6.1",
+          "display": "Systolic blood pressure",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Physical Exam, Performed: Systolic blood pressure",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.62",
+      "relevantDatetime": "2023-06-23T21:28:48.000Z",
+      "relevantPeriod": {
+        "low": "2023-06-23T21:28:48.000Z",
+        "high": "2023-06-23T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "result": {
+        "value": 114,
+        "unit": "mm[Hg]"
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::PhysicalExamPerformed",
+      "_bridgeHint": "observation-component"
+    },
+    {
+      "authorDatetime": "2023-06-23T21:28:48.000Z",
+      "category": "physical_exam",
+      "dataElementCodes": [
+        {
+          "code": "8462-4",
+          "system": "urn:oid:2.16.840.1.113883.6.1",
+          "display": "Diastolic blood pressure",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Physical Exam, Performed: Diastolic blood pressure",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.62",
+      "relevantDatetime": "2023-06-23T21:28:48.000Z",
+      "relevantPeriod": {
+        "low": "2023-06-23T21:28:48.000Z",
+        "high": "2023-06-23T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "result": {
+        "value": 88,
+        "unit": "mm[Hg]"
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::PhysicalExamPerformed",
+      "_bridgeHint": "observation-component"
+    },
+    {
+      "authorDatetime": "2023-06-23T21:28:48.000Z",
+      "category": "physical_exam",
+      "components": [
+        {
+          "code": {
+            "code": "8480-6",
+            "system": "urn:oid:2.16.840.1.113883.6.1",
+            "display": "Systolic blood pressure",
+            "version": null,
+            "_type": "QDM::Code"
+          },
+          "result": {
+            "value": 114,
+            "unit": "mm[Hg]"
+          },
+          "_type": "QDM::Component"
+        },
+        {
+          "code": {
+            "code": "8462-4",
+            "system": "urn:oid:2.16.840.1.113883.6.1",
+            "display": "Diastolic blood pressure",
+            "version": null,
+            "_type": "QDM::Code"
+          },
+          "result": {
+            "value": 88,
+            "unit": "mm[Hg]"
+          },
+          "_type": "QDM::Component"
+        }
+      ],
+      "dataElementCodes": [
+        {
+          "code": "4500634",
+          "system": "urn:va:vuid",
+          "display": null,
+          "version": null,
+          "_type": "QDM::Code"
+        },
+        {
+          "code": "85354-9",
+          "system": "urn:oid:2.16.840.1.113883.6.1",
+          "display": "Blood pressure panel with all children optional",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Physical Exam, Performed: BLOOD PRESSURE",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.62",
+      "relevantDatetime": "2023-06-23T21:28:48.000Z",
+      "relevantPeriod": {
+        "low": "2023-06-23T21:28:48.000Z",
+        "high": "2023-06-23T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "result": null,
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::PhysicalExamPerformed",
+      "_bridgeHint": "vital-signs"
+    },
+    {
+      "authorDatetime": "2023-06-23T21:28:48.000Z",
+      "category": "physical_exam",
+      "components": [],
+      "dataElementCodes": [
+        {
+          "code": "4688724",
+          "system": "urn:va:vuid",
+          "display": null,
+          "version": null,
+          "_type": "QDM::Code"
+        },
+        {
+          "code": "8302-2",
+          "system": "urn:oid:2.16.840.1.113883.6.1",
+          "display": "Body height",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Physical Exam, Performed: HEIGHT",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.62",
+      "relevantDatetime": "2023-06-23T21:28:48.000Z",
+      "relevantPeriod": {
+        "low": "2023-06-23T21:28:48.000Z",
+        "high": "2023-06-23T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "result": {
+        "value": 427.48,
+        "unit": "cm"
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::PhysicalExamPerformed",
+      "_bridgeHint": "vital-signs"
+    },
+    {
+      "authorDatetime": "2023-06-23T21:28:48.000Z",
+      "category": "physical_exam",
+      "components": [],
+      "dataElementCodes": [
+        {
+          "code": "4500636",
+          "system": "urn:va:vuid",
+          "display": null,
+          "version": null,
+          "_type": "QDM::Code"
+        },
+        {
+          "code": "8867-4",
+          "system": "urn:oid:2.16.840.1.113883.6.1",
+          "display": "Heart rate",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Physical Exam, Performed: PULSE",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.62",
+      "relevantDatetime": "2023-06-23T21:28:48.000Z",
+      "relevantPeriod": {
+        "low": "2023-06-23T21:28:48.000Z",
+        "high": "2023-06-23T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "result": {
+        "value": 88,
+        "unit": "/min"
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::PhysicalExamPerformed",
+      "_bridgeHint": "vital-signs"
+    },
+    {
+      "authorDatetime": "2023-06-23T21:28:48.000Z",
+      "category": "physical_exam",
+      "components": [],
+      "dataElementCodes": [
+        {
+          "code": "4500635",
+          "system": "urn:va:vuid",
+          "display": null,
+          "version": null,
+          "_type": "QDM::Code"
+        },
+        {
+          "code": "72514-3",
+          "system": "urn:oid:2.16.840.1.113883.6.1",
+          "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Physical Exam, Performed: PAIN",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.62",
+      "relevantDatetime": "2023-06-23T21:28:48.000Z",
+      "relevantPeriod": {
+        "low": "2023-06-23T21:28:48.000Z",
+        "high": "2023-06-23T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "result": {
+        "value": 1,
+        "unit": "{score}"
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::PhysicalExamPerformed",
+      "_bridgeHint": "vital-signs"
+    },
+    {
+      "authorDatetime": "2023-06-23T21:28:48.000Z",
+      "category": "physical_exam",
+      "components": [],
+      "dataElementCodes": [
+        {
+          "code": "4688725",
+          "system": "urn:va:vuid",
+          "display": null,
+          "version": null,
+          "_type": "QDM::Code"
+        },
+        {
+          "code": "9279-1",
+          "system": "urn:oid:2.16.840.1.113883.6.1",
+          "display": "Respiratory rate",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Physical Exam, Performed: RESPIRATION",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.62",
+      "relevantDatetime": "2023-06-23T21:28:48.000Z",
+      "relevantPeriod": {
+        "low": "2023-06-23T21:28:48.000Z",
+        "high": "2023-06-23T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "result": {
+        "value": 13,
+        "unit": "/min"
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::PhysicalExamPerformed",
+      "_bridgeHint": "vital-signs"
+    },
+    {
+      "authorDatetime": "2023-06-23T21:28:48.000Z",
+      "category": "physical_exam",
+      "components": [],
+      "dataElementCodes": [
+        {
+          "code": "4500639",
+          "system": "urn:va:vuid",
+          "display": null,
+          "version": null,
+          "_type": "QDM::Code"
+        },
+        {
+          "code": "29463-7",
+          "system": "urn:oid:2.16.840.1.113883.6.1",
+          "display": "Body weight",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Physical Exam, Performed: WEIGHT",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.62",
+      "relevantDatetime": "2023-06-23T21:28:48.000Z",
+      "relevantPeriod": {
+        "low": "2023-06-23T21:28:48.000Z",
+        "high": "2023-06-23T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "result": {
+        "value": 35.32,
+        "unit": "kg"
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::PhysicalExamPerformed",
+      "_bridgeHint": "vital-signs"
+    },
+    {
+      "authorDatetime": "2023-02-16T02:28:48.000Z",
+      "category": "physical_exam",
+      "components": [],
+      "dataElementCodes": [
+        {
+          "code": "4500638",
+          "system": "urn:va:vuid",
+          "display": null,
+          "version": null,
+          "_type": "QDM::Code"
+        },
+        {
+          "code": "8310-5",
+          "system": "urn:oid:2.16.840.1.113883.6.1",
+          "display": "Body temperature",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Physical Exam, Performed: TEMPERATURE",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.62",
+      "relevantDatetime": "2023-02-16T02:28:48.000Z",
+      "relevantPeriod": {
+        "low": "2023-02-16T02:28:48.000Z",
+        "high": "2023-02-16T02:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "result": {
+        "value": 3.1,
+        "unit": "Cel"
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::PhysicalExamPerformed",
+      "_bridgeHint": "vital-signs"
+    },
+    {
+      "authorDatetime": "2022-06-17T21:28:48.000Z",
+      "category": "physical_exam",
+      "dataElementCodes": [
+        {
+          "code": "8480-6",
+          "system": "urn:oid:2.16.840.1.113883.6.1",
+          "display": "Systolic blood pressure",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Physical Exam, Performed: Systolic blood pressure",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.62",
+      "relevantDatetime": "2022-06-17T21:28:48.000Z",
+      "relevantPeriod": {
+        "low": "2022-06-17T21:28:48.000Z",
+        "high": "2022-06-17T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "result": {
+        "value": 120,
+        "unit": "mm[Hg]"
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::PhysicalExamPerformed",
+      "_bridgeHint": "observation-component"
+    },
+    {
+      "authorDatetime": "2022-06-17T21:28:48.000Z",
+      "category": "physical_exam",
+      "dataElementCodes": [
+        {
+          "code": "8462-4",
+          "system": "urn:oid:2.16.840.1.113883.6.1",
+          "display": "Diastolic blood pressure",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Physical Exam, Performed: Diastolic blood pressure",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.62",
+      "relevantDatetime": "2022-06-17T21:28:48.000Z",
+      "relevantPeriod": {
+        "low": "2022-06-17T21:28:48.000Z",
+        "high": "2022-06-17T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "result": {
+        "value": 84,
+        "unit": "mm[Hg]"
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::PhysicalExamPerformed",
+      "_bridgeHint": "observation-component"
+    },
+    {
+      "authorDatetime": "2022-06-17T21:28:48.000Z",
+      "category": "physical_exam",
+      "components": [
+        {
+          "code": {
+            "code": "8480-6",
+            "system": "urn:oid:2.16.840.1.113883.6.1",
+            "display": "Systolic blood pressure",
+            "version": null,
+            "_type": "QDM::Code"
+          },
+          "result": {
+            "value": 120,
+            "unit": "mm[Hg]"
+          },
+          "_type": "QDM::Component"
+        },
+        {
+          "code": {
+            "code": "8462-4",
+            "system": "urn:oid:2.16.840.1.113883.6.1",
+            "display": "Diastolic blood pressure",
+            "version": null,
+            "_type": "QDM::Code"
+          },
+          "result": {
+            "value": 84,
+            "unit": "mm[Hg]"
+          },
+          "_type": "QDM::Component"
+        }
+      ],
+      "dataElementCodes": [
+        {
+          "code": "4500634",
+          "system": "urn:va:vuid",
+          "display": null,
+          "version": null,
+          "_type": "QDM::Code"
+        },
+        {
+          "code": "85354-9",
+          "system": "urn:oid:2.16.840.1.113883.6.1",
+          "display": "Blood pressure panel with all children optional",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Physical Exam, Performed: BLOOD PRESSURE",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.62",
+      "relevantDatetime": "2022-06-17T21:28:48.000Z",
+      "relevantPeriod": {
+        "low": "2022-06-17T21:28:48.000Z",
+        "high": "2022-06-17T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "result": null,
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::PhysicalExamPerformed",
+      "_bridgeHint": "vital-signs"
+    },
+    {
+      "authorDatetime": "2022-06-17T21:28:48.000Z",
+      "category": "physical_exam",
+      "components": [],
+      "dataElementCodes": [
+        {
+          "code": "4688724",
+          "system": "urn:va:vuid",
+          "display": null,
+          "version": null,
+          "_type": "QDM::Code"
+        },
+        {
+          "code": "8302-2",
+          "system": "urn:oid:2.16.840.1.113883.6.1",
+          "display": "Body height",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Physical Exam, Performed: HEIGHT",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.62",
+      "relevantDatetime": "2022-06-17T21:28:48.000Z",
+      "relevantPeriod": {
+        "low": "2022-06-17T21:28:48.000Z",
+        "high": "2022-06-17T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "result": {
+        "value": 427.48,
+        "unit": "cm"
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::PhysicalExamPerformed",
+      "_bridgeHint": "vital-signs"
+    },
+    {
+      "authorDatetime": "2022-06-17T21:28:48.000Z",
+      "category": "physical_exam",
+      "components": [],
+      "dataElementCodes": [
+        {
+          "code": "4500636",
+          "system": "urn:va:vuid",
+          "display": null,
+          "version": null,
+          "_type": "QDM::Code"
+        },
+        {
+          "code": "8867-4",
+          "system": "urn:oid:2.16.840.1.113883.6.1",
+          "display": "Heart rate",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Physical Exam, Performed: PULSE",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.62",
+      "relevantDatetime": "2022-06-17T21:28:48.000Z",
+      "relevantPeriod": {
+        "low": "2022-06-17T21:28:48.000Z",
+        "high": "2022-06-17T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "result": {
+        "value": 86,
+        "unit": "/min"
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::PhysicalExamPerformed",
+      "_bridgeHint": "vital-signs"
+    },
+    {
+      "authorDatetime": "2022-06-17T21:28:48.000Z",
+      "category": "physical_exam",
+      "components": [],
+      "dataElementCodes": [
+        {
+          "code": "4500635",
+          "system": "urn:va:vuid",
+          "display": null,
+          "version": null,
+          "_type": "QDM::Code"
+        },
+        {
+          "code": "72514-3",
+          "system": "urn:oid:2.16.840.1.113883.6.1",
+          "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Physical Exam, Performed: PAIN",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.62",
+      "relevantDatetime": "2022-06-17T21:28:48.000Z",
+      "relevantPeriod": {
+        "low": "2022-06-17T21:28:48.000Z",
+        "high": "2022-06-17T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "result": {
+        "value": 2,
+        "unit": "{score}"
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::PhysicalExamPerformed",
+      "_bridgeHint": "vital-signs"
+    },
+    {
+      "authorDatetime": "2022-06-17T21:28:48.000Z",
+      "category": "physical_exam",
+      "components": [],
+      "dataElementCodes": [
+        {
+          "code": "4688725",
+          "system": "urn:va:vuid",
+          "display": null,
+          "version": null,
+          "_type": "QDM::Code"
+        },
+        {
+          "code": "9279-1",
+          "system": "urn:oid:2.16.840.1.113883.6.1",
+          "display": "Respiratory rate",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Physical Exam, Performed: RESPIRATION",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.62",
+      "relevantDatetime": "2022-06-17T21:28:48.000Z",
+      "relevantPeriod": {
+        "low": "2022-06-17T21:28:48.000Z",
+        "high": "2022-06-17T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "result": {
+        "value": 14,
+        "unit": "/min"
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::PhysicalExamPerformed",
+      "_bridgeHint": "vital-signs"
+    },
+    {
+      "authorDatetime": "2022-06-17T21:28:48.000Z",
+      "category": "physical_exam",
+      "components": [],
+      "dataElementCodes": [
+        {
+          "code": "4500639",
+          "system": "urn:va:vuid",
+          "display": null,
+          "version": null,
+          "_type": "QDM::Code"
+        },
+        {
+          "code": "29463-7",
+          "system": "urn:oid:2.16.840.1.113883.6.1",
+          "display": "Body weight",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Physical Exam, Performed: WEIGHT",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.62",
+      "relevantDatetime": "2022-06-17T21:28:48.000Z",
+      "relevantPeriod": {
+        "low": "2022-06-17T21:28:48.000Z",
+        "high": "2022-06-17T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "result": {
+        "value": 35.32,
+        "unit": "kg"
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::PhysicalExamPerformed",
+      "_bridgeHint": "vital-signs"
+    },
+    {
+      "authorDatetime": "2021-06-11T21:28:48.000Z",
+      "category": "physical_exam",
+      "dataElementCodes": [
+        {
+          "code": "8480-6",
+          "system": "urn:oid:2.16.840.1.113883.6.1",
+          "display": "Systolic blood pressure",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Physical Exam, Performed: Systolic blood pressure",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.62",
+      "relevantDatetime": "2021-06-11T21:28:48.000Z",
+      "relevantPeriod": {
+        "low": "2021-06-11T21:28:48.000Z",
+        "high": "2021-06-11T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "result": {
+        "value": 121,
+        "unit": "mm[Hg]"
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::PhysicalExamPerformed",
+      "_bridgeHint": "observation-component"
+    },
+    {
+      "authorDatetime": "2021-06-11T21:28:48.000Z",
+      "category": "physical_exam",
+      "dataElementCodes": [
+        {
+          "code": "8462-4",
+          "system": "urn:oid:2.16.840.1.113883.6.1",
+          "display": "Diastolic blood pressure",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Physical Exam, Performed: Diastolic blood pressure",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.62",
+      "relevantDatetime": "2021-06-11T21:28:48.000Z",
+      "relevantPeriod": {
+        "low": "2021-06-11T21:28:48.000Z",
+        "high": "2021-06-11T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "result": {
+        "value": 97,
+        "unit": "mm[Hg]"
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::PhysicalExamPerformed",
+      "_bridgeHint": "observation-component"
+    },
+    {
+      "authorDatetime": "2021-06-11T21:28:48.000Z",
+      "category": "physical_exam",
+      "components": [
+        {
+          "code": {
+            "code": "8480-6",
+            "system": "urn:oid:2.16.840.1.113883.6.1",
+            "display": "Systolic blood pressure",
+            "version": null,
+            "_type": "QDM::Code"
+          },
+          "result": {
+            "value": 121,
+            "unit": "mm[Hg]"
+          },
+          "_type": "QDM::Component"
+        },
+        {
+          "code": {
+            "code": "8462-4",
+            "system": "urn:oid:2.16.840.1.113883.6.1",
+            "display": "Diastolic blood pressure",
+            "version": null,
+            "_type": "QDM::Code"
+          },
+          "result": {
+            "value": 97,
+            "unit": "mm[Hg]"
+          },
+          "_type": "QDM::Component"
+        }
+      ],
+      "dataElementCodes": [
+        {
+          "code": "4500634",
+          "system": "urn:va:vuid",
+          "display": null,
+          "version": null,
+          "_type": "QDM::Code"
+        },
+        {
+          "code": "85354-9",
+          "system": "urn:oid:2.16.840.1.113883.6.1",
+          "display": "Blood pressure panel with all children optional",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Physical Exam, Performed: BLOOD PRESSURE",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.62",
+      "relevantDatetime": "2021-06-11T21:28:48.000Z",
+      "relevantPeriod": {
+        "low": "2021-06-11T21:28:48.000Z",
+        "high": "2021-06-11T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "result": null,
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::PhysicalExamPerformed",
+      "_bridgeHint": "vital-signs"
+    },
+    {
+      "authorDatetime": "2021-06-11T21:28:48.000Z",
+      "category": "physical_exam",
+      "components": [],
+      "dataElementCodes": [
+        {
+          "code": "4688724",
+          "system": "urn:va:vuid",
+          "display": null,
+          "version": null,
+          "_type": "QDM::Code"
+        },
+        {
+          "code": "8302-2",
+          "system": "urn:oid:2.16.840.1.113883.6.1",
+          "display": "Body height",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Physical Exam, Performed: HEIGHT",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.62",
+      "relevantDatetime": "2021-06-11T21:28:48.000Z",
+      "relevantPeriod": {
+        "low": "2021-06-11T21:28:48.000Z",
+        "high": "2021-06-11T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "result": {
+        "value": 427.48,
+        "unit": "cm"
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::PhysicalExamPerformed",
+      "_bridgeHint": "vital-signs"
+    },
+    {
+      "authorDatetime": "2021-06-11T21:28:48.000Z",
+      "category": "physical_exam",
+      "components": [],
+      "dataElementCodes": [
+        {
+          "code": "4500636",
+          "system": "urn:va:vuid",
+          "display": null,
+          "version": null,
+          "_type": "QDM::Code"
+        },
+        {
+          "code": "8867-4",
+          "system": "urn:oid:2.16.840.1.113883.6.1",
+          "display": "Heart rate",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Physical Exam, Performed: PULSE",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.62",
+      "relevantDatetime": "2021-06-11T21:28:48.000Z",
+      "relevantPeriod": {
+        "low": "2021-06-11T21:28:48.000Z",
+        "high": "2021-06-11T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "result": {
+        "value": 98,
+        "unit": "/min"
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::PhysicalExamPerformed",
+      "_bridgeHint": "vital-signs"
+    },
+    {
+      "authorDatetime": "2021-06-11T21:28:48.000Z",
+      "category": "physical_exam",
+      "components": [],
+      "dataElementCodes": [
+        {
+          "code": "4500635",
+          "system": "urn:va:vuid",
+          "display": null,
+          "version": null,
+          "_type": "QDM::Code"
+        },
+        {
+          "code": "72514-3",
+          "system": "urn:oid:2.16.840.1.113883.6.1",
+          "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Physical Exam, Performed: PAIN",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.62",
+      "relevantDatetime": "2021-06-11T21:28:48.000Z",
+      "relevantPeriod": {
+        "low": "2021-06-11T21:28:48.000Z",
+        "high": "2021-06-11T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "result": {
+        "value": 1,
+        "unit": "{score}"
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::PhysicalExamPerformed",
+      "_bridgeHint": "vital-signs"
+    },
+    {
+      "authorDatetime": "2021-06-11T21:28:48.000Z",
+      "category": "physical_exam",
+      "components": [],
+      "dataElementCodes": [
+        {
+          "code": "4688725",
+          "system": "urn:va:vuid",
+          "display": null,
+          "version": null,
+          "_type": "QDM::Code"
+        },
+        {
+          "code": "9279-1",
+          "system": "urn:oid:2.16.840.1.113883.6.1",
+          "display": "Respiratory rate",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Physical Exam, Performed: RESPIRATION",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.62",
+      "relevantDatetime": "2021-06-11T21:28:48.000Z",
+      "relevantPeriod": {
+        "low": "2021-06-11T21:28:48.000Z",
+        "high": "2021-06-11T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "result": {
+        "value": 12,
+        "unit": "/min"
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::PhysicalExamPerformed",
+      "_bridgeHint": "vital-signs"
+    },
+    {
+      "authorDatetime": "2021-06-11T21:28:48.000Z",
+      "category": "physical_exam",
+      "components": [],
+      "dataElementCodes": [
+        {
+          "code": "4500639",
+          "system": "urn:va:vuid",
+          "display": null,
+          "version": null,
+          "_type": "QDM::Code"
+        },
+        {
+          "code": "29463-7",
+          "system": "urn:oid:2.16.840.1.113883.6.1",
+          "display": "Body weight",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Physical Exam, Performed: WEIGHT",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.62",
+      "relevantDatetime": "2021-06-11T21:28:48.000Z",
+      "relevantPeriod": {
+        "low": "2021-06-11T21:28:48.000Z",
+        "high": "2021-06-11T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "result": {
+        "value": 35.32,
+        "unit": "kg"
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::PhysicalExamPerformed",
+      "_bridgeHint": "vital-signs"
+    },
+    {
+      "authorDatetime": "2020-06-05T21:28:48.000Z",
+      "category": "physical_exam",
+      "dataElementCodes": [
+        {
+          "code": "8480-6",
+          "system": "urn:oid:2.16.840.1.113883.6.1",
+          "display": "Systolic blood pressure",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Physical Exam, Performed: Systolic blood pressure",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.62",
+      "relevantDatetime": "2020-06-05T21:28:48.000Z",
+      "relevantPeriod": {
+        "low": "2020-06-05T21:28:48.000Z",
+        "high": "2020-06-05T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "result": {
+        "value": 118,
+        "unit": "mm[Hg]"
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::PhysicalExamPerformed",
+      "_bridgeHint": "observation-component"
+    },
+    {
+      "authorDatetime": "2020-06-05T21:28:48.000Z",
+      "category": "physical_exam",
+      "dataElementCodes": [
+        {
+          "code": "8462-4",
+          "system": "urn:oid:2.16.840.1.113883.6.1",
+          "display": "Diastolic blood pressure",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Physical Exam, Performed: Diastolic blood pressure",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.62",
+      "relevantDatetime": "2020-06-05T21:28:48.000Z",
+      "relevantPeriod": {
+        "low": "2020-06-05T21:28:48.000Z",
+        "high": "2020-06-05T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "result": {
+        "value": 90,
+        "unit": "mm[Hg]"
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::PhysicalExamPerformed",
+      "_bridgeHint": "observation-component"
+    },
+    {
+      "authorDatetime": "2020-06-05T21:28:48.000Z",
+      "category": "physical_exam",
+      "components": [
+        {
+          "code": {
+            "code": "8480-6",
+            "system": "urn:oid:2.16.840.1.113883.6.1",
+            "display": "Systolic blood pressure",
+            "version": null,
+            "_type": "QDM::Code"
+          },
+          "result": {
+            "value": 118,
+            "unit": "mm[Hg]"
+          },
+          "_type": "QDM::Component"
+        },
+        {
+          "code": {
+            "code": "8462-4",
+            "system": "urn:oid:2.16.840.1.113883.6.1",
+            "display": "Diastolic blood pressure",
+            "version": null,
+            "_type": "QDM::Code"
+          },
+          "result": {
+            "value": 90,
+            "unit": "mm[Hg]"
+          },
+          "_type": "QDM::Component"
+        }
+      ],
+      "dataElementCodes": [
+        {
+          "code": "4500634",
+          "system": "urn:va:vuid",
+          "display": null,
+          "version": null,
+          "_type": "QDM::Code"
+        },
+        {
+          "code": "85354-9",
+          "system": "urn:oid:2.16.840.1.113883.6.1",
+          "display": "Blood pressure panel with all children optional",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Physical Exam, Performed: BLOOD PRESSURE",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.62",
+      "relevantDatetime": "2020-06-05T21:28:48.000Z",
+      "relevantPeriod": {
+        "low": "2020-06-05T21:28:48.000Z",
+        "high": "2020-06-05T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "result": null,
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::PhysicalExamPerformed",
+      "_bridgeHint": "vital-signs"
+    },
+    {
+      "authorDatetime": "2020-06-05T21:28:48.000Z",
+      "category": "physical_exam",
+      "components": [],
+      "dataElementCodes": [
+        {
+          "code": "4688724",
+          "system": "urn:va:vuid",
+          "display": null,
+          "version": null,
+          "_type": "QDM::Code"
+        },
+        {
+          "code": "8302-2",
+          "system": "urn:oid:2.16.840.1.113883.6.1",
+          "display": "Body height",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Physical Exam, Performed: HEIGHT",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.62",
+      "relevantDatetime": "2020-06-05T21:28:48.000Z",
+      "relevantPeriod": {
+        "low": "2020-06-05T21:28:48.000Z",
+        "high": "2020-06-05T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "result": {
+        "value": 427.48,
+        "unit": "cm"
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::PhysicalExamPerformed",
+      "_bridgeHint": "vital-signs"
+    },
+    {
+      "authorDatetime": "2020-06-05T21:28:48.000Z",
+      "category": "physical_exam",
+      "components": [],
+      "dataElementCodes": [
+        {
+          "code": "4500636",
+          "system": "urn:va:vuid",
+          "display": null,
+          "version": null,
+          "_type": "QDM::Code"
+        },
+        {
+          "code": "8867-4",
+          "system": "urn:oid:2.16.840.1.113883.6.1",
+          "display": "Heart rate",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Physical Exam, Performed: PULSE",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.62",
+      "relevantDatetime": "2020-06-05T21:28:48.000Z",
+      "relevantPeriod": {
+        "low": "2020-06-05T21:28:48.000Z",
+        "high": "2020-06-05T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "result": {
+        "value": 74,
+        "unit": "/min"
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::PhysicalExamPerformed",
+      "_bridgeHint": "vital-signs"
+    },
+    {
+      "authorDatetime": "2020-06-05T21:28:48.000Z",
+      "category": "physical_exam",
+      "components": [],
+      "dataElementCodes": [
+        {
+          "code": "4500635",
+          "system": "urn:va:vuid",
+          "display": null,
+          "version": null,
+          "_type": "QDM::Code"
+        },
+        {
+          "code": "72514-3",
+          "system": "urn:oid:2.16.840.1.113883.6.1",
+          "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Physical Exam, Performed: PAIN",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.62",
+      "relevantDatetime": "2020-06-05T21:28:48.000Z",
+      "relevantPeriod": {
+        "low": "2020-06-05T21:28:48.000Z",
+        "high": "2020-06-05T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "result": {
+        "value": 3,
+        "unit": "{score}"
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::PhysicalExamPerformed",
+      "_bridgeHint": "vital-signs"
+    },
+    {
+      "authorDatetime": "2020-06-05T21:28:48.000Z",
+      "category": "physical_exam",
+      "components": [],
+      "dataElementCodes": [
+        {
+          "code": "4688725",
+          "system": "urn:va:vuid",
+          "display": null,
+          "version": null,
+          "_type": "QDM::Code"
+        },
+        {
+          "code": "9279-1",
+          "system": "urn:oid:2.16.840.1.113883.6.1",
+          "display": "Respiratory rate",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Physical Exam, Performed: RESPIRATION",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.62",
+      "relevantDatetime": "2020-06-05T21:28:48.000Z",
+      "relevantPeriod": {
+        "low": "2020-06-05T21:28:48.000Z",
+        "high": "2020-06-05T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "result": {
+        "value": 14,
+        "unit": "/min"
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::PhysicalExamPerformed",
+      "_bridgeHint": "vital-signs"
+    },
+    {
+      "authorDatetime": "2020-06-05T21:28:48.000Z",
+      "category": "physical_exam",
+      "components": [],
+      "dataElementCodes": [
+        {
+          "code": "4500639",
+          "system": "urn:va:vuid",
+          "display": null,
+          "version": null,
+          "_type": "QDM::Code"
+        },
+        {
+          "code": "29463-7",
+          "system": "urn:oid:2.16.840.1.113883.6.1",
+          "display": "Body weight",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Physical Exam, Performed: WEIGHT",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.62",
+      "relevantDatetime": "2020-06-05T21:28:48.000Z",
+      "relevantPeriod": {
+        "low": "2020-06-05T21:28:48.000Z",
+        "high": "2020-06-05T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "result": {
+        "value": 35.32,
+        "unit": "kg"
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::PhysicalExamPerformed",
+      "_bridgeHint": "vital-signs"
+    },
+    {
+      "authorDatetime": "2019-05-31T21:28:48.000Z",
+      "category": "physical_exam",
+      "dataElementCodes": [
+        {
+          "code": "8480-6",
+          "system": "urn:oid:2.16.840.1.113883.6.1",
+          "display": "Systolic blood pressure",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Physical Exam, Performed: Systolic blood pressure",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.62",
+      "relevantDatetime": "2019-05-31T21:28:48.000Z",
+      "relevantPeriod": {
+        "low": "2019-05-31T21:28:48.000Z",
+        "high": "2019-05-31T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "result": {
+        "value": 108,
+        "unit": "mm[Hg]"
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::PhysicalExamPerformed",
+      "_bridgeHint": "observation-component"
+    },
+    {
+      "authorDatetime": "2019-05-31T21:28:48.000Z",
+      "category": "physical_exam",
+      "dataElementCodes": [
+        {
+          "code": "8462-4",
+          "system": "urn:oid:2.16.840.1.113883.6.1",
+          "display": "Diastolic blood pressure",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Physical Exam, Performed: Diastolic blood pressure",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.62",
+      "relevantDatetime": "2019-05-31T21:28:48.000Z",
+      "relevantPeriod": {
+        "low": "2019-05-31T21:28:48.000Z",
+        "high": "2019-05-31T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "result": {
+        "value": 93,
+        "unit": "mm[Hg]"
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::PhysicalExamPerformed",
+      "_bridgeHint": "observation-component"
+    },
+    {
+      "authorDatetime": "2019-05-31T21:28:48.000Z",
+      "category": "physical_exam",
+      "components": [
+        {
+          "code": {
+            "code": "8480-6",
+            "system": "urn:oid:2.16.840.1.113883.6.1",
+            "display": "Systolic blood pressure",
+            "version": null,
+            "_type": "QDM::Code"
+          },
+          "result": {
+            "value": 108,
+            "unit": "mm[Hg]"
+          },
+          "_type": "QDM::Component"
+        },
+        {
+          "code": {
+            "code": "8462-4",
+            "system": "urn:oid:2.16.840.1.113883.6.1",
+            "display": "Diastolic blood pressure",
+            "version": null,
+            "_type": "QDM::Code"
+          },
+          "result": {
+            "value": 93,
+            "unit": "mm[Hg]"
+          },
+          "_type": "QDM::Component"
+        }
+      ],
+      "dataElementCodes": [
+        {
+          "code": "4500634",
+          "system": "urn:va:vuid",
+          "display": null,
+          "version": null,
+          "_type": "QDM::Code"
+        },
+        {
+          "code": "85354-9",
+          "system": "urn:oid:2.16.840.1.113883.6.1",
+          "display": "Blood pressure panel with all children optional",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Physical Exam, Performed: BLOOD PRESSURE",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.62",
+      "relevantDatetime": "2019-05-31T21:28:48.000Z",
+      "relevantPeriod": {
+        "low": "2019-05-31T21:28:48.000Z",
+        "high": "2019-05-31T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "result": null,
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::PhysicalExamPerformed",
+      "_bridgeHint": "vital-signs"
+    },
+    {
+      "authorDatetime": "2019-05-31T21:28:48.000Z",
+      "category": "physical_exam",
+      "components": [],
+      "dataElementCodes": [
+        {
+          "code": "4688724",
+          "system": "urn:va:vuid",
+          "display": null,
+          "version": null,
+          "_type": "QDM::Code"
+        },
+        {
+          "code": "8302-2",
+          "system": "urn:oid:2.16.840.1.113883.6.1",
+          "display": "Body height",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Physical Exam, Performed: HEIGHT",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.62",
+      "relevantDatetime": "2019-05-31T21:28:48.000Z",
+      "relevantPeriod": {
+        "low": "2019-05-31T21:28:48.000Z",
+        "high": "2019-05-31T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "result": {
+        "value": 427.48,
+        "unit": "cm"
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::PhysicalExamPerformed",
+      "_bridgeHint": "vital-signs"
+    },
+    {
+      "authorDatetime": "2019-05-31T21:28:48.000Z",
+      "category": "physical_exam",
+      "components": [],
+      "dataElementCodes": [
+        {
+          "code": "4500636",
+          "system": "urn:va:vuid",
+          "display": null,
+          "version": null,
+          "_type": "QDM::Code"
+        },
+        {
+          "code": "8867-4",
+          "system": "urn:oid:2.16.840.1.113883.6.1",
+          "display": "Heart rate",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Physical Exam, Performed: PULSE",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.62",
+      "relevantDatetime": "2019-05-31T21:28:48.000Z",
+      "relevantPeriod": {
+        "low": "2019-05-31T21:28:48.000Z",
+        "high": "2019-05-31T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "result": {
+        "value": 93,
+        "unit": "/min"
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::PhysicalExamPerformed",
+      "_bridgeHint": "vital-signs"
+    },
+    {
+      "authorDatetime": "2019-05-31T21:28:48.000Z",
+      "category": "physical_exam",
+      "components": [],
+      "dataElementCodes": [
+        {
+          "code": "4500635",
+          "system": "urn:va:vuid",
+          "display": null,
+          "version": null,
+          "_type": "QDM::Code"
+        },
+        {
+          "code": "72514-3",
+          "system": "urn:oid:2.16.840.1.113883.6.1",
+          "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Physical Exam, Performed: PAIN",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.62",
+      "relevantDatetime": "2019-05-31T21:28:48.000Z",
+      "relevantPeriod": {
+        "low": "2019-05-31T21:28:48.000Z",
+        "high": "2019-05-31T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "result": {
+        "value": 3,
+        "unit": "{score}"
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::PhysicalExamPerformed",
+      "_bridgeHint": "vital-signs"
+    },
+    {
+      "authorDatetime": "2019-05-31T21:28:48.000Z",
+      "category": "physical_exam",
+      "components": [],
+      "dataElementCodes": [
+        {
+          "code": "4688725",
+          "system": "urn:va:vuid",
+          "display": null,
+          "version": null,
+          "_type": "QDM::Code"
+        },
+        {
+          "code": "9279-1",
+          "system": "urn:oid:2.16.840.1.113883.6.1",
+          "display": "Respiratory rate",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Physical Exam, Performed: RESPIRATION",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.62",
+      "relevantDatetime": "2019-05-31T21:28:48.000Z",
+      "relevantPeriod": {
+        "low": "2019-05-31T21:28:48.000Z",
+        "high": "2019-05-31T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "result": {
+        "value": 16,
+        "unit": "/min"
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::PhysicalExamPerformed",
+      "_bridgeHint": "vital-signs"
+    },
+    {
+      "authorDatetime": "2019-05-31T21:28:48.000Z",
+      "category": "physical_exam",
+      "components": [],
+      "dataElementCodes": [
+        {
+          "code": "4500639",
+          "system": "urn:va:vuid",
+          "display": null,
+          "version": null,
+          "_type": "QDM::Code"
+        },
+        {
+          "code": "29463-7",
+          "system": "urn:oid:2.16.840.1.113883.6.1",
+          "display": "Body weight",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Physical Exam, Performed: WEIGHT",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.62",
+      "relevantDatetime": "2019-05-31T21:28:48.000Z",
+      "relevantPeriod": {
+        "low": "2019-05-31T21:28:48.000Z",
+        "high": "2019-05-31T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "result": {
+        "value": 35.32,
+        "unit": "kg"
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::PhysicalExamPerformed",
+      "_bridgeHint": "vital-signs"
+    },
+    {
+      "authorDatetime": "2018-05-25T21:28:48.000Z",
+      "category": "physical_exam",
+      "dataElementCodes": [
+        {
+          "code": "8480-6",
+          "system": "urn:oid:2.16.840.1.113883.6.1",
+          "display": "Systolic blood pressure",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Physical Exam, Performed: Systolic blood pressure",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.62",
+      "relevantDatetime": "2018-05-25T21:28:48.000Z",
+      "relevantPeriod": {
+        "low": "2018-05-25T21:28:48.000Z",
+        "high": "2018-05-25T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "result": {
+        "value": 123,
+        "unit": "mm[Hg]"
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::PhysicalExamPerformed",
+      "_bridgeHint": "observation-component"
+    },
+    {
+      "authorDatetime": "2018-05-25T21:28:48.000Z",
+      "category": "physical_exam",
+      "dataElementCodes": [
+        {
+          "code": "8462-4",
+          "system": "urn:oid:2.16.840.1.113883.6.1",
+          "display": "Diastolic blood pressure",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Physical Exam, Performed: Diastolic blood pressure",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.62",
+      "relevantDatetime": "2018-05-25T21:28:48.000Z",
+      "relevantPeriod": {
+        "low": "2018-05-25T21:28:48.000Z",
+        "high": "2018-05-25T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "result": {
+        "value": 95,
+        "unit": "mm[Hg]"
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::PhysicalExamPerformed",
+      "_bridgeHint": "observation-component"
+    },
+    {
+      "authorDatetime": "2018-05-25T21:28:48.000Z",
+      "category": "physical_exam",
+      "components": [
+        {
+          "code": {
+            "code": "8480-6",
+            "system": "urn:oid:2.16.840.1.113883.6.1",
+            "display": "Systolic blood pressure",
+            "version": null,
+            "_type": "QDM::Code"
+          },
+          "result": {
+            "value": 123,
+            "unit": "mm[Hg]"
+          },
+          "_type": "QDM::Component"
+        },
+        {
+          "code": {
+            "code": "8462-4",
+            "system": "urn:oid:2.16.840.1.113883.6.1",
+            "display": "Diastolic blood pressure",
+            "version": null,
+            "_type": "QDM::Code"
+          },
+          "result": {
+            "value": 95,
+            "unit": "mm[Hg]"
+          },
+          "_type": "QDM::Component"
+        }
+      ],
+      "dataElementCodes": [
+        {
+          "code": "4500634",
+          "system": "urn:va:vuid",
+          "display": null,
+          "version": null,
+          "_type": "QDM::Code"
+        },
+        {
+          "code": "85354-9",
+          "system": "urn:oid:2.16.840.1.113883.6.1",
+          "display": "Blood pressure panel with all children optional",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Physical Exam, Performed: BLOOD PRESSURE",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.62",
+      "relevantDatetime": "2018-05-25T21:28:48.000Z",
+      "relevantPeriod": {
+        "low": "2018-05-25T21:28:48.000Z",
+        "high": "2018-05-25T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "result": null,
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::PhysicalExamPerformed",
+      "_bridgeHint": "vital-signs"
+    },
+    {
+      "authorDatetime": "2018-05-25T21:28:48.000Z",
+      "category": "physical_exam",
+      "components": [],
+      "dataElementCodes": [
+        {
+          "code": "4688724",
+          "system": "urn:va:vuid",
+          "display": null,
+          "version": null,
+          "_type": "QDM::Code"
+        },
+        {
+          "code": "8302-2",
+          "system": "urn:oid:2.16.840.1.113883.6.1",
+          "display": "Body height",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Physical Exam, Performed: HEIGHT",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.62",
+      "relevantDatetime": "2018-05-25T21:28:48.000Z",
+      "relevantPeriod": {
+        "low": "2018-05-25T21:28:48.000Z",
+        "high": "2018-05-25T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "result": {
+        "value": 427.48,
+        "unit": "cm"
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::PhysicalExamPerformed",
+      "_bridgeHint": "vital-signs"
+    },
+    {
+      "authorDatetime": "2018-05-25T21:28:48.000Z",
+      "category": "physical_exam",
+      "components": [],
+      "dataElementCodes": [
+        {
+          "code": "4500636",
+          "system": "urn:va:vuid",
+          "display": null,
+          "version": null,
+          "_type": "QDM::Code"
+        },
+        {
+          "code": "8867-4",
+          "system": "urn:oid:2.16.840.1.113883.6.1",
+          "display": "Heart rate",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Physical Exam, Performed: PULSE",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.62",
+      "relevantDatetime": "2018-05-25T21:28:48.000Z",
+      "relevantPeriod": {
+        "low": "2018-05-25T21:28:48.000Z",
+        "high": "2018-05-25T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "result": {
+        "value": 79,
+        "unit": "/min"
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::PhysicalExamPerformed",
+      "_bridgeHint": "vital-signs"
+    },
+    {
+      "authorDatetime": "2018-05-25T21:28:48.000Z",
+      "category": "physical_exam",
+      "components": [],
+      "dataElementCodes": [
+        {
+          "code": "4500635",
+          "system": "urn:va:vuid",
+          "display": null,
+          "version": null,
+          "_type": "QDM::Code"
+        },
+        {
+          "code": "72514-3",
+          "system": "urn:oid:2.16.840.1.113883.6.1",
+          "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Physical Exam, Performed: PAIN",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.62",
+      "relevantDatetime": "2018-05-25T21:28:48.000Z",
+      "relevantPeriod": {
+        "low": "2018-05-25T21:28:48.000Z",
+        "high": "2018-05-25T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "result": {
+        "value": 2,
+        "unit": "{score}"
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::PhysicalExamPerformed",
+      "_bridgeHint": "vital-signs"
+    },
+    {
+      "authorDatetime": "2018-05-25T21:28:48.000Z",
+      "category": "physical_exam",
+      "components": [],
+      "dataElementCodes": [
+        {
+          "code": "4688725",
+          "system": "urn:va:vuid",
+          "display": null,
+          "version": null,
+          "_type": "QDM::Code"
+        },
+        {
+          "code": "9279-1",
+          "system": "urn:oid:2.16.840.1.113883.6.1",
+          "display": "Respiratory rate",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Physical Exam, Performed: RESPIRATION",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.62",
+      "relevantDatetime": "2018-05-25T21:28:48.000Z",
+      "relevantPeriod": {
+        "low": "2018-05-25T21:28:48.000Z",
+        "high": "2018-05-25T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "result": {
+        "value": 14,
+        "unit": "/min"
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::PhysicalExamPerformed",
+      "_bridgeHint": "vital-signs"
+    },
+    {
+      "authorDatetime": "2018-05-25T21:28:48.000Z",
+      "category": "physical_exam",
+      "components": [],
+      "dataElementCodes": [
+        {
+          "code": "4500639",
+          "system": "urn:va:vuid",
+          "display": null,
+          "version": null,
+          "_type": "QDM::Code"
+        },
+        {
+          "code": "29463-7",
+          "system": "urn:oid:2.16.840.1.113883.6.1",
+          "display": "Body weight",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Physical Exam, Performed: WEIGHT",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.62",
+      "relevantDatetime": "2018-05-25T21:28:48.000Z",
+      "relevantPeriod": {
+        "low": "2018-05-25T21:28:48.000Z",
+        "high": "2018-05-25T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "result": {
+        "value": 35.32,
+        "unit": "kg"
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::PhysicalExamPerformed",
+      "_bridgeHint": "vital-signs"
+    },
+    {
+      "authorDatetime": "2017-05-19T21:28:48.000Z",
+      "category": "physical_exam",
+      "dataElementCodes": [
+        {
+          "code": "8480-6",
+          "system": "urn:oid:2.16.840.1.113883.6.1",
+          "display": "Systolic blood pressure",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Physical Exam, Performed: Systolic blood pressure",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.62",
+      "relevantDatetime": "2017-05-19T21:28:48.000Z",
+      "relevantPeriod": {
+        "low": "2017-05-19T21:28:48.000Z",
+        "high": "2017-05-19T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "result": {
+        "value": 113,
+        "unit": "mm[Hg]"
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::PhysicalExamPerformed",
+      "_bridgeHint": "observation-component"
+    },
+    {
+      "authorDatetime": "2017-05-19T21:28:48.000Z",
+      "category": "physical_exam",
+      "dataElementCodes": [
+        {
+          "code": "8462-4",
+          "system": "urn:oid:2.16.840.1.113883.6.1",
+          "display": "Diastolic blood pressure",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Physical Exam, Performed: Diastolic blood pressure",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.62",
+      "relevantDatetime": "2017-05-19T21:28:48.000Z",
+      "relevantPeriod": {
+        "low": "2017-05-19T21:28:48.000Z",
+        "high": "2017-05-19T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "result": {
+        "value": 96,
+        "unit": "mm[Hg]"
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::PhysicalExamPerformed",
+      "_bridgeHint": "observation-component"
+    },
+    {
+      "authorDatetime": "2017-05-19T21:28:48.000Z",
+      "category": "physical_exam",
+      "components": [
+        {
+          "code": {
+            "code": "8480-6",
+            "system": "urn:oid:2.16.840.1.113883.6.1",
+            "display": "Systolic blood pressure",
+            "version": null,
+            "_type": "QDM::Code"
+          },
+          "result": {
+            "value": 113,
+            "unit": "mm[Hg]"
+          },
+          "_type": "QDM::Component"
+        },
+        {
+          "code": {
+            "code": "8462-4",
+            "system": "urn:oid:2.16.840.1.113883.6.1",
+            "display": "Diastolic blood pressure",
+            "version": null,
+            "_type": "QDM::Code"
+          },
+          "result": {
+            "value": 96,
+            "unit": "mm[Hg]"
+          },
+          "_type": "QDM::Component"
+        }
+      ],
+      "dataElementCodes": [
+        {
+          "code": "4500634",
+          "system": "urn:va:vuid",
+          "display": null,
+          "version": null,
+          "_type": "QDM::Code"
+        },
+        {
+          "code": "85354-9",
+          "system": "urn:oid:2.16.840.1.113883.6.1",
+          "display": "Blood pressure panel with all children optional",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Physical Exam, Performed: BLOOD PRESSURE",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.62",
+      "relevantDatetime": "2017-05-19T21:28:48.000Z",
+      "relevantPeriod": {
+        "low": "2017-05-19T21:28:48.000Z",
+        "high": "2017-05-19T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "result": null,
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::PhysicalExamPerformed",
+      "_bridgeHint": "vital-signs"
+    },
+    {
+      "authorDatetime": "2017-05-19T21:28:48.000Z",
+      "category": "physical_exam",
+      "components": [],
+      "dataElementCodes": [
+        {
+          "code": "4688724",
+          "system": "urn:va:vuid",
+          "display": null,
+          "version": null,
+          "_type": "QDM::Code"
+        },
+        {
+          "code": "8302-2",
+          "system": "urn:oid:2.16.840.1.113883.6.1",
+          "display": "Body height",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Physical Exam, Performed: HEIGHT",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.62",
+      "relevantDatetime": "2017-05-19T21:28:48.000Z",
+      "relevantPeriod": {
+        "low": "2017-05-19T21:28:48.000Z",
+        "high": "2017-05-19T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "result": {
+        "value": 427.48,
+        "unit": "cm"
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::PhysicalExamPerformed",
+      "_bridgeHint": "vital-signs"
+    },
+    {
+      "authorDatetime": "2017-05-19T21:28:48.000Z",
+      "category": "physical_exam",
+      "components": [],
+      "dataElementCodes": [
+        {
+          "code": "4500636",
+          "system": "urn:va:vuid",
+          "display": null,
+          "version": null,
+          "_type": "QDM::Code"
+        },
+        {
+          "code": "8867-4",
+          "system": "urn:oid:2.16.840.1.113883.6.1",
+          "display": "Heart rate",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Physical Exam, Performed: PULSE",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.62",
+      "relevantDatetime": "2017-05-19T21:28:48.000Z",
+      "relevantPeriod": {
+        "low": "2017-05-19T21:28:48.000Z",
+        "high": "2017-05-19T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "result": {
+        "value": 69,
+        "unit": "/min"
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::PhysicalExamPerformed",
+      "_bridgeHint": "vital-signs"
+    },
+    {
+      "authorDatetime": "2017-05-19T21:28:48.000Z",
+      "category": "physical_exam",
+      "components": [],
+      "dataElementCodes": [
+        {
+          "code": "4500635",
+          "system": "urn:va:vuid",
+          "display": null,
+          "version": null,
+          "_type": "QDM::Code"
+        },
+        {
+          "code": "72514-3",
+          "system": "urn:oid:2.16.840.1.113883.6.1",
+          "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Physical Exam, Performed: PAIN",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.62",
+      "relevantDatetime": "2017-05-19T21:28:48.000Z",
+      "relevantPeriod": {
+        "low": "2017-05-19T21:28:48.000Z",
+        "high": "2017-05-19T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "result": {
+        "value": 0,
+        "unit": "{score}"
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::PhysicalExamPerformed",
+      "_bridgeHint": "vital-signs"
+    },
+    {
+      "authorDatetime": "2017-05-19T21:28:48.000Z",
+      "category": "physical_exam",
+      "components": [],
+      "dataElementCodes": [
+        {
+          "code": "4688725",
+          "system": "urn:va:vuid",
+          "display": null,
+          "version": null,
+          "_type": "QDM::Code"
+        },
+        {
+          "code": "9279-1",
+          "system": "urn:oid:2.16.840.1.113883.6.1",
+          "display": "Respiratory rate",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Physical Exam, Performed: RESPIRATION",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.62",
+      "relevantDatetime": "2017-05-19T21:28:48.000Z",
+      "relevantPeriod": {
+        "low": "2017-05-19T21:28:48.000Z",
+        "high": "2017-05-19T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "result": {
+        "value": 14,
+        "unit": "/min"
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::PhysicalExamPerformed",
+      "_bridgeHint": "vital-signs"
+    },
+    {
+      "authorDatetime": "2017-05-19T21:28:48.000Z",
+      "category": "physical_exam",
+      "components": [],
+      "dataElementCodes": [
+        {
+          "code": "4500639",
+          "system": "urn:va:vuid",
+          "display": null,
+          "version": null,
+          "_type": "QDM::Code"
+        },
+        {
+          "code": "29463-7",
+          "system": "urn:oid:2.16.840.1.113883.6.1",
+          "display": "Body weight",
+          "version": null,
+          "_type": "QDM::Code"
+        }
+      ],
+      "description": "Physical Exam, Performed: WEIGHT",
+      "hqmfOid": "2.16.840.1.113883.10.20.28.4.62",
+      "relevantDatetime": "2017-05-19T21:28:48.000Z",
+      "relevantPeriod": {
+        "low": "2017-05-19T21:28:48.000Z",
+        "high": "2017-05-19T21:28:48.000Z",
+        "lowClosed": true,
+        "highClosed": true
+      },
+      "result": {
+        "value": 35.32,
+        "unit": "kg"
+      },
+      "qdmStatus": "performed",
+      "qdmVersion": "5.6",
+      "_type": "QDM::PhysicalExamPerformed",
+      "_bridgeHint": "vital-signs"
+    }
+  ],
+  "extendedData": {
+    "medical_record_number": "101102",
+    "source": "fhir-to-qdm-patient.js"
+  },
+  "familyName": "DOYLE959",
+  "givenNames": [
+    "ASHTON21"
+  ],
+  "qdmVersion": "5.6"
+}

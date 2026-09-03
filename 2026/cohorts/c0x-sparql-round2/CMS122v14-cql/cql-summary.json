@@ -1,0 +1,9 @@
+{
+  "cms_id": "CMS122v14",
+  "patients": 7,
+  "expanded_value_sets": 30,
+  "ipp": 5,
+  "denom": 5,
+  "numer": 5,
+  "results": "/home/glilly/work/vista-stack/HL7-FHIR-quality-testing/2026/cohorts/c0x-sparql-round2/CMS122v14-cql/cql-results.tsv"
+}

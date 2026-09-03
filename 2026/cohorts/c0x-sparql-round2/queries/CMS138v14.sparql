@@ -1,6 +1,6 @@
 PREFIX c0x: <urn:c0x:>
 SELECT ?resource ?code WHERE {
-  VALUES ?code { "72166-2" "449868002" }
+  VALUES ?code { "72166-2" "449868002" "8517006" "266919005" "428041000124106" }
   ?resource c0x:type "Observation" .
   ?resource c0x:code ?code .
 }

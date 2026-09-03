@@ -1,6 +1,6 @@
 PREFIX c0x: <urn:c0x:>
 SELECT ?resource ?code WHERE {
-  VALUES ?code { "44054006" "73211009" }
+  VALUES ?code FROM oid "2.16.840.1.113883.3.464.1003.103.12.1001" .
   ?resource c0x:type "Condition" .
   ?resource c0x:code ?code .
 }

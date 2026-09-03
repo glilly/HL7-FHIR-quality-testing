@@ -1,9 +1,9 @@
 {
   "cms": "CMS165v14",
   "base": "https://devfhir.vistaplex.org",
-  "ran_at": "2026-09-03T04:20:29+00:00",
+  "ran_at": "2026-09-03T04:39:05+00:00",
   "query_file": "2026/cohorts/c0x-sparql-round2/queries/CMS165v14.sparql",
-  "query": "PREFIX c0x: <urn:c0x:>\nSELECT ?resource ?code WHERE {\n  VALUES ?code { \"59621000\" \"38341003\" \"1201005\" }\n  ?resource c0x:type \"Condition\" .\n  ?resource c0x:code ?code .\n}\nLIMIT 600\n",
+  "query": "PREFIX c0x: <urn:c0x:>\nSELECT ?resource ?code WHERE {\n  VALUES ?code FROM oid \"2.16.840.1.113883.3.464.1003.104.12.1011\" .\n  ?resource c0x:type \"Condition\" .\n  ?resource c0x:code ?code .\n}\nLIMIT 600\n",
   "server_candidates_field": 28,
   "candidate_count": 28,
   "candidate_dfns": [
@@ -48,12 +48,12 @@
     "dropped_from_round1": []
   },
   "vs_cql_ipp": {
-    "truth_size": 16,
+    "truth_size": 23,
     "candidates": 28,
-    "true_positive": 16,
-    "false_positive": 12,
+    "true_positive": 23,
+    "false_positive": 5,
     "false_negative": 0,
-    "precision": 0.571,
+    "precision": 0.821,
     "recall": 1.0,
     "missed_dfns": [],
     "extra_dfns": [
@@ -61,33 +61,26 @@
       "101084",
       "101088",
       "101090",
-      "101099",
-      "101102",
-      "101104",
-      "101122",
-      "101123",
-      "101125",
-      "101126",
-      "101127"
+      "101125"
     ]
   },
   "round1_vs_cql_ipp": {
-    "truth_size": 16,
+    "truth_size": 23,
     "candidates": 23,
-    "true_positive": 16,
-    "false_positive": 7,
-    "false_negative": 0,
-    "precision": 0.696,
-    "recall": 1.0,
-    "missed_dfns": [],
+    "true_positive": 20,
+    "false_positive": 3,
+    "false_negative": 3,
+    "precision": 0.87,
+    "recall": 0.87,
+    "missed_dfns": [
+      "101123",
+      "101126",
+      "101127"
+    ],
     "extra_dfns": [
       "101077",
       "101084",
-      "101088",
-      "101099",
-      "101102",
-      "101104",
-      "101122"
+      "101088"
     ]
   }
 }
