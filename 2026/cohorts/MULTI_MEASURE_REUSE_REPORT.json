@@ -1,0 +1,398 @@
+{
+  "mode": "multi-measure-reuse",
+  "poolPatients": 33,
+  "inventoryRows": 87,
+  "shortlist": [
+    "CMS165v14",
+    "CMS122v14",
+    "CMS130v14",
+    "CMS138v14",
+    "CMS2v15",
+    "CMS125v14",
+    "CMS22v14",
+    "CMS131v14",
+    "CMS68v15"
+  ],
+  "gaps": {
+    "target": "CMS2v15",
+    "reuseIppCount": 3,
+    "reuseNumerCount": 0,
+    "reuseIppSample": [
+      "101120",
+      "101115",
+      "101094"
+    ],
+    "reuseNumerSample": [],
+    "needIpp": 18,
+    "needNumer": 10,
+    "gapIppToSynthesize": 15,
+    "gapNumerToSynthesize": 10,
+    "multiMeasurePatients": 21,
+    "multiMeasureSample": [
+      {
+        "patient": "101095",
+        "measures": [
+          "CMS122v14",
+          "CMS130v14",
+          "CMS165v14",
+          "CMS138v14"
+        ]
+      },
+      {
+        "patient": "101096",
+        "measures": [
+          "CMS122v14",
+          "CMS130v14",
+          "CMS165v14",
+          "CMS138v14"
+        ]
+      },
+      {
+        "patient": "101098",
+        "measures": [
+          "CMS122v14",
+          "CMS130v14",
+          "CMS165v14",
+          "CMS138v14"
+        ]
+      },
+      {
+        "patient": "101100",
+        "measures": [
+          "CMS165v14",
+          "CMS138v14"
+        ]
+      },
+      {
+        "patient": "101109",
+        "measures": [
+          "CMS122v14",
+          "CMS130v14",
+          "CMS165v14",
+          "CMS138v14"
+        ]
+      },
+      {
+        "patient": "101120",
+        "measures": [
+          "CMS2v15",
+          "CMS138v14"
+        ]
+      },
+      {
+        "patient": "101077",
+        "measures": [
+          "CMS130v14",
+          "CMS165v14",
+          "CMS138v14"
+        ]
+      },
+      {
+        "patient": "101088",
+        "measures": [
+          "CMS130v14",
+          "CMS165v14"
+        ]
+      },
+      {
+        "patient": "101089",
+        "measures": [
+          "CMS130v14",
+          "CMS138v14"
+        ]
+      },
+      {
+        "patient": "101101",
+        "measures": [
+          "CMS130v14",
+          "CMS165v14",
+          "CMS138v14"
+        ]
+      },
+      {
+        "patient": "101103",
+        "measures": [
+          "CMS130v14",
+          "CMS165v14",
+          "CMS138v14"
+        ]
+      },
+      {
+        "patient": "101107",
+        "measures": [
+          "CMS130v14",
+          "CMS165v14",
+          "CMS138v14"
+        ]
+      },
+      {
+        "patient": "101108",
+        "measures": [
+          "CMS130v14",
+          "CMS165v14",
+          "CMS138v14"
+        ]
+      },
+      {
+        "patient": "101110",
+        "measures": [
+          "CMS165v14",
+          "CMS138v14"
+        ]
+      },
+      {
+        "patient": "101115",
+        "measures": [
+          "CMS130v14",
+          "CMS165v14",
+          "CMS2v15",
+          "CMS138v14"
+        ]
+      },
+      {
+        "patient": "101084",
+        "measures": [
+          "CMS165v14",
+          "CMS138v14"
+        ]
+      },
+      {
+        "patient": "101094",
+        "measures": [
+          "CMS165v14",
+          "CMS2v15",
+          "CMS138v14"
+        ]
+      },
+      {
+        "patient": "101097",
+        "measures": [
+          "CMS165v14",
+          "CMS138v14"
+        ]
+      },
+      {
+        "patient": "101105",
+        "measures": [
+          "CMS165v14",
+          "CMS138v14"
+        ]
+      },
+      {
+        "patient": "101106",
+        "measures": [
+          "CMS165v14",
+          "CMS138v14"
+        ]
+      },
+      {
+        "patient": "101111",
+        "measures": [
+          "CMS165v14",
+          "CMS138v14"
+        ]
+      }
+    ],
+    "guidance": [
+      "Prefer SETPOP cross-fill from reuse* lists before Synthea.",
+      "Use C0X /c0x/cohort?code=\u2026 or measure presets (POPIDX) to prefilter fhir-intake.",
+      "Confirm with cds1 /quality/evaluate-cohort or dashboard Re-evaluate CQL.",
+      "Only synthesize gapIppToSynthesize / gapNumerToSynthesize cells."
+    ]
+  },
+  "crossFillCandidates": [
+    {
+      "patient": "101087",
+      "alreadyIn": [
+        "CMS122v14"
+      ]
+    },
+    {
+      "patient": "101095",
+      "alreadyIn": [
+        "CMS122v14",
+        "CMS130v14",
+        "CMS165v14",
+        "CMS138v14"
+      ]
+    },
+    {
+      "patient": "101096",
+      "alreadyIn": [
+        "CMS122v14",
+        "CMS130v14",
+        "CMS165v14",
+        "CMS138v14"
+      ]
+    },
+    {
+      "patient": "101098",
+      "alreadyIn": [
+        "CMS122v14",
+        "CMS130v14",
+        "CMS165v14",
+        "CMS138v14"
+      ]
+    },
+    {
+      "patient": "101100",
+      "alreadyIn": [
+        "CMS165v14",
+        "CMS138v14"
+      ]
+    },
+    {
+      "patient": "101102",
+      "alreadyIn": [
+        "CMS138v14"
+      ]
+    },
+    {
+      "patient": "101109",
+      "alreadyIn": [
+        "CMS122v14",
+        "CMS130v14",
+        "CMS165v14",
+        "CMS138v14"
+      ]
+    },
+    {
+      "patient": "101077",
+      "alreadyIn": [
+        "CMS130v14",
+        "CMS165v14",
+        "CMS138v14"
+      ]
+    },
+    {
+      "patient": "101078",
+      "alreadyIn": [
+        "CMS130v14"
+      ]
+    },
+    {
+      "patient": "101088",
+      "alreadyIn": [
+        "CMS130v14",
+        "CMS165v14"
+      ]
+    },
+    {
+      "patient": "101089",
+      "alreadyIn": [
+        "CMS130v14",
+        "CMS138v14"
+      ]
+    },
+    {
+      "patient": "101101",
+      "alreadyIn": [
+        "CMS130v14",
+        "CMS165v14",
+        "CMS138v14"
+      ]
+    },
+    {
+      "patient": "101103",
+      "alreadyIn": [
+        "CMS130v14",
+        "CMS165v14",
+        "CMS138v14"
+      ]
+    },
+    {
+      "patient": "101107",
+      "alreadyIn": [
+        "CMS130v14",
+        "CMS165v14",
+        "CMS138v14"
+      ]
+    },
+    {
+      "patient": "101108",
+      "alreadyIn": [
+        "CMS130v14",
+        "CMS165v14",
+        "CMS138v14"
+      ]
+    },
+    {
+      "patient": "101110",
+      "alreadyIn": [
+        "CMS165v14",
+        "CMS138v14"
+      ]
+    },
+    {
+      "patient": "101084",
+      "alreadyIn": [
+        "CMS165v14",
+        "CMS138v14"
+      ]
+    },
+    {
+      "patient": "101097",
+      "alreadyIn": [
+        "CMS165v14",
+        "CMS138v14"
+      ]
+    },
+    {
+      "patient": "101099",
+      "alreadyIn": [
+        "CMS138v14"
+      ]
+    },
+    {
+      "patient": "101104",
+      "alreadyIn": [
+        "CMS138v14"
+      ]
+    },
+    {
+      "patient": "101105",
+      "alreadyIn": [
+        "CMS165v14",
+        "CMS138v14"
+      ]
+    },
+    {
+      "patient": "101106",
+      "alreadyIn": [
+        "CMS165v14",
+        "CMS138v14"
+      ]
+    },
+    {
+      "patient": "101111",
+      "alreadyIn": [
+        "CMS165v14",
+        "CMS138v14"
+      ]
+    },
+    {
+      "patient": "101122",
+      "alreadyIn": [
+        "CMS138v14"
+      ]
+    },
+    {
+      "patient": "101090",
+      "alreadyIn": [
+        "CMS138v14"
+      ]
+    },
+    {
+      "patient": "101114",
+      "alreadyIn": [
+        "CMS138v14"
+      ]
+    }
+  ],
+  "crossFillCount": 26,
+  "nextSteps": [
+    "If gapIppToSynthesize=15 or gapNumerToSynthesize=10, run Synthea/QDM generation only for those cells.",
+    "Load new bundles \u2192 fhir-intake \u2192 POST /c0x/index/reindex (builds POPIDX).",
+    "Re-run this report; then fhirdev-apply-setpop.sh / dashboard CQL."
+  ]
+}

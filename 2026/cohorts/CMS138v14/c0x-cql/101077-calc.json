@@ -1,0 +1,550 @@
+{
+  "IPP": 1,
+  "DENOM": 0,
+  "NUMER": 0,
+  "DENEX": 0,
+  "statement_relevance": {
+    "CMS138PreventiveTobaccoCessation": {
+      "Patient": "NA",
+      "Active Pharmacotherapy for Tobacco Cessation": "NA",
+      "Qualifying Visit During Measurement Period": "NA",
+      "Preventive Visit During Measurement Period": "NA",
+      "Initial Population": "TRUE",
+      "Denominator 1": "NA",
+      "Most Recent Tobacco Use Screening Indicates Tobacco User": "NA",
+      "Denominator 2": "NA",
+      "Denominator 3": "NA",
+      "Most Recent Tobacco Use Screening Indicates Tobacco Non User": "NA",
+      "Numerator 1": "NA",
+      "Tobacco Cessation Counseling Given": "NA",
+      "Tobacco Cessation Pharmacotherapy Ordered": "NA",
+      "Numerator 2": "NA",
+      "Numerator 3": "NA",
+      "SDE Ethnicity": "TRUE",
+      "SDE Payer": "TRUE",
+      "SDE Race": "TRUE",
+      "SDE Sex": "TRUE",
+      "Denominator Exclusion": "FALSE"
+    },
+    "CQMCommonQDM": {
+      "ED Encounter": "NA",
+      "Earliest": "NA",
+      "EarliestOf": "NA",
+      "EmergencyDepartmentArrivalTime": "NA",
+      "FirstInpatientIntensiveCareUnit": "NA",
+      "HasEnd": "NA",
+      "HasStart": "NA",
+      "HospitalAdmissionTime": "NA",
+      "HospitalArrivalTime": "NA",
+      "HospitalDepartureTime": "NA",
+      "HospitalDischargeTime": "NA",
+      "Hospitalization": "NA",
+      "HospitalizationLengthofStay": "NA",
+      "HospitalizationLocations": "NA",
+      "HospitalizationWithObservation": "NA",
+      "HospitalizationWithObservationAndOutpatientSurgeryService": "NA",
+      "HospitalizationWithObservationLengthofStay": "NA",
+      "Inpatient Encounter": "NA",
+      "Latest": "NA",
+      "LatestOf": "NA",
+      "LengthInDays": "NA",
+      "NormalizeInterval": "NA",
+      "Patient": "NA",
+      "ToDateInterval": "NA"
+    },
+    "HospiceQDM": {
+      "Has Hospice Services": "NA",
+      "Patient": "NA"
+    }
+  },
+  "population_relevance": {
+    "IPP": true,
+    "DENOM": true,
+    "NUMER": false,
+    "DENEX": false
+  },
+  "statement_results": {
+    "CMS138PreventiveTobaccoCessation": {
+      "Patient": {
+        "raw": {
+          "birthDatetime": "1954-01-10T00:00:00.000+00:00"
+        },
+        "library_name": "CMS138PreventiveTobaccoCessation",
+        "statement_name": "Patient",
+        "relevance": "NA",
+        "final": "NA",
+        "pretty": "NA"
+      },
+      "Active Pharmacotherapy for Tobacco Cessation": {
+        "raw": [],
+        "library_name": "CMS138PreventiveTobaccoCessation",
+        "statement_name": "Active Pharmacotherapy for Tobacco Cessation",
+        "relevance": "NA",
+        "final": "NA",
+        "pretty": "NA"
+      },
+      "Qualifying Visit During Measurement Period": {
+        "raw": [
+          {
+            "dataElementCodes": [
+              {
+                "code": "185349003",
+                "system": "urn:oid:2.16.840.1.113883.6.96",
+                "version": null,
+                "display": "Encounter for check up"
+              }
+            ],
+            "description": "Encounter, Performed",
+            "id": "6a6a520418134a1420c99df1",
+            "_id": "6a6a520418134a1420c99df1",
+            "authorDatetime": "2026-07-29T19:13:45.000+00:00",
+            "relevantPeriod": {
+              "low": "2026-07-29T19:13:45.000+00:00",
+              "high": "2026-07-29T19:13:45.000+00:00",
+              "lowClosed": true,
+              "highClosed": true
+            },
+            "facilityLocations": [],
+            "diagnoses": [],
+            "participant": [],
+            "relatedTo": [],
+            "qdmTitle": "Encounter, Performed",
+            "hqmfOid": "2.16.840.1.113883.10.20.28.4.5",
+            "qdmCategory": "encounter",
+            "qdmStatus": "performed",
+            "qdmVersion": "5.6",
+            "_type": "QDM::EncounterPerformed"
+          },
+          {
+            "dataElementCodes": [
+              {
+                "code": "185349003",
+                "system": "urn:oid:2.16.840.1.113883.6.96",
+                "version": null,
+                "display": "Encounter for check up"
+              },
+              {
+                "code": "99205",
+                "system": "urn:oid:2.16.840.1.113883.6.12",
+                "version": null,
+                "display": "OFFICE O/P NEW HI 60-74 MIN"
+              }
+            ],
+            "description": "Encounter, Performed",
+            "id": "6a6a520418134a1420c99df3",
+            "_id": "6a6a520418134a1420c99df3",
+            "authorDatetime": "2026-04-30T21:32:00.000+00:00",
+            "relevantPeriod": {
+              "low": "2026-04-30T21:32:00.000+00:00",
+              "high": "2026-04-30T21:32:00.000+00:00",
+              "lowClosed": true,
+              "highClosed": true
+            },
+            "facilityLocations": [],
+            "diagnoses": [],
+            "participant": [],
+            "relatedTo": [],
+            "qdmTitle": "Encounter, Performed",
+            "hqmfOid": "2.16.840.1.113883.10.20.28.4.5",
+            "qdmCategory": "encounter",
+            "qdmStatus": "performed",
+            "qdmVersion": "5.6",
+            "_type": "QDM::EncounterPerformed"
+          },
+          {
+            "dataElementCodes": [
+              {
+                "code": "185349003",
+                "system": "urn:oid:2.16.840.1.113883.6.96",
+                "version": null,
+                "display": "Encounter for check up"
+              }
+            ],
+            "description": "Encounter, Performed",
+            "id": "6a6a520418134a1420c99df5",
+            "_id": "6a6a520418134a1420c99df5",
+            "authorDatetime": "2026-04-29T20:31:00.000+00:00",
+            "relevantPeriod": {
+              "low": "2026-04-29T20:31:00.000+00:00",
+              "high": "2026-04-29T20:31:00.000+00:00",
+              "lowClosed": true,
+              "highClosed": true
+            },
+            "facilityLocations": [],
+            "diagnoses": [],
+            "participant": [],
+            "relatedTo": [],
+            "qdmTitle": "Encounter, Performed",
+            "hqmfOid": "2.16.840.1.113883.10.20.28.4.5",
+            "qdmCategory": "encounter",
+            "qdmStatus": "performed",
+            "qdmVersion": "5.6",
+            "_type": "QDM::EncounterPerformed"
+          },
+          {
+            "dataElementCodes": [
+              {
+                "code": "185349003",
+                "system": "urn:oid:2.16.840.1.113883.6.96",
+                "version": null,
+                "display": "Encounter for check up"
+              }
+            ],
+            "description": "Encounter, Performed",
+            "id": "6a6a520418134a1420c99e43",
+            "_id": "6a6a520418134a1420c99e43",
+            "authorDatetime": "2026-07-01T22:17:15.000+00:00",
+            "relevantPeriod": {
+              "low": "2026-07-01T22:17:15.000+00:00",
+              "high": "2026-07-01T22:17:15.000+00:00",
+              "lowClosed": true,
+              "highClosed": true
+            },
+            "facilityLocations": [],
+            "diagnoses": [],
+            "participant": [],
+            "relatedTo": [],
+            "qdmTitle": "Encounter, Performed",
+            "hqmfOid": "2.16.840.1.113883.10.20.28.4.5",
+            "qdmCategory": "encounter",
+            "qdmStatus": "performed",
+            "qdmVersion": "5.6",
+            "_type": "QDM::EncounterPerformed"
+          }
+        ],
+        "library_name": "CMS138PreventiveTobaccoCessation",
+        "statement_name": "Qualifying Visit During Measurement Period",
+        "relevance": "NA",
+        "final": "NA",
+        "pretty": "NA"
+      },
+      "Preventive Visit During Measurement Period": {
+        "raw": [],
+        "library_name": "CMS138PreventiveTobaccoCessation",
+        "statement_name": "Preventive Visit During Measurement Period",
+        "relevance": "NA",
+        "final": "NA",
+        "pretty": "NA"
+      },
+      "Initial Population": {
+        "raw": true,
+        "library_name": "CMS138PreventiveTobaccoCessation",
+        "statement_name": "Initial Population",
+        "relevance": "TRUE",
+        "final": "TRUE",
+        "pretty": "true"
+      },
+      "Denominator 1": {
+        "raw": true,
+        "library_name": "CMS138PreventiveTobaccoCessation",
+        "statement_name": "Denominator 1",
+        "relevance": "NA",
+        "final": "NA",
+        "pretty": "NA"
+      },
+      "Most Recent Tobacco Use Screening Indicates Tobacco User": {
+        "raw": null,
+        "library_name": "CMS138PreventiveTobaccoCessation",
+        "statement_name": "Most Recent Tobacco Use Screening Indicates Tobacco User",
+        "relevance": "NA",
+        "final": "NA",
+        "pretty": "NA"
+      },
+      "Denominator 2": {
+        "raw": false,
+        "library_name": "CMS138PreventiveTobaccoCessation",
+        "statement_name": "Denominator 2",
+        "relevance": "NA",
+        "final": "NA",
+        "pretty": "NA"
+      },
+      "Denominator 3": {
+        "raw": true,
+        "library_name": "CMS138PreventiveTobaccoCessation",
+        "statement_name": "Denominator 3",
+        "relevance": "NA",
+        "final": "NA",
+        "pretty": "NA"
+      },
+      "Most Recent Tobacco Use Screening Indicates Tobacco Non User": {
+        "raw": null,
+        "library_name": "CMS138PreventiveTobaccoCessation",
+        "statement_name": "Most Recent Tobacco Use Screening Indicates Tobacco Non User",
+        "relevance": "NA",
+        "final": "NA",
+        "pretty": "NA"
+      },
+      "Numerator 1": {
+        "raw": false,
+        "library_name": "CMS138PreventiveTobaccoCessation",
+        "statement_name": "Numerator 1",
+        "relevance": "NA",
+        "final": "NA",
+        "pretty": "NA"
+      },
+      "Tobacco Cessation Counseling Given": {
+        "raw": [],
+        "library_name": "CMS138PreventiveTobaccoCessation",
+        "statement_name": "Tobacco Cessation Counseling Given",
+        "relevance": "NA",
+        "final": "NA",
+        "pretty": "NA"
+      },
+      "Tobacco Cessation Pharmacotherapy Ordered": {
+        "raw": [],
+        "library_name": "CMS138PreventiveTobaccoCessation",
+        "statement_name": "Tobacco Cessation Pharmacotherapy Ordered",
+        "relevance": "NA",
+        "final": "NA",
+        "pretty": "NA"
+      },
+      "Numerator 2": {
+        "raw": false,
+        "library_name": "CMS138PreventiveTobaccoCessation",
+        "statement_name": "Numerator 2",
+        "relevance": "NA",
+        "final": "NA",
+        "pretty": "NA"
+      },
+      "Numerator 3": {
+        "raw": false,
+        "library_name": "CMS138PreventiveTobaccoCessation",
+        "statement_name": "Numerator 3",
+        "relevance": "NA",
+        "final": "NA",
+        "pretty": "NA"
+      },
+      "SDE Ethnicity": {
+        "raw": [],
+        "library_name": "CMS138PreventiveTobaccoCessation",
+        "statement_name": "SDE Ethnicity",
+        "relevance": "TRUE",
+        "final": "FALSE",
+        "pretty": "FALSE ([])"
+      },
+      "SDE Payer": {
+        "raw": [],
+        "library_name": "CMS138PreventiveTobaccoCessation",
+        "statement_name": "SDE Payer",
+        "relevance": "TRUE",
+        "final": "FALSE",
+        "pretty": "FALSE ([])"
+      },
+      "SDE Race": {
+        "raw": [],
+        "library_name": "CMS138PreventiveTobaccoCessation",
+        "statement_name": "SDE Race",
+        "relevance": "TRUE",
+        "final": "FALSE",
+        "pretty": "FALSE ([])"
+      },
+      "SDE Sex": {
+        "raw": [],
+        "library_name": "CMS138PreventiveTobaccoCessation",
+        "statement_name": "SDE Sex",
+        "relevance": "TRUE",
+        "final": "FALSE",
+        "pretty": "FALSE ([])"
+      },
+      "Denominator Exclusion": {
+        "raw": false,
+        "library_name": "CMS138PreventiveTobaccoCessation",
+        "statement_name": "Denominator Exclusion",
+        "relevance": "FALSE",
+        "final": "UNHIT",
+        "pretty": "UNHIT"
+      }
+    },
+    "CQMCommonQDM": {
+      "ED Encounter": {
+        "library_name": "CQMCommonQDM",
+        "statement_name": "ED Encounter",
+        "relevance": "NA",
+        "final": "NA",
+        "pretty": "NA"
+      },
+      "Earliest": {
+        "library_name": "CQMCommonQDM",
+        "statement_name": "Earliest",
+        "relevance": "NA",
+        "final": "NA",
+        "pretty": "NA"
+      },
+      "EarliestOf": {
+        "library_name": "CQMCommonQDM",
+        "statement_name": "EarliestOf",
+        "relevance": "NA",
+        "final": "NA",
+        "pretty": "NA"
+      },
+      "EmergencyDepartmentArrivalTime": {
+        "library_name": "CQMCommonQDM",
+        "statement_name": "EmergencyDepartmentArrivalTime",
+        "relevance": "NA",
+        "final": "NA",
+        "pretty": "NA"
+      },
+      "FirstInpatientIntensiveCareUnit": {
+        "library_name": "CQMCommonQDM",
+        "statement_name": "FirstInpatientIntensiveCareUnit",
+        "relevance": "NA",
+        "final": "NA",
+        "pretty": "NA"
+      },
+      "HasEnd": {
+        "library_name": "CQMCommonQDM",
+        "statement_name": "HasEnd",
+        "relevance": "NA",
+        "final": "NA",
+        "pretty": "NA"
+      },
+      "HasStart": {
+        "library_name": "CQMCommonQDM",
+        "statement_name": "HasStart",
+        "relevance": "NA",
+        "final": "NA",
+        "pretty": "NA"
+      },
+      "HospitalAdmissionTime": {
+        "library_name": "CQMCommonQDM",
+        "statement_name": "HospitalAdmissionTime",
+        "relevance": "NA",
+        "final": "NA",
+        "pretty": "NA"
+      },
+      "HospitalArrivalTime": {
+        "library_name": "CQMCommonQDM",
+        "statement_name": "HospitalArrivalTime",
+        "relevance": "NA",
+        "final": "NA",
+        "pretty": "NA"
+      },
+      "HospitalDepartureTime": {
+        "library_name": "CQMCommonQDM",
+        "statement_name": "HospitalDepartureTime",
+        "relevance": "NA",
+        "final": "NA",
+        "pretty": "NA"
+      },
+      "HospitalDischargeTime": {
+        "library_name": "CQMCommonQDM",
+        "statement_name": "HospitalDischargeTime",
+        "relevance": "NA",
+        "final": "NA",
+        "pretty": "NA"
+      },
+      "Hospitalization": {
+        "library_name": "CQMCommonQDM",
+        "statement_name": "Hospitalization",
+        "relevance": "NA",
+        "final": "NA",
+        "pretty": "NA"
+      },
+      "HospitalizationLengthofStay": {
+        "library_name": "CQMCommonQDM",
+        "statement_name": "HospitalizationLengthofStay",
+        "relevance": "NA",
+        "final": "NA",
+        "pretty": "NA"
+      },
+      "HospitalizationLocations": {
+        "library_name": "CQMCommonQDM",
+        "statement_name": "HospitalizationLocations",
+        "relevance": "NA",
+        "final": "NA",
+        "pretty": "NA"
+      },
+      "HospitalizationWithObservation": {
+        "library_name": "CQMCommonQDM",
+        "statement_name": "HospitalizationWithObservation",
+        "relevance": "NA",
+        "final": "NA",
+        "pretty": "NA"
+      },
+      "HospitalizationWithObservationAndOutpatientSurgeryService": {
+        "library_name": "CQMCommonQDM",
+        "statement_name": "HospitalizationWithObservationAndOutpatientSurgeryService",
+        "relevance": "NA",
+        "final": "NA",
+        "pretty": "NA"
+      },
+      "HospitalizationWithObservationLengthofStay": {
+        "library_name": "CQMCommonQDM",
+        "statement_name": "HospitalizationWithObservationLengthofStay",
+        "relevance": "NA",
+        "final": "NA",
+        "pretty": "NA"
+      },
+      "Inpatient Encounter": {
+        "library_name": "CQMCommonQDM",
+        "statement_name": "Inpatient Encounter",
+        "relevance": "NA",
+        "final": "NA",
+        "pretty": "NA"
+      },
+      "Latest": {
+        "library_name": "CQMCommonQDM",
+        "statement_name": "Latest",
+        "relevance": "NA",
+        "final": "NA",
+        "pretty": "NA"
+      },
+      "LatestOf": {
+        "library_name": "CQMCommonQDM",
+        "statement_name": "LatestOf",
+        "relevance": "NA",
+        "final": "NA",
+        "pretty": "NA"
+      },
+      "LengthInDays": {
+        "library_name": "CQMCommonQDM",
+        "statement_name": "LengthInDays",
+        "relevance": "NA",
+        "final": "NA",
+        "pretty": "NA"
+      },
+      "NormalizeInterval": {
+        "library_name": "CQMCommonQDM",
+        "statement_name": "NormalizeInterval",
+        "relevance": "NA",
+        "final": "NA",
+        "pretty": "NA"
+      },
+      "Patient": {
+        "library_name": "CQMCommonQDM",
+        "statement_name": "Patient",
+        "relevance": "NA",
+        "final": "NA",
+        "pretty": "NA"
+      },
+      "ToDateInterval": {
+        "library_name": "CQMCommonQDM",
+        "statement_name": "ToDateInterval",
+        "relevance": "NA",
+        "final": "NA",
+        "pretty": "NA"
+      }
+    },
+    "HospiceQDM": {
+      "Has Hospice Services": {
+        "raw": false,
+        "library_name": "HospiceQDM",
+        "statement_name": "Has Hospice Services",
+        "relevance": "NA",
+        "final": "NA",
+        "pretty": "NA"
+      },
+      "Patient": {
+        "library_name": "HospiceQDM",
+        "statement_name": "Patient",
+        "relevance": "NA",
+        "final": "NA",
+        "pretty": "NA"
+      }
+    }
+  },
+  "clause_results": null,
+  "patient": "6a6a520418134a1420c99deb",
+  "measure": "6a6a520418134a1420c99fdf",
+  "state": "complete"
+}

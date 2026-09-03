@@ -1,0 +1,9 @@
+{
+  "cms_id": "CMS130v14",
+  "patients": 13,
+  "expanded_value_sets": 35,
+  "ipp": 9,
+  "denom": 9,
+  "numer": 1,
+  "results": "/home/glilly/work/vista-stack/HL7-FHIR-quality-testing/2026/cohorts/CMS130v14/c0x-cql/cql-results.tsv"
+}

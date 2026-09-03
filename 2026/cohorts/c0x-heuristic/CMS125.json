@@ -1,0 +1,1 @@
+{"ippCount":0,"max":500,"measure":"CMS125v14","mode":"heuristic-proxy","offset":0,"patients":{"0":0},"populationIndexed":522,"query":"PREFIX c0x: <urn:c0x:>\nSELECT ?resource WHERE {\n  ?resource c0x:type \"Procedure\" .\n  ?resource c0x:code \"24604-1\" .\n}\nLIMIT 5","scanned":522,"source":"intake","status":"ok"}

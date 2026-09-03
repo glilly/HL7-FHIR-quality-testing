@@ -1,0 +1,14 @@
+dfn	bundle_path	ipp	denom	numer	denex	elements
+101095	2026/patients/raw/synthea-1000-20260901-20260101/fhir/Ailene520_Haag279_62d14026-d481-e02e-d29b-53251109247f.json	1	1	0	0	1529
+101096	2026/patients/raw/synthea-1000-20260901-20260101/fhir/Alline927_Cecil300_Baumbach677_2fc7f987-2521-4576-75be-d4c81b9666ac.json	1	1	0	0	409
+101098	2026/patients/raw/synthea-1000-20260901-20260101/fhir/Alvin56_Schmidt332_e539a03b-2fc7-c232-e6b6-e3ae47177d79.json	1	1	0	0	4219
+101101	2026/patients/raw/synthea-1000-20260901-20260101/fhir/Annelle169_Schroeder447_79f87991-363b-b98a-cb33-d7a9235a9b8f.json	1	1	0	0	2622
+101102	2026/patients/raw/synthea-1000-20260901-20260101/fhir/Ashton21_Sumiko254_Doyle959_9da46e0a-fc90-9ed3-db56-883919263f60.json	0	0	0	0	460
+101103	2026/patients/raw/synthea-1000-20260901-20260101/fhir/Aurelia213_Mireya881_Mohr916_3f7d08b7-5fb9-2737-b232-08a731f5f415.json	1	1	0	0	296
+101107	2026/patients/raw/synthea-1000-20260901-20260101/fhir/Branden904_Tromp100_cbfe15cf-f133-7828-a310-7332d9fe1b60.json	1	1	0	0	1798
+101108	2026/patients/raw/synthea-1000-20260901-20260101/fhir/Carla633_Reynolds644_43dc74f8-7efb-ee00-9ded-f67421bb94fb.json	1	1	1	0	629
+101109	2026/patients/raw/synthea-1000-20260901-20260101/fhir/Carson894_Stoltenberg489_968cf124-1e45-75f9-41a6-53c4085fdaa0.json	1	1	0	0	773
+101110	2026/patients/raw/synthea-1000-20260901-20260101/fhir/Claribel706_Schultz619_cfd0564b-16ca-f50a-ae2b-5fa05ad98f78.json	0	0	0	0	1249
+101115	/home/glilly/work/vista-stack/HL7-FHIR-quality-testing/2026/patients/raw/synthea-1000-20260901-20260101/fhir/Adolfo777_Conroy74_0bee0f5a-558a-345c-74c9-aedf42b17610.json	1	1	0	0	602
+101116	/home/glilly/work/vista-stack/HL7-FHIR-quality-testing/2026/patients/raw/synthea-1000-20260901-20260101/fhir/Alane21_Shenita872_Tromp100_b4c69ebf-5758-ae2b-a255-da04364d7f6d.json	0	0	0	0	333
+101119	/home/glilly/work/vista-stack/HL7-FHIR-quality-testing/2026/patients/raw/synthea-1000-20260901-20260101/fhir/Alex454_Mante251_8edaa097-5350-b4fb-fc03-0228d0b08ed8.json	0	0	0	0	1664
