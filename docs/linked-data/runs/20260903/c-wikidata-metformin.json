@@ -1,0 +1,65 @@
+{
+  "head" : {
+    "vars" : [ "drug", "drugLabel", "atc", "conditionLabel" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "drug" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q19484"
+      },
+      "atc" : {
+        "type" : "literal",
+        "value" : "A10BA02"
+      },
+      "drugLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "metformin"
+      },
+      "conditionLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "diabetes"
+      }
+    }, {
+      "drug" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q19484"
+      },
+      "atc" : {
+        "type" : "literal",
+        "value" : "A10BA02"
+      },
+      "drugLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "metformin"
+      },
+      "conditionLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "hyperglycemia"
+      }
+    }, {
+      "drug" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q19484"
+      },
+      "atc" : {
+        "type" : "literal",
+        "value" : "A10BA02"
+      },
+      "drugLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "metformin"
+      },
+      "conditionLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "maturity-onset diabetes of the young type 2"
+      }
+    } ]
+  }
+}

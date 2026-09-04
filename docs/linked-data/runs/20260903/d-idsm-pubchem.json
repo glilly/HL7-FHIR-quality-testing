@@ -1,0 +1,105 @@
+{
+	"head": { "vars": [ "p", "o" ]},
+	"results": { "bindings": [
+	{
+		"p": { "type": "uri", "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" },
+		"o": { "type": "uri", "value": "http://rdf.ncbi.nlm.nih.gov/pubchem/vocabulary#Compound" }
+	},
+	{
+		"p": { "type": "uri", "value": "http://semanticscience.org/resource/SIO_000008" },
+		"o": { "type": "uri", "value": "http://rdf.ncbi.nlm.nih.gov/pubchem/descriptor/CID4091_Compound_Identifier" }
+	},
+	{
+		"p": { "type": "uri", "value": "http://purl.org/dc/terms/identifier" },
+		"o": { "type": "literal", "value": "4091", "datatype": "http://www.w3.org/2001/XMLSchema#string" }
+	},
+	{
+		"p": { "type": "uri", "value": "http://semanticscience.org/resource/has-attribute" },
+		"o": { "type": "uri", "value": "http://rdf.ncbi.nlm.nih.gov/pubchem/descriptor/CID4091_Compound_Identifier" }
+	},
+	{
+		"p": { "type": "uri", "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" },
+		"o": { "type": "uri", "value": "http://semanticscience.org/resource/SIO_010004" }
+	},
+	{
+		"p": { "type": "uri", "value": "http://semanticscience.org/resource/SIO_000008" },
+		"o": { "type": "uri", "value": "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID4091_Molfile" }
+	},
+	{
+		"p": { "type": "uri", "value": "http://www.w3.org/2004/02/skos/core#prefLabel" },
+		"o": { "type": "literal", "value": "Metformin", "datatype": "http://www.w3.org/2001/XMLSchema#string" }
+	},
+	{
+		"p": { "type": "uri", "value": "http://www.w3.org/2000/01/rdf-schema#label" },
+		"o": { "type": "literal", "value": "Metformin", "datatype": "http://www.w3.org/2001/XMLSchema#string" }
+	},
+	{
+		"p": { "type": "uri", "value": "http://semanticscience.org/resource/CHEMINF_000455" },
+		"o": { "type": "uri", "value": "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID136638624" }
+	},
+	{
+		"p": { "type": "uri", "value": "http://semanticscience.org/resource/CHEMINF_000455" },
+		"o": { "type": "uri", "value": "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID45039708" }
+	},
+	{
+		"p": { "type": "uri", "value": "http://semanticscience.org/resource/CHEMINF_000455" },
+		"o": { "type": "uri", "value": "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID73388104" }
+	},
+	{
+		"p": { "type": "uri", "value": "http://semanticscience.org/resource/CHEMINF_000455" },
+		"o": { "type": "uri", "value": "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID124202877" }
+	},
+	{
+		"p": { "type": "uri", "value": "http://purl.obolibrary.org/obo/RO_0000087" },
+		"o": { "type": "uri", "value": "http://rdf.ncbi.nlm.nih.gov/pubchem/vocabulary#FDAApprovedDrugs" }
+	},
+	{
+		"p": { "type": "uri", "value": "http://purl.obolibrary.org/obo/has-role" },
+		"o": { "type": "uri", "value": "http://rdf.ncbi.nlm.nih.gov/pubchem/vocabulary#FDAApprovedDrugs" }
+	},
+	{
+		"p": { "type": "uri", "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" },
+		"o": { "type": "uri", "value": "http://purl.bioontology.org/ontology/NDFRT/N00006631" }
+	},
+	{
+		"p": { "type": "uri", "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" },
+		"o": { "type": "uri", "value": "http://purl.obolibrary.org/obo/CHEBI_6801" }
+	},
+	{
+		"p": { "type": "uri", "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" },
+		"o": { "type": "uri", "value": "http://purl.bioontology.org/ontology/SNOMEDCT/109081006" }
+	},
+	{
+		"p": { "type": "uri", "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" },
+		"o": { "type": "uri", "value": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C61612" }
+	},
+	{
+		"p": { "type": "uri", "value": "http://rdf.ncbi.nlm.nih.gov/pubchem/vocabulary#is_active_ingredient_of" },
+		"o": { "type": "uri", "value": "http://purl.bioontology.org/ontology/SNOMEDCT/109081006" }
+	},
+	{
+		"p": { "type": "uri", "value": "http://rdf.ncbi.nlm.nih.gov/pubchem/vocabulary#is_active_ingredient_of" },
+		"o": { "type": "uri", "value": "http://purl.bioontology.org/ontology/NDFRT/N00021984" }
+	},
+	{
+		"p": { "type": "uri", "value": "http://semanticscience.org/resource/SIO_000008" },
+		"o": { "type": "uri", "value": "http://rdf.ncbi.nlm.nih.gov/pubchem/descriptor/CID4091_Hydrogen_Bond_Acceptor_Count" }
+	},
+	{
+		"p": { "type": "uri", "value": "http://semanticscience.org/resource/SIO_000008" },
+		"o": { "type": "uri", "value": "http://rdf.ncbi.nlm.nih.gov/pubchem/descriptor/CID4091_Defined_Atom_Stereo_Count" }
+	},
+	{
+		"p": { "type": "uri", "value": "http://semanticscience.org/resource/SIO_000008" },
+		"o": { "type": "uri", "value": "http://rdf.ncbi.nlm.nih.gov/pubchem/descriptor/CID4091_Defined_Bond_Stereo_Count" }
+	},
+	{
+		"p": { "type": "uri", "value": "http://semanticscience.org/resource/SIO_000008" },
+		"o": { "type": "uri", "value": "http://rdf.ncbi.nlm.nih.gov/pubchem/descriptor/CID4091_Undefined_Bond_Stereo_Count" }
+	},
+	{
+		"p": { "type": "uri", "value": "http://semanticscience.org/resource/SIO_000008" },
+		"o": { "type": "uri", "value": "http://rdf.ncbi.nlm.nih.gov/pubchem/descriptor/CID4091_Isotope_Atom_Count" }
+	}
+	]}
+}
