@@ -1,0 +1,45 @@
+{
+  "resourceType": "Bundle",
+  "type": "collection",
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "ResearchSubject",
+        "id": "cand-NCT06862739-101109",
+        "status": "candidate",
+        "study": {
+          "reference": "ResearchStudy/trial-NCT06862739"
+        },
+        "individual": {
+          "reference": "Patient/101109"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ResearchSubject",
+        "id": "cand-NCT06862739-101119",
+        "status": "candidate",
+        "study": {
+          "reference": "ResearchStudy/trial-NCT06862739"
+        },
+        "individual": {
+          "reference": "Patient/101119"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ResearchSubject",
+        "id": "cand-NCT06862739-101124",
+        "status": "candidate",
+        "study": {
+          "reference": "ResearchStudy/trial-NCT06862739"
+        },
+        "individual": {
+          "reference": "Patient/101124"
+        }
+      }
+    }
+  ]
+}

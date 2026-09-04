@@ -1,0 +1,18 @@
+{
+  "resourceType": "ResearchStudy",
+  "id": "trial-NCT05413057",
+  "identifier": [
+    {
+      "system": "https://clinicaltrials.gov",
+      "value": "NCT05413057"
+    }
+  ],
+  "title": "An OS to Evaluate Effectiveness and Safety of Fixed-dose Combinations of FMS/AML or FMS/AML/HCTZ",
+  "status": "active",
+  "description": "* Inclusion Criteria:\n\n  1. Patients who voluntarily consent on the informed consent form and understand the study's purpose, methods, and so on\n  2. Males and females over the age of 19\n  3. Patients who have been diagnosed with essential hypertension and plan to be treated with fimasartan/amlodipine or fimasartan/amlodipine/hydrochlorothiazide\n\n     If the patient is applicable, one of the following;\n     * If the patients have severe hypertension, stage 2 or higher(sit SBP \u2265 160 mmHg or sit DBP \u2265 100 mmHg), or high-risk hypertension (The cardiovascular risk score of the 2018 hypertension treatment guidelines by the Korean Society of Hypertension is applied.) The patients have never been treated with antihypertensive drugs for essential hypertension.\n     * If the patients are on concomitant administration of fimasartan/amlodipin and hydrochlorothiazide for essential hypertension or, If the patients are on concomitant administration of a fimasartan/hydrochlorothiazide combination and amlodipine for essential hypertension\n     * If the patients have a blood pressure of sitSBP \u2265 140 mmHg or sitDBP \u2265 90 mmHg even though they have been treated with antihypertensive drugs for essential hypertension\n  4. The patients who understand this study and are available to participate in this study until the end of the study period with a cooperative attitude.\n* Exclusion Criteria:\n\n  1. The patients who are suspected of having secondary hypertension or confirmed to have secondary hypertension\n  2. The patients who are contraindicated to taking fimasartan complex according to the drug labelling\n  3. The patients who are currently participation in another clinical trials (Drugs or medical devices) The patients who took an investigational drug within 12 weeks of the enrollment date\n\n     However, the following patients can participate in this study:\n\n     The patients who are currently enrolled in non-interventional clinical studies or who are being followed up on after the administration of investigational drugs has ended.\n  4. The patients who are not suitable for this study by the investigators",
+  "note": [
+    {
+      "text": "Structured criteria: 2026/research/trial-criteria.json; heuristic match run 2026-09-04T05:17:09Z on https://devfhir.vistaplex.org (synthetic cohort)"
+    }
+  ]
+}

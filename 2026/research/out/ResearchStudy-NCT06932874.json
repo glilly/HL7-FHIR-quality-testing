@@ -1,0 +1,18 @@
+{
+  "resourceType": "ResearchStudy",
+  "id": "trial-NCT06932874",
+  "identifier": [
+    {
+      "system": "https://clinicaltrials.gov",
+      "value": "NCT06932874"
+    }
+  ],
+  "title": "Metformin Hydrochloride Sustained-release Tablets (\u2162) in Patients With Type 2 Diabetes Mellitus Complicated With Coronary Heart Disease",
+  "status": "active",
+  "description": "Inclusion Criteria:\n\n* Age: 30 - 75 years old; BMI: 18.5 - 35 kg/m\u00b2\n* T2DM meets the WHO standards of 1999, with HbA1c ranging from 7% to 9%, and fasting blood glucose ranging from 7 to 10 mmol/L.\n\n  1. Newly diagnosed T2DM patients who only receive dietary control and exercise therapy\n  2. T2DM patients who have been diagnosed before, with HbA1c still not reaching the standard after oral hypoglycemic drug treatment for at least 12 weeks, and the oral hypoglycemic drugs include two types: dipeptidyl peptidase-4 inhibitors (DPP-4i) and sodium-glucose cotransporter 2 inhibitors (SGLT2i), and have taken these drugs for at least 4 weeks.\n* Before admission or during this admission, coronary heart disease was diagnosed by coronary angiography, and standard coronary heart disease routine treatment was carried out, including standard antiplatelet therapy, lipid-lowering therapy, and control of ventricular rate. Beta-blockers were uniformly treated with metoprolol sustained-release tablets, and antiplatelet drugs were uniformly treated with aspirin to avoid the influence of coronary heart disease drugs on hypoglycemic effects.\n\nExclusion Criteria:\n\n* Within 4 weeks prior to enrollment, used glucagon-like peptide-1 receptor agonists (GLP-1RA) or metformin.\n* Within 4 weeks prior to enrollment, had acute coronary syndrome, severe heart disease other than coronary artery disease, or chronic heart failure (NYHA IV grade).\n* Patients who had failed PCI, planned staged revascularization, or had other types of stent implantation in the past.\n* Patients with acute or chronic pancreatitis, severe neurological diseases, renal dialysis, advanced liver disease, other tumors, organ transplant post-operation, patients with a history of hormone therapy.\n* Special types of diabetes, and endocrine diseases such as hyperthyroidism, hypothyroidism, primary aldosteronism, pheochromocytoma, Cushing's syndrome, congenital adrenal cortical hypofunction, pituitary tumor and hypopituitarism, multiple endocrine neoplasia type 2 or familial medullary thyroid carcinoma family or personal history, personal history of non-familial medullary thyroid carcinoma.\n* Pregnant, in the process of pregnancy or lactation during the postpartum period.\n* Within the past 12 weeks, had acute or chronic infectious diseases, fever, anemia, dehydration and electrolyte imbalance, elevated blood lactate level (reaching 2-4 mmol/L).\n* Had lactate acidosis in the past (blood lactate \u2265 5 mmol/L, pH value \u2264 7.35 (arterial blood)).\n* Liver and kidney dysfunction, with alanine aminotransferase and aspartate aminotransferase \u2265 3 times the upper limit, glomerular filtration rate \u2264 45 ml/min/min.\n* Had esophageal reflux, gastric bleeding, peptic ulcer or other severe gastrointestinal diseases within the past 12 weeks.",
+  "note": [
+    {
+      "text": "Structured criteria: 2026/research/trial-criteria.json; heuristic match run 2026-09-04T05:17:09Z on https://devfhir.vistaplex.org (synthetic cohort)"
+    }
+  ]
+}

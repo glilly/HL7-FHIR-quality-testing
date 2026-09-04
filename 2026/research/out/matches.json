@@ -1,0 +1,231 @@
+{
+  "generatedAt": "2026-09-04T05:17:09Z",
+  "base": "https://devfhir.vistaplex.org",
+  "trials": {
+    "NCT06862739": {
+      "title": "Glycemic Control With Triple Pathway Approach Through Empagliflozin, Linagliptin and Metformin Combination",
+      "shortName": "Empagliflozin/linagliptin/metformin triple therapy in T2D",
+      "status": "RECRUITING",
+      "eligible": [
+        "101109",
+        "101119",
+        "101124"
+      ],
+      "nearMiss": {
+        "101084": [
+          "t2d"
+        ],
+        "101095": [
+          "t2d"
+        ],
+        "101096": [
+          "metformin"
+        ],
+        "101098": [
+          "t2d"
+        ],
+        "101102": [
+          "metformin"
+        ],
+        "101122": [
+          "t2d"
+        ]
+      },
+      "criteria": {
+        "t2d": {
+          "desc": "Diagnosed with type II diabetes (SNOMED 44054006)",
+          "count": 6
+        },
+        "metformin": {
+          "desc": "Already on anti-diabetic agent incl. metformin (RxNorm 860975/106892)",
+          "count": 8
+        },
+        "a1c": {
+          "desc": "Has HbA1c result on record (LOINC 4548-4; >=8% threshold left to CQL stage)",
+          "count": 24
+        }
+      },
+      "pool": 25
+    },
+    "NCT06932874": {
+      "title": "Metformin Hydrochloride Sustained-release Tablets (\u2162) in Patients With Type 2 Diabetes Mellitus Complicated With Coronary Heart Disease",
+      "shortName": "Metformin sustained-release in T2D with coronary heart disease",
+      "status": "RECRUITING",
+      "eligible": [],
+      "nearMiss": {
+        "101109": [
+          "chd"
+        ],
+        "101119": [
+          "chd"
+        ],
+        "101124": [
+          "chd"
+        ]
+      },
+      "criteria": {
+        "t2d": {
+          "desc": "Type 2 diabetes (SNOMED 44054006)",
+          "count": 6
+        },
+        "chd": {
+          "desc": "Coronary heart disease (SNOMED 53741008)",
+          "count": 3
+        },
+        "metformin": {
+          "desc": "On metformin (RxNorm 860975)",
+          "count": 3
+        }
+      },
+      "pool": 8
+    },
+    "NCT06826872": {
+      "title": "Efficacy and Safety of SPC1001 in Patients With Essential Hypertension",
+      "shortName": "SPC1001 in essential hypertension",
+      "status": "RECRUITING",
+      "eligible": [
+        "101077",
+        "101084",
+        "101088",
+        "101094",
+        "101095",
+        "101096",
+        "101097",
+        "101098",
+        "101099",
+        "101100"
+      ],
+      "nearMiss": {
+        "101101": [
+          "antihtn"
+        ],
+        "101102": [
+          "antihtn"
+        ],
+        "101103": [
+          "antihtn"
+        ],
+        "101104": [
+          "antihtn"
+        ],
+        "101105": [
+          "antihtn"
+        ],
+        "101106": [
+          "antihtn"
+        ],
+        "101107": [
+          "antihtn"
+        ],
+        "101108": [
+          "antihtn"
+        ],
+        "101109": [
+          "antihtn"
+        ],
+        "101111": [
+          "antihtn"
+        ],
+        "101115": [
+          "antihtn"
+        ],
+        "101122": [
+          "antihtn"
+        ],
+        "101123": [
+          "antihtn"
+        ],
+        "101126": [
+          "antihtn"
+        ],
+        "101127": [
+          "antihtn"
+        ]
+      },
+      "criteria": {
+        "htn": {
+          "desc": "Essential hypertension (SNOMED 59621000)",
+          "count": 27
+        },
+        "antihtn": {
+          "desc": "On antihypertensive (lisinopril/amlodipine/HCTZ RxNorm 314076/308136/310798)",
+          "count": 10
+        }
+      },
+      "pool": 27
+    },
+    "NCT05413057": {
+      "title": "An OS to Evaluate Effectiveness and Safety of Fixed-dose Combinations of FMS/AML or FMS/AML/HCTZ",
+      "shortName": "Fixed-dose combination FMS/AML in hypertension (observational)",
+      "status": "RECRUITING",
+      "eligible": [
+        "101088",
+        "101094",
+        "101095",
+        "101097",
+        "101098",
+        "101099",
+        "101100",
+        "101101",
+        "101104",
+        "101105",
+        "101107",
+        "101108",
+        "101111",
+        "101115"
+      ],
+      "nearMiss": {
+        "101077": [
+          "amlodipine"
+        ],
+        "101084": [
+          "amlodipine"
+        ],
+        "101096": [
+          "amlodipine"
+        ],
+        "101102": [
+          "amlodipine"
+        ],
+        "101103": [
+          "amlodipine"
+        ],
+        "101106": [
+          "amlodipine"
+        ],
+        "101109": [
+          "amlodipine"
+        ],
+        "101110": [
+          "amlodipine"
+        ],
+        "101122": [
+          "amlodipine"
+        ],
+        "101123": [
+          "amlodipine"
+        ],
+        "101125": [
+          "amlodipine"
+        ],
+        "101126": [
+          "amlodipine"
+        ],
+        "101127": [
+          "amlodipine"
+        ]
+      },
+      "criteria": {
+        "htn": {
+          "desc": "Essential hypertension (SNOMED 59621000)",
+          "count": 27
+        },
+        "amlodipine": {
+          "desc": "On amlodipine (RxNorm 308136)",
+          "count": 14
+        }
+      },
+      "pool": 27
+    }
+  }
+}

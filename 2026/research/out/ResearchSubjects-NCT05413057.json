@@ -1,0 +1,188 @@
+{
+  "resourceType": "Bundle",
+  "type": "collection",
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "ResearchSubject",
+        "id": "cand-NCT05413057-101088",
+        "status": "candidate",
+        "study": {
+          "reference": "ResearchStudy/trial-NCT05413057"
+        },
+        "individual": {
+          "reference": "Patient/101088"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ResearchSubject",
+        "id": "cand-NCT05413057-101094",
+        "status": "candidate",
+        "study": {
+          "reference": "ResearchStudy/trial-NCT05413057"
+        },
+        "individual": {
+          "reference": "Patient/101094"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ResearchSubject",
+        "id": "cand-NCT05413057-101095",
+        "status": "candidate",
+        "study": {
+          "reference": "ResearchStudy/trial-NCT05413057"
+        },
+        "individual": {
+          "reference": "Patient/101095"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ResearchSubject",
+        "id": "cand-NCT05413057-101097",
+        "status": "candidate",
+        "study": {
+          "reference": "ResearchStudy/trial-NCT05413057"
+        },
+        "individual": {
+          "reference": "Patient/101097"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ResearchSubject",
+        "id": "cand-NCT05413057-101098",
+        "status": "candidate",
+        "study": {
+          "reference": "ResearchStudy/trial-NCT05413057"
+        },
+        "individual": {
+          "reference": "Patient/101098"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ResearchSubject",
+        "id": "cand-NCT05413057-101099",
+        "status": "candidate",
+        "study": {
+          "reference": "ResearchStudy/trial-NCT05413057"
+        },
+        "individual": {
+          "reference": "Patient/101099"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ResearchSubject",
+        "id": "cand-NCT05413057-101100",
+        "status": "candidate",
+        "study": {
+          "reference": "ResearchStudy/trial-NCT05413057"
+        },
+        "individual": {
+          "reference": "Patient/101100"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ResearchSubject",
+        "id": "cand-NCT05413057-101101",
+        "status": "candidate",
+        "study": {
+          "reference": "ResearchStudy/trial-NCT05413057"
+        },
+        "individual": {
+          "reference": "Patient/101101"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ResearchSubject",
+        "id": "cand-NCT05413057-101104",
+        "status": "candidate",
+        "study": {
+          "reference": "ResearchStudy/trial-NCT05413057"
+        },
+        "individual": {
+          "reference": "Patient/101104"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ResearchSubject",
+        "id": "cand-NCT05413057-101105",
+        "status": "candidate",
+        "study": {
+          "reference": "ResearchStudy/trial-NCT05413057"
+        },
+        "individual": {
+          "reference": "Patient/101105"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ResearchSubject",
+        "id": "cand-NCT05413057-101107",
+        "status": "candidate",
+        "study": {
+          "reference": "ResearchStudy/trial-NCT05413057"
+        },
+        "individual": {
+          "reference": "Patient/101107"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ResearchSubject",
+        "id": "cand-NCT05413057-101108",
+        "status": "candidate",
+        "study": {
+          "reference": "ResearchStudy/trial-NCT05413057"
+        },
+        "individual": {
+          "reference": "Patient/101108"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ResearchSubject",
+        "id": "cand-NCT05413057-101111",
+        "status": "candidate",
+        "study": {
+          "reference": "ResearchStudy/trial-NCT05413057"
+        },
+        "individual": {
+          "reference": "Patient/101111"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ResearchSubject",
+        "id": "cand-NCT05413057-101115",
+        "status": "candidate",
+        "study": {
+          "reference": "ResearchStudy/trial-NCT05413057"
+        },
+        "individual": {
+          "reference": "Patient/101115"
+        }
+      }
+    }
+  ]
+}

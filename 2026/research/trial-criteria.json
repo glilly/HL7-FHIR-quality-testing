@@ -1,0 +1,43 @@
+{
+  "_note": "Hand-structured eligibility criteria for the Phase-3 trial-matching MVP (LINKED_DATA_STRATEGY.md). Each criterion is either a C0X population-SPARQL evidence check (kind=sparql: type + VALUES codes) or a demographic check (kind=age/sex) against the Patient resource. Value thresholds (e.g. HbA1c >= 8%) are presence-only here and flagged cql=true for the confirmation stage — same two-stage pattern as the quality measures.",
+  "trials": {
+    "NCT06862739": {
+      "shortName": "Empagliflozin/linagliptin/metformin triple therapy in T2D",
+      "conditionFocus": "type 2 diabetes",
+      "criteria": [
+        { "id": "t2d", "desc": "Diagnosed with type II diabetes (SNOMED 44054006)", "kind": "sparql", "type": "Condition", "codes": ["44054006"] },
+        { "id": "metformin", "desc": "Already on anti-diabetic agent incl. metformin (RxNorm 860975/106892)", "kind": "sparql", "type": "MedicationRequest", "codes": ["860975", "106892"] },
+        { "id": "a1c", "desc": "Has HbA1c result on record (LOINC 4548-4; >=8% threshold left to CQL stage)", "kind": "sparql", "type": "Observation", "codes": ["4548-4"], "cql": true },
+        { "id": "age", "desc": "Aged 18-80 years", "kind": "age", "min": 18, "max": 80 }
+      ]
+    },
+    "NCT06932874": {
+      "shortName": "Metformin sustained-release in T2D with coronary heart disease",
+      "conditionFocus": "type 2 diabetes + CHD",
+      "criteria": [
+        { "id": "t2d", "desc": "Type 2 diabetes (SNOMED 44054006)", "kind": "sparql", "type": "Condition", "codes": ["44054006"] },
+        { "id": "chd", "desc": "Coronary heart disease (SNOMED 53741008)", "kind": "sparql", "type": "Condition", "codes": ["53741008"] },
+        { "id": "metformin", "desc": "On metformin (RxNorm 860975)", "kind": "sparql", "type": "MedicationRequest", "codes": ["860975"] },
+        { "id": "age", "desc": "Aged 18-80 years", "kind": "age", "min": 18, "max": 80 }
+      ]
+    },
+    "NCT06826872": {
+      "shortName": "SPC1001 in essential hypertension",
+      "conditionFocus": "essential hypertension",
+      "criteria": [
+        { "id": "htn", "desc": "Essential hypertension (SNOMED 59621000)", "kind": "sparql", "type": "Condition", "codes": ["59621000"] },
+        { "id": "antihtn", "desc": "On antihypertensive (lisinopril/amlodipine/HCTZ RxNorm 314076/308136/310798)", "kind": "sparql", "type": "MedicationRequest", "codes": ["314076", "308136", "310798"] },
+        { "id": "age", "desc": "Aged 18-75 years", "kind": "age", "min": 18, "max": 75 }
+      ]
+    },
+    "NCT05413057": {
+      "shortName": "Fixed-dose combination FMS/AML in hypertension (observational)",
+      "conditionFocus": "essential hypertension",
+      "criteria": [
+        { "id": "htn", "desc": "Essential hypertension (SNOMED 59621000)", "kind": "sparql", "type": "Condition", "codes": ["59621000"] },
+        { "id": "amlodipine", "desc": "On amlodipine (RxNorm 308136)", "kind": "sparql", "type": "MedicationRequest", "codes": ["308136"] },
+        { "id": "age", "desc": "Adult (18+)", "kind": "age", "min": 18 }
+      ]
+    }
+  }
+}

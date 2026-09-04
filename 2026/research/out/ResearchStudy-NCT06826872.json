@@ -1,0 +1,18 @@
+{
+  "resourceType": "ResearchStudy",
+  "id": "trial-NCT06826872",
+  "identifier": [
+    {
+      "system": "https://clinicaltrials.gov",
+      "value": "NCT06826872"
+    }
+  ],
+  "title": "Efficacy and Safety of SPC1001 in Patients With Essential Hypertension",
+  "status": "active",
+  "description": "Inclusion Criteria:\n\n* Men and women aged 19 to 75 years whose blood pressure measured at the screening visit meets the following criteria.\n\nExclusion Criteria:\n\n* Patients whose blood pressure measured at the screening and randomization visits meets the criteria of MSSBP \u2265180 mmHg or MSDBP \u2265110 mmHg, among other conditions.",
+  "note": [
+    {
+      "text": "Structured criteria: 2026/research/trial-criteria.json; heuristic match run 2026-09-04T05:17:09Z on https://devfhir.vistaplex.org (synthetic cohort)"
+    }
+  ]
+}

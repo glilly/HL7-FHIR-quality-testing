@@ -1,0 +1,18 @@
+{
+  "resourceType": "ResearchStudy",
+  "id": "trial-NCT06862739",
+  "identifier": [
+    {
+      "system": "https://clinicaltrials.gov",
+      "value": "NCT06862739"
+    }
+  ],
+  "title": "Glycemic Control With Triple Pathway Approach Through Empagliflozin, Linagliptin and Metformin Combination",
+  "status": "active",
+  "description": "Inclusion criteria\n\n1. Patients of any gender\n2. Patients aged between 18-80 years\n3. Patients having HbA1c 8 % or above\n4. Patients diagnosed with type II diabetes (more than at least 06 months)\n5. Patients already on at least 02 or more anti-diabetic agents\n6. Patients not allergic to empagliflozin, linagliptin, or metformin\n\nExclusion criteria\n\n1. Patients with age less than 18\n2. Patients with Type-I diabetes\n3. Patients having diabetes for less than 06 months\n4. Patients on GLP-1 and GIP\n5. Patients who are pregnant or lactating females\n6. Patients with decompensated chronic liver disease (DCLD)\n7. Patients with eGFR less than 30 ml\n8. Patients with end-stage heart failure (NYHA Class 4)\n9. Patients who are allergic to empagliflozin, linagliptin, or metformin\n10. Patients who are not willing to consent\n11. Patients who are unable to give medical history",
+  "note": [
+    {
+      "text": "Structured criteria: 2026/research/trial-criteria.json; heuristic match run 2026-09-04T05:17:09Z on https://devfhir.vistaplex.org (synthetic cohort)"
+    }
+  ]
+}
