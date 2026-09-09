@@ -53,3 +53,17 @@ Registry status: RECRUITING · candidate pool 27 patients
 **Eligible (all criteria): 14** — DFNs 101088, 101094, 101095, 101097, 101098, 101099, 101100, 101101, 101104, 101105, 101107, 101108, 101111, 101115
 Near-miss (one criterion short): 101077 (missing amlodipine); 101084 (missing amlodipine); 101096 (missing amlodipine); 101102 (missing amlodipine); 101103 (missing amlodipine); 101106 (missing amlodipine); 101109 (missing amlodipine); 101110 (missing amlodipine); 101122 (missing amlodipine); 101123 (missing amlodipine); 101125 (missing amlodipine); 101126 (missing amlodipine); 101127 (missing amlodipine)
 
+
+## Confirmation stage — NCT06862739 HbA1c >= 8%
+
+Ran 2026-09-09T18:47:22Z against `https://devfhir.vistaplex.org` (values read from the intake graph via /showfhir — the SPARQL stage's source; threshold applied to the **latest** result).
+
+| DFN | Latest HbA1c | Date | Confirmed |
+|---|---|---|---|
+| 101109 | 6.05% | 2026-04-01 | no |
+| 101119 | 5.4% | 2018-10-31 | no |
+| 101124 | 3.02% | 2020-05-12 | no |
+
+Scorecard: 3 heuristic-eligible -> 0 confirmed (heuristic precision 0%). Recall is 1.0 by construction (value thresholds require a present result). Same two-stage pattern as the CMS quality measures: cheap population SPARQL first, value-accurate confirmation second.
+
+Pool scan: of 24 patients with any HbA1c on record, 2 have a latest value >= 8.0%: DFN 101095 (9.0%), DFN 101096 (9.2%). Cross-reference with the near-miss list: value-qualified patients excluded only by missing diagnosis/medication codes are exactly the chart-review candidates a recruitment workflow should surface.
