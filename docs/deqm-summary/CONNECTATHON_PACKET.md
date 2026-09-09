@@ -1,6 +1,8 @@
 # Connectathon packet — DEQM Summary MeasureReport reporter
 
-Status date: 2026-08-08 (attendance decision **2026-08-20**)  
+Status date: 2026-09-09 (refresh: Individual + Subject-List scenarios
+proven; trial-matching confirmation stage recorded — see "Report types
+proven" below)  
 Track target: prepare for **January 2027 virtual** CMS Quality Reporting
 (QPP & HQR E2E); September Rockville = **shadow only** (not attending).
 See `Vista-on-FHIR/docs/CONNECTATHON_43_SHADOW_AND_JANUARY_PLAN.md`.
@@ -11,6 +13,25 @@ VistaPlex acts as a **DEQM Summary MeasureReport reporter** (QRDA-III
 replacement), not a Cypress/QRDA submitter for this track. The same
 reporter codebase serves **both VistA-lineage (devfhir) and RPMS-lineage
 (rpmsfhir) data** — see the RPMS lane below.
+
+## Report types proven (2026-09-09)
+
+All three DEQM report types now validate (0 actionable errors against
+the STU5 profiles) and are accepted by `deqm-test-server`:
+
+| Type | Profile | Evidence |
+|---|---|---|
+| Summary | `summary-measurereport-deqm` | selected-18 smoke, RPMS multi-measure smoke (`results/`) |
+| Individual | `indv-measurereport-deqm` | per-patient reports in the subject-list transaction; read-back verified (`results/subjectlist-individual-scenarios.md`) |
+| Subject-List | `subjectlist-measurereport-deqm` | `build-deqm-subject-list.py`; CMS165v14 (23 subjects) + CMS122v14 (9) accepted 201/200 (`results/subjectlist-individual-scenarios.md`) |
+
+Adjacent research-lane proof (same population infrastructure): the
+trial-matching **confirmation stage** now applies real value thresholds
+after the SPARQL heuristic — for NCT06862739 (HbA1c ≥ 8%), 3
+heuristic-eligible → 0 value-confirmed, while the pool scan found the 2
+genuinely uncontrolled patients (A1c 9.0/9.2%) sitting in near-miss for
+coding gaps. Two-stage pattern demonstrated end-to-end
+(`2026/research/out/report.md`, published on devfhir `/research/`).
 
 ## Pinned stack
 
