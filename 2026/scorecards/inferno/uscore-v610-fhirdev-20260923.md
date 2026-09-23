@@ -1,3 +1,5 @@
+> Narrative: [`docs/USCORE_INFERNO_RESCORE_2026-09-23.md`](../../docs/USCORE_INFERNO_RESCORE_2026-09-23.md)
+
 SUMMARY=2026/scorecards/inferno/uscore-v610-fhirdev-20260923.md
 ebbdf7-f88f-445b-b88c-3a707d31d152`
 - URL: `https://devfhir.vistaplex.org/fhir`
