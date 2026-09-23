@@ -1,0 +1,340 @@
+SUMMARY=2026/scorecards/inferno/uscore-v700-fhirdev-20260923.md
+db008f-3aa0-46f0-bd4d-fec207c68808`
+- URL: `https://devfhir.vistaplex.org/fhir`
+- Patient IDs: `101090,101114,101115,101116,101120,101121,101119,101065,101077`
+- Session URL: https://inferno.healthit.gov/suites/us_core_v700/5HDVWXegFQw
+
+## Result Counts
+
+- pass: 253
+- fail: 23
+- error: 4
+- skip: 296
+- omit: 1
+
+## Non-Passing Results
+
+- `fail` us_core_v700-us_core_v700_fhir_api-us_core_v700_capability_statement-us_core_conformance_support: Resource does not conform to the base CapabilityStatement profile.
+- `fail` us_core_v700-us_core_v700_fhir_api-us_core_v700_capability_statement: 
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_patient-us_core_v700_patient_death_date_family_search_test: Could not find values for all search params `death-date`, `family`
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_patient-us_core_v700_patient_must_support_test: Could not find name.use:old, name.suffix, name.period.end, deceasedDateTime, address.use:old, address.period.end, Patient.extension:tribalAffiliation in the 9 provided resource(s)
+- `fail` us_core_v700-us_core_v700_fhir_api-us_core_v700_capability_statement-us_core_profile_support: US Core Patient profile not supported
+- `fail` us_core_v700-us_core_v700_fhir_api-us_core_v700_capability_statement-us_core_instantiate: Server CapabilityStatement.instantiates does not include 'http://hl7.org/fhir/us/core/CapabilityStatement/us-core-server'
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_patient: 
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_care_team-us_core_v700_care_team_patient_status_search_test: No CareTeam resources appear to be available. Please use patients with more information
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_care_team-us_core_v700_care_team_validation_test: No CareTeam resources conforming to the http://hl7.org/fhir/us/core/StructureDefinition/us-core-careteam profile were returned
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_care_plan-us_core_v700_care_plan_patient_category_status_date_search_test: No CarePlan resources appear to be available. Please use patients with more information
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_care_plan-us_core_v700_care_plan_patient_category_date_search_test: No CarePlan resources appear to be available. Please use patients with more information
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_care_team-us_core_v700_care_team_role_search_test: Could not find values for all search params `role`
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_care_team-us_core_v700_care_team_patient_role_search_test: Could not find values for all search params `patient`, `role`
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_care_team-us_core_v700_care_team_must_support_test: No CareTeam resources were found
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_care_team-us_core_v700_care_team_read_test: No CareTeam resources appear to be available. Please use patients with more information.
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_care_team-us_core_v700_care_team_reference_resolution_test: No CareTeam resources appear to be available. Please use patients with more information.
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_care_team-us_core_v700_care_team_provenance_revinclude_search_test: No Provenance resources appear to be available. Please use patients with more information
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_care_team: 
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_condition_problems_health_concerns: 
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_condition_problems_health_concerns-us_core_v700_condition_problems_health_concerns_patient_category_encounter_search_test: Could not find values for all search params `patient`, `category`, `encounter`
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_condition_problems_health_concerns-us_core_v700_condition_problems_health_concerns_patient__lastUpdated_search_test: Could not find values for all search params `patient`, `_lastUpdated`
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_condition_problems_health_concerns-us_core_v700_condition_problems_health_concerns_must_support_test: Could not find meta.lastUpdated in the 163 provided resource(s)
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_condition_encounter_diagnosis-us_core_v700_condition_encounter_diagnosis_patient__lastUpdated_search_test: Could not find values for all search params `patient`, `_lastUpdated`
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_coverage-us_core_v700_coverage_read_test: No Coverage resources appear to be available. Please use patients with more information.
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_coverage-us_core_v700_coverage_reference_resolution_test: No Coverage resources appear to be available. Please use patients with more information.
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_device-us_core_v700_device_patient_search_test: No Device resources appear to be available. Please use patients with more information
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_device-us_core_v700_device_validation_test: No Device resources conforming to the http://hl7.org/fhir/us/core/StructureDefinition/us-core-implantable-device profile were returned
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_coverage-us_core_v700_coverage_patient_search_test: No Coverage resources appear to be available. Please use patients with more information
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_coverage-us_core_v700_coverage_must_support_test: No Coverage resources were found
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_device-us_core_v700_device_patient_status_search_test: Could not find values for all search params `patient`, `status`
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_device-us_core_v700_device_read_test: No Device resources appear to be available. Please use patients with more information.
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_device-us_core_v700_device_provenance_revinclude_search_test: No Provenance resources appear to be available. Please use patients with more information
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_device: 
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_diagnostic_report_note-us_core_v700_diagnostic_report_note_validation_test: No DiagnosticReport resources conforming to the http://hl7.org/fhir/us/core/StructureDefinition/us-core-diagnosticreport-note profile were returned
+- `error` us_core_v700-us_core_v700_fhir_api-us_core_v700_diagnostic_report_lab-us_core_v700_diagnostic_report_lab_patient_category_search_test: Error: wrong constant name synthetichealth  /usr/local/bundle/gems/fhir_client-6.2.0/lib/fhir_client/ext/reference.rb:85:in `const_get'
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_coverage-us_core_v700_coverage_provenance_revinclude_search_test: No Provenance resources appear to be available. Please use patients with more information
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_coverage: 
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_device-us_core_v700_device_must_support_test: No Device resources were found
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_diagnostic_report_note-us_core_v700_diagnostic_report_note_patient_category_search_test: No DiagnosticReport resources appear to be available. Please use patients with more information
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_diagnostic_report_note-us_core_v700_diagnostic_report_note_patient_code_search_test: Could not find values for all search params `patient`, `code`
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_diagnostic_report_note-us_core_v700_diagnostic_report_note_patient_category_date_search_test: Could not find values for all search params `patient`, `category`, `date`
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_diagnostic_report_note-us_core_v700_diagnostic_report_note_patient_code_date_search_test: Could not find values for all search params `patient`, `code`, `date`
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_diagnostic_report_note-us_core_v700_diagnostic_report_note_patient_status_search_test: Could not find values for all search params `patient`, `status`
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_diagnostic_report_note-us_core_v700_diagnostic_report_note_patient_category__lastUpdated_search_test: Could not find values for all search params `patient`, `category`, `_lastUpdated`
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_diagnostic_report_note-us_core_v700_diagnostic_report_note_must_support_test: No DiagnosticReport resources were found
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_coverage-us_core_v700_coverage_validation_test: No Coverage resources conforming to the http://hl7.org/fhir/us/core/StructureDefinition/us-core-coverage profile were returned
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_device-us_core_v700_device_patient_type_search_test: Could not find values for all search params `patient`, `type`
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_device-us_core_v700_device_reference_resolution_test: No Device resources appear to be available. Please use patients with more information.
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_diagnostic_report_note-us_core_v700_diagnostic_report_note_provenance_revinclude_search_test: No Provenance resources appear to be available. Please use patients with more information
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_diagnostic_report_note: 
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_diagnostic_report_lab-us_core_v700_diagnostic_report_lab_must_support_test: Could not find meta.lastUpdated in the 16 provided resource(s)
+- `error` us_core_v700-us_core_v700_fhir_api-us_core_v700_diagnostic_report_lab: 
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_diagnostic_report_note-us_core_v700_diagnostic_report_note_read_test: No DiagnosticReport resources appear to be available. Please use patients with more information.
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_diagnostic_report_note-us_core_v700_diagnostic_report_note_reference_resolution_test: No DiagnosticReport resources appear to be available. Please use patients with more information.
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_diagnostic_report_lab-us_core_v700_diagnostic_report_lab_reference_resolution_test: Could not resolve and validate any Must Support references for encounter element: Reference(http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter), performer element: Reference(http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner)
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_diagnostic_report_lab-us_core_v700_diagnostic_report_lab_patient_category__lastUpdated_search_test: Could not find values for all search params `patient`, `category`, `_lastUpdated`
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_document_reference: 
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_document_reference-us_core_v700_document_reference_reference_resolution_test: Could not resolve and validate any Must Support references for author element: Reference(http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner)
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_encounter-us_core_v700_encounter_reference_resolution_test: Could not resolve and validate any Must Support references for reasonReference element: Reference(http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition-problems-health-concerns)
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_goal-us_core_v700_goal_read_test: No Goal resources appear to be available. Please use patients with more information.
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_goal-us_core_v700_goal_provenance_revinclude_search_test: No Provenance resources appear to be available. Please use patients with more information
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_goal: 
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_encounter-us_core_v700_encounter_patient__lastUpdated_search_test: Could not find values for all search params `patient`, `_lastUpdated`
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_encounter-us_core_v700_encounter_must_support_test: Could not find meta.lastUpdated in the 519 provided resource(s)
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_goal-us_core_v700_goal_must_support_test: No Goal resources were found
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_immunization-us_core_v700_immunization_patient_date_search_test: No Immunization resources appear to be available. Please use patients with more information
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_immunization-us_core_v700_immunization_must_support_test: Could not find location in the 31 provided resource(s)
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_medication_dispense-us_core_v700_medication_dispense_read_test: No MedicationDispense resources appear to be available. Please use patients with more information.
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_medication_dispense-us_core_v700_medication_dispense_provenance_revinclude_search_test: No Provenance resources appear to be available. Please use patients with more information
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_goal-us_core_v700_goal_patient_search_test: No Goal resources appear to be available. Please use patients with more information
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_goal-us_core_v700_goal_patient_target_date_search_test: Could not find values for all search params `patient`, `target-date`
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_goal-us_core_v700_goal_patient_lifecycle_status_search_test: Could not find values for all search params `patient`, `lifecycle-status`
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_goal-us_core_v700_goal_patient_description_search_test: Could not find values for all search params `patient`, `description`
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_goal-us_core_v700_goal_reference_resolution_test: No Goal resources appear to be available. Please use patients with more information.
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_immunization: 
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_medication_dispense-us_core_v700_medication_dispense_must_support_test: No MedicationDispense resources were found
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_encounter: 
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_goal-us_core_v700_goal_validation_test: No Goal resources conforming to the http://hl7.org/fhir/us/core/StructureDefinition/us-core-goal profile were returned
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_medication_dispense-us_core_v700_medication_dispense_patient_search_test: No MedicationDispense resources appear to be available. Please use patients with more information
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_medication_dispense-us_core_v700_medication_dispense_patient_status_type_search_test: Could not find values for all search params `patient`, `status`, `type`
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_medication_dispense-us_core_v700_medication_dispense_validation_test: No MedicationDispense resources conforming to the http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationdispense profile were returned
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_medication_dispense-us_core_v700_medication_dispense_patient_status_search_test: Could not find values for all search params `patient`, `status`
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_medication_dispense-us_core_v700_medication_dispense_reference_resolution_test: No MedicationDispense resources appear to be available. Please use patients with more information.
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_medication_dispense: 
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_medication_request-us_core_v700_medication_request_must_support_test: Could not find category, reportedBoolean, reportedReference, encounter, reasonCode, reasonReference, dosageInstruction.doseAndRate, dosageInstruction.doseAndRate.doseQuantity, MedicationRequest.category:us-core, MedicationRequest.extension:medicationAdherence in the 61 provided resource(s)
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_medication_request-us_core_v700_medication_request_patient_intent_encounter_search_test: Could not find values for all search params `patient`, `intent`, `encounter`
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_medication_request-us_core_v700_medication_request_reference_resolution_test: Could not resolve and validate any Must Support references for requester element: Reference(http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner)
+- `fail` us_core_v700-us_core_v700_fhir_api-us_core_v700_observation_lab-us_core_v700_observation_lab_validation_test: Resource does not conform to the profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab|7.0.0
+- `fail` us_core_v700-us_core_v700_fhir_api-us_core_v700_observation_lab: 
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_observation_pregnancystatus-us_core_v700_observation_pregnancystatus_must_support_test: No Observation resources were found
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_observation_pregnancyintent-us_core_v700_observation_pregnancyintent_read_test: No Observation resources appear to be available. Please use patients with more information.
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_observation_pregnancyintent-us_core_v700_observation_pregnancyintent_provenance_revinclude_search_test: No Provenance resources appear to be available. Please use patients with more information
+- `omit` us_core_v700-us_core_v700_fhir_api-us_core_v700_medication_request-us_core_v700_medication_validation_test: No Medication resources provided so the http://hl7.org/fhir/us/core/StructureDefinition/us-core-medication profile does not apply
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_medication_request: 
+- `fail` us_core_v700-us_core_v700_fhir_api-us_core_v700_observation_lab-us_core_v700_observation_lab_patient_category__lastUpdated_search_test: Observation/101090-quality-cms122-hba1c did not match the search parameters: * Expected: 2016-03-09T15:29:58.328+00:00 * Found: 
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_observation_lab-us_core_v700_observation_lab_reference_resolution_test: Could not resolve and validate any Must Support references for encounter element: Reference(http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter)
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_observation_pregnancystatus-us_core_v700_observation_pregnancystatus_validation_test: No Observation resources conforming to the http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-pregnancystatus profile were returned
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_observation_pregnancyintent-us_core_v700_observation_pregnancyintent_patient_code_search_test: No Observation resources appear to be available. Please use patients with more information
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_observation_pregnancyintent-us_core_v700_observation_pregnancyintent_patient_category_date_search_test: Could not find values for all search params `patient`, `category`, `date`
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_observation_pregnancyintent-us_core_v700_observation_pregnancyintent_patient_code_date_search_test: Could not find values for all search params `patient`, `code`, `date`
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_observation_pregnancyintent-us_core_v700_observation_pregnancyintent_patient_category_status_search_test: Could not find values for all search params `patient`, `category`, `status`
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_observation_pregnancyintent-us_core_v700_observation_pregnancyintent_patient_category__lastUpdated_search_test: Could not find values for all search params `patient`, `category`, `_lastUpdated`
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_observation_pregnancyintent-us_core_v700_observation_pregnancyintent_patient_category_search_test: Could not find values for all search params `patient`, `category`
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_observation_pregnancystatus-us_core_v700_observation_pregnancystatus_read_test: No Observation resources appear to be available. Please use patients with more information.
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_observation_pregnancystatus-us_core_v700_observation_pregnancystatus_provenance_revinclude_search_test: No Provenance resources appear to be available. Please use patients with more information
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_observation_pregnancystatus: 
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_observation_pregnancyintent-us_core_v700_observation_pregnancyintent_must_support_test: No Observation resources were found
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_observation_occupation-us_core_v700_observation_occupation_patient_code_search_test: No Observation resources appear to be available. Please use patients with more information
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_observation_pregnancystatus-us_core_v700_observation_pregnancystatus_patient_code_search_test: No Observation resources appear to be available. Please use patients with more information
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_observation_pregnancystatus-us_core_v700_observation_pregnancystatus_patient_category_date_search_test: Could not find values for all search params `patient`, `category`, `date`
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_observation_pregnancystatus-us_core_v700_observation_pregnancystatus_patient_code_date_search_test: Could not find values for all search params `patient`, `code`, `date`
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_observation_pregnancystatus-us_core_v700_observation_pregnancystatus_patient_category_status_search_test: Could not find values for all search params `patient`, `category`, `status`
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_observation_pregnancystatus-us_core_v700_observation_pregnancystatus_patient_category__lastUpdated_search_test: Could not find values for all search params `patient`, `category`, `_lastUpdated`
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_observation_pregnancystatus-us_core_v700_observation_pregnancystatus_patient_category_search_test: Could not find values for all search params `patient`, `category`
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_observation_pregnancystatus-us_core_v700_observation_pregnancystatus_reference_resolution_test: No Observation resources appear to be available. Please use patients with more information.
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_observation_pregnancyintent-us_core_v700_observation_pregnancyintent_validation_test: No Observation resources conforming to the http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-pregnancyintent profile were returned
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_observation_occupation-us_core_v700_observation_occupation_must_support_test: No Observation resources were found
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_observation_pregnancyintent-us_core_v700_observation_pregnancyintent_reference_resolution_test: No Observation resources appear to be available. Please use patients with more information.
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_observation_occupation-us_core_v700_observation_occupation_read_test: No Observation resources appear to be available. Please use patients with more information.
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_observation_occupation-us_core_v700_observation_occupation_provenance_revinclude_search_test: No Provenance resources appear to be available. Please use patients with more information
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_observation_occupation: 
+- `fail` us_core_v700-us_core_v700_fhir_api-us_core_v700_simple_observation-us_core_v700_simple_observation_validation_test: Resource does not conform to the profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-simple-observation|7.0.0
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_treatment_intervention_preference-us_core_v700_treatment_intervention_preference_patient_code_search_test: No Observation resources appear to be available. Please use patients with more information
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_treatment_intervention_preference-us_core_v700_treatment_intervention_preference_patient_category_date_search_test: Could not find values for all search params `patient`, `category`, `date`
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_observation_pregnancyintent: 
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_observation_occupation-us_core_v700_observation_occupation_validation_test: No Observation resources conforming to the http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-occupation profile were returned
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_observation_occupation-us_core_v700_observation_occupation_patient_category_date_search_test: Could not find values for all search params `patient`, `category`, `date`
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_observation_occupation-us_core_v700_observation_occupation_patient_code_date_search_test: Could not find values for all search params `patient`, `code`, `date`
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_observation_occupation-us_core_v700_observation_occupation_patient_category_status_search_test: Could not find values for all search params `patient`, `category`, `status`
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_observation_occupation-us_core_v700_observation_occupation_patient_category__lastUpdated_search_test: Could not find values for all search params `patient`, `category`, `_lastUpdated`
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_observation_occupation-us_core_v700_observation_occupation_patient_category_search_test: Could not find values for all search params `patient`, `category`
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_observation_occupation-us_core_v700_observation_occupation_reference_resolution_test: No Observation resources appear to be available. Please use patients with more information.
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_respiratory_rate-us_core_v700_respiratory_rate_patient_category__lastUpdated_search_test: Could not find values for all search params `patient`, `category`, `_lastUpdated`
+- `fail` us_core_v700-us_core_v700_fhir_api-us_core_v700_simple_observation-us_core_v700_simple_observation_patient_category__lastUpdated_search_test: Observation/101090-quality-cms122-hba1c did not match the search parameters: * Expected: 2016-03-09T15:29:58.328+00:00 * Found: 
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_simple_observation-us_core_v700_simple_observation_must_support_test: Could not find valueBoolean in the 1842 provided resource(s)
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_treatment_intervention_preference-us_core_v700_treatment_intervention_preference_provenance_revinclude_search_test: No Provenance resources appear to be available. Please use patients with more information
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_treatment_intervention_preference: 
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_care_experience_preference-us_core_v700_care_experience_preference_must_support_test: No Observation resources were found
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_simple_observation-us_core_v700_simple_observation_reference_resolution_test: Could not resolve and validate any Must Support references for derivedFrom element: Reference
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_treatment_intervention_preference-us_core_v700_treatment_intervention_preference_must_support_test: No Observation resources were found
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_care_experience_preference-us_core_v700_care_experience_preference_read_test: No Observation resources appear to be available. Please use patients with more information.
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_care_experience_preference-us_core_v700_care_experience_preference_provenance_revinclude_search_test: No Provenance resources appear to be available. Please use patients with more information
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_care_experience_preference: 
+- `fail` us_core_v700-us_core_v700_fhir_api-us_core_v700_simple_observation: 
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_treatment_intervention_preference-us_core_v700_treatment_intervention_preference_reference_resolution_test: No Observation resources appear to be available. Please use patients with more information.
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_care_experience_preference-us_core_v700_care_experience_preference_validation_test: No Observation resources conforming to the http://hl7.org/fhir/us/core/StructureDefinition/us-core-care-experience-preference profile were returned
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_treatment_intervention_preference-us_core_v700_treatment_intervention_preference_patient_code_date_search_test: Could not find values for all search params `patient`, `code`, `date`
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_treatment_intervention_preference-us_core_v700_treatment_intervention_preference_patient_category_status_search_test: Could not find values for all search params `patient`, `category`, `status`
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_treatment_intervention_preference-us_core_v700_treatment_intervention_preference_patient_category__lastUpdated_search_test: Could not find values for all search params `patient`, `category`, `_lastUpdated`
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_treatment_intervention_preference-us_core_v700_treatment_intervention_preference_patient_category_search_test: Could not find values for all search params `patient`, `category`
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_treatment_intervention_preference-us_core_v700_treatment_intervention_preference_read_test: No Observation resources appear to be available. Please use patients with more information.
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_treatment_intervention_preference-us_core_v700_treatment_intervention_preference_validation_test: No Observation resources conforming to the http://hl7.org/fhir/us/core/StructureDefinition/us-core-treatment-intervention-preference profile were returned
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_care_experience_preference-us_core_v700_care_experience_preference_patient_code_search_test: No Observation resources appear to be available. Please use patients with more information
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_care_experience_preference-us_core_v700_care_experience_preference_patient_category_date_search_test: Could not find values for all search params `patient`, `category`, `date`
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_care_experience_preference-us_core_v700_care_experience_preference_patient_code_date_search_test: Could not find values for all search params `patient`, `code`, `date`
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_care_experience_preference-us_core_v700_care_experience_preference_patient_category_status_search_test: Could not find values for all search params `patient`, `category`, `status`
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_care_experience_preference-us_core_v700_care_experience_preference_patient_category__lastUpdated_search_test: Could not find values for all search params `patient`, `category`, `_lastUpdated`
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_care_experience_preference-us_core_v700_care_experience_preference_patient_category_search_test: Could not find values for all search params `patient`, `category`
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_care_experience_preference-us_core_v700_care_experience_preference_reference_resolution_test: No Observation resources appear to be available. Please use patients with more information.
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_heart_rate-us_core_v700_heart_rate_patient_category__lastUpdated_search_test: Could not find values for all search params `patient`, `category`, `_lastUpdated`
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_pediatric_weight_for_height-us_core_v700_pediatric_weight_for_height_read_test: No Observation resources appear to be available. Please use patients with more information.
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_pediatric_weight_for_height-us_core_v700_pediatric_weight_for_height_provenance_revinclude_search_test: No Provenance resources appear to be available. Please use patients with more information
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_pediatric_weight_for_height: 
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_pediatric_weight_for_height-us_core_v700_pediatric_weight_for_height_must_support_test: No Observation resources were found
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_pulse_oximetry-us_core_v700_pulse_oximetry_patient_category__lastUpdated_search_test: Could not find values for all search params `patient`, `category`, `_lastUpdated`
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_pediatric_weight_for_height-us_core_v700_pediatric_weight_for_height_patient_code_search_test: No Observation resources appear to be available. Please use patients with more information
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_pediatric_weight_for_height-us_core_v700_pediatric_weight_for_height_patient_category_date_search_test: Could not find values for all search params `patient`, `category`, `date`
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_pediatric_weight_for_height-us_core_v700_pediatric_weight_for_height_patient_code_date_search_test: Could not find values for all search params `patient`, `code`, `date`
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_pediatric_weight_for_height-us_core_v700_pediatric_weight_for_height_patient_category_status_search_test: Could not find values for all search params `patient`, `category`, `status`
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_pediatric_weight_for_height-us_core_v700_pediatric_weight_for_height_patient_category__lastUpdated_search_test: Could not find values for all search params `patient`, `category`, `_lastUpdated`
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_pediatric_weight_for_height-us_core_v700_pediatric_weight_for_height_patient_category_search_test: Could not find values for all search params `patient`, `category`
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_pediatric_weight_for_height-us_core_v700_pediatric_weight_for_height_reference_resolution_test: No Observation resources appear to be available. Please use patients with more information.
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_body_temperature-us_core_v700_body_temperature_patient_category__lastUpdated_search_test: Could not find values for all search params `patient`, `category`, `_lastUpdated`
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_pediatric_weight_for_height-us_core_v700_pediatric_weight_for_height_validation_test: No Observation resources conforming to the http://hl7.org/fhir/us/core/StructureDefinition/pediatric-weight-for-height profile were returned
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_pulse_oximetry: 
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_pulse_oximetry-us_core_v700_pulse_oximetry_must_support_test: Could not find component, component.code, component.valueQuantity, component:FlowRate.code, component:FlowRate.valueQuantity, component:FlowRate.valueQuantity.value, component:FlowRate.valueQuantity.unit, component:FlowRate.valueQuantity.system:http://unitsofmeasure.org, component:FlowRate.valueQuantity.code:L/min, component:Concentration.code, component:Concentration.valueQuantity, component:Concentration.valueQuantity.value, component:Concentration.valueQuantity.unit, component:Concentration.valueQuantity.system:http://unitsofmeasure.org, component:Concentration.valueQuantity.code:%, Observation.component:FlowRate, Observation.component:Concentration in the 42 provided resource(s)
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_smokingstatus-us_core_v700_smokingstatus_patient_category__lastUpdated_search_test: Could not find values for all search params `patient`, `category`, `_lastUpdated`
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_smokingstatus-us_core_v700_smokingstatus_must_support_test: Could not find Observation.value[x]:valueQuantity in the 60 provided resource(s)
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_observation_sexual_orientation-us_core_v700_observation_sexual_orientation_read_test: No Observation resources appear to be available. Please use patients with more information.
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_observation_sexual_orientation-us_core_v700_observation_sexual_orientation_provenance_revinclude_search_test: No Provenance resources appear to be available. Please use patients with more information
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_observation_sexual_orientation: 
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_head_circumference-us_core_v700_head_circumference_must_support_test: No Observation resources were found
+- `fail` us_core_v700-us_core_v700_fhir_api-us_core_v700_smokingstatus-us_core_v700_smokingstatus_validation_test: Resource does not conform to the profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-smokingstatus|7.0.0
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_observation_sexual_orientation-us_core_v700_observation_sexual_orientation_patient_code_search_test: No Observation resources appear to be available. Please use patients with more information
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_observation_sexual_orientation-us_core_v700_observation_sexual_orientation_patient_category_date_search_test: Could not find values for all search params `patient`, `category`, `date`
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_observation_sexual_orientation-us_core_v700_observation_sexual_orientation_patient_code_date_search_test: Could not find values for all search params `patient`, `code`, `date`
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_observation_sexual_orientation-us_core_v700_observation_sexual_orientation_patient_category_status_search_test: Could not find values for all search params `patient`, `category`, `status`
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_observation_sexual_orientation-us_core_v700_observation_sexual_orientation_patient_category__lastUpdated_search_test: Could not find values for all search params `patient`, `category`, `_lastUpdated`
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_observation_sexual_orientation-us_core_v700_observation_sexual_orientation_patient_category_search_test: Could not find values for all search params `patient`, `category`
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_observation_sexual_orientation-us_core_v700_observation_sexual_orientation_reference_resolution_test: No Observation resources appear to be available. Please use patients with more information.
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_head_circumference-us_core_v700_head_circumference_validation_test: No Observation resources conforming to the http://hl7.org/fhir/us/core/StructureDefinition/us-core-head-circumference profile were returned
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_observation_sexual_orientation-us_core_v700_observation_sexual_orientation_validation_test: No Observation resources conforming to the http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-sexual-orientation profile were returned
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_head_circumference-us_core_v700_head_circumference_patient_code_search_test: No Observation resources appear to be available. Please use patients with more information
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_head_circumference-us_core_v700_head_circumference_patient_category_date_search_test: Could not find values for all search params `patient`, `category`, `date`
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_head_circumference-us_core_v700_head_circumference_patient_code_date_search_test: Could not find values for all search params `patient`, `code`, `date`
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_head_circumference-us_core_v700_head_circumference_patient_category_status_search_test: Could not find values for all search params `patient`, `category`, `status`
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_head_circumference-us_core_v700_head_circumference_patient_category__lastUpdated_search_test: Could not find values for all search params `patient`, `category`, `_lastUpdated`
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_head_circumference-us_core_v700_head_circumference_patient_category_search_test: Could not find values for all search params `patient`, `category`
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_head_circumference-us_core_v700_head_circumference_reference_resolution_test: No Observation resources appear to be available. Please use patients with more information.
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_bmi-us_core_v700_bmi_must_support_test: No Observation resources were found
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_observation_screening_assessment-us_core_v700_observation_screening_assessment_read_test: No Observation resources appear to be available. Please use patients with more information.
+- `fail` us_core_v700-us_core_v700_fhir_api-us_core_v700_smokingstatus: 
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_observation_sexual_orientation-us_core_v700_observation_sexual_orientation_must_support_test: No Observation resources were found
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_head_circumference-us_core_v700_head_circumference_read_test: No Observation resources appear to be available. Please use patients with more information.
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_head_circumference-us_core_v700_head_circumference_provenance_revinclude_search_test: No Provenance resources appear to be available. Please use patients with more information
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_head_circumference: 
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_bmi-us_core_v700_bmi_patient_code_search_test: No Observation resources appear to be available. Please use patients with more information
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_bmi-us_core_v700_bmi_patient_category_date_search_test: Could not find values for all search params `patient`, `category`, `date`
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_bmi-us_core_v700_bmi_patient_code_date_search_test: Could not find values for all search params `patient`, `code`, `date`
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_bmi-us_core_v700_bmi_patient_category_status_search_test: Could not find values for all search params `patient`, `category`, `status`
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_bmi-us_core_v700_bmi_patient_category__lastUpdated_search_test: Could not find values for all search params `patient`, `category`, `_lastUpdated`
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_body_height-us_core_v700_body_height_patient_category__lastUpdated_search_test: Could not find values for all search params `patient`, `category`, `_lastUpdated`
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_bmi-us_core_v700_bmi_read_test: No Observation resources appear to be available. Please use patients with more information.
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_bmi-us_core_v700_bmi_provenance_revinclude_search_test: No Provenance resources appear to be available. Please use patients with more information
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_bmi: 
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_observation_screening_assessment-us_core_v700_observation_screening_assessment_must_support_test: No Observation resources were found
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_average_blood_pressure-us_core_v700_average_blood_pressure_read_test: No Observation resources appear to be available. Please use patients with more information.
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_bmi-us_core_v700_bmi_validation_test: No Observation resources conforming to the http://hl7.org/fhir/us/core/StructureDefinition/us-core-bmi profile were returned
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_observation_screening_assessment-us_core_v700_observation_screening_assessment_patient_category_search_test: No Observation resources appear to be available. Please use patients with more information
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_observation_screening_assessment-us_core_v700_observation_screening_assessment_patient_code_search_test: Could not find values for all search params `patient`, `code`
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_observation_screening_assessment-us_core_v700_observation_screening_assessment_patient_category_date_search_test: Could not find values for all search params `patient`, `category`, `date`
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_observation_screening_assessment-us_core_v700_observation_screening_assessment_patient_code_date_search_test: Could not find values for all search params `patient`, `code`, `date`
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_observation_screening_assessment-us_core_v700_observation_screening_assessment_patient_category_status_search_test: Could not find values for all search params `patient`, `category`, `status`
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_observation_screening_assessment-us_core_v700_observation_screening_assessment_patient_category__lastUpdated_search_test: Could not find values for all search params `patient`, `category`, `_lastUpdated`
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_observation_screening_assessment-us_core_v700_observation_screening_assessment_reference_resolution_test: No Observation resources appear to be available. Please use patients with more information.
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_average_blood_pressure-us_core_v700_average_blood_pressure_validation_test: No Observation resources conforming to the http://hl7.org/fhir/us/core/StructureDefinition/us-core-average-blood-pressure profile were returned
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_bmi-us_core_v700_bmi_patient_category_search_test: Could not find values for all search params `patient`, `category`
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_bmi-us_core_v700_bmi_reference_resolution_test: No Observation resources appear to be available. Please use patients with more information.
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_observation_screening_assessment-us_core_v700_observation_screening_assessment_validation_test: No Observation resources conforming to the http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment profile were returned
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_average_blood_pressure-us_core_v700_average_blood_pressure_patient_code_search_test: No Observation resources appear to be available. Please use patients with more information
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_average_blood_pressure-us_core_v700_average_blood_pressure_patient_category_date_search_test: Could not find values for all search params `patient`, `category`, `date`
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_average_blood_pressure-us_core_v700_average_blood_pressure_patient_code_date_search_test: Could not find values for all search params `patient`, `code`, `date`
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_average_blood_pressure-us_core_v700_average_blood_pressure_patient_category_status_search_test: Could not find values for all search params `patient`, `category`, `status`
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_average_blood_pressure-us_core_v700_average_blood_pressure_patient_category__lastUpdated_search_test: Could not find values for all search params `patient`, `category`, `_lastUpdated`
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_average_blood_pressure-us_core_v700_average_blood_pressure_patient_category_search_test: Could not find values for all search params `patient`, `category`
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_average_blood_pressure-us_core_v700_average_blood_pressure_reference_resolution_test: No Observation resources appear to be available. Please use patients with more information.
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_observation_screening_assessment-us_core_v700_observation_screening_assessment_provenance_revinclude_search_test: No Provenance resources appear to be available. Please use patients with more information
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_observation_screening_assessment: 
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_average_blood_pressure-us_core_v700_average_blood_pressure_must_support_test: No Observation resources were found
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_blood_pressure-us_core_v700_blood_pressure_patient_category__lastUpdated_search_test: Could not find values for all search params `patient`, `category`, `_lastUpdated`
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_blood_pressure: 
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_average_blood_pressure-us_core_v700_average_blood_pressure_provenance_revinclude_search_test: No Provenance resources appear to be available. Please use patients with more information
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_average_blood_pressure: 
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_blood_pressure-us_core_v700_blood_pressure_must_support_test: Could not find component.dataAbsentReason, component:systolic.dataAbsentReason, component:diastolic.dataAbsentReason in the 238 provided resource(s)
+- `fail` us_core_v700-us_core_v700_fhir_api-us_core_v700_observation_clinical_result-us_core_v700_observation_clinical_result_patient_category__lastUpdated_search_test: Observation/101090-quality-cms122-hba1c did not match the search parameters: * Expected: 2016-03-09T15:29:58.328+00:00 * Found: 
+- `fail` us_core_v700-us_core_v700_fhir_api-us_core_v700_observation_clinical_result-us_core_v700_observation_clinical_result_validation_test: Resource does not conform to the profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-clinical-result|7.0.0
+- `fail` us_core_v700-us_core_v700_fhir_api-us_core_v700_observation_clinical_result: 
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_pediatric_bmi_for_age-us_core_v700_pediatric_bmi_for_age_validation_test: No Observation resources conforming to the http://hl7.org/fhir/us/core/StructureDefinition/pediatric-bmi-for-age profile were returned
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_observation_clinical_result-us_core_v700_observation_clinical_result_reference_resolution_test: Could not resolve and validate any Must Support references for encounter element: Reference(http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter)
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_pediatric_bmi_for_age-us_core_v700_pediatric_bmi_for_age_read_test: No Observation resources appear to be available. Please use patients with more information.
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_pediatric_bmi_for_age: 
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_head_circumference_percentile-us_core_v700_head_circumference_percentile_provenance_revinclude_search_test: No Provenance resources appear to be available. Please use patients with more information
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_pediatric_bmi_for_age-us_core_v700_pediatric_bmi_for_age_patient_code_search_test: No Observation resources appear to be available. Please use patients with more information
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_pediatric_bmi_for_age-us_core_v700_pediatric_bmi_for_age_patient_category_date_search_test: Could not find values for all search params `patient`, `category`, `date`
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_pediatric_bmi_for_age-us_core_v700_pediatric_bmi_for_age_patient_code_date_search_test: Could not find values for all search params `patient`, `code`, `date`
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_pediatric_bmi_for_age-us_core_v700_pediatric_bmi_for_age_patient_category_status_search_test: Could not find values for all search params `patient`, `category`, `status`
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_pediatric_bmi_for_age-us_core_v700_pediatric_bmi_for_age_patient_category__lastUpdated_search_test: Could not find values for all search params `patient`, `category`, `_lastUpdated`
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_pediatric_bmi_for_age-us_core_v700_pediatric_bmi_for_age_patient_category_search_test: Could not find values for all search params `patient`, `category`
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_pediatric_bmi_for_age-us_core_v700_pediatric_bmi_for_age_provenance_revinclude_search_test: No Provenance resources appear to be available. Please use patients with more information
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_pediatric_bmi_for_age-us_core_v700_pediatric_bmi_for_age_must_support_test: No Observation resources were found
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_head_circumference_percentile-us_core_v700_head_circumference_percentile_validation_test: No Observation resources conforming to the http://hl7.org/fhir/us/core/StructureDefinition/head-occipital-frontal-circumference-percentile profile were returned
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_head_circumference_percentile: 
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_pediatric_bmi_for_age-us_core_v700_pediatric_bmi_for_age_reference_resolution_test: No Observation resources appear to be available. Please use patients with more information.
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_head_circumference_percentile-us_core_v700_head_circumference_percentile_patient_code_search_test: No Observation resources appear to be available. Please use patients with more information
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_head_circumference_percentile-us_core_v700_head_circumference_percentile_patient_category_date_search_test: Could not find values for all search params `patient`, `category`, `date`
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_head_circumference_percentile-us_core_v700_head_circumference_percentile_patient_code_date_search_test: Could not find values for all search params `patient`, `code`, `date`
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_head_circumference_percentile-us_core_v700_head_circumference_percentile_patient_category_status_search_test: Could not find values for all search params `patient`, `category`, `status`
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_head_circumference_percentile-us_core_v700_head_circumference_percentile_patient_category__lastUpdated_search_test: Could not find values for all search params `patient`, `category`, `_lastUpdated`
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_head_circumference_percentile-us_core_v700_head_circumference_percentile_patient_category_search_test: Could not find values for all search params `patient`, `category`
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_head_circumference_percentile-us_core_v700_head_circumference_percentile_must_support_test: No Observation resources were found
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_head_circumference_percentile-us_core_v700_head_circumference_percentile_reference_resolution_test: No Observation resources appear to be available. Please use patients with more information.
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_head_circumference_percentile-us_core_v700_head_circumference_percentile_read_test: No Observation resources appear to be available. Please use patients with more information.
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_procedure-us_core_v700_procedure_patient_code_date_search_test: No Procedure resources appear to be available. Please use patients with more information
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_procedure-us_core_v700_procedure_patient_date_search_test: No Procedure resources appear to be available. Please use patients with more information
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_procedure: 
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_questionnaire_response-us_core_v700_questionnaire_response_validation_test: No QuestionnaireResponse resources conforming to the http://hl7.org/fhir/us/core/StructureDefinition/us-core-questionnaireresponse profile were returned
+- `fail` us_core_v700-us_core_v700_fhir_api-us_core_v700_location-us_core_v700_location_address_state_search_test: Unexpected resource type: expected Bundle, but received OperationOutcome
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_body_weight-us_core_v700_body_weight_patient_category__lastUpdated_search_test: Could not find values for all search params `patient`, `category`, `_lastUpdated`
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_questionnaire_response-us_core_v700_questionnaire_response_patient_search_test: No QuestionnaireResponse resources appear to be available. Please use patients with more information
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_questionnaire_response-us_core_v700_questionnaire_response_must_support_test: No QuestionnaireResponse resources were found
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_procedure-us_core_v700_procedure_reference_resolution_test: Could not resolve and validate any Must Support references for encounter element: Reference(http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter)
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_questionnaire_response-us_core_v700_questionnaire_response_read_test: No QuestionnaireResponse resources appear to be available. Please use patients with more information.
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_questionnaire_response-us_core_v700_questionnaire_response_provenance_revinclude_search_test: No Provenance resources appear to be available. Please use patients with more information
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_questionnaire_response: 
+- `fail` us_core_v700-us_core_v700_fhir_api-us_core_v700_location-us_core_v700_location_address_postalcode_search_test: Unexpected resource type: expected Bundle, but received OperationOutcome
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_procedure-us_core_v700_procedure_must_support_test: Could not find basedOn, reasonCode, reasonReference in the 21 provided resource(s)
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_questionnaire_response-us_core_v700_questionnaire_response__id_search_test: Could not find values for all search params `_id`
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_questionnaire_response-us_core_v700_questionnaire_response_patient_questionnaire_search_test: Could not find values for all search params `patient`, `questionnaire`
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_questionnaire_response-us_core_v700_questionnaire_response_patient_authored_search_test: Could not find values for all search params `patient`, `authored`
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_questionnaire_response-us_core_v700_questionnaire_response_patient_status_search_test: Could not find values for all search params `patient`, `status`
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_questionnaire_response-us_core_v700_questionnaire_response_reference_resolution_test: No QuestionnaireResponse resources appear to be available. Please use patients with more information.
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_service_request-us_core_v700_service_request_must_support_test: Could not find encounter, occurrencePeriod, reasonCode, reasonReference in the 10 provided resource(s)
+- `fail` us_core_v700-us_core_v700_fhir_api-us_core_v700_location-us_core_v700_location_address_city_search_test: Unexpected resource type: expected Bundle, but received OperationOutcome
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_service_request: 
+- `fail` us_core_v700-us_core_v700_fhir_api-us_core_v700_location-us_core_v700_location_address_search_test: Unexpected resource type: expected Bundle, but received OperationOutcome
+- `fail` us_core_v700-us_core_v700_fhir_api-us_core_v700_location-us_core_v700_location_name_search_test: Unexpected resource type: expected Bundle, but received OperationOutcome
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_practitioner_role-us_core_v700_practitioner_role_validation_test: No PractitionerRole resources conforming to the http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitionerrole profile were returned
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_related_person-us_core_v700_related_person_name_search_test: Could not find values for all search params `name`
+- `fail` us_core_v700-us_core_v700_fhir_api-us_core_v700_location: 
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_practitioner_role-us_core_v700_practitioner_role_practitioner_search_test: Could not find values for all search params `practitioner`
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_practitioner_role-us_core_v700_practitioner_role_reference_resolution_test: No PractitionerRole resources appear to be available. Please use patients with more information.
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_related_person-us_core_v700_related_person_read_test: No RelatedPerson resources appear to be available. Please use patients with more information.
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_related_person-us_core_v700_related_person_patient_search_test: No RelatedPerson resources appear to be available. Please use patients with more information
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_related_person-us_core_v700_related_person_must_support_test: No RelatedPerson resources were found
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v400_clinical_notes_guidance: 
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_practitioner_role-us_core_v700_practitioner_role_specialty_search_test: Could not find values for all search params `specialty`
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_practitioner_role: 
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_related_person-us_core_v700_related_person__id_search_test: Could not find values for all search params `_id`
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_related_person-us_core_v700_related_person_reference_resolution_test: No RelatedPerson resources appear to be available. Please use patients with more information.
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_specimen: 
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_screening_assessment-us_core_screening_assessment_category: Could not find these Observation categories: http://hl7.org/fhir/us/core/CodeSystem/us-core-category|sdoh, http://hl7.org/fhir/us/core/CodeSystem/us-core-category|functional-status, http://hl7.org/fhir/us/core/CodeSystem/us-core-category|disability-status, http://hl7.org/fhir/us/core/CodeSystem/us-core-category|cognitive-status, http://terminology.hl7.org/CodeSystem/observation-category|activity, http://terminology.hl7.org/CodeSystem/observation-category|social-history.
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_practitioner_role-us_core_v700_practitioner_role_read_test: No PractitionerRole resources appear to be available. Please use patients with more information.
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_practitioner_role-us_core_v700_practitioner_role_must_support_test: No PractitionerRole resources were found
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_related_person-us_core_v700_related_person_validation_test: No RelatedPerson resources conforming to the http://hl7.org/fhir/us/core/StructureDefinition/us-core-relatedperson profile were returned
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_specimen-us_core_v700_specimen_must_support_test: Could not find identifier, accessionIdentifier, collection.bodySite, condition in the 48 provided resource(s)
+- `fail` us_core_v700-us_core_v700_fhir_api-us_core_311_data_absent_reason: 
+- `error` us_core_v700-us_core_v700_fhir_api: 
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_related_person-us_core_v700_related_person_patient_name_search_test: Could not find values for all search params `patient`, `name`
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_related_person-us_core_v700_related_person_provenance_revinclude_search_test: No Provenance resources appear to be available. Please use patients with more information
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_related_person: 
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v400_clinical_notes_guidance-us_core_clinical_note_types: Could not find these DocumentReference types: 11488-4, 18842-5, 34117-2, 28570-0, 18748-4, 11502-2, 11526-1 and DiagnosticReport categories LP29708-2, LP7839-6, LP29684-5.
+- `skip` us_core_v700-us_core_v700_fhir_api-us_core_v700_screening_assessment: 
+- `fail` us_core_v700-us_core_v700_fhir_api-us_core_311_data_absent_reason-us_core_311_data_absent_reason_extension: No resources using the DataAbsentReason Extension have been found
+- `error` us_core_v700-us_core_v700_fhir_api: 
