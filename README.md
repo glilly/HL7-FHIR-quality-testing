@@ -15,6 +15,7 @@ Local containers are useful for smoke testing, but scorecards in this repo shoul
 ## Structure
 
 - `docs/STRATEGY.md` - strategy and implementation plan.
+- `docs/INFERNO_QA_TEST_KIT_FIT_2026-09-18.md` - which Inferno QA kits we can use, later, or skip (Quality vs Coding).
 - `docs/CMS_2026_QUALITY_MEASURES.md` - first-wave CMS eCQM research notes.
 - `docs/connectathon/` - migrated July Connectathon and US Quality Core notes.
 - `2026/measures/` - per-measure denominator/numerator notes and cohort requirements.
