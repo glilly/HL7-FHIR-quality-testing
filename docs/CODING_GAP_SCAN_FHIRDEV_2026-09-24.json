@@ -1,0 +1,863 @@
+{
+  "host": "https://devfhir.vistaplex.org",
+  "date": "2026-09-24T19:55:40.073240+00:00",
+  "cohort": "union of active-measure dashboard POP DFNs",
+  "n_dfns": 44,
+  "dfns": [
+    101065,
+    101077,
+    101078,
+    101079,
+    101083,
+    101084,
+    101085,
+    101087,
+    101088,
+    101089,
+    101090,
+    101091,
+    101093,
+    101094,
+    101095,
+    101096,
+    101097,
+    101098,
+    101099,
+    101100,
+    101101,
+    101102,
+    101103,
+    101104,
+    101105,
+    101106,
+    101107,
+    101108,
+    101109,
+    101110,
+    101111,
+    101114,
+    101115,
+    101116,
+    101119,
+    101120,
+    101121,
+    101122,
+    101123,
+    101124,
+    101125,
+    101126,
+    101127,
+    101128
+  ],
+  "summaries": {
+    "CMS165v14": [
+      21,
+      4,
+      1,
+      0
+    ],
+    "CMS122v14": [
+      5,
+      5,
+      5,
+      0
+    ],
+    "CMS125v14": [
+      18,
+      18,
+      10,
+      0
+    ],
+    "CMS130v14": [
+      13,
+      9,
+      1,
+      0
+    ],
+    "CMS138v14": [
+      28,
+      28,
+      6,
+      0
+    ],
+    "CMS2v15": [
+      21,
+      21,
+      0,
+      0
+    ]
+  },
+  "r69_condition_rows": 315,
+  "r69_narratives": [
+    [
+      "Malignant neoplasm of breast (disorder)",
+      148
+    ],
+    [
+      "Normal pregnancy",
+      52
+    ],
+    [
+      "Viral sinusitis (disorder)",
+      39
+    ],
+    [
+      "Normal pregnancy (finding)",
+      10
+    ],
+    [
+      "Proteinuria due to type 2 diabetes mellitus (disorder)",
+      5
+    ],
+    [
+      "Laceration - injury (disorder)",
+      5
+    ],
+    [
+      "Acute infective cystitis (disorder)",
+      4
+    ],
+    [
+      "Concussion injury of brain (disorder)",
+      4
+    ],
+    [
+      "Allergic disposition (finding)",
+      4
+    ],
+    [
+      "Viral sinusitis (disorder) (ICD-10-CM R69.)",
+      3
+    ],
+    [
+      "Complete miscarriage (disorder)",
+      3
+    ],
+    [
+      "Fracture of bone (disorder)",
+      3
+    ],
+    [
+      "Diabetes mellitus",
+      2
+    ],
+    [
+      "Injury of neck (disorder)",
+      2
+    ],
+    [
+      "Full thickness burn (disorder)",
+      2
+    ],
+    [
+      "Transport problem (finding)",
+      2
+    ],
+    [
+      "Partial thickness burn (disorder)",
+      2
+    ],
+    [
+      "Fetus with unknown complication",
+      2
+    ],
+    [
+      "Concussion with loss of consciousness",
+      2
+    ],
+    [
+      "Concussion with no loss of consciousness",
+      2
+    ],
+    [
+      "Acute infective cystitis (disorder) (ICD-10-CM R69.)",
+      1
+    ],
+    [
+      "Acute respiratory distress syndrome (disorder) (ICD-10-CM R69.)",
+      1
+    ],
+    [
+      "Acute respiratory distress syndrome (disorder)",
+      1
+    ],
+    [
+      "Concussion with no loss of consciousness (disorder)",
+      1
+    ],
+    [
+      "Alveolitis of jaw (disorder)",
+      1
+    ],
+    [
+      "Sprain of wrist (disorder)",
+      1
+    ],
+    [
+      "Perennial allergic rhinitis (disorder)",
+      1
+    ],
+    [
+      "Rupture of patellar tendon (disorder)",
+      1
+    ],
+    [
+      "Injury of knee (disorder)",
+      1
+    ],
+    [
+      "Fracture of clavicle (disorder)",
+      1
+    ],
+    [
+      "Fracture of forearm (disorder)",
+      1
+    ],
+    [
+      "Fracture subluxation of wrist (disorder)",
+      1
+    ],
+    [
+      "Seizure disorder (disorder)",
+      1
+    ],
+    [
+      "Seasonal allergic rhinitis (disorder)",
+      1
+    ],
+    [
+      "Loss of taste (finding)",
+      1
+    ],
+    [
+      "Sprain of ankle (disorder)",
+      1
+    ],
+    [
+      "Concussion with loss of consciousness (disorder)",
+      1
+    ],
+    [
+      "Sprain of ankle",
+      1
+    ],
+    [
+      "Laceration of forearm",
+      1
+    ]
+  ],
+  "measures": {
+    "CMS165v14": {
+      "label": "HTN / BP control",
+      "gap_mix": {
+        "has_active_good": 44
+      },
+      "active_good": [
+        101065,
+        101077,
+        101078,
+        101079,
+        101083,
+        101084,
+        101085,
+        101087,
+        101088,
+        101089,
+        101090,
+        101091,
+        101093,
+        101094,
+        101095,
+        101096,
+        101097,
+        101098,
+        101099,
+        101100,
+        101101,
+        101102,
+        101103,
+        101104,
+        101105,
+        101106,
+        101107,
+        101108,
+        101109,
+        101110,
+        101111,
+        101114,
+        101115,
+        101116,
+        101119,
+        101120,
+        101121,
+        101122,
+        101123,
+        101124,
+        101125,
+        101126,
+        101127,
+        101128
+      ],
+      "r69_only_no_active_good": [],
+      "concept_narr_inactive_or_uncoded": [],
+      "no_concept_evidence": []
+    },
+    "CMS122v14": {
+      "label": "Diabetes / A1c",
+      "gap_mix": {
+        "no_concept_evidence": 1,
+        "has_active_good": 39,
+        "r69_only_no_active_good": 3,
+        "concept_narr_inactive_or_uncoded": 1
+      },
+      "active_good": [
+        101077,
+        101078,
+        101079,
+        101083,
+        101084,
+        101085,
+        101087,
+        101088,
+        101089,
+        101090,
+        101091,
+        101093,
+        101094,
+        101095,
+        101096,
+        101097,
+        101098,
+        101100,
+        101102,
+        101103,
+        101104,
+        101105,
+        101106,
+        101108,
+        101109,
+        101110,
+        101114,
+        101115,
+        101116,
+        101119,
+        101120,
+        101121,
+        101122,
+        101123,
+        101124,
+        101125,
+        101126,
+        101127,
+        101128
+      ],
+      "r69_only_no_active_good": [
+        101099,
+        101101,
+        101107
+      ],
+      "concept_narr_inactive_or_uncoded": [
+        101111
+      ],
+      "no_concept_evidence": [
+        101065
+      ]
+    },
+    "CMS125v14": {
+      "label": "Breast cancer screening",
+      "gap_mix": {
+        "no_concept_evidence": 33,
+        "has_active_good": 11
+      },
+      "active_good": [
+        101095,
+        101096,
+        101097,
+        101106,
+        101108,
+        101122,
+        101123,
+        101124,
+        101125,
+        101126,
+        101127
+      ],
+      "r69_only_no_active_good": [],
+      "concept_narr_inactive_or_uncoded": [],
+      "no_concept_evidence": [
+        101065,
+        101077,
+        101078,
+        101079,
+        101083,
+        101084,
+        101085,
+        101087,
+        101088,
+        101089,
+        101090,
+        101091,
+        101093,
+        101094,
+        101098,
+        101099,
+        101100,
+        101101,
+        101102,
+        101103,
+        101104,
+        101105,
+        101107,
+        101109,
+        101110,
+        101111,
+        101114,
+        101115,
+        101116,
+        101119,
+        101120,
+        101121,
+        101128
+      ]
+    },
+    "CMS130v14": {
+      "label": "Colorectal screening",
+      "gap_mix": {
+        "no_concept_evidence": 39,
+        "has_active_good": 5
+      },
+      "active_good": [
+        101077,
+        101078,
+        101115,
+        101124,
+        101126
+      ],
+      "r69_only_no_active_good": [],
+      "concept_narr_inactive_or_uncoded": [],
+      "no_concept_evidence": [
+        101065,
+        101079,
+        101083,
+        101084,
+        101085,
+        101087,
+        101088,
+        101089,
+        101090,
+        101091,
+        101093,
+        101094,
+        101095,
+        101096,
+        101097,
+        101098,
+        101099,
+        101100,
+        101101,
+        101102,
+        101103,
+        101104,
+        101105,
+        101106,
+        101107,
+        101108,
+        101109,
+        101110,
+        101111,
+        101114,
+        101116,
+        101119,
+        101120,
+        101121,
+        101122,
+        101123,
+        101125,
+        101127,
+        101128
+      ]
+    },
+    "CMS138v14": {
+      "label": "Tobacco screening",
+      "gap_mix": {
+        "no_concept_evidence": 2,
+        "has_active_good": 42
+      },
+      "active_good": [
+        101077,
+        101078,
+        101079,
+        101083,
+        101084,
+        101085,
+        101087,
+        101088,
+        101089,
+        101090,
+        101091,
+        101093,
+        101094,
+        101095,
+        101096,
+        101097,
+        101098,
+        101099,
+        101100,
+        101101,
+        101102,
+        101103,
+        101104,
+        101105,
+        101106,
+        101107,
+        101108,
+        101109,
+        101110,
+        101111,
+        101114,
+        101115,
+        101116,
+        101120,
+        101121,
+        101122,
+        101123,
+        101124,
+        101125,
+        101126,
+        101127,
+        101128
+      ],
+      "r69_only_no_active_good": [],
+      "concept_narr_inactive_or_uncoded": [],
+      "no_concept_evidence": [
+        101065,
+        101119
+      ]
+    },
+    "CMS2v15": {
+      "label": "Depression screening",
+      "gap_mix": {
+        "no_concept_evidence": 9,
+        "concept_narr_inactive_or_uncoded": 32,
+        "has_active_good": 3
+      },
+      "active_good": [
+        101121,
+        101123,
+        101127
+      ],
+      "r69_only_no_active_good": [],
+      "concept_narr_inactive_or_uncoded": [
+        101077,
+        101078,
+        101079,
+        101083,
+        101084,
+        101085,
+        101088,
+        101089,
+        101091,
+        101093,
+        101094,
+        101095,
+        101096,
+        101097,
+        101098,
+        101099,
+        101100,
+        101101,
+        101102,
+        101103,
+        101104,
+        101105,
+        101106,
+        101108,
+        101109,
+        101110,
+        101111,
+        101114,
+        101115,
+        101116,
+        101120,
+        101122
+      ],
+      "no_concept_evidence": [
+        101065,
+        101087,
+        101090,
+        101107,
+        101119,
+        101124,
+        101125,
+        101126,
+        101128
+      ]
+    }
+  },
+  "per_dfn": {
+    "101065": {
+      "conds": 12,
+      "procs": 14,
+      "obs": 200,
+      "r69": 0
+    },
+    "101077": {
+      "conds": 103,
+      "procs": 7,
+      "obs": 195,
+      "r69": 0
+    },
+    "101078": {
+      "conds": 77,
+      "procs": 3,
+      "obs": 243,
+      "r69": 0
+    },
+    "101079": {
+      "conds": 46,
+      "procs": 3,
+      "obs": 155,
+      "r69": 0
+    },
+    "101083": {
+      "conds": 80,
+      "procs": 55,
+      "obs": 198,
+      "r69": 0
+    },
+    "101084": {
+      "conds": 132,
+      "procs": 4,
+      "obs": 274,
+      "r69": 0
+    },
+    "101085": {
+      "conds": 154,
+      "procs": 13,
+      "obs": 129,
+      "r69": 0
+    },
+    "101087": {
+      "conds": 50,
+      "procs": 0,
+      "obs": 133,
+      "r69": 3
+    },
+    "101088": {
+      "conds": 40,
+      "procs": 0,
+      "obs": 160,
+      "r69": 4
+    },
+    "101089": {
+      "conds": 33,
+      "procs": 0,
+      "obs": 193,
+      "r69": 4
+    },
+    "101090": {
+      "conds": 10,
+      "procs": 0,
+      "obs": 29,
+      "r69": 1
+    },
+    "101091": {
+      "conds": 15,
+      "procs": 0,
+      "obs": 119,
+      "r69": 2
+    },
+    "101093": {
+      "conds": 33,
+      "procs": 0,
+      "obs": 225,
+      "r69": 2
+    },
+    "101094": {
+      "conds": 26,
+      "procs": 0,
+      "obs": 134,
+      "r69": 2
+    },
+    "101095": {
+      "conds": 64,
+      "procs": 1,
+      "obs": 351,
+      "r69": 4
+    },
+    "101096": {
+      "conds": 59,
+      "procs": 1,
+      "obs": 243,
+      "r69": 11
+    },
+    "101097": {
+      "conds": 23,
+      "procs": 1,
+      "obs": 129,
+      "r69": 1
+    },
+    "101098": {
+      "conds": 85,
+      "procs": 0,
+      "obs": 400,
+      "r69": 5
+    },
+    "101099": {
+      "conds": 200,
+      "procs": 0,
+      "obs": 400,
+      "r69": 4
+    },
+    "101100": {
+      "conds": 32,
+      "procs": 0,
+      "obs": 268,
+      "r69": 3
+    },
+    "101101": {
+      "conds": 105,
+      "procs": 0,
+      "obs": 400,
+      "r69": 7
+    },
+    "101102": {
+      "conds": 50,
+      "procs": 0,
+      "obs": 268,
+      "r69": 2
+    },
+    "101103": {
+      "conds": 40,
+      "procs": 0,
+      "obs": 154,
+      "r69": 3
+    },
+    "101104": {
+      "conds": 18,
+      "procs": 0,
+      "obs": 214,
+      "r69": 5
+    },
+    "101105": {
+      "conds": 17,
+      "procs": 0,
+      "obs": 86,
+      "r69": 1
+    },
+    "101106": {
+      "conds": 26,
+      "procs": 1,
+      "obs": 142,
+      "r69": 0
+    },
+    "101107": {
+      "conds": 91,
+      "procs": 0,
+      "obs": 400,
+      "r69": 1
+    },
+    "101108": {
+      "conds": 57,
+      "procs": 1,
+      "obs": 269,
+      "r69": 1
+    },
+    "101109": {
+      "conds": 59,
+      "procs": 0,
+      "obs": 286,
+      "r69": 4
+    },
+    "101110": {
+      "conds": 89,
+      "procs": 0,
+      "obs": 300,
+      "r69": 5
+    },
+    "101111": {
+      "conds": 62,
+      "procs": 0,
+      "obs": 351,
+      "r69": 4
+    },
+    "101114": {
+      "conds": 33,
+      "procs": 0,
+      "obs": 225,
+      "r69": 2
+    },
+    "101115": {
+      "conds": 46,
+      "procs": 0,
+      "obs": 268,
+      "r69": 4
+    },
+    "101116": {
+      "conds": 100,
+      "procs": 0,
+      "obs": 166,
+      "r69": 70
+    },
+    "101119": {
+      "conds": 200,
+      "procs": 0,
+      "obs": 400,
+      "r69": 3
+    },
+    "101120": {
+      "conds": 33,
+      "procs": 0,
+      "obs": 226,
+      "r69": 2
+    },
+    "101121": {
+      "conds": 15,
+      "procs": 0,
+      "obs": 133,
+      "r69": 2
+    },
+    "101122": {
+      "conds": 200,
+      "procs": 1,
+      "obs": 400,
+      "r69": 5
+    },
+    "101123": {
+      "conds": 75,
+      "procs": 200,
+      "obs": 198,
+      "r69": 68
+    },
+    "101124": {
+      "conds": 44,
+      "procs": 30,
+      "obs": 401,
+      "r69": 24
+    },
+    "101125": {
+      "conds": 38,
+      "procs": 43,
+      "obs": 279,
+      "r69": 17
+    },
+    "101126": {
+      "conds": 26,
+      "procs": 43,
+      "obs": 199,
+      "r69": 13
+    },
+    "101127": {
+      "conds": 48,
+      "procs": 120,
+      "obs": 293,
+      "r69": 24
+    },
+    "101128": {
+      "conds": 7,
+      "procs": 5,
+      "obs": 98,
+      "r69": 2
+    }
+  }
+}

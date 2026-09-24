@@ -3,11 +3,10 @@
  * Convert a FHIR R4 Bundle (or transaction/collection) into a Project Tacoma
  * QDM patient JSON sketch suitable for later cqm-execution.
  *
- * Bridge slice for CMS165/CMS122/CMS125/CMS138: Patient, Conditions,
- * Encounters, Observations (BP / labs / tobacco), and mammography evidence as
- * Diagnostic Study, Performed. It does not invent value-set membership except
- * a small SNOMED→LOINC bridge for Synthea mammography Procedures (CMS125 VS is
- * LOINC-only).
+ * Bridge slice for CMS165/CMS122/CMS125/CMS130/CMS138/CMS2: Patient, Conditions,
+ * Encounters, Observations (BP / labs / tobacco / depression Assessment),
+ * mammography as Diagnostic Study, Performed (SCT/CPT→LOINC), and general
+ * Procedure → Procedure, Performed (CMS130 colonoscopy etc.).
  */
 "use strict";
 
@@ -166,6 +165,13 @@ const TOBACCO_SCREENING_LOINC = new Set([
   "39240-7",
 ]);
 
+/** CMS2 depression screening Assessment LOINCs (direct codes in measure CQL). */
+const DEPRESSION_SCREENING_LOINC = new Set([
+  "73832-8", // Adult depression screening assessment
+  "73831-0", // Adolescent depression screening assessment
+  "44249-1", // PHQ-9 panel (Quality AI secondary coding)
+]);
+
 /** QDM Code result from FHIR CodeableConcept (smoking status, etc.). */
 function codeableResult(codeable) {
   const codes = codingList(codeable);
@@ -179,13 +185,36 @@ const MAMMO_SCT_TO_LOINC = {
   "24623002": { code: "24606-6", display: "MG Breast Screening" },
 };
 
+/** CPT screening mammography → same LOINC (VSAC Mammography is LOINC-only). */
+const MAMMO_CPT_TO_LOINC = {
+  "77067": { code: "24606-6", display: "MG Breast Screening" },
+  "77063": { code: "24606-6", display: "MG Breast Screening" },
+};
+
 function mammoLoincFromCodes(codes) {
   for (const c of codes || []) {
     if (!c || !c.code) continue;
-    if ((c.system || "").includes("113883.6.1") || (c.system || "").toLowerCase().includes("loinc")) {
-      return null; // already LOINC; caller keeps original codes
+    const sys = (c.system || "").toLowerCase();
+    if (sys.includes("113883.6.1") || sys.includes("loinc")) {
+      // Already LOINC — keep caller's original list; return a LOINC hit marker.
+      if (
+        String(c.code) === "24606-6" ||
+        String(c.code).startsWith("2460") ||
+        String(c.code).startsWith("2617")
+      ) {
+        return {
+          code: String(c.code),
+          system: "urn:oid:2.16.840.1.113883.6.1",
+          display: c.display || "MG Breast Screening",
+          version: null,
+          _type: "QDM::Code",
+          _alreadyLoinc: true,
+        };
+      }
+      continue;
     }
-    const bridge = MAMMO_SCT_TO_LOINC[String(c.code)];
+    const bridge =
+      MAMMO_SCT_TO_LOINC[String(c.code)] || MAMMO_CPT_TO_LOINC[String(c.code)];
     if (bridge) {
       return {
         code: bridge.code,
@@ -201,6 +230,8 @@ function mammoLoincFromCodes(codes) {
 
 function isMammoEvidence(resource, codes) {
   if (mammoLoincFromCodes(codes)) return true;
+  const text = String(resource.code?.text || "").toLowerCase();
+  if (text.includes("mammograph") || text.includes("mammo")) return true;
   for (const c of codes || []) {
     const sys = (c.system || "").toLowerCase();
     const disp = (c.display || "").toLowerCase();
@@ -216,24 +247,33 @@ function isMammoEvidence(resource, codes) {
         return true;
       }
     }
+    if (MAMMO_CPT_TO_LOINC[String(c.code)] || MAMMO_SCT_TO_LOINC[String(c.code)]) {
+      return true;
+    }
   }
   return false;
 }
 
-function pushDiagnosticStudy(dataElements, resource, codes, bridgeHint) {
-  const when =
+function procedureWhen(resource) {
+  return (
     instant(resource.performedDateTime) ||
     instant(resource.performedPeriod?.start) ||
     instant(resource.performedPeriod?.end) ||
     instant(resource.effectiveDateTime) ||
     instant(resource.effectivePeriod?.start) ||
-    instant(resource.issued);
+    instant(resource.issued)
+  );
+}
+
+function pushDiagnosticStudy(dataElements, resource, codes, bridgeHint) {
+  const when = procedureWhen(resource);
   const period =
     periodFrom(resource) ||
     (when ? { low: when, high: when, _type: "QDM::Interval" } : null);
   if (!when && !period) return;
   const bridged = mammoLoincFromCodes(codes);
-  const dataElementCodes = bridged ? [bridged, ...codes] : codes;
+  const dataElementCodes =
+    bridged && !bridged._alreadyLoinc ? [bridged, ...codes] : codes;
   dataElements.push({
     authorDatetime: when || (period && period.low) || null,
     category: "diagnostic_study",
@@ -251,11 +291,47 @@ function pushDiagnosticStudy(dataElements, resource, codes, bridgeHint) {
   });
 }
 
+function pushProcedurePerformed(dataElements, resource, codes, bridgeHint) {
+  const status = String(resource.status || "").toLowerCase();
+  if (status && status !== "completed" && status !== "in-progress") return;
+  const when = procedureWhen(resource);
+  const period =
+    periodFrom(resource) ||
+    (when ? { low: when, high: when, _type: "QDM::Interval" } : null);
+  if (!when && !period) return;
+  if (!codes.length) return;
+  dataElements.push({
+    authorDatetime: when || (period && period.low) || null,
+    category: "procedure",
+    dataElementCodes: codes,
+    description:
+      "Procedure, Performed: " +
+      (resource.code?.text || codes[0].display || codes[0].code),
+    hqmfOid: "2.16.840.1.113883.10.20.28.4.67",
+    relevantDatetime: when || (period && period.low) || null,
+    relevantPeriod: period,
+    qdmStatus: "performed",
+    qdmVersion: "5.6",
+    _type: "QDM::ProcedurePerformed",
+    _bridgeHint: bridgeHint || "procedure",
+  });
+}
+
 function isTobaccoScreeningObservation(resource, codes) {
   if (codes.some((c) => TOBACCO_SCREENING_LOINC.has(String(c.code)))) return true;
   const categories = (resource.category || [])
     .flatMap((c) => (c.coding || []).map((x) => String(x.code || "").toLowerCase()));
   if (categories.includes("social-history") && codes.some((c) => String(c.code).startsWith("72166"))) {
+    return true;
+  }
+  return false;
+}
+
+function isDepressionScreeningObservation(resource, codes) {
+  if (codes.some((c) => DEPRESSION_SCREENING_LOINC.has(String(c.code)))) return true;
+  const categories = (resource.category || [])
+    .flatMap((c) => (c.coding || []).map((x) => String(x.code || "").toLowerCase()));
+  if (categories.includes("survey") && codes.some((c) => String(c.code).startsWith("44249") || String(c.code).startsWith("7383"))) {
     return true;
   }
   return false;
@@ -405,13 +481,23 @@ function patientFrom(bundle) {
     }
     if (resource.resourceType === "Procedure" || resource.resourceType === "DiagnosticReport") {
       const codes = codingList(resource.code);
-      if (codes.length && isMammoEvidence(resource, codes)) {
+      if (!codes.length) {
+        // fall through
+      } else if (isMammoEvidence(resource, codes)) {
+        // CMS125: Mammography VS is LOINC Diagnostic Study — bridge SCT/CPT→LOINC.
         pushDiagnosticStudy(
           dataElements,
           resource,
           codes,
           resource.resourceType === "Procedure" ? "procedure-mammo" : "diagnosticreport-mammo"
         );
+        // Also emit Procedure, Performed when FHIR type is Procedure (harmless extra).
+        if (resource.resourceType === "Procedure") {
+          pushProcedurePerformed(dataElements, resource, codes, "procedure-mammo-also");
+        }
+      } else if (resource.resourceType === "Procedure") {
+        // CMS130 (and others): colonoscopy etc. need Procedure, Performed.
+        pushProcedurePerformed(dataElements, resource, codes, "procedure");
       }
     }
     if (resource.resourceType === "Observation") {
@@ -445,6 +531,29 @@ function patientFrom(bundle) {
           qdmVersion: "5.6",
           _type: "QDM::AssessmentPerformed",
           _bridgeHint: "tobacco-screening",
+        });
+        continue;
+      }
+
+      // CMS2: Depression screening Assessment, Performed (73832-8 / 73831-0).
+      if (isDepressionScreeningObservation(resource, codes)) {
+        const result = codeableResult(resource.valueCodeableConcept);
+        // Prefer CMS2 Assessment LOINCs in dataElementCodes when dual-coded with PHQ-9.
+        const preferred = codes.filter((c) => c.code === "73832-8" || c.code === "73831-0");
+        dataElements.push({
+          authorDatetime: when,
+          category: "assessment",
+          dataElementCodes: preferred.length ? preferred : codes,
+          description:
+            "Assessment, Performed: " + (resource.code?.text || codes[0].display || codes[0].code),
+          hqmfOid: "2.16.840.1.113883.10.20.28.4.117",
+          relevantDatetime: when,
+          relevantPeriod: period,
+          result,
+          qdmStatus: "performed",
+          qdmVersion: "5.6",
+          _type: "QDM::AssessmentPerformed",
+          _bridgeHint: "depression-screening",
         });
         continue;
       }
