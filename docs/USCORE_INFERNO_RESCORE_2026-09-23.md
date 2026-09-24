@@ -47,6 +47,10 @@ Nine-patient caches were rebuilt with `refresh=1` after deploy.
 
 Skips for CareTeam, CarePlan, pregnancy/occupation/pediatric observations, Provenance, etc. remain **data gaps**, not search bugs.
 
+## Next
+
+- Done: [USCORE_INFERNO_RESCORE_2026-09-24.md](./USCORE_INFERNO_RESCORE_2026-09-24.md) · plan [USCORE_INFERNO_NEXT_PASS_PLAN.md](./USCORE_INFERNO_NEXT_PASS_PLAN.md)
+
 ## Related
 
 - Kit fit / which Inferno suites matter: [INFERNO_QA_TEST_KIT_FIT_2026-09-18.md](./INFERNO_QA_TEST_KIT_FIT_2026-09-18.md)
