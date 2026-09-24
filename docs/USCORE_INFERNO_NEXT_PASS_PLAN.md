@@ -102,7 +102,7 @@ Address/name search OO was fixed **after** the 09-23 scored run.
 5. [x] Hosted Inferno US Core 6.1.0 + 7.0.0 FHIR API — `9xwqWOCxP7x` / `DQpAJA49qc`
 6. [x] Write scorecards under `2026/scorecards/inferno/`
 7. [x] Write `docs/USCORE_INFERNO_RESCORE_2026-09-24.md`; mark this plan **done**
-8. [ ] Commit quality-testing docs/scorecards; Codex commit for M changes
+8. [x] Commit quality-testing docs/scorecards; Codex commit for M changes
 
 Commands (evidence gate):
 
