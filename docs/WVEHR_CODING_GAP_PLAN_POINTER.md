@@ -9,3 +9,5 @@ Canonical multi-measure coding-gap plan + scan (WorldVistA EHR / `fhir.vistaplex
 CMS165 HTN/R69 path (done, CQL 5/5/5): [CMS165_HTN_R69_PLAN_POINTER.md](./CMS165_HTN_R69_PLAN_POINTER.md)
 
 fhirdev sibling (DevFHIR / `devfhir.vistaplex.org`): [FHIRDEV_CODING_GAP_PLAN_POINTER.md](./FHIRDEV_CODING_GAP_PLAN_POINTER.md)
+
+RPMS sibling (`rpmsfhir.vistaplex.org`): [RPMS_CODING_GAP_PLAN_POINTER.md](./RPMS_CODING_GAP_PLAN_POINTER.md)

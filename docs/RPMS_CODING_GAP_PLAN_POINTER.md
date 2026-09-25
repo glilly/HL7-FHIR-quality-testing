@@ -1,0 +1,9 @@
+# RPMS coding-gap plan — pointer
+
+Canonical multi-measure coding-gap plan + scan (**RPMS** / `https://rpmsfhir.vistaplex.org`):
+
+- **Plan:** [CODING_GAP_PLAN_RPMS_2026-09-24.md](./CODING_GAP_PLAN_RPMS_2026-09-24.md)
+- **Scan:** [CODING_GAP_SCAN_RPMS_2026-09-24.md](./CODING_GAP_SCAN_RPMS_2026-09-24.md)
+- **JSON:** [CODING_GAP_SCAN_RPMS_2026-09-24.json](./CODING_GAP_SCAN_RPMS_2026-09-24.json)
+
+Siblings: [FHIRDEV_CODING_GAP_PLAN_POINTER.md](./FHIRDEV_CODING_GAP_PLAN_POINTER.md) · [WVEHR_CODING_GAP_PLAN_POINTER.md](./WVEHR_CODING_GAP_PLAN_POINTER.md)
