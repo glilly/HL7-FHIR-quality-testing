@@ -114,4 +114,4 @@ Do **not** loosen C0X/CQL value sets. Fix codes, timing, POP, and QDM bridges, t
 | CMS165v14 | 36/36/19 | **36/36/19** | Not met (≥25) — BP filed, re-score incomplete |
 | CMS122v14 | 42/42/10 | **42/42/10** | Met (hold) |
 
-**Ops note:** Bulk reeval via C0FQUAL→cds1 returns HTTP 400 on this host; per-DFN `evaluate-cohort` + `SETPOP^C0FQUAL` is the working path. Several DFNs (6, 33, 45, …) drop connections on `/fhir?refresh=1`.
+**Ops note (resolved 2026-09-25):** Bulk C0FQUAL→cds1 HTTP 400 and `/fhir?refresh=1` drops on DFNs 6/33/45 were the same bug — host `REFFIX^C0FHIRLG` always EMITed unmatched panel Observation members (~10k labs / ~13 MB for DFN 6), which hung webreq workers and timed out cds1 fetches. Fix: Codex `C0FHIRLG` with `REFFIXEMIT` gated off by default (already in tree); deployed to rpmsfhir; fat caches for DFNs 6/33/45 invalidated. Verified: `/fhir?dfn=6` 200; full CMS2v15 cohort including DFN 6 evaluates on cds1 (~38 s, 13/13 IPP). Per-DFN `evaluate-cohort` + `SETPOP^C0FQUAL` remains a fine fallback. Optional: `S ^C0FHIR("EXPERIMENT","REFFIXEMIT")=1` restores the old emit behavior for debugging only.
