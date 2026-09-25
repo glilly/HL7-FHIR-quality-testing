@@ -11,3 +11,5 @@ CMS165 HTN/R69 path (done, CQL 5/5/5): [CMS165_HTN_R69_PLAN_POINTER.md](./CMS165
 fhirdev sibling (DevFHIR / `devfhir.vistaplex.org`): [FHIRDEV_CODING_GAP_PLAN_POINTER.md](./FHIRDEV_CODING_GAP_PLAN_POINTER.md)
 
 RPMS sibling (`rpmsfhir.vistaplex.org`): [RPMS_CODING_GAP_PLAN_POINTER.md](./RPMS_CODING_GAP_PLAN_POINTER.md)
+
+Iris sibling (`irisfhir.vistaplex.org`): [IRIS_CODING_GAP_PLAN_POINTER.md](./IRIS_CODING_GAP_PLAN_POINTER.md)

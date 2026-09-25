@@ -1,0 +1,582 @@
+{
+  "host": "https://irisfhir.vistaplex.org",
+  "date": "2026-09-25T03:56:28.306442+00:00",
+  "cohort": "all graph-linked patients on irisfhir (DFN 1-13); quality dashboards report n=12",
+  "n_dfns": 13,
+  "dfns": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "summaries": {
+    "CMS122v14": {
+      "ipp": 1,
+      "denom": 1,
+      "numer": 1,
+      "denex": 0
+    },
+    "CMS125v14": {
+      "ipp": 1,
+      "denom": 1,
+      "numer": 0,
+      "denex": 0
+    },
+    "CMS130v14": {
+      "ipp": 2,
+      "denom": 2,
+      "numer": 0,
+      "denex": 0
+    },
+    "CMS138v14": {
+      "ipp": 3,
+      "denom": 3,
+      "numer": 3,
+      "denex": 0
+    },
+    "CMS165v14": {
+      "ipp": 2,
+      "denom": 2,
+      "numer": 1,
+      "denex": 0
+    },
+    "CMS2v15": {
+      "ipp": 4,
+      "denom": 4,
+      "numer": 0,
+      "denex": 0
+    }
+  },
+  "pops": {
+    "CMS165v14": [
+      {
+        "dfn": 10,
+        "name": "CONROY74,ADOLFO777",
+        "ipp": true,
+        "denom": true,
+        "numer": false,
+        "denex": false
+      },
+      {
+        "dfn": 2,
+        "name": "HARBER290,AUDREA654",
+        "ipp": true,
+        "denom": true,
+        "numer": true,
+        "denex": false
+      }
+    ],
+    "CMS122v14": [
+      {
+        "dfn": 2,
+        "name": "HARBER290,AUDREA654",
+        "ipp": true,
+        "denom": true,
+        "numer": true,
+        "denex": false
+      }
+    ],
+    "CMS125v14": [
+      {
+        "dfn": 2,
+        "name": "HARBER290,AUDREA654",
+        "ipp": true,
+        "denom": true,
+        "numer": false,
+        "denex": false
+      }
+    ],
+    "CMS130v14": [
+      {
+        "dfn": 10,
+        "name": "CONROY74,ADOLFO777",
+        "ipp": true,
+        "denom": true,
+        "numer": false,
+        "denex": false
+      },
+      {
+        "dfn": 2,
+        "name": "HARBER290,AUDREA654",
+        "ipp": true,
+        "denom": true,
+        "numer": false,
+        "denex": false
+      }
+    ],
+    "CMS138v14": [
+      {
+        "dfn": 10,
+        "name": "CONROY74,ADOLFO777",
+        "ipp": true,
+        "denom": true,
+        "numer": true,
+        "denex": false
+      },
+      {
+        "dfn": 9,
+        "name": "DICKINSON688,ABDUL218",
+        "ipp": true,
+        "denom": true,
+        "numer": true,
+        "denex": false
+      },
+      {
+        "dfn": 2,
+        "name": "HARBER290,AUDREA654",
+        "ipp": true,
+        "denom": true,
+        "numer": true,
+        "denex": false
+      }
+    ],
+    "CMS2v15": [
+      {
+        "dfn": 10,
+        "name": "CONROY74,ADOLFO777",
+        "ipp": true,
+        "denom": true,
+        "numer": false,
+        "denex": false
+      },
+      {
+        "dfn": 9,
+        "name": "DICKINSON688,ABDUL218",
+        "ipp": true,
+        "denom": true,
+        "numer": false,
+        "denex": false
+      },
+      {
+        "dfn": 8,
+        "name": "REMPEL203,AARON697",
+        "ipp": true,
+        "denom": true,
+        "numer": false,
+        "denex": false
+      },
+      {
+        "dfn": 2,
+        "name": "HARBER290,AUDREA654",
+        "ipp": true,
+        "denom": true,
+        "numer": false,
+        "denex": false
+      }
+    ]
+  },
+  "r69_condition_rows": 235,
+  "r69_narratives": [
+    [
+      "Malignant neoplasm of breast (disorder)",
+      148
+    ],
+    [
+      "Normal pregnancy",
+      52
+    ],
+    [
+      "Viral sinusitis (disorder)",
+      17
+    ],
+    [
+      "Laceration - injury (disorder)",
+      3
+    ],
+    [
+      "Loss of taste (finding)",
+      2
+    ],
+    [
+      "Sprain of ankle",
+      2
+    ],
+    [
+      "Concussion with loss of consciousness",
+      2
+    ],
+    [
+      "Concussion with no loss of consciousness",
+      2
+    ],
+    [
+      "Concussion with loss of consciousness (disorder)",
+      1
+    ],
+    [
+      "Concussion injury of brain (disorder)",
+      1
+    ],
+    [
+      "Laceration of forearm",
+      1
+    ],
+    [
+      "Seizure disorder (disorder)",
+      1
+    ],
+    [
+      "Seasonal allergic rhinitis (disorder)",
+      1
+    ],
+    [
+      "Allergic disposition (finding)",
+      1
+    ],
+    [
+      "Sprain of ankle (disorder)",
+      1
+    ]
+  ],
+  "errors": [],
+  "measures": {
+    "CMS165v14": {
+      "label": "HTN / BP control",
+      "gap_mix": {
+        "has_active_good": 13
+      },
+      "has_active_good": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "r69_only_no_active_good": [],
+      "concept_narr_inactive_or_uncoded": [],
+      "no_concept_evidence": [],
+      "details": {
+        "1": "has_active_good",
+        "2": "has_active_good",
+        "3": "has_active_good",
+        "4": "has_active_good",
+        "5": "has_active_good",
+        "6": "has_active_good",
+        "7": "has_active_good",
+        "8": "has_active_good",
+        "9": "has_active_good",
+        "10": "has_active_good",
+        "11": "has_active_good",
+        "12": "has_active_good",
+        "13": "has_active_good"
+      }
+    },
+    "CMS122v14": {
+      "label": "Diabetes / A1c",
+      "gap_mix": {
+        "no_concept_evidence": 8,
+        "concept_narr_inactive_or_uncoded": 3,
+        "has_active_good": 2
+      },
+      "has_active_good": [
+        4,
+        12
+      ],
+      "r69_only_no_active_good": [],
+      "concept_narr_inactive_or_uncoded": [
+        2,
+        5,
+        9
+      ],
+      "no_concept_evidence": [
+        1,
+        3,
+        6,
+        7,
+        8,
+        10,
+        11,
+        13
+      ],
+      "details": {
+        "1": "no_concept_evidence",
+        "2": "concept_narr_inactive_or_uncoded",
+        "3": "no_concept_evidence",
+        "4": "has_active_good",
+        "5": "concept_narr_inactive_or_uncoded",
+        "6": "no_concept_evidence",
+        "7": "no_concept_evidence",
+        "8": "no_concept_evidence",
+        "9": "concept_narr_inactive_or_uncoded",
+        "10": "no_concept_evidence",
+        "11": "no_concept_evidence",
+        "12": "has_active_good",
+        "13": "no_concept_evidence"
+      }
+    },
+    "CMS125v14": {
+      "label": "Breast cancer screening",
+      "gap_mix": {
+        "no_concept_evidence": 7,
+        "has_active_good": 6
+      },
+      "has_active_good": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        11
+      ],
+      "r69_only_no_active_good": [],
+      "concept_narr_inactive_or_uncoded": [],
+      "no_concept_evidence": [
+        1,
+        2,
+        8,
+        9,
+        10,
+        12,
+        13
+      ],
+      "details": {
+        "1": "no_concept_evidence",
+        "2": "no_concept_evidence",
+        "3": "has_active_good",
+        "4": "has_active_good",
+        "5": "has_active_good",
+        "6": "has_active_good",
+        "7": "has_active_good",
+        "8": "no_concept_evidence",
+        "9": "no_concept_evidence",
+        "10": "no_concept_evidence",
+        "11": "has_active_good",
+        "12": "no_concept_evidence",
+        "13": "no_concept_evidence"
+      }
+    },
+    "CMS130v14": {
+      "label": "Colorectal screening",
+      "gap_mix": {
+        "has_active_good": 6,
+        "concept_narr_inactive_or_uncoded": 1,
+        "no_concept_evidence": 6
+      },
+      "has_active_good": [
+        1,
+        4,
+        6,
+        10,
+        11,
+        12
+      ],
+      "r69_only_no_active_good": [],
+      "concept_narr_inactive_or_uncoded": [
+        2
+      ],
+      "no_concept_evidence": [
+        3,
+        5,
+        7,
+        8,
+        9,
+        13
+      ],
+      "details": {
+        "1": "has_active_good",
+        "2": "concept_narr_inactive_or_uncoded",
+        "3": "no_concept_evidence",
+        "4": "has_active_good",
+        "5": "no_concept_evidence",
+        "6": "has_active_good",
+        "7": "no_concept_evidence",
+        "8": "no_concept_evidence",
+        "9": "no_concept_evidence",
+        "10": "has_active_good",
+        "11": "has_active_good",
+        "12": "has_active_good",
+        "13": "no_concept_evidence"
+      }
+    },
+    "CMS138v14": {
+      "label": "Tobacco screening",
+      "gap_mix": {
+        "has_active_good": 13
+      },
+      "has_active_good": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "r69_only_no_active_good": [],
+      "concept_narr_inactive_or_uncoded": [],
+      "no_concept_evidence": [],
+      "details": {
+        "1": "has_active_good",
+        "2": "has_active_good",
+        "3": "has_active_good",
+        "4": "has_active_good",
+        "5": "has_active_good",
+        "6": "has_active_good",
+        "7": "has_active_good",
+        "8": "has_active_good",
+        "9": "has_active_good",
+        "10": "has_active_good",
+        "11": "has_active_good",
+        "12": "has_active_good",
+        "13": "has_active_good"
+      }
+    },
+    "CMS2v15": {
+      "label": "Depression screening",
+      "gap_mix": {
+        "no_concept_evidence": 5,
+        "has_active_good": 8
+      },
+      "has_active_good": [
+        2,
+        3,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "r69_only_no_active_good": [],
+      "concept_narr_inactive_or_uncoded": [],
+      "no_concept_evidence": [
+        1,
+        4,
+        5,
+        6,
+        13
+      ],
+      "details": {
+        "1": "no_concept_evidence",
+        "2": "has_active_good",
+        "3": "has_active_good",
+        "4": "no_concept_evidence",
+        "5": "no_concept_evidence",
+        "6": "no_concept_evidence",
+        "7": "has_active_good",
+        "8": "has_active_good",
+        "9": "has_active_good",
+        "10": "has_active_good",
+        "11": "has_active_good",
+        "12": "has_active_good",
+        "13": "no_concept_evidence"
+      }
+    }
+  },
+  "per_dfn": {
+    "1": {
+      "conds": 30,
+      "procs": 12,
+      "obs": 323,
+      "r69": 4,
+      "entries": 678
+    },
+    "2": {
+      "conds": 200,
+      "procs": 200,
+      "obs": 400,
+      "r69": 5,
+      "entries": 1768
+    },
+    "3": {
+      "conds": 82,
+      "procs": 200,
+      "obs": 100,
+      "r69": 67,
+      "entries": 606
+    },
+    "4": {
+      "conds": 47,
+      "procs": 29,
+      "obs": 364,
+      "r69": 24,
+      "entries": 792
+    },
+    "5": {
+      "conds": 40,
+      "procs": 43,
+      "obs": 189,
+      "r69": 17,
+      "entries": 536
+    },
+    "6": {
+      "conds": 28,
+      "procs": 42,
+      "obs": 99,
+      "r69": 13,
+      "entries": 300
+    },
+    "7": {
+      "conds": 50,
+      "procs": 119,
+      "obs": 167,
+      "r69": 23,
+      "entries": 621
+    },
+    "8": {
+      "conds": 18,
+      "procs": 67,
+      "obs": 90,
+      "r69": 2,
+      "entries": 270
+    },
+    "9": {
+      "conds": 39,
+      "procs": 99,
+      "obs": 181,
+      "r69": 2,
+      "entries": 530
+    },
+    "10": {
+      "conds": 51,
+      "procs": 116,
+      "obs": 268,
+      "r69": 4,
+      "entries": 792
+    },
+    "11": {
+      "conds": 105,
+      "procs": 170,
+      "obs": 84,
+      "r69": 70,
+      "entries": 615
+    },
+    "12": {
+      "conds": 200,
+      "procs": 200,
+      "obs": 401,
+      "r69": 3,
+      "entries": 1572
+    },
+    "13": {
+      "conds": 4,
+      "procs": 5,
+      "obs": 66,
+      "r69": 1,
+      "entries": 134
+    }
+  }
+}

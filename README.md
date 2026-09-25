@@ -19,6 +19,7 @@ Local containers are useful for smoke testing, but scorecards in this repo shoul
 - `docs/CMS165_HTN_R69_PLAN_POINTER.md` - CMS165 HTN coded as R69; canonical plan in WVEHR-on-FHIR (CQL 5/5/5 after repair).
 - `docs/WVEHR_CODING_GAP_PLAN_POINTER.md` - multi-measure coding-gap scan/plan on WorldVistA EHR (`fhir.vistaplex.org`).
 - `docs/RPMS_CODING_GAP_PLAN_POINTER.md` - multi-measure coding-gap scan/plan on RPMS (`rpmsfhir.vistaplex.org`).
+- `docs/IRIS_CODING_GAP_PLAN_POINTER.md` - multi-measure coding-gap scan/plan on Iris (`irisfhir.vistaplex.org`).
 - `docs/CMS_2026_QUALITY_MEASURES.md` - first-wave CMS eCQM research notes.
 - `docs/connectathon/` - migrated July Connectathon and US Quality Core notes.
 - `2026/measures/` - per-measure denominator/numerator notes and cohort requirements.
