@@ -1,0 +1,50 @@
+# Daily quality rotate — 2026-09-28 — `showfhir`
+
+**Verdict:** **FAIL**  
+**Base:** `https://showfhir.vistaplex.org`  
+**Stamp (UTC):** `20260928T233852Z`  
+**POPIDX:** populationIndexed=766, popidxDistinctCodes=1009  
+**CQL reeval:** skipped  
+
+## Checks
+
+| Status | Key | Detail |
+|--------|-----|--------|
+| PASS | `fhir-metadata` | HTTP 200 |
+| PASS | `popidx` | populationIndexed=766 popidxDistinctCodes=1009 |
+| PASS | `c0x-presets` | 6 active measure presets present |
+| PASS | `ipp-CMS165v14` | ippCount=23 |
+| PASS | `ipp-CMS122v14` | ippCount=5 |
+| PASS | `ipp-CMS130v14` | ippCount=50 |
+| PASS | `ipp-CMS125v14` | ippCount=32 |
+| PASS | `ipp-CMS138v14` | ippCount=102 |
+| PASS | `ipp-CMS2v15` | ippCount=102 |
+| PASS | `sum-CMS165v14` | 19/19/12/2 |
+| PASS | `sum-CMS122v14` | 4/4/4/0 |
+| PASS | `sum-CMS130v14` | 43/43/27/1 |
+| PASS | `sum-CMS125v14` | 28/28/1/0 |
+| PASS | `sum-CMS138v14` | 72/72/44/0 |
+| PASS | `sum-CMS2v15` | 90/90/0/0 |
+| PASS | `reeval-skipped` | QUALITY_REEVAL not requested for showfhir |
+| FAIL | `json-101070` | HTTP 500 |
+| FAIL | `json-101083` | HTTP 500 |
+| PASS | `json-101085` | strict Bundle parse OK |
+
+## Measure table
+
+| Measure | SPARQL ippCount | SUM IPP/DENOM/NUMER/DENEX |
+|---------|-----------------|---------------------------|
+| CMS165v14 | ippCount=23 | — |
+| CMS122v14 | ippCount=5 | — |
+| CMS130v14 | ippCount=50 | — |
+| CMS125v14 | ippCount=32 | — |
+| CMS138v14 | ippCount=102 | — |
+| CMS2v15 | ippCount=102 | — |
+
+## Reproduce
+
+```bash
+cd HL7-FHIR-quality-testing && ./scripts/daily-quality-rotate.sh showfhir
+```
+
+JSON twin: `2026-09-28-showfhir.json`

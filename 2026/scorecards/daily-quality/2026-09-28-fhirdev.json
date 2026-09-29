@@ -1,0 +1,130 @@
+{
+  "schema": "daily-quality-rotate/v1",
+  "day": "2026-09-28",
+  "stamp": "20260928T185723Z",
+  "host": "fhirdev",
+  "base": "https://devfhir.vistaplex.org",
+  "verdict": "PASS",
+  "populationIndexed": 562,
+  "popidxDistinctCodes": 878,
+  "reevalRan": false,
+  "measures": {
+    "CMS165v14": {
+      "ippCount": "ippCount=27"
+    },
+    "CMS122v14": {
+      "ippCount": "ippCount=6"
+    },
+    "CMS130v14": {
+      "ippCount": "ippCount=26"
+    },
+    "CMS125v14": {
+      "ippCount": "ippCount=18"
+    },
+    "CMS138v14": {
+      "ippCount": "ippCount=44"
+    },
+    "CMS2v15": {
+      "ippCount": "ippCount=44"
+    },
+    "skipped": {}
+  },
+  "checks": [
+    {
+      "status": "pass",
+      "key": "fhir-metadata",
+      "detail": "HTTP 200"
+    },
+    {
+      "status": "pass",
+      "key": "popidx",
+      "detail": "populationIndexed=562 popidxDistinctCodes=878"
+    },
+    {
+      "status": "pass",
+      "key": "c0x-presets",
+      "detail": "6 active measure presets present"
+    },
+    {
+      "status": "pass",
+      "key": "ipp-CMS165v14",
+      "detail": "ippCount=27"
+    },
+    {
+      "status": "pass",
+      "key": "ipp-CMS122v14",
+      "detail": "ippCount=6"
+    },
+    {
+      "status": "pass",
+      "key": "ipp-CMS130v14",
+      "detail": "ippCount=26"
+    },
+    {
+      "status": "pass",
+      "key": "ipp-CMS125v14",
+      "detail": "ippCount=18"
+    },
+    {
+      "status": "pass",
+      "key": "ipp-CMS138v14",
+      "detail": "ippCount=44"
+    },
+    {
+      "status": "pass",
+      "key": "ipp-CMS2v15",
+      "detail": "ippCount=44"
+    },
+    {
+      "status": "pass",
+      "key": "sum-CMS165v14",
+      "detail": "19/19/19/0"
+    },
+    {
+      "status": "pass",
+      "key": "sum-CMS122v14",
+      "detail": "5/5/5/0"
+    },
+    {
+      "status": "pass",
+      "key": "sum-CMS130v14",
+      "detail": "15/15/11/0"
+    },
+    {
+      "status": "pass",
+      "key": "sum-CMS125v14",
+      "detail": "18/18/18/0"
+    },
+    {
+      "status": "pass",
+      "key": "sum-CMS138v14",
+      "detail": "31/31/29/0"
+    },
+    {
+      "status": "pass",
+      "key": "sum-CMS2v15",
+      "detail": "21/21/18/0"
+    },
+    {
+      "status": "pass",
+      "key": "reeval-skipped",
+      "detail": "QUALITY_REEVAL not requested for fhirdev"
+    },
+    {
+      "status": "pass",
+      "key": "json-101077",
+      "detail": "strict Bundle parse OK"
+    },
+    {
+      "status": "pass",
+      "key": "json-101084",
+      "detail": "strict Bundle parse OK"
+    },
+    {
+      "status": "pass",
+      "key": "json-101088",
+      "detail": "strict Bundle parse OK"
+    }
+  ],
+  "command": "./scripts/daily-quality-rotate.sh fhirdev"
+}
