@@ -1,0 +1,120 @@
+{
+  "schema": "daily-quality-rotate/v1",
+  "day": "2026-09-29",
+  "stamp": "20260929T050433Z",
+  "host": "vehu10",
+  "base": "http://127.0.0.1:9085",
+  "verdict": "FAIL",
+  "populationIndexed": 0,
+  "popidxDistinctCodes": 0,
+  "reevalRan": false,
+  "measures": {
+    "CMS165v14": {
+      "ippCount": "HTTP 000000"
+    },
+    "CMS122v14": {
+      "ippCount": "HTTP 000000"
+    },
+    "CMS130v14": {
+      "ippCount": "HTTP 000000"
+    },
+    "CMS125v14": {
+      "ippCount": "HTTP 000000"
+    },
+    "CMS138v14": {
+      "ippCount": "HTTP 000000"
+    },
+    "CMS2v15": {
+      "ippCount": "HTTP 000000"
+    },
+    "skipped": {}
+  },
+  "checks": [
+    {
+      "status": "fail",
+      "key": "fhir-metadata",
+      "detail": "HTTP 000000"
+    },
+    {
+      "status": "fail",
+      "key": "popidx",
+      "detail": "HTTP 000000"
+    },
+    {
+      "status": "fail",
+      "key": "c0x-presets",
+      "detail": "HTTP 000000 or missing presets"
+    },
+    {
+      "status": "fail",
+      "key": "ipp-CMS165v14",
+      "detail": "HTTP 000000"
+    },
+    {
+      "status": "fail",
+      "key": "ipp-CMS122v14",
+      "detail": "HTTP 000000"
+    },
+    {
+      "status": "fail",
+      "key": "ipp-CMS130v14",
+      "detail": "HTTP 000000"
+    },
+    {
+      "status": "fail",
+      "key": "ipp-CMS125v14",
+      "detail": "HTTP 000000"
+    },
+    {
+      "status": "fail",
+      "key": "ipp-CMS138v14",
+      "detail": "HTTP 000000"
+    },
+    {
+      "status": "fail",
+      "key": "ipp-CMS2v15",
+      "detail": "HTTP 000000"
+    },
+    {
+      "status": "fail",
+      "key": "sum-CMS165v14",
+      "detail": "dashboard HTTP 000000"
+    },
+    {
+      "status": "fail",
+      "key": "sum-CMS122v14",
+      "detail": "dashboard HTTP 000000"
+    },
+    {
+      "status": "fail",
+      "key": "sum-CMS130v14",
+      "detail": "dashboard HTTP 000000"
+    },
+    {
+      "status": "fail",
+      "key": "sum-CMS125v14",
+      "detail": "dashboard HTTP 000000"
+    },
+    {
+      "status": "fail",
+      "key": "sum-CMS138v14",
+      "detail": "dashboard HTTP 000000"
+    },
+    {
+      "status": "fail",
+      "key": "sum-CMS2v15",
+      "detail": "dashboard HTTP 000000"
+    },
+    {
+      "status": "pass",
+      "key": "reeval-skipped",
+      "detail": "QUALITY_REEVAL not requested for vehu10"
+    },
+    {
+      "status": "fail",
+      "key": "json-parse",
+      "detail": "no sample DFNs"
+    }
+  ],
+  "command": "./scripts/daily-quality-rotate.sh vehu10"
+}
