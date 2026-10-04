@@ -343,7 +343,7 @@
         "status": "complete",
         "type": "subject-list",
         "measure": "https://ecqi.healthit.gov/ecqm/ec/CMS165v14|14.0.000",
-        "date": "2026-09-09T21:22:10Z",
+        "date": "2026-10-04T05:15:48Z",
         "reporter": {
           "reference": "Organization/vistaplex-demo"
         },
@@ -493,7 +493,7 @@
         "subject": {
           "reference": "Patient/101077"
         },
-        "date": "2026-09-09T21:22:10Z",
+        "date": "2026-10-04T05:15:48Z",
         "reporter": {
           "reference": "Organization/vistaplex-demo"
         },
@@ -597,7 +597,7 @@
         "subject": {
           "reference": "Patient/101084"
         },
-        "date": "2026-09-09T21:22:10Z",
+        "date": "2026-10-04T05:15:48Z",
         "reporter": {
           "reference": "Organization/vistaplex-demo"
         },
@@ -701,7 +701,7 @@
         "subject": {
           "reference": "Patient/101088"
         },
-        "date": "2026-09-09T21:22:10Z",
+        "date": "2026-10-04T05:15:48Z",
         "reporter": {
           "reference": "Organization/vistaplex-demo"
         },
@@ -805,7 +805,7 @@
         "subject": {
           "reference": "Patient/101094"
         },
-        "date": "2026-09-09T21:22:10Z",
+        "date": "2026-10-04T05:15:48Z",
         "reporter": {
           "reference": "Organization/vistaplex-demo"
         },
@@ -912,7 +912,7 @@
         "subject": {
           "reference": "Patient/101095"
         },
-        "date": "2026-09-09T21:22:10Z",
+        "date": "2026-10-04T05:15:48Z",
         "reporter": {
           "reference": "Organization/vistaplex-demo"
         },
@@ -1019,7 +1019,7 @@
         "subject": {
           "reference": "Patient/101096"
         },
-        "date": "2026-09-09T21:22:10Z",
+        "date": "2026-10-04T05:15:48Z",
         "reporter": {
           "reference": "Organization/vistaplex-demo"
         },
@@ -1126,7 +1126,7 @@
         "subject": {
           "reference": "Patient/101097"
         },
-        "date": "2026-09-09T21:22:10Z",
+        "date": "2026-10-04T05:15:48Z",
         "reporter": {
           "reference": "Organization/vistaplex-demo"
         },
@@ -1233,7 +1233,7 @@
         "subject": {
           "reference": "Patient/101098"
         },
-        "date": "2026-09-09T21:22:10Z",
+        "date": "2026-10-04T05:15:48Z",
         "reporter": {
           "reference": "Organization/vistaplex-demo"
         },
@@ -1340,7 +1340,7 @@
         "subject": {
           "reference": "Patient/101099"
         },
-        "date": "2026-09-09T21:22:10Z",
+        "date": "2026-10-04T05:15:48Z",
         "reporter": {
           "reference": "Organization/vistaplex-demo"
         },
@@ -1444,7 +1444,7 @@
         "subject": {
           "reference": "Patient/101100"
         },
-        "date": "2026-09-09T21:22:10Z",
+        "date": "2026-10-04T05:15:48Z",
         "reporter": {
           "reference": "Organization/vistaplex-demo"
         },
@@ -1551,7 +1551,7 @@
         "subject": {
           "reference": "Patient/101101"
         },
-        "date": "2026-09-09T21:22:10Z",
+        "date": "2026-10-04T05:15:48Z",
         "reporter": {
           "reference": "Organization/vistaplex-demo"
         },
@@ -1658,7 +1658,7 @@
         "subject": {
           "reference": "Patient/101102"
         },
-        "date": "2026-09-09T21:22:10Z",
+        "date": "2026-10-04T05:15:48Z",
         "reporter": {
           "reference": "Organization/vistaplex-demo"
         },
@@ -1762,7 +1762,7 @@
         "subject": {
           "reference": "Patient/101103"
         },
-        "date": "2026-09-09T21:22:10Z",
+        "date": "2026-10-04T05:15:48Z",
         "reporter": {
           "reference": "Organization/vistaplex-demo"
         },
@@ -1869,7 +1869,7 @@
         "subject": {
           "reference": "Patient/101104"
         },
-        "date": "2026-09-09T21:22:10Z",
+        "date": "2026-10-04T05:15:48Z",
         "reporter": {
           "reference": "Organization/vistaplex-demo"
         },
@@ -1973,7 +1973,7 @@
         "subject": {
           "reference": "Patient/101105"
         },
-        "date": "2026-09-09T21:22:10Z",
+        "date": "2026-10-04T05:15:48Z",
         "reporter": {
           "reference": "Organization/vistaplex-demo"
         },
@@ -2080,7 +2080,7 @@
         "subject": {
           "reference": "Patient/101106"
         },
-        "date": "2026-09-09T21:22:10Z",
+        "date": "2026-10-04T05:15:48Z",
         "reporter": {
           "reference": "Organization/vistaplex-demo"
         },
@@ -2187,7 +2187,7 @@
         "subject": {
           "reference": "Patient/101107"
         },
-        "date": "2026-09-09T21:22:10Z",
+        "date": "2026-10-04T05:15:48Z",
         "reporter": {
           "reference": "Organization/vistaplex-demo"
         },
@@ -2294,7 +2294,7 @@
         "subject": {
           "reference": "Patient/101108"
         },
-        "date": "2026-09-09T21:22:10Z",
+        "date": "2026-10-04T05:15:48Z",
         "reporter": {
           "reference": "Organization/vistaplex-demo"
         },
@@ -2401,7 +2401,7 @@
         "subject": {
           "reference": "Patient/101109"
         },
-        "date": "2026-09-09T21:22:10Z",
+        "date": "2026-10-04T05:15:48Z",
         "reporter": {
           "reference": "Organization/vistaplex-demo"
         },
@@ -2508,7 +2508,7 @@
         "subject": {
           "reference": "Patient/101110"
         },
-        "date": "2026-09-09T21:22:10Z",
+        "date": "2026-10-04T05:15:48Z",
         "reporter": {
           "reference": "Organization/vistaplex-demo"
         },
@@ -2615,7 +2615,7 @@
         "subject": {
           "reference": "Patient/101111"
         },
-        "date": "2026-09-09T21:22:10Z",
+        "date": "2026-10-04T05:15:48Z",
         "reporter": {
           "reference": "Organization/vistaplex-demo"
         },
@@ -2722,7 +2722,7 @@
         "subject": {
           "reference": "Patient/101115"
         },
-        "date": "2026-09-09T21:22:10Z",
+        "date": "2026-10-04T05:15:48Z",
         "reporter": {
           "reference": "Organization/vistaplex-demo"
         },
@@ -2829,7 +2829,7 @@
         "subject": {
           "reference": "Patient/101122"
         },
-        "date": "2026-09-09T21:22:10Z",
+        "date": "2026-10-04T05:15:48Z",
         "reporter": {
           "reference": "Organization/vistaplex-demo"
         },
