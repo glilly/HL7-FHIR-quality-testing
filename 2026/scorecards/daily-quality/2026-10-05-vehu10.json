@@ -1,0 +1,130 @@
+{
+  "schema": "daily-quality-rotate/v1",
+  "day": "2026-10-05",
+  "stamp": "20261005T051813Z",
+  "host": "vehu10",
+  "base": "http://127.0.0.1:9085",
+  "verdict": "FAIL",
+  "populationIndexed": 29,
+  "popidxDistinctCodes": 0,
+  "reevalRan": false,
+  "measures": {
+    "CMS165v14": {
+      "ippCount": "ippCount=11"
+    },
+    "CMS122v14": {
+      "ippCount": "ippCount=7"
+    },
+    "CMS130v14": {
+      "ippCount": "ippCount=9"
+    },
+    "CMS125v14": {
+      "ippCount": "ippCount=7"
+    },
+    "CMS138v14": {
+      "ippCount": "ippCount=15"
+    },
+    "CMS2v15": {
+      "ippCount": "ippCount=15"
+    },
+    "skipped": {}
+  },
+  "checks": [
+    {
+      "status": "pass",
+      "key": "fhir-metadata",
+      "detail": "HTTP 200"
+    },
+    {
+      "status": "fail",
+      "key": "popidx",
+      "detail": "populationIndexed=29 popidxDistinctCodes=0"
+    },
+    {
+      "status": "pass",
+      "key": "c0x-presets",
+      "detail": "6 active measure presets present"
+    },
+    {
+      "status": "pass",
+      "key": "ipp-CMS165v14",
+      "detail": "ippCount=11"
+    },
+    {
+      "status": "pass",
+      "key": "ipp-CMS122v14",
+      "detail": "ippCount=7"
+    },
+    {
+      "status": "pass",
+      "key": "ipp-CMS130v14",
+      "detail": "ippCount=9"
+    },
+    {
+      "status": "pass",
+      "key": "ipp-CMS125v14",
+      "detail": "ippCount=7"
+    },
+    {
+      "status": "pass",
+      "key": "ipp-CMS138v14",
+      "detail": "ippCount=15"
+    },
+    {
+      "status": "pass",
+      "key": "ipp-CMS2v15",
+      "detail": "ippCount=15"
+    },
+    {
+      "status": "pass",
+      "key": "sum-CMS165v14",
+      "detail": "19/16/15/0"
+    },
+    {
+      "status": "pass",
+      "key": "sum-CMS122v14",
+      "detail": "4/4/4/0"
+    },
+    {
+      "status": "pass",
+      "key": "sum-CMS130v14",
+      "detail": "13/9/1/0"
+    },
+    {
+      "status": "pass",
+      "key": "sum-CMS125v14",
+      "detail": "1/1/1/0"
+    },
+    {
+      "status": "pass",
+      "key": "sum-CMS138v14",
+      "detail": "26/26/2/0"
+    },
+    {
+      "status": "pass",
+      "key": "sum-CMS2v15",
+      "detail": "1/1/0/0"
+    },
+    {
+      "status": "pass",
+      "key": "reeval-skipped",
+      "detail": "QUALITY_REEVAL not requested for vehu10"
+    },
+    {
+      "status": "pass",
+      "key": "json-101069",
+      "detail": "strict Bundle parse OK"
+    },
+    {
+      "status": "pass",
+      "key": "json-101071",
+      "detail": "strict Bundle parse OK"
+    },
+    {
+      "status": "pass",
+      "key": "json-101075",
+      "detail": "strict Bundle parse OK"
+    }
+  ],
+  "command": "./scripts/daily-quality-rotate.sh vehu10"
+}
