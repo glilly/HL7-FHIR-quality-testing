@@ -1,0 +1,21 @@
+{
+  "title": "Vista/RPMS FHIR Server",
+  "id": null,
+  "test_suite_id": "us_quality_core_v050",
+  "inputs": [
+    {
+      "name": "url",
+      "type": "text",
+      "title": "FHIR Endpoint",
+      "description": "URL of the FHIR endpoint",
+      "value": "http://localhost:5177/fhir"
+    },
+    {
+      "name": "patient_ids",
+      "type": "text",
+      "title": "Patient IDs",
+      "description": "Comma separated list of Patient resource IDs",
+      "value": "14"
+    }
+  ]
+}

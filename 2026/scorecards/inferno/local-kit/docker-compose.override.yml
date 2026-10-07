@@ -1,0 +1,13 @@
+services:
+  nginx:
+    ports: !override
+      - "8088:80"
+  fhirpath:
+    ports: !override
+      - "6789:6789"
+  inferno_reference_server:
+    ports: !override
+      - "8089:8080"
+  redis:
+    ports: !override
+      - "6389:6379"
