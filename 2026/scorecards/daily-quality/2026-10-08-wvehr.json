@@ -1,0 +1,130 @@
+{
+  "schema": "daily-quality-rotate/v1",
+  "day": "2026-10-08",
+  "stamp": "20261008T052039Z",
+  "host": "wvehr",
+  "base": "https://fhir.vistaplex.org",
+  "verdict": "FAIL",
+  "populationIndexed": 14,
+  "popidxDistinctCodes": 0,
+  "reevalRan": false,
+  "measures": {
+    "CMS165v14": {
+      "ippCount": "ippCount=10"
+    },
+    "CMS122v14": {
+      "ippCount": "ippCount=1"
+    },
+    "CMS130v14": {
+      "ippCount": "ippCount=0"
+    },
+    "CMS125v14": {
+      "ippCount": "ippCount=0"
+    },
+    "CMS138v14": {
+      "ippCount": "ippCount=0"
+    },
+    "CMS2v15": {
+      "ippCount": "ippCount=0"
+    },
+    "skipped": {}
+  },
+  "checks": [
+    {
+      "status": "pass",
+      "key": "fhir-metadata",
+      "detail": "HTTP 200"
+    },
+    {
+      "status": "fail",
+      "key": "popidx",
+      "detail": "populationIndexed=14 popidxDistinctCodes=0"
+    },
+    {
+      "status": "pass",
+      "key": "c0x-presets",
+      "detail": "6 active measure presets present"
+    },
+    {
+      "status": "pass",
+      "key": "ipp-CMS165v14",
+      "detail": "ippCount=10"
+    },
+    {
+      "status": "pass",
+      "key": "ipp-CMS122v14",
+      "detail": "ippCount=1"
+    },
+    {
+      "status": "pass",
+      "key": "ipp-CMS130v14",
+      "detail": "ippCount=0"
+    },
+    {
+      "status": "pass",
+      "key": "ipp-CMS125v14",
+      "detail": "ippCount=0"
+    },
+    {
+      "status": "pass",
+      "key": "ipp-CMS138v14",
+      "detail": "ippCount=0"
+    },
+    {
+      "status": "pass",
+      "key": "ipp-CMS2v15",
+      "detail": "ippCount=0"
+    },
+    {
+      "status": "pass",
+      "key": "sum-CMS165v14",
+      "detail": "5/5/5/0"
+    },
+    {
+      "status": "pass",
+      "key": "sum-CMS122v14",
+      "detail": "3/3/1/0"
+    },
+    {
+      "status": "pass",
+      "key": "sum-CMS130v14",
+      "detail": "9/9/2/0"
+    },
+    {
+      "status": "pass",
+      "key": "sum-CMS125v14",
+      "detail": "6/6/3/0"
+    },
+    {
+      "status": "pass",
+      "key": "sum-CMS138v14",
+      "detail": "12/12/9/0"
+    },
+    {
+      "status": "pass",
+      "key": "sum-CMS2v15",
+      "detail": "13/13/12/0"
+    },
+    {
+      "status": "pass",
+      "key": "reeval-skipped",
+      "detail": "QUALITY_REEVAL not requested for wvehr"
+    },
+    {
+      "status": "pass",
+      "key": "json-3",
+      "detail": "strict Bundle parse OK"
+    },
+    {
+      "status": "pass",
+      "key": "json-5",
+      "detail": "strict Bundle parse OK"
+    },
+    {
+      "status": "pass",
+      "key": "json-6",
+      "detail": "strict Bundle parse OK"
+    }
+  ],
+  "command": "./scripts/daily-quality-rotate.sh wvehr"
+}
