@@ -1,50 +1,48 @@
-# Daily quality rotate — 2026-10-08 — `wvehr`
+# Daily quality rotate — 2026-10-09 — `showfhir`
 
 **Verdict:** **FAIL**  
-**Base:** `https://fhir.vistaplex.org`  
-**Stamp (UTC):** `20261008T052039Z`  
-**POPIDX:** populationIndexed=14, popidxDistinctCodes=0  
+**Base:** `https://showfhir.vistaplex.org`  
+**Stamp (UTC):** `20261009T053132Z`  
+**POPIDX:** populationIndexed=0, popidxDistinctCodes=0  
 **CQL reeval:** skipped  
 
 ## Checks
 
 | Status | Key | Detail |
 |--------|-----|--------|
-| PASS | `fhir-metadata` | HTTP 200 |
-| FAIL | `popidx` | populationIndexed=14 popidxDistinctCodes=0 |
-| PASS | `c0x-presets` | 6 active measure presets present |
-| PASS | `ipp-CMS165v14` | ippCount=10 |
-| PASS | `ipp-CMS122v14` | ippCount=1 |
-| PASS | `ipp-CMS130v14` | ippCount=0 |
-| PASS | `ipp-CMS125v14` | ippCount=0 |
-| PASS | `ipp-CMS138v14` | ippCount=0 |
-| PASS | `ipp-CMS2v15` | ippCount=0 |
-| PASS | `sum-CMS165v14` | 5/5/5/0 |
-| PASS | `sum-CMS122v14` | 3/3/1/0 |
-| PASS | `sum-CMS130v14` | 9/9/2/0 |
-| PASS | `sum-CMS125v14` | 6/6/3/0 |
-| PASS | `sum-CMS138v14` | 12/12/9/0 |
-| PASS | `sum-CMS2v15` | 13/13/12/0 |
-| PASS | `reeval-skipped` | QUALITY_REEVAL not requested for wvehr |
-| PASS | `json-3` | strict Bundle parse OK |
-| PASS | `json-5` | strict Bundle parse OK |
-| PASS | `json-6` | strict Bundle parse OK |
+| FAIL | `fhir-metadata` | HTTP 000000 |
+| FAIL | `popidx` | HTTP 000000 |
+| FAIL | `c0x-presets` | HTTP 000000 or missing presets |
+| FAIL | `ipp-CMS165v14` | HTTP 000000 |
+| FAIL | `ipp-CMS122v14` | HTTP 000000 |
+| FAIL | `ipp-CMS130v14` | HTTP 000000 |
+| FAIL | `ipp-CMS125v14` | HTTP 000000 |
+| FAIL | `ipp-CMS138v14` | HTTP 000000 |
+| FAIL | `ipp-CMS2v15` | HTTP 000000 |
+| FAIL | `sum-CMS165v14` | dashboard HTTP 000000 |
+| FAIL | `sum-CMS122v14` | dashboard HTTP 000000 |
+| FAIL | `sum-CMS130v14` | dashboard HTTP 000000 |
+| FAIL | `sum-CMS125v14` | dashboard HTTP 000000 |
+| FAIL | `sum-CMS138v14` | dashboard HTTP 000000 |
+| FAIL | `sum-CMS2v15` | dashboard HTTP 000000 |
+| PASS | `reeval-skipped` | QUALITY_REEVAL not requested for showfhir |
+| FAIL | `json-parse` | no sample DFNs |
 
 ## Measure table
 
 | Measure | SPARQL ippCount | SUM IPP/DENOM/NUMER/DENEX |
 |---------|-----------------|---------------------------|
-| CMS165v14 | ippCount=10 | — |
-| CMS122v14 | ippCount=1 | — |
-| CMS130v14 | ippCount=0 | — |
-| CMS125v14 | ippCount=0 | — |
-| CMS138v14 | ippCount=0 | — |
-| CMS2v15 | ippCount=0 | — |
+| CMS165v14 | HTTP 000000 | — |
+| CMS122v14 | HTTP 000000 | — |
+| CMS130v14 | HTTP 000000 | — |
+| CMS125v14 | HTTP 000000 | — |
+| CMS138v14 | HTTP 000000 | — |
+| CMS2v15 | HTTP 000000 | — |
 
 ## Reproduce
 
 ```bash
-cd HL7-FHIR-quality-testing && ./scripts/daily-quality-rotate.sh wvehr
+cd HL7-FHIR-quality-testing && ./scripts/daily-quality-rotate.sh showfhir
 ```
 
-JSON twin: `2026-10-08-wvehr.json`
+JSON twin: `2026-10-09-showfhir.json`
