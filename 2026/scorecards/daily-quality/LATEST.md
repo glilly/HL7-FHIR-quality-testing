@@ -1,8 +1,8 @@
-# Daily quality rotate — 2026-10-09 — `showfhir`
+# Daily quality rotate — 2026-10-10 — `fhirdev`
 
 **Verdict:** **FAIL**  
-**Base:** `https://showfhir.vistaplex.org`  
-**Stamp (UTC):** `20261009T053132Z`  
+**Base:** `https://devfhir.vistaplex.org`  
+**Stamp (UTC):** `20261010T053127Z`  
 **POPIDX:** populationIndexed=0, popidxDistinctCodes=0  
 **CQL reeval:** skipped  
 
@@ -25,7 +25,7 @@
 | FAIL | `sum-CMS125v14` | dashboard HTTP 000000 |
 | FAIL | `sum-CMS138v14` | dashboard HTTP 000000 |
 | FAIL | `sum-CMS2v15` | dashboard HTTP 000000 |
-| PASS | `reeval-skipped` | QUALITY_REEVAL not requested for showfhir |
+| PASS | `reeval-skipped` | QUALITY_REEVAL not requested for fhirdev |
 | FAIL | `json-parse` | no sample DFNs |
 
 ## Measure table
@@ -42,7 +42,7 @@
 ## Reproduce
 
 ```bash
-cd HL7-FHIR-quality-testing && ./scripts/daily-quality-rotate.sh showfhir
+cd HL7-FHIR-quality-testing && ./scripts/daily-quality-rotate.sh fhirdev
 ```
 
-JSON twin: `2026-10-09-showfhir.json`
+JSON twin: `2026-10-10-fhirdev.json`
