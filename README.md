@@ -16,6 +16,7 @@ Local containers are useful for smoke testing, but scorecards in this repo shoul
 
 - `docs/STRATEGY.md` - strategy and implementation plan.
 - `docs/INFERNO_QA_TEST_KIT_FIT_2026-09-18.md` - which Inferno QA kits we can use, later, or skip (Quality vs Coding).
+- `docs/USQC_INFERNO_SKIP_PLAN.md` - US Quality Core skip plan for the ZZ cohort on fhirdev `/fhir`, with the pass rate after each step.
 - `docs/CMS165_HTN_R69_PLAN_POINTER.md` - CMS165 HTN coded as R69; canonical plan in WVEHR-on-FHIR (CQL 5/5/5 after repair).
 - `docs/WVEHR_CODING_GAP_PLAN_POINTER.md` - multi-measure coding-gap scan/plan on WorldVistA EHR (`fhir.vistaplex.org`).
 - `docs/RPMS_CODING_GAP_PLAN_POINTER.md` - multi-measure coding-gap scan/plan on RPMS (`rpmsfhir.vistaplex.org`).

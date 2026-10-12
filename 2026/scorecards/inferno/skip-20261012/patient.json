@@ -1,0 +1,785 @@
+{
+  "api": "https://inferno.healthit.gov/suites/api",
+  "patient_ids": "101130,101131,101132,101133,101134,101135,101136,101137,101138,101139,101140,101141,101142,101143,101144,101145,101146,101147,101148,101149,101150,101151,101152,101153",
+  "results": [
+    {
+      "created_at": "2026-10-12T18:08:43.422+00:00",
+      "id": "b6d8dfa9-4ca9-4998-ad12-c9505e8139ff",
+      "inputs": [
+        {
+          "name": "patient_ids",
+          "type": "text",
+          "value": "101130,101131,101132,101133,101134,101135,101136,101137,101138,101139,101140,101141,101142,101143,101144,101145,101146,101147,101148,101149,101150,101151,101152,101153"
+        },
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://devfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"name\":\"smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [
+        {
+          "direction": "outgoing",
+          "id": "45298b11-d635-4ff9-b11c-a1b9dd0644f1",
+          "index": 98840728,
+          "result_id": "b6d8dfa9-4ca9-4998-ad12-c9505e8139ff",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:43.434+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/Patient?_id=101130",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "56643225-6aef-4f13-b963-e00119e179e7",
+          "index": 98840729,
+          "result_id": "b6d8dfa9-4ca9-4998-ad12-c9505e8139ff",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:43.454+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/Patient/_search",
+          "verb": "post"
+        },
+        {
+          "direction": "outgoing",
+          "id": "91c3655f-f051-41e1-a85f-fb5b98b95bb0",
+          "index": 98840730,
+          "result_id": "b6d8dfa9-4ca9-4998-ad12-c9505e8139ff",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:43.467+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/Patient?_id=101131",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "58f9ae4a-2a2c-4230-b32b-9105f9d5626b",
+          "index": 98840731,
+          "result_id": "b6d8dfa9-4ca9-4998-ad12-c9505e8139ff",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:43.477+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/Patient?_id=101132",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "98f55180-3701-4a15-a5f5-e14639e2f652",
+          "index": 98840732,
+          "result_id": "b6d8dfa9-4ca9-4998-ad12-c9505e8139ff",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:43.509+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/Patient?_id=101133",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "a354807e-fa93-4a9e-825a-d2ab5e8038a0",
+          "index": 98840733,
+          "result_id": "b6d8dfa9-4ca9-4998-ad12-c9505e8139ff",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:43.520+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/Patient?_id=101134",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "78618ff8-bb47-4e3f-95a5-de0e9ec1eff1",
+          "index": 98840734,
+          "result_id": "b6d8dfa9-4ca9-4998-ad12-c9505e8139ff",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:43.535+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/Patient?_id=101135",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "c8242c38-3b7c-460b-9a54-593376733d09",
+          "index": 98840735,
+          "result_id": "b6d8dfa9-4ca9-4998-ad12-c9505e8139ff",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:43.545+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/Patient?_id=101136",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "24656e36-d361-41bc-b6e3-19af581a2864",
+          "index": 98840736,
+          "result_id": "b6d8dfa9-4ca9-4998-ad12-c9505e8139ff",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:43.556+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/Patient?_id=101137",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "e07bc175-c896-4271-a465-3d2990640d06",
+          "index": 98840737,
+          "result_id": "b6d8dfa9-4ca9-4998-ad12-c9505e8139ff",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:43.589+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/Patient?_id=101138",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "6a924047-f870-4ad0-b51c-72f1dc607164",
+          "index": 98840738,
+          "result_id": "b6d8dfa9-4ca9-4998-ad12-c9505e8139ff",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:43.599+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/Patient?_id=101139",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "39eeb5ec-203a-4731-932e-a0256ac2fabf",
+          "index": 98840739,
+          "result_id": "b6d8dfa9-4ca9-4998-ad12-c9505e8139ff",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:43.613+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/Patient?_id=101140",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "aab0d7a7-0e6c-4a15-ae68-cad4c17003b3",
+          "index": 98840740,
+          "result_id": "b6d8dfa9-4ca9-4998-ad12-c9505e8139ff",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:43.624+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/Patient?_id=101141",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "8e0a9bb4-70f2-48ce-a917-fc0fc0b10436",
+          "index": 98840741,
+          "result_id": "b6d8dfa9-4ca9-4998-ad12-c9505e8139ff",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:43.633+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/Patient?_id=101142",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "39e3198e-84a6-4699-940f-9d5819e69a50",
+          "index": 98840742,
+          "result_id": "b6d8dfa9-4ca9-4998-ad12-c9505e8139ff",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:43.643+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/Patient?_id=101143",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "1a30aab2-6a9a-404f-81ee-fcd6c326715c",
+          "index": 98840743,
+          "result_id": "b6d8dfa9-4ca9-4998-ad12-c9505e8139ff",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:43.673+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/Patient?_id=101144",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "b300fc1a-394d-4cbb-9ec7-c7b02faf89b7",
+          "index": 98840744,
+          "result_id": "b6d8dfa9-4ca9-4998-ad12-c9505e8139ff",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:43.685+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/Patient?_id=101145",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "7fcfee98-4a8c-41fc-8270-1584617233e5",
+          "index": 98840745,
+          "result_id": "b6d8dfa9-4ca9-4998-ad12-c9505e8139ff",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:43.695+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/Patient?_id=101146",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "50bad3d9-0d86-44a9-a3b3-a37e83fd2eb9",
+          "index": 98840746,
+          "result_id": "b6d8dfa9-4ca9-4998-ad12-c9505e8139ff",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:43.705+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/Patient?_id=101147",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "6f47431b-68b0-434f-945c-09d3579bc0aa",
+          "index": 98840747,
+          "result_id": "b6d8dfa9-4ca9-4998-ad12-c9505e8139ff",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:43.715+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/Patient?_id=101148",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "2ae19bc9-3f88-49ee-a74e-ed1d9e77ff50",
+          "index": 98840748,
+          "result_id": "b6d8dfa9-4ca9-4998-ad12-c9505e8139ff",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:43.746+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/Patient?_id=101149",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "9749fe13-3fb0-49f0-b6f6-0f1f70aa323e",
+          "index": 98840749,
+          "result_id": "b6d8dfa9-4ca9-4998-ad12-c9505e8139ff",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:43.762+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/Patient?_id=101150",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "2dd3293a-fa96-4534-83bd-95bcb314abea",
+          "index": 98840750,
+          "result_id": "b6d8dfa9-4ca9-4998-ad12-c9505e8139ff",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:43.773+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/Patient?_id=101151",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "9bf0e9f2-5ce7-40aa-8dc8-084ba22cd414",
+          "index": 98840751,
+          "result_id": "b6d8dfa9-4ca9-4998-ad12-c9505e8139ff",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:43.783+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/Patient?_id=101152",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "01fe6ed3-0b40-4c01-b744-9066752ed970",
+          "index": 98840752,
+          "result_id": "b6d8dfa9-4ca9-4998-ad12-c9505e8139ff",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:43.818+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/Patient?_id=101153",
+          "verb": "get"
+        }
+      ],
+      "result": "pass",
+      "test_id": "us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_patient-us_quality_core_v050_patient__id_search_test",
+      "test_run_id": "fa32aa0c-4f59-479d-bbfd-7d8a1944b4dd",
+      "test_session_id": "jhXgwyl7U8s",
+      "updated_at": "2026-10-12T18:08:43.422+00:00"
+    },
+    {
+      "created_at": "2026-10-12T18:08:43.953+00:00",
+      "id": "3438ab85-b7cb-4024-a92d-8f2900746740",
+      "inputs": [
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://devfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"name\":\"smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [
+        {
+          "direction": "outgoing",
+          "id": "9e31cdbc-79a6-4e77-9463-8ceff495833e",
+          "index": 98840755,
+          "result_id": "3438ab85-b7cb-4024-a92d-8f2900746740",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:43.955+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/Patient/101130",
+          "verb": "get"
+        }
+      ],
+      "result": "pass",
+      "test_id": "us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_patient-us_quality_core_v050_patient_read_test",
+      "test_run_id": "fa32aa0c-4f59-479d-bbfd-7d8a1944b4dd",
+      "test_session_id": "jhXgwyl7U8s",
+      "updated_at": "2026-10-12T18:08:43.953+00:00"
+    },
+    {
+      "created_at": "2026-10-12T18:08:48.191+00:00",
+      "id": "e88832b9-968b-4462-ae5b-838d4554755d",
+      "inputs": [
+        {
+          "description": "Comma separated list of patient IDs that in sum contain all MUST SUPPORT elements",
+          "label": "Patient IDs",
+          "name": "patient_ids",
+          "type": "text",
+          "value": "101130,101131,101132,101133,101134,101135,101136,101137,101138,101139,101140,101141,101142,101143,101144,101145,101146,101147,101148,101149,101150,101151,101152,101153"
+        },
+        {
+          "description": "URL of the FHIR endpoint",
+          "label": "FHIR Endpoint",
+          "name": "url",
+          "type": "text",
+          "value": "https://devfhir.vistaplex.org/fhir"
+        },
+        {
+          "description": null,
+          "label": "OAuth Credentials",
+          "name": "smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"name\":\"smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [],
+      "result": "pass",
+      "test_group_id": "us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_patient",
+      "test_run_id": "fa32aa0c-4f59-479d-bbfd-7d8a1944b4dd",
+      "test_session_id": "jhXgwyl7U8s",
+      "updated_at": "2026-10-12T18:08:48.191+00:00"
+    },
+    {
+      "created_at": "2026-10-12T18:08:46.971+00:00",
+      "id": "363a4a22-121f-4a43-8964-741a0f87cabb",
+      "inputs": [
+        {
+          "name": "patient_ids",
+          "type": "text",
+          "value": "101130,101131,101132,101133,101134,101135,101136,101137,101138,101139,101140,101141,101142,101143,101144,101145,101146,101147,101148,101149,101150,101151,101152,101153"
+        },
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://devfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"name\":\"smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [
+        {
+          "direction": "outgoing",
+          "id": "52b5b58b-24d7-43c3-a1e1-67c7efa6a71b",
+          "index": 98840761,
+          "result_id": "363a4a22-121f-4a43-8964-741a0f87cabb",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:46.973+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/Patient?_id=101130&_revinclude=Provenance:target",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "c33c570f-f8e1-4421-8174-ceea9399652d",
+          "index": 98840762,
+          "result_id": "363a4a22-121f-4a43-8964-741a0f87cabb",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:46.985+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/Patient?_id=101131&_revinclude=Provenance:target",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "01573c7a-0c24-4b91-8324-47cef4784c3b",
+          "index": 98840763,
+          "result_id": "363a4a22-121f-4a43-8964-741a0f87cabb",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:46.999+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/Patient?_id=101132&_revinclude=Provenance:target",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "dfdea6ee-d48f-4655-9340-e98077c6df7e",
+          "index": 98840764,
+          "result_id": "363a4a22-121f-4a43-8964-741a0f87cabb",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:47.011+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/Patient?_id=101133&_revinclude=Provenance:target",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "af70b6b1-a1f2-4abd-9c3e-6a003a9a469e",
+          "index": 98840765,
+          "result_id": "363a4a22-121f-4a43-8964-741a0f87cabb",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:47.023+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/Patient?_id=101134&_revinclude=Provenance:target",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "45d8dc4f-fe4c-4506-b951-c4ee02580aee",
+          "index": 98840766,
+          "result_id": "363a4a22-121f-4a43-8964-741a0f87cabb",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:47.055+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/Patient?_id=101135&_revinclude=Provenance:target",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "d671410d-26bb-413e-bb3d-8b29d21a0244",
+          "index": 98840767,
+          "result_id": "363a4a22-121f-4a43-8964-741a0f87cabb",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:47.065+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/Patient?_id=101136&_revinclude=Provenance:target",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "f66945bf-81f4-44ac-9948-ffec5ac0a9e8",
+          "index": 98840768,
+          "result_id": "363a4a22-121f-4a43-8964-741a0f87cabb",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:47.080+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/Patient?_id=101137&_revinclude=Provenance:target",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "e5d451fb-03e2-4689-9555-14682ee7399f",
+          "index": 98840769,
+          "result_id": "363a4a22-121f-4a43-8964-741a0f87cabb",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:47.090+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/Patient?_id=101138&_revinclude=Provenance:target",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "ddb05824-5c5f-47c0-a7df-74b8bf081005",
+          "index": 98840770,
+          "result_id": "363a4a22-121f-4a43-8964-741a0f87cabb",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:47.102+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/Patient?_id=101139&_revinclude=Provenance:target",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "e5ca9e9c-f64a-47b4-9e70-981a257ece22",
+          "index": 98840771,
+          "result_id": "363a4a22-121f-4a43-8964-741a0f87cabb",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:47.134+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/Patient?_id=101140&_revinclude=Provenance:target",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "50d8257c-f983-4cf7-9b32-1a3066819332",
+          "index": 98840772,
+          "result_id": "363a4a22-121f-4a43-8964-741a0f87cabb",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:47.145+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/Patient?_id=101141&_revinclude=Provenance:target",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "7a68ab02-d638-4987-a13c-1e8de3c68f90",
+          "index": 98840773,
+          "result_id": "363a4a22-121f-4a43-8964-741a0f87cabb",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:47.158+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/Patient?_id=101142&_revinclude=Provenance:target",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "f316331f-2976-4209-935c-23a1b008bdf5",
+          "index": 98840774,
+          "result_id": "363a4a22-121f-4a43-8964-741a0f87cabb",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:47.170+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/Patient?_id=101143&_revinclude=Provenance:target",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "99571462-8e86-438c-bbf7-65c08358e8e6",
+          "index": 98840775,
+          "result_id": "363a4a22-121f-4a43-8964-741a0f87cabb",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:47.181+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/Patient?_id=101144&_revinclude=Provenance:target",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "91c65a5c-afbe-4773-8e74-7ade7f62f856",
+          "index": 98840776,
+          "result_id": "363a4a22-121f-4a43-8964-741a0f87cabb",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:47.214+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/Patient?_id=101145&_revinclude=Provenance:target",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "ee509cd2-b524-4b04-9cd2-55dd8341a5da",
+          "index": 98840777,
+          "result_id": "363a4a22-121f-4a43-8964-741a0f87cabb",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:47.230+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/Patient?_id=101146&_revinclude=Provenance:target",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "46e32755-c428-4258-a52e-d5b2c07c9478",
+          "index": 98840778,
+          "result_id": "363a4a22-121f-4a43-8964-741a0f87cabb",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:47.242+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/Patient?_id=101147&_revinclude=Provenance:target",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "1a59e7bd-b42c-4ebe-a29c-cb89ecab67ee",
+          "index": 98840779,
+          "result_id": "363a4a22-121f-4a43-8964-741a0f87cabb",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:47.252+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/Patient?_id=101148&_revinclude=Provenance:target",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "73809bb1-de3b-43fe-bdc9-4627edfd3290",
+          "index": 98840780,
+          "result_id": "363a4a22-121f-4a43-8964-741a0f87cabb",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:47.264+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/Patient?_id=101149&_revinclude=Provenance:target",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "796edc35-4511-4f7a-b51c-c3c0b37316b5",
+          "index": 98840781,
+          "result_id": "363a4a22-121f-4a43-8964-741a0f87cabb",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:47.294+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/Patient?_id=101150&_revinclude=Provenance:target",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "a584778e-9279-42eb-bb2a-45a472d1f652",
+          "index": 98840782,
+          "result_id": "363a4a22-121f-4a43-8964-741a0f87cabb",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:47.307+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/Patient?_id=101151&_revinclude=Provenance:target",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "9e7ae0e0-71c3-4ca8-928a-577e269dc93f",
+          "index": 98840783,
+          "result_id": "363a4a22-121f-4a43-8964-741a0f87cabb",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:47.316+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/Patient?_id=101152&_revinclude=Provenance:target",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "cc564fa6-1cd9-44e0-862c-f5471e39d4c1",
+          "index": 98840784,
+          "result_id": "363a4a22-121f-4a43-8964-741a0f87cabb",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:47.328+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/Patient?_id=101153&_revinclude=Provenance:target",
+          "verb": "get"
+        }
+      ],
+      "result": "pass",
+      "test_id": "us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_patient-us_quality_core_v050_patient_provenance_revinclude_search_test",
+      "test_run_id": "fa32aa0c-4f59-479d-bbfd-7d8a1944b4dd",
+      "test_session_id": "jhXgwyl7U8s",
+      "updated_at": "2026-10-12T18:08:46.971+00:00"
+    },
+    {
+      "created_at": "2026-10-12T18:08:48.127+00:00",
+      "id": "1cc05df7-deef-4673-98fd-694df05eba20",
+      "inputs": [
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://devfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"name\":\"smart_auth_info\"}"
+        }
+      ],
+      "messages": [
+        {
+          "message": "Patient/101130: Patient.communication[0].language: No code provided, and a code should be provided from the value set 'Language codes with language and optionally a region modifier' (http://hl7.org/fhir/us/core/ValueSet/simple-language|6.1.0)",
+          "type": "warning"
+        },
+        {
+          "message": "Patient/101131: Patient.communication[0].language: No code provided, and a code should be provided from the value set 'Language codes with language and optionally a region modifier' (http://hl7.org/fhir/us/core/ValueSet/simple-language|6.1.0)",
+          "type": "warning"
+        },
+        {
+          "message": "Patient/101132: Patient.communication[0].language: No code provided, and a code should be provided from the value set 'Language codes with language and optionally a region modifier' (http://hl7.org/fhir/us/core/ValueSet/simple-language|6.1.0)",
+          "type": "warning"
+        },
+        {
+          "message": "Patient/101133: Patient.communication[0].language: No code provided, and a code should be provided from the value set 'Language codes with language and optionally a region modifier' (http://hl7.org/fhir/us/core/ValueSet/simple-language|6.1.0)",
+          "type": "warning"
+        },
+        {
+          "message": "Patient/101134: Patient.communication[0].language: No code provided, and a code should be provided from the value set 'Language codes with language and optionally a region modifier' (http://hl7.org/fhir/us/core/ValueSet/simple-language|6.1.0)",
+          "type": "warning"
+        },
+        {
+          "message": "Patient/101135: Patient.communication[0].language: No code provided, and a code should be provided from the value set 'Language codes with language and optionally a region modifier' (http://hl7.org/fhir/us/core/ValueSet/simple-language|6.1.0)",
+          "type": "warning"
+        },
+        {
+          "message": "Patient/101136: Patient.communication[0].language: No code provided, and a code should be provided from the value set 'Language codes with language and optionally a region modifier' (http://hl7.org/fhir/us/core/ValueSet/simple-language|6.1.0)",
+          "type": "warning"
+        },
+        {
+          "message": "Patient/101137: Patient.communication[0].language: No code provided, and a code should be provided from the value set 'Language codes with language and optionally a region modifier' (http://hl7.org/fhir/us/core/ValueSet/simple-language|6.1.0)",
+          "type": "warning"
+        },
+        {
+          "message": "Patient/101138: Patient.communication[0].language: No code provided, and a code should be provided from the value set 'Language codes with language and optionally a region modifier' (http://hl7.org/fhir/us/core/ValueSet/simple-language|6.1.0)",
+          "type": "warning"
+        },
+        {
+          "message": "Patient/101139: Patient.communication[0].language: No code provided, and a code should be provided from the value set 'Language codes with language and optionally a region modifier' (http://hl7.org/fhir/us/core/ValueSet/simple-language|6.1.0)",
+          "type": "warning"
+        },
+        {
+          "message": "Patient/101140: Patient.communication[0].language: No code provided, and a code should be provided from the value set 'Language codes with language and optionally a region modifier' (http://hl7.org/fhir/us/core/ValueSet/simple-language|6.1.0)",
+          "type": "warning"
+        },
+        {
+          "message": "Patient/101141: Patient.communication[0].language: No code provided, and a code should be provided from the value set 'Language codes with language and optionally a region modifier' (http://hl7.org/fhir/us/core/ValueSet/simple-language|6.1.0)",
+          "type": "warning"
+        },
+        {
+          "message": "Patient/101142: Patient.communication[0].language: No code provided, and a code should be provided from the value set 'Language codes with language and optionally a region modifier' (http://hl7.org/fhir/us/core/ValueSet/simple-language|6.1.0)",
+          "type": "warning"
+        },
+        {
+          "message": "Patient/101143: Patient.communication[0].language: No code provided, and a code should be provided from the value set 'Language codes with language and optionally a region modifier' (http://hl7.org/fhir/us/core/ValueSet/simple-language|6.1.0)",
+          "type": "warning"
+        },
+        {
+          "message": "Patient/101144: Patient.communication[0].language: No code provided, and a code should be provided from the value set 'Language codes with language and optionally a region modifier' (http://hl7.org/fhir/us/core/ValueSet/simple-language|6.1.0)",
+          "type": "warning"
+        },
+        {
+          "message": "Patient/101145: Patient.communication[0].language: No code provided, and a code should be provided from the value set 'Language codes with language and optionally a region modifier' (http://hl7.org/fhir/us/core/ValueSet/simple-language|6.1.0)",
+          "type": "warning"
+        },
+        {
+          "message": "Patient/101146: Patient.communication[0].language: No code provided, and a code should be provided from the value set 'Language codes with language and optionally a region modifier' (http://hl7.org/fhir/us/core/ValueSet/simple-language|6.1.0)",
+          "type": "warning"
+        },
+        {
+          "message": "Patient/101147: Patient.communication[0].language: No code provided, and a code should be provided from the value set 'Language codes with language and optionally a region modifier' (http://hl7.org/fhir/us/core/ValueSet/simple-language|6.1.0)",
+          "type": "warning"
+        },
+        {
+          "message": "Patient/101148: Patient.communication[0].language: No code provided, and a code should be provided from the value set 'Language codes with language and optionally a region modifier' (http://hl7.org/fhir/us/core/ValueSet/simple-language|6.1.0)",
+          "type": "warning"
+        },
+        {
+          "message": "Patient/101149: Patient.communication[0].language: No code provided, and a code should be provided from the value set 'Language codes with language and optionally a region modifier' (http://hl7.org/fhir/us/core/ValueSet/simple-language|6.1.0)",
+          "type": "warning"
+        },
+        {
+          "message": "Patient/101150: Patient.communication[0].language: No code provided, and a code should be provided from the value set 'Language codes with language and optionally a region modifier' (http://hl7.org/fhir/us/core/ValueSet/simple-language|6.1.0)",
+          "type": "warning"
+        },
+        {
+          "message": "Patient/101151: Patient.communication[0].language: No code provided, and a code should be provided from the value set 'Language codes with language and optionally a region modifier' (http://hl7.org/fhir/us/core/ValueSet/simple-language|6.1.0)",
+          "type": "warning"
+        },
+        {
+          "message": "Patient/101152: Patient.communication[0].language: No code provided, and a code should be provided from the value set 'Language codes with language and optionally a region modifier' (http://hl7.org/fhir/us/core/ValueSet/simple-language|6.1.0)",
+          "type": "warning"
+        },
+        {
+          "message": "Patient/101153: Patient.communication[0].language: No code provided, and a code should be provided from the value set 'Language codes with language and optionally a region modifier' (http://hl7.org/fhir/us/core/ValueSet/simple-language|6.1.0)",
+          "type": "warning"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [],
+      "result": "pass",
+      "test_id": "us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_patient-us_quality_core_v050_patient_validation_test",
+      "test_run_id": "fa32aa0c-4f59-479d-bbfd-7d8a1944b4dd",
+      "test_session_id": "jhXgwyl7U8s",
+      "updated_at": "2026-10-12T18:08:48.127+00:00"
+    },
+    {
+      "created_at": "2026-10-12T18:08:48.188+00:00",
+      "id": "2f78aa2a-7c28-4385-a67a-7c38e84a23e2",
+      "inputs": [
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://devfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"name\":\"smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [],
+      "result": "pass",
+      "test_id": "us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_patient-us_quality_core_v050_patient_must_support_test",
+      "test_run_id": "fa32aa0c-4f59-479d-bbfd-7d8a1944b4dd",
+      "test_session_id": "jhXgwyl7U8s",
+      "updated_at": "2026-10-12T18:08:48.188+00:00"
+    }
+  ],
+  "run_id": "fa32aa0c-4f59-479d-bbfd-7d8a1944b4dd",
+  "session_id": "jhXgwyl7U8s",
+  "session_url": "https://inferno.healthit.gov/suites/us_quality_core_v050/jhXgwyl7U8s",
+  "status": {
+    "id": "fa32aa0c-4f59-479d-bbfd-7d8a1944b4dd",
+    "inputs": null,
+    "results": null,
+    "status": "done",
+    "test_count": 5,
+    "test_group_id": "us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_patient",
+    "test_session_id": "jhXgwyl7U8s"
+  },
+  "url": "https://devfhir.vistaplex.org/fhir"
+}

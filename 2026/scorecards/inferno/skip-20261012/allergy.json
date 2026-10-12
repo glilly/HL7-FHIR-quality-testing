@@ -1,0 +1,1562 @@
+{
+  "api": "https://inferno.healthit.gov/suites/api",
+  "patient_ids": "101130,101131,101132,101133,101134,101135,101136,101137,101138,101139,101140,101141,101142,101143,101144,101145,101146,101147,101148,101149,101150,101151,101152,101153",
+  "results": [
+    {
+      "created_at": "2026-10-12T18:08:04.402+00:00",
+      "id": "1e551653-0223-42b1-95d5-4f499b6ae952",
+      "inputs": [
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://devfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"name\":\"smart_auth_info\"}"
+        }
+      ],
+      "messages": [
+        {
+          "message": "AllergyIntolerance/A1258: AllergyIntolerance.code.coding[1].system: A definition for CodeSystem 'urn:va:allergy-local-code' could not be found, so the code cannot be validated",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1267: AllergyIntolerance.code.coding[0].system: A definition for CodeSystem 'urn:va:allergy-local-code' could not be found, so the code cannot be validated",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1272: AllergyIntolerance.code.coding[1].system: A definition for CodeSystem 'urn:va:allergy-local-code' could not be found, so the code cannot be validated",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1281: AllergyIntolerance.code.coding[0].system: A definition for CodeSystem 'urn:va:allergy-local-code' could not be found, so the code cannot be validated",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1286: AllergyIntolerance.code.coding[1].system: A definition for CodeSystem 'urn:va:allergy-local-code' could not be found, so the code cannot be validated",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1295: AllergyIntolerance.code.coding[0].system: A definition for CodeSystem 'urn:va:allergy-local-code' could not be found, so the code cannot be validated",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1253: AllergyIntolerance.code.coding[0].system: A definition for CodeSystem 'urn:va:allergy-local-code' could not be found, so the code cannot be validated",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1258: AllergyIntolerance.code.coding[0].system: A definition for CodeSystem 'urn:va:vuid' could not be found, so the code cannot be validated",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1272: AllergyIntolerance.code.coding[0].system: A definition for CodeSystem 'urn:va:vuid' could not be found, so the code cannot be validated",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1286: AllergyIntolerance.code.coding[0].system: A definition for CodeSystem 'urn:va:vuid' could not be found, so the code cannot be validated",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1253: AllergyIntolerance.code: None of the codings provided are in the value set 'Common substances for allergy and intolerance documentation including refutations' (http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1186.8|20210622), and a coding should come from this value set unless it has no suitable code (note that the validator cannot judge what is suitable) (codes = urn:va:allergy-local-code#125;GMRD(120.82,)",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1253: AllergyIntolerance: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1254: AllergyIntolerance.code.coding[0].system: A definition for CodeSystem 'urn:va:vuid' could not be found, so the code cannot be validated",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1254: AllergyIntolerance.code.coding[1].system: A definition for CodeSystem 'urn:va:allergy-local-code' could not be found, so the code cannot be validated",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1254: AllergyIntolerance.code: None of the codings provided are in the value set 'Common substances for allergy and intolerance documentation including refutations' (http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1186.8|20210622), and a coding should come from this value set unless it has no suitable code (note that the validator cannot judge what is suitable) (codes = urn:va:vuid#4017509, urn:va:allergy-local-code#101;PS(50.416,)",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1254: AllergyIntolerance.reaction[0].manifestation[0].coding[0].system: A definition for CodeSystem 'urn:va:vuid' could not be found, so the code cannot be validated",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1254: AllergyIntolerance.reaction[0].manifestation[0]: None of the codings provided are in the value set 'SNOMED CT Clinical Findings' (http://hl7.org/fhir/ValueSet/clinical-findings|4.0.1), and a coding should come from this value set unless it has no suitable code (note that the validator cannot judge what is suitable) (codes = urn:va:vuid#4637210)",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1254: AllergyIntolerance: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1255: AllergyIntolerance.code.coding[0].system: A definition for CodeSystem 'urn:va:allergy-local-code' could not be found, so the code cannot be validated",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1255: AllergyIntolerance.code: None of the codings provided are in the value set 'Common substances for allergy and intolerance documentation including refutations' (http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1186.8|20210622), and a coding should come from this value set unless it has no suitable code (note that the validator cannot judge what is suitable) (codes = urn:va:allergy-local-code#125;GMRD(120.82,)",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1255: AllergyIntolerance: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1256: AllergyIntolerance.code.coding[0].system: A definition for CodeSystem 'urn:va:vuid' could not be found, so the code cannot be validated",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1256: AllergyIntolerance.code.coding[1].system: A definition for CodeSystem 'urn:va:allergy-local-code' could not be found, so the code cannot be validated",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1256: AllergyIntolerance.code: None of the codings provided are in the value set 'Common substances for allergy and intolerance documentation including refutations' (http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1186.8|20210622), and a coding should come from this value set unless it has no suitable code (note that the validator cannot judge what is suitable) (codes = urn:va:vuid#4017509, urn:va:allergy-local-code#101;PS(50.416,)",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1256: AllergyIntolerance.reaction[0].manifestation[0].coding[0].system: A definition for CodeSystem 'urn:va:vuid' could not be found, so the code cannot be validated",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1256: AllergyIntolerance.reaction[0].manifestation[0]: None of the codings provided are in the value set 'SNOMED CT Clinical Findings' (http://hl7.org/fhir/ValueSet/clinical-findings|4.0.1), and a coding should come from this value set unless it has no suitable code (note that the validator cannot judge what is suitable) (codes = urn:va:vuid#4637210)",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1256: AllergyIntolerance: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1257: AllergyIntolerance.code.coding[0].system: A definition for CodeSystem 'urn:va:allergy-local-code' could not be found, so the code cannot be validated",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1257: AllergyIntolerance.code: None of the codings provided are in the value set 'Common substances for allergy and intolerance documentation including refutations' (http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1186.8|20210622), and a coding should come from this value set unless it has no suitable code (note that the validator cannot judge what is suitable) (codes = urn:va:allergy-local-code#125;GMRD(120.82,)",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1257: AllergyIntolerance: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1258: AllergyIntolerance.code: None of the codings provided are in the value set 'Common substances for allergy and intolerance documentation including refutations' (http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1186.8|20210622), and a coding should come from this value set unless it has no suitable code (note that the validator cannot judge what is suitable) (codes = urn:va:vuid#4017509, urn:va:allergy-local-code#101;PS(50.416,)",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1258: AllergyIntolerance.reaction[0].manifestation[0].coding[0].system: A definition for CodeSystem 'urn:va:vuid' could not be found, so the code cannot be validated",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1258: AllergyIntolerance.reaction[0].manifestation[0]: None of the codings provided are in the value set 'SNOMED CT Clinical Findings' (http://hl7.org/fhir/ValueSet/clinical-findings|4.0.1), and a coding should come from this value set unless it has no suitable code (note that the validator cannot judge what is suitable) (codes = urn:va:vuid#4637210)",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1258: AllergyIntolerance: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1259: AllergyIntolerance.code.coding[0].system: A definition for CodeSystem 'urn:va:allergy-local-code' could not be found, so the code cannot be validated",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1259: AllergyIntolerance.code: None of the codings provided are in the value set 'Common substances for allergy and intolerance documentation including refutations' (http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1186.8|20210622), and a coding should come from this value set unless it has no suitable code (note that the validator cannot judge what is suitable) (codes = urn:va:allergy-local-code#125;GMRD(120.82,)",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1259: AllergyIntolerance: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1260: AllergyIntolerance.code.coding[0].system: A definition for CodeSystem 'urn:va:vuid' could not be found, so the code cannot be validated",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1260: AllergyIntolerance.code.coding[1].system: A definition for CodeSystem 'urn:va:allergy-local-code' could not be found, so the code cannot be validated",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1260: AllergyIntolerance.code: None of the codings provided are in the value set 'Common substances for allergy and intolerance documentation including refutations' (http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1186.8|20210622), and a coding should come from this value set unless it has no suitable code (note that the validator cannot judge what is suitable) (codes = urn:va:vuid#4017509, urn:va:allergy-local-code#101;PS(50.416,)",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1260: AllergyIntolerance.reaction[0].manifestation[0].coding[0].system: A definition for CodeSystem 'urn:va:vuid' could not be found, so the code cannot be validated",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1260: AllergyIntolerance.reaction[0].manifestation[0]: None of the codings provided are in the value set 'SNOMED CT Clinical Findings' (http://hl7.org/fhir/ValueSet/clinical-findings|4.0.1), and a coding should come from this value set unless it has no suitable code (note that the validator cannot judge what is suitable) (codes = urn:va:vuid#4637210)",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1260: AllergyIntolerance: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1261: AllergyIntolerance.code.coding[0].system: A definition for CodeSystem 'urn:va:allergy-local-code' could not be found, so the code cannot be validated",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1261: AllergyIntolerance.code: None of the codings provided are in the value set 'Common substances for allergy and intolerance documentation including refutations' (http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1186.8|20210622), and a coding should come from this value set unless it has no suitable code (note that the validator cannot judge what is suitable) (codes = urn:va:allergy-local-code#125;GMRD(120.82,)",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1261: AllergyIntolerance: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1262: AllergyIntolerance.code.coding[0].system: A definition for CodeSystem 'urn:va:vuid' could not be found, so the code cannot be validated",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1262: AllergyIntolerance.code.coding[1].system: A definition for CodeSystem 'urn:va:allergy-local-code' could not be found, so the code cannot be validated",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1262: AllergyIntolerance.code: None of the codings provided are in the value set 'Common substances for allergy and intolerance documentation including refutations' (http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1186.8|20210622), and a coding should come from this value set unless it has no suitable code (note that the validator cannot judge what is suitable) (codes = urn:va:vuid#4017509, urn:va:allergy-local-code#101;PS(50.416,)",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1262: AllergyIntolerance.reaction[0].manifestation[0].coding[0].system: A definition for CodeSystem 'urn:va:vuid' could not be found, so the code cannot be validated",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1262: AllergyIntolerance.reaction[0].manifestation[0]: None of the codings provided are in the value set 'SNOMED CT Clinical Findings' (http://hl7.org/fhir/ValueSet/clinical-findings|4.0.1), and a coding should come from this value set unless it has no suitable code (note that the validator cannot judge what is suitable) (codes = urn:va:vuid#4637210)",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1262: AllergyIntolerance: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1263: AllergyIntolerance.code.coding[0].system: A definition for CodeSystem 'urn:va:allergy-local-code' could not be found, so the code cannot be validated",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1263: AllergyIntolerance.code: None of the codings provided are in the value set 'Common substances for allergy and intolerance documentation including refutations' (http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1186.8|20210622), and a coding should come from this value set unless it has no suitable code (note that the validator cannot judge what is suitable) (codes = urn:va:allergy-local-code#125;GMRD(120.82,)",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1263: AllergyIntolerance: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1264: AllergyIntolerance.code.coding[0].system: A definition for CodeSystem 'urn:va:vuid' could not be found, so the code cannot be validated",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1264: AllergyIntolerance.code.coding[1].system: A definition for CodeSystem 'urn:va:allergy-local-code' could not be found, so the code cannot be validated",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1264: AllergyIntolerance.code: None of the codings provided are in the value set 'Common substances for allergy and intolerance documentation including refutations' (http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1186.8|20210622), and a coding should come from this value set unless it has no suitable code (note that the validator cannot judge what is suitable) (codes = urn:va:vuid#4017509, urn:va:allergy-local-code#101;PS(50.416,)",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1264: AllergyIntolerance.reaction[0].manifestation[0].coding[0].system: A definition for CodeSystem 'urn:va:vuid' could not be found, so the code cannot be validated",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1264: AllergyIntolerance.reaction[0].manifestation[0]: None of the codings provided are in the value set 'SNOMED CT Clinical Findings' (http://hl7.org/fhir/ValueSet/clinical-findings|4.0.1), and a coding should come from this value set unless it has no suitable code (note that the validator cannot judge what is suitable) (codes = urn:va:vuid#4637210)",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1264: AllergyIntolerance: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1265: AllergyIntolerance.code.coding[0].system: A definition for CodeSystem 'urn:va:allergy-local-code' could not be found, so the code cannot be validated",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1265: AllergyIntolerance.code: None of the codings provided are in the value set 'Common substances for allergy and intolerance documentation including refutations' (http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1186.8|20210622), and a coding should come from this value set unless it has no suitable code (note that the validator cannot judge what is suitable) (codes = urn:va:allergy-local-code#125;GMRD(120.82,)",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1265: AllergyIntolerance: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1266: AllergyIntolerance.code.coding[0].system: A definition for CodeSystem 'urn:va:vuid' could not be found, so the code cannot be validated",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1266: AllergyIntolerance.code.coding[1].system: A definition for CodeSystem 'urn:va:allergy-local-code' could not be found, so the code cannot be validated",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1266: AllergyIntolerance.code: None of the codings provided are in the value set 'Common substances for allergy and intolerance documentation including refutations' (http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1186.8|20210622), and a coding should come from this value set unless it has no suitable code (note that the validator cannot judge what is suitable) (codes = urn:va:vuid#4017509, urn:va:allergy-local-code#101;PS(50.416,)",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1266: AllergyIntolerance.reaction[0].manifestation[0].coding[0].system: A definition for CodeSystem 'urn:va:vuid' could not be found, so the code cannot be validated",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1266: AllergyIntolerance.reaction[0].manifestation[0]: None of the codings provided are in the value set 'SNOMED CT Clinical Findings' (http://hl7.org/fhir/ValueSet/clinical-findings|4.0.1), and a coding should come from this value set unless it has no suitable code (note that the validator cannot judge what is suitable) (codes = urn:va:vuid#4637210)",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1266: AllergyIntolerance: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1267: AllergyIntolerance.code: None of the codings provided are in the value set 'Common substances for allergy and intolerance documentation including refutations' (http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1186.8|20210622), and a coding should come from this value set unless it has no suitable code (note that the validator cannot judge what is suitable) (codes = urn:va:allergy-local-code#125;GMRD(120.82,)",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1267: AllergyIntolerance: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1268: AllergyIntolerance.code.coding[0].system: A definition for CodeSystem 'urn:va:vuid' could not be found, so the code cannot be validated",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1268: AllergyIntolerance.code.coding[1].system: A definition for CodeSystem 'urn:va:allergy-local-code' could not be found, so the code cannot be validated",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1268: AllergyIntolerance.code: None of the codings provided are in the value set 'Common substances for allergy and intolerance documentation including refutations' (http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1186.8|20210622), and a coding should come from this value set unless it has no suitable code (note that the validator cannot judge what is suitable) (codes = urn:va:vuid#4017509, urn:va:allergy-local-code#101;PS(50.416,)",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1268: AllergyIntolerance.reaction[0].manifestation[0].coding[0].system: A definition for CodeSystem 'urn:va:vuid' could not be found, so the code cannot be validated",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1268: AllergyIntolerance.reaction[0].manifestation[0]: None of the codings provided are in the value set 'SNOMED CT Clinical Findings' (http://hl7.org/fhir/ValueSet/clinical-findings|4.0.1), and a coding should come from this value set unless it has no suitable code (note that the validator cannot judge what is suitable) (codes = urn:va:vuid#4637210)",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1268: AllergyIntolerance: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1269: AllergyIntolerance.code.coding[0].system: A definition for CodeSystem 'urn:va:allergy-local-code' could not be found, so the code cannot be validated",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1269: AllergyIntolerance.code: None of the codings provided are in the value set 'Common substances for allergy and intolerance documentation including refutations' (http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1186.8|20210622), and a coding should come from this value set unless it has no suitable code (note that the validator cannot judge what is suitable) (codes = urn:va:allergy-local-code#125;GMRD(120.82,)",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1269: AllergyIntolerance: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1270: AllergyIntolerance.code.coding[0].system: A definition for CodeSystem 'urn:va:vuid' could not be found, so the code cannot be validated",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1270: AllergyIntolerance.code.coding[1].system: A definition for CodeSystem 'urn:va:allergy-local-code' could not be found, so the code cannot be validated",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1270: AllergyIntolerance.code: None of the codings provided are in the value set 'Common substances for allergy and intolerance documentation including refutations' (http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1186.8|20210622), and a coding should come from this value set unless it has no suitable code (note that the validator cannot judge what is suitable) (codes = urn:va:vuid#4017509, urn:va:allergy-local-code#101;PS(50.416,)",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1270: AllergyIntolerance.reaction[0].manifestation[0].coding[0].system: A definition for CodeSystem 'urn:va:vuid' could not be found, so the code cannot be validated",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1270: AllergyIntolerance.reaction[0].manifestation[0]: None of the codings provided are in the value set 'SNOMED CT Clinical Findings' (http://hl7.org/fhir/ValueSet/clinical-findings|4.0.1), and a coding should come from this value set unless it has no suitable code (note that the validator cannot judge what is suitable) (codes = urn:va:vuid#4637210)",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1270: AllergyIntolerance: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1271: AllergyIntolerance.code.coding[0].system: A definition for CodeSystem 'urn:va:allergy-local-code' could not be found, so the code cannot be validated",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1271: AllergyIntolerance.code: None of the codings provided are in the value set 'Common substances for allergy and intolerance documentation including refutations' (http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1186.8|20210622), and a coding should come from this value set unless it has no suitable code (note that the validator cannot judge what is suitable) (codes = urn:va:allergy-local-code#125;GMRD(120.82,)",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1271: AllergyIntolerance: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1272: AllergyIntolerance.code: None of the codings provided are in the value set 'Common substances for allergy and intolerance documentation including refutations' (http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1186.8|20210622), and a coding should come from this value set unless it has no suitable code (note that the validator cannot judge what is suitable) (codes = urn:va:vuid#4017509, urn:va:allergy-local-code#101;PS(50.416,)",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1272: AllergyIntolerance.reaction[0].manifestation[0].coding[0].system: A definition for CodeSystem 'urn:va:vuid' could not be found, so the code cannot be validated",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1272: AllergyIntolerance.reaction[0].manifestation[0]: None of the codings provided are in the value set 'SNOMED CT Clinical Findings' (http://hl7.org/fhir/ValueSet/clinical-findings|4.0.1), and a coding should come from this value set unless it has no suitable code (note that the validator cannot judge what is suitable) (codes = urn:va:vuid#4637210)",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1272: AllergyIntolerance: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1273: AllergyIntolerance.code.coding[0].system: A definition for CodeSystem 'urn:va:allergy-local-code' could not be found, so the code cannot be validated",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1273: AllergyIntolerance.code: None of the codings provided are in the value set 'Common substances for allergy and intolerance documentation including refutations' (http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1186.8|20210622), and a coding should come from this value set unless it has no suitable code (note that the validator cannot judge what is suitable) (codes = urn:va:allergy-local-code#125;GMRD(120.82,)",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1273: AllergyIntolerance: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1274: AllergyIntolerance.code.coding[0].system: A definition for CodeSystem 'urn:va:vuid' could not be found, so the code cannot be validated",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1274: AllergyIntolerance.code.coding[1].system: A definition for CodeSystem 'urn:va:allergy-local-code' could not be found, so the code cannot be validated",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1274: AllergyIntolerance.code: None of the codings provided are in the value set 'Common substances for allergy and intolerance documentation including refutations' (http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1186.8|20210622), and a coding should come from this value set unless it has no suitable code (note that the validator cannot judge what is suitable) (codes = urn:va:vuid#4017509, urn:va:allergy-local-code#101;PS(50.416,)",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1274: AllergyIntolerance.reaction[0].manifestation[0].coding[0].system: A definition for CodeSystem 'urn:va:vuid' could not be found, so the code cannot be validated",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1274: AllergyIntolerance.reaction[0].manifestation[0]: None of the codings provided are in the value set 'SNOMED CT Clinical Findings' (http://hl7.org/fhir/ValueSet/clinical-findings|4.0.1), and a coding should come from this value set unless it has no suitable code (note that the validator cannot judge what is suitable) (codes = urn:va:vuid#4637210)",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1274: AllergyIntolerance: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1275: AllergyIntolerance.code.coding[0].system: A definition for CodeSystem 'urn:va:allergy-local-code' could not be found, so the code cannot be validated",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1275: AllergyIntolerance.code: None of the codings provided are in the value set 'Common substances for allergy and intolerance documentation including refutations' (http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1186.8|20210622), and a coding should come from this value set unless it has no suitable code (note that the validator cannot judge what is suitable) (codes = urn:va:allergy-local-code#125;GMRD(120.82,)",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1275: AllergyIntolerance: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1276: AllergyIntolerance.code.coding[0].system: A definition for CodeSystem 'urn:va:vuid' could not be found, so the code cannot be validated",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1276: AllergyIntolerance.code.coding[1].system: A definition for CodeSystem 'urn:va:allergy-local-code' could not be found, so the code cannot be validated",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1276: AllergyIntolerance.code: None of the codings provided are in the value set 'Common substances for allergy and intolerance documentation including refutations' (http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1186.8|20210622), and a coding should come from this value set unless it has no suitable code (note that the validator cannot judge what is suitable) (codes = urn:va:vuid#4017509, urn:va:allergy-local-code#101;PS(50.416,)",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1276: AllergyIntolerance.reaction[0].manifestation[0].coding[0].system: A definition for CodeSystem 'urn:va:vuid' could not be found, so the code cannot be validated",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1276: AllergyIntolerance.reaction[0].manifestation[0]: None of the codings provided are in the value set 'SNOMED CT Clinical Findings' (http://hl7.org/fhir/ValueSet/clinical-findings|4.0.1), and a coding should come from this value set unless it has no suitable code (note that the validator cannot judge what is suitable) (codes = urn:va:vuid#4637210)",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1276: AllergyIntolerance: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1277: AllergyIntolerance.code.coding[0].system: A definition for CodeSystem 'urn:va:allergy-local-code' could not be found, so the code cannot be validated",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1277: AllergyIntolerance.code: None of the codings provided are in the value set 'Common substances for allergy and intolerance documentation including refutations' (http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1186.8|20210622), and a coding should come from this value set unless it has no suitable code (note that the validator cannot judge what is suitable) (codes = urn:va:allergy-local-code#125;GMRD(120.82,)",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1277: AllergyIntolerance: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1278: AllergyIntolerance.code.coding[0].system: A definition for CodeSystem 'urn:va:vuid' could not be found, so the code cannot be validated",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1278: AllergyIntolerance.code.coding[1].system: A definition for CodeSystem 'urn:va:allergy-local-code' could not be found, so the code cannot be validated",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1278: AllergyIntolerance.code: None of the codings provided are in the value set 'Common substances for allergy and intolerance documentation including refutations' (http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1186.8|20210622), and a coding should come from this value set unless it has no suitable code (note that the validator cannot judge what is suitable) (codes = urn:va:vuid#4017509, urn:va:allergy-local-code#101;PS(50.416,)",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1278: AllergyIntolerance.reaction[0].manifestation[0].coding[0].system: A definition for CodeSystem 'urn:va:vuid' could not be found, so the code cannot be validated",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1278: AllergyIntolerance.reaction[0].manifestation[0]: None of the codings provided are in the value set 'SNOMED CT Clinical Findings' (http://hl7.org/fhir/ValueSet/clinical-findings|4.0.1), and a coding should come from this value set unless it has no suitable code (note that the validator cannot judge what is suitable) (codes = urn:va:vuid#4637210)",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1278: AllergyIntolerance: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1279: AllergyIntolerance.code.coding[0].system: A definition for CodeSystem 'urn:va:allergy-local-code' could not be found, so the code cannot be validated",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1279: AllergyIntolerance.code: None of the codings provided are in the value set 'Common substances for allergy and intolerance documentation including refutations' (http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1186.8|20210622), and a coding should come from this value set unless it has no suitable code (note that the validator cannot judge what is suitable) (codes = urn:va:allergy-local-code#125;GMRD(120.82,)",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1279: AllergyIntolerance: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1280: AllergyIntolerance.code.coding[0].system: A definition for CodeSystem 'urn:va:vuid' could not be found, so the code cannot be validated",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1280: AllergyIntolerance.code.coding[1].system: A definition for CodeSystem 'urn:va:allergy-local-code' could not be found, so the code cannot be validated",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1280: AllergyIntolerance.code: None of the codings provided are in the value set 'Common substances for allergy and intolerance documentation including refutations' (http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1186.8|20210622), and a coding should come from this value set unless it has no suitable code (note that the validator cannot judge what is suitable) (codes = urn:va:vuid#4017509, urn:va:allergy-local-code#101;PS(50.416,)",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1280: AllergyIntolerance.reaction[0].manifestation[0].coding[0].system: A definition for CodeSystem 'urn:va:vuid' could not be found, so the code cannot be validated",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1280: AllergyIntolerance.reaction[0].manifestation[0]: None of the codings provided are in the value set 'SNOMED CT Clinical Findings' (http://hl7.org/fhir/ValueSet/clinical-findings|4.0.1), and a coding should come from this value set unless it has no suitable code (note that the validator cannot judge what is suitable) (codes = urn:va:vuid#4637210)",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1280: AllergyIntolerance: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1281: AllergyIntolerance.code: None of the codings provided are in the value set 'Common substances for allergy and intolerance documentation including refutations' (http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1186.8|20210622), and a coding should come from this value set unless it has no suitable code (note that the validator cannot judge what is suitable) (codes = urn:va:allergy-local-code#125;GMRD(120.82,)",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1281: AllergyIntolerance: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1282: AllergyIntolerance.code.coding[0].system: A definition for CodeSystem 'urn:va:vuid' could not be found, so the code cannot be validated",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1282: AllergyIntolerance.code.coding[1].system: A definition for CodeSystem 'urn:va:allergy-local-code' could not be found, so the code cannot be validated",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1282: AllergyIntolerance.code: None of the codings provided are in the value set 'Common substances for allergy and intolerance documentation including refutations' (http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1186.8|20210622), and a coding should come from this value set unless it has no suitable code (note that the validator cannot judge what is suitable) (codes = urn:va:vuid#4017509, urn:va:allergy-local-code#101;PS(50.416,)",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1282: AllergyIntolerance.reaction[0].manifestation[0].coding[0].system: A definition for CodeSystem 'urn:va:vuid' could not be found, so the code cannot be validated",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1282: AllergyIntolerance.reaction[0].manifestation[0]: None of the codings provided are in the value set 'SNOMED CT Clinical Findings' (http://hl7.org/fhir/ValueSet/clinical-findings|4.0.1), and a coding should come from this value set unless it has no suitable code (note that the validator cannot judge what is suitable) (codes = urn:va:vuid#4637210)",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1282: AllergyIntolerance: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1283: AllergyIntolerance.code.coding[0].system: A definition for CodeSystem 'urn:va:allergy-local-code' could not be found, so the code cannot be validated",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1283: AllergyIntolerance.code: None of the codings provided are in the value set 'Common substances for allergy and intolerance documentation including refutations' (http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1186.8|20210622), and a coding should come from this value set unless it has no suitable code (note that the validator cannot judge what is suitable) (codes = urn:va:allergy-local-code#125;GMRD(120.82,)",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1283: AllergyIntolerance: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1284: AllergyIntolerance.code.coding[0].system: A definition for CodeSystem 'urn:va:vuid' could not be found, so the code cannot be validated",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1284: AllergyIntolerance.code.coding[1].system: A definition for CodeSystem 'urn:va:allergy-local-code' could not be found, so the code cannot be validated",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1284: AllergyIntolerance.code: None of the codings provided are in the value set 'Common substances for allergy and intolerance documentation including refutations' (http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1186.8|20210622), and a coding should come from this value set unless it has no suitable code (note that the validator cannot judge what is suitable) (codes = urn:va:vuid#4017509, urn:va:allergy-local-code#101;PS(50.416,)",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1284: AllergyIntolerance.reaction[0].manifestation[0].coding[0].system: A definition for CodeSystem 'urn:va:vuid' could not be found, so the code cannot be validated",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1284: AllergyIntolerance.reaction[0].manifestation[0]: None of the codings provided are in the value set 'SNOMED CT Clinical Findings' (http://hl7.org/fhir/ValueSet/clinical-findings|4.0.1), and a coding should come from this value set unless it has no suitable code (note that the validator cannot judge what is suitable) (codes = urn:va:vuid#4637210)",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1284: AllergyIntolerance: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1285: AllergyIntolerance.code.coding[0].system: A definition for CodeSystem 'urn:va:allergy-local-code' could not be found, so the code cannot be validated",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1285: AllergyIntolerance.code: None of the codings provided are in the value set 'Common substances for allergy and intolerance documentation including refutations' (http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1186.8|20210622), and a coding should come from this value set unless it has no suitable code (note that the validator cannot judge what is suitable) (codes = urn:va:allergy-local-code#125;GMRD(120.82,)",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1285: AllergyIntolerance: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1286: AllergyIntolerance.code: None of the codings provided are in the value set 'Common substances for allergy and intolerance documentation including refutations' (http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1186.8|20210622), and a coding should come from this value set unless it has no suitable code (note that the validator cannot judge what is suitable) (codes = urn:va:vuid#4017509, urn:va:allergy-local-code#101;PS(50.416,)",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1286: AllergyIntolerance.reaction[0].manifestation[0].coding[0].system: A definition for CodeSystem 'urn:va:vuid' could not be found, so the code cannot be validated",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1286: AllergyIntolerance.reaction[0].manifestation[0]: None of the codings provided are in the value set 'SNOMED CT Clinical Findings' (http://hl7.org/fhir/ValueSet/clinical-findings|4.0.1), and a coding should come from this value set unless it has no suitable code (note that the validator cannot judge what is suitable) (codes = urn:va:vuid#4637210)",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1286: AllergyIntolerance: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1287: AllergyIntolerance.code.coding[0].system: A definition for CodeSystem 'urn:va:allergy-local-code' could not be found, so the code cannot be validated",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1287: AllergyIntolerance.code: None of the codings provided are in the value set 'Common substances for allergy and intolerance documentation including refutations' (http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1186.8|20210622), and a coding should come from this value set unless it has no suitable code (note that the validator cannot judge what is suitable) (codes = urn:va:allergy-local-code#125;GMRD(120.82,)",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1287: AllergyIntolerance: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1288: AllergyIntolerance.code.coding[0].system: A definition for CodeSystem 'urn:va:vuid' could not be found, so the code cannot be validated",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1288: AllergyIntolerance.code.coding[1].system: A definition for CodeSystem 'urn:va:allergy-local-code' could not be found, so the code cannot be validated",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1288: AllergyIntolerance.code: None of the codings provided are in the value set 'Common substances for allergy and intolerance documentation including refutations' (http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1186.8|20210622), and a coding should come from this value set unless it has no suitable code (note that the validator cannot judge what is suitable) (codes = urn:va:vuid#4017509, urn:va:allergy-local-code#101;PS(50.416,)",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1288: AllergyIntolerance.reaction[0].manifestation[0].coding[0].system: A definition for CodeSystem 'urn:va:vuid' could not be found, so the code cannot be validated",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1288: AllergyIntolerance.reaction[0].manifestation[0]: None of the codings provided are in the value set 'SNOMED CT Clinical Findings' (http://hl7.org/fhir/ValueSet/clinical-findings|4.0.1), and a coding should come from this value set unless it has no suitable code (note that the validator cannot judge what is suitable) (codes = urn:va:vuid#4637210)",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1288: AllergyIntolerance: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1289: AllergyIntolerance.code.coding[0].system: A definition for CodeSystem 'urn:va:allergy-local-code' could not be found, so the code cannot be validated",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1289: AllergyIntolerance.code: None of the codings provided are in the value set 'Common substances for allergy and intolerance documentation including refutations' (http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1186.8|20210622), and a coding should come from this value set unless it has no suitable code (note that the validator cannot judge what is suitable) (codes = urn:va:allergy-local-code#125;GMRD(120.82,)",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1289: AllergyIntolerance: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1290: AllergyIntolerance.code.coding[0].system: A definition for CodeSystem 'urn:va:vuid' could not be found, so the code cannot be validated",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1290: AllergyIntolerance.code.coding[1].system: A definition for CodeSystem 'urn:va:allergy-local-code' could not be found, so the code cannot be validated",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1290: AllergyIntolerance.code: None of the codings provided are in the value set 'Common substances for allergy and intolerance documentation including refutations' (http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1186.8|20210622), and a coding should come from this value set unless it has no suitable code (note that the validator cannot judge what is suitable) (codes = urn:va:vuid#4017509, urn:va:allergy-local-code#101;PS(50.416,)",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1290: AllergyIntolerance.reaction[0].manifestation[0].coding[0].system: A definition for CodeSystem 'urn:va:vuid' could not be found, so the code cannot be validated",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1290: AllergyIntolerance.reaction[0].manifestation[0]: None of the codings provided are in the value set 'SNOMED CT Clinical Findings' (http://hl7.org/fhir/ValueSet/clinical-findings|4.0.1), and a coding should come from this value set unless it has no suitable code (note that the validator cannot judge what is suitable) (codes = urn:va:vuid#4637210)",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1290: AllergyIntolerance: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1291: AllergyIntolerance.code.coding[0].system: A definition for CodeSystem 'urn:va:allergy-local-code' could not be found, so the code cannot be validated",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1291: AllergyIntolerance.code: None of the codings provided are in the value set 'Common substances for allergy and intolerance documentation including refutations' (http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1186.8|20210622), and a coding should come from this value set unless it has no suitable code (note that the validator cannot judge what is suitable) (codes = urn:va:allergy-local-code#125;GMRD(120.82,)",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1291: AllergyIntolerance: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1292: AllergyIntolerance.code.coding[0].system: A definition for CodeSystem 'urn:va:vuid' could not be found, so the code cannot be validated",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1292: AllergyIntolerance.code.coding[1].system: A definition for CodeSystem 'urn:va:allergy-local-code' could not be found, so the code cannot be validated",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1292: AllergyIntolerance.code: None of the codings provided are in the value set 'Common substances for allergy and intolerance documentation including refutations' (http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1186.8|20210622), and a coding should come from this value set unless it has no suitable code (note that the validator cannot judge what is suitable) (codes = urn:va:vuid#4017509, urn:va:allergy-local-code#101;PS(50.416,)",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1292: AllergyIntolerance.reaction[0].manifestation[0].coding[0].system: A definition for CodeSystem 'urn:va:vuid' could not be found, so the code cannot be validated",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1292: AllergyIntolerance.reaction[0].manifestation[0]: None of the codings provided are in the value set 'SNOMED CT Clinical Findings' (http://hl7.org/fhir/ValueSet/clinical-findings|4.0.1), and a coding should come from this value set unless it has no suitable code (note that the validator cannot judge what is suitable) (codes = urn:va:vuid#4637210)",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1292: AllergyIntolerance: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1293: AllergyIntolerance.code.coding[0].system: A definition for CodeSystem 'urn:va:allergy-local-code' could not be found, so the code cannot be validated",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1293: AllergyIntolerance.code: None of the codings provided are in the value set 'Common substances for allergy and intolerance documentation including refutations' (http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1186.8|20210622), and a coding should come from this value set unless it has no suitable code (note that the validator cannot judge what is suitable) (codes = urn:va:allergy-local-code#125;GMRD(120.82,)",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1293: AllergyIntolerance: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1294: AllergyIntolerance.code.coding[0].system: A definition for CodeSystem 'urn:va:vuid' could not be found, so the code cannot be validated",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1294: AllergyIntolerance.code.coding[1].system: A definition for CodeSystem 'urn:va:allergy-local-code' could not be found, so the code cannot be validated",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1294: AllergyIntolerance.code: None of the codings provided are in the value set 'Common substances for allergy and intolerance documentation including refutations' (http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1186.8|20210622), and a coding should come from this value set unless it has no suitable code (note that the validator cannot judge what is suitable) (codes = urn:va:vuid#4017509, urn:va:allergy-local-code#101;PS(50.416,)",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1294: AllergyIntolerance.reaction[0].manifestation[0].coding[0].system: A definition for CodeSystem 'urn:va:vuid' could not be found, so the code cannot be validated",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1294: AllergyIntolerance.reaction[0].manifestation[0]: None of the codings provided are in the value set 'SNOMED CT Clinical Findings' (http://hl7.org/fhir/ValueSet/clinical-findings|4.0.1), and a coding should come from this value set unless it has no suitable code (note that the validator cannot judge what is suitable) (codes = urn:va:vuid#4637210)",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1294: AllergyIntolerance: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1295: AllergyIntolerance.code: None of the codings provided are in the value set 'Common substances for allergy and intolerance documentation including refutations' (http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1186.8|20210622), and a coding should come from this value set unless it has no suitable code (note that the validator cannot judge what is suitable) (codes = urn:va:allergy-local-code#125;GMRD(120.82,)",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1295: AllergyIntolerance: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1296: AllergyIntolerance.code.coding[0].system: A definition for CodeSystem 'urn:va:vuid' could not be found, so the code cannot be validated",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1296: AllergyIntolerance.code.coding[1].system: A definition for CodeSystem 'urn:va:allergy-local-code' could not be found, so the code cannot be validated",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1296: AllergyIntolerance.code: None of the codings provided are in the value set 'Common substances for allergy and intolerance documentation including refutations' (http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1186.8|20210622), and a coding should come from this value set unless it has no suitable code (note that the validator cannot judge what is suitable) (codes = urn:va:vuid#4017509, urn:va:allergy-local-code#101;PS(50.416,)",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1296: AllergyIntolerance.reaction[0].manifestation[0].coding[0].system: A definition for CodeSystem 'urn:va:vuid' could not be found, so the code cannot be validated",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1296: AllergyIntolerance.reaction[0].manifestation[0]: None of the codings provided are in the value set 'SNOMED CT Clinical Findings' (http://hl7.org/fhir/ValueSet/clinical-findings|4.0.1), and a coding should come from this value set unless it has no suitable code (note that the validator cannot judge what is suitable) (codes = urn:va:vuid#4637210)",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1296: AllergyIntolerance: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1297: AllergyIntolerance.code.coding[0].system: A definition for CodeSystem 'urn:va:allergy-local-code' could not be found, so the code cannot be validated",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1297: AllergyIntolerance.code: None of the codings provided are in the value set 'Common substances for allergy and intolerance documentation including refutations' (http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1186.8|20210622), and a coding should come from this value set unless it has no suitable code (note that the validator cannot judge what is suitable) (codes = urn:va:allergy-local-code#125;GMRD(120.82,)",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1297: AllergyIntolerance: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1298: AllergyIntolerance.code.coding[0].system: A definition for CodeSystem 'urn:va:vuid' could not be found, so the code cannot be validated",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1298: AllergyIntolerance.code.coding[1].system: A definition for CodeSystem 'urn:va:allergy-local-code' could not be found, so the code cannot be validated",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1298: AllergyIntolerance.code: None of the codings provided are in the value set 'Common substances for allergy and intolerance documentation including refutations' (http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1186.8|20210622), and a coding should come from this value set unless it has no suitable code (note that the validator cannot judge what is suitable) (codes = urn:va:vuid#4017509, urn:va:allergy-local-code#101;PS(50.416,)",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1298: AllergyIntolerance.reaction[0].manifestation[0].coding[0].system: A definition for CodeSystem 'urn:va:vuid' could not be found, so the code cannot be validated",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1298: AllergyIntolerance.reaction[0].manifestation[0]: None of the codings provided are in the value set 'SNOMED CT Clinical Findings' (http://hl7.org/fhir/ValueSet/clinical-findings|4.0.1), and a coding should come from this value set unless it has no suitable code (note that the validator cannot judge what is suitable) (codes = urn:va:vuid#4637210)",
+          "type": "warning"
+        },
+        {
+          "message": "AllergyIntolerance/A1298: AllergyIntolerance: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)",
+          "type": "warning"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [],
+      "result": "pass",
+      "test_id": "us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_allergy_intolerance-us_quality_core_v050_allergy_intolerance_validation_test",
+      "test_run_id": "c5f79c55-49a8-4976-bc06-ac795591e649",
+      "test_session_id": "8X6cjCAcHW5",
+      "updated_at": "2026-10-12T18:08:04.402+00:00"
+    },
+    {
+      "created_at": "2026-10-12T18:08:04.606+00:00",
+      "id": "c8348cc9-467b-4caa-b76a-4a2add0f471a",
+      "inputs": [
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://devfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"name\":\"smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [],
+      "result": "pass",
+      "test_id": "us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_allergy_intolerance-us_quality_core_v050_allergy_intolerance_must_support_test",
+      "test_run_id": "c5f79c55-49a8-4976-bc06-ac795591e649",
+      "test_session_id": "8X6cjCAcHW5",
+      "updated_at": "2026-10-12T18:08:04.606+00:00"
+    },
+    {
+      "created_at": "2026-10-12T18:08:04.852+00:00",
+      "id": "f9719d93-c545-481b-a389-506960c48e2b",
+      "inputs": [
+        {
+          "description": "Comma separated list of patient IDs that in sum contain all MUST SUPPORT elements",
+          "label": "Patient IDs",
+          "name": "patient_ids",
+          "type": "text",
+          "value": "101130,101131,101132,101133,101134,101135,101136,101137,101138,101139,101140,101141,101142,101143,101144,101145,101146,101147,101148,101149,101150,101151,101152,101153"
+        },
+        {
+          "description": "URL of the FHIR endpoint",
+          "label": "FHIR Endpoint",
+          "name": "url",
+          "type": "text",
+          "value": "https://devfhir.vistaplex.org/fhir"
+        },
+        {
+          "description": null,
+          "label": "OAuth Credentials",
+          "name": "smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"name\":\"smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [],
+      "result": "pass",
+      "test_group_id": "us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_allergy_intolerance",
+      "test_run_id": "c5f79c55-49a8-4976-bc06-ac795591e649",
+      "test_session_id": "8X6cjCAcHW5",
+      "updated_at": "2026-10-12T18:08:04.852+00:00"
+    },
+    {
+      "created_at": "2026-10-12T18:07:59.814+00:00",
+      "id": "7e9ceb11-3a1e-4863-b922-21974b4b9737",
+      "inputs": [
+        {
+          "name": "patient_ids",
+          "type": "text",
+          "value": "101130,101131,101132,101133,101134,101135,101136,101137,101138,101139,101140,101141,101142,101143,101144,101145,101146,101147,101148,101149,101150,101151,101152,101153"
+        },
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://devfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"name\":\"smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [
+        {
+          "direction": "outgoing",
+          "id": "0300c886-58a6-4684-bf0e-1dbfecb27822",
+          "index": 98840323,
+          "result_id": "7e9ceb11-3a1e-4863-b922-21974b4b9737",
+          "status": 200,
+          "timestamp": "2026-10-12T18:07:59.826+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/AllergyIntolerance?patient=101130",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "d3b3c6ac-dda1-4edf-9234-e395a6eb640d",
+          "index": 98840324,
+          "result_id": "7e9ceb11-3a1e-4863-b922-21974b4b9737",
+          "status": 200,
+          "timestamp": "2026-10-12T18:07:59.843+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/AllergyIntolerance/_search",
+          "verb": "post"
+        },
+        {
+          "direction": "outgoing",
+          "id": "5cd8af4d-d9e6-4b3f-82d5-421d8f5f6df6",
+          "index": 98840325,
+          "result_id": "7e9ceb11-3a1e-4863-b922-21974b4b9737",
+          "status": 200,
+          "timestamp": "2026-10-12T18:07:59.857+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/AllergyIntolerance?patient=Patient/101130",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "fc98282a-1222-4da3-9609-94c2f5ece11d",
+          "index": 98840326,
+          "result_id": "7e9ceb11-3a1e-4863-b922-21974b4b9737",
+          "status": 200,
+          "timestamp": "2026-10-12T18:07:59.869+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/AllergyIntolerance?patient=101131",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "ce1f3b39-3a01-4c58-b739-9714d971a77f",
+          "index": 98840327,
+          "result_id": "7e9ceb11-3a1e-4863-b922-21974b4b9737",
+          "status": 200,
+          "timestamp": "2026-10-12T18:07:59.882+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/AllergyIntolerance?patient=101132",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "03017fe4-bb68-4029-9d06-09758c1da6be",
+          "index": 98840328,
+          "result_id": "7e9ceb11-3a1e-4863-b922-21974b4b9737",
+          "status": 200,
+          "timestamp": "2026-10-12T18:07:59.892+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/AllergyIntolerance?patient=101133",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "517dcd66-1c92-47d0-8cd0-02ab89cd2ea2",
+          "index": 98840329,
+          "result_id": "7e9ceb11-3a1e-4863-b922-21974b4b9737",
+          "status": 200,
+          "timestamp": "2026-10-12T18:07:59.903+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/AllergyIntolerance?patient=101134",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "4f904ddc-af64-4ed8-8ddd-4eab960a3cc4",
+          "index": 98840330,
+          "result_id": "7e9ceb11-3a1e-4863-b922-21974b4b9737",
+          "status": 200,
+          "timestamp": "2026-10-12T18:07:59.915+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/AllergyIntolerance?patient=101135",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "3bf584d3-b7f5-41fb-9be6-25fc16f6b369",
+          "index": 98840331,
+          "result_id": "7e9ceb11-3a1e-4863-b922-21974b4b9737",
+          "status": 200,
+          "timestamp": "2026-10-12T18:07:59.926+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/AllergyIntolerance?patient=101136",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "b1673751-e2ed-4045-9def-02a3a00e4a88",
+          "index": 98840332,
+          "result_id": "7e9ceb11-3a1e-4863-b922-21974b4b9737",
+          "status": 200,
+          "timestamp": "2026-10-12T18:07:59.938+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/AllergyIntolerance?patient=101137",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "2b278cf0-8785-45f9-bccc-01a8de54793e",
+          "index": 98840333,
+          "result_id": "7e9ceb11-3a1e-4863-b922-21974b4b9737",
+          "status": 200,
+          "timestamp": "2026-10-12T18:07:59.949+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/AllergyIntolerance?patient=101138",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "04505fa1-eb1c-4837-a407-ded90a86877b",
+          "index": 98840334,
+          "result_id": "7e9ceb11-3a1e-4863-b922-21974b4b9737",
+          "status": 200,
+          "timestamp": "2026-10-12T18:07:59.961+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/AllergyIntolerance?patient=101139",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "52537b05-830a-4965-b288-7efae3787940",
+          "index": 98840335,
+          "result_id": "7e9ceb11-3a1e-4863-b922-21974b4b9737",
+          "status": 200,
+          "timestamp": "2026-10-12T18:07:59.972+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/AllergyIntolerance?patient=101140",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "bb5a3db4-0543-4d59-b4ec-ff50e63cfa61",
+          "index": 98840336,
+          "result_id": "7e9ceb11-3a1e-4863-b922-21974b4b9737",
+          "status": 200,
+          "timestamp": "2026-10-12T18:07:59.985+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/AllergyIntolerance?patient=101141",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "fe56f682-12ac-494d-93b2-9b1c8b1b5ce9",
+          "index": 98840337,
+          "result_id": "7e9ceb11-3a1e-4863-b922-21974b4b9737",
+          "status": 200,
+          "timestamp": "2026-10-12T18:07:59.997+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/AllergyIntolerance?patient=101142",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "881bd2e6-ca9c-45f3-a9a5-faef9956e53e",
+          "index": 98840338,
+          "result_id": "7e9ceb11-3a1e-4863-b922-21974b4b9737",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:00.008+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/AllergyIntolerance?patient=101143",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "30767e44-55e7-4ed7-b255-544eae0b02c0",
+          "index": 98840339,
+          "result_id": "7e9ceb11-3a1e-4863-b922-21974b4b9737",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:00.020+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/AllergyIntolerance?patient=101144",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "7242eaab-d01a-4467-b0b3-4fb1e37a0253",
+          "index": 98840340,
+          "result_id": "7e9ceb11-3a1e-4863-b922-21974b4b9737",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:00.034+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/AllergyIntolerance?patient=101145",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "1451e5c9-a56c-45f7-8b94-12b2dafec8ce",
+          "index": 98840341,
+          "result_id": "7e9ceb11-3a1e-4863-b922-21974b4b9737",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:00.045+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/AllergyIntolerance?patient=101146",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "593f4c0b-7661-490a-8421-bae891adec81",
+          "index": 98840342,
+          "result_id": "7e9ceb11-3a1e-4863-b922-21974b4b9737",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:00.056+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/AllergyIntolerance?patient=101147",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "19d1cb0f-611a-46d1-bb71-71f265da4bc1",
+          "index": 98840343,
+          "result_id": "7e9ceb11-3a1e-4863-b922-21974b4b9737",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:00.067+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/AllergyIntolerance?patient=101148",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "c375bcde-4ffe-4a49-9f77-c3527489b7da",
+          "index": 98840344,
+          "result_id": "7e9ceb11-3a1e-4863-b922-21974b4b9737",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:00.080+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/AllergyIntolerance?patient=101149",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "e2d26266-aaa1-4b79-9a4b-3f1dcedf24b7",
+          "index": 98840345,
+          "result_id": "7e9ceb11-3a1e-4863-b922-21974b4b9737",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:00.093+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/AllergyIntolerance?patient=101150",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "10c905b4-4440-4014-84be-82710ffdf13c",
+          "index": 98840346,
+          "result_id": "7e9ceb11-3a1e-4863-b922-21974b4b9737",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:00.105+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/AllergyIntolerance?patient=101151",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "3a406015-4e17-470a-a62a-81977d6a29a6",
+          "index": 98840347,
+          "result_id": "7e9ceb11-3a1e-4863-b922-21974b4b9737",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:00.117+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/AllergyIntolerance?patient=101152",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "42bd59f0-eb19-4cb8-b998-9787a2b9e0e9",
+          "index": 98840348,
+          "result_id": "7e9ceb11-3a1e-4863-b922-21974b4b9737",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:00.128+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/AllergyIntolerance?patient=101153",
+          "verb": "get"
+        }
+      ],
+      "result": "pass",
+      "test_id": "us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_allergy_intolerance-us_quality_core_v050_allergy_intolerance_patient_search_test",
+      "test_run_id": "c5f79c55-49a8-4976-bc06-ac795591e649",
+      "test_session_id": "8X6cjCAcHW5",
+      "updated_at": "2026-10-12T18:07:59.814+00:00"
+    },
+    {
+      "created_at": "2026-10-12T18:08:00.262+00:00",
+      "id": "5153db11-df02-46ed-9c52-1110cdb38317",
+      "inputs": [
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://devfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"name\":\"smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [
+        {
+          "direction": "outgoing",
+          "id": "3f81b756-c102-4cd5-90af-3f3a81f96f80",
+          "index": 98840349,
+          "result_id": "5153db11-df02-46ed-9c52-1110cdb38317",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:00.264+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/AllergyIntolerance/A1253",
+          "verb": "get"
+        }
+      ],
+      "result": "pass",
+      "test_id": "us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_allergy_intolerance-us_quality_core_v050_allergy_intolerance_read_test",
+      "test_run_id": "c5f79c55-49a8-4976-bc06-ac795591e649",
+      "test_session_id": "8X6cjCAcHW5",
+      "updated_at": "2026-10-12T18:08:00.262+00:00"
+    },
+    {
+      "created_at": "2026-10-12T18:08:03.025+00:00",
+      "id": "ec53375a-38c4-4627-8cf5-e9dc742abe95",
+      "inputs": [
+        {
+          "name": "patient_ids",
+          "type": "text",
+          "value": "101130,101131,101132,101133,101134,101135,101136,101137,101138,101139,101140,101141,101142,101143,101144,101145,101146,101147,101148,101149,101150,101151,101152,101153"
+        },
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://devfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"name\":\"smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [
+        {
+          "direction": "outgoing",
+          "id": "c5e28881-4e6e-4087-948c-9a1bb53246a8",
+          "index": 98840356,
+          "result_id": "ec53375a-38c4-4627-8cf5-e9dc742abe95",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:03.027+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/AllergyIntolerance?_revinclude=Provenance:target&patient=101130",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "fd2d4e24-653b-4524-acf2-5a43166c8fc3",
+          "index": 98840357,
+          "result_id": "ec53375a-38c4-4627-8cf5-e9dc742abe95",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:03.040+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/AllergyIntolerance?_revinclude=Provenance:target&patient=101131",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "660c2cfd-9cf2-4592-afbb-8ca9d96a40c5",
+          "index": 98840358,
+          "result_id": "ec53375a-38c4-4627-8cf5-e9dc742abe95",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:03.053+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/AllergyIntolerance?_revinclude=Provenance:target&patient=101132",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "cf5ead85-5eea-4160-ba30-a0f40bbb6510",
+          "index": 98840359,
+          "result_id": "ec53375a-38c4-4627-8cf5-e9dc742abe95",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:03.066+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/AllergyIntolerance?_revinclude=Provenance:target&patient=101133",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "ac8f0ec0-1082-48dc-94ea-845f99dfb7ac",
+          "index": 98840360,
+          "result_id": "ec53375a-38c4-4627-8cf5-e9dc742abe95",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:03.078+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/AllergyIntolerance?_revinclude=Provenance:target&patient=101134",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "9ea11b7c-9818-4a1f-8cb8-5c7ea1706cf1",
+          "index": 98840361,
+          "result_id": "ec53375a-38c4-4627-8cf5-e9dc742abe95",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:03.090+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/AllergyIntolerance?_revinclude=Provenance:target&patient=101135",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "29b870c2-6607-41b4-9177-2140ae6d6c32",
+          "index": 98840362,
+          "result_id": "ec53375a-38c4-4627-8cf5-e9dc742abe95",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:03.100+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/AllergyIntolerance?_revinclude=Provenance:target&patient=101136",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "d2017f56-e1f6-4c9b-b886-004aa6be3377",
+          "index": 98840363,
+          "result_id": "ec53375a-38c4-4627-8cf5-e9dc742abe95",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:03.111+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/AllergyIntolerance?_revinclude=Provenance:target&patient=101137",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "7b49fe6d-a368-4335-9892-59a5c896f48a",
+          "index": 98840364,
+          "result_id": "ec53375a-38c4-4627-8cf5-e9dc742abe95",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:03.123+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/AllergyIntolerance?_revinclude=Provenance:target&patient=101138",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "588d5d9b-4aec-4cc9-a052-3567d33f1f71",
+          "index": 98840365,
+          "result_id": "ec53375a-38c4-4627-8cf5-e9dc742abe95",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:03.136+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/AllergyIntolerance?_revinclude=Provenance:target&patient=101139",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "8ddc4aa8-5a1f-44f6-bd23-b0b264853768",
+          "index": 98840366,
+          "result_id": "ec53375a-38c4-4627-8cf5-e9dc742abe95",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:03.146+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/AllergyIntolerance?_revinclude=Provenance:target&patient=101140",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "6cd8346e-4a67-4f8f-8275-913db83ae5e1",
+          "index": 98840367,
+          "result_id": "ec53375a-38c4-4627-8cf5-e9dc742abe95",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:03.158+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/AllergyIntolerance?_revinclude=Provenance:target&patient=101141",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "085bf88d-8d2d-4611-8ea6-f67cf5a30e61",
+          "index": 98840368,
+          "result_id": "ec53375a-38c4-4627-8cf5-e9dc742abe95",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:03.172+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/AllergyIntolerance?_revinclude=Provenance:target&patient=101142",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "305b94a8-4420-4ac1-b356-510981d17cd3",
+          "index": 98840369,
+          "result_id": "ec53375a-38c4-4627-8cf5-e9dc742abe95",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:03.184+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/AllergyIntolerance?_revinclude=Provenance:target&patient=101143",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "a8eec118-055c-4cf4-804b-a557e40b5ab4",
+          "index": 98840370,
+          "result_id": "ec53375a-38c4-4627-8cf5-e9dc742abe95",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:03.196+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/AllergyIntolerance?_revinclude=Provenance:target&patient=101144",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "1df94ed6-22c5-406b-a05f-a803af8ce39d",
+          "index": 98840371,
+          "result_id": "ec53375a-38c4-4627-8cf5-e9dc742abe95",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:03.208+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/AllergyIntolerance?_revinclude=Provenance:target&patient=101145",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "dea04863-c9fb-4dc3-a72c-7e57071ffad8",
+          "index": 98840372,
+          "result_id": "ec53375a-38c4-4627-8cf5-e9dc742abe95",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:03.221+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/AllergyIntolerance?_revinclude=Provenance:target&patient=101146",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "151a208f-0486-420d-ad79-4d6dea0f54b7",
+          "index": 98840373,
+          "result_id": "ec53375a-38c4-4627-8cf5-e9dc742abe95",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:03.231+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/AllergyIntolerance?_revinclude=Provenance:target&patient=101147",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "fdc4de3d-856c-41d3-b5ee-0668f1202c97",
+          "index": 98840374,
+          "result_id": "ec53375a-38c4-4627-8cf5-e9dc742abe95",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:03.243+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/AllergyIntolerance?_revinclude=Provenance:target&patient=101148",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "f1c398b0-cceb-4de2-a3f5-b4bfc73b438d",
+          "index": 98840375,
+          "result_id": "ec53375a-38c4-4627-8cf5-e9dc742abe95",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:03.254+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/AllergyIntolerance?_revinclude=Provenance:target&patient=101149",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "94938620-5fe2-4d20-9d75-c56da68d684b",
+          "index": 98840376,
+          "result_id": "ec53375a-38c4-4627-8cf5-e9dc742abe95",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:03.266+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/AllergyIntolerance?_revinclude=Provenance:target&patient=101150",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "f52e9e1f-6cf8-4a64-996e-b52bd64c3918",
+          "index": 98840377,
+          "result_id": "ec53375a-38c4-4627-8cf5-e9dc742abe95",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:03.279+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/AllergyIntolerance?_revinclude=Provenance:target&patient=101151",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "3441e3c7-1a7a-4ec4-b260-11e691f5b42d",
+          "index": 98840378,
+          "result_id": "ec53375a-38c4-4627-8cf5-e9dc742abe95",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:03.291+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/AllergyIntolerance?_revinclude=Provenance:target&patient=101152",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "9f510fd8-03f8-490f-b3e9-65956f280a8a",
+          "index": 98840379,
+          "result_id": "ec53375a-38c4-4627-8cf5-e9dc742abe95",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:03.303+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/AllergyIntolerance?_revinclude=Provenance:target&patient=101153",
+          "verb": "get"
+        }
+      ],
+      "result": "pass",
+      "test_id": "us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_allergy_intolerance-us_quality_core_v050_allergy_intolerance_provenance_revinclude_search_test",
+      "test_run_id": "c5f79c55-49a8-4976-bc06-ac795591e649",
+      "test_session_id": "8X6cjCAcHW5",
+      "updated_at": "2026-10-12T18:08:03.025+00:00"
+    },
+    {
+      "created_at": "2026-10-12T18:08:04.737+00:00",
+      "id": "accf6165-7af5-4352-a903-a5bc28f0004b",
+      "inputs": [
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://devfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"name\":\"smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [
+        {
+          "direction": "outgoing",
+          "id": "1041cd41-3a6d-4e65-b641-b1923d21546e",
+          "index": 98840380,
+          "result_id": "accf6165-7af5-4352-a903-a5bc28f0004b",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:04.834+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/Patient/101130",
+          "verb": "get"
+        }
+      ],
+      "result": "pass",
+      "test_id": "us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_allergy_intolerance-us_quality_core_v050_allergy_intolerance_reference_resolution_test",
+      "test_run_id": "c5f79c55-49a8-4976-bc06-ac795591e649",
+      "test_session_id": "8X6cjCAcHW5",
+      "updated_at": "2026-10-12T18:08:04.737+00:00"
+    }
+  ],
+  "run_id": "c5f79c55-49a8-4976-bc06-ac795591e649",
+  "session_id": "8X6cjCAcHW5",
+  "session_url": "https://inferno.healthit.gov/suites/us_quality_core_v050/8X6cjCAcHW5",
+  "status": {
+    "id": "c5f79c55-49a8-4976-bc06-ac795591e649",
+    "inputs": null,
+    "results": null,
+    "status": "done",
+    "test_count": 6,
+    "test_group_id": "us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_allergy_intolerance",
+    "test_session_id": "8X6cjCAcHW5"
+  },
+  "url": "https://devfhir.vistaplex.org/fhir"
+}

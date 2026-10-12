@@ -1,0 +1,122 @@
+{
+  "api": "https://inferno.healthit.gov/suites/api",
+  "patient_ids": "101130,101131,101132,101133,101134,101135,101136,101137,101138,101139,101140,101141,101142,101143,101144,101145,101146,101147,101148,101149,101150,101151,101152,101153",
+  "results": [
+    {
+      "created_at": "2026-10-12T18:08:39.747+00:00",
+      "id": "3d1ba496-7b0f-4171-96e1-2f09913ce5e9",
+      "inputs": [
+        {
+          "description": "URL of the FHIR endpoint",
+          "label": "FHIR Endpoint",
+          "name": "url",
+          "type": "text",
+          "value": "https://devfhir.vistaplex.org/fhir"
+        },
+        {
+          "description": null,
+          "label": "OAuth Credentials",
+          "name": "smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"name\":\"smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [],
+      "result": "skip",
+      "test_group_id": "us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_organization",
+      "test_run_id": "f4beec94-e78c-46b7-80cc-dcccfe0ee313",
+      "test_session_id": "3jGGY7iWcLS",
+      "updated_at": "2026-10-12T18:08:39.747+00:00"
+    },
+    {
+      "created_at": "2026-10-12T18:08:39.739+00:00",
+      "id": "b3cd178d-370b-4d40-a481-b608bf25f5ad",
+      "inputs": [
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://devfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"name\":\"smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [],
+      "result": "skip",
+      "result_message": "No Organization resources conforming to the http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-organization profile were returned",
+      "test_id": "us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_organization-us_quality_core_v050_organization_validation_test",
+      "test_run_id": "f4beec94-e78c-46b7-80cc-dcccfe0ee313",
+      "test_session_id": "3jGGY7iWcLS",
+      "updated_at": "2026-10-12T18:08:39.739+00:00"
+    },
+    {
+      "created_at": "2026-10-12T18:08:39.724+00:00",
+      "id": "e7f97042-5063-4b78-8431-2ece1da1193f",
+      "inputs": [
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://devfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"name\":\"smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [],
+      "result": "skip",
+      "result_message": "No Organization resources appear to be available. Please use patients with more information.",
+      "test_id": "us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_organization-us_quality_core_v050_organization_read_test",
+      "test_run_id": "f4beec94-e78c-46b7-80cc-dcccfe0ee313",
+      "test_session_id": "3jGGY7iWcLS",
+      "updated_at": "2026-10-12T18:08:39.724+00:00"
+    },
+    {
+      "created_at": "2026-10-12T18:08:39.743+00:00",
+      "id": "06a8287f-eded-4185-9fc7-385703d22cbe",
+      "inputs": [
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://devfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"name\":\"smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [],
+      "result": "skip",
+      "result_message": "No Organization resources were found",
+      "test_id": "us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_organization-us_quality_core_v050_organization_must_support_test",
+      "test_run_id": "f4beec94-e78c-46b7-80cc-dcccfe0ee313",
+      "test_session_id": "3jGGY7iWcLS",
+      "updated_at": "2026-10-12T18:08:39.743+00:00"
+    }
+  ],
+  "run_id": "f4beec94-e78c-46b7-80cc-dcccfe0ee313",
+  "session_id": "3jGGY7iWcLS",
+  "session_url": "https://inferno.healthit.gov/suites/us_quality_core_v050/3jGGY7iWcLS",
+  "status": {
+    "id": "f4beec94-e78c-46b7-80cc-dcccfe0ee313",
+    "inputs": null,
+    "results": null,
+    "status": "done",
+    "test_count": 3,
+    "test_group_id": "us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_organization",
+    "test_session_id": "3jGGY7iWcLS"
+  },
+  "url": "https://devfhir.vistaplex.org/fhir"
+}

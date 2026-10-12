@@ -1,0 +1,4086 @@
+{
+  "api": "https://inferno.healthit.gov/suites/api",
+  "patient_ids": "101130,101131,101132,101133,101134,101135,101136,101137,101138,101139,101140,101141,101142,101143,101144,101145,101146,101147,101148,101149,101150,101151,101152,101153",
+  "results": [
+    {
+      "created_at": "2026-10-12T18:08:29.989+00:00",
+      "id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+      "inputs": [
+        {
+          "name": "patient_ids",
+          "type": "text",
+          "value": "101130,101131,101132,101133,101134,101135,101136,101137,101138,101139,101140,101141,101142,101143,101144,101145,101146,101147,101148,101149,101150,101151,101152,101153"
+        },
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://devfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"name\":\"smart_auth_info\"}"
+        }
+      ],
+      "optional": true,
+      "outputs": [],
+      "requests": [
+        {
+          "direction": "outgoing",
+          "id": "cbe9b8ba-c626-4f6c-b91b-fb1e609c99e3",
+          "index": 98840524,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:29.999+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=proposal&patient=101130",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "1a251bbe-553e-47d1-9105-d1539c3b44ea",
+          "index": 98840525,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:30.017+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=plan&patient=101130",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "4db59eec-4de8-407b-a485-e74a3a9b2138",
+          "index": 98840526,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:30.028+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=order&patient=101130",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "2a3dbbb6-d44e-49d7-916a-f674fc85871e",
+          "index": 98840527,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:30.040+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=original-order&patient=101130",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "ecddf392-4ec6-417c-9970-7767bbfaf57c",
+          "index": 98840528,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:30.051+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=reflex-order&patient=101130",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "b505cecc-06ff-4bbc-9f05-5737bde8a70e",
+          "index": 98840529,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:30.062+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=filler-order&patient=101130",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "12c714a6-fbd7-4fec-a2ec-40736c9c71e6",
+          "index": 98840530,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:30.072+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=instance-order&patient=101130",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "4bbf76d8-3f8c-4075-bfc0-be06bde0c361",
+          "index": 98840531,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:30.082+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=option&patient=101130",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "26fed448-ae69-415b-a93c-61a1d4c088fd",
+          "index": 98840532,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:30.092+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=proposal&patient=101131",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "95c7a738-22c5-47c6-b893-ad56757e9cf7",
+          "index": 98840533,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:30.104+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=plan&patient=101131",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "d3e3a395-cddb-4b05-af21-e3b8b29d8b24",
+          "index": 98840534,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:30.115+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=order&patient=101131",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "9fb67982-2fdd-4c58-b2fb-407869816f2a",
+          "index": 98840535,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:30.126+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=original-order&patient=101131",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "8e8f8767-2cbf-4873-8db7-cb8f703b7f83",
+          "index": 98840536,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:30.144+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=reflex-order&patient=101131",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "759b5aa8-ec56-4f67-8538-c4f9bb4b8d85",
+          "index": 98840537,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:30.154+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=filler-order&patient=101131",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "d2763591-6e67-4fc5-9014-f1e62be2e14a",
+          "index": 98840538,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:30.164+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=instance-order&patient=101131",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "fc374ad0-8e45-4872-8772-897acc2614df",
+          "index": 98840539,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:30.175+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=option&patient=101131",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "c8641429-3b14-4669-839e-4eeef0c4f0b0",
+          "index": 98840540,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:30.186+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=proposal&patient=101132",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "28e45928-5da4-4d4e-97c0-099a828f9677",
+          "index": 98840541,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:30.198+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=plan&patient=101132",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "fd99ffb0-d750-4319-a4f4-701113efcc2d",
+          "index": 98840542,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:30.210+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=order&patient=101132",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "77b7e26f-13e3-49fd-bf9b-3f0a5f9efed7",
+          "index": 98840543,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:30.221+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=original-order&patient=101132",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "87a2aaac-1004-43be-9316-df2af2f0d580",
+          "index": 98840544,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:30.232+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=reflex-order&patient=101132",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "51981c06-ddaa-4dec-9db3-43a0bb227afe",
+          "index": 98840545,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:30.241+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=filler-order&patient=101132",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "4ae40d38-542c-4f42-b845-ad7af78604f3",
+          "index": 98840546,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:30.258+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=instance-order&patient=101132",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "d1ac8f95-2149-484c-8b9d-f3a588f14282",
+          "index": 98840547,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:30.267+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=option&patient=101132",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "9d5e101f-a0e3-4415-b997-e3f44c822c12",
+          "index": 98840548,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:30.309+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=proposal&patient=101133",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "9541aa4e-4e94-45f1-b9ca-66f6cd34c824",
+          "index": 98840549,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:30.322+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=plan&patient=101133",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "8c9a99f9-cfe8-44b2-8bac-e55987ac801e",
+          "index": 98840550,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:30.334+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=order&patient=101133",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "69e15e57-4694-4400-807d-a604bd63e679",
+          "index": 98840551,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:30.346+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=original-order&patient=101133",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "9ed5b36f-92be-4ec7-a532-82505ee25901",
+          "index": 98840552,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:30.363+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=reflex-order&patient=101133",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "9799547a-4636-413c-abd7-f5208b8ec971",
+          "index": 98840553,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:30.376+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=filler-order&patient=101133",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "bd8eb622-a419-44ab-94e7-036444351493",
+          "index": 98840554,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:30.387+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=instance-order&patient=101133",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "71988423-425a-4357-9ba9-e74f6980837e",
+          "index": 98840555,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:30.401+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=option&patient=101133",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "f7d5703e-4bc0-4c93-a2d5-6b90b91bbb62",
+          "index": 98840556,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:30.412+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=proposal&patient=101134",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "e9ddce16-30ca-49ed-b680-680e6938e408",
+          "index": 98840557,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:30.431+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=plan&patient=101134",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "eb289a80-b63f-45d0-892d-945c7a88a8f4",
+          "index": 98840558,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:30.443+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=order&patient=101134",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "3aac3f5a-a4fb-4a26-9db8-7b6d4dda4df1",
+          "index": 98840559,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:30.455+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=original-order&patient=101134",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "8339444d-d7ae-432f-9ba6-0a7c3c0b5615",
+          "index": 98840560,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:30.467+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=reflex-order&patient=101134",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "3480ebe5-a46c-48ec-b655-3eb7f7cb6f95",
+          "index": 98840561,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:30.483+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=filler-order&patient=101134",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "d9c33eca-8fe5-40cc-8fa7-3a07754e2250",
+          "index": 98840562,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:30.495+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=instance-order&patient=101134",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "5ba433bf-d075-4a92-8a46-5d64c59ff0c7",
+          "index": 98840563,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:30.504+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=option&patient=101134",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "6e868bef-1108-4fc0-bef0-bab003b98e02",
+          "index": 98840564,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:30.514+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=proposal&patient=101135",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "b413a61d-dc02-4bae-b9f2-9defeb7e72f1",
+          "index": 98840565,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:30.525+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=plan&patient=101135",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "85f950ce-9008-4260-82b6-db6b718f0ed9",
+          "index": 98840566,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:30.535+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=order&patient=101135",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "60422fd4-a6e4-472b-989d-6ec314db60f7",
+          "index": 98840567,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:30.545+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=original-order&patient=101135",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "964a0b5a-dc5f-41d3-be99-bc60a87a2f98",
+          "index": 98840568,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:30.557+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=reflex-order&patient=101135",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "a3bb442d-7277-4d71-ae92-11c7450d8b58",
+          "index": 98840569,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:30.568+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=filler-order&patient=101135",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "6926ca3e-3b8c-42fc-ae6c-41fcb3167312",
+          "index": 98840570,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:30.582+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=instance-order&patient=101135",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "b3264440-b8db-4f3a-b30d-47969e5971c2",
+          "index": 98840571,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:30.592+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=option&patient=101135",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "7ce1c60a-8ff1-4ed0-9462-ff6b3ad1c0d2",
+          "index": 98840572,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:30.604+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=proposal&patient=101136",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "74470089-9a49-4e15-8cde-d8313d883ff2",
+          "index": 98840573,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:30.615+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=plan&patient=101136",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "8c7af5c1-8109-4018-bb2d-6065deb3b16d",
+          "index": 98840574,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:30.626+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=order&patient=101136",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "9ed7b678-efb0-40e1-bbd8-bcfaa2a8a08d",
+          "index": 98840575,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:30.637+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=original-order&patient=101136",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "254621c0-d58f-4541-a385-636aa167b818",
+          "index": 98840576,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:30.647+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=reflex-order&patient=101136",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "662acc29-c7b5-4ca6-8f1f-d62312f25f0a",
+          "index": 98840577,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:30.660+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=filler-order&patient=101136",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "324a5830-6603-4dda-9c7d-94fbb9aeb5ee",
+          "index": 98840578,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:30.673+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=instance-order&patient=101136",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "f163659e-93f3-48f3-b2c5-bf7a96c8529b",
+          "index": 98840579,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:30.684+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=option&patient=101136",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "ffcec4c7-43b8-4631-bc49-318aff7d5502",
+          "index": 98840580,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:30.697+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=proposal&patient=101137",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "1a1eb654-c15a-48a7-a09c-33590827433b",
+          "index": 98840581,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:30.710+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=plan&patient=101137",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "9f866b8e-8822-4956-8443-bd9dd3c2e5f6",
+          "index": 98840582,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:30.719+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=order&patient=101137",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "4bf9a799-a283-4df5-a8dc-70f3925a0027",
+          "index": 98840583,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:30.732+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=original-order&patient=101137",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "651b41eb-1b93-4dea-8197-748912500a0e",
+          "index": 98840584,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:30.742+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=reflex-order&patient=101137",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "28d76ec9-824f-4f8b-abb0-20e18a3af03a",
+          "index": 98840585,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:30.754+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=filler-order&patient=101137",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "1afb14b4-3515-449c-8cd8-49709b8da656",
+          "index": 98840586,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:30.764+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=instance-order&patient=101137",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "89cf0837-ea5d-4b4e-8bd7-5c3c5bf829b6",
+          "index": 98840587,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:30.775+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=option&patient=101137",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "f3890735-61ae-4d6c-8cae-4e4b24b4bc07",
+          "index": 98840588,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:30.786+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=proposal&patient=101138",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "d6dc7322-ca0a-4324-bd2b-43742a0324d8",
+          "index": 98840589,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:30.798+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=plan&patient=101138",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "3eb69f7c-0a8a-48e7-842f-5e6e7672dcd8",
+          "index": 98840590,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:30.809+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=order&patient=101138",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "f4c76bba-eba7-4bcc-ad30-80a9995677d6",
+          "index": 98840591,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:30.821+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=original-order&patient=101138",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "9b06a62b-0fcf-4ea5-84c3-ac93f9caa6ea",
+          "index": 98840592,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:30.833+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=reflex-order&patient=101138",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "d6823cdb-aba6-4fb4-957e-d3531d7f8702",
+          "index": 98840593,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:30.845+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=filler-order&patient=101138",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "8db7e595-d9fb-477e-8b4e-f70ba149815f",
+          "index": 98840594,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:30.857+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=instance-order&patient=101138",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "0b45e54c-5c7b-4818-9b60-af2a3cd81256",
+          "index": 98840595,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:30.869+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=option&patient=101138",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "50438c99-3c60-43aa-93fa-fc88e353a168",
+          "index": 98840596,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:30.880+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=proposal&patient=101139",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "c6e57f98-02e9-4aef-a3b9-12564219be23",
+          "index": 98840597,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:30.893+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=plan&patient=101139",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "ba8d9e55-d118-4bbe-b55c-c7b6de9c235c",
+          "index": 98840598,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:30.905+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=order&patient=101139",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "b3347e4f-45bc-4c93-ada1-4b9c6813a076",
+          "index": 98840599,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:30.917+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=original-order&patient=101139",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "5f8c3c88-bca7-4431-bf62-5871361c77be",
+          "index": 98840600,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:30.928+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=reflex-order&patient=101139",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "b8066297-bed6-4646-aa0f-55bca138ed38",
+          "index": 98840601,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:30.938+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=filler-order&patient=101139",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "6558d949-7a98-4759-a5cd-9bf16a36e6f3",
+          "index": 98840602,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:30.952+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=instance-order&patient=101139",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "4a0a7863-cd61-44e3-8656-921230d0b7d1",
+          "index": 98840603,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:30.967+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=option&patient=101139",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "bf4800f5-5797-47e5-9a26-de91086cbf37",
+          "index": 98840604,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:30.978+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=proposal&patient=101140",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "8804f559-aa10-4455-96f2-c4b311cf39c9",
+          "index": 98840605,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:30.989+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=plan&patient=101140",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "f2ef0a1d-42ba-48a3-beda-93902588128a",
+          "index": 98840606,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:31.000+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=order&patient=101140",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "f315de4a-f221-4333-9f29-ff0c6123a13b",
+          "index": 98840607,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:31.012+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=original-order&patient=101140",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "a17a0de3-30db-477b-a9a5-85e160eb90ea",
+          "index": 98840608,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:31.024+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=reflex-order&patient=101140",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "f4bfc480-b4ed-4495-90ec-56deb9b555e8",
+          "index": 98840609,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:31.046+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=filler-order&patient=101140",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "092ed480-274b-4d70-b8ad-93302136f8e8",
+          "index": 98840610,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:31.060+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=instance-order&patient=101140",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "301de26e-18ea-4574-b90b-a2c5f631cd90",
+          "index": 98840611,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:31.073+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=option&patient=101140",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "e1e09fae-0f5e-49c7-9321-58a24a10402a",
+          "index": 98840612,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:31.086+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=proposal&patient=101141",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "17a99510-104e-4d90-a130-f1caa548de57",
+          "index": 98840613,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:31.097+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=plan&patient=101141",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "1fe4aec8-5901-464c-8ff9-d0e620445533",
+          "index": 98840614,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:31.110+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=order&patient=101141",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "0b9ce6ce-8410-4ab4-9fcc-f048e224e97e",
+          "index": 98840615,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:31.123+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=original-order&patient=101141",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "84279d7a-4e3d-4499-aa26-b8838228de37",
+          "index": 98840616,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:31.137+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=reflex-order&patient=101141",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "338b361b-9cf2-4b5c-8b8c-d6aef673a7d4",
+          "index": 98840617,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:31.150+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=filler-order&patient=101141",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "6a52bda7-e5b7-4b4e-9515-a424debfd8fa",
+          "index": 98840618,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:31.162+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=instance-order&patient=101141",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "49e94026-f26a-4d4f-9d1f-ad70b36e2de2",
+          "index": 98840619,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:31.173+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=option&patient=101141",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "ba801fdf-7e1e-420d-b609-77b97244c5fa",
+          "index": 98840620,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:31.185+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=proposal&patient=101142",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "b7c200e9-6ec9-439c-9fd2-714655d8467c",
+          "index": 98840621,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:31.226+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=plan&patient=101142",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "c3972210-206c-4af6-8363-325fd82eea00",
+          "index": 98840622,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:31.238+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=order&patient=101142",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "73af69bb-3a47-4fdd-a86f-e70531bc73c2",
+          "index": 98840623,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:31.251+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=original-order&patient=101142",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "2da65739-6dca-4145-9ef8-aa15af21d453",
+          "index": 98840624,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:31.263+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=reflex-order&patient=101142",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "bde0d1dc-fc8e-4cc1-9632-ce0884c4711a",
+          "index": 98840625,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:31.275+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=filler-order&patient=101142",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "059c896d-d466-4aff-94a6-52903725c4f6",
+          "index": 98840626,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:31.289+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=instance-order&patient=101142",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "0c60e9d4-7e34-46fd-9b65-5921239359c5",
+          "index": 98840627,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:31.299+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=option&patient=101142",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "b05e5bf8-a952-4f9e-ad06-df1bf8337fbe",
+          "index": 98840628,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:31.319+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=proposal&patient=101143",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "48b2ee81-aca8-4790-9292-ac7f74a7dfab",
+          "index": 98840629,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:31.331+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=plan&patient=101143",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "8f2e6d0f-94f3-4509-bb77-a10cda1cf099",
+          "index": 98840630,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:31.342+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=order&patient=101143",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "154b7a9d-bc9c-4ab2-9a9a-f02c886695b7",
+          "index": 98840631,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:31.353+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=original-order&patient=101143",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "7aff7131-7a73-47d2-9abe-f446a312fbd3",
+          "index": 98840632,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:31.367+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=reflex-order&patient=101143",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "7428eeb6-3393-47eb-9485-10d855329252",
+          "index": 98840633,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:31.377+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=filler-order&patient=101143",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "02d203eb-a488-4ab0-a7c9-19e981dc83c0",
+          "index": 98840634,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:31.394+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=instance-order&patient=101143",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "531dc1c9-8ee2-48cb-a972-7d36d748f6e1",
+          "index": 98840635,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:31.408+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=option&patient=101143",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "5781cf7b-9fdb-40bc-bbb6-1de5facf259c",
+          "index": 98840636,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:31.420+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=proposal&patient=101144",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "4cc76cd6-c30b-43b8-b0ee-439d5132d43c",
+          "index": 98840637,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:31.434+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=plan&patient=101144",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "11c1786d-ecd4-40bc-b5f0-0adb0d82ac92",
+          "index": 98840638,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:31.444+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=order&patient=101144",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "b2fad804-cb4a-4895-8179-5f3782726b76",
+          "index": 98840639,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:31.457+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=original-order&patient=101144",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "e718d6e7-3371-4b1f-90ef-08b647ef5fdd",
+          "index": 98840640,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:31.469+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=reflex-order&patient=101144",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "7cec6aa1-94d5-4275-981d-5b4f3a84970d",
+          "index": 98840641,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:31.481+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=filler-order&patient=101144",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "b18509cf-d874-4f8d-bfb2-da1f87951ee8",
+          "index": 98840642,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:31.491+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=instance-order&patient=101144",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "0c166681-c9ea-4669-808d-3ce9f4bd0191",
+          "index": 98840643,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:31.504+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=option&patient=101144",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "268ec8c4-e1b7-44f1-8e9e-b0379cdb13c8",
+          "index": 98840644,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:31.514+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=proposal&patient=101145",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "809305ba-8db4-48b7-b7a6-4f08b617bd06",
+          "index": 98840645,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:31.529+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=plan&patient=101145",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "9755333b-4b5d-4e97-baff-bd64f2ffc5c3",
+          "index": 98840646,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:31.540+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=order&patient=101145",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "f26c77a2-7e27-448f-89d2-d72e330cfcce",
+          "index": 98840647,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:31.553+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=original-order&patient=101145",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "cf0bc685-e238-495d-99b6-2de166a87265",
+          "index": 98840648,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:31.563+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=reflex-order&patient=101145",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "f2fd9ad4-a8d9-418c-adc9-6c7cd21c9202",
+          "index": 98840649,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:31.574+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=filler-order&patient=101145",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "11d14eb1-3c2a-45d1-87b4-d833f4fdeba4",
+          "index": 98840650,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:31.585+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=instance-order&patient=101145",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "1d00894a-7f4b-4d93-b985-c797ec745b75",
+          "index": 98840651,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:31.596+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=option&patient=101145",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "65fc17b9-2192-4750-b92d-5470317b5358",
+          "index": 98840652,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:31.609+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=proposal&patient=101146",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "3d44c076-8c5b-415b-9686-0ef6e8662429",
+          "index": 98840653,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:31.619+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=plan&patient=101146",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "d509c599-c05f-48bd-98b0-71886cd17640",
+          "index": 98840654,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:31.629+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=order&patient=101146",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "574da001-6f59-4fd9-a446-eb5d9b5ce181",
+          "index": 98840655,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:31.640+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=original-order&patient=101146",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "6d6ea538-bba1-4123-ad50-a07207801a7f",
+          "index": 98840656,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:31.650+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=reflex-order&patient=101146",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "b78a7e7f-bcb7-44ec-b590-f94175f576e9",
+          "index": 98840657,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:31.661+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=filler-order&patient=101146",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "909eb656-d5c4-4017-b695-31fe0ed73477",
+          "index": 98840658,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:31.673+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=instance-order&patient=101146",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "86495399-d421-477c-929c-b5bb9711271a",
+          "index": 98840659,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:31.683+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=option&patient=101146",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "f1c0d0a4-93a1-4f15-a311-6fd12a67921b",
+          "index": 98840660,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:31.693+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=proposal&patient=101147",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "556f99e5-f93a-4d43-90c6-83279e3cb13f",
+          "index": 98840661,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:31.702+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=plan&patient=101147",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "1af3c141-fe41-4985-b41d-f0d821b97a55",
+          "index": 98840662,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:31.713+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=order&patient=101147",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "c51fdb3c-b9b2-49da-bf41-52851462758e",
+          "index": 98840663,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:31.728+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=original-order&patient=101147",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "a652bd8d-e6b2-4e52-a8d1-f81304259520",
+          "index": 98840664,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:31.741+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=reflex-order&patient=101147",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "9d8ba4c8-4978-4b63-9f29-342753f44ee8",
+          "index": 98840665,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:31.752+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=filler-order&patient=101147",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "92753f1e-91ea-4c27-98c3-2f54d33f0aae",
+          "index": 98840666,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:31.764+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=instance-order&patient=101147",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "752f72bc-a7d1-4185-becc-1e6e174c8daf",
+          "index": 98840667,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:31.774+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=option&patient=101147",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "e5c1aec8-1376-43d9-b234-cee65763ae9c",
+          "index": 98840668,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:31.784+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=proposal&patient=101148",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "8d7b75b8-8046-4969-9e20-cf8c8a55daaf",
+          "index": 98840669,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:31.795+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=plan&patient=101148",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "1be6106b-7ca2-465b-af7c-0cc9ccd13a37",
+          "index": 98840670,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:31.805+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=order&patient=101148",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "3cb16fba-ed4b-4999-b655-d09bea97e2f4",
+          "index": 98840671,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:31.817+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=original-order&patient=101148",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "234cc468-d185-4502-8097-2a0e48f63880",
+          "index": 98840672,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:31.829+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=reflex-order&patient=101148",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "8266c9ef-39c1-4335-bd49-624ac9bc664d",
+          "index": 98840673,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:31.839+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=filler-order&patient=101148",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "bc13c70e-a36d-49e5-8a07-83e0f397320d",
+          "index": 98840674,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:31.852+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=instance-order&patient=101148",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "adda87ce-a6e3-4cdb-aada-4421bf3b2cd1",
+          "index": 98840675,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:31.865+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=option&patient=101148",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "b2898edb-1221-49ab-a828-057aad5ba376",
+          "index": 98840676,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:31.877+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=proposal&patient=101149",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "a77b3857-f222-45b2-90b1-e748c31db3bb",
+          "index": 98840677,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:31.887+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=plan&patient=101149",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "adee6b4d-fe69-48ff-899f-7749a92889fb",
+          "index": 98840678,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:31.897+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=order&patient=101149",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "cafa7b9c-0093-469e-b47f-2690bd81ef80",
+          "index": 98840679,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:31.909+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=original-order&patient=101149",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "2acc8007-b215-4032-847d-8e834e8e82a2",
+          "index": 98840680,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:31.919+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=reflex-order&patient=101149",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "1252601b-9fcb-486b-92d5-99499c0e9e24",
+          "index": 98840681,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:31.930+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=filler-order&patient=101149",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "83cf5a1f-8ce8-4685-8165-4e35d40b554f",
+          "index": 98840682,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:31.942+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=instance-order&patient=101149",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "e39d869d-44b6-4869-9916-b5f9a4c082b6",
+          "index": 98840683,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:31.956+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=option&patient=101149",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "aa1e5a12-f177-49ca-a1b8-d0c414c441a0",
+          "index": 98840684,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:31.968+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=proposal&patient=101150",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "53a69251-0b52-4569-8616-598cbe2ab4ac",
+          "index": 98840685,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:31.981+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=plan&patient=101150",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "78387290-c29a-4c2b-8b02-030cbb48687f",
+          "index": 98840686,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:31.991+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=order&patient=101150",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "88b13d76-c53e-4ee5-9aef-eaacc8fd0df4",
+          "index": 98840687,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:32.002+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=original-order&patient=101150",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "e1c1802c-3013-46a0-bfe0-a0f290adf369",
+          "index": 98840688,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:32.016+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=reflex-order&patient=101150",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "1044b5d5-2496-452b-a481-82dba6493157",
+          "index": 98840689,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:32.027+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=filler-order&patient=101150",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "c4760d0a-1bbb-4735-a405-15a42ebcc983",
+          "index": 98840690,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:32.038+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=instance-order&patient=101150",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "b0206f2d-d0bb-4661-8416-f656aaaa834e",
+          "index": 98840691,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:32.050+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=option&patient=101150",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "3bd14169-7527-4a39-8943-693c0df82845",
+          "index": 98840692,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:32.062+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=proposal&patient=101151",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "052a521b-18b5-4b74-98ca-8fa1bda54ec9",
+          "index": 98840693,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:32.073+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=plan&patient=101151",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "4724dd98-f967-489e-94cf-fafc299571eb",
+          "index": 98840694,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:32.085+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=order&patient=101151",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "b703ca92-91ca-4bd7-b551-6db0842a1d7d",
+          "index": 98840695,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:32.096+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=original-order&patient=101151",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "c960b2c4-70f8-4d1f-81f3-3501afb83dc6",
+          "index": 98840696,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:32.109+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=reflex-order&patient=101151",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "b0306f27-ca77-4e9c-b883-c042e2961c09",
+          "index": 98840697,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:32.151+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=filler-order&patient=101151",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "0a0d0d6c-ae7e-433e-b4ea-8c0ffa44b167",
+          "index": 98840698,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:32.161+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=instance-order&patient=101151",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "69b0be24-c6db-49b4-ba6e-329584169df1",
+          "index": 98840699,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:32.176+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=option&patient=101151",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "678f7333-76af-4573-98b6-f2a23ee0bb4a",
+          "index": 98840700,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:32.188+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=proposal&patient=101152",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "eebd9036-ea3d-4f6e-9889-e0ade16e4f97",
+          "index": 98840701,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:32.201+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=plan&patient=101152",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "fe2699f9-b649-4edc-86da-6823a52f7c05",
+          "index": 98840702,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:32.213+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=order&patient=101152",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "796c3d1d-f52b-43a7-9a2a-fd78968be6a3",
+          "index": 98840703,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:32.226+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=original-order&patient=101152",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "796f2c65-5d28-4056-ae50-7a61fe2415fe",
+          "index": 98840704,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:32.237+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=reflex-order&patient=101152",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "82b1185c-4591-4a38-8212-f60df9e80f4c",
+          "index": 98840705,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:32.246+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=filler-order&patient=101152",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "28dbc1c7-7db6-4cbe-b198-a7bf15411d10",
+          "index": 98840706,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:32.264+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=instance-order&patient=101152",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "c4f13eae-6bc2-4438-9ab3-191958708f23",
+          "index": 98840707,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:32.281+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=option&patient=101152",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "5c5d5c12-8878-410c-a976-49a5d59a6bdc",
+          "index": 98840708,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:32.297+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=proposal&patient=101153",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "ed8f02ab-2ff0-480a-86b7-e7f7a6809822",
+          "index": 98840709,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:32.310+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=plan&patient=101153",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "92584f63-62d9-4215-9653-8c9404f447f6",
+          "index": 98840710,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:32.321+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=order&patient=101153",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "cc9743a2-91c1-436d-be6a-d26bf0923de5",
+          "index": 98840711,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:32.330+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=original-order&patient=101153",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "b2104a11-e057-4a70-891b-f5c06a91e440",
+          "index": 98840712,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:32.339+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=reflex-order&patient=101153",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "7e1fa53f-3b75-4c96-bd38-ddf5487e8a4a",
+          "index": 98840713,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:32.350+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=filler-order&patient=101153",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "fa3d8eee-cd48-4edf-b055-3b890100ef5e",
+          "index": 98840714,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:32.363+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=instance-order&patient=101153",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "e708f005-c00d-40fb-b3b7-25701aec3c2f",
+          "index": 98840715,
+          "result_id": "7a7bd512-08b7-4fa9-95c8-a14107e16b4a",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:32.374+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?do-not-perform=false&intent=option&patient=101153",
+          "verb": "get"
+        }
+      ],
+      "result": "skip",
+      "result_message": "No MedicationRequest resources appear to be available. Please use patients with more information",
+      "test_id": "us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_medicationrequest-us_quality_core_v050_medicationrequest_patient_intent_do_not_perform_search_test",
+      "test_run_id": "3c3e9d0d-47ff-4d50-84f8-6cab04ce8704",
+      "test_session_id": "6Z17gCaECl9",
+      "updated_at": "2026-10-12T18:08:29.989+00:00"
+    },
+    {
+      "created_at": "2026-10-12T18:08:32.389+00:00",
+      "id": "9a4693c0-96b6-4442-8bd0-1a9080f47a9c",
+      "inputs": [
+        {
+          "name": "patient_ids",
+          "type": "text",
+          "value": "101130,101131,101132,101133,101134,101135,101136,101137,101138,101139,101140,101141,101142,101143,101144,101145,101146,101147,101148,101149,101150,101151,101152,101153"
+        },
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://devfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"name\":\"smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [],
+      "result": "skip",
+      "result_message": "Could not find values for all search params `patient`, `intent`",
+      "test_id": "us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_medicationrequest-us_quality_core_v050_medicationrequest_patient_intent_search_test",
+      "test_run_id": "3c3e9d0d-47ff-4d50-84f8-6cab04ce8704",
+      "test_session_id": "6Z17gCaECl9",
+      "updated_at": "2026-10-12T18:08:32.389+00:00"
+    },
+    {
+      "created_at": "2026-10-12T18:08:32.395+00:00",
+      "id": "e8ec91b6-35db-4f32-acff-69828c335ab0",
+      "inputs": [
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://devfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"name\":\"smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [],
+      "result": "skip",
+      "result_message": "No MedicationRequest resources appear to be available. Please use patients with more information.",
+      "test_id": "us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_medicationrequest-us_quality_core_v050_medicationrequest_read_test",
+      "test_run_id": "3c3e9d0d-47ff-4d50-84f8-6cab04ce8704",
+      "test_session_id": "6Z17gCaECl9",
+      "updated_at": "2026-10-12T18:08:32.395+00:00"
+    },
+    {
+      "created_at": "2026-10-12T18:08:50.282+00:00",
+      "id": "02b34438-04af-4020-8200-67129115f6f4",
+      "inputs": [
+        {
+          "name": "patient_ids",
+          "type": "text",
+          "value": "101130,101131,101132,101133,101134,101135,101136,101137,101138,101139,101140,101141,101142,101143,101144,101145,101146,101147,101148,101149,101150,101151,101152,101153"
+        },
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://devfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"name\":\"smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [
+        {
+          "direction": "outgoing",
+          "id": "35f54099-31f7-4718-bc5b-4bd66423e0e1",
+          "index": 98840788,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:50.284+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=proposal&patient=101130",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "baf8f507-66c8-4026-8770-cfc75c4dffc9",
+          "index": 98840789,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:50.299+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=plan&patient=101130",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "8ab2308b-604f-419e-8e3b-1e5eac5bad93",
+          "index": 98840790,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:50.312+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=order&patient=101130",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "87b835b4-d9a8-4548-b8f6-fd60fa27f577",
+          "index": 98840791,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:50.323+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=original-order&patient=101130",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "70f3b8b1-038b-492e-abc0-4b131acecc28",
+          "index": 98840792,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:50.333+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=reflex-order&patient=101130",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "c773a91b-e9c8-4467-8a01-dbed609ac485",
+          "index": 98840793,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:50.344+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=filler-order&patient=101130",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "caafadc3-9748-4f8a-b267-71533f2f0b1d",
+          "index": 98840794,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:50.357+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=instance-order&patient=101130",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "b027619c-1ea0-44f2-a801-0f3835101eeb",
+          "index": 98840795,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:50.367+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=option&patient=101130",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "46ad80a8-92e7-43d2-a223-5de2131cfa0b",
+          "index": 98840796,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:50.380+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=proposal&patient=101131",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "b9c32127-1c2d-440d-ad99-8e80f7461c77",
+          "index": 98840797,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:50.391+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=plan&patient=101131",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "ec974c59-bc04-43b3-bd7b-80a1a60dd8b3",
+          "index": 98840798,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:50.401+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=order&patient=101131",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "582e8419-b38f-455b-b6f7-a448b2d53dcd",
+          "index": 98840799,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:50.410+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=original-order&patient=101131",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "135c1d63-a774-454a-9a5b-8eab3a151a96",
+          "index": 98840800,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:50.424+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=reflex-order&patient=101131",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "036bdace-f4be-4753-aa36-2d0a48f088ff",
+          "index": 98840801,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:50.434+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=filler-order&patient=101131",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "72856a4a-f25a-4e67-bed9-39e28c59a5ee",
+          "index": 98840802,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:50.444+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=instance-order&patient=101131",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "7e9c2b97-03b4-4082-b839-ff32354a0cd0",
+          "index": 98840803,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:50.457+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=option&patient=101131",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "b20d08f9-d78a-4ff0-afd4-5678193958ae",
+          "index": 98840804,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:50.467+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=proposal&patient=101132",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "0dee0b1e-34b0-427a-a574-9823378fa9d0",
+          "index": 98840805,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:50.479+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=plan&patient=101132",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "945db46b-ffa5-48fa-8f87-fd0b2649a13e",
+          "index": 98840806,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:50.489+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=order&patient=101132",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "bad47019-0baa-41e0-bd3a-23a8cad60dec",
+          "index": 98840807,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:50.502+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=original-order&patient=101132",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "d6655262-4e9d-4247-b227-b70a57e8eb54",
+          "index": 98840808,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:50.512+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=reflex-order&patient=101132",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "1affd52e-fbf9-44f8-b9b8-8354cdae69ef",
+          "index": 98840809,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:50.523+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=filler-order&patient=101132",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "0e06bb1b-c59f-4dd6-ae7a-4df02e67ca9b",
+          "index": 98840810,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:50.533+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=instance-order&patient=101132",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "ec3e7b5c-ee3b-4f91-b4e5-ccbaf7dbfc36",
+          "index": 98840811,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:50.544+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=option&patient=101132",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "a3b60251-3630-4aa8-8f36-b6c47a6e9aad",
+          "index": 98840812,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:50.554+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=proposal&patient=101133",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "d68f387b-a0e2-4482-a2af-d81f2c003af5",
+          "index": 98840813,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:50.567+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=plan&patient=101133",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "406a44a1-1487-483d-b7c8-bf75b857bc6b",
+          "index": 98840814,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:50.576+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=order&patient=101133",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "5227dfb4-c810-4cfc-91d9-3e6960f4e209",
+          "index": 98840815,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:50.586+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=original-order&patient=101133",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "3e84d1b8-475f-4dd6-a4be-077ec67b51ee",
+          "index": 98840816,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:50.598+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=reflex-order&patient=101133",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "da7f35ac-711f-49f8-895c-2bf6a034dfc7",
+          "index": 98840818,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:50.748+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=filler-order&patient=101133",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "a3113296-1cdd-4aaf-b4cd-97c9133f3ae9",
+          "index": 98840819,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:50.759+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=instance-order&patient=101133",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "58f3552d-67f3-444b-9fb5-65f2cbc41d76",
+          "index": 98840820,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:50.771+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=option&patient=101133",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "eef60b5c-9b53-431a-9fb0-bd8ed93730f9",
+          "index": 98840822,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:50.784+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=proposal&patient=101134",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "91f734a1-532e-42d3-bfcc-c16eb35ddc9b",
+          "index": 98840823,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:50.797+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=plan&patient=101134",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "d31de1e1-5fa9-4c01-a97d-9f59c33886de",
+          "index": 98840825,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:50.809+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=order&patient=101134",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "50bf97f6-241a-4088-bd2e-c3e4617fa840",
+          "index": 98840826,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:50.820+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=original-order&patient=101134",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "889daff2-9f68-418f-825c-9bee79f17e3f",
+          "index": 98840827,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:50.830+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=reflex-order&patient=101134",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "ae6b3b41-455d-474c-8407-1310a19b069b",
+          "index": 98840828,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:50.840+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=filler-order&patient=101134",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "3ed14479-2cf0-4546-9060-8bc5adcf284b",
+          "index": 98840829,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:50.877+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=instance-order&patient=101134",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "9a2f0ac6-07a5-4a9f-b918-ad561dcf6338",
+          "index": 98840830,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:50.887+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=option&patient=101134",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "16337619-efa5-481c-b5ca-1e415e3d98ca",
+          "index": 98840831,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:50.899+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=proposal&patient=101135",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "a6b88f2b-da66-409d-a28c-5e99718e6a74",
+          "index": 98840832,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:50.908+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=plan&patient=101135",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "a87d738a-6b5e-4924-b5b8-2b7f0ace72b6",
+          "index": 98840833,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:50.922+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=order&patient=101135",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "5194f085-a921-4ddf-beb3-e8b1d0f1ca4c",
+          "index": 98840835,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:50.935+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=original-order&patient=101135",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "a782471f-d619-4189-88a6-9da5dd8d4ef9",
+          "index": 98840836,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:50.947+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=reflex-order&patient=101135",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "742b1876-833e-42b3-93ed-f944abd47806",
+          "index": 98840837,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:50.985+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=filler-order&patient=101135",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "4b389833-bb84-41ec-84c9-e925fc4215d4",
+          "index": 98840838,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:50.996+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=instance-order&patient=101135",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "a87bcce4-b554-4a98-9d2d-27f9a6b26373",
+          "index": 98840839,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:51.008+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=option&patient=101135",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "963d8ec1-c810-416c-b275-f8ea53366186",
+          "index": 98840840,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:51.020+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=proposal&patient=101136",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "59bdb23d-dda3-40d7-b002-67506df4f1f9",
+          "index": 98840841,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:51.034+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=plan&patient=101136",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "ca71a976-44a1-4985-b2aa-e7e5ce52345d",
+          "index": 98840842,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:51.046+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=order&patient=101136",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "6bc740b7-edc1-433c-a5a9-2c7b53945175",
+          "index": 98840843,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:51.060+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=original-order&patient=101136",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "910627e2-db87-4ea9-aa87-cf4f0f1b407f",
+          "index": 98840844,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:51.072+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=reflex-order&patient=101136",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "0abdb5c2-883f-432c-b534-85c1a4aa0581",
+          "index": 98840845,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:51.086+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=filler-order&patient=101136",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "7fc31a54-f1b7-4c19-93a0-2c9368e6d807",
+          "index": 98840846,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:51.097+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=instance-order&patient=101136",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "5283da8e-f9a9-4742-b49f-4c48d68814e3",
+          "index": 98840847,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:51.109+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=option&patient=101136",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "90c8aded-fb55-4497-b2b8-e42ac344efd9",
+          "index": 98840848,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:51.118+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=proposal&patient=101137",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "979e862b-3b27-4fa2-b1be-058268a65aa4",
+          "index": 98840849,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:51.127+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=plan&patient=101137",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "456ebb16-d758-4cd9-b491-734d8fdfe8f3",
+          "index": 98840850,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:51.136+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=order&patient=101137",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "e8337c74-4360-4b23-b27b-765c211daaf9",
+          "index": 98840851,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:51.148+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=original-order&patient=101137",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "5fcb1903-d5a0-436f-9e81-bb85c6917551",
+          "index": 98840852,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:51.158+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=reflex-order&patient=101137",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "16e76e7c-512a-49fb-9188-0923335250b5",
+          "index": 98840853,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:51.170+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=filler-order&patient=101137",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "e50cf1e0-e727-451c-a978-446b1010c9a8",
+          "index": 98840854,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:51.181+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=instance-order&patient=101137",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "15b54d2b-6764-403b-b4c5-8ebaeb019c55",
+          "index": 98840855,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:51.192+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=option&patient=101137",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "f5a4f54e-ed0f-4993-9fea-f018ff13a734",
+          "index": 98840856,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:51.202+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=proposal&patient=101138",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "12d9bd71-fd91-4551-b610-a1bd4eaf7887",
+          "index": 98840857,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:51.214+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=plan&patient=101138",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "33fbcb81-a848-4a76-b9ef-d8949c2217f2",
+          "index": 98840858,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:51.226+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=order&patient=101138",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "5c67356b-c5e4-43f4-8185-c7fc5964f05b",
+          "index": 98840859,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:51.237+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=original-order&patient=101138",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "16352e64-2c36-4132-b169-0745c4d053c6",
+          "index": 98840860,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:51.247+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=reflex-order&patient=101138",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "b1984331-0a41-4e0c-b2d8-3ec0e5119d5e",
+          "index": 98840861,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:51.263+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=filler-order&patient=101138",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "11720e4c-5521-416d-90ed-a9d1d307c390",
+          "index": 98840862,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:51.273+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=instance-order&patient=101138",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "06e784f6-0efa-41e1-ba0f-48aacbd57d2d",
+          "index": 98840863,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:51.283+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=option&patient=101138",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "14f158da-eaac-4ef8-a4a3-8b437cf8796c",
+          "index": 98840864,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:51.293+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=proposal&patient=101139",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "57ffb98e-94c0-4277-8504-fbd0704fbe80",
+          "index": 98840865,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:51.305+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=plan&patient=101139",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "11009319-06d7-4c05-b29a-e0f31a33a06a",
+          "index": 98840866,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:51.317+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=order&patient=101139",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "61a5e99f-b310-4a7e-b7d0-64137b5a0c58",
+          "index": 98840867,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:51.328+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=original-order&patient=101139",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "a99d9120-db0d-4755-b0a7-3f2440e4089a",
+          "index": 98840868,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:51.339+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=reflex-order&patient=101139",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "eded51f8-95b3-4586-95c9-d99405eaf3ec",
+          "index": 98840869,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:51.351+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=filler-order&patient=101139",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "41f95052-5dbd-44c6-8f9d-35065bc00e51",
+          "index": 98840870,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:51.363+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=instance-order&patient=101139",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "3c45122a-cf85-403b-b242-ce32f44a9dbd",
+          "index": 98840871,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:51.374+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=option&patient=101139",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "5488b9e8-5322-40b9-8f98-3c380e28b14b",
+          "index": 98840872,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:51.385+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=proposal&patient=101140",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "2d947115-1fed-4637-92b8-e67cc2b22d30",
+          "index": 98840873,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:51.395+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=plan&patient=101140",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "c485a409-0ef6-49e0-a98d-6e8b3c8ede25",
+          "index": 98840874,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:51.406+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=order&patient=101140",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "42c496e4-ea46-4cee-a9f2-e967f7192a1a",
+          "index": 98840875,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:51.417+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=original-order&patient=101140",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "fd32d023-2b5f-4d4f-b969-efdd78b2d72f",
+          "index": 98840876,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:51.427+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=reflex-order&patient=101140",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "99178b42-7cd8-4654-819e-9aa9efec7c7e",
+          "index": 98840877,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:51.439+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=filler-order&patient=101140",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "d487095f-6d2b-4c81-babf-8fff8c86a25a",
+          "index": 98840878,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:51.449+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=instance-order&patient=101140",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "ad9ecccc-0760-4f91-b3fe-d59ed4fef906",
+          "index": 98840879,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:51.460+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=option&patient=101140",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "a4d673a0-41a0-44fb-91f8-e0643b65e3b1",
+          "index": 98840880,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:51.477+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=proposal&patient=101141",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "00d56be7-14a5-4e51-864d-41e8b0b0d890",
+          "index": 98840881,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:51.488+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=plan&patient=101141",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "ab30c6f7-865a-485c-831a-e17cbb7b4349",
+          "index": 98840882,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:51.500+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=order&patient=101141",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "61822289-251c-4054-9cd7-b151086752f1",
+          "index": 98840883,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:51.511+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=original-order&patient=101141",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "170107b0-e47d-4957-8fec-720a7b530438",
+          "index": 98840884,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:51.523+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=reflex-order&patient=101141",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "5435b248-6c03-4799-af7c-44beea5f5d05",
+          "index": 98840885,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:51.534+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=filler-order&patient=101141",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "3cee17ee-44ba-418d-bbf7-a9c8862b4ba0",
+          "index": 98840886,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:51.545+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=instance-order&patient=101141",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "99fca012-2fc7-4f1b-86a3-71d0be7412ce",
+          "index": 98840887,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:51.554+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=option&patient=101141",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "59ca431b-6f67-48c4-a02e-7fee5a5bc05b",
+          "index": 98840888,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:51.565+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=proposal&patient=101142",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "aea2d97c-49e6-4174-ada7-5adf20b93a50",
+          "index": 98840889,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:51.575+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=plan&patient=101142",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "111c358d-bdb0-4e19-ac07-e908630d5bea",
+          "index": 98840890,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:51.585+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=order&patient=101142",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "760bf4d3-b202-4acd-80d7-491d8d3f8bad",
+          "index": 98840891,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:51.596+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=original-order&patient=101142",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "0709f717-0a67-47aa-94df-0caf256b5e1b",
+          "index": 98840892,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:51.606+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=reflex-order&patient=101142",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "32f0d8ff-7e05-41ad-abb4-c88eaeea59ca",
+          "index": 98840893,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:51.616+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=filler-order&patient=101142",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "264c39eb-1027-4d05-a727-4ed235e55d96",
+          "index": 98840894,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:51.629+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=instance-order&patient=101142",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "10d8d925-7866-40b5-82b6-243b8caa14c7",
+          "index": 98840895,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:51.640+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=option&patient=101142",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "a3fadea8-34df-4e16-b1f2-7c44e7d49d77",
+          "index": 98840896,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:51.649+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=proposal&patient=101143",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "f295f2a7-0dc2-45c9-95a2-848807719725",
+          "index": 98840897,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:51.660+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=plan&patient=101143",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "63b88e7a-2c9b-457e-b35a-3c7b8ad65124",
+          "index": 98840898,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:51.671+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=order&patient=101143",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "7906c1a5-8cd3-4fdb-9683-96018526d642",
+          "index": 98840899,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:51.683+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=original-order&patient=101143",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "96a31fd2-4734-4d88-bb73-446823e279ff",
+          "index": 98840900,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:51.697+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=reflex-order&patient=101143",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "d25f8843-e6a0-4aab-87a8-a92fbc7b77bb",
+          "index": 98840901,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:51.707+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=filler-order&patient=101143",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "2108c839-ff3b-4dd5-a8d7-2f902de0315b",
+          "index": 98840903,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:51.721+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=instance-order&patient=101143",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "c9088ac3-28d8-40cc-85f1-67149780ad18",
+          "index": 98840904,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:51.732+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=option&patient=101143",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "839c80c1-20cd-43a3-b69e-8f96045ace4f",
+          "index": 98840905,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:51.771+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=proposal&patient=101144",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "c4a6f56b-3e33-4e39-bc8c-13b3d63b4f94",
+          "index": 98840906,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:51.781+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=plan&patient=101144",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "590ff5ef-1e14-4ffa-8a3e-73d0889b8aad",
+          "index": 98840907,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:51.791+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=order&patient=101144",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "76694935-01d0-4d7e-8e2a-99da92ed5add",
+          "index": 98840908,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:51.802+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=original-order&patient=101144",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "aabbb7e5-d328-4416-af9a-96dd241bc09f",
+          "index": 98840909,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:51.814+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=reflex-order&patient=101144",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "6aa9db25-62dd-410c-9a1e-ce1f17909852",
+          "index": 98840910,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:51.826+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=filler-order&patient=101144",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "f4024897-4efd-42fe-afe8-9c22edb57423",
+          "index": 98840911,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:51.836+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=instance-order&patient=101144",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "f1169de1-9bf8-424d-9dd8-b2a8a0a0cbd2",
+          "index": 98840912,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:51.846+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=option&patient=101144",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "a572f7cc-6f52-49f5-9a24-72adde333ba0",
+          "index": 98840913,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:51.857+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=proposal&patient=101145",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "842bfb20-1712-4f4c-9a67-975872be0e5e",
+          "index": 98840914,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:51.872+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=plan&patient=101145",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "1f997f83-0cb1-4ea1-8a70-2666bc1f1d39",
+          "index": 98840915,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:51.882+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=order&patient=101145",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "3eda9c61-c9b1-47fb-a7f1-de8093fa260c",
+          "index": 98840916,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:51.893+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=original-order&patient=101145",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "5b2b5edf-a568-45b4-ba35-c5bb6d82ed9a",
+          "index": 98840917,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:51.904+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=reflex-order&patient=101145",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "a72a432c-be57-4112-aa23-28936173f26c",
+          "index": 98840918,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:51.920+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=filler-order&patient=101145",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "f6cc1935-f5e4-4776-a27f-fe5160210154",
+          "index": 98840919,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:51.930+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=instance-order&patient=101145",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "5d9d68d0-ddc3-4660-bca3-85bb59bb53d2",
+          "index": 98840920,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:51.939+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=option&patient=101145",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "000de868-28ab-4377-8908-8761b57e1763",
+          "index": 98840921,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:51.950+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=proposal&patient=101146",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "6fcc745a-18db-41fd-b9fe-f1b5ee34c9f0",
+          "index": 98840922,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:51.961+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=plan&patient=101146",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "b87a11f3-98f2-41b0-aea8-738bda106fef",
+          "index": 98840923,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:51.972+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=order&patient=101146",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "0a35c88d-a356-477f-ba9a-37f2ef20c166",
+          "index": 98840924,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:51.982+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=original-order&patient=101146",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "01c1f721-ed3c-40aa-95d0-29b515ffdf0b",
+          "index": 98840925,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:51.994+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=reflex-order&patient=101146",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "6acdb307-62ac-4705-8018-64d3c45c0ed4",
+          "index": 98840926,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:52.005+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=filler-order&patient=101146",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "6f02b3d7-019c-4af2-8cec-18ebaf274a3b",
+          "index": 98840927,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:52.016+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=instance-order&patient=101146",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "e8a774fa-caf1-450e-982c-96efaab92d55",
+          "index": 98840928,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:52.027+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=option&patient=101146",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "dca78170-d99e-4836-a312-6afe38419be5",
+          "index": 98840929,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:52.040+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=proposal&patient=101147",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "df32ec44-46b7-42e0-9d74-ddb2cdd6fc79",
+          "index": 98840930,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:52.052+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=plan&patient=101147",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "ad96beaa-a8ab-4c3c-9313-a971c19c9707",
+          "index": 98840931,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:52.064+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=order&patient=101147",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "12ffdc0d-b77b-47ea-9664-ea91cc0df84c",
+          "index": 98840932,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:52.076+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=original-order&patient=101147",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "75d0dde8-280f-4a31-8fe2-9cb7692ba496",
+          "index": 98840933,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:52.088+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=reflex-order&patient=101147",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "1f9a809f-a4f2-4115-a266-74a397742659",
+          "index": 98840934,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:52.100+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=filler-order&patient=101147",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "74f13a19-9e46-44e6-ba60-dfc459ac3867",
+          "index": 98840935,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:52.109+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=instance-order&patient=101147",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "a611e047-56e0-4365-95e3-db3fce1272c1",
+          "index": 98840936,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:52.120+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=option&patient=101147",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "58d16675-25b8-4bf2-a54f-3955891d4364",
+          "index": 98840937,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:52.130+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=proposal&patient=101148",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "94dcdc31-27ad-47e7-bba0-4989f91136d9",
+          "index": 98840938,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:52.141+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=plan&patient=101148",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "c94ba9fc-1a5c-4a83-a3ff-e611c4c11e0e",
+          "index": 98840939,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:52.151+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=order&patient=101148",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "1f71ee90-943f-4d0c-8036-716a4bf0df13",
+          "index": 98840940,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:52.167+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=original-order&patient=101148",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "51346fb2-fa80-4513-a8d6-0baf325593d3",
+          "index": 98840941,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:52.177+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=reflex-order&patient=101148",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "07f4f72a-e068-42c7-a2fd-01a41672d417",
+          "index": 98840942,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:52.189+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=filler-order&patient=101148",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "3c7017f9-cc16-46e9-b9fa-530727bbfe4c",
+          "index": 98840943,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:52.198+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=instance-order&patient=101148",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "65b7dac5-eb5a-4ac1-b49d-e291736cfeb1",
+          "index": 98840944,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:52.211+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=option&patient=101148",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "00361933-f88c-456f-acda-84c65411b5cd",
+          "index": 98840945,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:52.222+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=proposal&patient=101149",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "c824c615-928c-4be4-905d-a0a5663252c6",
+          "index": 98840946,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:52.232+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=plan&patient=101149",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "9defad87-9416-4bd9-8a46-86962020190b",
+          "index": 98840947,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:52.241+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=order&patient=101149",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "f08ec893-efcf-4264-83ef-c5807fbb19ca",
+          "index": 98840948,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:52.251+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=original-order&patient=101149",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "0f8b7695-dc6f-4c48-9b0e-9d63dc34bc86",
+          "index": 98840949,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:52.263+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=reflex-order&patient=101149",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "6194b21b-1ca6-49b3-a9c3-59732604fe8b",
+          "index": 98840950,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:52.274+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=filler-order&patient=101149",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "188ea1ba-b24a-4d32-bdf8-c66def2a58b4",
+          "index": 98840951,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:52.285+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=instance-order&patient=101149",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "8fa76982-1fd3-4201-b3c4-bec1f5e972bf",
+          "index": 98840952,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:52.295+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=option&patient=101149",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "816184b9-0e26-40b1-92e3-f7d4b4d34872",
+          "index": 98840953,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:52.306+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=proposal&patient=101150",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "02869966-0a3a-47c3-8087-5ec4190db796",
+          "index": 98840954,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:52.317+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=plan&patient=101150",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "fe4f2ccb-a287-46b8-be2f-b63141b2bca3",
+          "index": 98840955,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:52.327+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=order&patient=101150",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "fa256774-77bf-4328-996c-70bc6c1681c0",
+          "index": 98840956,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:52.338+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=original-order&patient=101150",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "21c6a86c-6169-4b69-9716-9a055097113b",
+          "index": 98840957,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:52.347+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=reflex-order&patient=101150",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "a3669936-84d8-41b5-9efa-05d3c727c2aa",
+          "index": 98840958,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:52.358+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=filler-order&patient=101150",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "9bc9df70-6c82-448a-aa1e-ec065ae18bcd",
+          "index": 98840959,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:52.368+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=instance-order&patient=101150",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "6ec8c438-19e5-40f2-974f-d6c15956867f",
+          "index": 98840960,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:52.378+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=option&patient=101150",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "9482375e-32cd-42d8-8692-b1b1cc83c96b",
+          "index": 98840961,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:52.389+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=proposal&patient=101151",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "8610515f-0267-4f8a-a161-fc161152469c",
+          "index": 98840962,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:52.399+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=plan&patient=101151",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "41a961db-c7b7-4b7c-a4df-932c4ea2ecd8",
+          "index": 98840963,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:52.408+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=order&patient=101151",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "647380a7-9992-4f04-8295-f05f1b5ae9ea",
+          "index": 98840964,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:52.419+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=original-order&patient=101151",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "25739ab8-1ec9-4472-b29f-ea6a4daef4cb",
+          "index": 98840965,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:52.431+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=reflex-order&patient=101151",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "80da83fd-4d0b-4ae8-a3e9-4ca3dadeb2a8",
+          "index": 98840966,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:52.441+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=filler-order&patient=101151",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "94072f99-afdd-4c79-a61b-d030d759f0eb",
+          "index": 98840967,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:52.450+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=instance-order&patient=101151",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "aa5bc6b8-65a8-4488-94e5-34db480dcd6b",
+          "index": 98840968,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:52.462+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=option&patient=101151",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "48af0d1b-5f3e-4cfe-806e-60ce0ecb174a",
+          "index": 98840969,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:52.472+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=proposal&patient=101152",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "b321b7eb-b9a9-4a02-b2c3-45d5068fc51e",
+          "index": 98840970,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:52.481+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=plan&patient=101152",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "52b77d44-7479-408c-90a2-bd0abe2febea",
+          "index": 98840971,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:52.491+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=order&patient=101152",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "cca35e1e-6f21-4440-9891-6388c9bf0f8b",
+          "index": 98840972,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:52.502+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=original-order&patient=101152",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "3bb4f963-28de-41d9-966f-4a97eea47435",
+          "index": 98840973,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:52.513+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=reflex-order&patient=101152",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "a6941b57-3621-4f25-9d1e-666eaba46404",
+          "index": 98840974,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:52.523+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=filler-order&patient=101152",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "53c826c1-f3ef-4f98-a762-b2b54651eef1",
+          "index": 98840975,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:52.533+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=instance-order&patient=101152",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "891111e2-58c6-434d-ac2e-fb8278add7b6",
+          "index": 98840976,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:52.543+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=option&patient=101152",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "64b98eb6-5c1f-4d8d-85cc-fb4607658201",
+          "index": 98840977,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:52.556+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=proposal&patient=101153",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "801c62d7-6485-48d2-b53f-c9694c9e79a5",
+          "index": 98840978,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:52.565+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=plan&patient=101153",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "44f2cd29-67ad-4a94-8535-f3ec2b331359",
+          "index": 98840979,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:52.576+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=order&patient=101153",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "2f0ae615-6592-449b-a4fa-53399bd80702",
+          "index": 98840980,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:52.612+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=original-order&patient=101153",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "11c96f28-88e7-4879-9ea4-96a10cd6b367",
+          "index": 98840981,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:52.622+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=reflex-order&patient=101153",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "1ff0e231-3241-4844-9383-27b4012a3b3a",
+          "index": 98840982,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:52.635+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=filler-order&patient=101153",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "f0f8a86e-60c3-4686-bb15-ca499c872019",
+          "index": 98840983,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:52.645+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=instance-order&patient=101153",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "8e61de3c-fdb3-4b1b-bf27-d63326236ff2",
+          "index": 98840984,
+          "result_id": "02b34438-04af-4020-8200-67129115f6f4",
+          "status": 200,
+          "timestamp": "2026-10-12T18:08:52.655+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/MedicationRequest?_revinclude=Provenance:target&do-not-perform=false&intent=option&patient=101153",
+          "verb": "get"
+        }
+      ],
+      "result": "skip",
+      "result_message": "No Provenance resources appear to be available. Please use patients with more information",
+      "test_id": "us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_medicationrequest-us_quality_core_v050_medicationrequest_provenance_revinclude_search_test",
+      "test_run_id": "3c3e9d0d-47ff-4d50-84f8-6cab04ce8704",
+      "test_session_id": "6Z17gCaECl9",
+      "updated_at": "2026-10-12T18:08:50.282+00:00"
+    },
+    {
+      "created_at": "2026-10-12T18:08:52.673+00:00",
+      "id": "1236a635-3213-4272-b31b-d530810adcd3",
+      "inputs": [
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://devfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"name\":\"smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [],
+      "result": "skip",
+      "result_message": "No MedicationRequest resources conforming to the http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-medicationrequest profile were returned",
+      "test_id": "us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_medicationrequest-us_quality_core_v050_medicationrequest_validation_test",
+      "test_run_id": "3c3e9d0d-47ff-4d50-84f8-6cab04ce8704",
+      "test_session_id": "6Z17gCaECl9",
+      "updated_at": "2026-10-12T18:08:52.673+00:00"
+    },
+    {
+      "created_at": "2026-10-12T18:08:52.678+00:00",
+      "id": "59b73f2b-a18c-46b5-af03-c5eed0246b09",
+      "inputs": [
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://devfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"name\":\"smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [],
+      "result": "skip",
+      "result_message": "No MedicationRequest resources were found",
+      "test_id": "us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_medicationrequest-us_quality_core_v050_medicationrequest_must_support_test",
+      "test_run_id": "3c3e9d0d-47ff-4d50-84f8-6cab04ce8704",
+      "test_session_id": "6Z17gCaECl9",
+      "updated_at": "2026-10-12T18:08:52.678+00:00"
+    },
+    {
+      "created_at": "2026-10-12T18:08:52.683+00:00",
+      "id": "dbfe53eb-bfa7-4245-a024-3d72e282272d",
+      "inputs": [
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://devfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"name\":\"smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [],
+      "result": "skip",
+      "result_message": "No MedicationRequest resources appear to be available. Please use patients with more information.",
+      "test_id": "us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_medicationrequest-us_quality_core_v050_medicationrequest_reference_resolution_test",
+      "test_run_id": "3c3e9d0d-47ff-4d50-84f8-6cab04ce8704",
+      "test_session_id": "6Z17gCaECl9",
+      "updated_at": "2026-10-12T18:08:52.683+00:00"
+    },
+    {
+      "created_at": "2026-10-12T18:08:52.686+00:00",
+      "id": "8f6cd230-ee97-4977-bdfd-de54e9e0d1af",
+      "inputs": [
+        {
+          "description": "Comma separated list of patient IDs that in sum contain all MUST SUPPORT elements",
+          "label": "Patient IDs",
+          "name": "patient_ids",
+          "type": "text",
+          "value": "101130,101131,101132,101133,101134,101135,101136,101137,101138,101139,101140,101141,101142,101143,101144,101145,101146,101147,101148,101149,101150,101151,101152,101153"
+        },
+        {
+          "description": "URL of the FHIR endpoint",
+          "label": "FHIR Endpoint",
+          "name": "url",
+          "type": "text",
+          "value": "https://devfhir.vistaplex.org/fhir"
+        },
+        {
+          "description": null,
+          "label": "OAuth Credentials",
+          "name": "smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"name\":\"smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [],
+      "result": "skip",
+      "test_group_id": "us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_medicationrequest",
+      "test_run_id": "3c3e9d0d-47ff-4d50-84f8-6cab04ce8704",
+      "test_session_id": "6Z17gCaECl9",
+      "updated_at": "2026-10-12T18:08:52.686+00:00"
+    }
+  ],
+  "run_id": "3c3e9d0d-47ff-4d50-84f8-6cab04ce8704",
+  "session_id": "6Z17gCaECl9",
+  "session_url": "https://inferno.healthit.gov/suites/us_quality_core_v050/6Z17gCaECl9",
+  "status": {
+    "id": "3c3e9d0d-47ff-4d50-84f8-6cab04ce8704",
+    "inputs": null,
+    "results": null,
+    "status": "done",
+    "test_count": 7,
+    "test_group_id": "us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_medicationrequest",
+    "test_session_id": "6Z17gCaECl9"
+  },
+  "url": "https://devfhir.vistaplex.org/fhir"
+}

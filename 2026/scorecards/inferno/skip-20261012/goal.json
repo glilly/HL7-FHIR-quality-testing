@@ -1,0 +1,751 @@
+{
+  "api": "https://inferno.healthit.gov/suites/api",
+  "patient_ids": "101130,101131,101132,101133,101134,101135,101136,101137,101138,101139,101140,101141,101142,101143,101144,101145,101146,101147,101148,101149,101150,101151,101152,101153",
+  "results": [
+    {
+      "created_at": "2026-10-12T18:09:16.497+00:00",
+      "id": "524b5113-7ccc-41b9-8835-7a0f3ea811b3",
+      "inputs": [
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://devfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"name\":\"smart_auth_info\"}"
+        }
+      ],
+      "messages": [
+        {
+          "message": "Goal/goal-bp: Goal.description: No code provided, and a code should be provided from the value set 'US Core Goal Codes' (http://hl7.org/fhir/us/core/ValueSet/us-core-goal-description|6.1.0)",
+          "type": "warning"
+        },
+        {
+          "message": "Goal/goal-bp: Goal: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)",
+          "type": "warning"
+        },
+        {
+          "message": "Goal/goal-bp: Goal.description: No code provided, and a code should be provided from the value set 'US Core Goal Codes' (http://hl7.org/fhir/us/core/ValueSet/us-core-goal-description|6.1.0)",
+          "type": "warning"
+        },
+        {
+          "message": "Goal/goal-bp: Goal: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)",
+          "type": "warning"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [],
+      "result": "pass",
+      "test_id": "us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_goal-us_quality_core_v050_goal_validation_test",
+      "test_run_id": "b3ba61c0-91f7-47d8-9612-3d1a1fd2fb5a",
+      "test_session_id": "5UtbigBonsY",
+      "updated_at": "2026-10-12T18:09:16.497+00:00"
+    },
+    {
+      "created_at": "2026-10-12T18:09:16.508+00:00",
+      "id": "fe5770a2-21c4-44b5-991b-02c5ed7a0432",
+      "inputs": [
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://devfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"name\":\"smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [],
+      "result": "skip",
+      "result_message": "Could not find startDate, target, target.dueDate in the 2 provided resource(s)",
+      "test_id": "us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_goal-us_quality_core_v050_goal_must_support_test",
+      "test_run_id": "b3ba61c0-91f7-47d8-9612-3d1a1fd2fb5a",
+      "test_session_id": "5UtbigBonsY",
+      "updated_at": "2026-10-12T18:09:16.508+00:00"
+    },
+    {
+      "created_at": "2026-10-12T18:09:16.670+00:00",
+      "id": "caead9f1-f8d6-4bbf-8db7-dabf4cc5aaac",
+      "inputs": [
+        {
+          "description": "Comma separated list of patient IDs that in sum contain all MUST SUPPORT elements",
+          "label": "Patient IDs",
+          "name": "patient_ids",
+          "type": "text",
+          "value": "101130,101131,101132,101133,101134,101135,101136,101137,101138,101139,101140,101141,101142,101143,101144,101145,101146,101147,101148,101149,101150,101151,101152,101153"
+        },
+        {
+          "description": "URL of the FHIR endpoint",
+          "label": "FHIR Endpoint",
+          "name": "url",
+          "type": "text",
+          "value": "https://devfhir.vistaplex.org/fhir"
+        },
+        {
+          "description": null,
+          "label": "OAuth Credentials",
+          "name": "smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"name\":\"smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [],
+      "result": "skip",
+      "test_group_id": "us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_goal",
+      "test_run_id": "b3ba61c0-91f7-47d8-9612-3d1a1fd2fb5a",
+      "test_session_id": "5UtbigBonsY",
+      "updated_at": "2026-10-12T18:09:16.670+00:00"
+    },
+    {
+      "created_at": "2026-10-12T18:09:13.787+00:00",
+      "id": "2a48dbde-02ee-41b3-a449-b60bf513da5e",
+      "inputs": [
+        {
+          "name": "patient_ids",
+          "type": "text",
+          "value": "101130,101131,101132,101133,101134,101135,101136,101137,101138,101139,101140,101141,101142,101143,101144,101145,101146,101147,101148,101149,101150,101151,101152,101153"
+        },
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://devfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"name\":\"smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [
+        {
+          "direction": "outgoing",
+          "id": "f12e75b1-b06f-41b2-aa60-6e9e5cc04bc3",
+          "index": 98841241,
+          "result_id": "2a48dbde-02ee-41b3-a449-b60bf513da5e",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:13.797+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/Goal?patient=101130",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "63b9250c-69d9-402d-ab71-25342b34ebda",
+          "index": 98841242,
+          "result_id": "2a48dbde-02ee-41b3-a449-b60bf513da5e",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:13.814+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/Goal?patient=101131",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "36965a3f-d063-4c00-847d-e4b542a21126",
+          "index": 98841243,
+          "result_id": "2a48dbde-02ee-41b3-a449-b60bf513da5e",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:13.825+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/Goal?patient=101132",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "f5a0183b-500a-4d1d-87b9-c04dea883736",
+          "index": 98841244,
+          "result_id": "2a48dbde-02ee-41b3-a449-b60bf513da5e",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:13.834+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/Goal?patient=101133",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "12b89b33-9df8-4e62-bcc5-598d61f35d12",
+          "index": 98841245,
+          "result_id": "2a48dbde-02ee-41b3-a449-b60bf513da5e",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:13.845+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/Goal?patient=101134",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "ed7eeba0-6733-4f44-b12e-d4a24e4fd844",
+          "index": 98841246,
+          "result_id": "2a48dbde-02ee-41b3-a449-b60bf513da5e",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:13.854+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/Goal?patient=101135",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "897e1724-a4ed-47e0-9561-894daac539e2",
+          "index": 98841247,
+          "result_id": "2a48dbde-02ee-41b3-a449-b60bf513da5e",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:13.865+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/Goal?patient=101136",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "2ec6fa5a-dca6-47c0-b3c1-7204b6f5a0a2",
+          "index": 98841248,
+          "result_id": "2a48dbde-02ee-41b3-a449-b60bf513da5e",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:13.877+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/Goal?patient=101137",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "67b82136-11ee-4743-9c31-7176a535c357",
+          "index": 98841249,
+          "result_id": "2a48dbde-02ee-41b3-a449-b60bf513da5e",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:13.888+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/Goal?patient=101138",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "ed7b3f55-89d3-4b35-98e5-750cc8363bbe",
+          "index": 98841250,
+          "result_id": "2a48dbde-02ee-41b3-a449-b60bf513da5e",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:13.899+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/Goal?patient=101139",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "5605c2e4-08f9-41d3-b731-cd87362dee8f",
+          "index": 98841251,
+          "result_id": "2a48dbde-02ee-41b3-a449-b60bf513da5e",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:13.909+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/Goal?patient=101140",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "d50e4eb2-077b-4861-a65d-34ba2ee63aa6",
+          "index": 98841252,
+          "result_id": "2a48dbde-02ee-41b3-a449-b60bf513da5e",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:13.919+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/Goal?patient=101141",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "a8fb199a-dfe1-4e90-b946-eb23eaf9fb62",
+          "index": 98841253,
+          "result_id": "2a48dbde-02ee-41b3-a449-b60bf513da5e",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:13.931+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/Goal/_search",
+          "verb": "post"
+        },
+        {
+          "direction": "outgoing",
+          "id": "005b1100-dcf6-4c11-88f7-758e09716f4f",
+          "index": 98841254,
+          "result_id": "2a48dbde-02ee-41b3-a449-b60bf513da5e",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:13.948+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/Goal?patient=Patient/101141",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "2933964b-35cc-45b3-b531-1d8a824a6fd2",
+          "index": 98841255,
+          "result_id": "2a48dbde-02ee-41b3-a449-b60bf513da5e",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:13.960+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/Goal?patient=101142",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "c58f68d8-98be-4ba3-9adc-811c9b67467b",
+          "index": 98841256,
+          "result_id": "2a48dbde-02ee-41b3-a449-b60bf513da5e",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:13.974+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/Goal?patient=101143",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "eeafd361-a135-4bbb-adfc-e718a3e52bb9",
+          "index": 98841257,
+          "result_id": "2a48dbde-02ee-41b3-a449-b60bf513da5e",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:13.984+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/Goal?patient=101144",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "577db5b9-cd11-4fb4-b23b-6bb001bd1aae",
+          "index": 98841258,
+          "result_id": "2a48dbde-02ee-41b3-a449-b60bf513da5e",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:13.994+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/Goal?patient=101145",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "cd7d5e17-36c9-4383-a563-3c7ee9491808",
+          "index": 98841259,
+          "result_id": "2a48dbde-02ee-41b3-a449-b60bf513da5e",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:14.005+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/Goal?patient=101146",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "e05e0f41-2368-44df-ab8b-f784b213dc7e",
+          "index": 98841260,
+          "result_id": "2a48dbde-02ee-41b3-a449-b60bf513da5e",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:14.016+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/Goal?patient=101147",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "0720ca52-06e0-4865-980a-dc98efbfb640",
+          "index": 98841261,
+          "result_id": "2a48dbde-02ee-41b3-a449-b60bf513da5e",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:14.027+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/Goal?patient=101148",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "f10e45fc-0774-486c-962c-b38028107400",
+          "index": 98841262,
+          "result_id": "2a48dbde-02ee-41b3-a449-b60bf513da5e",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:14.038+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/Goal?patient=101149",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "4dce0225-d8dc-4de1-aaad-b6c689ef2273",
+          "index": 98841263,
+          "result_id": "2a48dbde-02ee-41b3-a449-b60bf513da5e",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:14.048+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/Goal?patient=101150",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "35f501bc-6bbf-4cbd-b971-79cddeed251a",
+          "index": 98841264,
+          "result_id": "2a48dbde-02ee-41b3-a449-b60bf513da5e",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:14.061+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/Goal?patient=101151",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "80d53a27-3f45-43b9-b543-e368e46c11bd",
+          "index": 98841265,
+          "result_id": "2a48dbde-02ee-41b3-a449-b60bf513da5e",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:14.071+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/Goal?patient=101152",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "8a5e418e-c187-45b3-9bf0-f2a3dda4789c",
+          "index": 98841266,
+          "result_id": "2a48dbde-02ee-41b3-a449-b60bf513da5e",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:14.081+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/Goal?patient=101153",
+          "verb": "get"
+        }
+      ],
+      "result": "pass",
+      "test_id": "us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_goal-us_quality_core_v050_goal_patient_search_test",
+      "test_run_id": "b3ba61c0-91f7-47d8-9612-3d1a1fd2fb5a",
+      "test_session_id": "5UtbigBonsY",
+      "updated_at": "2026-10-12T18:09:13.787+00:00"
+    },
+    {
+      "created_at": "2026-10-12T18:09:14.225+00:00",
+      "id": "2f78d811-1c35-4f69-815d-bef28bf09b9d",
+      "inputs": [
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://devfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"name\":\"smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [
+        {
+          "direction": "outgoing",
+          "id": "28d8a362-5bed-4bec-ace2-b51a033ae2c9",
+          "index": 98841267,
+          "result_id": "2f78d811-1c35-4f69-815d-bef28bf09b9d",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:14.226+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/Goal/goal-bp",
+          "verb": "get"
+        }
+      ],
+      "result": "pass",
+      "test_id": "us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_goal-us_quality_core_v050_goal_read_test",
+      "test_run_id": "b3ba61c0-91f7-47d8-9612-3d1a1fd2fb5a",
+      "test_session_id": "5UtbigBonsY",
+      "updated_at": "2026-10-12T18:09:14.225+00:00"
+    },
+    {
+      "created_at": "2026-10-12T18:09:16.202+00:00",
+      "id": "2ff43efa-43cc-49ff-bfdb-6272c7085750",
+      "inputs": [
+        {
+          "name": "patient_ids",
+          "type": "text",
+          "value": "101130,101131,101132,101133,101134,101135,101136,101137,101138,101139,101140,101141,101142,101143,101144,101145,101146,101147,101148,101149,101150,101151,101152,101153"
+        },
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://devfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"name\":\"smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [
+        {
+          "direction": "outgoing",
+          "id": "823b9350-d8ad-44e1-b92e-461af033c8e0",
+          "index": 98841270,
+          "result_id": "2ff43efa-43cc-49ff-bfdb-6272c7085750",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:16.204+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/Goal?_revinclude=Provenance:target&patient=101130",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "d42ca4aa-047e-4d66-af0e-ef8942d5008e",
+          "index": 98841271,
+          "result_id": "2ff43efa-43cc-49ff-bfdb-6272c7085750",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:16.218+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/Goal?_revinclude=Provenance:target&patient=101131",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "3cc1f918-cc48-4397-92e3-b71e6d245bd0",
+          "index": 98841272,
+          "result_id": "2ff43efa-43cc-49ff-bfdb-6272c7085750",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:16.230+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/Goal?_revinclude=Provenance:target&patient=101132",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "abeaae45-c08f-4195-a9f3-ea120bc18e36",
+          "index": 98841273,
+          "result_id": "2ff43efa-43cc-49ff-bfdb-6272c7085750",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:16.240+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/Goal?_revinclude=Provenance:target&patient=101133",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "070ce304-65c9-41ab-8cba-851976bae43a",
+          "index": 98841274,
+          "result_id": "2ff43efa-43cc-49ff-bfdb-6272c7085750",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:16.251+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/Goal?_revinclude=Provenance:target&patient=101134",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "de85986d-9c42-4a04-9798-3b3b7f1a97fb",
+          "index": 98841275,
+          "result_id": "2ff43efa-43cc-49ff-bfdb-6272c7085750",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:16.261+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/Goal?_revinclude=Provenance:target&patient=101135",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "c589ee92-b315-4717-90c2-87c35aaf8300",
+          "index": 98841276,
+          "result_id": "2ff43efa-43cc-49ff-bfdb-6272c7085750",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:16.272+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/Goal?_revinclude=Provenance:target&patient=101136",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "bd9d909e-a63c-4c86-b613-b8e1f989eb43",
+          "index": 98841277,
+          "result_id": "2ff43efa-43cc-49ff-bfdb-6272c7085750",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:16.282+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/Goal?_revinclude=Provenance:target&patient=101137",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "5510ba1b-fd67-438f-a29b-d7c34e6ba928",
+          "index": 98841278,
+          "result_id": "2ff43efa-43cc-49ff-bfdb-6272c7085750",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:16.291+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/Goal?_revinclude=Provenance:target&patient=101138",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "6110e313-f792-44ad-9012-1eabe4ce16ac",
+          "index": 98841279,
+          "result_id": "2ff43efa-43cc-49ff-bfdb-6272c7085750",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:16.302+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/Goal?_revinclude=Provenance:target&patient=101139",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "9fef587f-6860-43bc-8074-c09ac174bbc2",
+          "index": 98841280,
+          "result_id": "2ff43efa-43cc-49ff-bfdb-6272c7085750",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:16.313+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/Goal?_revinclude=Provenance:target&patient=101140",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "bf1897db-9b41-403e-90e4-391edbf79894",
+          "index": 98841281,
+          "result_id": "2ff43efa-43cc-49ff-bfdb-6272c7085750",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:16.324+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/Goal?_revinclude=Provenance:target&patient=101141",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "eefd00b6-874b-43cb-a269-ff9a174aa282",
+          "index": 98841282,
+          "result_id": "2ff43efa-43cc-49ff-bfdb-6272c7085750",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:16.334+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/Goal?_revinclude=Provenance:target&patient=101142",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "353d7c19-9cd4-484d-8cf7-d463fd6a99c5",
+          "index": 98841283,
+          "result_id": "2ff43efa-43cc-49ff-bfdb-6272c7085750",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:16.342+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/Goal?_revinclude=Provenance:target&patient=101143",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "d932efed-268f-4af6-9985-5acea6f7961b",
+          "index": 98841284,
+          "result_id": "2ff43efa-43cc-49ff-bfdb-6272c7085750",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:16.352+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/Goal?_revinclude=Provenance:target&patient=101144",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "e7718eac-7689-427f-bd40-94596d4733f3",
+          "index": 98841285,
+          "result_id": "2ff43efa-43cc-49ff-bfdb-6272c7085750",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:16.364+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/Goal?_revinclude=Provenance:target&patient=101145",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "f89022e7-293b-4c6e-b46d-4d055c68f2e6",
+          "index": 98841286,
+          "result_id": "2ff43efa-43cc-49ff-bfdb-6272c7085750",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:16.376+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/Goal?_revinclude=Provenance:target&patient=101146",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "0f5ea657-4b3b-4f35-a7ee-911dfef12a29",
+          "index": 98841287,
+          "result_id": "2ff43efa-43cc-49ff-bfdb-6272c7085750",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:16.386+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/Goal?_revinclude=Provenance:target&patient=101147",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "ff720d2d-7c5d-4ba8-a302-ee2acb7555a4",
+          "index": 98841288,
+          "result_id": "2ff43efa-43cc-49ff-bfdb-6272c7085750",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:16.396+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/Goal?_revinclude=Provenance:target&patient=101148",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "e8295b4a-1d37-4d7b-aed4-ca9d0e85a27d",
+          "index": 98841289,
+          "result_id": "2ff43efa-43cc-49ff-bfdb-6272c7085750",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:16.406+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/Goal?_revinclude=Provenance:target&patient=101149",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "0025f2c7-73ba-4da0-8506-57a9ee2dd5e2",
+          "index": 98841290,
+          "result_id": "2ff43efa-43cc-49ff-bfdb-6272c7085750",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:16.415+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/Goal?_revinclude=Provenance:target&patient=101150",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "bcc0c463-73ab-4911-932d-2b81d8201596",
+          "index": 98841291,
+          "result_id": "2ff43efa-43cc-49ff-bfdb-6272c7085750",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:16.424+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/Goal?_revinclude=Provenance:target&patient=101151",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "dda32a58-1128-4dbd-8c2b-82d315be4e90",
+          "index": 98841292,
+          "result_id": "2ff43efa-43cc-49ff-bfdb-6272c7085750",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:16.435+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/Goal?_revinclude=Provenance:target&patient=101152",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "3c5eece5-6c27-4999-8138-6d886efb7b76",
+          "index": 98841293,
+          "result_id": "2ff43efa-43cc-49ff-bfdb-6272c7085750",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:16.446+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/Goal?_revinclude=Provenance:target&patient=101153",
+          "verb": "get"
+        }
+      ],
+      "result": "pass",
+      "test_id": "us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_goal-us_quality_core_v050_goal_provenance_revinclude_search_test",
+      "test_run_id": "b3ba61c0-91f7-47d8-9612-3d1a1fd2fb5a",
+      "test_session_id": "5UtbigBonsY",
+      "updated_at": "2026-10-12T18:09:16.202+00:00"
+    },
+    {
+      "created_at": "2026-10-12T18:09:16.653+00:00",
+      "id": "9dc66d66-1a04-446b-b0e8-2540c7c25cca",
+      "inputs": [
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://devfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"name\":\"smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [
+        {
+          "direction": "outgoing",
+          "id": "c356231e-ea1f-43a9-bc8d-5ffb92e2f006",
+          "index": 98841294,
+          "result_id": "9dc66d66-1a04-446b-b0e8-2540c7c25cca",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:16.655+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/Patient/101141",
+          "verb": "get"
+        }
+      ],
+      "result": "pass",
+      "test_id": "us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_goal-us_quality_core_v050_goal_reference_resolution_test",
+      "test_run_id": "b3ba61c0-91f7-47d8-9612-3d1a1fd2fb5a",
+      "test_session_id": "5UtbigBonsY",
+      "updated_at": "2026-10-12T18:09:16.653+00:00"
+    }
+  ],
+  "run_id": "b3ba61c0-91f7-47d8-9612-3d1a1fd2fb5a",
+  "session_id": "5UtbigBonsY",
+  "session_url": "https://inferno.healthit.gov/suites/us_quality_core_v050/5UtbigBonsY",
+  "status": {
+    "id": "b3ba61c0-91f7-47d8-9612-3d1a1fd2fb5a",
+    "inputs": null,
+    "results": null,
+    "status": "done",
+    "test_count": 6,
+    "test_group_id": "us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_goal",
+    "test_session_id": "5UtbigBonsY"
+  },
+  "url": "https://devfhir.vistaplex.org/fhir"
+}

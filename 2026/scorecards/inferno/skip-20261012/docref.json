@@ -1,0 +1,2077 @@
+{
+  "api": "https://inferno.healthit.gov/suites/api",
+  "patient_ids": "101130,101131,101132,101133,101134,101135,101136,101137,101138,101139,101140,101141,101142,101143,101144,101145,101146,101147,101148,101149,101150,101151,101152,101153",
+  "results": [
+    {
+      "created_at": "2026-10-12T18:09:31.650+00:00",
+      "id": "3a1c9e87-1871-40fd-a11c-c1341dc9fb35",
+      "inputs": [
+        {
+          "name": "patient_ids",
+          "type": "text",
+          "value": "101130,101131,101132,101133,101134,101135,101136,101137,101138,101139,101140,101141,101142,101143,101144,101145,101146,101147,101148,101149,101150,101151,101152,101153"
+        },
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://devfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"name\":\"smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [
+        {
+          "direction": "outgoing",
+          "id": "6f0c7baa-2ee1-4034-85a0-ca73c136d59e",
+          "index": 98841410,
+          "result_id": "3a1c9e87-1871-40fd-a11c-c1341dc9fb35",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:31.653+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?category=clinical-note&patient=101130",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "3151e5f6-360b-4801-883f-be83826eeb7d",
+          "index": 98841412,
+          "result_id": "3a1c9e87-1871-40fd-a11c-c1341dc9fb35",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:31.668+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?category=http://hl7.org/fhir/us/core/CodeSystem/us-core-documentreference-category%7Cclinical-note&patient=101130",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "c314ea90-c458-43e8-b47a-f1d39c43d58d",
+          "index": 98841414,
+          "result_id": "3a1c9e87-1871-40fd-a11c-c1341dc9fb35",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:31.681+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?category=clinical-note&patient=101131",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "f04b3024-7d5b-4bb8-911b-021b741cd408",
+          "index": 98841416,
+          "result_id": "3a1c9e87-1871-40fd-a11c-c1341dc9fb35",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:31.693+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?category=clinical-note&patient=101132",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "db3095ac-fbc7-4d00-a5df-c5dccf5f699c",
+          "index": 98841418,
+          "result_id": "3a1c9e87-1871-40fd-a11c-c1341dc9fb35",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:31.707+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?category=clinical-note&patient=101133",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "59aa1033-274c-4598-9ad6-6ae1048e957a",
+          "index": 98841420,
+          "result_id": "3a1c9e87-1871-40fd-a11c-c1341dc9fb35",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:31.718+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?category=clinical-note&patient=101134",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "f3d6163d-a203-4cdf-bc4c-2fd5ef49eed8",
+          "index": 98841422,
+          "result_id": "3a1c9e87-1871-40fd-a11c-c1341dc9fb35",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:31.728+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?category=clinical-note&patient=101135",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "9afb306f-e9dc-4298-aa54-29648467a19b",
+          "index": 98841424,
+          "result_id": "3a1c9e87-1871-40fd-a11c-c1341dc9fb35",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:31.738+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?category=clinical-note&patient=101136",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "cdd5ed58-a830-4ad7-b3c1-ef7de65e521e",
+          "index": 98841426,
+          "result_id": "3a1c9e87-1871-40fd-a11c-c1341dc9fb35",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:31.749+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?category=clinical-note&patient=101137",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "1ed80fc0-5840-4d58-9ea4-1366dc3346c6",
+          "index": 98841428,
+          "result_id": "3a1c9e87-1871-40fd-a11c-c1341dc9fb35",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:31.760+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?category=clinical-note&patient=101138",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "c027ab9b-1841-48a9-abe5-d9752beb13f0",
+          "index": 98841430,
+          "result_id": "3a1c9e87-1871-40fd-a11c-c1341dc9fb35",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:31.774+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?category=clinical-note&patient=101139",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "5363707d-bb4a-4e68-89d9-e29b78ec9647",
+          "index": 98841432,
+          "result_id": "3a1c9e87-1871-40fd-a11c-c1341dc9fb35",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:31.787+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?category=clinical-note&patient=101140",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "f30f904b-f46d-42c2-ae85-4557746d634e",
+          "index": 98841434,
+          "result_id": "3a1c9e87-1871-40fd-a11c-c1341dc9fb35",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:31.799+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?category=clinical-note&patient=101141",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "95f95176-7b9c-4b51-85b0-eb55cfe5f15d",
+          "index": 98841436,
+          "result_id": "3a1c9e87-1871-40fd-a11c-c1341dc9fb35",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:31.810+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?category=clinical-note&patient=101142",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "82741263-daa5-4a5d-b411-037814ddd2d5",
+          "index": 98841438,
+          "result_id": "3a1c9e87-1871-40fd-a11c-c1341dc9fb35",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:31.823+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?category=clinical-note&patient=101143",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "3ff97316-7e46-46a6-ab7a-7ab6825c1cf2",
+          "index": 98841440,
+          "result_id": "3a1c9e87-1871-40fd-a11c-c1341dc9fb35",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:31.833+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?category=clinical-note&patient=101144",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "c6cd0717-8e30-42cb-be6e-2f3aa5d9f916",
+          "index": 98841442,
+          "result_id": "3a1c9e87-1871-40fd-a11c-c1341dc9fb35",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:31.845+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?category=clinical-note&patient=101145",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "f33d73bf-63a8-4ebb-92ba-5f73ec9e7838",
+          "index": 98841444,
+          "result_id": "3a1c9e87-1871-40fd-a11c-c1341dc9fb35",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:31.858+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?category=clinical-note&patient=101146",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "481448a7-1635-41d8-b972-fc86dfd77568",
+          "index": 98841446,
+          "result_id": "3a1c9e87-1871-40fd-a11c-c1341dc9fb35",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:31.872+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?category=clinical-note&patient=101147",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "0ce6ac24-3da1-4411-8d4d-a136e03c4caa",
+          "index": 98841449,
+          "result_id": "3a1c9e87-1871-40fd-a11c-c1341dc9fb35",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:31.885+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?category=clinical-note&patient=101148",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "abb63573-41f6-404f-a179-5195fa4cb7c6",
+          "index": 98841451,
+          "result_id": "3a1c9e87-1871-40fd-a11c-c1341dc9fb35",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:31.897+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?category=clinical-note&patient=101149",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "aa56081a-3c2d-4fb9-b9e0-65550480f288",
+          "index": 98841453,
+          "result_id": "3a1c9e87-1871-40fd-a11c-c1341dc9fb35",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:31.909+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?category=clinical-note&patient=101150",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "50791d6b-84f1-44ce-a46a-5520308af463",
+          "index": 98841455,
+          "result_id": "3a1c9e87-1871-40fd-a11c-c1341dc9fb35",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:31.920+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?category=clinical-note&patient=101151",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "9ed4d9d4-fed3-4ec3-9ad2-9b89a63873bc",
+          "index": 98841456,
+          "result_id": "3a1c9e87-1871-40fd-a11c-c1341dc9fb35",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:31.931+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?category=clinical-note&patient=101152",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "ebe44e2b-7d79-427e-8501-fb676f38ea5b",
+          "index": 98841457,
+          "result_id": "3a1c9e87-1871-40fd-a11c-c1341dc9fb35",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:31.944+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?category=clinical-note&patient=101153",
+          "verb": "get"
+        }
+      ],
+      "result": "pass",
+      "test_id": "us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_document_reference-us_quality_core_v050_document_reference_patient_category_search_test",
+      "test_run_id": "d02f4ed9-0f39-4382-ac80-4412889e4ee4",
+      "test_session_id": "jRJJqiEzqoe",
+      "updated_at": "2026-10-12T18:09:31.650+00:00"
+    },
+    {
+      "created_at": "2026-10-12T18:09:34.617+00:00",
+      "id": "ca37b87b-e9d3-46f5-a51c-a00d395fea8d",
+      "inputs": [
+        {
+          "name": "patient_ids",
+          "type": "text",
+          "value": "101130,101131,101132,101133,101134,101135,101136,101137,101138,101139,101140,101141,101142,101143,101144,101145,101146,101147,101148,101149,101150,101151,101152,101153"
+        },
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://devfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"name\":\"smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [
+        {
+          "direction": "outgoing",
+          "id": "3630bf02-0a1e-4e86-b32e-c8b4f2b97cc1",
+          "index": 98841458,
+          "result_id": "ca37b87b-e9d3-46f5-a51c-a00d395fea8d",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:34.620+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?category=clinical-note&date=2021-10-12T14:00:00Z&patient=101130",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "bf02f6ae-c01c-4d43-8c02-9e4523480c18",
+          "index": 98841459,
+          "result_id": "ca37b87b-e9d3-46f5-a51c-a00d395fea8d",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:34.634+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?category=clinical-note&date=gt2021-10-11T14:00:00%2B00:00&patient=101130",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "b50b2e34-08f1-46e4-8b8c-62e687eee42d",
+          "index": 98841460,
+          "result_id": "ca37b87b-e9d3-46f5-a51c-a00d395fea8d",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:34.648+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?category=clinical-note&date=ge2021-10-11T14:00:00%2B00:00&patient=101130",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "29bd30b1-65a9-4b77-957a-291a413fa47b",
+          "index": 98841461,
+          "result_id": "ca37b87b-e9d3-46f5-a51c-a00d395fea8d",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:34.659+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?category=clinical-note&date=lt2021-10-13T14:00:00%2B00:00&patient=101130",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "e12999ca-01ae-4330-abf0-15fed461eb0e",
+          "index": 98841462,
+          "result_id": "ca37b87b-e9d3-46f5-a51c-a00d395fea8d",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:34.671+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?category=clinical-note&date=le2021-10-13T14:00:00%2B00:00&patient=101130",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "f161c0d9-9acb-4309-9913-8742e2cd027f",
+          "index": 98841463,
+          "result_id": "ca37b87b-e9d3-46f5-a51c-a00d395fea8d",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:34.683+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?category=http://hl7.org/fhir/us/core/CodeSystem/us-core-documentreference-category%7Cclinical-note&date=2021-10-12T14:00:00Z&patient=101130",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "4395167c-b5b1-4c24-95c9-c8c259b0cf92",
+          "index": 98841464,
+          "result_id": "ca37b87b-e9d3-46f5-a51c-a00d395fea8d",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:34.696+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?category=clinical-note&date=2021-10-12T14:00:00Z&patient=101131",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "379c33bc-27f6-4c03-8192-055b00d1df41",
+          "index": 98841465,
+          "result_id": "ca37b87b-e9d3-46f5-a51c-a00d395fea8d",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:34.708+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?category=clinical-note&date=2021-10-12T14:00:00Z&patient=101132",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "16270250-d631-48d7-af22-abb313702a77",
+          "index": 98841466,
+          "result_id": "ca37b87b-e9d3-46f5-a51c-a00d395fea8d",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:34.719+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?category=clinical-note&date=2021-10-12T14:00:00Z&patient=101133",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "005753c7-631d-4838-9546-6dc93a398182",
+          "index": 98841467,
+          "result_id": "ca37b87b-e9d3-46f5-a51c-a00d395fea8d",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:34.731+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?category=clinical-note&date=2021-10-12T14:00:00Z&patient=101134",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "7591e858-09e4-4b21-8167-47a3a2bc57a8",
+          "index": 98841468,
+          "result_id": "ca37b87b-e9d3-46f5-a51c-a00d395fea8d",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:34.741+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?category=clinical-note&date=2021-10-12T14:00:00Z&patient=101135",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "1b42b2e9-9b93-420d-8ec3-5b1090be6918",
+          "index": 98841469,
+          "result_id": "ca37b87b-e9d3-46f5-a51c-a00d395fea8d",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:34.752+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?category=clinical-note&date=2021-10-12T14:00:00Z&patient=101136",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "1439e997-a585-45de-9577-599af7eec802",
+          "index": 98841470,
+          "result_id": "ca37b87b-e9d3-46f5-a51c-a00d395fea8d",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:34.764+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?category=clinical-note&date=2021-10-12T14:00:00Z&patient=101137",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "92c15425-e6f1-4ad5-85d9-fabf83ccc2b5",
+          "index": 98841471,
+          "result_id": "ca37b87b-e9d3-46f5-a51c-a00d395fea8d",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:34.778+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?category=clinical-note&date=2021-10-12T14:00:00Z&patient=101138",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "e0e47f14-2808-4c84-948d-4c7249483f37",
+          "index": 98841472,
+          "result_id": "ca37b87b-e9d3-46f5-a51c-a00d395fea8d",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:34.789+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?category=clinical-note&date=2021-10-12T14:00:00Z&patient=101139",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "c4338bec-9d30-4974-ba67-294bad1b78f1",
+          "index": 98841473,
+          "result_id": "ca37b87b-e9d3-46f5-a51c-a00d395fea8d",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:34.803+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?category=clinical-note&date=2021-10-12T14:00:00Z&patient=101140",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "a7103204-3695-4e34-a6b6-f7af068183f3",
+          "index": 98841474,
+          "result_id": "ca37b87b-e9d3-46f5-a51c-a00d395fea8d",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:34.815+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?category=clinical-note&date=2021-10-12T14:00:00Z&patient=101141",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "0b3d81ab-10e3-491d-8a6e-75009eb07329",
+          "index": 98841475,
+          "result_id": "ca37b87b-e9d3-46f5-a51c-a00d395fea8d",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:34.826+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?category=clinical-note&date=2021-10-12T14:00:00Z&patient=101142",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "5122988f-4fa3-4a97-889a-8e5a4658b884",
+          "index": 98841476,
+          "result_id": "ca37b87b-e9d3-46f5-a51c-a00d395fea8d",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:34.836+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?category=clinical-note&date=2021-10-12T14:00:00Z&patient=101143",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "b06b8c53-358c-4fa8-8280-98630c96d625",
+          "index": 98841477,
+          "result_id": "ca37b87b-e9d3-46f5-a51c-a00d395fea8d",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:34.845+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?category=clinical-note&date=2021-10-12T14:00:00Z&patient=101144",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "c9c2c797-df91-4de3-b33d-554781612b70",
+          "index": 98841478,
+          "result_id": "ca37b87b-e9d3-46f5-a51c-a00d395fea8d",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:34.856+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?category=clinical-note&date=2021-10-12T14:00:00Z&patient=101145",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "69150114-d8b5-4307-b0a3-21dfc003dd07",
+          "index": 98841479,
+          "result_id": "ca37b87b-e9d3-46f5-a51c-a00d395fea8d",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:34.867+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?category=clinical-note&date=2021-10-12T14:00:00Z&patient=101146",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "ed2db606-ccb6-47f1-9381-2596998f9aed",
+          "index": 98841480,
+          "result_id": "ca37b87b-e9d3-46f5-a51c-a00d395fea8d",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:34.878+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?category=clinical-note&date=2021-10-12T14:00:00Z&patient=101147",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "d99c8593-0b83-42ce-9e6c-4d54308b592b",
+          "index": 98841481,
+          "result_id": "ca37b87b-e9d3-46f5-a51c-a00d395fea8d",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:34.889+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?category=clinical-note&date=2021-10-12T14:00:00Z&patient=101148",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "bb39dc31-9e13-4585-b1cb-b1ff48f89a80",
+          "index": 98841482,
+          "result_id": "ca37b87b-e9d3-46f5-a51c-a00d395fea8d",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:34.902+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?category=clinical-note&date=2021-10-12T14:00:00Z&patient=101149",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "a51523aa-cb3c-447b-969f-2a817a34d50b",
+          "index": 98841483,
+          "result_id": "ca37b87b-e9d3-46f5-a51c-a00d395fea8d",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:34.911+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?category=clinical-note&date=2021-10-12T14:00:00Z&patient=101150",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "b5ce55e8-a166-40b2-9bc7-6168ebd59d54",
+          "index": 98841484,
+          "result_id": "ca37b87b-e9d3-46f5-a51c-a00d395fea8d",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:34.923+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?category=clinical-note&date=2021-10-12T14:00:00Z&patient=101151",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "22521c14-9cb3-41e5-a210-a601ed3248b2",
+          "index": 98841485,
+          "result_id": "ca37b87b-e9d3-46f5-a51c-a00d395fea8d",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:34.933+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?category=clinical-note&date=2021-10-12T14:00:00Z&patient=101152",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "047bc98b-e017-4fa7-80cd-0c4977c81475",
+          "index": 98841486,
+          "result_id": "ca37b87b-e9d3-46f5-a51c-a00d395fea8d",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:34.945+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?category=clinical-note&date=2021-10-12T14:00:00Z&patient=101153",
+          "verb": "get"
+        }
+      ],
+      "result": "pass",
+      "test_id": "us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_document_reference-us_quality_core_v050_document_reference_patient_category_date_search_test",
+      "test_run_id": "d02f4ed9-0f39-4382-ac80-4412889e4ee4",
+      "test_session_id": "jRJJqiEzqoe",
+      "updated_at": "2026-10-12T18:09:34.617+00:00"
+    },
+    {
+      "created_at": "2026-10-12T18:09:39.771+00:00",
+      "id": "db52d5ce-abe5-4e5f-8ab2-d0f5fb602650",
+      "inputs": [
+        {
+          "description": "Comma separated list of patient IDs that in sum contain all MUST SUPPORT elements",
+          "label": "Patient IDs",
+          "name": "patient_ids",
+          "type": "text",
+          "value": "101130,101131,101132,101133,101134,101135,101136,101137,101138,101139,101140,101141,101142,101143,101144,101145,101146,101147,101148,101149,101150,101151,101152,101153"
+        },
+        {
+          "description": "URL of the FHIR endpoint",
+          "label": "FHIR Endpoint",
+          "name": "url",
+          "type": "text",
+          "value": "https://devfhir.vistaplex.org/fhir"
+        },
+        {
+          "description": null,
+          "label": "OAuth Credentials",
+          "name": "smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"name\":\"smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [],
+      "result": "pass",
+      "test_group_id": "us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_document_reference",
+      "test_run_id": "d02f4ed9-0f39-4382-ac80-4412889e4ee4",
+      "test_session_id": "jRJJqiEzqoe",
+      "updated_at": "2026-10-12T18:09:39.771+00:00"
+    },
+    {
+      "created_at": "2026-10-12T18:09:25.030+00:00",
+      "id": "37fa94b7-e8fb-40cf-a735-92614e99e3c6",
+      "inputs": [
+        {
+          "name": "patient_ids",
+          "type": "text",
+          "value": "101130,101131,101132,101133,101134,101135,101136,101137,101138,101139,101140,101141,101142,101143,101144,101145,101146,101147,101148,101149,101150,101151,101152,101153"
+        },
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://devfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"name\":\"smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [
+        {
+          "direction": "outgoing",
+          "id": "202cfb48-af64-48fb-be9a-ada570c51745",
+          "index": 98841301,
+          "result_id": "37fa94b7-e8fb-40cf-a735-92614e99e3c6",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:25.040+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?patient=101130",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "11c7f609-bad0-4405-bc52-d8a18d27fef7",
+          "index": 98841302,
+          "result_id": "37fa94b7-e8fb-40cf-a735-92614e99e3c6",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:25.061+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference/_search",
+          "verb": "post"
+        },
+        {
+          "direction": "outgoing",
+          "id": "6f6ed9ce-556a-4ecc-958c-1fd0ca503bc7",
+          "index": 98841303,
+          "result_id": "37fa94b7-e8fb-40cf-a735-92614e99e3c6",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:25.071+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?patient=Patient/101130",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "2af8390c-7b03-4d17-9148-852c6bba195b",
+          "index": 98841304,
+          "result_id": "37fa94b7-e8fb-40cf-a735-92614e99e3c6",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:25.084+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?patient=101131",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "4b838550-5048-4855-88c3-91d398bcd470",
+          "index": 98841305,
+          "result_id": "37fa94b7-e8fb-40cf-a735-92614e99e3c6",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:25.115+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?patient=101132",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "2b8bffb0-a2f1-483b-808c-e0a6f72b9f83",
+          "index": 98841306,
+          "result_id": "37fa94b7-e8fb-40cf-a735-92614e99e3c6",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:25.131+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?patient=101133",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "7d5600bc-c2c4-439c-8994-00044dd19b86",
+          "index": 98841307,
+          "result_id": "37fa94b7-e8fb-40cf-a735-92614e99e3c6",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:25.142+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?patient=101134",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "03322c0c-ecbf-4405-abf5-f8348d5ea369",
+          "index": 98841308,
+          "result_id": "37fa94b7-e8fb-40cf-a735-92614e99e3c6",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:25.152+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?patient=101135",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "8527dbc8-91ce-46c1-81a8-ec66e4de4194",
+          "index": 98841309,
+          "result_id": "37fa94b7-e8fb-40cf-a735-92614e99e3c6",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:25.163+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?patient=101136",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "9d455a15-b082-4b05-a5be-e2aac5d3bbee",
+          "index": 98841310,
+          "result_id": "37fa94b7-e8fb-40cf-a735-92614e99e3c6",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:25.196+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?patient=101137",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "57bd046e-ac96-4b1e-93cb-f8810bf48f66",
+          "index": 98841311,
+          "result_id": "37fa94b7-e8fb-40cf-a735-92614e99e3c6",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:25.206+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?patient=101138",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "fc7c3db2-6661-435f-8098-bdc314861cd1",
+          "index": 98841312,
+          "result_id": "37fa94b7-e8fb-40cf-a735-92614e99e3c6",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:25.222+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?patient=101139",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "feb31574-1d78-4e55-9e8f-8e8702f33330",
+          "index": 98841313,
+          "result_id": "37fa94b7-e8fb-40cf-a735-92614e99e3c6",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:25.232+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?patient=101140",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "04e6193a-1fcc-4b3b-959d-e3d7aca89c76",
+          "index": 98841314,
+          "result_id": "37fa94b7-e8fb-40cf-a735-92614e99e3c6",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:25.243+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?patient=101141",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "f58e02f1-4f67-4bf0-9a0a-8c54338d66d1",
+          "index": 98841315,
+          "result_id": "37fa94b7-e8fb-40cf-a735-92614e99e3c6",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:25.273+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?patient=101142",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "5bcd6351-ec7e-4cbe-ac30-37cafe2947c9",
+          "index": 98841316,
+          "result_id": "37fa94b7-e8fb-40cf-a735-92614e99e3c6",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:25.284+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?patient=101143",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "9a7c5d4a-014b-4472-ac99-f2d06bcea648",
+          "index": 98841317,
+          "result_id": "37fa94b7-e8fb-40cf-a735-92614e99e3c6",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:25.299+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?patient=101144",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "1515199c-345f-4bb6-ab4c-5ece88d6e5e9",
+          "index": 98841318,
+          "result_id": "37fa94b7-e8fb-40cf-a735-92614e99e3c6",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:25.309+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?patient=101145",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "6e8d27d8-6425-4e13-ada7-f0b10896c8dd",
+          "index": 98841319,
+          "result_id": "37fa94b7-e8fb-40cf-a735-92614e99e3c6",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:25.322+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?patient=101146",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "9f9d2c42-ce80-4f88-b31e-dd90976d6f83",
+          "index": 98841320,
+          "result_id": "37fa94b7-e8fb-40cf-a735-92614e99e3c6",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:25.353+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?patient=101147",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "3fd38b61-abd1-4b12-8370-12eb5dfdbd12",
+          "index": 98841321,
+          "result_id": "37fa94b7-e8fb-40cf-a735-92614e99e3c6",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:25.362+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?patient=101148",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "aa588ec6-d041-4f05-9ab3-d4f83ff9b4f3",
+          "index": 98841322,
+          "result_id": "37fa94b7-e8fb-40cf-a735-92614e99e3c6",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:25.376+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?patient=101149",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "b66b2821-93de-4cd4-9797-41d811364dff",
+          "index": 98841323,
+          "result_id": "37fa94b7-e8fb-40cf-a735-92614e99e3c6",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:25.387+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?patient=101150",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "212db9c4-0326-4f1f-b083-f5adbfe68077",
+          "index": 98841324,
+          "result_id": "37fa94b7-e8fb-40cf-a735-92614e99e3c6",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:25.397+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?patient=101151",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "bb589f71-76d5-4413-b527-32f68e206958",
+          "index": 98841325,
+          "result_id": "37fa94b7-e8fb-40cf-a735-92614e99e3c6",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:25.408+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?patient=101152",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "b19c3294-c1f9-4c85-a200-7d693c36c90e",
+          "index": 98841326,
+          "result_id": "37fa94b7-e8fb-40cf-a735-92614e99e3c6",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:25.418+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?patient=101153",
+          "verb": "get"
+        }
+      ],
+      "result": "pass",
+      "test_id": "us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_document_reference-us_quality_core_v050_document_reference_patient_search_test",
+      "test_run_id": "d02f4ed9-0f39-4382-ac80-4412889e4ee4",
+      "test_session_id": "jRJJqiEzqoe",
+      "updated_at": "2026-10-12T18:09:25.030+00:00"
+    },
+    {
+      "created_at": "2026-10-12T18:09:25.567+00:00",
+      "id": "f5a27891-b739-44f1-9c78-fe87383a2b27",
+      "inputs": [
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://devfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"name\":\"smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [
+        {
+          "direction": "outgoing",
+          "id": "69479529-b1f2-47fe-a9e4-31da9ee87a0a",
+          "index": 98841339,
+          "result_id": "f5a27891-b739-44f1-9c78-fe87383a2b27",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:25.569+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?_id=D19339",
+          "verb": "get"
+        }
+      ],
+      "result": "pass",
+      "test_id": "us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_document_reference-us_quality_core_v050_document_reference__id_search_test",
+      "test_run_id": "d02f4ed9-0f39-4382-ac80-4412889e4ee4",
+      "test_session_id": "jRJJqiEzqoe",
+      "updated_at": "2026-10-12T18:09:25.567+00:00"
+    },
+    {
+      "created_at": "2026-10-12T18:09:28.395+00:00",
+      "id": "ab27826e-4cce-4bf6-9eea-2dab7b6a1a3b",
+      "inputs": [
+        {
+          "name": "patient_ids",
+          "type": "text",
+          "value": "101130,101131,101132,101133,101134,101135,101136,101137,101138,101139,101140,101141,101142,101143,101144,101145,101146,101147,101148,101149,101150,101151,101152,101153"
+        },
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://devfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"name\":\"smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [
+        {
+          "direction": "outgoing",
+          "id": "42acb6f4-f1f7-4b9b-906e-e6bba0681cf9",
+          "index": 98841354,
+          "result_id": "ab27826e-4cce-4bf6-9eea-2dab7b6a1a3b",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:28.397+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?patient=101130&type=11506-3",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "5cf9f863-25a2-410c-8cb3-8d5271acccb2",
+          "index": 98841356,
+          "result_id": "ab27826e-4cce-4bf6-9eea-2dab7b6a1a3b",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:28.421+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?patient=101130&type=http://loinc.org%7C11506-3",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "17ebd790-6583-45a4-b4c4-2bd50cdcb971",
+          "index": 98841357,
+          "result_id": "ab27826e-4cce-4bf6-9eea-2dab7b6a1a3b",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:28.435+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?patient=101131&type=11506-3",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "73100cf9-6f90-4ca9-901c-6e507d26d149",
+          "index": 98841358,
+          "result_id": "ab27826e-4cce-4bf6-9eea-2dab7b6a1a3b",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:28.447+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?patient=101132&type=11506-3",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "c71dc3df-5c4c-4344-ba5f-a022258e17bf",
+          "index": 98841360,
+          "result_id": "ab27826e-4cce-4bf6-9eea-2dab7b6a1a3b",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:28.462+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?patient=101133&type=11506-3",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "aa7653c4-8d0f-4abc-86c9-44843cbcb65c",
+          "index": 98841362,
+          "result_id": "ab27826e-4cce-4bf6-9eea-2dab7b6a1a3b",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:28.476+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?patient=101134&type=11506-3",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "9bc0603f-d74f-47a9-b549-7a62ba11f9aa",
+          "index": 98841364,
+          "result_id": "ab27826e-4cce-4bf6-9eea-2dab7b6a1a3b",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:28.488+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?patient=101135&type=11506-3",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "b23762df-404e-42c0-8b42-bfb8dbc27673",
+          "index": 98841366,
+          "result_id": "ab27826e-4cce-4bf6-9eea-2dab7b6a1a3b",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:28.500+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?patient=101136&type=11506-3",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "449d6b0e-ae8c-4d54-a52d-8f612c620dac",
+          "index": 98841368,
+          "result_id": "ab27826e-4cce-4bf6-9eea-2dab7b6a1a3b",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:28.513+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?patient=101137&type=11506-3",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "7de4cdb9-ba4c-4bc9-be3d-532d861d60de",
+          "index": 98841370,
+          "result_id": "ab27826e-4cce-4bf6-9eea-2dab7b6a1a3b",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:28.523+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?patient=101138&type=11506-3",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "0fb7848e-2513-4e4f-a478-d4d299998a54",
+          "index": 98841372,
+          "result_id": "ab27826e-4cce-4bf6-9eea-2dab7b6a1a3b",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:28.534+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?patient=101139&type=11506-3",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "e986bbd8-cff5-4e0a-a53a-4347bb172803",
+          "index": 98841374,
+          "result_id": "ab27826e-4cce-4bf6-9eea-2dab7b6a1a3b",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:28.547+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?patient=101140&type=11506-3",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "10f69c00-3079-4f47-b4b7-d6c380b21734",
+          "index": 98841376,
+          "result_id": "ab27826e-4cce-4bf6-9eea-2dab7b6a1a3b",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:28.562+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?patient=101141&type=11506-3",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "cfb74559-128f-41db-ba63-aaf1d4cee50b",
+          "index": 98841379,
+          "result_id": "ab27826e-4cce-4bf6-9eea-2dab7b6a1a3b",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:28.578+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?patient=101142&type=11506-3",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "d0f4c79c-8f35-4eb1-afc3-e7cf6635a522",
+          "index": 98841380,
+          "result_id": "ab27826e-4cce-4bf6-9eea-2dab7b6a1a3b",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:28.589+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?patient=101143&type=11506-3",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "3702a386-9ab9-46c9-a109-78eef331103e",
+          "index": 98841382,
+          "result_id": "ab27826e-4cce-4bf6-9eea-2dab7b6a1a3b",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:28.601+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?patient=101144&type=11506-3",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "ac790e5f-5e4f-4005-944d-71710455fd53",
+          "index": 98841384,
+          "result_id": "ab27826e-4cce-4bf6-9eea-2dab7b6a1a3b",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:28.616+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?patient=101145&type=11506-3",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "771f9adb-ec5a-4559-be94-630cd31280f3",
+          "index": 98841386,
+          "result_id": "ab27826e-4cce-4bf6-9eea-2dab7b6a1a3b",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:28.627+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?patient=101146&type=11506-3",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "c9598108-1bc7-4971-aa59-104f0d1a0eac",
+          "index": 98841388,
+          "result_id": "ab27826e-4cce-4bf6-9eea-2dab7b6a1a3b",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:28.640+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?patient=101147&type=11506-3",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "14289d13-5637-41cb-9744-43d55da6cff8",
+          "index": 98841390,
+          "result_id": "ab27826e-4cce-4bf6-9eea-2dab7b6a1a3b",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:28.653+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?patient=101148&type=11506-3",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "c2a5c585-27bb-44c6-a0b7-7caba3c0203a",
+          "index": 98841392,
+          "result_id": "ab27826e-4cce-4bf6-9eea-2dab7b6a1a3b",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:28.665+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?patient=101149&type=11506-3",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "8a2b4362-57cf-433a-a8a4-da631032e9cb",
+          "index": 98841394,
+          "result_id": "ab27826e-4cce-4bf6-9eea-2dab7b6a1a3b",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:28.674+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?patient=101150&type=11506-3",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "78222b06-671c-4d4a-ad9f-ee2bb8e3d65f",
+          "index": 98841396,
+          "result_id": "ab27826e-4cce-4bf6-9eea-2dab7b6a1a3b",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:28.688+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?patient=101151&type=11506-3",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "6b078977-a515-4f23-9e9e-78830d1fc3bd",
+          "index": 98841398,
+          "result_id": "ab27826e-4cce-4bf6-9eea-2dab7b6a1a3b",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:28.699+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?patient=101152&type=11506-3",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "0d268c0d-e024-4b48-a23c-928f36e8528c",
+          "index": 98841400,
+          "result_id": "ab27826e-4cce-4bf6-9eea-2dab7b6a1a3b",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:28.709+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?patient=101153&type=11506-3",
+          "verb": "get"
+        }
+      ],
+      "result": "pass",
+      "test_id": "us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_document_reference-us_quality_core_v050_document_reference_patient_type_search_test",
+      "test_run_id": "d02f4ed9-0f39-4382-ac80-4412889e4ee4",
+      "test_session_id": "jRJJqiEzqoe",
+      "updated_at": "2026-10-12T18:09:28.395+00:00"
+    },
+    {
+      "created_at": "2026-10-12T18:09:39.342+00:00",
+      "id": "74e1fe18-8668-4847-bc54-01215164f530",
+      "inputs": [
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://devfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"name\":\"smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [],
+      "result": "pass",
+      "test_id": "us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_document_reference-us_quality_core_v050_document_reference_must_support_test",
+      "test_run_id": "d02f4ed9-0f39-4382-ac80-4412889e4ee4",
+      "test_session_id": "jRJJqiEzqoe",
+      "updated_at": "2026-10-12T18:09:39.342+00:00"
+    },
+    {
+      "created_at": "2026-10-12T18:09:39.734+00:00",
+      "id": "d7836852-d389-4134-8e14-530bb89165ff",
+      "inputs": [
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://devfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"name\":\"smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [
+        {
+          "direction": "outgoing",
+          "id": "3e1ee8b2-68ec-4964-8b9a-a2345cf9f509",
+          "index": 98841512,
+          "result_id": "d7836852-d389-4134-8e14-530bb89165ff",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:39.736+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/Patient/101130",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "40c7a905-bb01-4c1d-8b23-355b6550bdc0",
+          "index": 98841513,
+          "result_id": "d7836852-d389-4134-8e14-530bb89165ff",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:39.749+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/Practitioner/P1",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "9d4f23ca-7c83-4d3d-a157-f8eeb3d80184",
+          "index": 98841514,
+          "result_id": "d7836852-d389-4134-8e14-530bb89165ff",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:39.758+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/Encounter/E20251",
+          "verb": "get"
+        }
+      ],
+      "result": "pass",
+      "test_id": "us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_document_reference-us_quality_core_v050_document_reference_reference_resolution_test",
+      "test_run_id": "d02f4ed9-0f39-4382-ac80-4412889e4ee4",
+      "test_session_id": "jRJJqiEzqoe",
+      "updated_at": "2026-10-12T18:09:39.734+00:00"
+    },
+    {
+      "created_at": "2026-10-12T18:09:35.078+00:00",
+      "id": "dbbc0a1d-248c-4879-a431-7861d429b7ba",
+      "inputs": [
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://devfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"name\":\"smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [
+        {
+          "direction": "outgoing",
+          "id": "687b442c-3854-4ace-8961-5fe546f903e6",
+          "index": 98841487,
+          "result_id": "dbbc0a1d-248c-4879-a431-7861d429b7ba",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:35.081+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference/D19339",
+          "verb": "get"
+        }
+      ],
+      "result": "pass",
+      "test_id": "us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_document_reference-us_quality_core_v050_document_reference_read_test",
+      "test_run_id": "d02f4ed9-0f39-4382-ac80-4412889e4ee4",
+      "test_session_id": "jRJJqiEzqoe",
+      "updated_at": "2026-10-12T18:09:35.078+00:00"
+    },
+    {
+      "created_at": "2026-10-12T18:09:37.914+00:00",
+      "id": "ed05ed07-bc64-44eb-ad5a-d5ce5760b86d",
+      "inputs": [
+        {
+          "name": "patient_ids",
+          "type": "text",
+          "value": "101130,101131,101132,101133,101134,101135,101136,101137,101138,101139,101140,101141,101142,101143,101144,101145,101146,101147,101148,101149,101150,101151,101152,101153"
+        },
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://devfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"name\":\"smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [
+        {
+          "direction": "outgoing",
+          "id": "2b2be462-d7e5-432f-aeea-93081089dc1b",
+          "index": 98841488,
+          "result_id": "ed05ed07-bc64-44eb-ad5a-d5ce5760b86d",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:37.917+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?_revinclude=Provenance:target&patient=101130",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "ded69484-c4d8-47ce-80ce-703dbf3b98e1",
+          "index": 98841489,
+          "result_id": "ed05ed07-bc64-44eb-ad5a-d5ce5760b86d",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:37.937+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?_revinclude=Provenance:target&patient=101131",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "f983a565-91f2-42c1-96e3-317dadff0503",
+          "index": 98841490,
+          "result_id": "ed05ed07-bc64-44eb-ad5a-d5ce5760b86d",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:37.956+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?_revinclude=Provenance:target&patient=101132",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "1a8ce950-cb6b-40eb-9ebf-f88b4d035455",
+          "index": 98841491,
+          "result_id": "ed05ed07-bc64-44eb-ad5a-d5ce5760b86d",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:37.972+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?_revinclude=Provenance:target&patient=101133",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "3e2bb6f6-87d0-474b-8764-e57b461a9866",
+          "index": 98841492,
+          "result_id": "ed05ed07-bc64-44eb-ad5a-d5ce5760b86d",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:37.987+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?_revinclude=Provenance:target&patient=101134",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "71895298-2910-4f9e-a45b-7d5a123138b1",
+          "index": 98841493,
+          "result_id": "ed05ed07-bc64-44eb-ad5a-d5ce5760b86d",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:38.004+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?_revinclude=Provenance:target&patient=101135",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "46c0e973-8b1c-48c7-89b6-0653d6df6047",
+          "index": 98841494,
+          "result_id": "ed05ed07-bc64-44eb-ad5a-d5ce5760b86d",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:38.021+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?_revinclude=Provenance:target&patient=101136",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "39044b89-8ca0-4ebf-bbf5-74d7b5a58ca3",
+          "index": 98841495,
+          "result_id": "ed05ed07-bc64-44eb-ad5a-d5ce5760b86d",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:38.036+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?_revinclude=Provenance:target&patient=101137",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "52dc4268-fd62-4624-a695-39b34b726a1a",
+          "index": 98841496,
+          "result_id": "ed05ed07-bc64-44eb-ad5a-d5ce5760b86d",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:38.050+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?_revinclude=Provenance:target&patient=101138",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "8404fcdc-65e1-4a01-a447-3c791071c8de",
+          "index": 98841497,
+          "result_id": "ed05ed07-bc64-44eb-ad5a-d5ce5760b86d",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:38.066+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?_revinclude=Provenance:target&patient=101139",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "08be36c3-b685-47a8-b458-98470c3a9510",
+          "index": 98841498,
+          "result_id": "ed05ed07-bc64-44eb-ad5a-d5ce5760b86d",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:38.078+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?_revinclude=Provenance:target&patient=101140",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "8f380785-3a5d-47a5-8224-dec023d82814",
+          "index": 98841499,
+          "result_id": "ed05ed07-bc64-44eb-ad5a-d5ce5760b86d",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:38.093+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?_revinclude=Provenance:target&patient=101141",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "51cc005b-0c45-49ea-9a78-33e2023c638d",
+          "index": 98841500,
+          "result_id": "ed05ed07-bc64-44eb-ad5a-d5ce5760b86d",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:38.108+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?_revinclude=Provenance:target&patient=101142",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "825e5094-a535-4f57-9fb6-f4dbcec4819d",
+          "index": 98841501,
+          "result_id": "ed05ed07-bc64-44eb-ad5a-d5ce5760b86d",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:38.123+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?_revinclude=Provenance:target&patient=101143",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "f1c0937c-9c91-4c86-b123-a30bc8867909",
+          "index": 98841502,
+          "result_id": "ed05ed07-bc64-44eb-ad5a-d5ce5760b86d",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:38.134+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?_revinclude=Provenance:target&patient=101144",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "b7077d95-63f6-4a11-9563-0dcaaf8b8b6f",
+          "index": 98841503,
+          "result_id": "ed05ed07-bc64-44eb-ad5a-d5ce5760b86d",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:38.149+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?_revinclude=Provenance:target&patient=101145",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "a51e953a-4833-4f6a-a2b5-dc263e83fbfc",
+          "index": 98841504,
+          "result_id": "ed05ed07-bc64-44eb-ad5a-d5ce5760b86d",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:38.166+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?_revinclude=Provenance:target&patient=101146",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "c9b0bcc6-8a39-4a5a-afc4-f5f11d32ac45",
+          "index": 98841505,
+          "result_id": "ed05ed07-bc64-44eb-ad5a-d5ce5760b86d",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:38.184+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?_revinclude=Provenance:target&patient=101147",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "331819cc-0bdc-4295-a148-52d839e1f29f",
+          "index": 98841506,
+          "result_id": "ed05ed07-bc64-44eb-ad5a-d5ce5760b86d",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:38.199+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?_revinclude=Provenance:target&patient=101148",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "a52a60ba-669c-444f-898d-383f537964fc",
+          "index": 98841507,
+          "result_id": "ed05ed07-bc64-44eb-ad5a-d5ce5760b86d",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:38.220+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?_revinclude=Provenance:target&patient=101149",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "723fcc0e-9818-4790-894b-ff4f438cd01f",
+          "index": 98841508,
+          "result_id": "ed05ed07-bc64-44eb-ad5a-d5ce5760b86d",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:38.236+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?_revinclude=Provenance:target&patient=101150",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "949cf1e7-c659-44e3-bfba-a04f87398936",
+          "index": 98841509,
+          "result_id": "ed05ed07-bc64-44eb-ad5a-d5ce5760b86d",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:38.252+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?_revinclude=Provenance:target&patient=101151",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "438f773e-0bd2-4f3d-8baa-96f3e4a13945",
+          "index": 98841510,
+          "result_id": "ed05ed07-bc64-44eb-ad5a-d5ce5760b86d",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:38.267+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?_revinclude=Provenance:target&patient=101152",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "66f7c784-82cf-43e2-91fc-b7a63383825a",
+          "index": 98841511,
+          "result_id": "ed05ed07-bc64-44eb-ad5a-d5ce5760b86d",
+          "status": 200,
+          "timestamp": "2026-10-12T18:09:38.282+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/DocumentReference?_revinclude=Provenance:target&patient=101153",
+          "verb": "get"
+        }
+      ],
+      "result": "pass",
+      "test_id": "us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_document_reference-us_quality_core_v050_document_reference_provenance_revinclude_search_test",
+      "test_run_id": "d02f4ed9-0f39-4382-ac80-4412889e4ee4",
+      "test_session_id": "jRJJqiEzqoe",
+      "updated_at": "2026-10-12T18:09:37.914+00:00"
+    },
+    {
+      "created_at": "2026-10-12T18:09:39.247+00:00",
+      "id": "b072a43f-878e-49ac-9ae9-03867d3ba35d",
+      "inputs": [
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://devfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"name\":\"smart_auth_info\"}"
+        }
+      ],
+      "messages": [
+        {
+          "message": "DocumentReference/D19339: DocumentReference.content[0].format: The code provided (http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode#urn:ihe:iti:xds:2017:mimeTypeSufficient) is not in the value set 'DocumentReference Format Code Set' (http://hl7.org/fhir/ValueSet/formatcodes|4.0.1), and a code should come from this value set unless it has no suitable code (the validator cannot judge what is suitable)",
+          "type": "warning"
+        },
+        {
+          "message": "DocumentReference/D19339: DocumentReference: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)",
+          "type": "warning"
+        },
+        {
+          "message": "DocumentReference/D19340: DocumentReference.content[0].format: The code provided (http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode#urn:ihe:iti:xds:2017:mimeTypeSufficient) is not in the value set 'DocumentReference Format Code Set' (http://hl7.org/fhir/ValueSet/formatcodes|4.0.1), and a code should come from this value set unless it has no suitable code (the validator cannot judge what is suitable)",
+          "type": "warning"
+        },
+        {
+          "message": "DocumentReference/D19340: DocumentReference: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)",
+          "type": "warning"
+        },
+        {
+          "message": "DocumentReference/D19341: DocumentReference.content[0].format: The code provided (http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode#urn:ihe:iti:xds:2017:mimeTypeSufficient) is not in the value set 'DocumentReference Format Code Set' (http://hl7.org/fhir/ValueSet/formatcodes|4.0.1), and a code should come from this value set unless it has no suitable code (the validator cannot judge what is suitable)",
+          "type": "warning"
+        },
+        {
+          "message": "DocumentReference/D19341: DocumentReference: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)",
+          "type": "warning"
+        },
+        {
+          "message": "DocumentReference/D19342: DocumentReference.content[0].format: The code provided (http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode#urn:ihe:iti:xds:2017:mimeTypeSufficient) is not in the value set 'DocumentReference Format Code Set' (http://hl7.org/fhir/ValueSet/formatcodes|4.0.1), and a code should come from this value set unless it has no suitable code (the validator cannot judge what is suitable)",
+          "type": "warning"
+        },
+        {
+          "message": "DocumentReference/D19342: DocumentReference: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)",
+          "type": "warning"
+        },
+        {
+          "message": "DocumentReference/D19343: DocumentReference.content[0].format: The code provided (http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode#urn:ihe:iti:xds:2017:mimeTypeSufficient) is not in the value set 'DocumentReference Format Code Set' (http://hl7.org/fhir/ValueSet/formatcodes|4.0.1), and a code should come from this value set unless it has no suitable code (the validator cannot judge what is suitable)",
+          "type": "warning"
+        },
+        {
+          "message": "DocumentReference/D19343: DocumentReference: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)",
+          "type": "warning"
+        },
+        {
+          "message": "DocumentReference/D19344: DocumentReference.content[0].format: The code provided (http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode#urn:ihe:iti:xds:2017:mimeTypeSufficient) is not in the value set 'DocumentReference Format Code Set' (http://hl7.org/fhir/ValueSet/formatcodes|4.0.1), and a code should come from this value set unless it has no suitable code (the validator cannot judge what is suitable)",
+          "type": "warning"
+        },
+        {
+          "message": "DocumentReference/D19344: DocumentReference: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)",
+          "type": "warning"
+        },
+        {
+          "message": "DocumentReference/D19345: DocumentReference.content[0].format: The code provided (http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode#urn:ihe:iti:xds:2017:mimeTypeSufficient) is not in the value set 'DocumentReference Format Code Set' (http://hl7.org/fhir/ValueSet/formatcodes|4.0.1), and a code should come from this value set unless it has no suitable code (the validator cannot judge what is suitable)",
+          "type": "warning"
+        },
+        {
+          "message": "DocumentReference/D19345: DocumentReference: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)",
+          "type": "warning"
+        },
+        {
+          "message": "DocumentReference/D19346: DocumentReference.content[0].format: The code provided (http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode#urn:ihe:iti:xds:2017:mimeTypeSufficient) is not in the value set 'DocumentReference Format Code Set' (http://hl7.org/fhir/ValueSet/formatcodes|4.0.1), and a code should come from this value set unless it has no suitable code (the validator cannot judge what is suitable)",
+          "type": "warning"
+        },
+        {
+          "message": "DocumentReference/D19346: DocumentReference: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)",
+          "type": "warning"
+        },
+        {
+          "message": "DocumentReference/D19347: DocumentReference.content[0].format: The code provided (http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode#urn:ihe:iti:xds:2017:mimeTypeSufficient) is not in the value set 'DocumentReference Format Code Set' (http://hl7.org/fhir/ValueSet/formatcodes|4.0.1), and a code should come from this value set unless it has no suitable code (the validator cannot judge what is suitable)",
+          "type": "warning"
+        },
+        {
+          "message": "DocumentReference/D19347: DocumentReference: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)",
+          "type": "warning"
+        },
+        {
+          "message": "DocumentReference/D19348: DocumentReference.content[0].format: The code provided (http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode#urn:ihe:iti:xds:2017:mimeTypeSufficient) is not in the value set 'DocumentReference Format Code Set' (http://hl7.org/fhir/ValueSet/formatcodes|4.0.1), and a code should come from this value set unless it has no suitable code (the validator cannot judge what is suitable)",
+          "type": "warning"
+        },
+        {
+          "message": "DocumentReference/D19348: DocumentReference: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)",
+          "type": "warning"
+        },
+        {
+          "message": "DocumentReference/D19349: DocumentReference.content[0].format: The code provided (http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode#urn:ihe:iti:xds:2017:mimeTypeSufficient) is not in the value set 'DocumentReference Format Code Set' (http://hl7.org/fhir/ValueSet/formatcodes|4.0.1), and a code should come from this value set unless it has no suitable code (the validator cannot judge what is suitable)",
+          "type": "warning"
+        },
+        {
+          "message": "DocumentReference/D19349: DocumentReference: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)",
+          "type": "warning"
+        },
+        {
+          "message": "DocumentReference/D19350: DocumentReference.content[0].format: The code provided (http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode#urn:ihe:iti:xds:2017:mimeTypeSufficient) is not in the value set 'DocumentReference Format Code Set' (http://hl7.org/fhir/ValueSet/formatcodes|4.0.1), and a code should come from this value set unless it has no suitable code (the validator cannot judge what is suitable)",
+          "type": "warning"
+        },
+        {
+          "message": "DocumentReference/D19350: DocumentReference: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)",
+          "type": "warning"
+        },
+        {
+          "message": "DocumentReference/D19351: DocumentReference.content[0].format: The code provided (http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode#urn:ihe:iti:xds:2017:mimeTypeSufficient) is not in the value set 'DocumentReference Format Code Set' (http://hl7.org/fhir/ValueSet/formatcodes|4.0.1), and a code should come from this value set unless it has no suitable code (the validator cannot judge what is suitable)",
+          "type": "warning"
+        },
+        {
+          "message": "DocumentReference/D19351: DocumentReference: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)",
+          "type": "warning"
+        },
+        {
+          "message": "DocumentReference/D19352: DocumentReference.content[0].format: The code provided (http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode#urn:ihe:iti:xds:2017:mimeTypeSufficient) is not in the value set 'DocumentReference Format Code Set' (http://hl7.org/fhir/ValueSet/formatcodes|4.0.1), and a code should come from this value set unless it has no suitable code (the validator cannot judge what is suitable)",
+          "type": "warning"
+        },
+        {
+          "message": "DocumentReference/D19352: DocumentReference: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)",
+          "type": "warning"
+        },
+        {
+          "message": "DocumentReference/D19353: DocumentReference.content[0].format: The code provided (http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode#urn:ihe:iti:xds:2017:mimeTypeSufficient) is not in the value set 'DocumentReference Format Code Set' (http://hl7.org/fhir/ValueSet/formatcodes|4.0.1), and a code should come from this value set unless it has no suitable code (the validator cannot judge what is suitable)",
+          "type": "warning"
+        },
+        {
+          "message": "DocumentReference/D19353: DocumentReference: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)",
+          "type": "warning"
+        },
+        {
+          "message": "DocumentReference/D19354: DocumentReference.content[0].format: The code provided (http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode#urn:ihe:iti:xds:2017:mimeTypeSufficient) is not in the value set 'DocumentReference Format Code Set' (http://hl7.org/fhir/ValueSet/formatcodes|4.0.1), and a code should come from this value set unless it has no suitable code (the validator cannot judge what is suitable)",
+          "type": "warning"
+        },
+        {
+          "message": "DocumentReference/D19354: DocumentReference: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)",
+          "type": "warning"
+        },
+        {
+          "message": "DocumentReference/D19355: DocumentReference.content[0].format: The code provided (http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode#urn:ihe:iti:xds:2017:mimeTypeSufficient) is not in the value set 'DocumentReference Format Code Set' (http://hl7.org/fhir/ValueSet/formatcodes|4.0.1), and a code should come from this value set unless it has no suitable code (the validator cannot judge what is suitable)",
+          "type": "warning"
+        },
+        {
+          "message": "DocumentReference/D19355: DocumentReference: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)",
+          "type": "warning"
+        },
+        {
+          "message": "DocumentReference/D19356: DocumentReference.content[0].format: The code provided (http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode#urn:ihe:iti:xds:2017:mimeTypeSufficient) is not in the value set 'DocumentReference Format Code Set' (http://hl7.org/fhir/ValueSet/formatcodes|4.0.1), and a code should come from this value set unless it has no suitable code (the validator cannot judge what is suitable)",
+          "type": "warning"
+        },
+        {
+          "message": "DocumentReference/D19356: DocumentReference: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)",
+          "type": "warning"
+        },
+        {
+          "message": "DocumentReference/D19357: DocumentReference.content[0].format: The code provided (http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode#urn:ihe:iti:xds:2017:mimeTypeSufficient) is not in the value set 'DocumentReference Format Code Set' (http://hl7.org/fhir/ValueSet/formatcodes|4.0.1), and a code should come from this value set unless it has no suitable code (the validator cannot judge what is suitable)",
+          "type": "warning"
+        },
+        {
+          "message": "DocumentReference/D19357: DocumentReference: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)",
+          "type": "warning"
+        },
+        {
+          "message": "DocumentReference/D19358: DocumentReference.content[0].format: The code provided (http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode#urn:ihe:iti:xds:2017:mimeTypeSufficient) is not in the value set 'DocumentReference Format Code Set' (http://hl7.org/fhir/ValueSet/formatcodes|4.0.1), and a code should come from this value set unless it has no suitable code (the validator cannot judge what is suitable)",
+          "type": "warning"
+        },
+        {
+          "message": "DocumentReference/D19358: DocumentReference: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)",
+          "type": "warning"
+        },
+        {
+          "message": "DocumentReference/D19359: DocumentReference.content[0].format: The code provided (http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode#urn:ihe:iti:xds:2017:mimeTypeSufficient) is not in the value set 'DocumentReference Format Code Set' (http://hl7.org/fhir/ValueSet/formatcodes|4.0.1), and a code should come from this value set unless it has no suitable code (the validator cannot judge what is suitable)",
+          "type": "warning"
+        },
+        {
+          "message": "DocumentReference/D19359: DocumentReference: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)",
+          "type": "warning"
+        },
+        {
+          "message": "DocumentReference/D19360: DocumentReference.content[0].format: The code provided (http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode#urn:ihe:iti:xds:2017:mimeTypeSufficient) is not in the value set 'DocumentReference Format Code Set' (http://hl7.org/fhir/ValueSet/formatcodes|4.0.1), and a code should come from this value set unless it has no suitable code (the validator cannot judge what is suitable)",
+          "type": "warning"
+        },
+        {
+          "message": "DocumentReference/D19360: DocumentReference: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)",
+          "type": "warning"
+        },
+        {
+          "message": "DocumentReference/D19361: DocumentReference.content[0].format: The code provided (http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode#urn:ihe:iti:xds:2017:mimeTypeSufficient) is not in the value set 'DocumentReference Format Code Set' (http://hl7.org/fhir/ValueSet/formatcodes|4.0.1), and a code should come from this value set unless it has no suitable code (the validator cannot judge what is suitable)",
+          "type": "warning"
+        },
+        {
+          "message": "DocumentReference/D19361: DocumentReference: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)",
+          "type": "warning"
+        },
+        {
+          "message": "DocumentReference/D19362: DocumentReference.content[0].format: The code provided (http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode#urn:ihe:iti:xds:2017:mimeTypeSufficient) is not in the value set 'DocumentReference Format Code Set' (http://hl7.org/fhir/ValueSet/formatcodes|4.0.1), and a code should come from this value set unless it has no suitable code (the validator cannot judge what is suitable)",
+          "type": "warning"
+        },
+        {
+          "message": "DocumentReference/D19362: DocumentReference: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)",
+          "type": "warning"
+        },
+        {
+          "message": "DocumentReference/D19363: DocumentReference.content[0].format: The code provided (http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode#urn:ihe:iti:xds:2017:mimeTypeSufficient) is not in the value set 'DocumentReference Format Code Set' (http://hl7.org/fhir/ValueSet/formatcodes|4.0.1), and a code should come from this value set unless it has no suitable code (the validator cannot judge what is suitable)",
+          "type": "warning"
+        },
+        {
+          "message": "DocumentReference/D19363: DocumentReference: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)",
+          "type": "warning"
+        },
+        {
+          "message": "DocumentReference/D19364: DocumentReference.content[0].format: The code provided (http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode#urn:ihe:iti:xds:2017:mimeTypeSufficient) is not in the value set 'DocumentReference Format Code Set' (http://hl7.org/fhir/ValueSet/formatcodes|4.0.1), and a code should come from this value set unless it has no suitable code (the validator cannot judge what is suitable)",
+          "type": "warning"
+        },
+        {
+          "message": "DocumentReference/D19364: DocumentReference: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)",
+          "type": "warning"
+        },
+        {
+          "message": "DocumentReference/D19365: DocumentReference.content[0].format: The code provided (http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode#urn:ihe:iti:xds:2017:mimeTypeSufficient) is not in the value set 'DocumentReference Format Code Set' (http://hl7.org/fhir/ValueSet/formatcodes|4.0.1), and a code should come from this value set unless it has no suitable code (the validator cannot judge what is suitable)",
+          "type": "warning"
+        },
+        {
+          "message": "DocumentReference/D19365: DocumentReference: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)",
+          "type": "warning"
+        },
+        {
+          "message": "DocumentReference/D19366: DocumentReference.content[0].format: The code provided (http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode#urn:ihe:iti:xds:2017:mimeTypeSufficient) is not in the value set 'DocumentReference Format Code Set' (http://hl7.org/fhir/ValueSet/formatcodes|4.0.1), and a code should come from this value set unless it has no suitable code (the validator cannot judge what is suitable)",
+          "type": "warning"
+        },
+        {
+          "message": "DocumentReference/D19366: DocumentReference: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)",
+          "type": "warning"
+        },
+        {
+          "message": "DocumentReference/D19367: DocumentReference.content[0].format: The code provided (http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode#urn:ihe:iti:xds:2017:mimeTypeSufficient) is not in the value set 'DocumentReference Format Code Set' (http://hl7.org/fhir/ValueSet/formatcodes|4.0.1), and a code should come from this value set unless it has no suitable code (the validator cannot judge what is suitable)",
+          "type": "warning"
+        },
+        {
+          "message": "DocumentReference/D19367: DocumentReference: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)",
+          "type": "warning"
+        },
+        {
+          "message": "DocumentReference/D19368: DocumentReference.content[0].format: The code provided (http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode#urn:ihe:iti:xds:2017:mimeTypeSufficient) is not in the value set 'DocumentReference Format Code Set' (http://hl7.org/fhir/ValueSet/formatcodes|4.0.1), and a code should come from this value set unless it has no suitable code (the validator cannot judge what is suitable)",
+          "type": "warning"
+        },
+        {
+          "message": "DocumentReference/D19368: DocumentReference: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)",
+          "type": "warning"
+        },
+        {
+          "message": "DocumentReference/D19369: DocumentReference.content[0].format: The code provided (http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode#urn:ihe:iti:xds:2017:mimeTypeSufficient) is not in the value set 'DocumentReference Format Code Set' (http://hl7.org/fhir/ValueSet/formatcodes|4.0.1), and a code should come from this value set unless it has no suitable code (the validator cannot judge what is suitable)",
+          "type": "warning"
+        },
+        {
+          "message": "DocumentReference/D19369: DocumentReference: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)",
+          "type": "warning"
+        },
+        {
+          "message": "DocumentReference/D19370: DocumentReference.content[0].format: The code provided (http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode#urn:ihe:iti:xds:2017:mimeTypeSufficient) is not in the value set 'DocumentReference Format Code Set' (http://hl7.org/fhir/ValueSet/formatcodes|4.0.1), and a code should come from this value set unless it has no suitable code (the validator cannot judge what is suitable)",
+          "type": "warning"
+        },
+        {
+          "message": "DocumentReference/D19370: DocumentReference: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)",
+          "type": "warning"
+        },
+        {
+          "message": "DocumentReference/D19371: DocumentReference.content[0].format: The code provided (http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode#urn:ihe:iti:xds:2017:mimeTypeSufficient) is not in the value set 'DocumentReference Format Code Set' (http://hl7.org/fhir/ValueSet/formatcodes|4.0.1), and a code should come from this value set unless it has no suitable code (the validator cannot judge what is suitable)",
+          "type": "warning"
+        },
+        {
+          "message": "DocumentReference/D19371: DocumentReference: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)",
+          "type": "warning"
+        },
+        {
+          "message": "DocumentReference/D19372: DocumentReference.content[0].format: The code provided (http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode#urn:ihe:iti:xds:2017:mimeTypeSufficient) is not in the value set 'DocumentReference Format Code Set' (http://hl7.org/fhir/ValueSet/formatcodes|4.0.1), and a code should come from this value set unless it has no suitable code (the validator cannot judge what is suitable)",
+          "type": "warning"
+        },
+        {
+          "message": "DocumentReference/D19372: DocumentReference: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)",
+          "type": "warning"
+        },
+        {
+          "message": "DocumentReference/D19373: DocumentReference.content[0].format: The code provided (http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode#urn:ihe:iti:xds:2017:mimeTypeSufficient) is not in the value set 'DocumentReference Format Code Set' (http://hl7.org/fhir/ValueSet/formatcodes|4.0.1), and a code should come from this value set unless it has no suitable code (the validator cannot judge what is suitable)",
+          "type": "warning"
+        },
+        {
+          "message": "DocumentReference/D19373: DocumentReference: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)",
+          "type": "warning"
+        },
+        {
+          "message": "DocumentReference/D19389: DocumentReference.content[0].format: The code provided (http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode#urn:ihe:iti:xds:2017:mimeTypeSufficient) is not in the value set 'DocumentReference Format Code Set' (http://hl7.org/fhir/ValueSet/formatcodes|4.0.1), and a code should come from this value set unless it has no suitable code (the validator cannot judge what is suitable)",
+          "type": "warning"
+        },
+        {
+          "message": "DocumentReference/D19389: DocumentReference: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)",
+          "type": "warning"
+        },
+        {
+          "message": "DocumentReference/D19374: DocumentReference.content[0].format: The code provided (http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode#urn:ihe:iti:xds:2017:mimeTypeSufficient) is not in the value set 'DocumentReference Format Code Set' (http://hl7.org/fhir/ValueSet/formatcodes|4.0.1), and a code should come from this value set unless it has no suitable code (the validator cannot judge what is suitable)",
+          "type": "warning"
+        },
+        {
+          "message": "DocumentReference/D19374: DocumentReference: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)",
+          "type": "warning"
+        },
+        {
+          "message": "DocumentReference/D19375: DocumentReference.content[0].format: The code provided (http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode#urn:ihe:iti:xds:2017:mimeTypeSufficient) is not in the value set 'DocumentReference Format Code Set' (http://hl7.org/fhir/ValueSet/formatcodes|4.0.1), and a code should come from this value set unless it has no suitable code (the validator cannot judge what is suitable)",
+          "type": "warning"
+        },
+        {
+          "message": "DocumentReference/D19375: DocumentReference: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)",
+          "type": "warning"
+        },
+        {
+          "message": "DocumentReference/D19390: DocumentReference.content[0].format: The code provided (http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode#urn:ihe:iti:xds:2017:mimeTypeSufficient) is not in the value set 'DocumentReference Format Code Set' (http://hl7.org/fhir/ValueSet/formatcodes|4.0.1), and a code should come from this value set unless it has no suitable code (the validator cannot judge what is suitable)",
+          "type": "warning"
+        },
+        {
+          "message": "DocumentReference/D19390: DocumentReference: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)",
+          "type": "warning"
+        },
+        {
+          "message": "DocumentReference/D19376: DocumentReference.content[0].format: The code provided (http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode#urn:ihe:iti:xds:2017:mimeTypeSufficient) is not in the value set 'DocumentReference Format Code Set' (http://hl7.org/fhir/ValueSet/formatcodes|4.0.1), and a code should come from this value set unless it has no suitable code (the validator cannot judge what is suitable)",
+          "type": "warning"
+        },
+        {
+          "message": "DocumentReference/D19376: DocumentReference: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)",
+          "type": "warning"
+        },
+        {
+          "message": "DocumentReference/D19377: DocumentReference.content[0].format: The code provided (http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode#urn:ihe:iti:xds:2017:mimeTypeSufficient) is not in the value set 'DocumentReference Format Code Set' (http://hl7.org/fhir/ValueSet/formatcodes|4.0.1), and a code should come from this value set unless it has no suitable code (the validator cannot judge what is suitable)",
+          "type": "warning"
+        },
+        {
+          "message": "DocumentReference/D19377: DocumentReference: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)",
+          "type": "warning"
+        },
+        {
+          "message": "DocumentReference/D19378: DocumentReference.content[0].format: The code provided (http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode#urn:ihe:iti:xds:2017:mimeTypeSufficient) is not in the value set 'DocumentReference Format Code Set' (http://hl7.org/fhir/ValueSet/formatcodes|4.0.1), and a code should come from this value set unless it has no suitable code (the validator cannot judge what is suitable)",
+          "type": "warning"
+        },
+        {
+          "message": "DocumentReference/D19378: DocumentReference: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)",
+          "type": "warning"
+        },
+        {
+          "message": "DocumentReference/D19379: DocumentReference.content[0].format: The code provided (http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode#urn:ihe:iti:xds:2017:mimeTypeSufficient) is not in the value set 'DocumentReference Format Code Set' (http://hl7.org/fhir/ValueSet/formatcodes|4.0.1), and a code should come from this value set unless it has no suitable code (the validator cannot judge what is suitable)",
+          "type": "warning"
+        },
+        {
+          "message": "DocumentReference/D19379: DocumentReference: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)",
+          "type": "warning"
+        },
+        {
+          "message": "DocumentReference/D19380: DocumentReference.content[0].format: The code provided (http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode#urn:ihe:iti:xds:2017:mimeTypeSufficient) is not in the value set 'DocumentReference Format Code Set' (http://hl7.org/fhir/ValueSet/formatcodes|4.0.1), and a code should come from this value set unless it has no suitable code (the validator cannot judge what is suitable)",
+          "type": "warning"
+        },
+        {
+          "message": "DocumentReference/D19380: DocumentReference: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)",
+          "type": "warning"
+        },
+        {
+          "message": "DocumentReference/D19381: DocumentReference.content[0].format: The code provided (http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode#urn:ihe:iti:xds:2017:mimeTypeSufficient) is not in the value set 'DocumentReference Format Code Set' (http://hl7.org/fhir/ValueSet/formatcodes|4.0.1), and a code should come from this value set unless it has no suitable code (the validator cannot judge what is suitable)",
+          "type": "warning"
+        },
+        {
+          "message": "DocumentReference/D19381: DocumentReference: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)",
+          "type": "warning"
+        },
+        {
+          "message": "DocumentReference/D19382: DocumentReference.content[0].format: The code provided (http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode#urn:ihe:iti:xds:2017:mimeTypeSufficient) is not in the value set 'DocumentReference Format Code Set' (http://hl7.org/fhir/ValueSet/formatcodes|4.0.1), and a code should come from this value set unless it has no suitable code (the validator cannot judge what is suitable)",
+          "type": "warning"
+        },
+        {
+          "message": "DocumentReference/D19382: DocumentReference: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)",
+          "type": "warning"
+        },
+        {
+          "message": "DocumentReference/D19383: DocumentReference.content[0].format: The code provided (http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode#urn:ihe:iti:xds:2017:mimeTypeSufficient) is not in the value set 'DocumentReference Format Code Set' (http://hl7.org/fhir/ValueSet/formatcodes|4.0.1), and a code should come from this value set unless it has no suitable code (the validator cannot judge what is suitable)",
+          "type": "warning"
+        },
+        {
+          "message": "DocumentReference/D19383: DocumentReference: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)",
+          "type": "warning"
+        },
+        {
+          "message": "DocumentReference/D19384: DocumentReference.content[0].format: The code provided (http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode#urn:ihe:iti:xds:2017:mimeTypeSufficient) is not in the value set 'DocumentReference Format Code Set' (http://hl7.org/fhir/ValueSet/formatcodes|4.0.1), and a code should come from this value set unless it has no suitable code (the validator cannot judge what is suitable)",
+          "type": "warning"
+        },
+        {
+          "message": "DocumentReference/D19384: DocumentReference: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)",
+          "type": "warning"
+        },
+        {
+          "message": "DocumentReference/D19385: DocumentReference.content[0].format: The code provided (http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode#urn:ihe:iti:xds:2017:mimeTypeSufficient) is not in the value set 'DocumentReference Format Code Set' (http://hl7.org/fhir/ValueSet/formatcodes|4.0.1), and a code should come from this value set unless it has no suitable code (the validator cannot judge what is suitable)",
+          "type": "warning"
+        },
+        {
+          "message": "DocumentReference/D19385: DocumentReference: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)",
+          "type": "warning"
+        },
+        {
+          "message": "DocumentReference/D19386: DocumentReference.content[0].format: The code provided (http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode#urn:ihe:iti:xds:2017:mimeTypeSufficient) is not in the value set 'DocumentReference Format Code Set' (http://hl7.org/fhir/ValueSet/formatcodes|4.0.1), and a code should come from this value set unless it has no suitable code (the validator cannot judge what is suitable)",
+          "type": "warning"
+        },
+        {
+          "message": "DocumentReference/D19386: DocumentReference: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)",
+          "type": "warning"
+        },
+        {
+          "message": "DocumentReference/D19387: DocumentReference.content[0].format: The code provided (http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode#urn:ihe:iti:xds:2017:mimeTypeSufficient) is not in the value set 'DocumentReference Format Code Set' (http://hl7.org/fhir/ValueSet/formatcodes|4.0.1), and a code should come from this value set unless it has no suitable code (the validator cannot judge what is suitable)",
+          "type": "warning"
+        },
+        {
+          "message": "DocumentReference/D19387: DocumentReference: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)",
+          "type": "warning"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [],
+      "result": "pass",
+      "test_id": "us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_document_reference-us_quality_core_v050_document_reference_validation_test",
+      "test_run_id": "d02f4ed9-0f39-4382-ac80-4412889e4ee4",
+      "test_session_id": "jRJJqiEzqoe",
+      "updated_at": "2026-10-12T18:09:39.247+00:00"
+    }
+  ],
+  "run_id": "d02f4ed9-0f39-4382-ac80-4412889e4ee4",
+  "session_id": "jRJJqiEzqoe",
+  "session_url": "https://inferno.healthit.gov/suites/us_quality_core_v050/jRJJqiEzqoe",
+  "status": {
+    "id": "d02f4ed9-0f39-4382-ac80-4412889e4ee4",
+    "inputs": null,
+    "results": null,
+    "status": "done",
+    "test_count": 10,
+    "test_group_id": "us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_document_reference",
+    "test_session_id": "jRJJqiEzqoe"
+  },
+  "url": "https://devfhir.vistaplex.org/fhir"
+}

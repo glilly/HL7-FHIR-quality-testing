@@ -1,0 +1,2669 @@
+{
+  "api": "https://inferno.healthit.gov/suites/api",
+  "patient_ids": "101130,101131,101132,101133,101134,101135,101136,101137,101138,101139,101140,101141,101142,101143,101144,101145,101146,101147,101148,101149,101150,101151,101152,101153",
+  "results": [
+    {
+      "created_at": "2026-10-12T18:12:08.914+00:00",
+      "id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+      "inputs": [
+        {
+          "name": "patient_ids",
+          "type": "text",
+          "value": "101130,101131,101132,101133,101134,101135,101136,101137,101138,101139,101140,101141,101142,101143,101144,101145,101146,101147,101148,101149,101150,101151,101152,101153"
+        },
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://devfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"name\":\"smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [
+        {
+          "direction": "outgoing",
+          "id": "35678e83-2ca3-4476-a27b-8cbca5209eca",
+          "index": 98841811,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:08.924+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101130&status=proposed",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "4054c1d7-3813-4ef8-b88b-6ade48c8b7ce",
+          "index": 98841812,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:08.938+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101130&status=active",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "f6c0bd61-893e-4331-beb3-76a30be372a1",
+          "index": 98841813,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:08.949+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101130&status=suspended",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "c9432825-4811-4e5e-87a9-88755e8edf0c",
+          "index": 98841814,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:08.960+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101130&status=inactive",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "47ac3520-2aea-43d1-8341-0136ea986b35",
+          "index": 98841815,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:08.971+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101130&status=entered-in-error",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "9a5b8f18-57da-489f-941d-f665f1d36519",
+          "index": 98841816,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:08.981+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101131&status=proposed",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "ca403b1f-94fd-4feb-bc9c-971ad10e2ef5",
+          "index": 98841817,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:08.993+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101131&status=active",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "d83d0b5f-a862-41e5-ada9-3bdad1f77d7d",
+          "index": 98841818,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:09.002+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101131&status=suspended",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "fbe1d387-c375-4365-a1b2-5102d875b11f",
+          "index": 98841819,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:09.013+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101131&status=inactive",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "db77f26b-c83c-4d84-8a53-3066791daeba",
+          "index": 98841820,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:09.024+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101131&status=entered-in-error",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "218ed88d-2ed1-48c3-afa8-77a8a78ea817",
+          "index": 98841821,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:09.035+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101132&status=proposed",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "6961c8e3-fd86-4232-b3cc-ba2cad51e1a3",
+          "index": 98841822,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:09.045+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101132&status=active",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "310a8a81-46af-41bb-8eba-f6e2eec00341",
+          "index": 98841823,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:09.057+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101132&status=suspended",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "dcb42272-5485-444a-ae77-1ee18d5417cd",
+          "index": 98841824,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:09.069+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101132&status=inactive",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "87b07289-6389-4a52-9057-2a0859ca4411",
+          "index": 98841825,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:09.078+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101132&status=entered-in-error",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "bb1d5fc3-aaa3-4f33-a073-fa4b3ab59304",
+          "index": 98841826,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:09.089+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101133&status=proposed",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "d6429486-7a77-4638-a56f-6c664b6fcccc",
+          "index": 98841827,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:09.101+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101133&status=active",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "b89f756e-6f19-42bc-82c8-67b8dd2f725a",
+          "index": 98841828,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:09.112+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101133&status=suspended",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "bc101a98-0b05-4826-877e-8aa61929a4a2",
+          "index": 98841829,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:09.123+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101133&status=inactive",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "483d9c01-00c0-41e2-a8e8-211d8cfa644e",
+          "index": 98841830,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:09.133+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101133&status=entered-in-error",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "1473a10b-e498-41c1-bf44-5f4ea2a1a5bc",
+          "index": 98841831,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:09.142+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101134&status=proposed",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "2e4bc609-fe2f-4745-8936-fd81fbdd7749",
+          "index": 98841832,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:09.150+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101134&status=active",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "245889d3-6843-4d58-a470-673b192c87d1",
+          "index": 98841833,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:09.160+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101134&status=suspended",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "e4e40429-4562-4bb6-bfee-55e687e3a4e2",
+          "index": 98841834,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:09.172+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101134&status=inactive",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "c6b6d2a2-f8d1-4cdc-8f85-6c03c4abf78a",
+          "index": 98841835,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:09.182+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101134&status=entered-in-error",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "ef9f40bd-fcf6-4d6c-ad00-68891afa541a",
+          "index": 98841836,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:09.192+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101135&status=proposed",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "4d8d841d-38ae-43ac-9d45-95bf1b9919a5",
+          "index": 98841837,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:09.202+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101135&status=active",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "d5a72f66-418d-4970-aac8-8b7c9c1bdc1a",
+          "index": 98841838,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:09.212+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101135&status=suspended",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "972cce14-03b5-4ba3-aa0b-fb8f21ad986c",
+          "index": 98841839,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:09.223+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101135&status=inactive",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "acf55110-1583-4635-8f2b-333be5b5166c",
+          "index": 98841840,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:09.234+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101135&status=entered-in-error",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "5e290f17-5ec2-46ec-86d7-e377dfc4e0aa",
+          "index": 98841841,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:09.244+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101136&status=proposed",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "9a276776-675d-4061-921a-de58708a1431",
+          "index": 98841842,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:09.253+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101136&status=active",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "ab5839e1-691c-4fb9-a837-47942d2f7d79",
+          "index": 98841843,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:09.264+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101136&status=suspended",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "62c71b36-4c4e-4b11-86fd-62b7aa77cf23",
+          "index": 98841844,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:09.274+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101136&status=inactive",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "0d8cdf22-a2aa-402c-ba05-66610d77ff17",
+          "index": 98841845,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:09.286+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101136&status=entered-in-error",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "ee11f55e-dda4-4859-a98b-1c3213c7e349",
+          "index": 98841846,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:09.296+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101137&status=proposed",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "842aa80b-0284-4540-bfda-2264aa63c304",
+          "index": 98841847,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:09.306+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101137&status=active",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "a8d35e77-f435-4f75-8291-3b4932b49abc",
+          "index": 98841848,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:09.316+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101137&status=suspended",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "ed759720-1fe8-4867-b8d1-ceb76eb65ffa",
+          "index": 98841849,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:09.327+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101137&status=inactive",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "bc55f1d5-9961-43e7-99e1-1c9007b449b5",
+          "index": 98841850,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:09.337+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101137&status=entered-in-error",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "33ed2434-207b-45a3-84f8-58c69d1828ed",
+          "index": 98841851,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:09.347+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101138&status=proposed",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "9ced6764-62f9-4fda-bde3-529075cd8554",
+          "index": 98841852,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:09.356+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101138&status=active",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "964b1256-d218-4e6d-b5a1-8d3d70950006",
+          "index": 98841853,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:09.367+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101138&status=suspended",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "fe6fa1cb-17ea-4f44-ad9a-f3077628b910",
+          "index": 98841854,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:09.376+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101138&status=inactive",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "2b30b9eb-211f-4825-a598-5351237498ef",
+          "index": 98841855,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:09.385+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101138&status=entered-in-error",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "b743b1d4-ee01-431e-9f1e-938449eb7b60",
+          "index": 98841856,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:09.395+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101139&status=proposed",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "ab5af082-4ebd-4eba-aa0c-041bb619fd37",
+          "index": 98841857,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:09.405+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101139&status=active",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "50923005-422c-4e03-baa6-fc174a72b7e7",
+          "index": 98841858,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:09.415+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101139&status=suspended",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "0cd243b3-9e8a-4d24-aca5-71be0802a7c1",
+          "index": 98841859,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:09.426+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101139&status=inactive",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "e564823f-7906-4574-9dfe-47a231728b1b",
+          "index": 98841860,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:09.435+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101139&status=entered-in-error",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "97774ffd-796a-417e-83cf-a887f4809497",
+          "index": 98841861,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:09.446+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101140&status=proposed",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "416dea43-a338-47fe-9dce-d59edf2f7dcc",
+          "index": 98841862,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:09.456+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101140&status=active",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "1a2339e9-811e-4ece-8f4e-b9fa217737fa",
+          "index": 98841863,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:09.466+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101140&status=suspended",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "a0864f75-109d-4e66-8e7c-de95db53e2af",
+          "index": 98841864,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:09.477+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101140&status=inactive",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "244a5e90-a688-4af1-a8ae-a0669fe3117b",
+          "index": 98841865,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:09.488+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101140&status=entered-in-error",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "9c600d8f-31a2-4f7e-9ab9-ee2dc1ad923a",
+          "index": 98841866,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:09.499+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101141&status=proposed",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "fceed315-c20f-413a-832e-5631ad1a76d2",
+          "index": 98841867,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:09.511+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101141&status=active",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "7d347424-9b40-40ff-b3cc-8d593ee8ae91",
+          "index": 98841868,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:09.522+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101141&status=suspended",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "598e8617-ef97-4b80-9892-6d67bef64ee9",
+          "index": 98841869,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:09.533+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101141&status=inactive",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "6be1fd51-1e00-4eca-bcc2-55cab78f9052",
+          "index": 98841870,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:09.543+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101141&status=entered-in-error",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "7f576f99-8e11-495b-bd39-1034b806f292",
+          "index": 98841871,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:09.554+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101142&status=proposed",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "eeef6e17-5109-4e17-8786-a6efbb74c9c8",
+          "index": 98841872,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:09.563+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101142&status=active",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "4b0ed57e-f8b3-4d3a-b9bd-f7080e08d2db",
+          "index": 98841873,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:09.575+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101142&status=suspended",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "29de92e6-ac75-4407-8d0f-a9b297d0abef",
+          "index": 98841874,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:09.584+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101142&status=inactive",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "6eecb3a4-cfdd-479a-886c-edb37fadb404",
+          "index": 98841875,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:09.595+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101142&status=entered-in-error",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "93f46ba8-acfd-4d16-95c6-27b3fefdccfa",
+          "index": 98841876,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:09.604+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101143&status=proposed",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "5949070d-ccd3-44b5-b37e-cc2c0ed4a905",
+          "index": 98841877,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:09.615+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101143&status=active",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "a7513abc-58ba-489d-9d79-53ab001ea65c",
+          "index": 98841878,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:09.625+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101143&status=suspended",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "c6574ee9-5ff3-44bd-a4f3-775a907c8a8f",
+          "index": 98841879,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:09.634+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101143&status=inactive",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "37f3a4f9-e101-4155-a244-28eacc6dcbd4",
+          "index": 98841880,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:09.644+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101143&status=entered-in-error",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "54d567a3-c8f9-496e-8a35-6b8d7dc17ab9",
+          "index": 98841881,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:09.654+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101144&status=proposed",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "422a1e5e-721b-4795-9be4-7488cce861a2",
+          "index": 98841882,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:09.664+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101144&status=active",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "67b8809e-53a2-4011-9bd8-a113de252b0b",
+          "index": 98841883,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:09.677+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101144&status=suspended",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "c39d01b1-e6fa-48f4-b2d0-8273a870294c",
+          "index": 98841884,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:09.686+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101144&status=inactive",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "0eb1dab9-0232-47c0-9e92-1b7aa289efb6",
+          "index": 98841885,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:09.698+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101144&status=entered-in-error",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "72f437a9-fc1c-467a-8a6f-41c4d9287366",
+          "index": 98841886,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:09.709+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101145&status=proposed",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "1465c6fb-5766-47ef-bc40-dbe8c8ede1f2",
+          "index": 98841887,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:09.720+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101145&status=active",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "16fe5f17-234f-432e-ab95-6122df91a6d5",
+          "index": 98841888,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:09.729+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101145&status=suspended",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "a7cda110-bea7-4144-a4e8-c6622fd6f9f8",
+          "index": 98841889,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:09.738+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101145&status=inactive",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "84c75144-f8a6-4619-8ae5-82f7f926a678",
+          "index": 98841890,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:09.747+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101145&status=entered-in-error",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "d8ce1112-7447-4497-a6c4-8bb16cc9ac3d",
+          "index": 98841891,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:09.758+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101146&status=proposed",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "b3dbd1e4-d0b7-43b1-9988-288e18f1acbe",
+          "index": 98841892,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:09.767+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101146&status=active",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "d285e0f6-1a5c-41fd-b027-c8df13381008",
+          "index": 98841893,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:09.777+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101146&status=suspended",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "66aca5d8-9d52-49d1-91ab-05c347120ab2",
+          "index": 98841894,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:09.787+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101146&status=inactive",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "1c5a3352-b0ab-40c6-a396-4d456e9e260e",
+          "index": 98841895,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:09.797+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101146&status=entered-in-error",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "ef2292a6-55f2-42fc-becb-ae21c21a65c4",
+          "index": 98841896,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:09.807+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101147&status=proposed",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "a86876f5-728a-41cf-8c98-d098726b33ca",
+          "index": 98841897,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:09.818+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101147&status=active",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "c98fbaf8-846e-40f4-8988-1b89f6e45329",
+          "index": 98841898,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:09.828+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101147&status=suspended",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "119787ad-4a76-41a7-a6c2-3309c24f2434",
+          "index": 98841899,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:09.838+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101147&status=inactive",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "f2e1f31c-9b14-497a-b1bf-8978be517ad8",
+          "index": 98841900,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:09.850+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101147&status=entered-in-error",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "fedc1089-6cb7-49de-8d0c-c014c16ffbfd",
+          "index": 98841901,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:09.859+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101148&status=proposed",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "a53666dd-5748-40b6-8e4b-f9a25d74d6e7",
+          "index": 98841902,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:09.868+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101148&status=active",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "c63758f6-6045-4eef-aa91-7a8dfe85ee42",
+          "index": 98841903,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:09.879+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101148&status=suspended",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "77429e63-7ead-44ed-89c6-788447981a86",
+          "index": 98841904,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:09.890+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101148&status=inactive",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "29b11733-534c-490a-b93d-53e83f52071b",
+          "index": 98841905,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:09.900+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101148&status=entered-in-error",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "cb044e48-e539-47a2-b13a-51c30a92b6a1",
+          "index": 98841906,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:09.909+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101149&status=proposed",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "45007f17-5518-4e35-b459-405ff0396a65",
+          "index": 98841907,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:09.919+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101149&status=active",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "ff9c0c7a-c0b6-4da7-bcf2-5a04578c943d",
+          "index": 98841908,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:09.930+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101149&status=suspended",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "76d01ad0-ef61-4d8b-93bf-5d74781654cf",
+          "index": 98841909,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:09.939+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101149&status=inactive",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "bedb33f2-aa41-4ade-89cd-a43da6feb1e3",
+          "index": 98841910,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:09.950+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101149&status=entered-in-error",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "6abaa42a-22ac-4382-a10f-44fdab1f32f8",
+          "index": 98841911,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:09.960+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101150&status=proposed",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "14b35bc8-6f42-4c1a-993f-2e136406a1af",
+          "index": 98841912,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:09.970+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101150&status=active",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "18c57921-e59f-45fd-9b8c-8ba244c80322",
+          "index": 98841913,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:09.980+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101150&status=suspended",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "0b583b70-60e1-46be-98fc-51256836adb4",
+          "index": 98841914,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:09.991+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101150&status=inactive",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "1b414942-8aec-4e78-bba4-b8c31cb33b09",
+          "index": 98841915,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:10.000+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101150&status=entered-in-error",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "607adb6d-54e8-4578-91a5-95403c909d25",
+          "index": 98841916,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:10.009+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101151&status=proposed",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "67fc43cf-0399-4de3-a52c-3fe7c1a7c162",
+          "index": 98841917,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:10.019+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101151&status=active",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "6b6607d9-35ef-422d-b931-9d2a2a414eb5",
+          "index": 98841918,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:10.031+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101151&status=suspended",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "725ce2d8-f104-48c3-9671-1f7acbc0bc24",
+          "index": 98841919,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:10.040+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101151&status=inactive",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "4a6600f3-59ee-4cb0-8db0-674cd9b30452",
+          "index": 98841920,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:10.051+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101151&status=entered-in-error",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "95100797-e378-4127-ab6d-6a892194f4a0",
+          "index": 98841921,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:10.062+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101152&status=proposed",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "92806682-c6a1-4a60-8a3c-e302665fdd82",
+          "index": 98841922,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:10.072+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101152&status=active",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "6bf8d4af-2dd4-4a41-80af-11b848f43e6d",
+          "index": 98841923,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:10.084+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam/_search",
+          "verb": "post"
+        },
+        {
+          "direction": "outgoing",
+          "id": "28b8613b-f01e-4eb9-a1f2-f88be28f5747",
+          "index": 98841924,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:10.096+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=Patient/101152&status=active",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "e1e07236-892a-4222-aac5-a39d4c5fbdec",
+          "index": 98841925,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:10.105+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101152&status=suspended",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "13723a9c-c20f-4c5e-8fa6-a4536a7cb438",
+          "index": 98841926,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:10.117+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101152&status=inactive",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "15e4c480-73ef-413d-8459-370d7c11650d",
+          "index": 98841927,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:10.128+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101152&status=entered-in-error",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "1301d21c-d6c9-41f8-a425-71f97d40b859",
+          "index": 98841928,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:10.211+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101153&status=proposed",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "65655a83-fe79-44f7-a28d-1bd127463375",
+          "index": 98841929,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:10.222+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101153&status=active",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "e9ada547-30b7-4d54-aa09-54597829ea90",
+          "index": 98841930,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:10.232+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101153&status=suspended",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "8f9220e4-91ea-41e5-bc94-0ca9766f4b34",
+          "index": 98841931,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:10.245+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101153&status=inactive",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "cb6d4d7f-11ba-4543-8452-ff3543e60280",
+          "index": 98841932,
+          "result_id": "3edd15dd-f4a3-4ff3-bac1-475f9a745565",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:10.257+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?patient=101153&status=entered-in-error",
+          "verb": "get"
+        }
+      ],
+      "result": "pass",
+      "test_id": "us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_care_team-us_quality_core_v050_care_team_patient_status_search_test",
+      "test_run_id": "3996845c-b972-469c-812d-2ab13bed4c84",
+      "test_session_id": "d4GhDjH0tmK",
+      "updated_at": "2026-10-12T18:12:08.914+00:00"
+    },
+    {
+      "created_at": "2026-10-12T18:12:10.373+00:00",
+      "id": "5ab40d1c-a4a0-4083-872b-5cab8add41c3",
+      "inputs": [
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://devfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"name\":\"smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [
+        {
+          "direction": "outgoing",
+          "id": "c0a6902c-cf2b-47cf-b32f-b23c327fd0dd",
+          "index": 98841933,
+          "result_id": "5ab40d1c-a4a0-4083-872b-5cab8add41c3",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:10.376+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam/careteam-pcp",
+          "verb": "get"
+        }
+      ],
+      "result": "pass",
+      "test_id": "us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_care_team-us_quality_core_v050_care_team_read_test",
+      "test_run_id": "3996845c-b972-469c-812d-2ab13bed4c84",
+      "test_session_id": "d4GhDjH0tmK",
+      "updated_at": "2026-10-12T18:12:10.373+00:00"
+    },
+    {
+      "created_at": "2026-10-12T18:12:21.538+00:00",
+      "id": "d1ff8a11-a19a-45de-8eb6-bdc725bc437e",
+      "inputs": [
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://devfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"name\":\"smart_auth_info\"}"
+        }
+      ],
+      "messages": [
+        {
+          "message": "CareTeam/careteam-pcp: CareTeam: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)",
+          "type": "warning"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [],
+      "result": "pass",
+      "test_id": "us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_care_team-us_quality_core_v050_care_team_validation_test",
+      "test_run_id": "3996845c-b972-469c-812d-2ab13bed4c84",
+      "test_session_id": "d4GhDjH0tmK",
+      "updated_at": "2026-10-12T18:12:21.538+00:00"
+    },
+    {
+      "created_at": "2026-10-12T18:12:21.547+00:00",
+      "id": "5cf3ecb5-d07d-4344-915b-9057a8ad4228",
+      "inputs": [
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://devfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"name\":\"smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [],
+      "result": "pass",
+      "test_id": "us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_care_team-us_quality_core_v050_care_team_must_support_test",
+      "test_run_id": "3996845c-b972-469c-812d-2ab13bed4c84",
+      "test_session_id": "d4GhDjH0tmK",
+      "updated_at": "2026-10-12T18:12:21.547+00:00"
+    },
+    {
+      "created_at": "2026-10-12T18:12:21.823+00:00",
+      "id": "b881c373-279b-481d-8459-019646efdbce",
+      "inputs": [
+        {
+          "description": "Comma separated list of patient IDs that in sum contain all MUST SUPPORT elements",
+          "label": "Patient IDs",
+          "name": "patient_ids",
+          "type": "text",
+          "value": "101130,101131,101132,101133,101134,101135,101136,101137,101138,101139,101140,101141,101142,101143,101144,101145,101146,101147,101148,101149,101150,101151,101152,101153"
+        },
+        {
+          "description": "URL of the FHIR endpoint",
+          "label": "FHIR Endpoint",
+          "name": "url",
+          "type": "text",
+          "value": "https://devfhir.vistaplex.org/fhir"
+        },
+        {
+          "description": null,
+          "label": "OAuth Credentials",
+          "name": "smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"name\":\"smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [],
+      "result": "skip",
+      "test_group_id": "us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_care_team",
+      "test_run_id": "3996845c-b972-469c-812d-2ab13bed4c84",
+      "test_session_id": "d4GhDjH0tmK",
+      "updated_at": "2026-10-12T18:12:21.823+00:00"
+    },
+    {
+      "created_at": "2026-10-12T18:12:21.796+00:00",
+      "id": "931b5510-5c5e-4950-9d2e-ec714c6fff18",
+      "inputs": [
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://devfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"name\":\"smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [
+        {
+          "direction": "outgoing",
+          "id": "cf06599f-cc87-455d-98bc-dad6fc71d761",
+          "index": 98842063,
+          "result_id": "931b5510-5c5e-4950-9d2e-ec714c6fff18",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:21.799+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/Patient/101152",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "fee65d49-f4f7-499d-a2fb-f20241ac5627",
+          "index": 98842064,
+          "result_id": "931b5510-5c5e-4950-9d2e-ec714c6fff18",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:21.812+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/Practitioner/pract-chen",
+          "verb": "get"
+        }
+      ],
+      "result": "skip",
+      "result_message": "Could not resolve and validate any Must Support references for participant.member element: Reference",
+      "test_id": "us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_care_team-us_quality_core_v050_care_team_reference_resolution_test",
+      "test_run_id": "3996845c-b972-469c-812d-2ab13bed4c84",
+      "test_session_id": "d4GhDjH0tmK",
+      "updated_at": "2026-10-12T18:12:21.796+00:00"
+    },
+    {
+      "created_at": "2026-10-12T18:12:20.039+00:00",
+      "id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+      "inputs": [
+        {
+          "name": "patient_ids",
+          "type": "text",
+          "value": "101130,101131,101132,101133,101134,101135,101136,101137,101138,101139,101140,101141,101142,101143,101144,101145,101146,101147,101148,101149,101150,101151,101152,101153"
+        },
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://devfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"name\":\"smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [
+        {
+          "direction": "outgoing",
+          "id": "fd39a1b7-0094-4ca5-b26e-28b97a15f3f1",
+          "index": 98841940,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:20.041+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101130&status=proposed",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "86678e6c-1c91-4d2c-b782-4c630af1417c",
+          "index": 98841941,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:20.056+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101130&status=active",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "01058ccc-aa76-43e4-b00d-87453244110d",
+          "index": 98841942,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:20.067+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101130&status=suspended",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "15cd812b-e6a0-402f-b3d1-8798d2de06c6",
+          "index": 98841943,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:20.078+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101130&status=inactive",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "c197dc69-1795-42c1-9b4b-2a45965a517e",
+          "index": 98841944,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:20.087+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101130&status=entered-in-error",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "02246430-8f89-4b59-aa50-22f338852858",
+          "index": 98841945,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:20.098+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101131&status=proposed",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "a74988e6-d405-4624-92da-1ad0b8bde6fc",
+          "index": 98841946,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:20.107+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101131&status=active",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "0afe095c-a9d8-4e31-b822-55caec7afec6",
+          "index": 98841947,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:20.118+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101131&status=suspended",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "0cf92b55-0ccc-4fbb-b990-5ce04e6e937e",
+          "index": 98841948,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:20.129+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101131&status=inactive",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "e4a60a4f-d468-4181-a41e-8d63ba89dfff",
+          "index": 98841949,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:20.140+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101131&status=entered-in-error",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "06981e41-fc6b-4bf8-8489-2b4e75adc227",
+          "index": 98841950,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:20.154+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101132&status=proposed",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "30d635b5-c3a9-4b06-99df-491fc27a04f5",
+          "index": 98841951,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:20.165+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101132&status=active",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "317ff6f7-a236-4bb3-bd0b-8735325dd6e5",
+          "index": 98841952,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:20.178+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101132&status=suspended",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "940c6c69-5f53-4b81-9a89-85ce40cc74d5",
+          "index": 98841953,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:20.190+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101132&status=inactive",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "f696ad4a-527e-4374-aaf5-9da34654049a",
+          "index": 98841954,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:20.202+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101132&status=entered-in-error",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "d87f671e-7fc4-4af7-bd21-9b6aba9251dc",
+          "index": 98841955,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:20.212+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101133&status=proposed",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "a916f69c-ff12-429f-bdec-e7d6aaf9174a",
+          "index": 98841956,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:20.222+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101133&status=active",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "1732c1cd-6b30-49cb-9712-61e46d371527",
+          "index": 98841957,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:20.232+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101133&status=suspended",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "5fc683a7-1180-4eb8-acc9-be83672cf5fb",
+          "index": 98841958,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:20.243+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101133&status=inactive",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "f95c4c49-cb09-4bb9-8ecd-39acc507a95e",
+          "index": 98841959,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:20.252+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101133&status=entered-in-error",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "cee87f49-58a1-4d6a-93b0-c1dd8857e464",
+          "index": 98841960,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:20.264+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101134&status=proposed",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "25250984-d845-442c-9035-394f4f32e979",
+          "index": 98841961,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:20.279+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101134&status=active",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "087f54a6-6d7e-4e6d-a1de-8bc1692d9e6f",
+          "index": 98841962,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:20.289+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101134&status=suspended",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "7dae8306-a992-45f6-8595-9644b84ba61f",
+          "index": 98841963,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:20.299+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101134&status=inactive",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "d1bc8812-426f-4b2a-a726-bd1feb263717",
+          "index": 98841964,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:20.310+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101134&status=entered-in-error",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "329b6fe5-c566-46e2-baec-657bf87d0685",
+          "index": 98841965,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:20.320+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101135&status=proposed",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "dbd49397-477d-4ebf-8e7c-ffd6b6164ae8",
+          "index": 98841966,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:20.332+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101135&status=active",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "1c4cabc2-12c5-4305-bdf8-e325b42cbe3a",
+          "index": 98841967,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:20.343+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101135&status=suspended",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "0f13ce7e-a826-465c-8519-0c2eb3292d23",
+          "index": 98841968,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:20.356+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101135&status=inactive",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "8dab7d48-30c9-43e9-b776-24901489b2cf",
+          "index": 98841969,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:20.370+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101135&status=entered-in-error",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "725fcdfb-79e3-49d4-9fac-b810fb5c096a",
+          "index": 98841970,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:20.385+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101136&status=proposed",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "66212826-e976-4a09-8872-0cccf46b4730",
+          "index": 98841971,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:20.398+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101136&status=active",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "0dd2e782-8404-47ef-aea3-b907f6b5575d",
+          "index": 98841972,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:20.410+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101136&status=suspended",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "bc0b9379-92b2-4a9c-b9e9-f0d87495605e",
+          "index": 98841973,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:20.421+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101136&status=inactive",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "8dbb5b0a-fdfb-4a96-a2d3-857815e98ef9",
+          "index": 98841974,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:20.434+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101136&status=entered-in-error",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "1ed3a760-38d8-4bd0-af7b-2a7bac0fc004",
+          "index": 98841975,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:20.445+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101137&status=proposed",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "ecfa7d5f-c20b-4599-bed3-3c34fdc17c3b",
+          "index": 98841976,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:20.535+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101137&status=active",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "c849f625-733b-4041-94ae-44c2337b6894",
+          "index": 98841978,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:20.548+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101137&status=suspended",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "f5a66711-f2b0-4e09-8acf-ac24fb249500",
+          "index": 98841979,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:20.559+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101137&status=inactive",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "42a81ef6-eee6-4285-8441-ed74f915bb9f",
+          "index": 98841981,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:20.571+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101137&status=entered-in-error",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "d9e78b92-2fa1-4555-be4f-a3ec81550068",
+          "index": 98841982,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:20.582+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101138&status=proposed",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "d3f4f009-90e3-47a0-a18f-273ce976e366",
+          "index": 98841983,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:20.595+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101138&status=active",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "c4f9a44e-70e3-4bd7-8101-57a979487e46",
+          "index": 98841984,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:20.609+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101138&status=suspended",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "401c9d49-c65a-45d9-bf45-5b1b8a11b906",
+          "index": 98841985,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:20.648+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101138&status=inactive",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "e05c4d89-f863-493a-a722-d98c4009890b",
+          "index": 98841986,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:20.657+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101138&status=entered-in-error",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "09ff5a37-6b9b-4105-8b9e-5f73976c9aa9",
+          "index": 98841987,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:20.670+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101139&status=proposed",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "516d01f7-401f-48a1-8765-7fc28026f5be",
+          "index": 98841988,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:20.681+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101139&status=active",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "4f6a6c0f-0bb4-4ad5-86be-e15dfceb93b2",
+          "index": 98841989,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:20.693+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101139&status=suspended",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "9fb17c8f-bf25-461a-a76c-fed27dc43320",
+          "index": 98841990,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:20.703+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101139&status=inactive",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "cfa9d5f8-5f2b-4401-9570-9821c3a241b1",
+          "index": 98841991,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:20.715+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101139&status=entered-in-error",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "d1896a4d-bcc5-48eb-b7d3-fb741331949c",
+          "index": 98841992,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:20.731+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101140&status=proposed",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "78f94644-c8ed-48c8-8d9c-2f77ed47377e",
+          "index": 98841993,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:20.743+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101140&status=active",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "f4454946-b281-4d97-8e04-c7ae4b69ff3e",
+          "index": 98841994,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:20.754+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101140&status=suspended",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "40050430-8627-40f5-b660-e48217270e37",
+          "index": 98841995,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:20.766+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101140&status=inactive",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "9fccd7ec-e7f8-40de-9f5b-915a85139856",
+          "index": 98841996,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:20.778+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101140&status=entered-in-error",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "dec92b25-c6fa-48b1-8924-8743bb84ea07",
+          "index": 98841997,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:20.789+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101141&status=proposed",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "e31dab43-ceba-4194-ba5c-a5e48ad9d0a6",
+          "index": 98841998,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:20.798+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101141&status=active",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "a9aad20e-1946-4faf-aadd-8c583c99234e",
+          "index": 98841999,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:20.807+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101141&status=suspended",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "2ddc703d-aace-48c0-aafe-a2a6188eb8c8",
+          "index": 98842000,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:20.818+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101141&status=inactive",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "b943534c-57a7-497d-abed-1359619690f7",
+          "index": 98842001,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:20.827+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101141&status=entered-in-error",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "2bf1e53c-7784-4fac-8ea3-4cdf535ef184",
+          "index": 98842002,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:20.840+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101142&status=proposed",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "d02125f7-88d1-4b7e-aa1e-c930bf3ab244",
+          "index": 98842003,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:20.852+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101142&status=active",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "9b9c8b56-ce0b-43d8-87ef-0c21e3f90536",
+          "index": 98842004,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:20.864+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101142&status=suspended",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "5ac599d1-340c-45fb-905a-b4152f90c638",
+          "index": 98842005,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:20.876+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101142&status=inactive",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "e79e9c59-eae1-4e41-8954-ecd9555c86d4",
+          "index": 98842006,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:20.886+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101142&status=entered-in-error",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "8cbc159f-d3ee-49f8-af6b-d830d6af764f",
+          "index": 98842007,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:20.898+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101143&status=proposed",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "fe68e3bb-1fb5-42ff-a620-4da265431013",
+          "index": 98842008,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:20.909+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101143&status=active",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "f38d1d82-f116-4d2f-bbb1-dbc71a2ec204",
+          "index": 98842009,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:20.919+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101143&status=suspended",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "7af8f61b-a4f0-4038-9862-572b0138b2de",
+          "index": 98842010,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:20.931+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101143&status=inactive",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "cff5b1eb-c2de-41b7-b3f1-749d6c178900",
+          "index": 98842011,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:20.942+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101143&status=entered-in-error",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "0886700d-e28f-4b00-b8ab-f268bdeb51b5",
+          "index": 98842012,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:20.954+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101144&status=proposed",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "2f45c532-c9f3-4d34-9f33-8bc322de56e4",
+          "index": 98842013,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:20.966+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101144&status=active",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "3fa08364-448f-43c6-bedf-cd1333626c69",
+          "index": 98842014,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:20.977+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101144&status=suspended",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "7ad03e2e-e6d6-4ca0-b933-54aef6a32a35",
+          "index": 98842015,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:20.987+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101144&status=inactive",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "aef280fd-13e6-42a6-8afa-6d163f869107",
+          "index": 98842016,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:20.998+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101144&status=entered-in-error",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "2e80b518-75b2-4ba8-bcfe-cd3610eedcf7",
+          "index": 98842017,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:21.009+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101145&status=proposed",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "1e6017fd-a087-40e3-a2fd-2d1a5b896d3f",
+          "index": 98842018,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:21.022+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101145&status=active",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "856d1601-5983-4e2b-b35e-361623ccdcb9",
+          "index": 98842019,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:21.033+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101145&status=suspended",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "e55bb15f-b5b1-4aab-b1d6-3f0fd2c53c60",
+          "index": 98842020,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:21.044+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101145&status=inactive",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "2bcc7dae-f357-4d55-a326-fa2c5152f32f",
+          "index": 98842021,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:21.054+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101145&status=entered-in-error",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "ec47ff1b-a9b0-4cc9-828c-76ec146ffea7",
+          "index": 98842022,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:21.065+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101146&status=proposed",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "837325d4-b4ed-4506-972d-81e9770a253a",
+          "index": 98842023,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:21.075+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101146&status=active",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "4c3c4b62-cb00-4e46-8f32-49b1376eff47",
+          "index": 98842024,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:21.084+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101146&status=suspended",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "8523c300-1a86-4807-a7af-86e16a9454de",
+          "index": 98842025,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:21.095+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101146&status=inactive",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "aaf207f7-d400-4812-adf5-d954813032d0",
+          "index": 98842026,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:21.107+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101146&status=entered-in-error",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "8142d360-ff9a-42b2-97b7-7c72b30f9700",
+          "index": 98842027,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:21.119+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101147&status=proposed",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "0c8dfaa3-e2dc-4944-a4b6-f7e323b2c4e6",
+          "index": 98842028,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:21.131+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101147&status=active",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "8764ccfb-ff71-4f94-b76e-18b27c89f9ce",
+          "index": 98842029,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:21.144+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101147&status=suspended",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "fbb67ebe-39cd-45e7-9e0f-7aa673c96540",
+          "index": 98842030,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:21.155+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101147&status=inactive",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "406757fd-17f0-4cfc-b860-f8aed96ae53b",
+          "index": 98842031,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:21.166+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101147&status=entered-in-error",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "ec2e96b9-f19d-4e14-b9fa-47d8d8b2deba",
+          "index": 98842032,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:21.175+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101148&status=proposed",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "b9fb959d-3212-4f2e-a238-18468b3cf877",
+          "index": 98842033,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:21.187+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101148&status=active",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "7649d466-8ede-4dfe-822e-695df6b3add2",
+          "index": 98842034,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:21.198+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101148&status=suspended",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "0e06cc2b-c59e-4c71-8253-68f9be4dc595",
+          "index": 98842035,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:21.210+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101148&status=inactive",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "62af37a7-6908-4333-8557-1fb6137eb0d6",
+          "index": 98842036,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:21.221+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101148&status=entered-in-error",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "c1091aab-094b-49b3-802e-b0dbfec4a85f",
+          "index": 98842037,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:21.231+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101149&status=proposed",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "8b388eb0-bfe5-46d3-8bac-c63de3d4d508",
+          "index": 98842038,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:21.241+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101149&status=active",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "6a97662e-7b1c-4b9e-ac98-1dc167b03cd5",
+          "index": 98842039,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:21.252+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101149&status=suspended",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "ddee3d07-4e3a-439e-af48-0632c7bdbd04",
+          "index": 98842040,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:21.264+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101149&status=inactive",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "d4c8923d-c6f6-4825-a553-10236b0f546a",
+          "index": 98842041,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:21.275+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101149&status=entered-in-error",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "9ccbdc3c-d9fb-4e90-9f8f-89394ecf0712",
+          "index": 98842042,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:21.286+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101150&status=proposed",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "36f642bc-b99e-47e7-b688-d3dbdb80e893",
+          "index": 98842043,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:21.295+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101150&status=active",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "596071f8-4b79-4e22-b1b3-d574b7392b7c",
+          "index": 98842044,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:21.304+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101150&status=suspended",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "f5e5501e-cab1-41cb-a460-1b1fd5c7a157",
+          "index": 98842045,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:21.314+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101150&status=inactive",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "277536f1-4cfd-48ea-84e7-aeeaa93273a6",
+          "index": 98842046,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:21.323+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101150&status=entered-in-error",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "2f390926-040c-4b2a-8ed2-1a8c7b299453",
+          "index": 98842047,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:21.334+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101151&status=proposed",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "f560c97f-7c42-4d0f-a0ab-3ecff81fe594",
+          "index": 98842048,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:21.344+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101151&status=active",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "c43519e0-9d64-46c9-8755-25fa375d2d8f",
+          "index": 98842049,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:21.355+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101151&status=suspended",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "d0ed40f6-25bc-4f39-b08a-f6576196d421",
+          "index": 98842050,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:21.368+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101151&status=inactive",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "116a33ca-08d1-47bf-abc2-f2a41d6a8c71",
+          "index": 98842051,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:21.377+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101151&status=entered-in-error",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "89213bca-f353-407b-9c44-bc8a4c419d3a",
+          "index": 98842052,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:21.386+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101152&status=proposed",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "c25ad0ab-ad01-4750-b6ff-4a6ae2eec74a",
+          "index": 98842053,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:21.396+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101152&status=active",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "66c8b157-4575-4a35-b98c-68f0adbefa71",
+          "index": 98842054,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:21.407+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101152&status=suspended",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "7b88b51f-b20b-4679-9ffe-de0b2a065407",
+          "index": 98842055,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:21.416+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101152&status=inactive",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "8d0f03ef-caa1-4f40-aa57-2bd34bba47b5",
+          "index": 98842056,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:21.428+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101152&status=entered-in-error",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "3962f037-1e2d-4507-9d60-1ca63ad7fcac",
+          "index": 98842057,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:21.437+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101153&status=proposed",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "3ad4f48f-8fee-421c-8ffc-5d81515ce041",
+          "index": 98842058,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:21.446+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101153&status=active",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "79bfb666-71d2-4b87-b03d-21dee8252c36",
+          "index": 98842059,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:21.458+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101153&status=suspended",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "ecd65c7e-496b-4222-bafc-6e63e11bffb9",
+          "index": 98842060,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:21.469+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101153&status=inactive",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "e876fb29-8c01-4d7c-8a26-821ebab18694",
+          "index": 98842061,
+          "result_id": "8c81300d-91d3-43d1-a198-1ed6a6f78e1f",
+          "status": 200,
+          "timestamp": "2026-10-12T18:12:21.480+00:00",
+          "url": "https://devfhir.vistaplex.org/fhir/CareTeam?_revinclude=Provenance:target&patient=101153&status=entered-in-error",
+          "verb": "get"
+        }
+      ],
+      "result": "pass",
+      "test_id": "us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_care_team-us_quality_core_v050_care_team_provenance_revinclude_search_test",
+      "test_run_id": "3996845c-b972-469c-812d-2ab13bed4c84",
+      "test_session_id": "d4GhDjH0tmK",
+      "updated_at": "2026-10-12T18:12:20.039+00:00"
+    }
+  ],
+  "run_id": "3996845c-b972-469c-812d-2ab13bed4c84",
+  "session_id": "d4GhDjH0tmK",
+  "session_url": "https://inferno.healthit.gov/suites/us_quality_core_v050/d4GhDjH0tmK",
+  "status": {
+    "id": "3996845c-b972-469c-812d-2ab13bed4c84",
+    "inputs": null,
+    "results": null,
+    "status": "done",
+    "test_count": 6,
+    "test_group_id": "us_quality_core_v050-us_quality_core_v050_fhir_api-us_quality_core_v050_care_team",
+    "test_session_id": "d4GhDjH0tmK"
+  },
+  "url": "https://devfhir.vistaplex.org/fhir"
+}
