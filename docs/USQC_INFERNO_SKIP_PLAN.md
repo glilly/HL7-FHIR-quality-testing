@@ -1,6 +1,6 @@
 # US Quality Core — skip plan (fhirdev `/fhir`, ZZ cohort)
 
-Status: **steps 0–4 measured** (2026-10-12) on group reruns. Not a new full-suite session, so 34.7% of 498 is still the official rate. Replacing the baseline rows these groups touched would be **210 pass, 1 fail, 287 skip (42.2%)**.  
+Status: **pass 2 measured** (2026-10-12). Full suite [fe4WObX47az](https://inferno.healthit.gov/suites/us_quality_core_v050/fe4WObX47az) is **246 pass, 0 fail, 252 skip (49.4% of 498)**. Baseline [ii7aiQNhNnY](https://inferno.healthit.gov/suites/us_quality_core_v050/ii7aiQNhNnY) was 173/498 (34.7%). Scorecard: `2026/scorecards/inferno/usquality-v050-fhirdev-fhir-zz-20261012-pass2b.json`.  
 This file is the record of which skipped tests we take next, what code change each one needs, and the pass rate after each step. Server edits land in `VistA-FHIR-Server-Codex` (and `cds-hooks-on-fhir` when a quality action writes the resource). Update the progress log in this file when a single test is rerun.
 
 Baseline session: [US Quality Core `ii7aiQNhNnY`](https://inferno.healthit.gov/suites/us_quality_core_v050/ii7aiQNhNnY)  
@@ -147,3 +147,45 @@ What is still skipped, and why:
 | 2 | measured 2026-10-12 | Graph BMI `39156-5` is kept and tagged `us-core-bmi`. Display is `Body mass index (BMI) [Ratio]` (`LOINCNM^C0FHIRLG`). The first run failed validation on the short display; the rerun passed. | +9. [3ypr83ApyaR](https://inferno.healthit.gov/suites/us_quality_core_v050/3ypr83ApyaR): 10 pass, 0 fail, 0 skip. |
 | 3 | measured 2026-10-12 | `C0FHIRM` sets `us-quality-core-medicationrequest` on the read. | +0. Intent search still skipped. |
 | 4 | measured 2026-10-12 | `GETGRPCL^C0FHIRLG` copies Coverage, CareTeam, RelatedPerson, Goal, CarePlan, ServiceRequest, and Provenance from the intake graph. Coverage `beneficiary` is indexed as `patient`. ServiceRequest with no category gets SNOMED `3457005`. | +24 and 1 fail. See the measured table. |
+| 5 | measured 2026-10-12 | Pass 2. Systolic `dataAbsentReason`, Goal dates, CareTeam `Practitioner/P1`, CarePlan narrative, RelatedPerson (`natural daughter`, string postalCode), ServiceRequest `doNotPerform` plus mammogram and `reasonReference`. Coverage payor `Organization/org-clinic` is emitted so the read cache can return it. Coverage member id and class stay deferred. | Full suite [fe4WObX47az](https://inferno.healthit.gov/suites/us_quality_core_v050/fe4WObX47az): **246 pass, 0 fail, 252 skip (49.4%)**. |
+
+## Pass 2
+
+The first pass left these. Coverage is not in this pass. The chart Coverage has no member id or plan class, and those fields have to come from VistA, not from a filled-in example.
+
+A group’s later tests use the resources returned by its first search. MedicationRequest’s first search is `patient` + `intent` + `do-not-perform=false`, and it tries `intent=proposal` before `intent=order`. ServiceRequest’s first search is `patient` + `do-not-perform=false`. Both returned nothing, so every test after them skipped. The orders we already return never set `doNotPerform`.
+
+Organization must-support reads `Organization/VISTA-LAB`, the lab performer. That resource is built by `GRPLABORG` and does not go through `ORGMS`. Running the Organization group by itself still finds nothing, because those tests only read organizations saved from earlier groups in the same session.
+
+| Item | What pass 2 changes |
+| --- | --- |
+| Blood pressure | Copy `dataAbsentReason` onto the systolic component (`8480-6`) when the chart put it on diastolic. |
+| Organization | `GRPLABORG` calls `ORGMS`, so `VISTA-LAB` has NPI, CCN, EIN, telecom, address, and endpoint. |
+| MedicationRequest | Set `doNotPerform=false`, category `community`, and a Provenance target so the first search and the revinclude have something to return. |
+| Goal | The ZZ generator never set `startDate` or `target.dueDate`. The read fills `2021-10-12` and `2026-10-06` when the graph resource is missing them. |
+| CareTeam | `participant.member` `Practitioner/pract-chen` does not resolve. Point it at `Practitioner/P1`. |
+| CarePlan | Narrative `text.status` / `text.div` from the plan title, which is the category display. |
+| RelatedPerson | Set `active`, phone `555-010-0000`, and `1 Fictitious Lane`. |
+| ServiceRequest | Set `doNotPerform=false` and category SNOMED `386053000` (Evaluation procedure), which is in the suite’s category list. Add `ServiceRequest/sr-mammo` (SNOMED `71651007` Mammography) for a woman about 40 or older. Point `reasonReference` at `Condition/C{problem IEN}` from `^AUPNPROB("AC",DFN)`. |
+
+### Measured 2026-10-12
+
+`C0FHIRLG` XINDEX on fhirdev: 606 lines, checksum `B548071980`, no F lines. The SAC size warnings on that routine were already there. Scorecards: `2026/scorecards/inferno/skip-20261012-pass2/`.
+
+| Group | Session | Result |
+| --- | --- | --- |
+| Blood pressure | [hymee7ORxm4](https://inferno.healthit.gov/suites/us_quality_core_v050/hymee7ORxm4) | 10 pass, 0 fail, 0 skip |
+| MedicationRequest | [cCU5EyyZ7eT](https://inferno.healthit.gov/suites/us_quality_core_v050/cCU5EyyZ7eT) | 6 pass, 0 fail, 2 skip |
+| Goal | [cBEfC46Lrfm](https://inferno.healthit.gov/suites/us_quality_core_v050/cBEfC46Lrfm) | 7 pass, 0 fail, 0 skip |
+| CareTeam | [blDi7xSvD6v](https://inferno.healthit.gov/suites/us_quality_core_v050/blDi7xSvD6v) | 7 pass, 0 fail, 0 skip |
+| CarePlan | [ffyI9TXXW7m](https://inferno.healthit.gov/suites/us_quality_core_v050/ffyI9TXXW7m) | 7 pass, 0 fail, 0 skip |
+| RelatedPerson | [3F8p2JhRW9F](https://inferno.healthit.gov/suites/us_quality_core_v050/3F8p2JhRW9F) | 8 pass, 0 fail, 0 skip |
+| ServiceRequest | [242sxjf2pp4](https://inferno.healthit.gov/suites/us_quality_core_v050/242sxjf2pp4) | 12 pass, 0 fail, 0 skip |
+
+Blood pressure copies `dataAbsentReason` onto the systolic component `8480-6`. Goal `startDate` is `2021-10-12` and `target.dueDate` is `2026-10-06` when the chart left them off. CareTeam `participant.member` is `Practitioner/P1` (PROGRAMMER,ONE). CarePlan narrative comes from the plan title. RelatedPerson is active, phone `555-010-0000`, address `1 Fictitious Lane`, and the v3-RoleCode `DAU` display is `natural daughter`. `postalCode` is forced to a JSON string. ServiceRequest code `719858009` displays `Telehealth monitoring`. The mammogram order is `ServiceRequest/sr-mammo`.
+
+Two skips remain in MedicationRequest, and they are the same row twice (the must-support test and the group rollup). The 94 returned orders have no `reportedReference`, `encounter`, `reasonCode`, `reasonReference`, or a full `dosageInstruction` (timing.repeat, route, doseAndRate) or `dispenseRequest.validityPeriod`. The search, read, validation, and provenance revinclude passed. Coverage must-support is unchanged and deferred: no member id and no class group or plan. Those have to come from VistA.
+
+The full suite read `Organization/org-clinic` because that is the Coverage payor on the ZZ chart, and the read cache had no such resource (`OperationOutcome`, HTTP 200). Session [2bfwuqqpVIp](https://inferno.healthit.gov/suites/us_quality_core_v050/2bfwuqqpVIp) was 241 pass, 5 fail, 252 skip; those five fails were that read and its rollups. `CVPAY` now adds that payor with the same NPI, CCN, EIN, telecom, address, and endpoint as `VISTA-LAB`. A direct read of `Organization/org-clinic` returns Organization `Fictitious Clinic`. `C0FHIRLG` XINDEX after that change: 617 lines, checksum `B558324621`, no F lines.
+
+Confirming suite [fe4WObX47az](https://inferno.healthit.gov/suites/us_quality_core_v050/fe4WObX47az): **246 pass, 0 fail, 252 skip (49.4%)**. Organization validation, read, and must-support all passed. Coverage payor reference resolution passed. Coverage must-support still skips (member id and class group/plan). MedicationRequest must-support still skips (the dosage, encounter, and reason fields above). Scorecard: `2026/scorecards/inferno/usquality-v050-fhirdev-fhir-zz-20261012-pass2b.json`.
