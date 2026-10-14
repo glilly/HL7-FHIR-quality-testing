@@ -27,6 +27,8 @@ Authoritative demo host: **`devfhir.vistaplex.org`** (`fhirdev22`).
 
 ## What is working today
 
+**Update 2026-10-14.** US Quality Core v0.5.0 on fhirdev `/fhir`, ZZ patients `101130`–`101163`: **446 pass, 0 fail, 52 skip (89.6% of 498)**. Session [88Gj3JAQF4o](https://inferno.healthit.gov/suites/us_quality_core_v050/88Gj3JAQF4o). Step log: `docs/USQC_INFERNO_SKIP_PLAN.md`. Scorecard: `2026/scorecards/inferno/usquality-v050-fhirdev-fhir-zz-20261014-pass4.json`. The same night the six dashboards were reevaluated; denominator-not-numerator is about a quarter on CMS122, CMS125, CMS130, CMS138, and CMS165, and 13 of 31 on CMS2.
+
 - Full pipeline docs and scripts for 1000-patient Synthea ingest
   (`load=0` graph → enrich → `load=1` VistA) on fhirdev.
 - Official 2026 EC eCQM package fetch; first-wave QDM measures available

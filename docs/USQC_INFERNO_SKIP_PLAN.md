@@ -1,6 +1,6 @@
 # US Quality Core — skip plan (fhirdev `/fhir`, ZZ cohort)
 
-Status: **pass 2 measured** (2026-10-12). Full suite [fe4WObX47az](https://inferno.healthit.gov/suites/us_quality_core_v050/fe4WObX47az) is **246 pass, 0 fail, 252 skip (49.4% of 498)**. Baseline [ii7aiQNhNnY](https://inferno.healthit.gov/suites/us_quality_core_v050/ii7aiQNhNnY) was 173/498 (34.7%). Scorecard: `2026/scorecards/inferno/usquality-v050-fhirdev-fhir-zz-20261012-pass2b.json`.  
+Status: **pass 4 measured** (2026-10-14). Full suite [88Gj3JAQF4o](https://inferno.healthit.gov/suites/us_quality_core_v050/88Gj3JAQF4o) is **446 pass, 0 fail, 52 skip (89.6% of 498)**. Prior full suite [ecpMXM0JLJo](https://inferno.healthit.gov/suites/us_quality_core_v050/ecpMXM0JLJo) was 352 pass, 0 fail, 146 skip (70.7%). Baseline [ii7aiQNhNnY](https://inferno.healthit.gov/suites/us_quality_core_v050/ii7aiQNhNnY) was 173/498 (34.7%). Scorecard: `2026/scorecards/inferno/usquality-v050-fhirdev-fhir-zz-20261014-pass4.json`.  
 This file is the record of which skipped tests we take next, what code change each one needs, and the pass rate after each step. Server edits land in `VistA-FHIR-Server-Codex` (and `cds-hooks-on-fhir` when a quality action writes the resource). Update the progress log in this file when a single test is rerun.
 
 Baseline session: [US Quality Core `ii7aiQNhNnY`](https://inferno.healthit.gov/suites/us_quality_core_v050/ii7aiQNhNnY)  
@@ -148,6 +148,8 @@ What is still skipped, and why:
 | 3 | measured 2026-10-12 | `C0FHIRM` sets `us-quality-core-medicationrequest` on the read. | +0. Intent search still skipped. |
 | 4 | measured 2026-10-12 | `GETGRPCL^C0FHIRLG` copies Coverage, CareTeam, RelatedPerson, Goal, CarePlan, ServiceRequest, and Provenance from the intake graph. Coverage `beneficiary` is indexed as `patient`. ServiceRequest with no category gets SNOMED `3457005`. | +24 and 1 fail. See the measured table. |
 | 5 | measured 2026-10-12 | Pass 2. Systolic `dataAbsentReason`, Goal dates, CareTeam `Practitioner/P1`, CarePlan narrative, RelatedPerson (`natural daughter`, string postalCode), ServiceRequest `doNotPerform` plus mammogram and `reasonReference`. Coverage payor `Organization/org-clinic` is emitted so the read cache can return it. Coverage member id and class stay deferred. | Full suite [fe4WObX47az](https://inferno.healthit.gov/suites/us_quality_core_v050/fe4WObX47az): **246 pass, 0 fail, 252 skip (49.4%)**. |
+| 6 | measured 2026-10-13 | Pass 3. Extras posted `load=0` onto ZZIvy `101139`, ZZVera `101152`, and ZZWill `101153`. `MEDMS^C0FHIRM` fills dosage, encounter, and reason on the read. `INCMED^C0FWCAC` honors `_include` of the referenced Medication. | Full suite [ecpMXM0JLJo](https://inferno.healthit.gov/suites/us_quality_core_v050/ecpMXM0JLJo): **352 pass, 0 fail, 146 skip (70.7%)**. 106 skips became passes. No new fails. Scorecard: `2026/scorecards/inferno/usquality-v050-fhirdev-fhir-zz-20261013-pass3.json`. |
+| 7 | measured 2026-10-14 | Pass 4. Ten gap charts `101154`–`101163` filed with `addpatient?load=1` and enrolled in all six populations. Nell `101154` carries the remaining Inferno extras. Read-time fixes in `C0FHIRLG` / `C0FWCAC` (graph `inf-` observations stay out of the lab emitter; DeviceRequest `doNotPerform` is the modifier extension; not-done administration `statusReason` is an array). | Full suite [88Gj3JAQF4o](https://inferno.healthit.gov/suites/us_quality_core_v050/88Gj3JAQF4o): **446 pass, 0 fail, 52 skip (89.6%)**. 94 skips became passes. No pass-3 pass regressed. Scorecard: `2026/scorecards/inferno/usquality-v050-fhirdev-fhir-zz-20261014-pass4.json`. |
 
 ## Pass 2
 
@@ -189,3 +191,34 @@ Two skips remain in MedicationRequest, and they are the same row twice (the must
 The full suite read `Organization/org-clinic` because that is the Coverage payor on the ZZ chart, and the read cache had no such resource (`OperationOutcome`, HTTP 200). Session [2bfwuqqpVIp](https://inferno.healthit.gov/suites/us_quality_core_v050/2bfwuqqpVIp) was 241 pass, 5 fail, 252 skip; those five fails were that read and its rollups. `CVPAY` now adds that payor with the same NPI, CCN, EIN, telecom, address, and endpoint as `VISTA-LAB`. A direct read of `Organization/org-clinic` returns Organization `Fictitious Clinic`. `C0FHIRLG` XINDEX after that change: 617 lines, checksum `B558324621`, no F lines.
 
 Confirming suite [fe4WObX47az](https://inferno.healthit.gov/suites/us_quality_core_v050/fe4WObX47az): **246 pass, 0 fail, 252 skip (49.4%)**. Organization validation, read, and must-support all passed. Coverage payor reference resolution passed. Coverage must-support still skips (member id and class group/plan). MedicationRequest must-support still skips (the dosage, encounter, and reason fields above). Scorecard: `2026/scorecards/inferno/usquality-v050-fhirdev-fhir-zz-20261012-pass2b.json`.
+
+## Pass 3
+
+Group reruns on 2026-10-13, then the full suite [ecpMXM0JLJo](https://inferno.healthit.gov/suites/us_quality_core_v050/ecpMXM0JLJo): **352 pass, 0 fail, 146 skip (70.7% of 498)**. The 18 measure charts were not refiled. `scripts/post-zz-inferno-extras.py` appended the new resources with `load=0` on ZZIvy `101139`, ZZVera `101152`, and ZZWill `101153`. 106 former skips passed. Nothing that passed in pass 2 failed or skipped.
+
+| Group | Session | Result |
+| --- | --- | --- |
+| Pediatric BMI-for-age | [igFwG5plf3W](https://inferno.healthit.gov/suites/us_quality_core_v050/igFwG5plf3W) | 9 pass |
+| Pediatric weight-for-height | [19jVq6iZgtc](https://inferno.healthit.gov/suites/us_quality_core_v050/19jVq6iZgtc) | 9 pass |
+| Head circumference percentile | [caub3lb2w3g](https://inferno.healthit.gov/suites/us_quality_core_v050/caub3lb2w3g) | 9 pass |
+| Respiratory rate | [9ctHBbjMWRF](https://inferno.healthit.gov/suites/us_quality_core_v050/9ctHBbjMWRF) | 9 pass |
+| Occupation | [1MGERoVHDFf](https://inferno.healthit.gov/suites/us_quality_core_v050/1MGERoVHDFf) | 8 pass, 1 skip |
+| Pregnancy status | [1A3hquzj7YI](https://inferno.healthit.gov/suites/us_quality_core_v050/1A3hquzj7YI) | 9 pass |
+| Pregnancy intent | [iPWOpwUFjhO](https://inferno.healthit.gov/suites/us_quality_core_v050/iPWOpwUFjhO) | 9 pass |
+| Coverage | [8G8upRQ6lai](https://inferno.healthit.gov/suites/us_quality_core_v050/8G8upRQ6lai) | 6 pass |
+| MedicationRequest | [ucPWnKHF5c](https://inferno.healthit.gov/suites/us_quality_core_v050/ucPWnKHF5c) | 6 pass, 1 skip |
+| MedicationDispense | [grRDkL26VzC](https://inferno.healthit.gov/suites/us_quality_core_v050/grRDkL26VzC) | 5 pass, 2 skip |
+| MedicationAdministration | [cigtKU6lZyr](https://inferno.healthit.gov/suites/us_quality_core_v050/cigtKU6lZyr) | 8 pass, 1 skip |
+| Immunization not done | [dQjdkLb9h7f](https://inferno.healthit.gov/suites/us_quality_core_v050/dQjdkLb9h7f) | 7 pass |
+| Procedure not done | [jFiMBL6THMB](https://inferno.healthit.gov/suites/us_quality_core_v050/jFiMBL6THMB) | 6 pass, 2 skip |
+| Service not requested | [aFjV2nDvatY](https://inferno.healthit.gov/suites/us_quality_core_v050/aFjV2nDvatY) | 10 pass, 1 skip |
+
+Pregnancy status is SNOMED `60001007` (not pregnant) and intent is `454381000124105` (not sure), so the CQL pregnancy exclusions are not tripped. The not-done immunization uses the influenza not-done value set extension and SNOMED `410534003`, not CVX `150`. Procedure not-done still skips `basedOn`, `partOf`, and reason, and one date search. Task, AdverseEvent, DeviceRequest, and FamilyMemberHistory were not added.
+
+## Pass 4
+
+Ten women born in 1971, DFNs `101154`–`101163`, were added with `addpatient?load=1` and `SETPOP` on all six measures, then reevaluated. Each has a 2022 colonoscopy and no mammogram. Three have uncontrolled blood pressure, two have diabetes with A1c 7.1 and 7.4, eight have no 2026 tobacco screen, and five have no 2026 PHQ. Live dashboard after reeval: CMS122 `7/7/5` (71.4%), CMS125 `47/47/35` (74.5%), CMS130 `55/55/39` (70.9%), CMS138 `41/41/31` (75.6%), CMS165 `50/50/37` (74.0%), CMS2 `31/31/18` (58.1%). Denominator-not-numerator is about a quarter on five measures. CMS2 is wider (13 of 31) because the five PHQ scores of 1–3 did not enter the numerator.
+
+ZZNell Moss `101154` holds the graph-only Inferno resources (`inf-*`). `EMIT^C0FHIRLG` skips those ids so the lab emitter does not retag them as laboratory. DeviceRequest not-requested uses profile `us-quality-core-devicenotrequested`, the R5 `doNotPerform` modifier extension, and `us-quality-core-doNotPerformReason` SNOMED `410534003`. A field named `doNotPerform` on DeviceRequest fails validation.
+
+Full suite [88Gj3JAQF4o](https://inferno.healthit.gov/suites/us_quality_core_v050/88Gj3JAQF4o), patients `101130`–`101163`: **446 pass, 0 fail, 52 skip (89.6% of 498)**. 94 former skips passed. Nothing that passed in pass 3 failed or skipped. The remaining skips are must-support holes, a few code or date searches, and PractitionerRole (the isolated read still has no referring resource in the session that Inferno keeps). Scorecard: `2026/scorecards/inferno/usquality-v050-fhirdev-fhir-zz-20261014-pass4.json`.
