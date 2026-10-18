@@ -49,12 +49,12 @@
    "confirmation": {
     "criterion": "a1c",
     "rule": "latest HbA1c (LOINC 4548-4) >= 8.0%",
-    "ranAt": "2026-09-09T18:47:22Z",
+    "ranAt": "2026-10-18T05:17:39Z",
     "node": "https://devfhir.vistaplex.org",
     "perPatient": {
      "101109": {
-      "latestA1c": 6.05,
-      "date": "2026-04-01T10:56:09+00:00"
+      "latestA1c": 9.5,
+      "date": "2026-08-31T08:41:36Z"
      },
      "101119": {
       "latestA1c": 5.4,
@@ -65,24 +65,37 @@
       "date": "2020-05-12T02:11:15+00:00"
      }
     },
-    "confirmed": [],
+    "confirmed": [
+     "101109"
+    ],
     "rejectedByValue": [
-     "101109",
      "101119",
      "101124"
     ],
     "noValue": [],
     "scorecard": {
      "heuristicEligible": 3,
-     "confirmedEligible": 0,
-     "precisionOfHeuristic": 0.0,
+     "confirmedEligible": 1,
+     "precisionOfHeuristic": 0.333,
      "recallNote": "presence-heuristic recall is 1.0 by construction: a value threshold cannot pass without a result being present"
     },
     "poolScan": {
-     "poolWithA1c": 24,
+     "poolWithA1c": 49,
      "latestOverThreshold": {
-      "101095": 9.0,
-      "101096": 9.2
+      "101095": 9.5,
+      "101096": 9.5,
+      "101098": 9.5,
+      "101102": 9.5,
+      "101109": 9.5,
+      "101128": 8.0,
+      "101135": 8.0,
+      "101142": 9.4,
+      "101143": 9.8,
+      "101144": 10.1,
+      "101145": 9.6,
+      "101146": 11.0,
+      "101147": 9.2,
+      "101150": 10.4
      },
      "note": "empirical recall check: every patient whose latest value clears the threshold; compare against heuristic-eligible"
     }
