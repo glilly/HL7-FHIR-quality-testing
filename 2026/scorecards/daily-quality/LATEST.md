@@ -1,9 +1,9 @@
-# Daily quality rotate — 2026-10-18 — `rpms-candidate`
+# Daily quality rotate — 2026-10-19 — `rpmsfhir`
 
 **Verdict:** **PASS**  
-**Base:** `http://127.0.0.1:9088`  
-**Stamp (UTC):** `20261018T051726Z`  
-**POPIDX:** populationIndexed=21, popidxDistinctCodes=640  
+**Base:** `https://rpmsfhir.vistaplex.org`  
+**Stamp (UTC):** `20261019T052237Z`  
+**POPIDX:** populationIndexed=1159, popidxDistinctCodes=1205  
 **CQL reeval:** skipped  
 
 ## Checks
@@ -11,40 +11,40 @@
 | Status | Key | Detail |
 |--------|-----|--------|
 | PASS | `fhir-metadata` | HTTP 200 |
-| PASS | `popidx` | populationIndexed=21 popidxDistinctCodes=640 |
+| PASS | `popidx` | populationIndexed=1159 popidxDistinctCodes=1205 |
 | PASS | `c0x-presets` | 6 active measure presets present |
-| PASS | `ipp-CMS165v14` | ippCount=2 |
-| PASS | `ipp-CMS122v14` | ippCount=3 |
-| PASS | `ipp-CMS130v14` | ippCount=8 |
-| PASS | `ipp-CMS125v14` | ippCount=5 |
-| PASS | `ipp-CMS138v14` | ippCount=17 |
-| PASS | `ipp-CMS2v15` | ippCount=17 |
-| PASS | `sum-CMS165v14` | 19/16/15/0 |
-| PASS | `sum-CMS122v14` | 2/2/2/0 |
-| PASS | `sum-CMS130v14` | 13/9/1/0 |
-| PASS | `sum-CMS125v14` | 3/3/1/0 |
-| PASS | `sum-CMS138v14` | 26/26/2/0 |
-| PASS | `sum-CMS2v15` | 13/13/0/0 |
-| PASS | `reeval-skipped` | QUALITY_REEVAL not requested for rpms-candidate |
-| PASS | `json-12` | strict Bundle parse OK |
-| PASS | `json-9` | strict Bundle parse OK |
-| PASS | `json-17` | strict Bundle parse OK |
+| PASS | `ipp-CMS165v14` | ippCount=97 |
+| PASS | `ipp-CMS122v14` | ippCount=24 |
+| PASS | `ipp-CMS130v14` | ippCount=172 |
+| PASS | `ipp-CMS125v14` | ippCount=89 |
+| PASS | `ipp-CMS138v14` | ippCount=200 |
+| PASS | `ipp-CMS2v15` | ippCount=200 |
+| PASS | `sum-CMS165v14` | 36/36/22/5 |
+| PASS | `sum-CMS122v14` | 42/42/10/0 |
+| PASS | `sum-CMS130v14` | 7/7/7/0 |
+| PASS | `sum-CMS125v14` | 3/3/3/0 |
+| PASS | `sum-CMS138v14` | 16/16/13/0 |
+| PASS | `sum-CMS2v15` | 12/12/10/0 |
+| PASS | `reeval-skipped` | QUALITY_REEVAL not requested for rpmsfhir |
+| PASS | `json-498` | strict Bundle parse OK |
+| PASS | `json-497` | strict Bundle parse OK |
+| PASS | `json-489` | strict Bundle parse OK |
 
 ## Measure table
 
 | Measure | SPARQL ippCount | SUM IPP/DENOM/NUMER/DENEX |
 |---------|-----------------|---------------------------|
-| CMS165v14 | ippCount=2 | — |
-| CMS122v14 | ippCount=3 | — |
-| CMS130v14 | ippCount=8 | — |
-| CMS125v14 | ippCount=5 | — |
-| CMS138v14 | ippCount=17 | — |
-| CMS2v15 | ippCount=17 | — |
+| CMS165v14 | ippCount=97 | — |
+| CMS122v14 | ippCount=24 | — |
+| CMS130v14 | ippCount=172 | — |
+| CMS125v14 | ippCount=89 | — |
+| CMS138v14 | ippCount=200 | — |
+| CMS2v15 | ippCount=200 | — |
 
 ## Reproduce
 
 ```bash
-cd HL7-FHIR-quality-testing && ./scripts/daily-quality-rotate.sh rpms-candidate
+cd HL7-FHIR-quality-testing && ./scripts/daily-quality-rotate.sh rpmsfhir
 ```
 
-JSON twin: `2026-10-18-rpms-candidate.json`
+JSON twin: `2026-10-19-rpmsfhir.json`
