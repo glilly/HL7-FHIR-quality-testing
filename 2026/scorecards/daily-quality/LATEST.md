@@ -1,9 +1,9 @@
-# Daily quality rotate — 2026-10-21 — `showfhir`
+# Daily quality rotate — 2026-10-22 — `fhirdev`
 
 **Verdict:** **PASS**  
-**Base:** `https://showfhir.vistaplex.org`  
-**Stamp (UTC):** `20261021T051618Z`  
-**POPIDX:** populationIndexed=767, popidxDistinctCodes=1009  
+**Base:** `https://devfhir.vistaplex.org`  
+**Stamp (UTC):** `20261022T051632Z`  
+**POPIDX:** populationIndexed=692, popidxDistinctCodes=962  
 **CQL reeval:** skipped  
 
 ## Checks
@@ -11,40 +11,40 @@
 | Status | Key | Detail |
 |--------|-----|--------|
 | PASS | `fhir-metadata` | HTTP 200 |
-| PASS | `popidx` | populationIndexed=767 popidxDistinctCodes=1009 |
+| PASS | `popidx` | populationIndexed=692 popidxDistinctCodes=962 |
 | PASS | `c0x-presets` | 6 active measure presets present |
-| PASS | `ipp-CMS165v14` | ippCount=23 |
-| PASS | `ipp-CMS122v14` | ippCount=5 |
-| PASS | `ipp-CMS130v14` | ippCount=50 |
-| PASS | `ipp-CMS125v14` | ippCount=32 |
-| PASS | `ipp-CMS138v14` | ippCount=102 |
-| PASS | `ipp-CMS2v15` | ippCount=102 |
-| PASS | `sum-CMS165v14` | 19/19/12/2 |
-| PASS | `sum-CMS122v14` | 4/4/4/0 |
-| PASS | `sum-CMS130v14` | 43/43/27/1 |
-| PASS | `sum-CMS125v14` | 28/28/3/0 |
-| PASS | `sum-CMS138v14` | 72/72/44/0 |
-| PASS | `sum-CMS2v15` | 90/90/3/0 |
-| PASS | `reeval-skipped` | QUALITY_REEVAL not requested for showfhir |
-| PASS | `json-101070` | strict Bundle parse OK |
-| PASS | `json-101083` | strict Bundle parse OK |
-| PASS | `json-101085` | strict Bundle parse OK |
+| PASS | `ipp-CMS165v14` | ippCount=52 |
+| PASS | `ipp-CMS122v14` | ippCount=29 |
+| PASS | `ipp-CMS130v14` | ippCount=56 |
+| PASS | `ipp-CMS125v14` | ippCount=47 |
+| PASS | `ipp-CMS138v14` | ippCount=77 |
+| PASS | `ipp-CMS2v15` | ippCount=77 |
+| PASS | `sum-CMS165v14` | 50/50/37/0 |
+| PASS | `sum-CMS122v14` | 7/7/5/0 |
+| PASS | `sum-CMS130v14` | 55/55/39/0 |
+| PASS | `sum-CMS125v14` | 47/47/35/0 |
+| PASS | `sum-CMS138v14` | 41/41/31/0 |
+| PASS | `sum-CMS2v15` | 31/31/18/0 |
+| PASS | `reeval-skipped` | QUALITY_REEVAL not requested for fhirdev |
+| PASS | `json-101156` | strict Bundle parse OK |
+| PASS | `json-101155` | strict Bundle parse OK |
+| PASS | `json-101154` | strict Bundle parse OK |
 
 ## Measure table
 
 | Measure | SPARQL ippCount | SUM IPP/DENOM/NUMER/DENEX |
 |---------|-----------------|---------------------------|
-| CMS165v14 | ippCount=23 | — |
-| CMS122v14 | ippCount=5 | — |
-| CMS130v14 | ippCount=50 | — |
-| CMS125v14 | ippCount=32 | — |
-| CMS138v14 | ippCount=102 | — |
-| CMS2v15 | ippCount=102 | — |
+| CMS165v14 | ippCount=52 | — |
+| CMS122v14 | ippCount=29 | — |
+| CMS130v14 | ippCount=56 | — |
+| CMS125v14 | ippCount=47 | — |
+| CMS138v14 | ippCount=77 | — |
+| CMS2v15 | ippCount=77 | — |
 
 ## Reproduce
 
 ```bash
-cd HL7-FHIR-quality-testing && ./scripts/daily-quality-rotate.sh showfhir
+cd HL7-FHIR-quality-testing && ./scripts/daily-quality-rotate.sh fhirdev
 ```
 
-JSON twin: `2026-10-21-showfhir.json`
+JSON twin: `2026-10-22-fhirdev.json`
