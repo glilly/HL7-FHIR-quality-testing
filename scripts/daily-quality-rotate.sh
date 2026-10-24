@@ -75,7 +75,38 @@ want_reeval() {
   esac
 }
 
+# Local sandboxes are often stopped. A closed port is a skip, and the
+# rotation moves to the next host so one down container does not eat the night.
+local_listening() {
+  local port=""
+  case "$1" in
+    vehu10) port=9085 ;;
+    rpms-candidate|rpms-rebuild-candidate|rpms) port=9088 ;;
+    *) return 0 ;;
+  esac
+  timeout 1 bash -c "echo >/dev/tcp/127.0.0.1/$port" 2>/dev/null
+}
+
 HOST="$(pick_host "${1:-}")"
+forced="${1:-${QUALITY_ROTATE_HOST:-}}"
+if [[ -z "$forced" ]] && ! local_listening "$HOST"; then
+  skipped="$HOST"
+  n=${#HOSTS[@]}
+  start=0
+  for i in "${!HOSTS[@]}"; do
+    [[ "${HOSTS[$i]}" == "$HOST" ]] && start=$i
+  done
+  HOST=""
+  for k in $(seq 1 "$n"); do
+    cand="${HOSTS[$(( (start + k) % n ))]}"
+    if local_listening "$cand"; then HOST="$cand"; break; fi
+  done
+  if [[ -z "$HOST" ]]; then
+    echo "daily-quality-rotate: $skipped is not listening and no other host answered" >&2
+    exit 1
+  fi
+  echo "SKIP $skipped (local port closed); using $HOST"
+fi
 BASE="$(host_base "$HOST")" || { echo "unknown host: $HOST" >&2; exit 2; }
 BASE="${BASE%/}"
 EV_MD="$OUT_DIR/${DAY}-${HOST}.md"
