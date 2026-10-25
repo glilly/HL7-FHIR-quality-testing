@@ -49,7 +49,7 @@
    "confirmation": {
     "criterion": "a1c",
     "rule": "latest HbA1c (LOINC 4548-4) >= 8.0%",
-    "ranAt": "2026-10-18T05:17:39Z",
+    "ranAt": "2026-10-25T05:17:17Z",
     "node": "https://devfhir.vistaplex.org",
     "perPatient": {
      "101109": {

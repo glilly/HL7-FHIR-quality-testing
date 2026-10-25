@@ -81,3 +81,17 @@ Ran 2026-10-18T05:17:39Z against `https://devfhir.vistaplex.org` (values read fr
 Scorecard: 3 heuristic-eligible -> 1 confirmed (heuristic precision 33%). Recall is 1.0 by construction (value thresholds require a present result). Same two-stage pattern as the CMS quality measures: cheap population SPARQL first, value-accurate confirmation second.
 
 Pool scan: of 49 patients with any HbA1c on record, 14 have a latest value >= 8.0%: DFN 101095 (9.5%), DFN 101096 (9.5%), DFN 101098 (9.5%), DFN 101102 (9.5%), DFN 101109 (9.5%), DFN 101128 (8.0%), DFN 101135 (8.0%), DFN 101142 (9.4%), DFN 101143 (9.8%), DFN 101144 (10.1%), DFN 101145 (9.6%), DFN 101146 (11.0%), DFN 101147 (9.2%), DFN 101150 (10.4%). Cross-reference with the near-miss list: value-qualified patients excluded only by missing diagnosis/medication codes are exactly the chart-review candidates a recruitment workflow should surface.
+
+## Confirmation stage — NCT06862739 HbA1c >= 8%
+
+Ran 2026-10-25T05:17:17Z against `https://devfhir.vistaplex.org` (values read from the intake graph via /showfhir — the SPARQL stage's source; threshold applied to the **latest** result).
+
+| DFN | Latest HbA1c | Date | Confirmed |
+|---|---|---|---|
+| 101109 | 9.5% | 2026-08-31 | yes |
+| 101119 | 5.4% | 2018-10-31 | no |
+| 101124 | 3.02% | 2020-05-12 | no |
+
+Scorecard: 3 heuristic-eligible -> 1 confirmed (heuristic precision 33%). Recall is 1.0 by construction (value thresholds require a present result). Same two-stage pattern as the CMS quality measures: cheap population SPARQL first, value-accurate confirmation second.
+
+Pool scan: of 49 patients with any HbA1c on record, 14 have a latest value >= 8.0%: DFN 101095 (9.5%), DFN 101096 (9.5%), DFN 101098 (9.5%), DFN 101102 (9.5%), DFN 101109 (9.5%), DFN 101128 (8.0%), DFN 101135 (8.0%), DFN 101142 (9.4%), DFN 101143 (9.8%), DFN 101144 (10.1%), DFN 101145 (9.6%), DFN 101146 (11.0%), DFN 101147 (9.2%), DFN 101150 (10.4%). Cross-reference with the near-miss list: value-qualified patients excluded only by missing diagnosis/medication codes are exactly the chart-review candidates a recruitment workflow should surface.
