@@ -1,0 +1,154 @@
+{
+  "schema": "daily-quality-rotate/v1",
+  "day": "2026-10-24",
+  "stamp": "20261024T050304Z",
+  "host": "showfhir",
+  "base": "https://showfhir.vistaplex.org",
+  "verdict": "PASS",
+  "populationIndexed": 217,
+  "popidxDistinctCodes": 1136,
+  "reevalRan": true,
+  "measures": {
+    "CMS165v14": {
+      "ippCount": "ippCount=61"
+    },
+    "CMS122v14": {
+      "ippCount": "ippCount=33"
+    },
+    "CMS130v14": {
+      "ippCount": "ippCount=110"
+    },
+    "CMS125v14": {
+      "ippCount": "ippCount=82"
+    },
+    "CMS138v14": {
+      "ippCount": "ippCount=193"
+    },
+    "CMS2v15": {
+      "ippCount": "ippCount=193"
+    }
+  },
+  "checks": [
+    {
+      "status": "pass",
+      "key": "fhir-metadata",
+      "detail": "HTTP 200"
+    },
+    {
+      "status": "pass",
+      "key": "popidx",
+      "detail": "populationIndexed=217 popidxDistinctCodes=1136"
+    },
+    {
+      "status": "pass",
+      "key": "c0x-presets",
+      "detail": "6 active measure presets present"
+    },
+    {
+      "status": "pass",
+      "key": "ipp-CMS165v14",
+      "detail": "ippCount=61"
+    },
+    {
+      "status": "pass",
+      "key": "ipp-CMS122v14",
+      "detail": "ippCount=33"
+    },
+    {
+      "status": "pass",
+      "key": "ipp-CMS130v14",
+      "detail": "ippCount=110"
+    },
+    {
+      "status": "pass",
+      "key": "ipp-CMS125v14",
+      "detail": "ippCount=82"
+    },
+    {
+      "status": "pass",
+      "key": "ipp-CMS138v14",
+      "detail": "ippCount=193"
+    },
+    {
+      "status": "pass",
+      "key": "ipp-CMS2v15",
+      "detail": "ippCount=193"
+    },
+    {
+      "status": "pass",
+      "key": "sum-CMS165v14",
+      "detail": "61/0/0/0"
+    },
+    {
+      "status": "pass",
+      "key": "sum-CMS122v14",
+      "detail": "33/0/0/0"
+    },
+    {
+      "status": "pass",
+      "key": "sum-CMS130v14",
+      "detail": "110/0/0/0"
+    },
+    {
+      "status": "pass",
+      "key": "sum-CMS125v14",
+      "detail": "82/0/0/0"
+    },
+    {
+      "status": "pass",
+      "key": "sum-CMS138v14",
+      "detail": "193/0/0/0"
+    },
+    {
+      "status": "pass",
+      "key": "sum-CMS2v15",
+      "detail": "193/0/0/0"
+    },
+    {
+      "status": "pass",
+      "key": "reeval-CMS165v14",
+      "detail": "33/33/21/1 status=done"
+    },
+    {
+      "status": "pass",
+      "key": "reeval-CMS122v14",
+      "detail": "31/31/8/0 status=done"
+    },
+    {
+      "status": "pass",
+      "key": "reeval-CMS130v14",
+      "detail": "83/83/56/1 status=done"
+    },
+    {
+      "status": "pass",
+      "key": "reeval-CMS125v14",
+      "detail": "68/68/16/0 status=done"
+    },
+    {
+      "status": "pass",
+      "key": "reeval-CMS138v14",
+      "detail": "193/0/0/0 status=running"
+    },
+    {
+      "status": "pass",
+      "key": "reeval-CMS2v15",
+      "detail": "193/0/0/0 status=running"
+    },
+    {
+      "status": "pass",
+      "key": "json-101284",
+      "detail": "strict Bundle parse OK"
+    },
+    {
+      "status": "pass",
+      "key": "json-101283",
+      "detail": "strict Bundle parse OK"
+    },
+    {
+      "status": "pass",
+      "key": "json-101282",
+      "detail": "strict Bundle parse OK"
+    }
+  ],
+  "command": "./scripts/daily-quality-rotate.sh showfhir"
+}
