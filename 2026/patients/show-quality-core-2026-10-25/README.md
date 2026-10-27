@@ -1,13 +1,16 @@
 # US Quality Core showcase patients
 
-Synthetic charts. No real person is represented.
+Synthetic charts. No real person is represented. The given name of
+every chart in this set begins with ZZ. That prefix is part of the
+name on the record, and it is how you can recognize one of these
+charts later.
 
 These 34 bundles are what the public Show server returned for the
 US Quality Core v0.5.0 run that passed every test and skipped none.
 The suite was given all 34 patients in one session. No single chart
-holds every example. Will Ford carries the medication administrations,
-Vera Ellis the coverage, Ivy Ford the pediatric and not-done
-immunization examples, and Nell Moss the remaining gap examples.
+holds every example. ZZWill Ford carries the medication administrations,
+ZZVera Ellis the coverage, ZZIvy Ford the pediatric and not-done
+immunization examples, and ZZNell Moss the remaining gap examples.
 
 Inferno session: https://inferno.healthit.gov/suites/us_quality_core_v050/2yWbChvQkWt
 
@@ -18,8 +21,8 @@ at https://worldvista.github.io/tjson-FHIR-browser/ .
 
 The Cohorts column is the Show graph initial population for the six
 measures we evaluate (CMS165, CMS122, CMS130, CMS125, CMS138, CMS2).
-Ivy Ford is 8 years old and is outside every adult measure.
-The Nye charts and a few others were built without hypertension,
+ZZIvy Ford is 8 years old and is outside every adult measure.
+ZZNola Nye through ZZOla Nye, and a few others, were built without hypertension,
 diabetes, or a screening procedure, so they are outside those measures
 on purpose. Official CQL counts for the whole Show load are in the
 2026-10-26 showfhir quality card.
