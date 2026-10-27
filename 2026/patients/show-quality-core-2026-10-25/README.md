@@ -16,6 +16,8 @@ Inferno session: https://inferno.healthit.gov/suites/us_quality_core_v050/2yWbCh
 
 Each file is the served collection Bundle for that patient,
 `GET https://showfhir.vistaplex.org/fhir?dfn=` .
+Download all 34 bundles in one zip:
+[show-quality-core-2026-10-25.zip](https://github.com/glilly/HL7-FHIR-quality-testing/raw/master/2026/patients/show-quality-core-2026-10-25/show-quality-core-2026-10-25.zip).
 The browser link opens that same URL in the public FHIR browser
 at https://worldvista.github.io/tjson-FHIR-browser/ .
 
