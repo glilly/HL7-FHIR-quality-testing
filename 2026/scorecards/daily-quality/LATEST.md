@@ -1,8 +1,8 @@
-# Daily quality rotate — 2026-10-29 — `rpmsfhir`
+# Daily quality rotate — 2026-10-30 — `rpmsfhir`
 
 **Verdict:** **PASS**  
 **Base:** `https://rpmsfhir.vistaplex.org`  
-**Stamp (UTC):** `20261029T051632Z`  
+**Stamp (UTC):** `20261030T051732Z`  
 **POPIDX:** populationIndexed=1159, popidxDistinctCodes=1205  
 **CQL reeval:** skipped  
 
@@ -47,4 +47,4 @@
 cd HL7-FHIR-quality-testing && ./scripts/daily-quality-rotate.sh rpmsfhir
 ```
 
-JSON twin: `2026-10-29-rpmsfhir.json`
+JSON twin: `2026-10-30-rpmsfhir.json`
