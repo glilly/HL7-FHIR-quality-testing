@@ -39,6 +39,7 @@ host_base() {
     rpms-candidate|rpms-rebuild-candidate|rpms) echo "http://127.0.0.1:9088" ;;
     rpmsfhir|rpms-fhir) echo "https://rpmsfhir.vistaplex.org" ;;
     wvehr|fhirprod|fhir) echo "https://fhir.vistaplex.org" ;;
+    iris2|irisfhir|iris) echo "https://iris2.vistaplex.org" ;;
     *) return 1 ;;
   esac
 }
