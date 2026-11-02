@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 # Weekly US Quality Core run against the iris2 golden cohort.
 #
-# Hosted Inferno only (it cannot score localhost). Patients 16-49 are the
-# ZZ charts on https://iris2.vistaplex.org/fhir that scored 442/498 with
-# 0 fails on 2026-10-14 (session lXvArJeWycf). A skip does not fail this
+# Hosted Inferno only (it cannot score localhost). The PIDS default is the
+# ZZ + gap charts loaded last by the 2026-11-02 rebuild (Vista-on-FHIR
+# docs/iris2/IRIS2_REBUILD_PLAN_2026-11-02.md). A skip does not fail this
 # job; a fail or error row does.
 #
 # Evidence:
@@ -21,7 +21,7 @@ URL="${IRIS2_FHIR_BASE:-https://iris2.vistaplex.org/fhir}"
 if [[ -n "${IRIS2_INFERNO_PATIENTS:-}" ]]; then
   PIDS="$IRIS2_INFERNO_PATIENTS"
 else
-  PIDS="$(seq -s, 16 49)"
+  PIDS="190,191,192,193,194,195,196,197,198,199,200,201,202,203,204,205,206,207,208,209,210,211,212,213,214,215,216,217,218,219,220,221,222,223"
 fi
 
 mkdir -p "$OUT_DIR"
