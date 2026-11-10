@@ -1,0 +1,147 @@
+{
+  "api": "https://inferno.healthit.gov/suites/api",
+  "patient_ids": "101258,101259,101260,101261,101262,101263,101264,101265,101266,101267,101268,101269,101270,101271,101272,101273,101274,101275,101276,101277,101278,101279,101280,101281,101282,101283,101284,101285,101286,101287,101288,101289,101290,101291",
+  "results": [
+    {
+      "created_at": "2026-11-10T18:23:43.004+00:00",
+      "id": "229d0887-1c00-462a-971a-678ee42a15ab",
+      "inputs": [
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://showfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"name\":\"smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [],
+      "result": "skip",
+      "result_message": "No Provenance resources conforming to the http://hl7.org/fhir/us/core/StructureDefinition/us-core-provenance profile were returned",
+      "test_id": "us_core_v610-us_core_v610_fhir_api-us_core_v610_provenance-us_core_v610_provenance_validation_test",
+      "test_run_id": "07ac5bce-b8a3-41ba-aee5-8afe908c2f90",
+      "test_session_id": "lqAxgJgL79i",
+      "updated_at": "2026-11-10T18:23:43.004+00:00"
+    },
+    {
+      "created_at": "2026-11-10T18:23:42.997+00:00",
+      "id": "88a4775f-578c-44f7-915c-d68d1b54e15c",
+      "inputs": [
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://showfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"name\":\"smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [],
+      "result": "skip",
+      "result_message": "No Provenance resources appear to be available. Please use patients with more information.",
+      "test_id": "us_core_v610-us_core_v610_fhir_api-us_core_v610_provenance-us_core_v610_provenance_read_test",
+      "test_run_id": "07ac5bce-b8a3-41ba-aee5-8afe908c2f90",
+      "test_session_id": "lqAxgJgL79i",
+      "updated_at": "2026-11-10T18:23:42.997+00:00"
+    },
+    {
+      "created_at": "2026-11-10T18:23:43.015+00:00",
+      "id": "ce5889e2-4e3d-4c3c-bf07-76a6212b38e4",
+      "inputs": [
+        {
+          "description": "URL of the FHIR endpoint",
+          "label": "FHIR Endpoint",
+          "name": "url",
+          "type": "text",
+          "value": "https://showfhir.vistaplex.org/fhir"
+        },
+        {
+          "description": null,
+          "label": "OAuth Credentials",
+          "name": "smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"name\":\"smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [],
+      "result": "skip",
+      "test_group_id": "us_core_v610-us_core_v610_fhir_api-us_core_v610_provenance",
+      "test_run_id": "07ac5bce-b8a3-41ba-aee5-8afe908c2f90",
+      "test_session_id": "lqAxgJgL79i",
+      "updated_at": "2026-11-10T18:23:43.015+00:00"
+    },
+    {
+      "created_at": "2026-11-10T18:23:43.012+00:00",
+      "id": "92071378-2051-41c3-ba45-91763f76bdfc",
+      "inputs": [
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://showfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"name\":\"smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [],
+      "result": "skip",
+      "result_message": "No Provenance resources appear to be available. Please use patients with more information.",
+      "test_id": "us_core_v610-us_core_v610_fhir_api-us_core_v610_provenance-us_core_v610_provenance_reference_resolution_test",
+      "test_run_id": "07ac5bce-b8a3-41ba-aee5-8afe908c2f90",
+      "test_session_id": "lqAxgJgL79i",
+      "updated_at": "2026-11-10T18:23:43.012+00:00"
+    },
+    {
+      "created_at": "2026-11-10T18:23:43.007+00:00",
+      "id": "a9fadebe-61fc-49b3-a4fa-dfab85ce1355",
+      "inputs": [
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://showfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"name\":\"smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [],
+      "result": "skip",
+      "result_message": "No Provenance resources were found",
+      "test_id": "us_core_v610-us_core_v610_fhir_api-us_core_v610_provenance-us_core_v610_provenance_must_support_test",
+      "test_run_id": "07ac5bce-b8a3-41ba-aee5-8afe908c2f90",
+      "test_session_id": "lqAxgJgL79i",
+      "updated_at": "2026-11-10T18:23:43.007+00:00"
+    }
+  ],
+  "run_id": "07ac5bce-b8a3-41ba-aee5-8afe908c2f90",
+  "session_id": "lqAxgJgL79i",
+  "session_url": "https://inferno.healthit.gov/suites/us_core_v610/lqAxgJgL79i",
+  "status": {
+    "id": "07ac5bce-b8a3-41ba-aee5-8afe908c2f90",
+    "inputs": null,
+    "results": null,
+    "status": "done",
+    "test_count": 4,
+    "test_group_id": "us_core_v610-us_core_v610_fhir_api-us_core_v610_provenance",
+    "test_session_id": "lqAxgJgL79i"
+  },
+  "url": "https://showfhir.vistaplex.org/fhir"
+}

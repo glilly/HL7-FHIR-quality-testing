@@ -1,0 +1,1407 @@
+{
+  "api": "https://inferno.healthit.gov/suites/api",
+  "patient_ids": "101258,101259,101260,101261,101262,101263,101264,101265,101266,101267,101268,101269,101270,101271,101272,101273,101274,101275,101276,101277,101278,101279,101280,101281,101282,101283,101284,101285,101286,101287,101288,101289,101290,101291",
+  "results": [
+    {
+      "created_at": "2026-11-10T18:19:55.309+00:00",
+      "id": "bc7b3700-7aa4-4ce2-a70e-641868cea3e2",
+      "inputs": [
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://showfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"name\":\"smart_auth_info\"}"
+        }
+      ],
+      "messages": [
+        {
+          "message": "Patient/101258: Patient.meta.profile[0]: A definition could not be found for Canonical URL 'http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-patient'",
+          "type": "info"
+        },
+        {
+          "message": "Patient/101258: Patient.meta.profile[0]: Profile reference 'http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-patient' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles",
+          "type": "warning"
+        },
+        {
+          "message": "Patient/101259: Patient.meta.profile[0]: A definition could not be found for Canonical URL 'http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-patient'",
+          "type": "info"
+        },
+        {
+          "message": "Patient/101259: Patient.meta.profile[0]: Profile reference 'http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-patient' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles",
+          "type": "warning"
+        },
+        {
+          "message": "Patient/101260: Patient.meta.profile[0]: A definition could not be found for Canonical URL 'http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-patient'",
+          "type": "info"
+        },
+        {
+          "message": "Patient/101260: Patient.meta.profile[0]: Profile reference 'http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-patient' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles",
+          "type": "warning"
+        },
+        {
+          "message": "Patient/101261: Patient.meta.profile[0]: A definition could not be found for Canonical URL 'http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-patient'",
+          "type": "info"
+        },
+        {
+          "message": "Patient/101261: Patient.meta.profile[0]: Profile reference 'http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-patient' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles",
+          "type": "warning"
+        },
+        {
+          "message": "Patient/101262: Patient.meta.profile[0]: A definition could not be found for Canonical URL 'http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-patient'",
+          "type": "info"
+        },
+        {
+          "message": "Patient/101262: Patient.meta.profile[0]: Profile reference 'http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-patient' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles",
+          "type": "warning"
+        },
+        {
+          "message": "Patient/101263: Patient.meta.profile[0]: A definition could not be found for Canonical URL 'http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-patient'",
+          "type": "info"
+        },
+        {
+          "message": "Patient/101263: Patient.meta.profile[0]: Profile reference 'http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-patient' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles",
+          "type": "warning"
+        },
+        {
+          "message": "Patient/101264: Patient.meta.profile[0]: A definition could not be found for Canonical URL 'http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-patient'",
+          "type": "info"
+        },
+        {
+          "message": "Patient/101264: Patient.meta.profile[0]: Profile reference 'http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-patient' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles",
+          "type": "warning"
+        },
+        {
+          "message": "Patient/101265: Patient.meta.profile[0]: A definition could not be found for Canonical URL 'http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-patient'",
+          "type": "info"
+        },
+        {
+          "message": "Patient/101265: Patient.meta.profile[0]: Profile reference 'http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-patient' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles",
+          "type": "warning"
+        },
+        {
+          "message": "Patient/101266: Patient.meta.profile[0]: A definition could not be found for Canonical URL 'http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-patient'",
+          "type": "info"
+        },
+        {
+          "message": "Patient/101266: Patient.meta.profile[0]: Profile reference 'http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-patient' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles",
+          "type": "warning"
+        },
+        {
+          "message": "Patient/101267: Patient.meta.profile[0]: A definition could not be found for Canonical URL 'http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-patient'",
+          "type": "info"
+        },
+        {
+          "message": "Patient/101267: Patient.meta.profile[0]: Profile reference 'http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-patient' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles",
+          "type": "warning"
+        },
+        {
+          "message": "Patient/101268: Patient.meta.profile[0]: A definition could not be found for Canonical URL 'http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-patient'",
+          "type": "info"
+        },
+        {
+          "message": "Patient/101268: Patient.meta.profile[0]: Profile reference 'http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-patient' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles",
+          "type": "warning"
+        },
+        {
+          "message": "Patient/101269: Patient.meta.profile[0]: A definition could not be found for Canonical URL 'http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-patient'",
+          "type": "info"
+        },
+        {
+          "message": "Patient/101269: Patient.meta.profile[0]: Profile reference 'http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-patient' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles",
+          "type": "warning"
+        },
+        {
+          "message": "Patient/101270: Patient.meta.profile[0]: A definition could not be found for Canonical URL 'http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-patient'",
+          "type": "info"
+        },
+        {
+          "message": "Patient/101270: Patient.meta.profile[0]: Profile reference 'http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-patient' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles",
+          "type": "warning"
+        },
+        {
+          "message": "Patient/101271: Patient.meta.profile[0]: A definition could not be found for Canonical URL 'http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-patient'",
+          "type": "info"
+        },
+        {
+          "message": "Patient/101271: Patient.meta.profile[0]: Profile reference 'http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-patient' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles",
+          "type": "warning"
+        },
+        {
+          "message": "Patient/101272: Patient.meta.profile[0]: A definition could not be found for Canonical URL 'http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-patient'",
+          "type": "info"
+        },
+        {
+          "message": "Patient/101272: Patient.meta.profile[0]: Profile reference 'http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-patient' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles",
+          "type": "warning"
+        },
+        {
+          "message": "Patient/101273: Patient.meta.profile[0]: A definition could not be found for Canonical URL 'http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-patient'",
+          "type": "info"
+        },
+        {
+          "message": "Patient/101273: Patient.meta.profile[0]: Profile reference 'http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-patient' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles",
+          "type": "warning"
+        },
+        {
+          "message": "Patient/101274: Patient.meta.profile[0]: A definition could not be found for Canonical URL 'http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-patient'",
+          "type": "info"
+        },
+        {
+          "message": "Patient/101274: Patient.meta.profile[0]: Profile reference 'http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-patient' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles",
+          "type": "warning"
+        },
+        {
+          "message": "Patient/101275: Patient.meta.profile[0]: A definition could not be found for Canonical URL 'http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-patient'",
+          "type": "info"
+        },
+        {
+          "message": "Patient/101275: Patient.meta.profile[0]: Profile reference 'http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-patient' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles",
+          "type": "warning"
+        },
+        {
+          "message": "Patient/101276: Patient.meta.profile[0]: A definition could not be found for Canonical URL 'http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-patient'",
+          "type": "info"
+        },
+        {
+          "message": "Patient/101276: Patient.meta.profile[0]: Profile reference 'http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-patient' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles",
+          "type": "warning"
+        },
+        {
+          "message": "Patient/101277: Patient.meta.profile[0]: A definition could not be found for Canonical URL 'http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-patient'",
+          "type": "info"
+        },
+        {
+          "message": "Patient/101277: Patient.meta.profile[0]: Profile reference 'http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-patient' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles",
+          "type": "warning"
+        },
+        {
+          "message": "Patient/101278: Patient.meta.profile[0]: A definition could not be found for Canonical URL 'http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-patient'",
+          "type": "info"
+        },
+        {
+          "message": "Patient/101278: Patient.meta.profile[0]: Profile reference 'http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-patient' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles",
+          "type": "warning"
+        },
+        {
+          "message": "Patient/101279: Patient.meta.profile[0]: A definition could not be found for Canonical URL 'http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-patient'",
+          "type": "info"
+        },
+        {
+          "message": "Patient/101279: Patient.meta.profile[0]: Profile reference 'http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-patient' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles",
+          "type": "warning"
+        },
+        {
+          "message": "Patient/101280: Patient.meta.profile[0]: A definition could not be found for Canonical URL 'http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-patient'",
+          "type": "info"
+        },
+        {
+          "message": "Patient/101280: Patient.meta.profile[0]: Profile reference 'http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-patient' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles",
+          "type": "warning"
+        },
+        {
+          "message": "Patient/101281: Patient.meta.profile[0]: A definition could not be found for Canonical URL 'http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-patient'",
+          "type": "info"
+        },
+        {
+          "message": "Patient/101281: Patient.meta.profile[0]: Profile reference 'http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-patient' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles",
+          "type": "warning"
+        },
+        {
+          "message": "Patient/101282: Patient.meta.profile[0]: A definition could not be found for Canonical URL 'http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-patient'",
+          "type": "info"
+        },
+        {
+          "message": "Patient/101282: Patient.meta.profile[0]: Profile reference 'http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-patient' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles",
+          "type": "warning"
+        },
+        {
+          "message": "Patient/101283: Patient.meta.profile[0]: A definition could not be found for Canonical URL 'http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-patient'",
+          "type": "info"
+        },
+        {
+          "message": "Patient/101283: Patient.meta.profile[0]: Profile reference 'http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-patient' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles",
+          "type": "warning"
+        },
+        {
+          "message": "Patient/101284: Patient.meta.profile[0]: A definition could not be found for Canonical URL 'http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-patient'",
+          "type": "info"
+        },
+        {
+          "message": "Patient/101284: Patient.meta.profile[0]: Profile reference 'http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-patient' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles",
+          "type": "warning"
+        },
+        {
+          "message": "Patient/101285: Patient.meta.profile[0]: A definition could not be found for Canonical URL 'http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-patient'",
+          "type": "info"
+        },
+        {
+          "message": "Patient/101285: Patient.meta.profile[0]: Profile reference 'http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-patient' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles",
+          "type": "warning"
+        },
+        {
+          "message": "Patient/101286: Patient.meta.profile[0]: A definition could not be found for Canonical URL 'http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-patient'",
+          "type": "info"
+        },
+        {
+          "message": "Patient/101286: Patient.meta.profile[0]: Profile reference 'http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-patient' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles",
+          "type": "warning"
+        },
+        {
+          "message": "Patient/101287: Patient.meta.profile[0]: A definition could not be found for Canonical URL 'http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-patient'",
+          "type": "info"
+        },
+        {
+          "message": "Patient/101287: Patient.meta.profile[0]: Profile reference 'http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-patient' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles",
+          "type": "warning"
+        },
+        {
+          "message": "Patient/101288: Patient.meta.profile[0]: A definition could not be found for Canonical URL 'http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-patient'",
+          "type": "info"
+        },
+        {
+          "message": "Patient/101288: Patient.meta.profile[0]: Profile reference 'http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-patient' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles",
+          "type": "warning"
+        },
+        {
+          "message": "Patient/101289: Patient.meta.profile[0]: A definition could not be found for Canonical URL 'http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-patient'",
+          "type": "info"
+        },
+        {
+          "message": "Patient/101289: Patient.meta.profile[0]: Profile reference 'http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-patient' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles",
+          "type": "warning"
+        },
+        {
+          "message": "Patient/101290: Patient.meta.profile[0]: A definition could not be found for Canonical URL 'http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-patient'",
+          "type": "info"
+        },
+        {
+          "message": "Patient/101290: Patient.meta.profile[0]: Profile reference 'http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-patient' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles",
+          "type": "warning"
+        },
+        {
+          "message": "Patient/101291: Patient.meta.profile[0]: A definition could not be found for Canonical URL 'http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-patient'",
+          "type": "info"
+        },
+        {
+          "message": "Patient/101291: Patient.meta.profile[0]: Profile reference 'http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-patient' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles",
+          "type": "warning"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [],
+      "result": "pass",
+      "test_id": "us_core_v610-us_core_v610_fhir_api-us_core_v610_patient-us_core_v610_patient_validation_test",
+      "test_run_id": "b05c0b4f-a3ee-4a85-a566-12a9b2e38c8a",
+      "test_session_id": "kHZiFgRkVe7",
+      "updated_at": "2026-11-10T18:19:55.309+00:00"
+    },
+    {
+      "created_at": "2026-11-10T18:19:55.375+00:00",
+      "id": "0194c358-ee40-4c63-9b13-13c40250c17c",
+      "inputs": [
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://showfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"name\":\"smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [],
+      "result": "skip",
+      "result_message": "Could not find deceasedDateTime, extension:tribalAffiliation in the 34 provided resource(s)",
+      "test_id": "us_core_v610-us_core_v610_fhir_api-us_core_v610_patient-us_core_v610_patient_must_support_test",
+      "test_run_id": "b05c0b4f-a3ee-4a85-a566-12a9b2e38c8a",
+      "test_session_id": "kHZiFgRkVe7",
+      "updated_at": "2026-11-10T18:19:55.375+00:00"
+    },
+    {
+      "created_at": "2026-11-10T18:19:49.106+00:00",
+      "id": "7e6458f7-e1a2-4258-918b-5243b1e1fd81",
+      "inputs": [
+        {
+          "name": "patient_ids",
+          "type": "text",
+          "value": "101258,101259,101260,101261,101262,101263,101264,101265,101266,101267,101268,101269,101270,101271,101272,101273,101274,101275,101276,101277,101278,101279,101280,101281,101282,101283,101284,101285,101286,101287,101288,101289,101290,101291"
+        },
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://showfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"name\":\"smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [
+        {
+          "direction": "outgoing",
+          "id": "66db5384-288d-4006-b0a9-7f381f4cc922",
+          "index": 101722507,
+          "result_id": "7e6458f7-e1a2-4258-918b-5243b1e1fd81",
+          "status": 200,
+          "timestamp": "2026-11-10T18:19:49.113+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Patient?_id=101258",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "be2287fb-2267-464b-bc74-db1d689bf0ac",
+          "index": 101722508,
+          "result_id": "7e6458f7-e1a2-4258-918b-5243b1e1fd81",
+          "status": 200,
+          "timestamp": "2026-11-10T18:19:49.123+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Patient/_search",
+          "verb": "post"
+        },
+        {
+          "direction": "outgoing",
+          "id": "394124d0-e11e-4e9b-92ba-7f80093d05f1",
+          "index": 101722509,
+          "result_id": "7e6458f7-e1a2-4258-918b-5243b1e1fd81",
+          "status": 200,
+          "timestamp": "2026-11-10T18:19:49.135+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Patient?_id=101259",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "8474d1b6-2776-49c2-98e8-94e56f95fe4b",
+          "index": 101722510,
+          "result_id": "7e6458f7-e1a2-4258-918b-5243b1e1fd81",
+          "status": 200,
+          "timestamp": "2026-11-10T18:19:49.145+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Patient?_id=101260",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "a599f979-4fca-49d0-b9ac-a89a5ee2f64c",
+          "index": 101722511,
+          "result_id": "7e6458f7-e1a2-4258-918b-5243b1e1fd81",
+          "status": 200,
+          "timestamp": "2026-11-10T18:19:49.155+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Patient?_id=101261",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "f3c6f442-507b-49db-a0bd-e38e8b98d3f9",
+          "index": 101722512,
+          "result_id": "7e6458f7-e1a2-4258-918b-5243b1e1fd81",
+          "status": 200,
+          "timestamp": "2026-11-10T18:19:49.163+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Patient?_id=101262",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "219daef3-d29e-4cce-ad4d-98257d331791",
+          "index": 101722513,
+          "result_id": "7e6458f7-e1a2-4258-918b-5243b1e1fd81",
+          "status": 200,
+          "timestamp": "2026-11-10T18:19:49.173+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Patient?_id=101263",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "d0669626-f8e8-48ae-b294-709438cacff4",
+          "index": 101722514,
+          "result_id": "7e6458f7-e1a2-4258-918b-5243b1e1fd81",
+          "status": 200,
+          "timestamp": "2026-11-10T18:19:49.181+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Patient?_id=101264",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "791c3369-8b20-49c6-a01c-f8b798813472",
+          "index": 101722515,
+          "result_id": "7e6458f7-e1a2-4258-918b-5243b1e1fd81",
+          "status": 200,
+          "timestamp": "2026-11-10T18:19:49.191+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Patient?_id=101265",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "0a67dd17-c652-473c-bfd4-c6e091b471fb",
+          "index": 101722516,
+          "result_id": "7e6458f7-e1a2-4258-918b-5243b1e1fd81",
+          "status": 200,
+          "timestamp": "2026-11-10T18:19:49.198+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Patient?_id=101266",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "6add0bd0-74b1-4dde-a2bc-25c2a8a71503",
+          "index": 101722517,
+          "result_id": "7e6458f7-e1a2-4258-918b-5243b1e1fd81",
+          "status": 200,
+          "timestamp": "2026-11-10T18:19:49.207+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Patient?_id=101267",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "78584ef6-a3a1-413c-9af9-7f4092255ce2",
+          "index": 101722518,
+          "result_id": "7e6458f7-e1a2-4258-918b-5243b1e1fd81",
+          "status": 200,
+          "timestamp": "2026-11-10T18:19:49.215+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Patient?_id=101268",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "72190134-4e10-495f-b123-b29b4abe1ff3",
+          "index": 101722519,
+          "result_id": "7e6458f7-e1a2-4258-918b-5243b1e1fd81",
+          "status": 200,
+          "timestamp": "2026-11-10T18:19:49.223+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Patient?_id=101269",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "bddb13c3-544e-48a0-86a7-e497de9883d4",
+          "index": 101722520,
+          "result_id": "7e6458f7-e1a2-4258-918b-5243b1e1fd81",
+          "status": 200,
+          "timestamp": "2026-11-10T18:19:49.232+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Patient?_id=101270",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "87934c6b-649c-4bd9-a7e8-f5bf9fa65a80",
+          "index": 101722521,
+          "result_id": "7e6458f7-e1a2-4258-918b-5243b1e1fd81",
+          "status": 200,
+          "timestamp": "2026-11-10T18:19:49.240+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Patient?_id=101271",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "5f1b227a-eb22-411e-b370-c9229edf46bc",
+          "index": 101722522,
+          "result_id": "7e6458f7-e1a2-4258-918b-5243b1e1fd81",
+          "status": 200,
+          "timestamp": "2026-11-10T18:19:49.249+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Patient?_id=101272",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "41ef164b-dc53-4dbf-9b33-3f7a675fdebc",
+          "index": 101722523,
+          "result_id": "7e6458f7-e1a2-4258-918b-5243b1e1fd81",
+          "status": 200,
+          "timestamp": "2026-11-10T18:19:49.257+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Patient?_id=101273",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "1571f9a9-9f76-479f-93de-aeda31bb9a12",
+          "index": 101722524,
+          "result_id": "7e6458f7-e1a2-4258-918b-5243b1e1fd81",
+          "status": 200,
+          "timestamp": "2026-11-10T18:19:49.266+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Patient?_id=101274",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "ce3396db-0262-4cd3-9a70-1505bc2a904c",
+          "index": 101722525,
+          "result_id": "7e6458f7-e1a2-4258-918b-5243b1e1fd81",
+          "status": 200,
+          "timestamp": "2026-11-10T18:19:49.275+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Patient?_id=101275",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "bfc1db22-49c8-4e53-ad52-077e37ff3557",
+          "index": 101722526,
+          "result_id": "7e6458f7-e1a2-4258-918b-5243b1e1fd81",
+          "status": 200,
+          "timestamp": "2026-11-10T18:19:49.283+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Patient?_id=101276",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "03e7b52c-728a-452b-b085-f4457afa3531",
+          "index": 101722527,
+          "result_id": "7e6458f7-e1a2-4258-918b-5243b1e1fd81",
+          "status": 200,
+          "timestamp": "2026-11-10T18:19:49.291+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Patient?_id=101277",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "1d91ad84-aa3b-4f3e-8a7f-f467cfd94fa2",
+          "index": 101722528,
+          "result_id": "7e6458f7-e1a2-4258-918b-5243b1e1fd81",
+          "status": 200,
+          "timestamp": "2026-11-10T18:19:49.298+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Patient?_id=101278",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "bde1a417-06b9-47db-8ceb-62447e2e4771",
+          "index": 101722529,
+          "result_id": "7e6458f7-e1a2-4258-918b-5243b1e1fd81",
+          "status": 200,
+          "timestamp": "2026-11-10T18:19:49.307+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Patient?_id=101279",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "749762d3-3c2b-49f8-bb7d-478093b85a78",
+          "index": 101722530,
+          "result_id": "7e6458f7-e1a2-4258-918b-5243b1e1fd81",
+          "status": 200,
+          "timestamp": "2026-11-10T18:19:49.315+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Patient?_id=101280",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "ce8a2b02-d6c7-4dee-b6e2-1be68c864730",
+          "index": 101722531,
+          "result_id": "7e6458f7-e1a2-4258-918b-5243b1e1fd81",
+          "status": 200,
+          "timestamp": "2026-11-10T18:19:49.324+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Patient?_id=101281",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "822d6945-7981-4226-b7ef-63c41adfff1d",
+          "index": 101722532,
+          "result_id": "7e6458f7-e1a2-4258-918b-5243b1e1fd81",
+          "status": 200,
+          "timestamp": "2026-11-10T18:19:49.333+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Patient?_id=101282",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "542bb237-bc22-45ed-b1e6-9859a5bdf10b",
+          "index": 101722533,
+          "result_id": "7e6458f7-e1a2-4258-918b-5243b1e1fd81",
+          "status": 200,
+          "timestamp": "2026-11-10T18:19:49.342+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Patient?_id=101283",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "feb4d8f6-69ac-45c9-9bc8-f8f8a23abc62",
+          "index": 101722534,
+          "result_id": "7e6458f7-e1a2-4258-918b-5243b1e1fd81",
+          "status": 200,
+          "timestamp": "2026-11-10T18:19:49.350+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Patient?_id=101284",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "3f0de3d5-dc63-4294-a1f0-3a186ffcee45",
+          "index": 101722535,
+          "result_id": "7e6458f7-e1a2-4258-918b-5243b1e1fd81",
+          "status": 200,
+          "timestamp": "2026-11-10T18:19:49.360+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Patient?_id=101285",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "166a6ea1-8d1e-4ecc-99c4-e5299c3fc429",
+          "index": 101722536,
+          "result_id": "7e6458f7-e1a2-4258-918b-5243b1e1fd81",
+          "status": 200,
+          "timestamp": "2026-11-10T18:19:49.372+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Patient?_id=101286",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "568c7c05-d960-41c4-8a6e-bcbde1360d72",
+          "index": 101722537,
+          "result_id": "7e6458f7-e1a2-4258-918b-5243b1e1fd81",
+          "status": 200,
+          "timestamp": "2026-11-10T18:19:49.381+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Patient?_id=101287",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "2dddb76f-ad8f-44a9-8622-2aad2ef94de8",
+          "index": 101722538,
+          "result_id": "7e6458f7-e1a2-4258-918b-5243b1e1fd81",
+          "status": 200,
+          "timestamp": "2026-11-10T18:19:49.390+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Patient?_id=101288",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "6c15e3bc-a6b3-47e2-849f-2ff127ac06f9",
+          "index": 101722539,
+          "result_id": "7e6458f7-e1a2-4258-918b-5243b1e1fd81",
+          "status": 200,
+          "timestamp": "2026-11-10T18:19:49.399+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Patient?_id=101289",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "a6de2816-aea7-4d21-b3ad-4c231a018813",
+          "index": 101722540,
+          "result_id": "7e6458f7-e1a2-4258-918b-5243b1e1fd81",
+          "status": 200,
+          "timestamp": "2026-11-10T18:19:49.408+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Patient?_id=101290",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "d16538f6-efed-4f5f-8926-5e83700e0273",
+          "index": 101722541,
+          "result_id": "7e6458f7-e1a2-4258-918b-5243b1e1fd81",
+          "status": 200,
+          "timestamp": "2026-11-10T18:19:49.417+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Patient?_id=101291",
+          "verb": "get"
+        }
+      ],
+      "result": "pass",
+      "test_id": "us_core_v610-us_core_v610_fhir_api-us_core_v610_patient-us_core_v610_patient__id_search_test",
+      "test_run_id": "b05c0b4f-a3ee-4a85-a566-12a9b2e38c8a",
+      "test_session_id": "kHZiFgRkVe7",
+      "updated_at": "2026-11-10T18:19:49.106+00:00"
+    },
+    {
+      "created_at": "2026-11-10T18:19:49.625+00:00",
+      "id": "75da4530-1623-4dde-812b-79eeca408456",
+      "inputs": [
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://showfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"name\":\"smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [
+        {
+          "direction": "outgoing",
+          "id": "6e3ca5ce-8dcc-47b7-9e1a-7042843a567a",
+          "index": 101722542,
+          "result_id": "75da4530-1623-4dde-812b-79eeca408456",
+          "status": 200,
+          "timestamp": "2026-11-10T18:19:49.628+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Patient?identifier=000008101",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "49eb3ef7-d1e4-4389-a00e-082cdce3db88",
+          "index": 101722543,
+          "result_id": "75da4530-1623-4dde-812b-79eeca408456",
+          "status": 200,
+          "timestamp": "2026-11-10T18:19:49.637+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Patient?identifier=http://hl7.org/fhir/sid/us-ssn%7C000008101",
+          "verb": "get"
+        }
+      ],
+      "result": "pass",
+      "test_id": "us_core_v610-us_core_v610_fhir_api-us_core_v610_patient-us_core_v610_patient_identifier_search_test",
+      "test_run_id": "b05c0b4f-a3ee-4a85-a566-12a9b2e38c8a",
+      "test_session_id": "kHZiFgRkVe7",
+      "updated_at": "2026-11-10T18:19:49.625+00:00"
+    },
+    {
+      "created_at": "2026-11-10T18:19:49.754+00:00",
+      "id": "767f5d5d-2942-4e07-b8c3-9eca59db1187",
+      "inputs": [
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://showfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"name\":\"smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [
+        {
+          "direction": "outgoing",
+          "id": "144ea331-712c-4358-9c29-1a899096576a",
+          "index": 101722544,
+          "result_id": "767f5d5d-2942-4e07-b8c3-9eca59db1187",
+          "status": 200,
+          "timestamp": "2026-11-10T18:19:49.756+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Patient?name=KEENE",
+          "verb": "get"
+        }
+      ],
+      "result": "pass",
+      "test_id": "us_core_v610-us_core_v610_fhir_api-us_core_v610_patient-us_core_v610_patient_name_search_test",
+      "test_run_id": "b05c0b4f-a3ee-4a85-a566-12a9b2e38c8a",
+      "test_session_id": "kHZiFgRkVe7",
+      "updated_at": "2026-11-10T18:19:49.754+00:00"
+    },
+    {
+      "created_at": "2026-11-10T18:19:49.868+00:00",
+      "id": "4cbe6255-78dd-43cb-a97f-44bf548bf37b",
+      "inputs": [
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://showfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"name\":\"smart_auth_info\"}"
+        }
+      ],
+      "optional": true,
+      "outputs": [],
+      "requests": [
+        {
+          "direction": "outgoing",
+          "id": "553bf9bd-d1e4-4a37-a182-bc7cb4322002",
+          "index": 101722545,
+          "result_id": "4cbe6255-78dd-43cb-a97f-44bf548bf37b",
+          "status": 200,
+          "timestamp": "2026-11-10T18:19:49.869+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Patient?birthdate=1959-04-02&family=KEENE",
+          "verb": "get"
+        }
+      ],
+      "result": "pass",
+      "test_id": "us_core_v610-us_core_v610_fhir_api-us_core_v610_patient-us_core_v610_patient_birthdate_family_search_test",
+      "test_run_id": "b05c0b4f-a3ee-4a85-a566-12a9b2e38c8a",
+      "test_session_id": "kHZiFgRkVe7",
+      "updated_at": "2026-11-10T18:19:49.868+00:00"
+    },
+    {
+      "created_at": "2026-11-10T18:19:49.990+00:00",
+      "id": "525d6b5a-cfb8-4a44-80bb-3d5fd1385dd4",
+      "inputs": [
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://showfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"name\":\"smart_auth_info\"}"
+        }
+      ],
+      "optional": true,
+      "outputs": [],
+      "requests": [
+        {
+          "direction": "outgoing",
+          "id": "e5831dca-247e-4fd1-b785-cb295ec204da",
+          "index": 101722546,
+          "result_id": "525d6b5a-cfb8-4a44-80bb-3d5fd1385dd4",
+          "status": 200,
+          "timestamp": "2026-11-10T18:19:49.992+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Patient?family=KEENE&gender=female",
+          "verb": "get"
+        }
+      ],
+      "result": "pass",
+      "test_id": "us_core_v610-us_core_v610_fhir_api-us_core_v610_patient-us_core_v610_patient_family_gender_search_test",
+      "test_run_id": "b05c0b4f-a3ee-4a85-a566-12a9b2e38c8a",
+      "test_session_id": "kHZiFgRkVe7",
+      "updated_at": "2026-11-10T18:19:49.990+00:00"
+    },
+    {
+      "created_at": "2026-11-10T18:19:50.106+00:00",
+      "id": "c0f6b078-fb21-4669-a63f-c5a8fab7f0d1",
+      "inputs": [
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://showfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"name\":\"smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [
+        {
+          "direction": "outgoing",
+          "id": "af7181aa-0cbf-46f5-b45d-8769f167a4b0",
+          "index": 101722547,
+          "result_id": "c0f6b078-fb21-4669-a63f-c5a8fab7f0d1",
+          "status": 200,
+          "timestamp": "2026-11-10T18:19:50.110+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Patient?birthdate=1959-04-02&name=KEENE",
+          "verb": "get"
+        }
+      ],
+      "result": "pass",
+      "test_id": "us_core_v610-us_core_v610_fhir_api-us_core_v610_patient-us_core_v610_patient_birthdate_name_search_test",
+      "test_run_id": "b05c0b4f-a3ee-4a85-a566-12a9b2e38c8a",
+      "test_session_id": "kHZiFgRkVe7",
+      "updated_at": "2026-11-10T18:19:50.106+00:00"
+    },
+    {
+      "created_at": "2026-11-10T18:19:50.228+00:00",
+      "id": "f8e9860a-be38-44c7-b692-788c89d0d6e5",
+      "inputs": [
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://showfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"name\":\"smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [
+        {
+          "direction": "outgoing",
+          "id": "8148af7a-5767-4a9f-8f4d-85452269dcac",
+          "index": 101722548,
+          "result_id": "f8e9860a-be38-44c7-b692-788c89d0d6e5",
+          "status": 200,
+          "timestamp": "2026-11-10T18:19:50.230+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Patient?gender=female&name=KEENE",
+          "verb": "get"
+        }
+      ],
+      "result": "pass",
+      "test_id": "us_core_v610-us_core_v610_fhir_api-us_core_v610_patient-us_core_v610_patient_gender_name_search_test",
+      "test_run_id": "b05c0b4f-a3ee-4a85-a566-12a9b2e38c8a",
+      "test_session_id": "kHZiFgRkVe7",
+      "updated_at": "2026-11-10T18:19:50.228+00:00"
+    },
+    {
+      "created_at": "2026-11-10T18:19:50.244+00:00",
+      "id": "c58f9ef8-d210-4325-9582-23ca4d0762f5",
+      "inputs": [
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://showfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"name\":\"smart_auth_info\"}"
+        }
+      ],
+      "optional": true,
+      "outputs": [],
+      "requests": [],
+      "result": "skip",
+      "result_message": "Could not find values for all search params `death-date`, `family`",
+      "test_id": "us_core_v610-us_core_v610_fhir_api-us_core_v610_patient-us_core_v610_patient_death_date_family_search_test",
+      "test_run_id": "b05c0b4f-a3ee-4a85-a566-12a9b2e38c8a",
+      "test_session_id": "kHZiFgRkVe7",
+      "updated_at": "2026-11-10T18:19:50.244+00:00"
+    },
+    {
+      "created_at": "2026-11-10T18:19:50.328+00:00",
+      "id": "28690c04-18d7-4b02-9947-8735f7e94ba7",
+      "inputs": [
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://showfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"name\":\"smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [
+        {
+          "direction": "outgoing",
+          "id": "5aee49ec-c09e-4d64-9cbd-b152e38093c6",
+          "index": 101722549,
+          "result_id": "28690c04-18d7-4b02-9947-8735f7e94ba7",
+          "status": 200,
+          "timestamp": "2026-11-10T18:19:50.332+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Patient/101258",
+          "verb": "get"
+        }
+      ],
+      "result": "pass",
+      "test_id": "us_core_v610-us_core_v610_fhir_api-us_core_v610_patient-us_core_v610_patient_read_test",
+      "test_run_id": "b05c0b4f-a3ee-4a85-a566-12a9b2e38c8a",
+      "test_session_id": "kHZiFgRkVe7",
+      "updated_at": "2026-11-10T18:19:50.328+00:00"
+    },
+    {
+      "created_at": "2026-11-10T18:19:54.106+00:00",
+      "id": "05acea7c-ef61-40d1-88fe-172c12f1965c",
+      "inputs": [
+        {
+          "name": "patient_ids",
+          "type": "text",
+          "value": "101258,101259,101260,101261,101262,101263,101264,101265,101266,101267,101268,101269,101270,101271,101272,101273,101274,101275,101276,101277,101278,101279,101280,101281,101282,101283,101284,101285,101286,101287,101288,101289,101290,101291"
+        },
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://showfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"name\":\"smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [
+        {
+          "direction": "outgoing",
+          "id": "a408517d-bb1d-4058-aa45-355e8c9bc01e",
+          "index": 101722550,
+          "result_id": "05acea7c-ef61-40d1-88fe-172c12f1965c",
+          "status": 200,
+          "timestamp": "2026-11-10T18:19:54.108+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Patient?_id=101258&_revinclude=Provenance:target",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "2cab4596-e7a3-4087-9480-39d9cf712a25",
+          "index": 101722551,
+          "result_id": "05acea7c-ef61-40d1-88fe-172c12f1965c",
+          "status": 200,
+          "timestamp": "2026-11-10T18:19:54.119+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Patient?_id=101259&_revinclude=Provenance:target",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "acce25d5-f48f-449a-b02d-1b64c6e811ad",
+          "index": 101722552,
+          "result_id": "05acea7c-ef61-40d1-88fe-172c12f1965c",
+          "status": 200,
+          "timestamp": "2026-11-10T18:19:54.128+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Patient?_id=101260&_revinclude=Provenance:target",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "c0e07e50-841d-4a06-9258-c8674b3d9c21",
+          "index": 101722553,
+          "result_id": "05acea7c-ef61-40d1-88fe-172c12f1965c",
+          "status": 200,
+          "timestamp": "2026-11-10T18:19:54.137+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Patient?_id=101261&_revinclude=Provenance:target",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "ff4de8fe-0d32-4446-a145-4fbd207793cb",
+          "index": 101722554,
+          "result_id": "05acea7c-ef61-40d1-88fe-172c12f1965c",
+          "status": 200,
+          "timestamp": "2026-11-10T18:19:54.146+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Patient?_id=101262&_revinclude=Provenance:target",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "036c5e68-9135-478d-af2a-ae2c686a1e37",
+          "index": 101722555,
+          "result_id": "05acea7c-ef61-40d1-88fe-172c12f1965c",
+          "status": 200,
+          "timestamp": "2026-11-10T18:19:54.156+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Patient?_id=101263&_revinclude=Provenance:target",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "60847041-044d-40ab-a90e-ff14ab240180",
+          "index": 101722556,
+          "result_id": "05acea7c-ef61-40d1-88fe-172c12f1965c",
+          "status": 200,
+          "timestamp": "2026-11-10T18:19:54.165+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Patient?_id=101264&_revinclude=Provenance:target",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "574a7e95-53c8-4213-a09c-5ffb21b0bbf7",
+          "index": 101722557,
+          "result_id": "05acea7c-ef61-40d1-88fe-172c12f1965c",
+          "status": 200,
+          "timestamp": "2026-11-10T18:19:54.174+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Patient?_id=101265&_revinclude=Provenance:target",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "f4a24097-1041-475b-8416-340381cf9bab",
+          "index": 101722558,
+          "result_id": "05acea7c-ef61-40d1-88fe-172c12f1965c",
+          "status": 200,
+          "timestamp": "2026-11-10T18:19:54.182+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Patient?_id=101266&_revinclude=Provenance:target",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "b0b57120-1502-4a66-b353-cef6c81730f8",
+          "index": 101722559,
+          "result_id": "05acea7c-ef61-40d1-88fe-172c12f1965c",
+          "status": 200,
+          "timestamp": "2026-11-10T18:19:54.191+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Patient?_id=101267&_revinclude=Provenance:target",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "a10daf5e-1ca3-4586-985a-eee350132e8d",
+          "index": 101722560,
+          "result_id": "05acea7c-ef61-40d1-88fe-172c12f1965c",
+          "status": 200,
+          "timestamp": "2026-11-10T18:19:54.201+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Patient?_id=101268&_revinclude=Provenance:target",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "a3fc1c33-7dae-443c-90a3-ad6584b6f586",
+          "index": 101722561,
+          "result_id": "05acea7c-ef61-40d1-88fe-172c12f1965c",
+          "status": 200,
+          "timestamp": "2026-11-10T18:19:54.209+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Patient?_id=101269&_revinclude=Provenance:target",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "d2a90f3d-9b35-4d9f-b778-0cfee7575e95",
+          "index": 101722562,
+          "result_id": "05acea7c-ef61-40d1-88fe-172c12f1965c",
+          "status": 200,
+          "timestamp": "2026-11-10T18:19:54.217+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Patient?_id=101270&_revinclude=Provenance:target",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "a1d4396f-71fc-4148-a12b-40cb5f7e6fee",
+          "index": 101722563,
+          "result_id": "05acea7c-ef61-40d1-88fe-172c12f1965c",
+          "status": 200,
+          "timestamp": "2026-11-10T18:19:54.226+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Patient?_id=101271&_revinclude=Provenance:target",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "a09bb2ed-feb3-4ad8-ab17-a7c2c8bf947b",
+          "index": 101722564,
+          "result_id": "05acea7c-ef61-40d1-88fe-172c12f1965c",
+          "status": 200,
+          "timestamp": "2026-11-10T18:19:54.234+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Patient?_id=101272&_revinclude=Provenance:target",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "43ccb667-68a7-4d40-8503-7a6918372716",
+          "index": 101722565,
+          "result_id": "05acea7c-ef61-40d1-88fe-172c12f1965c",
+          "status": 200,
+          "timestamp": "2026-11-10T18:19:54.243+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Patient?_id=101273&_revinclude=Provenance:target",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "1c1c5089-1ca4-4a98-b821-2eacb8ace78f",
+          "index": 101722566,
+          "result_id": "05acea7c-ef61-40d1-88fe-172c12f1965c",
+          "status": 200,
+          "timestamp": "2026-11-10T18:19:54.252+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Patient?_id=101274&_revinclude=Provenance:target",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "f17ddbf0-f081-471f-a3a8-710460713f96",
+          "index": 101722567,
+          "result_id": "05acea7c-ef61-40d1-88fe-172c12f1965c",
+          "status": 200,
+          "timestamp": "2026-11-10T18:19:54.260+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Patient?_id=101275&_revinclude=Provenance:target",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "98c78f28-ac70-4694-9845-5f5203c82006",
+          "index": 101722568,
+          "result_id": "05acea7c-ef61-40d1-88fe-172c12f1965c",
+          "status": 200,
+          "timestamp": "2026-11-10T18:19:54.269+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Patient?_id=101276&_revinclude=Provenance:target",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "0524093d-d8f8-4f35-bbf4-e066e622b49b",
+          "index": 101722569,
+          "result_id": "05acea7c-ef61-40d1-88fe-172c12f1965c",
+          "status": 200,
+          "timestamp": "2026-11-10T18:19:54.277+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Patient?_id=101277&_revinclude=Provenance:target",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "47d267f7-ef71-4aeb-b97d-b54b76abc796",
+          "index": 101722570,
+          "result_id": "05acea7c-ef61-40d1-88fe-172c12f1965c",
+          "status": 200,
+          "timestamp": "2026-11-10T18:19:54.286+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Patient?_id=101278&_revinclude=Provenance:target",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "d22ab0fe-9750-41ea-81b5-33539f655944",
+          "index": 101722571,
+          "result_id": "05acea7c-ef61-40d1-88fe-172c12f1965c",
+          "status": 200,
+          "timestamp": "2026-11-10T18:19:54.294+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Patient?_id=101279&_revinclude=Provenance:target",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "ea68debc-50c3-4544-a63d-ede7bb1fe862",
+          "index": 101722572,
+          "result_id": "05acea7c-ef61-40d1-88fe-172c12f1965c",
+          "status": 200,
+          "timestamp": "2026-11-10T18:19:54.302+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Patient?_id=101280&_revinclude=Provenance:target",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "43b339d6-5dca-4561-8c40-c261e7b7695b",
+          "index": 101722573,
+          "result_id": "05acea7c-ef61-40d1-88fe-172c12f1965c",
+          "status": 200,
+          "timestamp": "2026-11-10T18:19:54.310+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Patient?_id=101281&_revinclude=Provenance:target",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "de1d148e-a620-4ecd-bb82-58ecda079ac3",
+          "index": 101722574,
+          "result_id": "05acea7c-ef61-40d1-88fe-172c12f1965c",
+          "status": 200,
+          "timestamp": "2026-11-10T18:19:54.318+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Patient?_id=101282&_revinclude=Provenance:target",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "caab93ef-b8b2-46a3-8a8b-e4f5fb993df2",
+          "index": 101722575,
+          "result_id": "05acea7c-ef61-40d1-88fe-172c12f1965c",
+          "status": 200,
+          "timestamp": "2026-11-10T18:19:54.326+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Patient?_id=101283&_revinclude=Provenance:target",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "30318934-86ec-41c8-8244-1835f35ed500",
+          "index": 101722576,
+          "result_id": "05acea7c-ef61-40d1-88fe-172c12f1965c",
+          "status": 200,
+          "timestamp": "2026-11-10T18:19:54.334+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Patient?_id=101284&_revinclude=Provenance:target",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "bdbad411-6a2f-4dfb-a6c8-616a0975a4df",
+          "index": 101722577,
+          "result_id": "05acea7c-ef61-40d1-88fe-172c12f1965c",
+          "status": 200,
+          "timestamp": "2026-11-10T18:19:54.344+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Patient?_id=101285&_revinclude=Provenance:target",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "0741f79d-5c6f-48b8-8776-2ad9714a6c3c",
+          "index": 101722578,
+          "result_id": "05acea7c-ef61-40d1-88fe-172c12f1965c",
+          "status": 200,
+          "timestamp": "2026-11-10T18:19:54.353+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Patient?_id=101286&_revinclude=Provenance:target",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "a9487fe5-016a-4511-a270-f372b6c500c0",
+          "index": 101722579,
+          "result_id": "05acea7c-ef61-40d1-88fe-172c12f1965c",
+          "status": 200,
+          "timestamp": "2026-11-10T18:19:54.362+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Patient?_id=101287&_revinclude=Provenance:target",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "dfb1caed-cd4e-4e4f-9c6f-d0e9abe3a8b0",
+          "index": 101722580,
+          "result_id": "05acea7c-ef61-40d1-88fe-172c12f1965c",
+          "status": 200,
+          "timestamp": "2026-11-10T18:19:54.371+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Patient?_id=101288&_revinclude=Provenance:target",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "7f33a53a-2639-4416-b39b-531682cb9fc7",
+          "index": 101722581,
+          "result_id": "05acea7c-ef61-40d1-88fe-172c12f1965c",
+          "status": 200,
+          "timestamp": "2026-11-10T18:19:54.378+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Patient?_id=101289&_revinclude=Provenance:target",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "5d8a9872-497a-4491-a531-53175b645b84",
+          "index": 101722582,
+          "result_id": "05acea7c-ef61-40d1-88fe-172c12f1965c",
+          "status": 200,
+          "timestamp": "2026-11-10T18:19:54.387+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Patient?_id=101290&_revinclude=Provenance:target",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "5d9cf1af-4894-4dd9-95af-edf641e8e05f",
+          "index": 101722583,
+          "result_id": "05acea7c-ef61-40d1-88fe-172c12f1965c",
+          "status": 200,
+          "timestamp": "2026-11-10T18:19:54.394+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Patient?_id=101291&_revinclude=Provenance:target",
+          "verb": "get"
+        }
+      ],
+      "result": "pass",
+      "test_id": "us_core_v610-us_core_v610_fhir_api-us_core_v610_patient-us_core_v610_patient_provenance_revinclude_search_test",
+      "test_run_id": "b05c0b4f-a3ee-4a85-a566-12a9b2e38c8a",
+      "test_session_id": "kHZiFgRkVe7",
+      "updated_at": "2026-11-10T18:19:54.106+00:00"
+    },
+    {
+      "created_at": "2026-11-10T18:19:55.378+00:00",
+      "id": "e8824f24-866f-4fd5-9dc8-5df648b0bc2f",
+      "inputs": [
+        {
+          "description": "Comma separated list of patient IDs that in sum contain all MUST SUPPORT elements",
+          "label": "Patient IDs",
+          "name": "patient_ids",
+          "type": "text",
+          "value": "101258,101259,101260,101261,101262,101263,101264,101265,101266,101267,101268,101269,101270,101271,101272,101273,101274,101275,101276,101277,101278,101279,101280,101281,101282,101283,101284,101285,101286,101287,101288,101289,101290,101291"
+        },
+        {
+          "description": "URL of the FHIR endpoint",
+          "label": "FHIR Endpoint",
+          "name": "url",
+          "type": "text",
+          "value": "https://showfhir.vistaplex.org/fhir"
+        },
+        {
+          "description": null,
+          "label": "OAuth Credentials",
+          "name": "smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"name\":\"smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [],
+      "result": "skip",
+      "test_group_id": "us_core_v610-us_core_v610_fhir_api-us_core_v610_patient",
+      "test_run_id": "b05c0b4f-a3ee-4a85-a566-12a9b2e38c8a",
+      "test_session_id": "kHZiFgRkVe7",
+      "updated_at": "2026-11-10T18:19:55.378+00:00"
+    }
+  ],
+  "run_id": "b05c0b4f-a3ee-4a85-a566-12a9b2e38c8a",
+  "session_id": "kHZiFgRkVe7",
+  "session_url": "https://inferno.healthit.gov/suites/us_core_v610/kHZiFgRkVe7",
+  "status": {
+    "id": "b05c0b4f-a3ee-4a85-a566-12a9b2e38c8a",
+    "inputs": null,
+    "results": null,
+    "status": "done",
+    "test_count": 12,
+    "test_group_id": "us_core_v610-us_core_v610_fhir_api-us_core_v610_patient",
+    "test_session_id": "kHZiFgRkVe7"
+  },
+  "url": "https://showfhir.vistaplex.org/fhir"
+}
