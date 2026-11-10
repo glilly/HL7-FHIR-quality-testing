@@ -1,0 +1,1157 @@
+{
+  "api": "https://inferno.healthit.gov/suites/api",
+  "patient_ids": "101258,101259,101260,101261,101262,101263,101264,101265,101266,101267,101268,101269,101270,101271,101272,101273,101274,101275,101276,101277,101278,101279,101280,101281,101282,101283,101284,101285,101286,101287,101288,101289,101290,101291",
+  "results": [
+    {
+      "created_at": "2026-11-10T20:40:23.856+00:00",
+      "id": "e011403b-ed32-40d8-9baa-ffb4a14a1c46",
+      "inputs": [
+        {
+          "name": "patient_ids",
+          "type": "text",
+          "value": "101258,101259,101260,101261,101262,101263,101264,101265,101266,101267,101268,101269,101270,101271,101272,101273,101274,101275,101276,101277,101278,101279,101280,101281,101282,101283,101284,101285,101286,101287,101288,101289,101290,101291"
+        },
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://showfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"name\":\"smart_auth_info\"}"
+        }
+      ],
+      "optional": true,
+      "outputs": [],
+      "requests": [
+        {
+          "direction": "outgoing",
+          "id": "ed37b905-c5d5-4146-bd0b-2a7c8cbef197",
+          "index": 101758920,
+          "result_id": "e011403b-ed32-40d8-9baa-ffb4a14a1c46",
+          "status": 200,
+          "timestamp": "2026-11-10T20:40:23.858+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/QuestionnaireResponse?patient=101258&questionnaire=http://loinc.org/88121-9",
+          "verb": "get"
+        }
+      ],
+      "result": "pass",
+      "test_id": "us_core_v610-us_core_v610_fhir_api-us_core_v610_questionnaire_response-us_core_v610_questionnaire_response_patient_questionnaire_search_test",
+      "test_run_id": "8684a68d-2c21-468f-87bf-d943117ae8d0",
+      "test_session_id": "baqHuGYA4Ij",
+      "updated_at": "2026-11-10T20:40:23.856+00:00"
+    },
+    {
+      "created_at": "2026-11-10T20:40:23.731+00:00",
+      "id": "452f1cb4-0889-42df-b606-168c1948c4bf",
+      "inputs": [
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://showfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"name\":\"smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [
+        {
+          "direction": "outgoing",
+          "id": "1ce8d784-003d-4ae8-aeb4-12fb437e4c52",
+          "index": 101758919,
+          "result_id": "452f1cb4-0889-42df-b606-168c1948c4bf",
+          "status": 200,
+          "timestamp": "2026-11-10T20:40:23.734+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/QuestionnaireResponse?_id=qr-hvs",
+          "verb": "get"
+        }
+      ],
+      "result": "pass",
+      "test_id": "us_core_v610-us_core_v610_fhir_api-us_core_v610_questionnaire_response-us_core_v610_questionnaire_response__id_search_test",
+      "test_run_id": "8684a68d-2c21-468f-87bf-d943117ae8d0",
+      "test_session_id": "baqHuGYA4Ij",
+      "updated_at": "2026-11-10T20:40:23.731+00:00"
+    },
+    {
+      "created_at": "2026-11-10T20:40:23.176+00:00",
+      "id": "e45c5624-4e12-44c8-b2ef-f159a49a9311",
+      "inputs": [
+        {
+          "name": "patient_ids",
+          "type": "text",
+          "value": "101258,101259,101260,101261,101262,101263,101264,101265,101266,101267,101268,101269,101270,101271,101272,101273,101274,101275,101276,101277,101278,101279,101280,101281,101282,101283,101284,101285,101286,101287,101288,101289,101290,101291"
+        },
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://showfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"name\":\"smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [
+        {
+          "direction": "outgoing",
+          "id": "c628d64a-920c-453e-bfb8-63be7a1cd952",
+          "index": 101758876,
+          "result_id": "e45c5624-4e12-44c8-b2ef-f159a49a9311",
+          "status": 200,
+          "timestamp": "2026-11-10T20:40:23.186+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/QuestionnaireResponse?patient=101258",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "44b8e452-7c46-4a30-92b0-12fa27b7a6a2",
+          "index": 101758877,
+          "result_id": "e45c5624-4e12-44c8-b2ef-f159a49a9311",
+          "status": 200,
+          "timestamp": "2026-11-10T20:40:23.199+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/QuestionnaireResponse/_search",
+          "verb": "post"
+        },
+        {
+          "direction": "outgoing",
+          "id": "5ed66cce-5f23-42f8-98b7-660b4d5af11b",
+          "index": 101758878,
+          "result_id": "e45c5624-4e12-44c8-b2ef-f159a49a9311",
+          "status": 200,
+          "timestamp": "2026-11-10T20:40:23.243+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/QuestionnaireResponse?patient=Patient/101258",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "69d06214-7aa4-434b-8bc5-36f9c74fe864",
+          "index": 101758879,
+          "result_id": "e45c5624-4e12-44c8-b2ef-f159a49a9311",
+          "status": 200,
+          "timestamp": "2026-11-10T20:40:23.255+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/QuestionnaireResponse?patient=101259",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "65f2cf37-109e-4d96-8e48-5cdfd16db691",
+          "index": 101758880,
+          "result_id": "e45c5624-4e12-44c8-b2ef-f159a49a9311",
+          "status": 200,
+          "timestamp": "2026-11-10T20:40:23.264+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/QuestionnaireResponse?patient=101260",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "abfa9f09-aca8-4a2c-97f2-b9c5f4227e0d",
+          "index": 101758881,
+          "result_id": "e45c5624-4e12-44c8-b2ef-f159a49a9311",
+          "status": 200,
+          "timestamp": "2026-11-10T20:40:23.274+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/QuestionnaireResponse?patient=101261",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "e0cfed4d-f74a-4f17-aee8-1f9db9bee96c",
+          "index": 101758882,
+          "result_id": "e45c5624-4e12-44c8-b2ef-f159a49a9311",
+          "status": 200,
+          "timestamp": "2026-11-10T20:40:23.284+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/QuestionnaireResponse?patient=101262",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "4a7c6442-c9f3-4210-85f5-4b531d63dd53",
+          "index": 101758883,
+          "result_id": "e45c5624-4e12-44c8-b2ef-f159a49a9311",
+          "status": 200,
+          "timestamp": "2026-11-10T20:40:23.293+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/QuestionnaireResponse?patient=101263",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "654f0f17-6721-4a37-9174-4a1c11a4ef8e",
+          "index": 101758884,
+          "result_id": "e45c5624-4e12-44c8-b2ef-f159a49a9311",
+          "status": 200,
+          "timestamp": "2026-11-10T20:40:23.303+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/QuestionnaireResponse?patient=101264",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "d978c2da-ae87-451c-8ab8-70731cb51523",
+          "index": 101758885,
+          "result_id": "e45c5624-4e12-44c8-b2ef-f159a49a9311",
+          "status": 200,
+          "timestamp": "2026-11-10T20:40:23.312+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/QuestionnaireResponse?patient=101265",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "e6a80180-822d-48f9-b2c2-6b9f3299590b",
+          "index": 101758886,
+          "result_id": "e45c5624-4e12-44c8-b2ef-f159a49a9311",
+          "status": 200,
+          "timestamp": "2026-11-10T20:40:23.321+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/QuestionnaireResponse?patient=101266",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "52f23166-394f-4ca7-b513-3e96de063de9",
+          "index": 101758887,
+          "result_id": "e45c5624-4e12-44c8-b2ef-f159a49a9311",
+          "status": 200,
+          "timestamp": "2026-11-10T20:40:23.331+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/QuestionnaireResponse?patient=101267",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "63243ebf-7709-4f48-a0aa-7bad1f513527",
+          "index": 101758888,
+          "result_id": "e45c5624-4e12-44c8-b2ef-f159a49a9311",
+          "status": 200,
+          "timestamp": "2026-11-10T20:40:23.340+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/QuestionnaireResponse?patient=101268",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "681f8d81-a9bb-4a5e-a76f-785eb0dd1491",
+          "index": 101758889,
+          "result_id": "e45c5624-4e12-44c8-b2ef-f159a49a9311",
+          "status": 200,
+          "timestamp": "2026-11-10T20:40:23.350+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/QuestionnaireResponse?patient=101269",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "a3476ed0-7077-4ab9-af30-53c1a4824151",
+          "index": 101758890,
+          "result_id": "e45c5624-4e12-44c8-b2ef-f159a49a9311",
+          "status": 200,
+          "timestamp": "2026-11-10T20:40:23.360+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/QuestionnaireResponse?patient=101270",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "01ca2472-3fea-4fc5-a320-b2570b9702d2",
+          "index": 101758891,
+          "result_id": "e45c5624-4e12-44c8-b2ef-f159a49a9311",
+          "status": 200,
+          "timestamp": "2026-11-10T20:40:23.370+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/QuestionnaireResponse?patient=101271",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "94387d1f-f2f8-4768-a87c-6c25734d6c08",
+          "index": 101758892,
+          "result_id": "e45c5624-4e12-44c8-b2ef-f159a49a9311",
+          "status": 200,
+          "timestamp": "2026-11-10T20:40:23.380+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/QuestionnaireResponse?patient=101272",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "a37347ee-51db-4536-992d-cbb089438ed7",
+          "index": 101758893,
+          "result_id": "e45c5624-4e12-44c8-b2ef-f159a49a9311",
+          "status": 200,
+          "timestamp": "2026-11-10T20:40:23.391+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/QuestionnaireResponse?patient=101273",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "94da4ae8-0720-4b80-94e8-c0f76f28094f",
+          "index": 101758895,
+          "result_id": "e45c5624-4e12-44c8-b2ef-f159a49a9311",
+          "status": 200,
+          "timestamp": "2026-11-10T20:40:23.411+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/QuestionnaireResponse?patient=101274",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "263b747a-cfff-42cb-97fe-afe84bdd166e",
+          "index": 101758896,
+          "result_id": "e45c5624-4e12-44c8-b2ef-f159a49a9311",
+          "status": 200,
+          "timestamp": "2026-11-10T20:40:23.421+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/QuestionnaireResponse?patient=101275",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "4927a250-f2ea-4869-9e6b-3a5ad1fc230c",
+          "index": 101758897,
+          "result_id": "e45c5624-4e12-44c8-b2ef-f159a49a9311",
+          "status": 200,
+          "timestamp": "2026-11-10T20:40:23.430+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/QuestionnaireResponse?patient=101276",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "1c7a97e1-d1da-456a-894b-9c52a9b142c5",
+          "index": 101758899,
+          "result_id": "e45c5624-4e12-44c8-b2ef-f159a49a9311",
+          "status": 200,
+          "timestamp": "2026-11-10T20:40:23.441+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/QuestionnaireResponse?patient=101277",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "0ae63d8e-c035-437b-acaf-0fad0bde7259",
+          "index": 101758900,
+          "result_id": "e45c5624-4e12-44c8-b2ef-f159a49a9311",
+          "status": 200,
+          "timestamp": "2026-11-10T20:40:23.451+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/QuestionnaireResponse?patient=101278",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "b58dea7c-c63e-4e66-b9a8-13c67af57c74",
+          "index": 101758902,
+          "result_id": "e45c5624-4e12-44c8-b2ef-f159a49a9311",
+          "status": 200,
+          "timestamp": "2026-11-10T20:40:23.463+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/QuestionnaireResponse?patient=101279",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "d684fded-3c7c-48fd-87f7-178c8fbe431a",
+          "index": 101758903,
+          "result_id": "e45c5624-4e12-44c8-b2ef-f159a49a9311",
+          "status": 200,
+          "timestamp": "2026-11-10T20:40:23.473+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/QuestionnaireResponse?patient=101280",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "2b4a7cca-a369-40ef-bc32-a2863e1e32e6",
+          "index": 101758905,
+          "result_id": "e45c5624-4e12-44c8-b2ef-f159a49a9311",
+          "status": 200,
+          "timestamp": "2026-11-10T20:40:23.486+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/QuestionnaireResponse?patient=101281",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "9d33b3c9-de7b-4429-8112-525e052eb4c9",
+          "index": 101758906,
+          "result_id": "e45c5624-4e12-44c8-b2ef-f159a49a9311",
+          "status": 200,
+          "timestamp": "2026-11-10T20:40:23.497+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/QuestionnaireResponse?patient=101282",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "562094ee-0977-4a66-b413-bd7b525de441",
+          "index": 101758908,
+          "result_id": "e45c5624-4e12-44c8-b2ef-f159a49a9311",
+          "status": 200,
+          "timestamp": "2026-11-10T20:40:23.509+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/QuestionnaireResponse?patient=101283",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "5b68b644-90ae-477c-87da-6b38b5d09f4e",
+          "index": 101758909,
+          "result_id": "e45c5624-4e12-44c8-b2ef-f159a49a9311",
+          "status": 200,
+          "timestamp": "2026-11-10T20:40:23.519+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/QuestionnaireResponse?patient=101284",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "5ce9a1b2-e222-441f-a514-bcf38b042b72",
+          "index": 101758910,
+          "result_id": "e45c5624-4e12-44c8-b2ef-f159a49a9311",
+          "status": 200,
+          "timestamp": "2026-11-10T20:40:23.531+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/QuestionnaireResponse?patient=101285",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "ea2e30f3-05c6-456e-bf9e-ab1b28c7f801",
+          "index": 101758912,
+          "result_id": "e45c5624-4e12-44c8-b2ef-f159a49a9311",
+          "status": 200,
+          "timestamp": "2026-11-10T20:40:23.542+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/QuestionnaireResponse?patient=101286",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "8f7d4670-904e-4f24-9f9e-b01673ec41f4",
+          "index": 101758913,
+          "result_id": "e45c5624-4e12-44c8-b2ef-f159a49a9311",
+          "status": 200,
+          "timestamp": "2026-11-10T20:40:23.553+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/QuestionnaireResponse?patient=101287",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "cd181d32-0aad-4f39-8799-b255b58101a3",
+          "index": 101758914,
+          "result_id": "e45c5624-4e12-44c8-b2ef-f159a49a9311",
+          "status": 200,
+          "timestamp": "2026-11-10T20:40:23.563+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/QuestionnaireResponse?patient=101288",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "0faf35ff-6665-4187-a48d-a060cc1aac67",
+          "index": 101758915,
+          "result_id": "e45c5624-4e12-44c8-b2ef-f159a49a9311",
+          "status": 200,
+          "timestamp": "2026-11-10T20:40:23.599+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/QuestionnaireResponse?patient=101289",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "326a9ac0-c81d-4717-90ee-041857125fed",
+          "index": 101758916,
+          "result_id": "e45c5624-4e12-44c8-b2ef-f159a49a9311",
+          "status": 200,
+          "timestamp": "2026-11-10T20:40:23.608+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/QuestionnaireResponse?patient=101290",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "50e28329-6760-456e-a9f4-4a3b99f5c812",
+          "index": 101758917,
+          "result_id": "e45c5624-4e12-44c8-b2ef-f159a49a9311",
+          "status": 200,
+          "timestamp": "2026-11-10T20:40:23.618+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/QuestionnaireResponse?patient=101291",
+          "verb": "get"
+        }
+      ],
+      "result": "pass",
+      "test_id": "us_core_v610-us_core_v610_fhir_api-us_core_v610_questionnaire_response-us_core_v610_questionnaire_response_patient_search_test",
+      "test_run_id": "8684a68d-2c21-468f-87bf-d943117ae8d0",
+      "test_session_id": "baqHuGYA4Ij",
+      "updated_at": "2026-11-10T20:40:23.176+00:00"
+    },
+    {
+      "created_at": "2026-11-10T20:40:25.621+00:00",
+      "id": "c9797031-1bbd-4985-af4f-9f1bbc202bd0",
+      "inputs": [
+        {
+          "name": "patient_ids",
+          "type": "text",
+          "value": "101258,101259,101260,101261,101262,101263,101264,101265,101266,101267,101268,101269,101270,101271,101272,101273,101274,101275,101276,101277,101278,101279,101280,101281,101282,101283,101284,101285,101286,101287,101288,101289,101290,101291"
+        },
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://showfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"name\":\"smart_auth_info\"}"
+        }
+      ],
+      "optional": true,
+      "outputs": [],
+      "requests": [
+        {
+          "direction": "outgoing",
+          "id": "d8ac16cc-3425-4f53-9189-5635246951ce",
+          "index": 101758946,
+          "result_id": "c9797031-1bbd-4985-af4f-9f1bbc202bd0",
+          "status": 200,
+          "timestamp": "2026-11-10T20:40:25.623+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/QuestionnaireResponse?authored=2021-10-12T14:00:00Z&patient=101258",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "69122579-2f1b-4b7a-b111-3c3d86d49d3e",
+          "index": 101758948,
+          "result_id": "c9797031-1bbd-4985-af4f-9f1bbc202bd0",
+          "status": 200,
+          "timestamp": "2026-11-10T20:40:25.635+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/QuestionnaireResponse?authored=gt2021-10-11T14:00:00%2B00:00&patient=101258",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "44ca5eb5-78b5-49a2-a15a-40d7a30cdb56",
+          "index": 101758950,
+          "result_id": "c9797031-1bbd-4985-af4f-9f1bbc202bd0",
+          "status": 200,
+          "timestamp": "2026-11-10T20:40:25.646+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/QuestionnaireResponse?authored=ge2021-10-11T14:00:00%2B00:00&patient=101258",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "ff3c33a2-b3d3-4d7f-83a6-874cb81fae17",
+          "index": 101758952,
+          "result_id": "c9797031-1bbd-4985-af4f-9f1bbc202bd0",
+          "status": 200,
+          "timestamp": "2026-11-10T20:40:25.658+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/QuestionnaireResponse?authored=lt2021-10-13T14:00:00%2B00:00&patient=101258",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "6aceee9c-989a-4177-a1bd-34e973b49288",
+          "index": 101758954,
+          "result_id": "c9797031-1bbd-4985-af4f-9f1bbc202bd0",
+          "status": 200,
+          "timestamp": "2026-11-10T20:40:25.668+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/QuestionnaireResponse?authored=le2021-10-13T14:00:00%2B00:00&patient=101258",
+          "verb": "get"
+        }
+      ],
+      "result": "pass",
+      "test_id": "us_core_v610-us_core_v610_fhir_api-us_core_v610_questionnaire_response-us_core_v610_questionnaire_response_patient_authored_search_test",
+      "test_run_id": "8684a68d-2c21-468f-87bf-d943117ae8d0",
+      "test_session_id": "baqHuGYA4Ij",
+      "updated_at": "2026-11-10T20:40:25.621+00:00"
+    },
+    {
+      "created_at": "2026-11-10T20:40:28.968+00:00",
+      "id": "d741eb7c-cdab-4256-a130-7b958fa8ad21",
+      "inputs": [
+        {
+          "name": "patient_ids",
+          "type": "text",
+          "value": "101258,101259,101260,101261,101262,101263,101264,101265,101266,101267,101268,101269,101270,101271,101272,101273,101274,101275,101276,101277,101278,101279,101280,101281,101282,101283,101284,101285,101286,101287,101288,101289,101290,101291"
+        },
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://showfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"name\":\"smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [
+        {
+          "direction": "outgoing",
+          "id": "b780834a-f267-42a5-83cf-ecffcb2d387d",
+          "index": 101758980,
+          "result_id": "d741eb7c-cdab-4256-a130-7b958fa8ad21",
+          "status": 200,
+          "timestamp": "2026-11-10T20:40:28.971+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/QuestionnaireResponse?_revinclude=Provenance:target&patient=101258",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "b31afb5e-296d-4c58-bc23-702b89b2513e",
+          "index": 101758981,
+          "result_id": "d741eb7c-cdab-4256-a130-7b958fa8ad21",
+          "status": 200,
+          "timestamp": "2026-11-10T20:40:28.987+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/QuestionnaireResponse?_revinclude=Provenance:target&patient=101259",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "843b547a-f3eb-4376-b3fc-8190e8668ed5",
+          "index": 101758983,
+          "result_id": "d741eb7c-cdab-4256-a130-7b958fa8ad21",
+          "status": 200,
+          "timestamp": "2026-11-10T20:40:29.017+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/QuestionnaireResponse?_revinclude=Provenance:target&patient=101260",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "550f5798-2bb5-45e8-852c-2f7a71427e2e",
+          "index": 101758984,
+          "result_id": "d741eb7c-cdab-4256-a130-7b958fa8ad21",
+          "status": 200,
+          "timestamp": "2026-11-10T20:40:29.028+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/QuestionnaireResponse?_revinclude=Provenance:target&patient=101261",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "824261d5-0f32-42f3-a77b-5edbb6da8a9c",
+          "index": 101758985,
+          "result_id": "d741eb7c-cdab-4256-a130-7b958fa8ad21",
+          "status": 200,
+          "timestamp": "2026-11-10T20:40:29.039+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/QuestionnaireResponse?_revinclude=Provenance:target&patient=101262",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "0c61991f-e2a0-4151-ac99-a4abe139c2cc",
+          "index": 101758987,
+          "result_id": "d741eb7c-cdab-4256-a130-7b958fa8ad21",
+          "status": 200,
+          "timestamp": "2026-11-10T20:40:29.050+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/QuestionnaireResponse?_revinclude=Provenance:target&patient=101263",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "e450296a-61bd-4fdd-be19-872ec23318b4",
+          "index": 101758988,
+          "result_id": "d741eb7c-cdab-4256-a130-7b958fa8ad21",
+          "status": 200,
+          "timestamp": "2026-11-10T20:40:29.059+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/QuestionnaireResponse?_revinclude=Provenance:target&patient=101264",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "3ac660d8-ae8c-4fbb-b490-ca8542d2e700",
+          "index": 101758990,
+          "result_id": "d741eb7c-cdab-4256-a130-7b958fa8ad21",
+          "status": 200,
+          "timestamp": "2026-11-10T20:40:29.069+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/QuestionnaireResponse?_revinclude=Provenance:target&patient=101265",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "bd4145f7-c1a0-4cf1-956c-c9edb0b0a20c",
+          "index": 101758991,
+          "result_id": "d741eb7c-cdab-4256-a130-7b958fa8ad21",
+          "status": 200,
+          "timestamp": "2026-11-10T20:40:29.079+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/QuestionnaireResponse?_revinclude=Provenance:target&patient=101266",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "79ab0229-3c85-4b01-9543-9dd916302996",
+          "index": 101758993,
+          "result_id": "d741eb7c-cdab-4256-a130-7b958fa8ad21",
+          "status": 200,
+          "timestamp": "2026-11-10T20:40:29.090+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/QuestionnaireResponse?_revinclude=Provenance:target&patient=101267",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "bf4d19ea-af7d-4499-984b-c0c0dbaf03f2",
+          "index": 101758994,
+          "result_id": "d741eb7c-cdab-4256-a130-7b958fa8ad21",
+          "status": 200,
+          "timestamp": "2026-11-10T20:40:29.101+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/QuestionnaireResponse?_revinclude=Provenance:target&patient=101268",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "98131506-85d0-47fe-ba92-f1ec1b466077",
+          "index": 101758996,
+          "result_id": "d741eb7c-cdab-4256-a130-7b958fa8ad21",
+          "status": 200,
+          "timestamp": "2026-11-10T20:40:29.112+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/QuestionnaireResponse?_revinclude=Provenance:target&patient=101269",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "cc3c566c-8321-4103-8e01-31e9cce816ab",
+          "index": 101758997,
+          "result_id": "d741eb7c-cdab-4256-a130-7b958fa8ad21",
+          "status": 200,
+          "timestamp": "2026-11-10T20:40:29.123+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/QuestionnaireResponse?_revinclude=Provenance:target&patient=101270",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "7af9b790-b87f-4667-9a45-ad4029b3b130",
+          "index": 101758998,
+          "result_id": "d741eb7c-cdab-4256-a130-7b958fa8ad21",
+          "status": 200,
+          "timestamp": "2026-11-10T20:40:29.133+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/QuestionnaireResponse?_revinclude=Provenance:target&patient=101271",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "f663c634-2e2a-4c1c-94a8-e0155997ef12",
+          "index": 101759000,
+          "result_id": "d741eb7c-cdab-4256-a130-7b958fa8ad21",
+          "status": 200,
+          "timestamp": "2026-11-10T20:40:29.144+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/QuestionnaireResponse?_revinclude=Provenance:target&patient=101272",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "8e376959-78c3-492c-8574-58bf454e6d13",
+          "index": 101759001,
+          "result_id": "d741eb7c-cdab-4256-a130-7b958fa8ad21",
+          "status": 200,
+          "timestamp": "2026-11-10T20:40:29.153+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/QuestionnaireResponse?_revinclude=Provenance:target&patient=101273",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "32672f7a-788b-406b-af80-59b4422bd832",
+          "index": 101759003,
+          "result_id": "d741eb7c-cdab-4256-a130-7b958fa8ad21",
+          "status": 200,
+          "timestamp": "2026-11-10T20:40:29.163+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/QuestionnaireResponse?_revinclude=Provenance:target&patient=101274",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "3ec37916-d19c-4b56-a0b1-2e528c690741",
+          "index": 101759004,
+          "result_id": "d741eb7c-cdab-4256-a130-7b958fa8ad21",
+          "status": 200,
+          "timestamp": "2026-11-10T20:40:29.174+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/QuestionnaireResponse?_revinclude=Provenance:target&patient=101275",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "a5799638-0888-4502-83d2-96678ba1293a",
+          "index": 101759005,
+          "result_id": "d741eb7c-cdab-4256-a130-7b958fa8ad21",
+          "status": 200,
+          "timestamp": "2026-11-10T20:40:29.185+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/QuestionnaireResponse?_revinclude=Provenance:target&patient=101276",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "86f1fd3d-feb6-4c1d-a092-2aa02072d389",
+          "index": 101759007,
+          "result_id": "d741eb7c-cdab-4256-a130-7b958fa8ad21",
+          "status": 200,
+          "timestamp": "2026-11-10T20:40:29.197+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/QuestionnaireResponse?_revinclude=Provenance:target&patient=101277",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "4099e6da-8acd-4838-89c0-85a9ca22372c",
+          "index": 101759008,
+          "result_id": "d741eb7c-cdab-4256-a130-7b958fa8ad21",
+          "status": 200,
+          "timestamp": "2026-11-10T20:40:29.206+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/QuestionnaireResponse?_revinclude=Provenance:target&patient=101278",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "631b8254-fa19-431c-88ba-916e2e77b61d",
+          "index": 101759010,
+          "result_id": "d741eb7c-cdab-4256-a130-7b958fa8ad21",
+          "status": 200,
+          "timestamp": "2026-11-10T20:40:29.216+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/QuestionnaireResponse?_revinclude=Provenance:target&patient=101279",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "4e723ab0-2f6f-4ff9-9f4d-b2ed68bb1ea2",
+          "index": 101759011,
+          "result_id": "d741eb7c-cdab-4256-a130-7b958fa8ad21",
+          "status": 200,
+          "timestamp": "2026-11-10T20:40:29.227+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/QuestionnaireResponse?_revinclude=Provenance:target&patient=101280",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "e501be43-1d62-42c1-b383-d4fd83d66bd2",
+          "index": 101759013,
+          "result_id": "d741eb7c-cdab-4256-a130-7b958fa8ad21",
+          "status": 200,
+          "timestamp": "2026-11-10T20:40:29.238+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/QuestionnaireResponse?_revinclude=Provenance:target&patient=101281",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "acbed233-899c-431d-9fec-b32814b5fd15",
+          "index": 101759014,
+          "result_id": "d741eb7c-cdab-4256-a130-7b958fa8ad21",
+          "status": 200,
+          "timestamp": "2026-11-10T20:40:29.250+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/QuestionnaireResponse?_revinclude=Provenance:target&patient=101282",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "b7ce2759-df9f-47f0-b4dd-16806844d63b",
+          "index": 101759015,
+          "result_id": "d741eb7c-cdab-4256-a130-7b958fa8ad21",
+          "status": 200,
+          "timestamp": "2026-11-10T20:40:29.260+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/QuestionnaireResponse?_revinclude=Provenance:target&patient=101283",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "864e85ce-bc7b-4ea9-b061-704c43333996",
+          "index": 101759016,
+          "result_id": "d741eb7c-cdab-4256-a130-7b958fa8ad21",
+          "status": 200,
+          "timestamp": "2026-11-10T20:40:29.292+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/QuestionnaireResponse?_revinclude=Provenance:target&patient=101284",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "b4d01d85-dcc6-46ee-abb6-99de55d48499",
+          "index": 101759017,
+          "result_id": "d741eb7c-cdab-4256-a130-7b958fa8ad21",
+          "status": 200,
+          "timestamp": "2026-11-10T20:40:29.305+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/QuestionnaireResponse?_revinclude=Provenance:target&patient=101285",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "79477b76-093d-45b3-a447-d6837f122c91",
+          "index": 101759018,
+          "result_id": "d741eb7c-cdab-4256-a130-7b958fa8ad21",
+          "status": 200,
+          "timestamp": "2026-11-10T20:40:29.316+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/QuestionnaireResponse?_revinclude=Provenance:target&patient=101286",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "cc9fcf35-9df5-4c71-a968-1f0e8daf6b2c",
+          "index": 101759019,
+          "result_id": "d741eb7c-cdab-4256-a130-7b958fa8ad21",
+          "status": 200,
+          "timestamp": "2026-11-10T20:40:29.326+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/QuestionnaireResponse?_revinclude=Provenance:target&patient=101287",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "79316d11-cdb9-4381-90ca-b7d92fc35b53",
+          "index": 101759020,
+          "result_id": "d741eb7c-cdab-4256-a130-7b958fa8ad21",
+          "status": 200,
+          "timestamp": "2026-11-10T20:40:29.336+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/QuestionnaireResponse?_revinclude=Provenance:target&patient=101288",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "1dd84540-2256-4af0-9fbd-700496ede170",
+          "index": 101759021,
+          "result_id": "d741eb7c-cdab-4256-a130-7b958fa8ad21",
+          "status": 200,
+          "timestamp": "2026-11-10T20:40:29.346+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/QuestionnaireResponse?_revinclude=Provenance:target&patient=101289",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "551cfaca-8249-4336-906b-b9854424e34d",
+          "index": 101759022,
+          "result_id": "d741eb7c-cdab-4256-a130-7b958fa8ad21",
+          "status": 200,
+          "timestamp": "2026-11-10T20:40:29.355+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/QuestionnaireResponse?_revinclude=Provenance:target&patient=101290",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "44787544-85af-4b26-a2f0-0e862be46903",
+          "index": 101759023,
+          "result_id": "d741eb7c-cdab-4256-a130-7b958fa8ad21",
+          "status": 200,
+          "timestamp": "2026-11-10T20:40:29.364+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/QuestionnaireResponse?_revinclude=Provenance:target&patient=101291",
+          "verb": "get"
+        }
+      ],
+      "result": "pass",
+      "test_id": "us_core_v610-us_core_v610_fhir_api-us_core_v610_questionnaire_response-us_core_v610_questionnaire_response_provenance_revinclude_search_test",
+      "test_run_id": "8684a68d-2c21-468f-87bf-d943117ae8d0",
+      "test_session_id": "baqHuGYA4Ij",
+      "updated_at": "2026-11-10T20:40:28.968+00:00"
+    },
+    {
+      "created_at": "2026-11-10T20:40:25.871+00:00",
+      "id": "e563905a-3b68-4d8f-b89a-d236b0a8ca06",
+      "inputs": [
+        {
+          "name": "patient_ids",
+          "type": "text",
+          "value": "101258,101259,101260,101261,101262,101263,101264,101265,101266,101267,101268,101269,101270,101271,101272,101273,101274,101275,101276,101277,101278,101279,101280,101281,101282,101283,101284,101285,101286,101287,101288,101289,101290,101291"
+        },
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://showfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"name\":\"smart_auth_info\"}"
+        }
+      ],
+      "optional": true,
+      "outputs": [],
+      "requests": [
+        {
+          "direction": "outgoing",
+          "id": "365eefee-eb3e-4dc3-bcfb-9e23327d45a6",
+          "index": 101758971,
+          "result_id": "e563905a-3b68-4d8f-b89a-d236b0a8ca06",
+          "status": 200,
+          "timestamp": "2026-11-10T20:40:25.873+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/QuestionnaireResponse?patient=101258&status=completed",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "212f9570-9230-4a8d-b5e1-96a8605d3867",
+          "index": 101758973,
+          "result_id": "e563905a-3b68-4d8f-b89a-d236b0a8ca06",
+          "status": 200,
+          "timestamp": "2026-11-10T20:40:25.885+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/QuestionnaireResponse?patient=101258&status=in-progress,completed,amended,entered-in-error,stopped",
+          "verb": "get"
+        }
+      ],
+      "result": "pass",
+      "test_id": "us_core_v610-us_core_v610_fhir_api-us_core_v610_questionnaire_response-us_core_v610_questionnaire_response_patient_status_search_test",
+      "test_run_id": "8684a68d-2c21-468f-87bf-d943117ae8d0",
+      "test_session_id": "baqHuGYA4Ij",
+      "updated_at": "2026-11-10T20:40:25.871+00:00"
+    },
+    {
+      "created_at": "2026-11-10T20:40:29.411+00:00",
+      "id": "99912266-36ea-46e5-ae53-977df5f5ad55",
+      "inputs": [
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://showfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"name\":\"smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [],
+      "result": "pass",
+      "test_id": "us_core_v610-us_core_v610_fhir_api-us_core_v610_questionnaire_response-us_core_v610_questionnaire_response_must_support_test",
+      "test_run_id": "8684a68d-2c21-468f-87bf-d943117ae8d0",
+      "test_session_id": "baqHuGYA4Ij",
+      "updated_at": "2026-11-10T20:40:29.411+00:00"
+    },
+    {
+      "created_at": "2026-11-10T20:40:29.687+00:00",
+      "id": "97b0c07e-40c7-459f-beaf-51afb802fbaf",
+      "inputs": [
+        {
+          "description": "Comma separated list of patient IDs that in sum contain all MUST SUPPORT elements",
+          "label": "Patient IDs",
+          "name": "patient_ids",
+          "type": "text",
+          "value": "101258,101259,101260,101261,101262,101263,101264,101265,101266,101267,101268,101269,101270,101271,101272,101273,101274,101275,101276,101277,101278,101279,101280,101281,101282,101283,101284,101285,101286,101287,101288,101289,101290,101291"
+        },
+        {
+          "description": "URL of the FHIR endpoint",
+          "label": "FHIR Endpoint",
+          "name": "url",
+          "type": "text",
+          "value": "https://showfhir.vistaplex.org/fhir"
+        },
+        {
+          "description": null,
+          "label": "OAuth Credentials",
+          "name": "smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"name\":\"smart_auth_info\"}"
+        }
+      ],
+      "optional": true,
+      "outputs": [],
+      "requests": [],
+      "result": "pass",
+      "test_group_id": "us_core_v610-us_core_v610_fhir_api-us_core_v610_questionnaire_response",
+      "test_run_id": "8684a68d-2c21-468f-87bf-d943117ae8d0",
+      "test_session_id": "baqHuGYA4Ij",
+      "updated_at": "2026-11-10T20:40:29.687+00:00"
+    },
+    {
+      "created_at": "2026-11-10T20:40:26.002+00:00",
+      "id": "4cf8fa7c-975a-4c34-bf31-70045b33ad85",
+      "inputs": [
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://showfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"name\":\"smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [
+        {
+          "direction": "outgoing",
+          "id": "fd7adc17-92a3-44cf-a7e8-a70295f9c2dd",
+          "index": 101758974,
+          "result_id": "4cf8fa7c-975a-4c34-bf31-70045b33ad85",
+          "status": 200,
+          "timestamp": "2026-11-10T20:40:26.004+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/QuestionnaireResponse/qr-hvs",
+          "verb": "get"
+        }
+      ],
+      "result": "pass",
+      "test_id": "us_core_v610-us_core_v610_fhir_api-us_core_v610_questionnaire_response-us_core_v610_questionnaire_response_read_test",
+      "test_run_id": "8684a68d-2c21-468f-87bf-d943117ae8d0",
+      "test_session_id": "baqHuGYA4Ij",
+      "updated_at": "2026-11-10T20:40:26.002+00:00"
+    },
+    {
+      "created_at": "2026-11-10T20:40:29.400+00:00",
+      "id": "b6ac3f02-e7a6-4a84-90e9-38f7ca354741",
+      "inputs": [
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://showfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"name\":\"smart_auth_info\"}"
+        }
+      ],
+      "messages": [
+        {
+          "message": "QuestionnaireResponse/qr-hvs: QuestionnaireResponse.questionnaire: A definition could not be found for Canonical URL 'http://loinc.org/88121-9'",
+          "type": "info"
+        },
+        {
+          "message": "QuestionnaireResponse/qr-hvs: QuestionnaireResponse: The questionnaire 'http://loinc.org/88121-9' could not be resolved, so no validation can be performed against the base questionnaire",
+          "type": "warning"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [],
+      "result": "pass",
+      "test_id": "us_core_v610-us_core_v610_fhir_api-us_core_v610_questionnaire_response-us_core_v610_questionnaire_response_validation_test",
+      "test_run_id": "8684a68d-2c21-468f-87bf-d943117ae8d0",
+      "test_session_id": "baqHuGYA4Ij",
+      "updated_at": "2026-11-10T20:40:29.400+00:00"
+    },
+    {
+      "created_at": "2026-11-10T20:40:29.660+00:00",
+      "id": "2c95e7b8-45c7-4291-bcd9-ab23df8041e8",
+      "inputs": [
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://showfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"name\":\"smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [
+        {
+          "direction": "outgoing",
+          "id": "77b59eb2-4133-4499-a9e4-496d808da2dc",
+          "index": 101759024,
+          "result_id": "2c95e7b8-45c7-4291-bcd9-ab23df8041e8",
+          "status": 200,
+          "timestamp": "2026-11-10T20:40:29.662+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Patient/101258",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "18a64493-9421-46dd-b5b3-003cdb5b4d21",
+          "index": 101759025,
+          "result_id": "2c95e7b8-45c7-4291-bcd9-ab23df8041e8",
+          "status": 200,
+          "timestamp": "2026-11-10T20:40:29.676+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Practitioner/P1",
+          "verb": "get"
+        }
+      ],
+      "result": "pass",
+      "test_id": "us_core_v610-us_core_v610_fhir_api-us_core_v610_questionnaire_response-us_core_v610_questionnaire_response_reference_resolution_test",
+      "test_run_id": "8684a68d-2c21-468f-87bf-d943117ae8d0",
+      "test_session_id": "baqHuGYA4Ij",
+      "updated_at": "2026-11-10T20:40:29.660+00:00"
+    }
+  ],
+  "run_id": "8684a68d-2c21-468f-87bf-d943117ae8d0",
+  "session_id": "baqHuGYA4Ij",
+  "session_url": "https://inferno.healthit.gov/suites/us_core_v610/baqHuGYA4Ij",
+  "status": {
+    "id": "8684a68d-2c21-468f-87bf-d943117ae8d0",
+    "inputs": null,
+    "results": null,
+    "status": "done",
+    "test_count": 10,
+    "test_group_id": "us_core_v610-us_core_v610_fhir_api-us_core_v610_questionnaire_response",
+    "test_session_id": "baqHuGYA4Ij"
+  },
+  "url": "https://showfhir.vistaplex.org/fhir"
+}

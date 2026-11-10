@@ -1,0 +1,119 @@
+{
+  "api": "https://inferno.healthit.gov/suites/api",
+  "patient_ids": "101258,101259,101260,101261,101262,101263,101264,101265,101266,101267,101268,101269,101270,101271,101272,101273,101274,101275,101276,101277,101278,101279,101280,101281,101282,101283,101284,101285,101286,101287,101288,101289,101290,101291",
+  "results": [
+    {
+      "created_at": "2026-11-10T19:28:17.184+00:00",
+      "id": "faaa0c88-67d1-41ba-8cdb-56db972ddf9d",
+      "inputs": [
+        {
+          "name": "dar_extension_found",
+          "type": "text",
+          "value": "true"
+        },
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://showfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"name\":\"smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [],
+      "result": "pass",
+      "test_id": "us_core_v610-us_core_v610_fhir_api-us_core_311_data_absent_reason-us_core_311_data_absent_reason_extension",
+      "test_run_id": "cedb2721-bc07-475d-a403-9ac982f667bb",
+      "test_session_id": "7oaJsVYSc32",
+      "updated_at": "2026-11-10T19:28:17.184+00:00"
+    },
+    {
+      "created_at": "2026-11-10T19:28:17.198+00:00",
+      "id": "07ecebb8-452e-453d-a0e0-348b721aba0f",
+      "inputs": [
+        {
+          "name": "dar_code_found",
+          "type": "text",
+          "value": "true"
+        },
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://showfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"name\":\"smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [],
+      "result": "pass",
+      "test_id": "us_core_v610-us_core_v610_fhir_api-us_core_311_data_absent_reason-us_core_311_data_absent_reason_code_system",
+      "test_run_id": "cedb2721-bc07-475d-a403-9ac982f667bb",
+      "test_session_id": "7oaJsVYSc32",
+      "updated_at": "2026-11-10T19:28:17.198+00:00"
+    },
+    {
+      "created_at": "2026-11-10T19:28:17.201+00:00",
+      "id": "8ac46322-6a26-43cc-b66d-0427ec0845ff",
+      "inputs": [
+        {
+          "description": null,
+          "label": "Data Absent Reason Extension Found",
+          "name": "dar_extension_found",
+          "type": "text",
+          "value": "true"
+        },
+        {
+          "description": "URL of the FHIR endpoint",
+          "label": "FHIR Endpoint",
+          "name": "url",
+          "type": "text",
+          "value": "https://showfhir.vistaplex.org/fhir"
+        },
+        {
+          "description": null,
+          "label": "OAuth Credentials",
+          "name": "smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"name\":\"smart_auth_info\"}"
+        },
+        {
+          "description": null,
+          "label": "Data Absent Reason Extension Found",
+          "name": "dar_code_found",
+          "type": "text",
+          "value": "true"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [],
+      "result": "pass",
+      "test_group_id": "us_core_v610-us_core_v610_fhir_api-us_core_311_data_absent_reason",
+      "test_run_id": "cedb2721-bc07-475d-a403-9ac982f667bb",
+      "test_session_id": "7oaJsVYSc32",
+      "updated_at": "2026-11-10T19:28:17.201+00:00"
+    }
+  ],
+  "run_id": "cedb2721-bc07-475d-a403-9ac982f667bb",
+  "session_id": "7oaJsVYSc32",
+  "session_url": "https://inferno.healthit.gov/suites/us_core_v610/7oaJsVYSc32",
+  "status": {
+    "id": "cedb2721-bc07-475d-a403-9ac982f667bb",
+    "inputs": null,
+    "results": null,
+    "status": "done",
+    "test_count": 2,
+    "test_group_id": "us_core_v610-us_core_v610_fhir_api-us_core_311_data_absent_reason",
+    "test_session_id": "7oaJsVYSc32"
+  },
+  "url": "https://showfhir.vistaplex.org/fhir"
+}

@@ -1,0 +1,1228 @@
+{
+  "api": "https://inferno.healthit.gov/suites/api",
+  "patient_ids": "101258,101259,101260,101261,101262,101263,101264,101265,101266,101267,101268,101269,101270,101271,101272,101273,101274,101275,101276,101277,101278,101279,101280,101281,101282,101283,101284,101285,101286,101287,101288,101289,101290,101291",
+  "results": [
+    {
+      "created_at": "2026-11-10T20:07:47.691+00:00",
+      "id": "1b5f08c9-cfb4-4d7c-b14b-b435dd59318a",
+      "inputs": [
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://showfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"name\":\"smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [
+        {
+          "direction": "outgoing",
+          "id": "d5db98d2-b8d7-43b4-92fc-50a2fff3fb0c",
+          "index": 101751194,
+          "result_id": "1b5f08c9-cfb4-4d7c-b14b-b435dd59318a",
+          "status": 200,
+          "timestamp": "2026-11-10T20:07:47.692+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/CarePlan/cp-assess",
+          "verb": "get"
+        }
+      ],
+      "result": "pass",
+      "test_id": "us_core_v610-us_core_v610_fhir_api-us_core_v610_care_plan-us_core_v610_care_plan_read_test",
+      "test_run_id": "c1591a94-1c04-4cf4-a2df-46b6fe969ec5",
+      "test_session_id": "jHCkVpAj70n",
+      "updated_at": "2026-11-10T20:07:47.691+00:00"
+    },
+    {
+      "created_at": "2026-11-10T20:07:50.291+00:00",
+      "id": "4be7ddad-eb4f-4a4a-82f3-f8c9fe296e60",
+      "inputs": [
+        {
+          "name": "patient_ids",
+          "type": "text",
+          "value": "101258,101259,101260,101261,101262,101263,101264,101265,101266,101267,101268,101269,101270,101271,101272,101273,101274,101275,101276,101277,101278,101279,101280,101281,101282,101283,101284,101285,101286,101287,101288,101289,101290,101291"
+        },
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://showfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"name\":\"smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [
+        {
+          "direction": "outgoing",
+          "id": "5f3379e3-6e42-4712-927a-0488fef4ca8f",
+          "index": 101751195,
+          "result_id": "4be7ddad-eb4f-4a4a-82f3-f8c9fe296e60",
+          "status": 200,
+          "timestamp": "2026-11-10T20:07:50.293+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/CarePlan?_revinclude=Provenance:target&category=assess-plan&patient=101258",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "0749bf7c-a197-405d-a441-c1a07a37e0a1",
+          "index": 101751196,
+          "result_id": "4be7ddad-eb4f-4a4a-82f3-f8c9fe296e60",
+          "status": 200,
+          "timestamp": "2026-11-10T20:07:50.302+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/CarePlan?_revinclude=Provenance:target&category=assess-plan&patient=101259",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "69574a49-04c9-45b9-9bac-4602da0eb772",
+          "index": 101751197,
+          "result_id": "4be7ddad-eb4f-4a4a-82f3-f8c9fe296e60",
+          "status": 200,
+          "timestamp": "2026-11-10T20:07:50.310+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/CarePlan?_revinclude=Provenance:target&category=assess-plan&patient=101260",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "43b52a3e-fae6-4e7f-91a6-8ff1af3134cf",
+          "index": 101751198,
+          "result_id": "4be7ddad-eb4f-4a4a-82f3-f8c9fe296e60",
+          "status": 200,
+          "timestamp": "2026-11-10T20:07:50.318+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/CarePlan?_revinclude=Provenance:target&category=assess-plan&patient=101261",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "261876cf-2a45-4b90-8e5b-aff40917599a",
+          "index": 101751199,
+          "result_id": "4be7ddad-eb4f-4a4a-82f3-f8c9fe296e60",
+          "status": 200,
+          "timestamp": "2026-11-10T20:07:50.326+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/CarePlan?_revinclude=Provenance:target&category=assess-plan&patient=101262",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "90205eeb-a34b-4cee-8c76-44334ffbb1ed",
+          "index": 101751200,
+          "result_id": "4be7ddad-eb4f-4a4a-82f3-f8c9fe296e60",
+          "status": 200,
+          "timestamp": "2026-11-10T20:07:50.335+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/CarePlan?_revinclude=Provenance:target&category=assess-plan&patient=101263",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "0173280f-4454-44e2-94dd-0d80e07a8ca5",
+          "index": 101751201,
+          "result_id": "4be7ddad-eb4f-4a4a-82f3-f8c9fe296e60",
+          "status": 200,
+          "timestamp": "2026-11-10T20:07:50.343+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/CarePlan?_revinclude=Provenance:target&category=assess-plan&patient=101264",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "67a2baa1-41ea-404e-aa40-24ae192b3fa2",
+          "index": 101751202,
+          "result_id": "4be7ddad-eb4f-4a4a-82f3-f8c9fe296e60",
+          "status": 200,
+          "timestamp": "2026-11-10T20:07:50.350+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/CarePlan?_revinclude=Provenance:target&category=assess-plan&patient=101265",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "71fdcfc6-fdef-4191-9f6c-8c9fb11cebaa",
+          "index": 101751203,
+          "result_id": "4be7ddad-eb4f-4a4a-82f3-f8c9fe296e60",
+          "status": 200,
+          "timestamp": "2026-11-10T20:07:50.358+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/CarePlan?_revinclude=Provenance:target&category=assess-plan&patient=101266",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "b1c2eee1-28f8-43f1-9476-01161b636fb9",
+          "index": 101751204,
+          "result_id": "4be7ddad-eb4f-4a4a-82f3-f8c9fe296e60",
+          "status": 200,
+          "timestamp": "2026-11-10T20:07:50.366+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/CarePlan?_revinclude=Provenance:target&category=assess-plan&patient=101267",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "71cccdde-5242-4799-bf33-f8466579fcf4",
+          "index": 101751205,
+          "result_id": "4be7ddad-eb4f-4a4a-82f3-f8c9fe296e60",
+          "status": 200,
+          "timestamp": "2026-11-10T20:07:50.374+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/CarePlan?_revinclude=Provenance:target&category=assess-plan&patient=101268",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "4a8bee3f-46cb-459f-b675-8e39d5acd600",
+          "index": 101751206,
+          "result_id": "4be7ddad-eb4f-4a4a-82f3-f8c9fe296e60",
+          "status": 200,
+          "timestamp": "2026-11-10T20:07:50.382+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/CarePlan?_revinclude=Provenance:target&category=assess-plan&patient=101269",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "064ce9c7-9b59-4b34-8f0d-81d384277cfc",
+          "index": 101751207,
+          "result_id": "4be7ddad-eb4f-4a4a-82f3-f8c9fe296e60",
+          "status": 200,
+          "timestamp": "2026-11-10T20:07:50.390+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/CarePlan?_revinclude=Provenance:target&category=assess-plan&patient=101270",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "28ca7053-2928-497e-9f45-f712f392f891",
+          "index": 101751208,
+          "result_id": "4be7ddad-eb4f-4a4a-82f3-f8c9fe296e60",
+          "status": 200,
+          "timestamp": "2026-11-10T20:07:50.396+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/CarePlan?_revinclude=Provenance:target&category=assess-plan&patient=101271",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "49280a42-7c12-4596-9496-ec9c2d1fd506",
+          "index": 101751209,
+          "result_id": "4be7ddad-eb4f-4a4a-82f3-f8c9fe296e60",
+          "status": 200,
+          "timestamp": "2026-11-10T20:07:50.403+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/CarePlan?_revinclude=Provenance:target&category=assess-plan&patient=101272",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "2afa8aa1-b3b4-4360-8004-8b8d0419aa8b",
+          "index": 101751210,
+          "result_id": "4be7ddad-eb4f-4a4a-82f3-f8c9fe296e60",
+          "status": 200,
+          "timestamp": "2026-11-10T20:07:50.410+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/CarePlan?_revinclude=Provenance:target&category=assess-plan&patient=101273",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "3cb3d5de-18ad-4cfb-890b-7adfbbaac72b",
+          "index": 101751211,
+          "result_id": "4be7ddad-eb4f-4a4a-82f3-f8c9fe296e60",
+          "status": 200,
+          "timestamp": "2026-11-10T20:07:50.419+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/CarePlan?_revinclude=Provenance:target&category=assess-plan&patient=101274",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "5343d96c-7074-4a85-a986-9d08f3010534",
+          "index": 101751212,
+          "result_id": "4be7ddad-eb4f-4a4a-82f3-f8c9fe296e60",
+          "status": 200,
+          "timestamp": "2026-11-10T20:07:50.427+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/CarePlan?_revinclude=Provenance:target&category=assess-plan&patient=101275",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "c6ab38b2-b5bb-4ad8-829b-e3d4f28dd4d5",
+          "index": 101751213,
+          "result_id": "4be7ddad-eb4f-4a4a-82f3-f8c9fe296e60",
+          "status": 200,
+          "timestamp": "2026-11-10T20:07:50.434+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/CarePlan?_revinclude=Provenance:target&category=assess-plan&patient=101276",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "d1139509-a900-4b70-9496-d2471cc3b79d",
+          "index": 101751214,
+          "result_id": "4be7ddad-eb4f-4a4a-82f3-f8c9fe296e60",
+          "status": 200,
+          "timestamp": "2026-11-10T20:07:50.441+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/CarePlan?_revinclude=Provenance:target&category=assess-plan&patient=101277",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "7e2adfde-c465-47fc-a097-1a2857186273",
+          "index": 101751215,
+          "result_id": "4be7ddad-eb4f-4a4a-82f3-f8c9fe296e60",
+          "status": 200,
+          "timestamp": "2026-11-10T20:07:50.449+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/CarePlan?_revinclude=Provenance:target&category=assess-plan&patient=101278",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "5d2193fc-c4d0-43de-9980-1dfa2a588a7f",
+          "index": 101751216,
+          "result_id": "4be7ddad-eb4f-4a4a-82f3-f8c9fe296e60",
+          "status": 200,
+          "timestamp": "2026-11-10T20:07:50.457+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/CarePlan?_revinclude=Provenance:target&category=assess-plan&patient=101279",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "699ca698-3ce4-417b-99a5-957074511d06",
+          "index": 101751217,
+          "result_id": "4be7ddad-eb4f-4a4a-82f3-f8c9fe296e60",
+          "status": 200,
+          "timestamp": "2026-11-10T20:07:50.466+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/CarePlan?_revinclude=Provenance:target&category=assess-plan&patient=101280",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "a8173c5a-2df8-4a77-8b90-fdc13610c84e",
+          "index": 101751218,
+          "result_id": "4be7ddad-eb4f-4a4a-82f3-f8c9fe296e60",
+          "status": 200,
+          "timestamp": "2026-11-10T20:07:50.474+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/CarePlan?_revinclude=Provenance:target&category=assess-plan&patient=101281",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "db9ccba5-3740-4a69-b750-3b45638ae542",
+          "index": 101751219,
+          "result_id": "4be7ddad-eb4f-4a4a-82f3-f8c9fe296e60",
+          "status": 200,
+          "timestamp": "2026-11-10T20:07:50.481+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/CarePlan?_revinclude=Provenance:target&category=assess-plan&patient=101282",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "55ca01e5-f883-4b31-8359-621b296e7d27",
+          "index": 101751220,
+          "result_id": "4be7ddad-eb4f-4a4a-82f3-f8c9fe296e60",
+          "status": 200,
+          "timestamp": "2026-11-10T20:07:50.489+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/CarePlan?_revinclude=Provenance:target&category=assess-plan&patient=101283",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "d649adca-b350-41ac-b01f-a21e4395f843",
+          "index": 101751221,
+          "result_id": "4be7ddad-eb4f-4a4a-82f3-f8c9fe296e60",
+          "status": 200,
+          "timestamp": "2026-11-10T20:07:50.495+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/CarePlan?_revinclude=Provenance:target&category=assess-plan&patient=101284",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "f8f6de13-4744-47ec-b03c-c65757f626ed",
+          "index": 101751222,
+          "result_id": "4be7ddad-eb4f-4a4a-82f3-f8c9fe296e60",
+          "status": 200,
+          "timestamp": "2026-11-10T20:07:50.502+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/CarePlan?_revinclude=Provenance:target&category=assess-plan&patient=101285",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "eb8ba616-99ba-4a78-89fd-1e39706a38ed",
+          "index": 101751223,
+          "result_id": "4be7ddad-eb4f-4a4a-82f3-f8c9fe296e60",
+          "status": 200,
+          "timestamp": "2026-11-10T20:07:50.509+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/CarePlan?_revinclude=Provenance:target&category=assess-plan&patient=101286",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "826f9efd-36b4-433e-b34e-b0f1c7b4da98",
+          "index": 101751224,
+          "result_id": "4be7ddad-eb4f-4a4a-82f3-f8c9fe296e60",
+          "status": 200,
+          "timestamp": "2026-11-10T20:07:50.517+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/CarePlan?_revinclude=Provenance:target&category=assess-plan&patient=101287",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "8c3cff63-b48b-4a2d-985f-799dad99495b",
+          "index": 101751225,
+          "result_id": "4be7ddad-eb4f-4a4a-82f3-f8c9fe296e60",
+          "status": 200,
+          "timestamp": "2026-11-10T20:07:50.525+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/CarePlan?_revinclude=Provenance:target&category=assess-plan&patient=101288",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "5807bbf7-c576-45b7-a503-31c0c8398847",
+          "index": 101751226,
+          "result_id": "4be7ddad-eb4f-4a4a-82f3-f8c9fe296e60",
+          "status": 200,
+          "timestamp": "2026-11-10T20:07:50.533+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/CarePlan?_revinclude=Provenance:target&category=assess-plan&patient=101289",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "9e46fb47-96c8-4125-b3dd-ac5b08e6574e",
+          "index": 101751227,
+          "result_id": "4be7ddad-eb4f-4a4a-82f3-f8c9fe296e60",
+          "status": 200,
+          "timestamp": "2026-11-10T20:07:50.540+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/CarePlan?_revinclude=Provenance:target&category=assess-plan&patient=101290",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "3a08e298-9f79-4307-aecf-586347f6014a",
+          "index": 101751228,
+          "result_id": "4be7ddad-eb4f-4a4a-82f3-f8c9fe296e60",
+          "status": 200,
+          "timestamp": "2026-11-10T20:07:50.547+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/CarePlan?_revinclude=Provenance:target&category=assess-plan&patient=101291",
+          "verb": "get"
+        }
+      ],
+      "result": "pass",
+      "test_id": "us_core_v610-us_core_v610_fhir_api-us_core_v610_care_plan-us_core_v610_care_plan_provenance_revinclude_search_test",
+      "test_run_id": "c1591a94-1c04-4cf4-a2df-46b6fe969ec5",
+      "test_session_id": "jHCkVpAj70n",
+      "updated_at": "2026-11-10T20:07:50.291+00:00"
+    },
+    {
+      "created_at": "2026-11-10T20:07:50.618+00:00",
+      "id": "d07997be-fcc8-4853-9fba-9bb7f3654b0a",
+      "inputs": [
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://showfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"name\":\"smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [],
+      "result": "pass",
+      "test_id": "us_core_v610-us_core_v610_fhir_api-us_core_v610_care_plan-us_core_v610_care_plan_must_support_test",
+      "test_run_id": "c1591a94-1c04-4cf4-a2df-46b6fe969ec5",
+      "test_session_id": "jHCkVpAj70n",
+      "updated_at": "2026-11-10T20:07:50.618+00:00"
+    },
+    {
+      "created_at": "2026-11-10T20:07:45.858+00:00",
+      "id": "2daf3893-46f5-4235-96a8-cc89f9650b90",
+      "inputs": [
+        {
+          "name": "patient_ids",
+          "type": "text",
+          "value": "101258,101259,101260,101261,101262,101263,101264,101265,101266,101267,101268,101269,101270,101271,101272,101273,101274,101275,101276,101277,101278,101279,101280,101281,101282,101283,101284,101285,101286,101287,101288,101289,101290,101291"
+        },
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://showfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"name\":\"smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [
+        {
+          "direction": "outgoing",
+          "id": "19851174-b8a1-4a01-a122-e9b7d3887282",
+          "index": 101751140,
+          "result_id": "2daf3893-46f5-4235-96a8-cc89f9650b90",
+          "status": 200,
+          "timestamp": "2026-11-10T20:07:45.865+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/CarePlan?category=assess-plan&patient=101258",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "125639a3-1bd1-4368-8102-96a76e058b0a",
+          "index": 101751141,
+          "result_id": "2daf3893-46f5-4235-96a8-cc89f9650b90",
+          "status": 200,
+          "timestamp": "2026-11-10T20:07:45.876+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/CarePlan?category=assess-plan&patient=101259",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "c5ac7e2c-c7fa-4d63-a029-d96dc95bac80",
+          "index": 101751142,
+          "result_id": "2daf3893-46f5-4235-96a8-cc89f9650b90",
+          "status": 200,
+          "timestamp": "2026-11-10T20:07:45.885+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/CarePlan?category=assess-plan&patient=101260",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "8075c41b-622d-491e-aaff-62006f2baf1e",
+          "index": 101751143,
+          "result_id": "2daf3893-46f5-4235-96a8-cc89f9650b90",
+          "status": 200,
+          "timestamp": "2026-11-10T20:07:45.893+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/CarePlan?category=assess-plan&patient=101261",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "f112f5ca-4b20-487e-99f3-b75a668fff79",
+          "index": 101751144,
+          "result_id": "2daf3893-46f5-4235-96a8-cc89f9650b90",
+          "status": 200,
+          "timestamp": "2026-11-10T20:07:45.900+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/CarePlan?category=assess-plan&patient=101262",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "07129005-f9d0-41ef-bfa5-39dd6e51b097",
+          "index": 101751145,
+          "result_id": "2daf3893-46f5-4235-96a8-cc89f9650b90",
+          "status": 200,
+          "timestamp": "2026-11-10T20:07:45.908+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/CarePlan?category=assess-plan&patient=101263",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "a770d472-91b8-4e5b-8fd4-635851473aad",
+          "index": 101751146,
+          "result_id": "2daf3893-46f5-4235-96a8-cc89f9650b90",
+          "status": 200,
+          "timestamp": "2026-11-10T20:07:45.916+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/CarePlan?category=assess-plan&patient=101264",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "42ee64e2-d4a1-46e3-909b-99a3ddd1dc44",
+          "index": 101751147,
+          "result_id": "2daf3893-46f5-4235-96a8-cc89f9650b90",
+          "status": 200,
+          "timestamp": "2026-11-10T20:07:45.923+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/CarePlan?category=assess-plan&patient=101265",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "bd376924-4258-4c58-9da6-d03e008a3696",
+          "index": 101751148,
+          "result_id": "2daf3893-46f5-4235-96a8-cc89f9650b90",
+          "status": 200,
+          "timestamp": "2026-11-10T20:07:45.931+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/CarePlan?category=assess-plan&patient=101266",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "0032e562-725e-4edd-97ce-229ef52eb29b",
+          "index": 101751149,
+          "result_id": "2daf3893-46f5-4235-96a8-cc89f9650b90",
+          "status": 200,
+          "timestamp": "2026-11-10T20:07:45.939+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/CarePlan?category=assess-plan&patient=101267",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "5c938f95-e104-4295-9513-89ed8f9dcf7f",
+          "index": 101751150,
+          "result_id": "2daf3893-46f5-4235-96a8-cc89f9650b90",
+          "status": 200,
+          "timestamp": "2026-11-10T20:07:45.947+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/CarePlan?category=assess-plan&patient=101268",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "11025d0d-250e-4452-b659-ab331ff82426",
+          "index": 101751151,
+          "result_id": "2daf3893-46f5-4235-96a8-cc89f9650b90",
+          "status": 200,
+          "timestamp": "2026-11-10T20:07:45.955+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/CarePlan/_search",
+          "verb": "post"
+        },
+        {
+          "direction": "outgoing",
+          "id": "27c9ea6b-388f-4d08-9f91-5956422892e4",
+          "index": 101751152,
+          "result_id": "2daf3893-46f5-4235-96a8-cc89f9650b90",
+          "status": 200,
+          "timestamp": "2026-11-10T20:07:45.964+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/CarePlan?category=assess-plan&patient=Patient/101268",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "ea9bbca6-efe1-45db-b8ab-79e9cd504df1",
+          "index": 101751153,
+          "result_id": "2daf3893-46f5-4235-96a8-cc89f9650b90",
+          "status": 200,
+          "timestamp": "2026-11-10T20:07:45.972+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/CarePlan?category=http://hl7.org/fhir/us/core/CodeSystem/careplan-category%7Cassess-plan&patient=101268",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "b8a84be9-d82d-41e3-9473-428889afed93",
+          "index": 101751154,
+          "result_id": "2daf3893-46f5-4235-96a8-cc89f9650b90",
+          "status": 200,
+          "timestamp": "2026-11-10T20:07:45.980+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/CarePlan?category=assess-plan&patient=101269",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "1c9c03ae-a96c-4d28-8699-231cc42b8320",
+          "index": 101751155,
+          "result_id": "2daf3893-46f5-4235-96a8-cc89f9650b90",
+          "status": 200,
+          "timestamp": "2026-11-10T20:07:45.989+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/CarePlan?category=assess-plan&patient=101270",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "aebb1520-e599-4f0f-9f56-3e57bbb50077",
+          "index": 101751156,
+          "result_id": "2daf3893-46f5-4235-96a8-cc89f9650b90",
+          "status": 200,
+          "timestamp": "2026-11-10T20:07:45.998+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/CarePlan?category=assess-plan&patient=101271",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "12d19eef-1c80-483a-929d-e6d9a7904d04",
+          "index": 101751157,
+          "result_id": "2daf3893-46f5-4235-96a8-cc89f9650b90",
+          "status": 200,
+          "timestamp": "2026-11-10T20:07:46.006+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/CarePlan?category=assess-plan&patient=101272",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "51b0b90e-e735-473b-a5a2-0f408053ceb9",
+          "index": 101751158,
+          "result_id": "2daf3893-46f5-4235-96a8-cc89f9650b90",
+          "status": 200,
+          "timestamp": "2026-11-10T20:07:46.016+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/CarePlan?category=assess-plan&patient=101273",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "4e7ab8fc-e977-4cc6-85ae-e759fdf53b91",
+          "index": 101751159,
+          "result_id": "2daf3893-46f5-4235-96a8-cc89f9650b90",
+          "status": 200,
+          "timestamp": "2026-11-10T20:07:46.025+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/CarePlan?category=assess-plan&patient=101274",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "6a06c5ae-929b-47a9-85ef-69390761d390",
+          "index": 101751160,
+          "result_id": "2daf3893-46f5-4235-96a8-cc89f9650b90",
+          "status": 200,
+          "timestamp": "2026-11-10T20:07:46.034+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/CarePlan?category=assess-plan&patient=101275",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "d5db5de6-6538-4f37-8854-7b38b8c01471",
+          "index": 101751161,
+          "result_id": "2daf3893-46f5-4235-96a8-cc89f9650b90",
+          "status": 200,
+          "timestamp": "2026-11-10T20:07:46.041+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/CarePlan?category=assess-plan&patient=101276",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "7adb439d-1faf-4565-94b2-7952066d9575",
+          "index": 101751162,
+          "result_id": "2daf3893-46f5-4235-96a8-cc89f9650b90",
+          "status": 200,
+          "timestamp": "2026-11-10T20:07:46.050+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/CarePlan?category=assess-plan&patient=101277",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "073e792e-66e9-4125-bd0e-0a60737d8095",
+          "index": 101751163,
+          "result_id": "2daf3893-46f5-4235-96a8-cc89f9650b90",
+          "status": 200,
+          "timestamp": "2026-11-10T20:07:46.058+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/CarePlan?category=assess-plan&patient=101278",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "025b4c1d-e163-4041-8d07-ac4c80af0eb4",
+          "index": 101751164,
+          "result_id": "2daf3893-46f5-4235-96a8-cc89f9650b90",
+          "status": 200,
+          "timestamp": "2026-11-10T20:07:46.066+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/CarePlan?category=assess-plan&patient=101279",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "832c0492-ae3d-4cf0-912b-e2332d4f9190",
+          "index": 101751165,
+          "result_id": "2daf3893-46f5-4235-96a8-cc89f9650b90",
+          "status": 200,
+          "timestamp": "2026-11-10T20:07:46.074+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/CarePlan?category=assess-plan&patient=101280",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "b5789fae-be5b-4776-83f6-9e1bb1ac3285",
+          "index": 101751166,
+          "result_id": "2daf3893-46f5-4235-96a8-cc89f9650b90",
+          "status": 200,
+          "timestamp": "2026-11-10T20:07:46.082+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/CarePlan?category=assess-plan&patient=101281",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "894a5914-9156-46a3-a960-a767ffb0b725",
+          "index": 101751167,
+          "result_id": "2daf3893-46f5-4235-96a8-cc89f9650b90",
+          "status": 200,
+          "timestamp": "2026-11-10T20:07:46.090+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/CarePlan?category=assess-plan&patient=101282",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "227f3bb7-4f05-4ad4-99d6-7795be13b832",
+          "index": 101751168,
+          "result_id": "2daf3893-46f5-4235-96a8-cc89f9650b90",
+          "status": 200,
+          "timestamp": "2026-11-10T20:07:46.097+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/CarePlan?category=assess-plan&patient=101283",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "3921f04e-854e-4114-a716-4f8a6d448107",
+          "index": 101751169,
+          "result_id": "2daf3893-46f5-4235-96a8-cc89f9650b90",
+          "status": 200,
+          "timestamp": "2026-11-10T20:07:46.105+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/CarePlan?category=assess-plan&patient=101284",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "91a8545e-d898-4837-9c30-f11d7ded1808",
+          "index": 101751170,
+          "result_id": "2daf3893-46f5-4235-96a8-cc89f9650b90",
+          "status": 200,
+          "timestamp": "2026-11-10T20:07:46.114+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/CarePlan?category=assess-plan&patient=101285",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "c758cebd-e6df-4940-abf1-5c1b8c53302f",
+          "index": 101751171,
+          "result_id": "2daf3893-46f5-4235-96a8-cc89f9650b90",
+          "status": 200,
+          "timestamp": "2026-11-10T20:07:46.122+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/CarePlan?category=assess-plan&patient=101286",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "801ee043-ee6d-4fb8-a628-bf37b7761fde",
+          "index": 101751172,
+          "result_id": "2daf3893-46f5-4235-96a8-cc89f9650b90",
+          "status": 200,
+          "timestamp": "2026-11-10T20:07:46.130+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/CarePlan?category=assess-plan&patient=101287",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "643e114f-4980-4dd8-b9c2-76e3d17ee20a",
+          "index": 101751173,
+          "result_id": "2daf3893-46f5-4235-96a8-cc89f9650b90",
+          "status": 200,
+          "timestamp": "2026-11-10T20:07:46.138+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/CarePlan?category=assess-plan&patient=101288",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "dcb324e7-df47-44e5-8556-9f415a381846",
+          "index": 101751174,
+          "result_id": "2daf3893-46f5-4235-96a8-cc89f9650b90",
+          "status": 200,
+          "timestamp": "2026-11-10T20:07:46.146+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/CarePlan?category=assess-plan&patient=101289",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "01218cac-1a5c-4683-928a-c9698bdd44da",
+          "index": 101751175,
+          "result_id": "2daf3893-46f5-4235-96a8-cc89f9650b90",
+          "status": 200,
+          "timestamp": "2026-11-10T20:07:46.154+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/CarePlan?category=assess-plan&patient=101290",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "0a984307-d956-43fe-a140-9b6514a48ecf",
+          "index": 101751176,
+          "result_id": "2daf3893-46f5-4235-96a8-cc89f9650b90",
+          "status": 200,
+          "timestamp": "2026-11-10T20:07:46.163+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/CarePlan?category=assess-plan&patient=101291",
+          "verb": "get"
+        }
+      ],
+      "result": "pass",
+      "test_id": "us_core_v610-us_core_v610_fhir_api-us_core_v610_care_plan-us_core_v610_care_plan_patient_category_search_test",
+      "test_run_id": "c1591a94-1c04-4cf4-a2df-46b6fe969ec5",
+      "test_session_id": "jHCkVpAj70n",
+      "updated_at": "2026-11-10T20:07:45.858+00:00"
+    },
+    {
+      "created_at": "2026-11-10T20:07:46.490+00:00",
+      "id": "82767e57-69a5-4e78-870b-51917acb82d1",
+      "inputs": [
+        {
+          "name": "patient_ids",
+          "type": "text",
+          "value": "101258,101259,101260,101261,101262,101263,101264,101265,101266,101267,101268,101269,101270,101271,101272,101273,101274,101275,101276,101277,101278,101279,101280,101281,101282,101283,101284,101285,101286,101287,101288,101289,101290,101291"
+        },
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://showfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"name\":\"smart_auth_info\"}"
+        }
+      ],
+      "optional": true,
+      "outputs": [],
+      "requests": [
+        {
+          "direction": "outgoing",
+          "id": "118c0b96-c158-40ef-8c9a-1dd67c9bdbef",
+          "index": 101751177,
+          "result_id": "82767e57-69a5-4e78-870b-51917acb82d1",
+          "status": 200,
+          "timestamp": "2026-11-10T20:07:46.493+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/CarePlan?category=assess-plan&patient=101268&status=active",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "0851094e-d2fd-4b19-85da-972e87c6eae9",
+          "index": 101751178,
+          "result_id": "82767e57-69a5-4e78-870b-51917acb82d1",
+          "status": 200,
+          "timestamp": "2026-11-10T20:07:46.502+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/CarePlan?category=http://hl7.org/fhir/us/core/CodeSystem/careplan-category%7Cassess-plan&patient=101268&status=active",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "dae246a6-0228-40dd-a0d7-a403760c4dc4",
+          "index": 101751179,
+          "result_id": "82767e57-69a5-4e78-870b-51917acb82d1",
+          "status": 200,
+          "timestamp": "2026-11-10T20:07:46.510+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/CarePlan?category=assess-plan&patient=101279&status=active",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "89da0c40-47ee-4051-963a-015de25c5042",
+          "index": 101751180,
+          "result_id": "82767e57-69a5-4e78-870b-51917acb82d1",
+          "status": 200,
+          "timestamp": "2026-11-10T20:07:46.518+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/CarePlan?category=assess-plan&patient=101268&status=draft,active,on-hold,revoked,completed,entered-in-error,unknown",
+          "verb": "get"
+        }
+      ],
+      "result": "pass",
+      "test_id": "us_core_v610-us_core_v610_fhir_api-us_core_v610_care_plan-us_core_v610_care_plan_patient_category_status_search_test",
+      "test_run_id": "c1591a94-1c04-4cf4-a2df-46b6fe969ec5",
+      "test_session_id": "jHCkVpAj70n",
+      "updated_at": "2026-11-10T20:07:46.490+00:00"
+    },
+    {
+      "created_at": "2026-11-10T20:07:47.044+00:00",
+      "id": "adbbb6d7-1124-48ae-a128-0a904f92d8cb",
+      "inputs": [
+        {
+          "name": "patient_ids",
+          "type": "text",
+          "value": "101258,101259,101260,101261,101262,101263,101264,101265,101266,101267,101268,101269,101270,101271,101272,101273,101274,101275,101276,101277,101278,101279,101280,101281,101282,101283,101284,101285,101286,101287,101288,101289,101290,101291"
+        },
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://showfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"name\":\"smart_auth_info\"}"
+        }
+      ],
+      "optional": true,
+      "outputs": [],
+      "requests": [
+        {
+          "direction": "outgoing",
+          "id": "e855a73a-3680-4cef-88e9-70520967c680",
+          "index": 101751181,
+          "result_id": "adbbb6d7-1124-48ae-a128-0a904f92d8cb",
+          "status": 200,
+          "timestamp": "2026-11-10T20:07:47.046+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/CarePlan?category=assess-plan&date=gt2021-10-11T00:00:00%2B00:00&patient=101279&status=active",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "78426bcc-7d6c-43bb-ab22-353e4aa8c637",
+          "index": 101751182,
+          "result_id": "adbbb6d7-1124-48ae-a128-0a904f92d8cb",
+          "status": 200,
+          "timestamp": "2026-11-10T20:07:47.056+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/CarePlan?category=assess-plan&date=gt2021-10-11T00:00:00%2B00:00&patient=101279&status=active",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "d743d1e2-b7b2-476c-ab03-e740098e6c26",
+          "index": 101751183,
+          "result_id": "adbbb6d7-1124-48ae-a128-0a904f92d8cb",
+          "status": 200,
+          "timestamp": "2026-11-10T20:07:47.064+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/CarePlan?category=assess-plan&date=ge2021-10-11T00:00:00%2B00:00&patient=101279&status=active",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "386f123f-3712-40c6-8e2f-0c4a569d9b86",
+          "index": 101751184,
+          "result_id": "adbbb6d7-1124-48ae-a128-0a904f92d8cb",
+          "status": 200,
+          "timestamp": "2026-11-10T20:07:47.071+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/CarePlan?category=assess-plan&date=lt2021-10-13T00:00:00%2B00:00&patient=101279&status=active",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "d01bdd38-00b9-45f7-a50f-0fb0ca526876",
+          "index": 101751185,
+          "result_id": "adbbb6d7-1124-48ae-a128-0a904f92d8cb",
+          "status": 200,
+          "timestamp": "2026-11-10T20:07:47.078+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/CarePlan?category=assess-plan&date=le2021-10-13T00:00:00%2B00:00&patient=101279&status=active",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "298fa90e-e9ac-4976-871a-ec170666d10f",
+          "index": 101751186,
+          "result_id": "adbbb6d7-1124-48ae-a128-0a904f92d8cb",
+          "status": 200,
+          "timestamp": "2026-11-10T20:07:47.086+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/CarePlan?category=http://hl7.org/fhir/us/core/CodeSystem/careplan-category%7Cassess-plan&date=gt2021-10-11T00:00:00%2B00:00&patient=101279&status=active",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "6fa83327-ff59-41ad-a924-e06df5cefbcf",
+          "index": 101751187,
+          "result_id": "adbbb6d7-1124-48ae-a128-0a904f92d8cb",
+          "status": 200,
+          "timestamp": "2026-11-10T20:07:47.094+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/CarePlan?category=assess-plan&date=gt2021-10-11T00:00:00%2B00:00&patient=101279&status=draft,active,on-hold,revoked,completed,entered-in-error,unknown",
+          "verb": "get"
+        }
+      ],
+      "result": "pass",
+      "test_id": "us_core_v610-us_core_v610_fhir_api-us_core_v610_care_plan-us_core_v610_care_plan_patient_category_status_date_search_test",
+      "test_run_id": "c1591a94-1c04-4cf4-a2df-46b6fe969ec5",
+      "test_session_id": "jHCkVpAj70n",
+      "updated_at": "2026-11-10T20:07:47.044+00:00"
+    },
+    {
+      "created_at": "2026-11-10T20:07:47.552+00:00",
+      "id": "1d0561a0-cd8b-4235-812b-e6758e823809",
+      "inputs": [
+        {
+          "name": "patient_ids",
+          "type": "text",
+          "value": "101258,101259,101260,101261,101262,101263,101264,101265,101266,101267,101268,101269,101270,101271,101272,101273,101274,101275,101276,101277,101278,101279,101280,101281,101282,101283,101284,101285,101286,101287,101288,101289,101290,101291"
+        },
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://showfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"name\":\"smart_auth_info\"}"
+        }
+      ],
+      "optional": true,
+      "outputs": [],
+      "requests": [
+        {
+          "direction": "outgoing",
+          "id": "27b7eb2f-20ad-4069-ba98-166650640904",
+          "index": 101751188,
+          "result_id": "1d0561a0-cd8b-4235-812b-e6758e823809",
+          "status": 200,
+          "timestamp": "2026-11-10T20:07:47.555+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/CarePlan?category=assess-plan&date=gt2021-10-11T00:00:00%2B00:00&patient=101279",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "3137d01e-da99-4004-b0d9-7a28af7177d8",
+          "index": 101751189,
+          "result_id": "1d0561a0-cd8b-4235-812b-e6758e823809",
+          "status": 200,
+          "timestamp": "2026-11-10T20:07:47.565+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/CarePlan?category=assess-plan&date=gt2021-10-11T00:00:00%2B00:00&patient=101279",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "006f7f86-ecc6-4698-979f-08efd2d0a656",
+          "index": 101751190,
+          "result_id": "1d0561a0-cd8b-4235-812b-e6758e823809",
+          "status": 200,
+          "timestamp": "2026-11-10T20:07:47.575+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/CarePlan?category=assess-plan&date=ge2021-10-11T00:00:00%2B00:00&patient=101279",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "07c13e8c-4152-48c3-9d00-472207b9d641",
+          "index": 101751191,
+          "result_id": "1d0561a0-cd8b-4235-812b-e6758e823809",
+          "status": 200,
+          "timestamp": "2026-11-10T20:07:47.582+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/CarePlan?category=assess-plan&date=lt2021-10-13T00:00:00%2B00:00&patient=101279",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "2b1a52c3-b137-4d8e-8bcc-c17a161c8b3a",
+          "index": 101751192,
+          "result_id": "1d0561a0-cd8b-4235-812b-e6758e823809",
+          "status": 200,
+          "timestamp": "2026-11-10T20:07:47.588+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/CarePlan?category=assess-plan&date=le2021-10-13T00:00:00%2B00:00&patient=101279",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "27492314-6727-4165-9748-8ccd9775940d",
+          "index": 101751193,
+          "result_id": "1d0561a0-cd8b-4235-812b-e6758e823809",
+          "status": 200,
+          "timestamp": "2026-11-10T20:07:47.595+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/CarePlan?category=http://hl7.org/fhir/us/core/CodeSystem/careplan-category%7Cassess-plan&date=gt2021-10-11T00:00:00%2B00:00&patient=101279",
+          "verb": "get"
+        }
+      ],
+      "result": "pass",
+      "test_id": "us_core_v610-us_core_v610_fhir_api-us_core_v610_care_plan-us_core_v610_care_plan_patient_category_date_search_test",
+      "test_run_id": "c1591a94-1c04-4cf4-a2df-46b6fe969ec5",
+      "test_session_id": "jHCkVpAj70n",
+      "updated_at": "2026-11-10T20:07:47.552+00:00"
+    },
+    {
+      "created_at": "2026-11-10T20:07:50.750+00:00",
+      "id": "fe030a25-fdce-4598-9869-cfe3eeaf8a6b",
+      "inputs": [
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://showfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"name\":\"smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [
+        {
+          "direction": "outgoing",
+          "id": "adcc65cb-ed7f-4cb9-a02c-c872696ab65b",
+          "index": 101751229,
+          "result_id": "fe030a25-fdce-4598-9869-cfe3eeaf8a6b",
+          "status": 200,
+          "timestamp": "2026-11-10T20:07:50.752+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Patient/101268",
+          "verb": "get"
+        }
+      ],
+      "result": "pass",
+      "test_id": "us_core_v610-us_core_v610_fhir_api-us_core_v610_care_plan-us_core_v610_care_plan_reference_resolution_test",
+      "test_run_id": "c1591a94-1c04-4cf4-a2df-46b6fe969ec5",
+      "test_session_id": "jHCkVpAj70n",
+      "updated_at": "2026-11-10T20:07:50.750+00:00"
+    },
+    {
+      "created_at": "2026-11-10T20:07:50.607+00:00",
+      "id": "8acacfd2-2f34-49d9-806d-e0abc3257313",
+      "inputs": [
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://showfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"name\":\"smart_auth_info\"}"
+        }
+      ],
+      "messages": [
+        {
+          "message": "CarePlan/cp-assess: CarePlan.meta.profile[0]: A definition could not be found for Canonical URL 'http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-careplan'",
+          "type": "info"
+        },
+        {
+          "message": "CarePlan/cp-assess: CarePlan.text.status: Reference to draft CodeSystem http://hl7.org/fhir/narrative-status|4.0.1",
+          "type": "info"
+        },
+        {
+          "message": "CarePlan/cp-assess: CarePlan.meta.profile[0]: Profile reference 'http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-careplan' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles",
+          "type": "warning"
+        },
+        {
+          "message": "CarePlan/cp-assess: CarePlan.meta.profile[0]: A definition could not be found for Canonical URL 'http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-careplan'",
+          "type": "info"
+        },
+        {
+          "message": "CarePlan/cp-assess: CarePlan.text.status: Reference to draft CodeSystem http://hl7.org/fhir/narrative-status|4.0.1",
+          "type": "info"
+        },
+        {
+          "message": "CarePlan/cp-assess: CarePlan.meta.profile[0]: Profile reference 'http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-careplan' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles",
+          "type": "warning"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [],
+      "result": "pass",
+      "test_id": "us_core_v610-us_core_v610_fhir_api-us_core_v610_care_plan-us_core_v610_care_plan_validation_test",
+      "test_run_id": "c1591a94-1c04-4cf4-a2df-46b6fe969ec5",
+      "test_session_id": "jHCkVpAj70n",
+      "updated_at": "2026-11-10T20:07:50.607+00:00"
+    },
+    {
+      "created_at": "2026-11-10T20:07:50.764+00:00",
+      "id": "2bf62ea4-a07e-4610-8f6b-567c5e8131e1",
+      "inputs": [
+        {
+          "description": "Comma separated list of patient IDs that in sum contain all MUST SUPPORT elements",
+          "label": "Patient IDs",
+          "name": "patient_ids",
+          "type": "text",
+          "value": "101258,101259,101260,101261,101262,101263,101264,101265,101266,101267,101268,101269,101270,101271,101272,101273,101274,101275,101276,101277,101278,101279,101280,101281,101282,101283,101284,101285,101286,101287,101288,101289,101290,101291"
+        },
+        {
+          "description": "URL of the FHIR endpoint",
+          "label": "FHIR Endpoint",
+          "name": "url",
+          "type": "text",
+          "value": "https://showfhir.vistaplex.org/fhir"
+        },
+        {
+          "description": null,
+          "label": "OAuth Credentials",
+          "name": "smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"name\":\"smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [],
+      "result": "pass",
+      "test_group_id": "us_core_v610-us_core_v610_fhir_api-us_core_v610_care_plan",
+      "test_run_id": "c1591a94-1c04-4cf4-a2df-46b6fe969ec5",
+      "test_session_id": "jHCkVpAj70n",
+      "updated_at": "2026-11-10T20:07:50.764+00:00"
+    }
+  ],
+  "run_id": "c1591a94-1c04-4cf4-a2df-46b6fe969ec5",
+  "session_id": "jHCkVpAj70n",
+  "session_url": "https://inferno.healthit.gov/suites/us_core_v610/jHCkVpAj70n",
+  "status": {
+    "id": "c1591a94-1c04-4cf4-a2df-46b6fe969ec5",
+    "inputs": null,
+    "results": null,
+    "status": "done",
+    "test_count": 9,
+    "test_group_id": "us_core_v610-us_core_v610_fhir_api-us_core_v610_care_plan",
+    "test_session_id": "jHCkVpAj70n"
+  },
+  "url": "https://showfhir.vistaplex.org/fhir"
+}

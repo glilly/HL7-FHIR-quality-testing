@@ -1,0 +1,1054 @@
+{
+  "api": "https://inferno.healthit.gov/suites/api",
+  "patient_ids": "101258,101259,101260,101261,101262,101263,101264,101265,101266,101267,101268,101269,101270,101271,101272,101273,101274,101275,101276,101277,101278,101279,101280,101281,101282,101283,101284,101285,101286,101287,101288,101289,101290,101291",
+  "results": [
+    {
+      "created_at": "2026-11-10T20:37:27.101+00:00",
+      "id": "b668ac8a-0210-4237-9c88-b4c3575ded43",
+      "inputs": [
+        {
+          "name": "patient_ids",
+          "type": "text",
+          "value": "101258,101259,101260,101261,101262,101263,101264,101265,101266,101267,101268,101269,101270,101271,101272,101273,101274,101275,101276,101277,101278,101279,101280,101281,101282,101283,101284,101285,101286,101287,101288,101289,101290,101291"
+        },
+        {
+          "name": "implantable_device_codes",
+          "type": "text",
+          "value": null
+        },
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://showfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"name\":\"smart_auth_info\"}"
+        }
+      ],
+      "optional": true,
+      "outputs": [],
+      "requests": [
+        {
+          "direction": "outgoing",
+          "id": "8f227670-3fe2-449b-9a5e-2dc32de63be9",
+          "index": 101756950,
+          "result_id": "b668ac8a-0210-4237-9c88-b4c3575ded43",
+          "status": 200,
+          "timestamp": "2026-11-10T20:37:27.103+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Device?patient=101258&status=active",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "47ca23b1-1a49-41bf-a679-91e9cb242d85",
+          "index": 101756952,
+          "result_id": "b668ac8a-0210-4237-9c88-b4c3575ded43",
+          "status": 200,
+          "timestamp": "2026-11-10T20:37:27.116+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Device?patient=101258&status=active,inactive,entered-in-error,unknown",
+          "verb": "get"
+        }
+      ],
+      "result": "pass",
+      "test_id": "us_core_v610-us_core_v610_fhir_api-us_core_v610_device-us_core_v610_device_patient_status_search_test",
+      "test_run_id": "0f9d80b1-e5d6-4a2f-ac89-499d5da4a58f",
+      "test_session_id": "aUkP5dD1yEO",
+      "updated_at": "2026-11-10T20:37:27.101+00:00"
+    },
+    {
+      "created_at": "2026-11-10T20:37:32.771+00:00",
+      "id": "2fa72a90-cc7f-495f-afc6-2101d01687ae",
+      "inputs": [
+        {
+          "name": "patient_ids",
+          "type": "text",
+          "value": "101258,101259,101260,101261,101262,101263,101264,101265,101266,101267,101268,101269,101270,101271,101272,101273,101274,101275,101276,101277,101278,101279,101280,101281,101282,101283,101284,101285,101286,101287,101288,101289,101290,101291"
+        },
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://showfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"name\":\"smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [
+        {
+          "direction": "outgoing",
+          "id": "d4125d16-d65b-4a71-be13-b529e1f830cb",
+          "index": 101757016,
+          "result_id": "2fa72a90-cc7f-495f-afc6-2101d01687ae",
+          "status": 200,
+          "timestamp": "2026-11-10T20:37:32.774+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Device?_revinclude=Provenance:target&patient=101258",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "d4eaccf9-7366-4e43-badb-e1c579da636d",
+          "index": 101757018,
+          "result_id": "2fa72a90-cc7f-495f-afc6-2101d01687ae",
+          "status": 200,
+          "timestamp": "2026-11-10T20:37:32.790+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Device?_revinclude=Provenance:target&patient=101259",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "c4d11d86-4358-4b2c-ae22-bcae289c44bd",
+          "index": 101757019,
+          "result_id": "2fa72a90-cc7f-495f-afc6-2101d01687ae",
+          "status": 200,
+          "timestamp": "2026-11-10T20:37:32.800+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Device?_revinclude=Provenance:target&patient=101260",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "08b94624-add0-4b27-96a3-22474aa51733",
+          "index": 101757021,
+          "result_id": "2fa72a90-cc7f-495f-afc6-2101d01687ae",
+          "status": 200,
+          "timestamp": "2026-11-10T20:37:32.812+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Device?_revinclude=Provenance:target&patient=101261",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "47ac1c49-aef9-45f4-bacb-91c9cbaf32ca",
+          "index": 101757022,
+          "result_id": "2fa72a90-cc7f-495f-afc6-2101d01687ae",
+          "status": 200,
+          "timestamp": "2026-11-10T20:37:32.823+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Device?_revinclude=Provenance:target&patient=101262",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "ab1ee2da-df5d-49f7-a185-e4490b987f38",
+          "index": 101757023,
+          "result_id": "2fa72a90-cc7f-495f-afc6-2101d01687ae",
+          "status": 200,
+          "timestamp": "2026-11-10T20:37:32.834+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Device?_revinclude=Provenance:target&patient=101263",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "1184ea62-a385-4cbe-bd54-b5553e76b130",
+          "index": 101757025,
+          "result_id": "2fa72a90-cc7f-495f-afc6-2101d01687ae",
+          "status": 200,
+          "timestamp": "2026-11-10T20:37:32.845+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Device?_revinclude=Provenance:target&patient=101264",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "37456971-ca04-405c-b86a-bd240f047652",
+          "index": 101757026,
+          "result_id": "2fa72a90-cc7f-495f-afc6-2101d01687ae",
+          "status": 200,
+          "timestamp": "2026-11-10T20:37:32.858+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Device?_revinclude=Provenance:target&patient=101265",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "071bf449-3072-432c-974b-da96f936c8c4",
+          "index": 101757028,
+          "result_id": "2fa72a90-cc7f-495f-afc6-2101d01687ae",
+          "status": 200,
+          "timestamp": "2026-11-10T20:37:32.869+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Device?_revinclude=Provenance:target&patient=101266",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "c5eeb93a-7f68-4dfd-8c9c-aefbafba59a9",
+          "index": 101757029,
+          "result_id": "2fa72a90-cc7f-495f-afc6-2101d01687ae",
+          "status": 200,
+          "timestamp": "2026-11-10T20:37:32.880+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Device?_revinclude=Provenance:target&patient=101267",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "0547b499-5a65-4bc1-b28e-bac98056dc9c",
+          "index": 101757030,
+          "result_id": "2fa72a90-cc7f-495f-afc6-2101d01687ae",
+          "status": 200,
+          "timestamp": "2026-11-10T20:37:32.890+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Device?_revinclude=Provenance:target&patient=101268",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "bb3bb72e-de8f-40c0-9193-ecbb824a4671",
+          "index": 101757032,
+          "result_id": "2fa72a90-cc7f-495f-afc6-2101d01687ae",
+          "status": 200,
+          "timestamp": "2026-11-10T20:37:32.901+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Device?_revinclude=Provenance:target&patient=101269",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "65bfb34f-23cf-4c2a-9ad7-95b4c95c3081",
+          "index": 101757033,
+          "result_id": "2fa72a90-cc7f-495f-afc6-2101d01687ae",
+          "status": 200,
+          "timestamp": "2026-11-10T20:37:32.911+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Device?_revinclude=Provenance:target&patient=101270",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "c37fac73-6be9-4eea-b008-30841eda2812",
+          "index": 101757034,
+          "result_id": "2fa72a90-cc7f-495f-afc6-2101d01687ae",
+          "status": 200,
+          "timestamp": "2026-11-10T20:37:32.923+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Device?_revinclude=Provenance:target&patient=101271",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "4575f127-45b6-4892-b823-08bf461e83ed",
+          "index": 101757036,
+          "result_id": "2fa72a90-cc7f-495f-afc6-2101d01687ae",
+          "status": 200,
+          "timestamp": "2026-11-10T20:37:32.934+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Device?_revinclude=Provenance:target&patient=101272",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "0f64e7d6-1752-4782-8b04-7bd9f9d59b82",
+          "index": 101757037,
+          "result_id": "2fa72a90-cc7f-495f-afc6-2101d01687ae",
+          "status": 200,
+          "timestamp": "2026-11-10T20:37:32.946+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Device?_revinclude=Provenance:target&patient=101273",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "78eac268-07ca-499e-afa9-5e727f62b9ce",
+          "index": 101757039,
+          "result_id": "2fa72a90-cc7f-495f-afc6-2101d01687ae",
+          "status": 200,
+          "timestamp": "2026-11-10T20:37:32.958+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Device?_revinclude=Provenance:target&patient=101274",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "0e2d2531-c17f-4778-8d58-9ecfe1bfb367",
+          "index": 101757040,
+          "result_id": "2fa72a90-cc7f-495f-afc6-2101d01687ae",
+          "status": 200,
+          "timestamp": "2026-11-10T20:37:32.968+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Device?_revinclude=Provenance:target&patient=101275",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "fc55e395-d379-439d-bdac-63b35a7e5029",
+          "index": 101757041,
+          "result_id": "2fa72a90-cc7f-495f-afc6-2101d01687ae",
+          "status": 200,
+          "timestamp": "2026-11-10T20:37:32.982+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Device?_revinclude=Provenance:target&patient=101276",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "8b1daa06-69d9-44a3-a806-54ac28ee6587",
+          "index": 101757043,
+          "result_id": "2fa72a90-cc7f-495f-afc6-2101d01687ae",
+          "status": 200,
+          "timestamp": "2026-11-10T20:37:32.992+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Device?_revinclude=Provenance:target&patient=101277",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "987fd059-89b9-4a3c-ae90-d4f981739b49",
+          "index": 101757044,
+          "result_id": "2fa72a90-cc7f-495f-afc6-2101d01687ae",
+          "status": 200,
+          "timestamp": "2026-11-10T20:37:33.002+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Device?_revinclude=Provenance:target&patient=101278",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "33aeef31-baff-4a05-bc52-5b3725a08a19",
+          "index": 101757046,
+          "result_id": "2fa72a90-cc7f-495f-afc6-2101d01687ae",
+          "status": 200,
+          "timestamp": "2026-11-10T20:37:33.014+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Device?_revinclude=Provenance:target&patient=101279",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "3acded79-5fd8-4013-b7cb-6ee475320a00",
+          "index": 101757047,
+          "result_id": "2fa72a90-cc7f-495f-afc6-2101d01687ae",
+          "status": 200,
+          "timestamp": "2026-11-10T20:37:33.024+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Device?_revinclude=Provenance:target&patient=101280",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "7fe5b700-6603-4837-8b8f-c27dfa1d6cd3",
+          "index": 101757048,
+          "result_id": "2fa72a90-cc7f-495f-afc6-2101d01687ae",
+          "status": 200,
+          "timestamp": "2026-11-10T20:37:33.035+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Device?_revinclude=Provenance:target&patient=101281",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "f26e4ebe-3aeb-409b-b4aa-6ff5ca24c9fc",
+          "index": 101757050,
+          "result_id": "2fa72a90-cc7f-495f-afc6-2101d01687ae",
+          "status": 200,
+          "timestamp": "2026-11-10T20:37:33.047+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Device?_revinclude=Provenance:target&patient=101282",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "3ebdb126-5cdd-44e4-aa42-da282f410f0f",
+          "index": 101757051,
+          "result_id": "2fa72a90-cc7f-495f-afc6-2101d01687ae",
+          "status": 200,
+          "timestamp": "2026-11-10T20:37:33.058+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Device?_revinclude=Provenance:target&patient=101283",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "4ed2fa75-6bf1-4847-b8e9-7465b524c838",
+          "index": 101757052,
+          "result_id": "2fa72a90-cc7f-495f-afc6-2101d01687ae",
+          "status": 200,
+          "timestamp": "2026-11-10T20:37:33.070+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Device?_revinclude=Provenance:target&patient=101284",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "db07aefa-f7b8-443e-9469-0693797fd8a8",
+          "index": 101757054,
+          "result_id": "2fa72a90-cc7f-495f-afc6-2101d01687ae",
+          "status": 200,
+          "timestamp": "2026-11-10T20:37:33.083+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Device?_revinclude=Provenance:target&patient=101285",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "28a02ff1-8941-4e66-8bca-1836d881e393",
+          "index": 101757055,
+          "result_id": "2fa72a90-cc7f-495f-afc6-2101d01687ae",
+          "status": 200,
+          "timestamp": "2026-11-10T20:37:33.095+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Device?_revinclude=Provenance:target&patient=101286",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "faef62a8-50d7-45f9-af7e-295d16c52bb0",
+          "index": 101757057,
+          "result_id": "2fa72a90-cc7f-495f-afc6-2101d01687ae",
+          "status": 200,
+          "timestamp": "2026-11-10T20:37:33.107+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Device?_revinclude=Provenance:target&patient=101287",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "f4c1e7a4-487a-4a8f-b8df-8861d5cab094",
+          "index": 101757058,
+          "result_id": "2fa72a90-cc7f-495f-afc6-2101d01687ae",
+          "status": 200,
+          "timestamp": "2026-11-10T20:37:33.118+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Device?_revinclude=Provenance:target&patient=101288",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "45f71db1-4cfe-4a1e-89e3-f46da61812e1",
+          "index": 101757059,
+          "result_id": "2fa72a90-cc7f-495f-afc6-2101d01687ae",
+          "status": 200,
+          "timestamp": "2026-11-10T20:37:33.130+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Device?_revinclude=Provenance:target&patient=101289",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "62d7e642-6721-40e1-8363-888f81988551",
+          "index": 101757061,
+          "result_id": "2fa72a90-cc7f-495f-afc6-2101d01687ae",
+          "status": 200,
+          "timestamp": "2026-11-10T20:37:33.143+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Device?_revinclude=Provenance:target&patient=101290",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "419b868b-0ad6-4615-81c5-de4af9f69fb7",
+          "index": 101757062,
+          "result_id": "2fa72a90-cc7f-495f-afc6-2101d01687ae",
+          "status": 200,
+          "timestamp": "2026-11-10T20:37:33.155+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Device?_revinclude=Provenance:target&patient=101291",
+          "verb": "get"
+        }
+      ],
+      "result": "pass",
+      "test_id": "us_core_v610-us_core_v610_fhir_api-us_core_v610_device-us_core_v610_device_provenance_revinclude_search_test",
+      "test_run_id": "0f9d80b1-e5d6-4a2f-ac89-499d5da4a58f",
+      "test_session_id": "aUkP5dD1yEO",
+      "updated_at": "2026-11-10T20:37:32.771+00:00"
+    },
+    {
+      "created_at": "2026-11-10T20:37:33.542+00:00",
+      "id": "47679334-5681-4cba-ba1e-7b2143a53116",
+      "inputs": [
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://showfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"name\":\"smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [
+        {
+          "direction": "outgoing",
+          "id": "a4dcb26a-5cca-4116-9241-8cf69dba9e05",
+          "index": 101757079,
+          "result_id": "47679334-5681-4cba-ba1e-7b2143a53116",
+          "status": 200,
+          "timestamp": "2026-11-10T20:37:33.544+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Patient/101258",
+          "verb": "get"
+        }
+      ],
+      "result": "pass",
+      "test_id": "us_core_v610-us_core_v610_fhir_api-us_core_v610_device-us_core_v610_device_reference_resolution_test",
+      "test_run_id": "0f9d80b1-e5d6-4a2f-ac89-499d5da4a58f",
+      "test_session_id": "aUkP5dD1yEO",
+      "updated_at": "2026-11-10T20:37:33.542+00:00"
+    },
+    {
+      "created_at": "2026-11-10T20:37:27.220+00:00",
+      "id": "a1e9fb3e-a4d1-463c-8b34-238702245ed6",
+      "inputs": [
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://showfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"name\":\"smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [
+        {
+          "direction": "outgoing",
+          "id": "e019face-25fb-4d49-ba7f-08099acaef3f",
+          "index": 101756959,
+          "result_id": "a1e9fb3e-a4d1-463c-8b34-238702245ed6",
+          "status": 200,
+          "timestamp": "2026-11-10T20:37:27.222+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Device/dev-hip",
+          "verb": "get"
+        }
+      ],
+      "result": "pass",
+      "test_id": "us_core_v610-us_core_v610_fhir_api-us_core_v610_device-us_core_v610_device_read_test",
+      "test_run_id": "0f9d80b1-e5d6-4a2f-ac89-499d5da4a58f",
+      "test_session_id": "aUkP5dD1yEO",
+      "updated_at": "2026-11-10T20:37:27.220+00:00"
+    },
+    {
+      "created_at": "2026-11-10T20:37:33.410+00:00",
+      "id": "b2bb8672-4d7c-4a79-b864-006d1130c3ad",
+      "inputs": [
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://showfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"name\":\"smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [],
+      "result": "pass",
+      "test_id": "us_core_v610-us_core_v610_fhir_api-us_core_v610_device-us_core_v610_device_validation_test",
+      "test_run_id": "0f9d80b1-e5d6-4a2f-ac89-499d5da4a58f",
+      "test_session_id": "aUkP5dD1yEO",
+      "updated_at": "2026-11-10T20:37:33.410+00:00"
+    },
+    {
+      "created_at": "2026-11-10T20:37:33.417+00:00",
+      "id": "f1495afa-ee69-4c1e-8317-4ba0c74291d6",
+      "inputs": [
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://showfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"name\":\"smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [],
+      "result": "pass",
+      "test_id": "us_core_v610-us_core_v610_fhir_api-us_core_v610_device-us_core_v610_device_must_support_test",
+      "test_run_id": "0f9d80b1-e5d6-4a2f-ac89-499d5da4a58f",
+      "test_session_id": "aUkP5dD1yEO",
+      "updated_at": "2026-11-10T20:37:33.417+00:00"
+    },
+    {
+      "created_at": "2026-11-10T20:37:26.174+00:00",
+      "id": "da3e46ac-1502-4de0-8b51-2c214999b627",
+      "inputs": [
+        {
+          "name": "patient_ids",
+          "type": "text",
+          "value": "101258,101259,101260,101261,101262,101263,101264,101265,101266,101267,101268,101269,101270,101271,101272,101273,101274,101275,101276,101277,101278,101279,101280,101281,101282,101283,101284,101285,101286,101287,101288,101289,101290,101291"
+        },
+        {
+          "name": "implantable_device_codes",
+          "type": "text",
+          "value": null
+        },
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://showfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"name\":\"smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [
+        {
+          "direction": "outgoing",
+          "id": "03ba8266-9ee1-4e94-8908-31037e22a494",
+          "index": 101756886,
+          "result_id": "da3e46ac-1502-4de0-8b51-2c214999b627",
+          "status": 200,
+          "timestamp": "2026-11-10T20:37:26.211+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Device?patient=101258",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "cdd1403a-7185-4448-8253-e59547b8835e",
+          "index": 101756887,
+          "result_id": "da3e46ac-1502-4de0-8b51-2c214999b627",
+          "status": 200,
+          "timestamp": "2026-11-10T20:37:26.229+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Device/_search",
+          "verb": "post"
+        },
+        {
+          "direction": "outgoing",
+          "id": "63dfe0cd-2878-4e03-8e0d-c31fa886256f",
+          "index": 101756889,
+          "result_id": "da3e46ac-1502-4de0-8b51-2c214999b627",
+          "status": 200,
+          "timestamp": "2026-11-10T20:37:26.242+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Device?patient=Patient/101258",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "928c336e-a5d0-4f83-a510-8d1a804f2b96",
+          "index": 101756890,
+          "result_id": "da3e46ac-1502-4de0-8b51-2c214999b627",
+          "status": 200,
+          "timestamp": "2026-11-10T20:37:26.253+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Device?patient=101259",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "e3f38ccd-d1f0-4e59-845c-7bf58f0261b4",
+          "index": 101756892,
+          "result_id": "da3e46ac-1502-4de0-8b51-2c214999b627",
+          "status": 200,
+          "timestamp": "2026-11-10T20:37:26.264+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Device?patient=101260",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "10df9d92-c603-4938-abab-6fe0b245e95f",
+          "index": 101756893,
+          "result_id": "da3e46ac-1502-4de0-8b51-2c214999b627",
+          "status": 200,
+          "timestamp": "2026-11-10T20:37:26.275+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Device?patient=101261",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "c88b0154-c941-43cf-b429-392e1fe756b2",
+          "index": 101756894,
+          "result_id": "da3e46ac-1502-4de0-8b51-2c214999b627",
+          "status": 200,
+          "timestamp": "2026-11-10T20:37:26.287+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Device?patient=101262",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "54343c56-a733-4bf1-a517-0a4defefe0ba",
+          "index": 101756896,
+          "result_id": "da3e46ac-1502-4de0-8b51-2c214999b627",
+          "status": 200,
+          "timestamp": "2026-11-10T20:37:26.298+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Device?patient=101263",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "ed0e843c-5e22-4711-a42d-9fbf0009eb4b",
+          "index": 101756897,
+          "result_id": "da3e46ac-1502-4de0-8b51-2c214999b627",
+          "status": 200,
+          "timestamp": "2026-11-10T20:37:26.309+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Device?patient=101264",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "f440a0df-a8ad-4eac-acf0-d3e9718f5bf5",
+          "index": 101756899,
+          "result_id": "da3e46ac-1502-4de0-8b51-2c214999b627",
+          "status": 200,
+          "timestamp": "2026-11-10T20:37:26.321+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Device?patient=101265",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "d53ed441-d362-433b-a4d6-6581f64ffff3",
+          "index": 101756900,
+          "result_id": "da3e46ac-1502-4de0-8b51-2c214999b627",
+          "status": 200,
+          "timestamp": "2026-11-10T20:37:26.333+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Device?patient=101266",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "a775f827-602f-4b04-babf-e534000ac5f9",
+          "index": 101756901,
+          "result_id": "da3e46ac-1502-4de0-8b51-2c214999b627",
+          "status": 200,
+          "timestamp": "2026-11-10T20:37:26.344+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Device?patient=101267",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "c1505b22-ebbd-432a-855e-74a1b0cbced0",
+          "index": 101756903,
+          "result_id": "da3e46ac-1502-4de0-8b51-2c214999b627",
+          "status": 200,
+          "timestamp": "2026-11-10T20:37:26.355+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Device?patient=101268",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "d0171397-ed7d-4804-b40b-6fe72ae1bf17",
+          "index": 101756904,
+          "result_id": "da3e46ac-1502-4de0-8b51-2c214999b627",
+          "status": 200,
+          "timestamp": "2026-11-10T20:37:26.368+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Device?patient=101269",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "8049a431-5f43-46ae-8b98-6dc16fc7e3c8",
+          "index": 101756905,
+          "result_id": "da3e46ac-1502-4de0-8b51-2c214999b627",
+          "status": 200,
+          "timestamp": "2026-11-10T20:37:26.433+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Device?patient=101270",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "d85ce282-bed6-406a-8773-52f06b12cc88",
+          "index": 101756907,
+          "result_id": "da3e46ac-1502-4de0-8b51-2c214999b627",
+          "status": 200,
+          "timestamp": "2026-11-10T20:37:26.444+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Device?patient=101271",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "6f0eef0e-be84-4b1e-866e-61dc546698ac",
+          "index": 101756908,
+          "result_id": "da3e46ac-1502-4de0-8b51-2c214999b627",
+          "status": 200,
+          "timestamp": "2026-11-10T20:37:26.455+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Device?patient=101272",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "4111bb06-651c-4e1e-8cc5-5dc7a931b24f",
+          "index": 101756910,
+          "result_id": "da3e46ac-1502-4de0-8b51-2c214999b627",
+          "status": 200,
+          "timestamp": "2026-11-10T20:37:26.468+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Device?patient=101273",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "e701bf71-5fae-4d5b-807b-95881d468b99",
+          "index": 101756911,
+          "result_id": "da3e46ac-1502-4de0-8b51-2c214999b627",
+          "status": 200,
+          "timestamp": "2026-11-10T20:37:26.479+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Device?patient=101274",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "535dcad6-a39d-47df-b69e-4e09bb51bcc8",
+          "index": 101756912,
+          "result_id": "da3e46ac-1502-4de0-8b51-2c214999b627",
+          "status": 200,
+          "timestamp": "2026-11-10T20:37:26.490+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Device?patient=101275",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "2c3adc8f-1ad3-4789-934e-dafabec3adac",
+          "index": 101756914,
+          "result_id": "da3e46ac-1502-4de0-8b51-2c214999b627",
+          "status": 200,
+          "timestamp": "2026-11-10T20:37:26.500+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Device?patient=101276",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "a9f1d4fb-e7f9-48d3-bc68-15a3e6203d69",
+          "index": 101756915,
+          "result_id": "da3e46ac-1502-4de0-8b51-2c214999b627",
+          "status": 200,
+          "timestamp": "2026-11-10T20:37:26.511+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Device?patient=101277",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "f8926b45-b439-40f6-a50b-ca555336b51e",
+          "index": 101756917,
+          "result_id": "da3e46ac-1502-4de0-8b51-2c214999b627",
+          "status": 200,
+          "timestamp": "2026-11-10T20:37:26.522+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Device?patient=101278",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "eeb5d4cc-2c66-44dc-9261-cc28a9cd474b",
+          "index": 101756918,
+          "result_id": "da3e46ac-1502-4de0-8b51-2c214999b627",
+          "status": 200,
+          "timestamp": "2026-11-10T20:37:26.533+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Device?patient=101279",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "68ac7164-7ec9-46ee-89ad-f866a707de13",
+          "index": 101756919,
+          "result_id": "da3e46ac-1502-4de0-8b51-2c214999b627",
+          "status": 200,
+          "timestamp": "2026-11-10T20:37:26.544+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Device?patient=101280",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "2e0f7184-6724-4332-be74-304e1af72c33",
+          "index": 101756921,
+          "result_id": "da3e46ac-1502-4de0-8b51-2c214999b627",
+          "status": 200,
+          "timestamp": "2026-11-10T20:37:26.556+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Device?patient=101281",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "aa5ac944-8508-4671-be40-918e88d3dd29",
+          "index": 101756922,
+          "result_id": "da3e46ac-1502-4de0-8b51-2c214999b627",
+          "status": 200,
+          "timestamp": "2026-11-10T20:37:26.568+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Device?patient=101282",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "6d3c80a0-f8c2-453c-820b-8ff1e7268185",
+          "index": 101756924,
+          "result_id": "da3e46ac-1502-4de0-8b51-2c214999b627",
+          "status": 200,
+          "timestamp": "2026-11-10T20:37:26.612+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Device?patient=101283",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "3dd36ba7-4ea2-42f5-b9c1-73db1a1f0d69",
+          "index": 101756925,
+          "result_id": "da3e46ac-1502-4de0-8b51-2c214999b627",
+          "status": 200,
+          "timestamp": "2026-11-10T20:37:26.627+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Device?patient=101284",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "5aed3b20-da1f-427c-a862-283a37ed783f",
+          "index": 101756926,
+          "result_id": "da3e46ac-1502-4de0-8b51-2c214999b627",
+          "status": 200,
+          "timestamp": "2026-11-10T20:37:26.639+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Device?patient=101285",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "db5e826b-988a-4957-974c-e80052c8eb74",
+          "index": 101756928,
+          "result_id": "da3e46ac-1502-4de0-8b51-2c214999b627",
+          "status": 200,
+          "timestamp": "2026-11-10T20:37:26.652+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Device?patient=101286",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "e55a788c-789f-4a64-9dee-b879549acf25",
+          "index": 101756929,
+          "result_id": "da3e46ac-1502-4de0-8b51-2c214999b627",
+          "status": 200,
+          "timestamp": "2026-11-10T20:37:26.662+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Device?patient=101287",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "cdda8cd0-5255-40c2-ad94-a774bf745c05",
+          "index": 101756930,
+          "result_id": "da3e46ac-1502-4de0-8b51-2c214999b627",
+          "status": 200,
+          "timestamp": "2026-11-10T20:37:26.674+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Device?patient=101288",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "c7f23f24-ddf1-4dc7-bd78-e6176d2238ad",
+          "index": 101756932,
+          "result_id": "da3e46ac-1502-4de0-8b51-2c214999b627",
+          "status": 200,
+          "timestamp": "2026-11-10T20:37:26.685+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Device?patient=101289",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "7580efaa-2c2e-4bb1-be27-ed6ac678c715",
+          "index": 101756933,
+          "result_id": "da3e46ac-1502-4de0-8b51-2c214999b627",
+          "status": 200,
+          "timestamp": "2026-11-10T20:37:26.694+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Device?patient=101290",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "ff1a03e4-ca75-40f7-8919-d6debe138bc4",
+          "index": 101756935,
+          "result_id": "da3e46ac-1502-4de0-8b51-2c214999b627",
+          "status": 200,
+          "timestamp": "2026-11-10T20:37:26.705+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Device?patient=101291",
+          "verb": "get"
+        }
+      ],
+      "result": "pass",
+      "test_id": "us_core_v610-us_core_v610_fhir_api-us_core_v610_device-us_core_v610_device_patient_search_test",
+      "test_run_id": "0f9d80b1-e5d6-4a2f-ac89-499d5da4a58f",
+      "test_session_id": "aUkP5dD1yEO",
+      "updated_at": "2026-11-10T20:37:26.174+00:00"
+    },
+    {
+      "created_at": "2026-11-10T20:37:26.901+00:00",
+      "id": "248ce009-1614-4e34-b2f7-fe1b74e53949",
+      "inputs": [
+        {
+          "name": "patient_ids",
+          "type": "text",
+          "value": "101258,101259,101260,101261,101262,101263,101264,101265,101266,101267,101268,101269,101270,101271,101272,101273,101274,101275,101276,101277,101278,101279,101280,101281,101282,101283,101284,101285,101286,101287,101288,101289,101290,101291"
+        },
+        {
+          "name": "implantable_device_codes",
+          "type": "text",
+          "value": null
+        },
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://showfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"name\":\"smart_auth_info\"}"
+        }
+      ],
+      "optional": true,
+      "outputs": [],
+      "requests": [
+        {
+          "direction": "outgoing",
+          "id": "81f5164c-75e0-406d-b51b-e73039fd898a",
+          "index": 101756939,
+          "result_id": "248ce009-1614-4e34-b2f7-fe1b74e53949",
+          "status": 200,
+          "timestamp": "2026-11-10T20:37:26.903+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Device?patient=101258&type=468063009",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "c68788d9-8591-4105-ba8d-a3a252b0d4e8",
+          "index": 101756941,
+          "result_id": "248ce009-1614-4e34-b2f7-fe1b74e53949",
+          "status": 200,
+          "timestamp": "2026-11-10T20:37:26.916+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Device?patient=101258&type=http://snomed.info/sct%7C468063009",
+          "verb": "get"
+        }
+      ],
+      "result": "pass",
+      "test_id": "us_core_v610-us_core_v610_fhir_api-us_core_v610_device-us_core_v610_device_patient_type_search_test",
+      "test_run_id": "0f9d80b1-e5d6-4a2f-ac89-499d5da4a58f",
+      "test_session_id": "aUkP5dD1yEO",
+      "updated_at": "2026-11-10T20:37:26.901+00:00"
+    },
+    {
+      "created_at": "2026-11-10T20:37:33.560+00:00",
+      "id": "dc491e5e-d6d6-4ac3-8ac2-1ca1368e441c",
+      "inputs": [
+        {
+          "description": "Comma separated list of patient IDs that in sum contain all MUST SUPPORT elements",
+          "label": "Patient IDs",
+          "name": "patient_ids",
+          "type": "text",
+          "value": "101258,101259,101260,101261,101262,101263,101264,101265,101266,101267,101268,101269,101270,101271,101272,101273,101274,101275,101276,101277,101278,101279,101280,101281,101282,101283,101284,101285,101286,101287,101288,101289,101290,101291"
+        },
+        {
+          "description": "Enter the code for an Implantable Device type, or multiple codes separated by commas. If blank, Inferno will validate all Device resources against the Implantable Device profile",
+          "label": "Implantable Device Type Code",
+          "name": "implantable_device_codes",
+          "type": "text",
+          "value": null
+        },
+        {
+          "description": "URL of the FHIR endpoint",
+          "label": "FHIR Endpoint",
+          "name": "url",
+          "type": "text",
+          "value": "https://showfhir.vistaplex.org/fhir"
+        },
+        {
+          "description": null,
+          "label": "OAuth Credentials",
+          "name": "smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"name\":\"smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [],
+      "result": "pass",
+      "test_group_id": "us_core_v610-us_core_v610_fhir_api-us_core_v610_device",
+      "test_run_id": "0f9d80b1-e5d6-4a2f-ac89-499d5da4a58f",
+      "test_session_id": "aUkP5dD1yEO",
+      "updated_at": "2026-11-10T20:37:33.560+00:00"
+    }
+  ],
+  "run_id": "0f9d80b1-e5d6-4a2f-ac89-499d5da4a58f",
+  "session_id": "aUkP5dD1yEO",
+  "session_url": "https://inferno.healthit.gov/suites/us_core_v610/aUkP5dD1yEO",
+  "status": {
+    "id": "0f9d80b1-e5d6-4a2f-ac89-499d5da4a58f",
+    "inputs": null,
+    "results": null,
+    "status": "done",
+    "test_count": 8,
+    "test_group_id": "us_core_v610-us_core_v610_fhir_api-us_core_v610_device",
+    "test_session_id": "aUkP5dD1yEO"
+  },
+  "url": "https://showfhir.vistaplex.org/fhir"
+}

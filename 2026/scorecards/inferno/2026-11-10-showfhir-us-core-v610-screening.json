@@ -1,0 +1,354 @@
+{
+  "api": "https://inferno.healthit.gov/suites/api",
+  "patient_ids": "101258,101259,101260,101261,101262,101263,101264,101265,101266,101267,101268,101269,101270,101271,101272,101273,101274,101275,101276,101277,101278,101279,101280,101281,101282,101283,101284,101285,101286,101287,101288,101289,101290,101291",
+  "results": [
+    {
+      "created_at": "2026-11-10T20:41:00.524+00:00",
+      "id": "b2e9c6f0-5a5d-4454-84a6-5457c5d6d6bf",
+      "inputs": [
+        {
+          "name": "patient_ids",
+          "type": "text",
+          "value": "101258,101259,101260,101261,101262,101263,101264,101265,101266,101267,101268,101269,101270,101271,101272,101273,101274,101275,101276,101277,101278,101279,101280,101281,101282,101283,101284,101285,101286,101287,101288,101289,101290,101291"
+        },
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://showfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"name\":\"smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [
+        {
+          "direction": "outgoing",
+          "id": "7fd453bc-d8cd-4dd3-a34c-02a1986b7a3c",
+          "index": 101759200,
+          "result_id": "b2e9c6f0-5a5d-4454-84a6-5457c5d6d6bf",
+          "status": 200,
+          "timestamp": "2026-11-10T20:41:00.534+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Condition?category=health-concern&patient=101258",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "0b78b412-e0a4-4e53-a50a-7ff93f129a0c",
+          "index": 101759201,
+          "result_id": "b2e9c6f0-5a5d-4454-84a6-5457c5d6d6bf",
+          "status": 200,
+          "timestamp": "2026-11-10T20:41:00.549+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Condition?category=problem-list-item&patient=101258",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "687c75ea-3eda-4ae9-b7e0-0b228399b4e1",
+          "index": 101759202,
+          "result_id": "b2e9c6f0-5a5d-4454-84a6-5457c5d6d6bf",
+          "status": 200,
+          "timestamp": "2026-11-10T20:41:00.560+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Observation?category=survey&patient=101258",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "3e68b097-6cd5-4aff-bad7-b0c325d2ed48",
+          "index": 101759203,
+          "result_id": "b2e9c6f0-5a5d-4454-84a6-5457c5d6d6bf",
+          "status": 200,
+          "timestamp": "2026-11-10T20:41:00.570+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Observation?category=survey&patient=101259",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "cfc9b3f7-5c59-4a07-b4cd-8c779ff6f637",
+          "index": 101759204,
+          "result_id": "b2e9c6f0-5a5d-4454-84a6-5457c5d6d6bf",
+          "status": 200,
+          "timestamp": "2026-11-10T20:41:00.580+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Observation?category=survey&patient=101260",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "55024753-8b54-462f-9843-c81d32e6e9fe",
+          "index": 101759205,
+          "result_id": "b2e9c6f0-5a5d-4454-84a6-5457c5d6d6bf",
+          "status": 200,
+          "timestamp": "2026-11-10T20:41:00.589+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Observation?category=survey&patient=101261",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "0c4e1dd6-28c2-4a63-8f9a-868472ae0984",
+          "index": 101759206,
+          "result_id": "b2e9c6f0-5a5d-4454-84a6-5457c5d6d6bf",
+          "status": 200,
+          "timestamp": "2026-11-10T20:41:00.597+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Observation?category=survey&patient=101262",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "560a49ee-c119-496b-b7a4-4b79ea965ccf",
+          "index": 101759207,
+          "result_id": "b2e9c6f0-5a5d-4454-84a6-5457c5d6d6bf",
+          "status": 200,
+          "timestamp": "2026-11-10T20:41:00.606+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Observation?category=survey&patient=101263",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "d2fc6a36-adbd-4353-a441-3e44202d2d53",
+          "index": 101759208,
+          "result_id": "b2e9c6f0-5a5d-4454-84a6-5457c5d6d6bf",
+          "status": 200,
+          "timestamp": "2026-11-10T20:41:00.616+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Observation?category=survey&patient=101264",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "157b158e-63a1-48a2-94df-0edebebe7cc8",
+          "index": 101759209,
+          "result_id": "b2e9c6f0-5a5d-4454-84a6-5457c5d6d6bf",
+          "status": 200,
+          "timestamp": "2026-11-10T20:41:00.626+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Observation?category=survey&patient=101265",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "1680f5fd-7b72-42d2-b082-92cda530c7d0",
+          "index": 101759210,
+          "result_id": "b2e9c6f0-5a5d-4454-84a6-5457c5d6d6bf",
+          "status": 200,
+          "timestamp": "2026-11-10T20:41:00.636+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Observation?category=survey&patient=101266",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "983e65dd-acb0-4c3d-bdc6-cf530fa8aa68",
+          "index": 101759211,
+          "result_id": "b2e9c6f0-5a5d-4454-84a6-5457c5d6d6bf",
+          "status": 200,
+          "timestamp": "2026-11-10T20:41:00.645+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Observation?category=survey&patient=101267",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "9dd6e5d3-28bf-476a-95d3-0ae7c4280c9d",
+          "index": 101759212,
+          "result_id": "b2e9c6f0-5a5d-4454-84a6-5457c5d6d6bf",
+          "status": 200,
+          "timestamp": "2026-11-10T20:41:00.654+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Observation?category=survey&patient=101268",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "90ea0d03-8eea-43f0-8e30-8a6544eb051d",
+          "index": 101759213,
+          "result_id": "b2e9c6f0-5a5d-4454-84a6-5457c5d6d6bf",
+          "status": 200,
+          "timestamp": "2026-11-10T20:41:00.664+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Observation?category=survey&patient=101269",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "7d72dc75-8dcf-4212-9d88-28db7f4d88f4",
+          "index": 101759214,
+          "result_id": "b2e9c6f0-5a5d-4454-84a6-5457c5d6d6bf",
+          "status": 200,
+          "timestamp": "2026-11-10T20:41:00.673+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Observation?category=survey&patient=101270",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "1de71eee-782e-49ca-a87b-edb28e3815d0",
+          "index": 101759215,
+          "result_id": "b2e9c6f0-5a5d-4454-84a6-5457c5d6d6bf",
+          "status": 200,
+          "timestamp": "2026-11-10T20:41:00.718+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Observation?category=survey&patient=101271",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "7fd503a8-eb8e-481b-88e6-2d36d2c80c81",
+          "index": 101759216,
+          "result_id": "b2e9c6f0-5a5d-4454-84a6-5457c5d6d6bf",
+          "status": 200,
+          "timestamp": "2026-11-10T20:41:00.732+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Observation?category=survey&patient=101272",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "cbba7fa7-f09e-4fc0-a135-1e0144fa4e0b",
+          "index": 101759217,
+          "result_id": "b2e9c6f0-5a5d-4454-84a6-5457c5d6d6bf",
+          "status": 200,
+          "timestamp": "2026-11-10T20:41:00.742+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Observation?category=survey&patient=101273",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "75fc815e-db72-4944-86b4-4e5435dc0467",
+          "index": 101759218,
+          "result_id": "b2e9c6f0-5a5d-4454-84a6-5457c5d6d6bf",
+          "status": 200,
+          "timestamp": "2026-11-10T20:41:00.752+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Observation?category=survey&patient=101274",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "3354deb7-665c-43b6-a2ab-b2ca5bd88e1d",
+          "index": 101759219,
+          "result_id": "b2e9c6f0-5a5d-4454-84a6-5457c5d6d6bf",
+          "status": 200,
+          "timestamp": "2026-11-10T20:41:00.762+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Observation?category=survey&patient=101275",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "cc1a80c9-d88c-4acb-98d3-4b0bdc164fcf",
+          "index": 101759220,
+          "result_id": "b2e9c6f0-5a5d-4454-84a6-5457c5d6d6bf",
+          "status": 200,
+          "timestamp": "2026-11-10T20:41:00.772+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Observation?category=survey&patient=101276",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "ae04324a-da14-477f-95be-d794b1f82fcb",
+          "index": 101759221,
+          "result_id": "b2e9c6f0-5a5d-4454-84a6-5457c5d6d6bf",
+          "status": 200,
+          "timestamp": "2026-11-10T20:41:00.782+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Observation?category=survey&patient=101277",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "6488035f-6481-4238-88c7-c89f1d01610f",
+          "index": 101759222,
+          "result_id": "b2e9c6f0-5a5d-4454-84a6-5457c5d6d6bf",
+          "status": 200,
+          "timestamp": "2026-11-10T20:41:00.791+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Observation?category=survey&patient=101278",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "66c26ebe-8baa-450d-83cc-ebad24e860c3",
+          "index": 101759223,
+          "result_id": "b2e9c6f0-5a5d-4454-84a6-5457c5d6d6bf",
+          "status": 200,
+          "timestamp": "2026-11-10T20:41:00.799+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Observation?category=survey&patient=101279",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "19974b04-65c1-43c8-b2ea-48fe07066c47",
+          "index": 101759224,
+          "result_id": "b2e9c6f0-5a5d-4454-84a6-5457c5d6d6bf",
+          "status": 200,
+          "timestamp": "2026-11-10T20:41:00.807+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Observation?category=survey&patient=101280",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "53b094e0-b1eb-42b2-b86d-6d4d49d2cb27",
+          "index": 101759225,
+          "result_id": "b2e9c6f0-5a5d-4454-84a6-5457c5d6d6bf",
+          "status": 200,
+          "timestamp": "2026-11-10T20:41:00.816+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Observation?category=survey&patient=101281",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "481a8ee5-50f4-42be-bf7b-d7f1c9305a00",
+          "index": 101759226,
+          "result_id": "b2e9c6f0-5a5d-4454-84a6-5457c5d6d6bf",
+          "status": 200,
+          "timestamp": "2026-11-10T20:41:00.826+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Observation?category=survey&patient=101282",
+          "verb": "get"
+        }
+      ],
+      "result": "pass",
+      "test_id": "us_core_v610-us_core_v610_fhir_api-us_core_v610_screening_assessment-us_core_screening_assessment_category",
+      "test_run_id": "23a71987-a880-42b8-9607-6fcc38cc4589",
+      "test_session_id": "90eUA6nx6F5",
+      "updated_at": "2026-11-10T20:41:00.524+00:00"
+    },
+    {
+      "created_at": "2026-11-10T20:41:00.842+00:00",
+      "id": "27c8fe80-53ce-43d4-bc18-ad035a8c3fdb",
+      "inputs": [
+        {
+          "description": "Comma separated list of patient IDs that in sum contain all MUST SUPPORT elements",
+          "label": "Patient IDs",
+          "name": "patient_ids",
+          "type": "text",
+          "value": "101258,101259,101260,101261,101262,101263,101264,101265,101266,101267,101268,101269,101270,101271,101272,101273,101274,101275,101276,101277,101278,101279,101280,101281,101282,101283,101284,101285,101286,101287,101288,101289,101290,101291"
+        },
+        {
+          "description": "URL of the FHIR endpoint",
+          "label": "FHIR Endpoint",
+          "name": "url",
+          "type": "text",
+          "value": "https://showfhir.vistaplex.org/fhir"
+        },
+        {
+          "description": null,
+          "label": "OAuth Credentials",
+          "name": "smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"name\":\"smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [],
+      "result": "pass",
+      "test_group_id": "us_core_v610-us_core_v610_fhir_api-us_core_v610_screening_assessment",
+      "test_run_id": "23a71987-a880-42b8-9607-6fcc38cc4589",
+      "test_session_id": "90eUA6nx6F5",
+      "updated_at": "2026-11-10T20:41:00.842+00:00"
+    }
+  ],
+  "run_id": "23a71987-a880-42b8-9607-6fcc38cc4589",
+  "session_id": "90eUA6nx6F5",
+  "session_url": "https://inferno.healthit.gov/suites/us_core_v610/90eUA6nx6F5",
+  "status": {
+    "id": "23a71987-a880-42b8-9607-6fcc38cc4589",
+    "inputs": null,
+    "results": null,
+    "status": "done",
+    "test_count": 1,
+    "test_group_id": "us_core_v610-us_core_v610_fhir_api-us_core_v610_screening_assessment",
+    "test_session_id": "90eUA6nx6F5"
+  },
+  "url": "https://showfhir.vistaplex.org/fhir"
+}

@@ -1,0 +1,3080 @@
+{
+  "api": "https://inferno.healthit.gov/suites/api",
+  "patient_ids": "101258,101259,101260,101261,101262,101263,101264,101265,101266,101267,101268,101269,101270,101271,101272,101273,101274,101275,101276,101277,101278,101279,101280,101281,101282,101283,101284,101285,101286,101287,101288,101289,101290,101291",
+  "results": [
+    {
+      "created_at": "2026-11-10T21:20:09.016+00:00",
+      "id": "b21e9417-785b-4ee1-a5e0-65c2c7152cb8",
+      "inputs": [
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://showfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"name\":\"smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [
+        {
+          "direction": "outgoing",
+          "id": "a38ed7d9-12dc-4149-a213-1cda6273e4bb",
+          "index": 101773596,
+          "result_id": "b21e9417-785b-4ee1-a5e0-65c2c7152cb8",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:09.017+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport/dr-card",
+          "verb": "get"
+        }
+      ],
+      "result": "pass",
+      "test_id": "us_core_v610-us_core_v610_fhir_api-us_core_v610_diagnostic_report_note-us_core_v610_diagnostic_report_note_read_test",
+      "test_run_id": "78dc1e2f-a037-4e6a-a05f-ff6fb089914b",
+      "test_session_id": "benT2Hh9Jk1",
+      "updated_at": "2026-11-10T21:20:09.016+00:00"
+    },
+    {
+      "created_at": "2026-11-10T21:20:21.511+00:00",
+      "id": "46d41b50-9cd2-419c-b016-89847e59fb64",
+      "inputs": [
+        {
+          "name": "patient_ids",
+          "type": "text",
+          "value": "101258,101259,101260,101261,101262,101263,101264,101265,101266,101267,101268,101269,101270,101271,101272,101273,101274,101275,101276,101277,101278,101279,101280,101281,101282,101283,101284,101285,101286,101287,101288,101289,101290,101291"
+        },
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://showfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"name\":\"smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [
+        {
+          "direction": "outgoing",
+          "id": "007f3ffe-2ee8-48f8-adcf-0c7ea3f70fab",
+          "index": 101773597,
+          "result_id": "46d41b50-9cd2-419c-b016-89847e59fb64",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:21.513+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?_revinclude=Provenance:target&category=LP29684-5&patient=101258",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "a37cdd07-23a8-4262-9bfa-71c0ef193626",
+          "index": 101773598,
+          "result_id": "46d41b50-9cd2-419c-b016-89847e59fb64",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:21.528+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?_revinclude=Provenance:target&category=LP29708-2&patient=101258",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "7a13b43f-1d34-4a96-9654-2fe9586c2571",
+          "index": 101773599,
+          "result_id": "46d41b50-9cd2-419c-b016-89847e59fb64",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:21.548+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?_revinclude=Provenance:target&category=LP7839-6&patient=101258",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "566b738c-b358-49ce-99b3-0496567edf81",
+          "index": 101773600,
+          "result_id": "46d41b50-9cd2-419c-b016-89847e59fb64",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:21.568+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?_revinclude=Provenance:target&category=LP29684-5&patient=101259",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "b21dc9c7-7241-4ca0-b3db-b44aac1db8a8",
+          "index": 101773601,
+          "result_id": "46d41b50-9cd2-419c-b016-89847e59fb64",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:21.582+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?_revinclude=Provenance:target&category=LP29708-2&patient=101259",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "310185f6-4546-48dc-b68b-334ce84a10c6",
+          "index": 101773602,
+          "result_id": "46d41b50-9cd2-419c-b016-89847e59fb64",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:21.594+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?_revinclude=Provenance:target&category=LP7839-6&patient=101259",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "8803db52-e203-4e48-a0f1-a4f553166106",
+          "index": 101773603,
+          "result_id": "46d41b50-9cd2-419c-b016-89847e59fb64",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:21.606+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?_revinclude=Provenance:target&category=LP29684-5&patient=101260",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "ae69c6ae-3f0e-4fd1-bb7c-a3270ff562f2",
+          "index": 101773604,
+          "result_id": "46d41b50-9cd2-419c-b016-89847e59fb64",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:21.620+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?_revinclude=Provenance:target&category=LP29708-2&patient=101260",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "b237c752-309f-4bc7-8dfc-97fad4649100",
+          "index": 101773605,
+          "result_id": "46d41b50-9cd2-419c-b016-89847e59fb64",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:21.633+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?_revinclude=Provenance:target&category=LP7839-6&patient=101260",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "e6eb3666-7d57-4807-aadb-e24a088ffa59",
+          "index": 101773606,
+          "result_id": "46d41b50-9cd2-419c-b016-89847e59fb64",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:21.648+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?_revinclude=Provenance:target&category=LP29684-5&patient=101261",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "4a49bb3c-0d0f-4c2b-acc2-686f056e9124",
+          "index": 101773607,
+          "result_id": "46d41b50-9cd2-419c-b016-89847e59fb64",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:21.663+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?_revinclude=Provenance:target&category=LP29708-2&patient=101261",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "6f465ba8-84d5-4ae3-be74-0965bb01dcd3",
+          "index": 101773608,
+          "result_id": "46d41b50-9cd2-419c-b016-89847e59fb64",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:21.675+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?_revinclude=Provenance:target&category=LP7839-6&patient=101261",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "fac922fd-8d0f-4eab-bb62-37ea28055a6d",
+          "index": 101773609,
+          "result_id": "46d41b50-9cd2-419c-b016-89847e59fb64",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:21.687+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?_revinclude=Provenance:target&category=LP29684-5&patient=101262",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "b50f1030-d595-47a7-8024-e5a060784bdc",
+          "index": 101773610,
+          "result_id": "46d41b50-9cd2-419c-b016-89847e59fb64",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:21.702+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?_revinclude=Provenance:target&category=LP29708-2&patient=101262",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "988f1bea-8e69-4078-b8d4-5ae3bccf9f30",
+          "index": 101773611,
+          "result_id": "46d41b50-9cd2-419c-b016-89847e59fb64",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:21.715+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?_revinclude=Provenance:target&category=LP7839-6&patient=101262",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "c873bd7a-d202-45fa-8c29-750dd3e2bd4b",
+          "index": 101773612,
+          "result_id": "46d41b50-9cd2-419c-b016-89847e59fb64",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:21.726+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?_revinclude=Provenance:target&category=LP29684-5&patient=101263",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "d63c3931-3b26-4b18-86b8-07be60c224d8",
+          "index": 101773613,
+          "result_id": "46d41b50-9cd2-419c-b016-89847e59fb64",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:21.739+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?_revinclude=Provenance:target&category=LP29708-2&patient=101263",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "43cd9f96-12f8-4ac8-a205-b87fe102a5c0",
+          "index": 101773614,
+          "result_id": "46d41b50-9cd2-419c-b016-89847e59fb64",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:21.752+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?_revinclude=Provenance:target&category=LP7839-6&patient=101263",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "63fda9d9-89af-419b-ac8a-529a32a96e56",
+          "index": 101773615,
+          "result_id": "46d41b50-9cd2-419c-b016-89847e59fb64",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:21.765+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?_revinclude=Provenance:target&category=LP29684-5&patient=101264",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "5c01b7f2-80fe-41df-b57f-e8c8cd024722",
+          "index": 101773616,
+          "result_id": "46d41b50-9cd2-419c-b016-89847e59fb64",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:21.779+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?_revinclude=Provenance:target&category=LP29708-2&patient=101264",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "0e504d71-049b-4328-8aa9-21af6fa8cbd7",
+          "index": 101773617,
+          "result_id": "46d41b50-9cd2-419c-b016-89847e59fb64",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:21.792+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?_revinclude=Provenance:target&category=LP7839-6&patient=101264",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "ba003dd5-c32b-48af-ade0-54552d00503e",
+          "index": 101773618,
+          "result_id": "46d41b50-9cd2-419c-b016-89847e59fb64",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:21.803+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?_revinclude=Provenance:target&category=LP29684-5&patient=101265",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "421d33cb-e06e-479c-977d-f8bf8d6561f4",
+          "index": 101773619,
+          "result_id": "46d41b50-9cd2-419c-b016-89847e59fb64",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:21.816+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?_revinclude=Provenance:target&category=LP29708-2&patient=101265",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "ce4671ac-bc41-4d74-8362-fc812c8f5778",
+          "index": 101773620,
+          "result_id": "46d41b50-9cd2-419c-b016-89847e59fb64",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:21.826+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?_revinclude=Provenance:target&category=LP7839-6&patient=101265",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "b6410561-8a5f-4377-93e1-5af4aab930d3",
+          "index": 101773621,
+          "result_id": "46d41b50-9cd2-419c-b016-89847e59fb64",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:21.840+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?_revinclude=Provenance:target&category=LP29684-5&patient=101266",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "f1b266b7-1648-414c-bd0c-e7bbe88ef683",
+          "index": 101773622,
+          "result_id": "46d41b50-9cd2-419c-b016-89847e59fb64",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:21.853+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?_revinclude=Provenance:target&category=LP29708-2&patient=101266",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "7ed5aac7-7b93-4c8d-9cc0-7a5aa7117404",
+          "index": 101773623,
+          "result_id": "46d41b50-9cd2-419c-b016-89847e59fb64",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:21.865+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?_revinclude=Provenance:target&category=LP7839-6&patient=101266",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "57f25430-9d50-410d-8017-5d1b8aeb32b7",
+          "index": 101773624,
+          "result_id": "46d41b50-9cd2-419c-b016-89847e59fb64",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:21.880+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?_revinclude=Provenance:target&category=LP29684-5&patient=101267",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "7d99fd2c-7624-415a-942a-eb6da3fcf9fb",
+          "index": 101773625,
+          "result_id": "46d41b50-9cd2-419c-b016-89847e59fb64",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:21.895+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?_revinclude=Provenance:target&category=LP29708-2&patient=101267",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "169b8aeb-bdab-49d3-b3f0-0d5f13a80a9f",
+          "index": 101773626,
+          "result_id": "46d41b50-9cd2-419c-b016-89847e59fb64",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:21.908+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?_revinclude=Provenance:target&category=LP7839-6&patient=101267",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "bd43dd65-c8df-4727-85cd-9998941e624a",
+          "index": 101773627,
+          "result_id": "46d41b50-9cd2-419c-b016-89847e59fb64",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:21.918+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?_revinclude=Provenance:target&category=LP29684-5&patient=101268",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "e40fb5d4-a790-4b89-a67c-161a55785716",
+          "index": 101773628,
+          "result_id": "46d41b50-9cd2-419c-b016-89847e59fb64",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:21.931+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?_revinclude=Provenance:target&category=LP29708-2&patient=101268",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "0bb08a2f-d695-4370-9c3e-2e1d2484bf44",
+          "index": 101773629,
+          "result_id": "46d41b50-9cd2-419c-b016-89847e59fb64",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:21.945+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?_revinclude=Provenance:target&category=LP7839-6&patient=101268",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "234b6232-d70b-46ee-ac93-7a763305ad72",
+          "index": 101773630,
+          "result_id": "46d41b50-9cd2-419c-b016-89847e59fb64",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:21.960+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?_revinclude=Provenance:target&category=LP29684-5&patient=101269",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "71c27367-1bc1-49af-b3da-a5abc9ad2179",
+          "index": 101773631,
+          "result_id": "46d41b50-9cd2-419c-b016-89847e59fb64",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:21.971+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?_revinclude=Provenance:target&category=LP29708-2&patient=101269",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "69c6e7a7-5a03-4fb5-9a06-720ccdfc6f3c",
+          "index": 101773632,
+          "result_id": "46d41b50-9cd2-419c-b016-89847e59fb64",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:21.983+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?_revinclude=Provenance:target&category=LP7839-6&patient=101269",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "27cf8bcc-7b1d-437a-85c0-80d37ecdd05d",
+          "index": 101773633,
+          "result_id": "46d41b50-9cd2-419c-b016-89847e59fb64",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:21.995+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?_revinclude=Provenance:target&category=LP29684-5&patient=101270",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "cfa8c3d1-2182-4140-8108-0fa89cf9dfe5",
+          "index": 101773634,
+          "result_id": "46d41b50-9cd2-419c-b016-89847e59fb64",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:22.008+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?_revinclude=Provenance:target&category=LP29708-2&patient=101270",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "00669aed-52e0-40c3-86b0-39ac5869692b",
+          "index": 101773635,
+          "result_id": "46d41b50-9cd2-419c-b016-89847e59fb64",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:22.021+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?_revinclude=Provenance:target&category=LP7839-6&patient=101270",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "8fed26c6-72c5-4dc6-81c7-78f09e5debee",
+          "index": 101773636,
+          "result_id": "46d41b50-9cd2-419c-b016-89847e59fb64",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:22.034+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?_revinclude=Provenance:target&category=LP29684-5&patient=101271",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "8688e7d9-c047-454e-8327-087a19082a95",
+          "index": 101773637,
+          "result_id": "46d41b50-9cd2-419c-b016-89847e59fb64",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:22.046+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?_revinclude=Provenance:target&category=LP29708-2&patient=101271",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "44d194d5-8a3c-4c12-a914-60d53fc4de5f",
+          "index": 101773638,
+          "result_id": "46d41b50-9cd2-419c-b016-89847e59fb64",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:22.056+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?_revinclude=Provenance:target&category=LP7839-6&patient=101271",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "13748310-7c4c-4dc3-9c7c-b8006e5d4e83",
+          "index": 101773639,
+          "result_id": "46d41b50-9cd2-419c-b016-89847e59fb64",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:22.068+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?_revinclude=Provenance:target&category=LP29684-5&patient=101272",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "1bfdcc14-708b-45e3-b6d0-2ec641f3776a",
+          "index": 101773640,
+          "result_id": "46d41b50-9cd2-419c-b016-89847e59fb64",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:22.078+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?_revinclude=Provenance:target&category=LP29708-2&patient=101272",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "0af571ce-16b1-4a14-bc78-026831a2afa0",
+          "index": 101773641,
+          "result_id": "46d41b50-9cd2-419c-b016-89847e59fb64",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:22.090+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?_revinclude=Provenance:target&category=LP7839-6&patient=101272",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "9068b6b2-9be9-497a-94ca-ae961744f4f7",
+          "index": 101773642,
+          "result_id": "46d41b50-9cd2-419c-b016-89847e59fb64",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:22.103+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?_revinclude=Provenance:target&category=LP29684-5&patient=101273",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "ac70cce6-18c7-4eb5-9b1a-82c628ec1f94",
+          "index": 101773643,
+          "result_id": "46d41b50-9cd2-419c-b016-89847e59fb64",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:22.114+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?_revinclude=Provenance:target&category=LP29708-2&patient=101273",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "ffeb6af0-cabc-4cf7-8519-bcf541d245b4",
+          "index": 101773644,
+          "result_id": "46d41b50-9cd2-419c-b016-89847e59fb64",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:22.129+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?_revinclude=Provenance:target&category=LP7839-6&patient=101273",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "f620fc51-64c7-4c61-aadf-55f934130297",
+          "index": 101773645,
+          "result_id": "46d41b50-9cd2-419c-b016-89847e59fb64",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:22.140+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?_revinclude=Provenance:target&category=LP29684-5&patient=101274",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "c9c3b410-3c56-4021-9847-ecd86b768725",
+          "index": 101773646,
+          "result_id": "46d41b50-9cd2-419c-b016-89847e59fb64",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:22.152+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?_revinclude=Provenance:target&category=LP29708-2&patient=101274",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "c207f25e-814b-415f-a17a-dea40a2881ac",
+          "index": 101773647,
+          "result_id": "46d41b50-9cd2-419c-b016-89847e59fb64",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:22.168+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?_revinclude=Provenance:target&category=LP7839-6&patient=101274",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "44931a49-fde6-4674-a536-f25f5e64e415",
+          "index": 101773648,
+          "result_id": "46d41b50-9cd2-419c-b016-89847e59fb64",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:22.181+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?_revinclude=Provenance:target&category=LP29684-5&patient=101275",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "ba84d9c6-738c-4b9e-a36f-9df5e5eabb0a",
+          "index": 101773649,
+          "result_id": "46d41b50-9cd2-419c-b016-89847e59fb64",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:22.195+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?_revinclude=Provenance:target&category=LP29708-2&patient=101275",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "8b9e8542-7d0c-45cf-a9db-75975ea08456",
+          "index": 101773650,
+          "result_id": "46d41b50-9cd2-419c-b016-89847e59fb64",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:22.207+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?_revinclude=Provenance:target&category=LP7839-6&patient=101275",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "a3f9c09d-1f0a-4e25-b62d-48a38f762f37",
+          "index": 101773651,
+          "result_id": "46d41b50-9cd2-419c-b016-89847e59fb64",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:22.219+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?_revinclude=Provenance:target&category=LP29684-5&patient=101276",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "401385ea-19b6-441f-9b33-2dac13a78970",
+          "index": 101773652,
+          "result_id": "46d41b50-9cd2-419c-b016-89847e59fb64",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:22.230+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?_revinclude=Provenance:target&category=LP29708-2&patient=101276",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "23e42160-a64f-467f-a32a-60eee1b2c827",
+          "index": 101773653,
+          "result_id": "46d41b50-9cd2-419c-b016-89847e59fb64",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:22.243+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?_revinclude=Provenance:target&category=LP7839-6&patient=101276",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "0e90c4a2-5c54-4b74-a7ad-08272b12a2bd",
+          "index": 101773654,
+          "result_id": "46d41b50-9cd2-419c-b016-89847e59fb64",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:22.255+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?_revinclude=Provenance:target&category=LP29684-5&patient=101277",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "c1bcdc7e-c2a4-46ee-b99d-482b89035fcc",
+          "index": 101773655,
+          "result_id": "46d41b50-9cd2-419c-b016-89847e59fb64",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:22.266+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?_revinclude=Provenance:target&category=LP29708-2&patient=101277",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "99f4078a-da61-4d1e-b20f-2399a0fedb7b",
+          "index": 101773656,
+          "result_id": "46d41b50-9cd2-419c-b016-89847e59fb64",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:22.279+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?_revinclude=Provenance:target&category=LP7839-6&patient=101277",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "87d7df9e-c825-4fb5-8339-44e3e0211a86",
+          "index": 101773657,
+          "result_id": "46d41b50-9cd2-419c-b016-89847e59fb64",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:22.292+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?_revinclude=Provenance:target&category=LP29684-5&patient=101278",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "9421ffaf-e574-455d-90db-9d0ca9cae88e",
+          "index": 101773658,
+          "result_id": "46d41b50-9cd2-419c-b016-89847e59fb64",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:22.304+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?_revinclude=Provenance:target&category=LP29708-2&patient=101278",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "8e0348d2-5d56-455e-9fcb-5b605de05e01",
+          "index": 101773659,
+          "result_id": "46d41b50-9cd2-419c-b016-89847e59fb64",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:22.317+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?_revinclude=Provenance:target&category=LP7839-6&patient=101278",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "95db33b7-d32f-44d3-9b98-19eff8e8f167",
+          "index": 101773660,
+          "result_id": "46d41b50-9cd2-419c-b016-89847e59fb64",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:22.330+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?_revinclude=Provenance:target&category=LP29684-5&patient=101279",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "06e94677-0b11-49fd-af1d-86527995d4b1",
+          "index": 101773661,
+          "result_id": "46d41b50-9cd2-419c-b016-89847e59fb64",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:22.341+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?_revinclude=Provenance:target&category=LP29708-2&patient=101279",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "99cc12ff-46c9-42fa-816b-97c2f1a48fb1",
+          "index": 101773662,
+          "result_id": "46d41b50-9cd2-419c-b016-89847e59fb64",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:22.353+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?_revinclude=Provenance:target&category=LP7839-6&patient=101279",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "f1011c02-d761-44a7-830f-7f4a014280e1",
+          "index": 101773663,
+          "result_id": "46d41b50-9cd2-419c-b016-89847e59fb64",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:22.364+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?_revinclude=Provenance:target&category=LP29684-5&patient=101280",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "e73bfce8-5a4e-43a8-a6ae-748d9c5de2b3",
+          "index": 101773664,
+          "result_id": "46d41b50-9cd2-419c-b016-89847e59fb64",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:22.374+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?_revinclude=Provenance:target&category=LP29708-2&patient=101280",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "7c3249d1-e39d-4b66-aa1f-7e3c18c80e29",
+          "index": 101773665,
+          "result_id": "46d41b50-9cd2-419c-b016-89847e59fb64",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:22.384+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?_revinclude=Provenance:target&category=LP7839-6&patient=101280",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "a34b4a6b-5a0b-4b74-afd0-2f667bd4f76e",
+          "index": 101773666,
+          "result_id": "46d41b50-9cd2-419c-b016-89847e59fb64",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:22.394+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?_revinclude=Provenance:target&category=LP29684-5&patient=101281",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "2f5e2108-a258-4e91-b238-2509c7330ec3",
+          "index": 101773667,
+          "result_id": "46d41b50-9cd2-419c-b016-89847e59fb64",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:22.405+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?_revinclude=Provenance:target&category=LP29708-2&patient=101281",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "e876e9f2-7ca9-43a1-ba4f-194902a922cb",
+          "index": 101773668,
+          "result_id": "46d41b50-9cd2-419c-b016-89847e59fb64",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:22.416+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?_revinclude=Provenance:target&category=LP7839-6&patient=101281",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "1612e6da-8734-426f-ad1e-c2927dc6e1d1",
+          "index": 101773669,
+          "result_id": "46d41b50-9cd2-419c-b016-89847e59fb64",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:22.427+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?_revinclude=Provenance:target&category=LP29684-5&patient=101282",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "864f1542-a731-4151-b796-8795cfaaeb37",
+          "index": 101773670,
+          "result_id": "46d41b50-9cd2-419c-b016-89847e59fb64",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:22.439+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?_revinclude=Provenance:target&category=LP29708-2&patient=101282",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "2200065b-9d84-4537-82ea-0b0dc3c9f07a",
+          "index": 101773671,
+          "result_id": "46d41b50-9cd2-419c-b016-89847e59fb64",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:22.449+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?_revinclude=Provenance:target&category=LP7839-6&patient=101282",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "544d806c-8565-442c-945a-74d23daf36ea",
+          "index": 101773672,
+          "result_id": "46d41b50-9cd2-419c-b016-89847e59fb64",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:22.460+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?_revinclude=Provenance:target&category=LP29684-5&patient=101283",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "504ed2a4-aa6d-4318-b529-fc612702a2ba",
+          "index": 101773673,
+          "result_id": "46d41b50-9cd2-419c-b016-89847e59fb64",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:22.471+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?_revinclude=Provenance:target&category=LP29708-2&patient=101283",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "9e08581e-d693-43e0-870f-ad6ee1fa34f1",
+          "index": 101773674,
+          "result_id": "46d41b50-9cd2-419c-b016-89847e59fb64",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:22.481+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?_revinclude=Provenance:target&category=LP7839-6&patient=101283",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "c65a5b77-9dd8-4890-aeb0-3ff104c74693",
+          "index": 101773675,
+          "result_id": "46d41b50-9cd2-419c-b016-89847e59fb64",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:22.491+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?_revinclude=Provenance:target&category=LP29684-5&patient=101284",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "aa8199da-b49f-4efd-a9bc-bd21a564c281",
+          "index": 101773676,
+          "result_id": "46d41b50-9cd2-419c-b016-89847e59fb64",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:22.501+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?_revinclude=Provenance:target&category=LP29708-2&patient=101284",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "dedf4c62-1640-4f61-9209-0791db07b8d4",
+          "index": 101773677,
+          "result_id": "46d41b50-9cd2-419c-b016-89847e59fb64",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:22.510+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?_revinclude=Provenance:target&category=LP7839-6&patient=101284",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "163a302e-aaf4-4db7-98fd-5a8d7f2f7aab",
+          "index": 101773678,
+          "result_id": "46d41b50-9cd2-419c-b016-89847e59fb64",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:22.521+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?_revinclude=Provenance:target&category=LP29684-5&patient=101285",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "d499add1-7dd4-4896-b321-8ac1fedd8b0c",
+          "index": 101773679,
+          "result_id": "46d41b50-9cd2-419c-b016-89847e59fb64",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:22.531+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?_revinclude=Provenance:target&category=LP29708-2&patient=101285",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "f1197fca-7138-4a0c-ae77-a0055be05cd2",
+          "index": 101773680,
+          "result_id": "46d41b50-9cd2-419c-b016-89847e59fb64",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:22.542+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?_revinclude=Provenance:target&category=LP7839-6&patient=101285",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "1abc6e69-ed14-4758-861c-65530befa13d",
+          "index": 101773681,
+          "result_id": "46d41b50-9cd2-419c-b016-89847e59fb64",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:22.553+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?_revinclude=Provenance:target&category=LP29684-5&patient=101286",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "c8299c3c-65fd-4ed4-8866-8ca5a608233c",
+          "index": 101773682,
+          "result_id": "46d41b50-9cd2-419c-b016-89847e59fb64",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:22.564+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?_revinclude=Provenance:target&category=LP29708-2&patient=101286",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "c09cc833-4cdf-41bd-b6d8-e3cc5b24afcc",
+          "index": 101773683,
+          "result_id": "46d41b50-9cd2-419c-b016-89847e59fb64",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:22.574+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?_revinclude=Provenance:target&category=LP7839-6&patient=101286",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "ca4da65a-116b-4675-a62e-6f941ed114a2",
+          "index": 101773684,
+          "result_id": "46d41b50-9cd2-419c-b016-89847e59fb64",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:22.584+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?_revinclude=Provenance:target&category=LP29684-5&patient=101287",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "4f88d9d0-2a61-4c8a-a34c-c69abbaf1b30",
+          "index": 101773685,
+          "result_id": "46d41b50-9cd2-419c-b016-89847e59fb64",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:22.594+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?_revinclude=Provenance:target&category=LP29708-2&patient=101287",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "2c9089f6-9cd8-40c7-9a0e-4f47c286aa8e",
+          "index": 101773686,
+          "result_id": "46d41b50-9cd2-419c-b016-89847e59fb64",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:22.603+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?_revinclude=Provenance:target&category=LP7839-6&patient=101287",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "ae401764-91ed-4004-90bb-9dafda80216b",
+          "index": 101773687,
+          "result_id": "46d41b50-9cd2-419c-b016-89847e59fb64",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:22.616+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?_revinclude=Provenance:target&category=LP29684-5&patient=101288",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "4107de74-9682-4f36-86c2-b2e8101d1f03",
+          "index": 101773688,
+          "result_id": "46d41b50-9cd2-419c-b016-89847e59fb64",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:22.630+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?_revinclude=Provenance:target&category=LP29708-2&patient=101288",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "4312d7de-cd6d-4b6e-a3d3-c6cb0f565943",
+          "index": 101773689,
+          "result_id": "46d41b50-9cd2-419c-b016-89847e59fb64",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:22.644+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?_revinclude=Provenance:target&category=LP7839-6&patient=101288",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "f0a77575-6562-4524-8760-cfbf3715b488",
+          "index": 101773690,
+          "result_id": "46d41b50-9cd2-419c-b016-89847e59fb64",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:22.658+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?_revinclude=Provenance:target&category=LP29684-5&patient=101289",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "24f168aa-6db4-41e2-a144-d0bdfe3ca12c",
+          "index": 101773691,
+          "result_id": "46d41b50-9cd2-419c-b016-89847e59fb64",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:22.669+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?_revinclude=Provenance:target&category=LP29708-2&patient=101289",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "2415793e-a3b0-4b22-a73b-ed70f7ce6c92",
+          "index": 101773692,
+          "result_id": "46d41b50-9cd2-419c-b016-89847e59fb64",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:22.682+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?_revinclude=Provenance:target&category=LP7839-6&patient=101289",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "4bbd2449-db9c-4159-bc90-87e9c79fa9c7",
+          "index": 101773693,
+          "result_id": "46d41b50-9cd2-419c-b016-89847e59fb64",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:22.692+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?_revinclude=Provenance:target&category=LP29684-5&patient=101290",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "00b4be9b-8812-478a-a0a6-f2ea1ccadf72",
+          "index": 101773694,
+          "result_id": "46d41b50-9cd2-419c-b016-89847e59fb64",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:22.705+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?_revinclude=Provenance:target&category=LP29708-2&patient=101290",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "060fb986-050b-4c31-881b-b7ae6d35f4b5",
+          "index": 101773695,
+          "result_id": "46d41b50-9cd2-419c-b016-89847e59fb64",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:22.716+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?_revinclude=Provenance:target&category=LP7839-6&patient=101290",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "f3f05afb-a856-40ff-b619-92cbd699a59a",
+          "index": 101773696,
+          "result_id": "46d41b50-9cd2-419c-b016-89847e59fb64",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:22.729+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?_revinclude=Provenance:target&category=LP29684-5&patient=101291",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "5e7750f1-da11-4a8f-8c9f-16824f216b70",
+          "index": 101773697,
+          "result_id": "46d41b50-9cd2-419c-b016-89847e59fb64",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:22.742+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?_revinclude=Provenance:target&category=LP29708-2&patient=101291",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "f1c323fd-e827-4498-91a1-807d2e86b445",
+          "index": 101773698,
+          "result_id": "46d41b50-9cd2-419c-b016-89847e59fb64",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:22.754+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?_revinclude=Provenance:target&category=LP7839-6&patient=101291",
+          "verb": "get"
+        }
+      ],
+      "result": "pass",
+      "test_id": "us_core_v610-us_core_v610_fhir_api-us_core_v610_diagnostic_report_note-us_core_v610_diagnostic_report_note_provenance_revinclude_search_test",
+      "test_run_id": "78dc1e2f-a037-4e6a-a05f-ff6fb089914b",
+      "test_session_id": "benT2Hh9Jk1",
+      "updated_at": "2026-11-10T21:20:21.511+00:00"
+    },
+    {
+      "created_at": "2026-11-10T21:20:22.849+00:00",
+      "id": "1b67109a-35a2-4462-854d-e9fa3447f0bf",
+      "inputs": [
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://showfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"name\":\"smart_auth_info\"}"
+        }
+      ],
+      "messages": [
+        {
+          "message": "DiagnosticReport/inf-note: DiagnosticReport: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)",
+          "type": "warning"
+        },
+        {
+          "message": "DiagnosticReport/dr-path: DiagnosticReport.code: None of the codings provided are in the value set 'US Core Non Laboratory Codes' (http://hl7.org/fhir/us/core/ValueSet/us-core-diagnosticreport-report-and-note-codes|6.1.0), and a coding should come from this value set unless it has no suitable code (note that the validator cannot judge what is suitable) (codes = http://loinc.org#11526-1)",
+          "type": "warning"
+        },
+        {
+          "message": "DiagnosticReport/inf-note: DiagnosticReport.meta.profile[0]: A definition could not be found for Canonical URL 'http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-diagnosticreport-note'",
+          "type": "info"
+        },
+        {
+          "message": "DiagnosticReport/inf-note: DiagnosticReport.meta.profile[0]: Profile reference 'http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-diagnosticreport-note' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles",
+          "type": "warning"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [],
+      "result": "pass",
+      "test_id": "us_core_v610-us_core_v610_fhir_api-us_core_v610_diagnostic_report_note-us_core_v610_diagnostic_report_note_validation_test",
+      "test_run_id": "78dc1e2f-a037-4e6a-a05f-ff6fb089914b",
+      "test_session_id": "benT2Hh9Jk1",
+      "updated_at": "2026-11-10T21:20:22.849+00:00"
+    },
+    {
+      "created_at": "2026-11-10T21:19:56.074+00:00",
+      "id": "dfdfcfbb-02e4-4167-ae85-66400276f828",
+      "inputs": [
+        {
+          "name": "patient_ids",
+          "type": "text",
+          "value": "101258,101259,101260,101261,101262,101263,101264,101265,101266,101267,101268,101269,101270,101271,101272,101273,101274,101275,101276,101277,101278,101279,101280,101281,101282,101283,101284,101285,101286,101287,101288,101289,101290,101291"
+        },
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://showfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"name\":\"smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [
+        {
+          "direction": "outgoing",
+          "id": "241d80b7-2536-4b82-8272-f7d5cc23ba9c",
+          "index": 101773437,
+          "result_id": "dfdfcfbb-02e4-4167-ae85-66400276f828",
+          "status": 200,
+          "timestamp": "2026-11-10T21:19:56.085+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?category=LP29684-5&patient=101258",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "94709b12-aca0-4ea1-80ee-acaf8ddaa32b",
+          "index": 101773438,
+          "result_id": "dfdfcfbb-02e4-4167-ae85-66400276f828",
+          "status": 200,
+          "timestamp": "2026-11-10T21:19:56.102+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?category=LP29708-2&patient=101258",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "12887969-4abe-45c7-82fb-afd352a39e3b",
+          "index": 101773439,
+          "result_id": "dfdfcfbb-02e4-4167-ae85-66400276f828",
+          "status": 200,
+          "timestamp": "2026-11-10T21:19:56.112+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport/_search",
+          "verb": "post"
+        },
+        {
+          "direction": "outgoing",
+          "id": "ace7e589-9090-4147-aacf-6b0f326e50d6",
+          "index": 101773440,
+          "result_id": "dfdfcfbb-02e4-4167-ae85-66400276f828",
+          "status": 200,
+          "timestamp": "2026-11-10T21:19:56.123+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?category=LP29708-2&patient=Patient/101258",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "ebe92431-a018-4c88-a402-26de702c635f",
+          "index": 101773441,
+          "result_id": "dfdfcfbb-02e4-4167-ae85-66400276f828",
+          "status": 200,
+          "timestamp": "2026-11-10T21:19:56.137+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?category=http://loinc.org%7CLP29708-2&patient=101258",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "62c87e52-4964-4301-8e50-95df3740a923",
+          "index": 101773442,
+          "result_id": "dfdfcfbb-02e4-4167-ae85-66400276f828",
+          "status": 200,
+          "timestamp": "2026-11-10T21:19:56.149+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?category=LP7839-6&patient=101258",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "d86e93fc-8e75-4bd0-947e-c273597b2a40",
+          "index": 101773443,
+          "result_id": "dfdfcfbb-02e4-4167-ae85-66400276f828",
+          "status": 200,
+          "timestamp": "2026-11-10T21:19:56.159+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?category=LP29684-5&patient=101259",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "d14c1ed4-d648-4350-b705-fc5726f96aee",
+          "index": 101773444,
+          "result_id": "dfdfcfbb-02e4-4167-ae85-66400276f828",
+          "status": 200,
+          "timestamp": "2026-11-10T21:19:56.172+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?category=LP29708-2&patient=101259",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "cbf7c02b-2b54-41b8-b976-3f4b54786a79",
+          "index": 101773445,
+          "result_id": "dfdfcfbb-02e4-4167-ae85-66400276f828",
+          "status": 200,
+          "timestamp": "2026-11-10T21:19:56.185+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?category=LP7839-6&patient=101259",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "acc2c851-deda-422e-8cb0-1fc605f5ae0a",
+          "index": 101773446,
+          "result_id": "dfdfcfbb-02e4-4167-ae85-66400276f828",
+          "status": 200,
+          "timestamp": "2026-11-10T21:19:56.198+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?category=LP29684-5&patient=101260",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "81e07038-1462-409c-9956-08dfaf795553",
+          "index": 101773447,
+          "result_id": "dfdfcfbb-02e4-4167-ae85-66400276f828",
+          "status": 200,
+          "timestamp": "2026-11-10T21:19:56.211+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?category=LP29708-2&patient=101260",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "9db2e81f-83b2-4e6b-94f9-2bd9e1b182d2",
+          "index": 101773448,
+          "result_id": "dfdfcfbb-02e4-4167-ae85-66400276f828",
+          "status": 200,
+          "timestamp": "2026-11-10T21:19:56.222+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?category=LP7839-6&patient=101260",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "1bf60dd2-2a7d-4031-b2c7-41c0f7449ba3",
+          "index": 101773449,
+          "result_id": "dfdfcfbb-02e4-4167-ae85-66400276f828",
+          "status": 200,
+          "timestamp": "2026-11-10T21:19:56.236+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?category=LP29684-5&patient=101261",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "e91d6c0c-40e2-4d9f-86ca-28c52ce69aa1",
+          "index": 101773450,
+          "result_id": "dfdfcfbb-02e4-4167-ae85-66400276f828",
+          "status": 200,
+          "timestamp": "2026-11-10T21:19:56.246+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?category=LP29708-2&patient=101261",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "874549ef-f510-430e-ac9e-c616a48a7fb6",
+          "index": 101773451,
+          "result_id": "dfdfcfbb-02e4-4167-ae85-66400276f828",
+          "status": 200,
+          "timestamp": "2026-11-10T21:19:56.259+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?category=LP7839-6&patient=101261",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "ad3863a4-c684-40c4-a0ec-258b70b376ef",
+          "index": 101773452,
+          "result_id": "dfdfcfbb-02e4-4167-ae85-66400276f828",
+          "status": 200,
+          "timestamp": "2026-11-10T21:19:56.273+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?category=LP29684-5&patient=101262",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "f9afa95b-2007-4c24-913d-7fd6eba4dace",
+          "index": 101773453,
+          "result_id": "dfdfcfbb-02e4-4167-ae85-66400276f828",
+          "status": 200,
+          "timestamp": "2026-11-10T21:19:56.286+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?category=LP29708-2&patient=101262",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "8ad2b8ac-0b17-4a3c-9071-0f53ebaaaf05",
+          "index": 101773454,
+          "result_id": "dfdfcfbb-02e4-4167-ae85-66400276f828",
+          "status": 200,
+          "timestamp": "2026-11-10T21:19:56.299+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?category=LP7839-6&patient=101262",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "23eefea1-0604-4fca-b483-bae47bf9b195",
+          "index": 101773455,
+          "result_id": "dfdfcfbb-02e4-4167-ae85-66400276f828",
+          "status": 200,
+          "timestamp": "2026-11-10T21:19:56.309+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?category=LP29684-5&patient=101263",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "07e73130-2be4-40d9-a4f3-34447484db82",
+          "index": 101773456,
+          "result_id": "dfdfcfbb-02e4-4167-ae85-66400276f828",
+          "status": 200,
+          "timestamp": "2026-11-10T21:19:56.322+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?category=LP29708-2&patient=101263",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "f0588c7d-2bb7-4af3-8498-d02473ecec09",
+          "index": 101773457,
+          "result_id": "dfdfcfbb-02e4-4167-ae85-66400276f828",
+          "status": 200,
+          "timestamp": "2026-11-10T21:19:56.333+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?category=LP7839-6&patient=101263",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "68ba0868-9975-4c07-b453-2d97b16b3f59",
+          "index": 101773458,
+          "result_id": "dfdfcfbb-02e4-4167-ae85-66400276f828",
+          "status": 200,
+          "timestamp": "2026-11-10T21:19:56.346+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?category=LP29684-5&patient=101264",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "bdd26231-d6a6-4ce3-8ca6-2d000a97a4f7",
+          "index": 101773459,
+          "result_id": "dfdfcfbb-02e4-4167-ae85-66400276f828",
+          "status": 200,
+          "timestamp": "2026-11-10T21:19:56.358+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?category=LP29708-2&patient=101264",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "8356a99b-3b94-47d7-b44e-3f6e0f0191d2",
+          "index": 101773460,
+          "result_id": "dfdfcfbb-02e4-4167-ae85-66400276f828",
+          "status": 200,
+          "timestamp": "2026-11-10T21:19:56.371+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?category=LP7839-6&patient=101264",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "cad5ae28-ca8b-497c-be97-c8320a10d6ca",
+          "index": 101773461,
+          "result_id": "dfdfcfbb-02e4-4167-ae85-66400276f828",
+          "status": 200,
+          "timestamp": "2026-11-10T21:19:56.382+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?category=LP29684-5&patient=101265",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "3f30c787-28f7-427d-999e-25c8e841904c",
+          "index": 101773462,
+          "result_id": "dfdfcfbb-02e4-4167-ae85-66400276f828",
+          "status": 200,
+          "timestamp": "2026-11-10T21:19:56.393+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?category=LP29708-2&patient=101265",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "2b5429b1-5f31-4eb0-8219-3f721633fd4e",
+          "index": 101773463,
+          "result_id": "dfdfcfbb-02e4-4167-ae85-66400276f828",
+          "status": 200,
+          "timestamp": "2026-11-10T21:19:56.404+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?category=LP7839-6&patient=101265",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "9992f22b-78d7-41f2-9b84-db189d91df98",
+          "index": 101773464,
+          "result_id": "dfdfcfbb-02e4-4167-ae85-66400276f828",
+          "status": 200,
+          "timestamp": "2026-11-10T21:19:56.414+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?category=LP29684-5&patient=101266",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "ee83dc8e-7a9d-4d22-a8a8-9accb8744520",
+          "index": 101773465,
+          "result_id": "dfdfcfbb-02e4-4167-ae85-66400276f828",
+          "status": 200,
+          "timestamp": "2026-11-10T21:19:56.425+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?category=LP29708-2&patient=101266",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "55c09c53-278a-4bfe-8de8-2eb403c7ec78",
+          "index": 101773466,
+          "result_id": "dfdfcfbb-02e4-4167-ae85-66400276f828",
+          "status": 200,
+          "timestamp": "2026-11-10T21:19:56.436+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?category=LP7839-6&patient=101266",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "38abcd11-692a-43c7-813e-a7ab82694f94",
+          "index": 101773467,
+          "result_id": "dfdfcfbb-02e4-4167-ae85-66400276f828",
+          "status": 200,
+          "timestamp": "2026-11-10T21:19:56.448+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?category=LP29684-5&patient=101267",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "71615482-a026-4111-aa00-c6aec9c947a2",
+          "index": 101773468,
+          "result_id": "dfdfcfbb-02e4-4167-ae85-66400276f828",
+          "status": 200,
+          "timestamp": "2026-11-10T21:19:56.460+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?category=LP29708-2&patient=101267",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "4bc993c0-ede0-41ee-b2d0-b77da38d41b3",
+          "index": 101773469,
+          "result_id": "dfdfcfbb-02e4-4167-ae85-66400276f828",
+          "status": 200,
+          "timestamp": "2026-11-10T21:19:56.474+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?category=LP7839-6&patient=101267",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "a24351c4-3fd8-4ceb-8478-2477c9bdf84a",
+          "index": 101773470,
+          "result_id": "dfdfcfbb-02e4-4167-ae85-66400276f828",
+          "status": 200,
+          "timestamp": "2026-11-10T21:19:56.486+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?category=LP29684-5&patient=101268",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "47fef922-0726-43eb-a054-91e391a5b515",
+          "index": 101773471,
+          "result_id": "dfdfcfbb-02e4-4167-ae85-66400276f828",
+          "status": 200,
+          "timestamp": "2026-11-10T21:19:56.498+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?category=LP29708-2&patient=101268",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "e33ca691-3681-44ee-9052-6ac252f802c2",
+          "index": 101773472,
+          "result_id": "dfdfcfbb-02e4-4167-ae85-66400276f828",
+          "status": 200,
+          "timestamp": "2026-11-10T21:19:56.512+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?category=LP7839-6&patient=101268",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "2bfd8ace-73ff-4532-acb0-489bc54d86a2",
+          "index": 101773473,
+          "result_id": "dfdfcfbb-02e4-4167-ae85-66400276f828",
+          "status": 200,
+          "timestamp": "2026-11-10T21:19:56.525+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?category=LP29684-5&patient=101269",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "cdef70b3-0dff-4094-94d5-78e833ffe51e",
+          "index": 101773474,
+          "result_id": "dfdfcfbb-02e4-4167-ae85-66400276f828",
+          "status": 200,
+          "timestamp": "2026-11-10T21:19:56.537+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?category=LP29708-2&patient=101269",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "d5b4c093-90f3-49ae-8626-7d3e1eb272b8",
+          "index": 101773475,
+          "result_id": "dfdfcfbb-02e4-4167-ae85-66400276f828",
+          "status": 200,
+          "timestamp": "2026-11-10T21:19:56.550+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?category=LP7839-6&patient=101269",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "6d364b42-793a-438b-a89d-d4a4e5bcb702",
+          "index": 101773476,
+          "result_id": "dfdfcfbb-02e4-4167-ae85-66400276f828",
+          "status": 200,
+          "timestamp": "2026-11-10T21:19:56.562+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?category=LP29684-5&patient=101270",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "507c9820-50ee-46e4-9240-b63cab9fb8e1",
+          "index": 101773477,
+          "result_id": "dfdfcfbb-02e4-4167-ae85-66400276f828",
+          "status": 200,
+          "timestamp": "2026-11-10T21:19:56.573+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?category=LP29708-2&patient=101270",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "96aed15c-8215-47c7-9699-c6d6872d8a34",
+          "index": 101773478,
+          "result_id": "dfdfcfbb-02e4-4167-ae85-66400276f828",
+          "status": 200,
+          "timestamp": "2026-11-10T21:19:56.586+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?category=LP7839-6&patient=101270",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "f288a7bc-d6f5-4ca2-b1c9-e612b338c30c",
+          "index": 101773479,
+          "result_id": "dfdfcfbb-02e4-4167-ae85-66400276f828",
+          "status": 200,
+          "timestamp": "2026-11-10T21:19:56.597+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?category=LP29684-5&patient=101271",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "3bf41885-76d1-4566-808b-ab97bb5f2b60",
+          "index": 101773480,
+          "result_id": "dfdfcfbb-02e4-4167-ae85-66400276f828",
+          "status": 200,
+          "timestamp": "2026-11-10T21:19:56.609+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?category=LP29708-2&patient=101271",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "be5886ac-2043-435f-9135-300e62694c14",
+          "index": 101773481,
+          "result_id": "dfdfcfbb-02e4-4167-ae85-66400276f828",
+          "status": 200,
+          "timestamp": "2026-11-10T21:19:56.621+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?category=LP7839-6&patient=101271",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "cab09be3-e2da-496b-947c-92761ff295d8",
+          "index": 101773482,
+          "result_id": "dfdfcfbb-02e4-4167-ae85-66400276f828",
+          "status": 200,
+          "timestamp": "2026-11-10T21:19:56.632+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?category=LP29684-5&patient=101272",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "08e1136b-c811-45d1-9377-c37b8f710332",
+          "index": 101773483,
+          "result_id": "dfdfcfbb-02e4-4167-ae85-66400276f828",
+          "status": 200,
+          "timestamp": "2026-11-10T21:19:56.645+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?category=LP29708-2&patient=101272",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "09fdc380-fe54-4326-8dab-6f6d1c002e0e",
+          "index": 101773484,
+          "result_id": "dfdfcfbb-02e4-4167-ae85-66400276f828",
+          "status": 200,
+          "timestamp": "2026-11-10T21:19:56.660+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?category=LP7839-6&patient=101272",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "75e9a8d4-7da4-468d-a76a-1b3b9ba8bc7a",
+          "index": 101773485,
+          "result_id": "dfdfcfbb-02e4-4167-ae85-66400276f828",
+          "status": 200,
+          "timestamp": "2026-11-10T21:19:56.671+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?category=LP29684-5&patient=101273",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "2c5a06bd-d556-4df2-86d3-fd4044a47233",
+          "index": 101773486,
+          "result_id": "dfdfcfbb-02e4-4167-ae85-66400276f828",
+          "status": 200,
+          "timestamp": "2026-11-10T21:19:56.683+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?category=LP29708-2&patient=101273",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "7575f14f-ec0e-4038-99f6-528455ed7c77",
+          "index": 101773487,
+          "result_id": "dfdfcfbb-02e4-4167-ae85-66400276f828",
+          "status": 200,
+          "timestamp": "2026-11-10T21:19:56.695+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?category=LP7839-6&patient=101273",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "d8f91c68-9683-4701-8153-af91f0c14ae3",
+          "index": 101773488,
+          "result_id": "dfdfcfbb-02e4-4167-ae85-66400276f828",
+          "status": 200,
+          "timestamp": "2026-11-10T21:19:56.707+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?category=LP29684-5&patient=101274",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "38317360-3766-43e3-a74b-4d1c9ef53101",
+          "index": 101773489,
+          "result_id": "dfdfcfbb-02e4-4167-ae85-66400276f828",
+          "status": 200,
+          "timestamp": "2026-11-10T21:19:56.718+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?category=LP29708-2&patient=101274",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "c64b4d0f-77e2-4dd1-a021-a7ab2ffb5e71",
+          "index": 101773490,
+          "result_id": "dfdfcfbb-02e4-4167-ae85-66400276f828",
+          "status": 200,
+          "timestamp": "2026-11-10T21:19:56.728+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?category=LP7839-6&patient=101274",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "e1c1b9b5-9db7-4adc-86b3-b6ed29bb32c3",
+          "index": 101773491,
+          "result_id": "dfdfcfbb-02e4-4167-ae85-66400276f828",
+          "status": 200,
+          "timestamp": "2026-11-10T21:19:56.740+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?category=LP29684-5&patient=101275",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "ea793f04-8db1-4a13-9d70-7dcc241f3356",
+          "index": 101773492,
+          "result_id": "dfdfcfbb-02e4-4167-ae85-66400276f828",
+          "status": 200,
+          "timestamp": "2026-11-10T21:19:56.752+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?category=LP29708-2&patient=101275",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "1bb57826-3741-4e11-a4cc-630fbf424eb8",
+          "index": 101773493,
+          "result_id": "dfdfcfbb-02e4-4167-ae85-66400276f828",
+          "status": 200,
+          "timestamp": "2026-11-10T21:19:56.763+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?category=LP7839-6&patient=101275",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "9060e60d-09cd-4241-9383-b386f49f4427",
+          "index": 101773494,
+          "result_id": "dfdfcfbb-02e4-4167-ae85-66400276f828",
+          "status": 200,
+          "timestamp": "2026-11-10T21:19:56.774+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?category=LP29684-5&patient=101276",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "37ecebeb-d2a0-45a5-aa1c-6c31fd052cb5",
+          "index": 101773495,
+          "result_id": "dfdfcfbb-02e4-4167-ae85-66400276f828",
+          "status": 200,
+          "timestamp": "2026-11-10T21:19:56.787+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?category=LP29708-2&patient=101276",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "150613f1-7576-4996-9498-fa5143f1de59",
+          "index": 101773496,
+          "result_id": "dfdfcfbb-02e4-4167-ae85-66400276f828",
+          "status": 200,
+          "timestamp": "2026-11-10T21:19:56.798+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?category=LP7839-6&patient=101276",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "7b74d13a-1874-482d-a54f-02155875a1ae",
+          "index": 101773497,
+          "result_id": "dfdfcfbb-02e4-4167-ae85-66400276f828",
+          "status": 200,
+          "timestamp": "2026-11-10T21:19:56.809+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?category=LP29684-5&patient=101277",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "ba8e4064-dec3-46c8-a5cb-bba9758a9a8e",
+          "index": 101773498,
+          "result_id": "dfdfcfbb-02e4-4167-ae85-66400276f828",
+          "status": 200,
+          "timestamp": "2026-11-10T21:19:56.821+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?category=LP29708-2&patient=101277",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "ccea41c3-683c-4901-befd-b93b6894636e",
+          "index": 101773499,
+          "result_id": "dfdfcfbb-02e4-4167-ae85-66400276f828",
+          "status": 200,
+          "timestamp": "2026-11-10T21:19:56.832+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?category=LP7839-6&patient=101277",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "15cc9ffb-9c53-4e93-b08f-41a2e0c2d62e",
+          "index": 101773500,
+          "result_id": "dfdfcfbb-02e4-4167-ae85-66400276f828",
+          "status": 200,
+          "timestamp": "2026-11-10T21:19:56.843+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?category=LP29684-5&patient=101278",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "a7834270-ae14-4f12-b0d4-c2f5208fd67f",
+          "index": 101773501,
+          "result_id": "dfdfcfbb-02e4-4167-ae85-66400276f828",
+          "status": 200,
+          "timestamp": "2026-11-10T21:19:56.855+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?category=LP29708-2&patient=101278",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "2d171874-233b-4aaa-a5b3-971a538b9069",
+          "index": 101773502,
+          "result_id": "dfdfcfbb-02e4-4167-ae85-66400276f828",
+          "status": 200,
+          "timestamp": "2026-11-10T21:19:56.866+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?category=LP7839-6&patient=101278",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "75532157-adcd-4c40-9892-dfaf1b5654af",
+          "index": 101773503,
+          "result_id": "dfdfcfbb-02e4-4167-ae85-66400276f828",
+          "status": 200,
+          "timestamp": "2026-11-10T21:19:56.879+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?category=LP29684-5&patient=101279",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "5b5235ac-d081-46c7-8cea-96d7ae663c6b",
+          "index": 101773504,
+          "result_id": "dfdfcfbb-02e4-4167-ae85-66400276f828",
+          "status": 200,
+          "timestamp": "2026-11-10T21:19:56.890+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?category=LP29708-2&patient=101279",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "eccadc9f-2cd4-42fb-87c8-a1d7119282e6",
+          "index": 101773505,
+          "result_id": "dfdfcfbb-02e4-4167-ae85-66400276f828",
+          "status": 200,
+          "timestamp": "2026-11-10T21:19:56.900+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?category=LP7839-6&patient=101279",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "e61c3b1c-4d34-4652-aeba-98364146f67a",
+          "index": 101773506,
+          "result_id": "dfdfcfbb-02e4-4167-ae85-66400276f828",
+          "status": 200,
+          "timestamp": "2026-11-10T21:19:56.911+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?category=LP29684-5&patient=101280",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "e0aeb271-266d-4962-8c29-9183e52791d7",
+          "index": 101773507,
+          "result_id": "dfdfcfbb-02e4-4167-ae85-66400276f828",
+          "status": 200,
+          "timestamp": "2026-11-10T21:19:56.923+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?category=LP29708-2&patient=101280",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "53a1c116-1481-43f1-8203-44f67c6a2731",
+          "index": 101773508,
+          "result_id": "dfdfcfbb-02e4-4167-ae85-66400276f828",
+          "status": 200,
+          "timestamp": "2026-11-10T21:19:56.935+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?category=LP7839-6&patient=101280",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "7841658d-89fc-40ab-8464-b34360b0de5b",
+          "index": 101773509,
+          "result_id": "dfdfcfbb-02e4-4167-ae85-66400276f828",
+          "status": 200,
+          "timestamp": "2026-11-10T21:19:56.947+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?category=LP29684-5&patient=101281",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "4db2e649-5d1a-4a63-bc68-0a9a337cf666",
+          "index": 101773510,
+          "result_id": "dfdfcfbb-02e4-4167-ae85-66400276f828",
+          "status": 200,
+          "timestamp": "2026-11-10T21:19:56.962+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?category=LP29708-2&patient=101281",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "8bf2deca-9737-4adb-a81c-d2bafb0ed631",
+          "index": 101773511,
+          "result_id": "dfdfcfbb-02e4-4167-ae85-66400276f828",
+          "status": 200,
+          "timestamp": "2026-11-10T21:19:56.976+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?category=LP7839-6&patient=101281",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "7ba1f194-bfe3-4d1c-95fa-0a4a60640cc7",
+          "index": 101773512,
+          "result_id": "dfdfcfbb-02e4-4167-ae85-66400276f828",
+          "status": 200,
+          "timestamp": "2026-11-10T21:19:56.989+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?category=LP29684-5&patient=101282",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "2f129ff0-3df8-4510-967a-1bd094737338",
+          "index": 101773513,
+          "result_id": "dfdfcfbb-02e4-4167-ae85-66400276f828",
+          "status": 200,
+          "timestamp": "2026-11-10T21:19:57.002+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?category=LP29708-2&patient=101282",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "daa7609d-3225-4a0e-9679-fb34604542d6",
+          "index": 101773514,
+          "result_id": "dfdfcfbb-02e4-4167-ae85-66400276f828",
+          "status": 200,
+          "timestamp": "2026-11-10T21:19:57.014+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?category=LP7839-6&patient=101282",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "b5719a5a-bb07-466f-b55c-8d416fc026a5",
+          "index": 101773515,
+          "result_id": "dfdfcfbb-02e4-4167-ae85-66400276f828",
+          "status": 200,
+          "timestamp": "2026-11-10T21:19:57.028+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?category=LP29684-5&patient=101283",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "3c61aa12-5fa4-4cfa-b92f-1bd48347eb57",
+          "index": 101773516,
+          "result_id": "dfdfcfbb-02e4-4167-ae85-66400276f828",
+          "status": 200,
+          "timestamp": "2026-11-10T21:19:57.040+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?category=LP29708-2&patient=101283",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "daeaf5db-cb53-4fdc-a3e5-7536e25fa4e1",
+          "index": 101773517,
+          "result_id": "dfdfcfbb-02e4-4167-ae85-66400276f828",
+          "status": 200,
+          "timestamp": "2026-11-10T21:19:57.053+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?category=LP7839-6&patient=101283",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "9a1fd268-6928-4894-866a-a36694206e67",
+          "index": 101773518,
+          "result_id": "dfdfcfbb-02e4-4167-ae85-66400276f828",
+          "status": 200,
+          "timestamp": "2026-11-10T21:19:57.066+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?category=LP29684-5&patient=101284",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "dd8f7759-4272-4fad-8d88-974187fbb535",
+          "index": 101773519,
+          "result_id": "dfdfcfbb-02e4-4167-ae85-66400276f828",
+          "status": 200,
+          "timestamp": "2026-11-10T21:19:57.082+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?category=LP29708-2&patient=101284",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "0f3b4e2c-ca8b-4968-8439-709b8ac17f79",
+          "index": 101773520,
+          "result_id": "dfdfcfbb-02e4-4167-ae85-66400276f828",
+          "status": 200,
+          "timestamp": "2026-11-10T21:19:57.096+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?category=LP7839-6&patient=101284",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "9476d704-6c5a-4466-97e3-53dc00e9e809",
+          "index": 101773521,
+          "result_id": "dfdfcfbb-02e4-4167-ae85-66400276f828",
+          "status": 200,
+          "timestamp": "2026-11-10T21:19:57.110+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?category=LP29684-5&patient=101285",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "0dffa09d-e4ed-449d-906b-88d79b8cd504",
+          "index": 101773522,
+          "result_id": "dfdfcfbb-02e4-4167-ae85-66400276f828",
+          "status": 200,
+          "timestamp": "2026-11-10T21:19:57.125+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?category=LP29708-2&patient=101285",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "39ede92d-40a6-49c5-9b2e-a3709535c971",
+          "index": 101773523,
+          "result_id": "dfdfcfbb-02e4-4167-ae85-66400276f828",
+          "status": 200,
+          "timestamp": "2026-11-10T21:19:57.138+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?category=LP7839-6&patient=101285",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "03e2ca1c-688a-4181-938e-e7cf3a2e37cd",
+          "index": 101773524,
+          "result_id": "dfdfcfbb-02e4-4167-ae85-66400276f828",
+          "status": 200,
+          "timestamp": "2026-11-10T21:19:57.151+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?category=LP29684-5&patient=101286",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "b1143078-ce6a-43ef-be26-c2811f3cef81",
+          "index": 101773525,
+          "result_id": "dfdfcfbb-02e4-4167-ae85-66400276f828",
+          "status": 200,
+          "timestamp": "2026-11-10T21:19:57.163+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?category=LP29708-2&patient=101286",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "674b4117-40db-47fe-ba37-ef6cb7ca5302",
+          "index": 101773526,
+          "result_id": "dfdfcfbb-02e4-4167-ae85-66400276f828",
+          "status": 200,
+          "timestamp": "2026-11-10T21:19:57.175+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?category=LP7839-6&patient=101286",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "461594ca-633f-4ade-a09b-7df70e5e9e1f",
+          "index": 101773527,
+          "result_id": "dfdfcfbb-02e4-4167-ae85-66400276f828",
+          "status": 200,
+          "timestamp": "2026-11-10T21:19:57.186+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?category=LP29684-5&patient=101287",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "8327d521-a01b-44f8-a3e1-defff9a3c9c4",
+          "index": 101773528,
+          "result_id": "dfdfcfbb-02e4-4167-ae85-66400276f828",
+          "status": 200,
+          "timestamp": "2026-11-10T21:19:57.197+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?category=LP29708-2&patient=101287",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "ad2c5afe-d633-4772-90a4-3b0345e3eafc",
+          "index": 101773529,
+          "result_id": "dfdfcfbb-02e4-4167-ae85-66400276f828",
+          "status": 200,
+          "timestamp": "2026-11-10T21:19:57.209+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?category=LP7839-6&patient=101287",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "28e92694-0abf-423c-ad17-ad69f07382a8",
+          "index": 101773530,
+          "result_id": "dfdfcfbb-02e4-4167-ae85-66400276f828",
+          "status": 200,
+          "timestamp": "2026-11-10T21:19:57.222+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?category=LP29684-5&patient=101288",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "ddf59df5-4350-406c-b788-246fa2971a2b",
+          "index": 101773531,
+          "result_id": "dfdfcfbb-02e4-4167-ae85-66400276f828",
+          "status": 200,
+          "timestamp": "2026-11-10T21:19:57.233+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?category=LP29708-2&patient=101288",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "49e1bf00-9a34-4369-a566-a8ec988712fb",
+          "index": 101773532,
+          "result_id": "dfdfcfbb-02e4-4167-ae85-66400276f828",
+          "status": 200,
+          "timestamp": "2026-11-10T21:19:57.244+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?category=LP7839-6&patient=101288",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "b6b6bbee-9c4b-454a-8274-51a818fd336c",
+          "index": 101773533,
+          "result_id": "dfdfcfbb-02e4-4167-ae85-66400276f828",
+          "status": 200,
+          "timestamp": "2026-11-10T21:19:57.254+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?category=LP29684-5&patient=101289",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "26042e5a-462b-4bac-9472-d3d093f29470",
+          "index": 101773534,
+          "result_id": "dfdfcfbb-02e4-4167-ae85-66400276f828",
+          "status": 200,
+          "timestamp": "2026-11-10T21:19:57.266+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?category=LP29708-2&patient=101289",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "ac93bfc3-275d-4857-8738-1a7e692cc66c",
+          "index": 101773535,
+          "result_id": "dfdfcfbb-02e4-4167-ae85-66400276f828",
+          "status": 200,
+          "timestamp": "2026-11-10T21:19:57.276+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?category=LP7839-6&patient=101289",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "02f6c93d-83da-45e5-b46d-784b39bfa390",
+          "index": 101773536,
+          "result_id": "dfdfcfbb-02e4-4167-ae85-66400276f828",
+          "status": 200,
+          "timestamp": "2026-11-10T21:19:57.288+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?category=LP29684-5&patient=101290",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "3422fdba-fd47-4c4b-9706-d45fe8bf61af",
+          "index": 101773537,
+          "result_id": "dfdfcfbb-02e4-4167-ae85-66400276f828",
+          "status": 200,
+          "timestamp": "2026-11-10T21:19:57.301+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?category=LP29708-2&patient=101290",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "c1bb0915-c2ce-4366-898e-2b117f00da9d",
+          "index": 101773538,
+          "result_id": "dfdfcfbb-02e4-4167-ae85-66400276f828",
+          "status": 200,
+          "timestamp": "2026-11-10T21:19:57.313+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?category=LP7839-6&patient=101290",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "a5a50cef-7b01-4127-8479-9e2ba14d5423",
+          "index": 101773539,
+          "result_id": "dfdfcfbb-02e4-4167-ae85-66400276f828",
+          "status": 200,
+          "timestamp": "2026-11-10T21:19:57.324+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?category=LP29684-5&patient=101291",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "93eaa641-70dc-4a82-8b16-50a38394cdf0",
+          "index": 101773540,
+          "result_id": "dfdfcfbb-02e4-4167-ae85-66400276f828",
+          "status": 200,
+          "timestamp": "2026-11-10T21:19:57.335+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?category=LP29708-2&patient=101291",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "c9299372-90c8-46e3-a6fd-22791ff2fa0c",
+          "index": 101773541,
+          "result_id": "dfdfcfbb-02e4-4167-ae85-66400276f828",
+          "status": 200,
+          "timestamp": "2026-11-10T21:19:57.344+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?category=LP7839-6&patient=101291",
+          "verb": "get"
+        }
+      ],
+      "result": "pass",
+      "test_id": "us_core_v610-us_core_v610_fhir_api-us_core_v610_diagnostic_report_note-us_core_v610_diagnostic_report_note_patient_category_search_test",
+      "test_run_id": "78dc1e2f-a037-4e6a-a05f-ff6fb089914b",
+      "test_session_id": "benT2Hh9Jk1",
+      "updated_at": "2026-11-10T21:19:56.074+00:00"
+    },
+    {
+      "created_at": "2026-11-10T21:20:05.275+00:00",
+      "id": "eae98107-b22b-4a6f-bb6b-c4b52e8e187e",
+      "inputs": [
+        {
+          "name": "patient_ids",
+          "type": "text",
+          "value": "101258,101259,101260,101261,101262,101263,101264,101265,101266,101267,101268,101269,101270,101271,101272,101273,101274,101275,101276,101277,101278,101279,101280,101281,101282,101283,101284,101285,101286,101287,101288,101289,101290,101291"
+        },
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://showfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"name\":\"smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [
+        {
+          "direction": "outgoing",
+          "id": "77418727-5b86-4247-beb1-37da3d15d99f",
+          "index": 101773542,
+          "result_id": "eae98107-b22b-4a6f-bb6b-c4b52e8e187e",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:05.276+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?patient=101258",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "904fa809-f0bc-45fc-b228-69140ba97d14",
+          "index": 101773543,
+          "result_id": "eae98107-b22b-4a6f-bb6b-c4b52e8e187e",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:05.296+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?patient=101259",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "7b99c0c4-cf5a-4a2e-ab43-c764abe5ae70",
+          "index": 101773544,
+          "result_id": "eae98107-b22b-4a6f-bb6b-c4b52e8e187e",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:05.312+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?patient=101260",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "c487f0a2-f99c-4e08-8118-02ad7f511145",
+          "index": 101773545,
+          "result_id": "eae98107-b22b-4a6f-bb6b-c4b52e8e187e",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:05.328+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?patient=101261",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "15d983cb-52dc-42fd-a473-8b117253718a",
+          "index": 101773546,
+          "result_id": "eae98107-b22b-4a6f-bb6b-c4b52e8e187e",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:05.351+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?patient=101262",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "6a30f402-3025-4224-b375-b92ebdc46102",
+          "index": 101773547,
+          "result_id": "eae98107-b22b-4a6f-bb6b-c4b52e8e187e",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:05.366+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?patient=101263",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "230f1ba6-86ae-440e-ae55-1fb26e5552c1",
+          "index": 101773548,
+          "result_id": "eae98107-b22b-4a6f-bb6b-c4b52e8e187e",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:05.383+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?patient=101264",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "82bb8960-4e6d-44ed-b8e7-8c6f158b695d",
+          "index": 101773549,
+          "result_id": "eae98107-b22b-4a6f-bb6b-c4b52e8e187e",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:05.400+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?patient=101265",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "b5f9a478-a7b0-4491-a699-e8d05ec9f4be",
+          "index": 101773550,
+          "result_id": "eae98107-b22b-4a6f-bb6b-c4b52e8e187e",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:05.415+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?patient=101266",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "34f15014-8a57-4fc0-abae-8127c53421c3",
+          "index": 101773551,
+          "result_id": "eae98107-b22b-4a6f-bb6b-c4b52e8e187e",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:05.431+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?patient=101267",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "476c7803-0c9e-4ff6-ac95-9254fa7a48a1",
+          "index": 101773552,
+          "result_id": "eae98107-b22b-4a6f-bb6b-c4b52e8e187e",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:05.447+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?patient=101268",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "8d955908-dae8-42f4-9f9d-a88f3349ea50",
+          "index": 101773553,
+          "result_id": "eae98107-b22b-4a6f-bb6b-c4b52e8e187e",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:05.461+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?patient=101269",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "001d8da5-0332-4fea-985c-343e00778c9b",
+          "index": 101773554,
+          "result_id": "eae98107-b22b-4a6f-bb6b-c4b52e8e187e",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:05.476+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?patient=101270",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "4bbab5d4-0072-4d07-a62e-724b992eec51",
+          "index": 101773555,
+          "result_id": "eae98107-b22b-4a6f-bb6b-c4b52e8e187e",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:05.490+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?patient=101271",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "2832b920-ecc6-4d9d-81b0-4c36c304da34",
+          "index": 101773556,
+          "result_id": "eae98107-b22b-4a6f-bb6b-c4b52e8e187e",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:05.503+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?patient=101272",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "e731469e-6667-4788-9661-edf18c5c2786",
+          "index": 101773557,
+          "result_id": "eae98107-b22b-4a6f-bb6b-c4b52e8e187e",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:05.517+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?patient=101273",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "760445b3-81f4-4892-9c05-01e85c515c47",
+          "index": 101773558,
+          "result_id": "eae98107-b22b-4a6f-bb6b-c4b52e8e187e",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:05.530+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?patient=101274",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "56af539e-3026-42e3-9fd5-a88bc040f55a",
+          "index": 101773559,
+          "result_id": "eae98107-b22b-4a6f-bb6b-c4b52e8e187e",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:05.549+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?patient=101275",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "312d9997-6998-435a-8b98-8710a2c94957",
+          "index": 101773560,
+          "result_id": "eae98107-b22b-4a6f-bb6b-c4b52e8e187e",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:05.566+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?patient=101276",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "3dae4857-7e56-4ce9-afa0-f30e45996767",
+          "index": 101773561,
+          "result_id": "eae98107-b22b-4a6f-bb6b-c4b52e8e187e",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:05.590+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?patient=101277",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "920fd697-3259-485d-ba24-e59e85061c1a",
+          "index": 101773562,
+          "result_id": "eae98107-b22b-4a6f-bb6b-c4b52e8e187e",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:05.617+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?patient=101278",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "200dd604-944b-488e-9170-f24743cec9a4",
+          "index": 101773563,
+          "result_id": "eae98107-b22b-4a6f-bb6b-c4b52e8e187e",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:05.645+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?patient=101279",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "c97005d1-bc89-48ca-909b-f961e5516885",
+          "index": 101773564,
+          "result_id": "eae98107-b22b-4a6f-bb6b-c4b52e8e187e",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:05.673+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?patient=101280",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "95849626-cc3f-43ea-b61c-15ff7e3ccaf7",
+          "index": 101773565,
+          "result_id": "eae98107-b22b-4a6f-bb6b-c4b52e8e187e",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:05.698+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?patient=101281",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "a1d1d0ec-ef01-4ad3-98a6-83d907a85403",
+          "index": 101773566,
+          "result_id": "eae98107-b22b-4a6f-bb6b-c4b52e8e187e",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:05.714+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?patient=101282",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "a0ce6135-6e48-4758-8af6-6ea4d9efe195",
+          "index": 101773567,
+          "result_id": "eae98107-b22b-4a6f-bb6b-c4b52e8e187e",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:05.737+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?patient=101283",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "c31566e1-9615-45e3-8cd9-ef69a84db3d8",
+          "index": 101773568,
+          "result_id": "eae98107-b22b-4a6f-bb6b-c4b52e8e187e",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:05.764+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?patient=101284",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "cce5ff85-4708-47fb-b547-2c1af069d870",
+          "index": 101773569,
+          "result_id": "eae98107-b22b-4a6f-bb6b-c4b52e8e187e",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:05.791+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?patient=101285",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "b0f10342-3992-45f6-8561-4164b937e39f",
+          "index": 101773570,
+          "result_id": "eae98107-b22b-4a6f-bb6b-c4b52e8e187e",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:05.820+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?patient=101286",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "f698204c-cdae-4d70-8692-3d1e647dd9dc",
+          "index": 101773571,
+          "result_id": "eae98107-b22b-4a6f-bb6b-c4b52e8e187e",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:05.846+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?patient=101287",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "8eb44e3c-d5d3-4e5d-819e-ecb83bfebfce",
+          "index": 101773572,
+          "result_id": "eae98107-b22b-4a6f-bb6b-c4b52e8e187e",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:05.881+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?patient=101288",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "058b96f3-89f6-4b83-b060-404e30d2e7fc",
+          "index": 101773573,
+          "result_id": "eae98107-b22b-4a6f-bb6b-c4b52e8e187e",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:05.908+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?patient=101289",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "b77e8921-8a76-489c-94db-48509f7da75a",
+          "index": 101773574,
+          "result_id": "eae98107-b22b-4a6f-bb6b-c4b52e8e187e",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:05.931+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?patient=101290",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "2b6b11c5-4637-477f-9999-fd095091e0ac",
+          "index": 101773575,
+          "result_id": "eae98107-b22b-4a6f-bb6b-c4b52e8e187e",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:05.957+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?patient=101291",
+          "verb": "get"
+        }
+      ],
+      "result": "pass",
+      "test_id": "us_core_v610-us_core_v610_fhir_api-us_core_v610_diagnostic_report_note-us_core_v610_diagnostic_report_note_patient_search_test",
+      "test_run_id": "78dc1e2f-a037-4e6a-a05f-ff6fb089914b",
+      "test_session_id": "benT2Hh9Jk1",
+      "updated_at": "2026-11-10T21:20:05.275+00:00"
+    },
+    {
+      "created_at": "2026-11-10T21:20:06.791+00:00",
+      "id": "53e139cd-2c53-4d14-a324-d8e8f32a6677",
+      "inputs": [
+        {
+          "name": "patient_ids",
+          "type": "text",
+          "value": "101258,101259,101260,101261,101262,101263,101264,101265,101266,101267,101268,101269,101270,101271,101272,101273,101274,101275,101276,101277,101278,101279,101280,101281,101282,101283,101284,101285,101286,101287,101288,101289,101290,101291"
+        },
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://showfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"name\":\"smart_auth_info\"}"
+        }
+      ],
+      "optional": true,
+      "outputs": [],
+      "requests": [
+        {
+          "direction": "outgoing",
+          "id": "40f31538-24b0-415f-a7d5-51c784ab6097",
+          "index": 101773576,
+          "result_id": "53e139cd-2c53-4d14-a324-d8e8f32a6677",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:06.793+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?code=18748-4&date=2021-10-12T14:00:00Z&patient=101258",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "51c68d4b-30e5-489f-b5d2-8abfd2d9ead1",
+          "index": 101773577,
+          "result_id": "53e139cd-2c53-4d14-a324-d8e8f32a6677",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:06.812+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?code=18748-4&date=gt2021-10-11T14:00:00%2B00:00&patient=101258",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "7a4f9b1b-b41c-4b13-b88b-b737fc238503",
+          "index": 101773578,
+          "result_id": "53e139cd-2c53-4d14-a324-d8e8f32a6677",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:06.824+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?code=18748-4&date=ge2021-10-11T14:00:00%2B00:00&patient=101258",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "251b832f-1308-41d8-af4e-e71e26cfd493",
+          "index": 101773579,
+          "result_id": "53e139cd-2c53-4d14-a324-d8e8f32a6677",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:06.837+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?code=18748-4&date=lt2021-10-13T14:00:00%2B00:00&patient=101258",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "42613ded-7807-45ee-91ae-ee5c263d33e1",
+          "index": 101773580,
+          "result_id": "53e139cd-2c53-4d14-a324-d8e8f32a6677",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:06.850+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?code=18748-4&date=le2021-10-13T14:00:00%2B00:00&patient=101258",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "990612cc-fa6c-41c7-b1ee-81b45eb6e2c1",
+          "index": 101773581,
+          "result_id": "53e139cd-2c53-4d14-a324-d8e8f32a6677",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:06.864+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?code=http://loinc.org%7C18748-4&date=2021-10-12T14:00:00Z&patient=101258",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "c2b4f7b0-6bd5-432a-ad8d-2ad67c49cf1f",
+          "index": 101773582,
+          "result_id": "53e139cd-2c53-4d14-a324-d8e8f32a6677",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:06.878+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?code=30746-2&date=2026-10-06T14:00:00Z&patient=101282",
+          "verb": "get"
+        }
+      ],
+      "result": "pass",
+      "test_id": "us_core_v610-us_core_v610_fhir_api-us_core_v610_diagnostic_report_note-us_core_v610_diagnostic_report_note_patient_code_date_search_test",
+      "test_run_id": "78dc1e2f-a037-4e6a-a05f-ff6fb089914b",
+      "test_session_id": "benT2Hh9Jk1",
+      "updated_at": "2026-11-10T21:20:06.791+00:00"
+    },
+    {
+      "created_at": "2026-11-10T21:20:07.526+00:00",
+      "id": "cd69061c-53a9-4641-b6e5-5d03fcf831e4",
+      "inputs": [
+        {
+          "name": "patient_ids",
+          "type": "text",
+          "value": "101258,101259,101260,101261,101262,101263,101264,101265,101266,101267,101268,101269,101270,101271,101272,101273,101274,101275,101276,101277,101278,101279,101280,101281,101282,101283,101284,101285,101286,101287,101288,101289,101290,101291"
+        },
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://showfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"name\":\"smart_auth_info\"}"
+        }
+      ],
+      "optional": true,
+      "outputs": [],
+      "requests": [
+        {
+          "direction": "outgoing",
+          "id": "58b6a1fd-0531-4e25-86c9-1e2b6372fc24",
+          "index": 101773583,
+          "result_id": "cd69061c-53a9-4641-b6e5-5d03fcf831e4",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:07.528+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?patient=101258&status=final",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "ad71db63-3624-4542-9bca-8e8e81833b7b",
+          "index": 101773584,
+          "result_id": "cd69061c-53a9-4641-b6e5-5d03fcf831e4",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:07.548+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?patient=101282&status=final",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "f150275f-a689-4671-a947-fc40f3e6f8bc",
+          "index": 101773585,
+          "result_id": "cd69061c-53a9-4641-b6e5-5d03fcf831e4",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:07.565+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?patient=101258&status=registered,partial,preliminary,final,amended,corrected,appended,cancelled,entered-in-error,unknown",
+          "verb": "get"
+        }
+      ],
+      "result": "pass",
+      "test_id": "us_core_v610-us_core_v610_fhir_api-us_core_v610_diagnostic_report_note-us_core_v610_diagnostic_report_note_patient_status_search_test",
+      "test_run_id": "78dc1e2f-a037-4e6a-a05f-ff6fb089914b",
+      "test_session_id": "benT2Hh9Jk1",
+      "updated_at": "2026-11-10T21:20:07.526+00:00"
+    },
+    {
+      "created_at": "2026-11-10T21:20:23.906+00:00",
+      "id": "0a6eb793-db92-4c33-8bd7-ae2cffff5221",
+      "inputs": [
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://showfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"name\":\"smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [
+        {
+          "direction": "outgoing",
+          "id": "4a77a931-cd06-4e7d-af56-e9e0d8cbddb9",
+          "index": 101773699,
+          "result_id": "0a6eb793-db92-4c33-8bd7-ae2cffff5221",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:23.908+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Patient/101258",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "af80c869-0403-4228-84c1-4b745048fbe5",
+          "index": 101773700,
+          "result_id": "0a6eb793-db92-4c33-8bd7-ae2cffff5221",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:23.925+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Encounter/E34997",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "4203da10-93b7-48e7-807a-9138c9af6dbd",
+          "index": 101773701,
+          "result_id": "0a6eb793-db92-4c33-8bd7-ae2cffff5221",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:23.937+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Practitioner/P1",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "c80002b6-36c4-46d4-bbf6-6be1b45c7f06",
+          "index": 101773702,
+          "result_id": "0a6eb793-db92-4c33-8bd7-ae2cffff5221",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:23.951+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Practitioner/P1",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "4f1ef96b-4f8e-4917-8878-ccb0d321db7c",
+          "index": 101773703,
+          "result_id": "0a6eb793-db92-4c33-8bd7-ae2cffff5221",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:23.964+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Practitioner/P1",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "a12307ee-0a36-448a-a7a5-89f706f832bb",
+          "index": 101773704,
+          "result_id": "0a6eb793-db92-4c33-8bd7-ae2cffff5221",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:23.978+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Organization/org-clinic",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "2686322a-50e8-48d1-897f-e47387ddab0a",
+          "index": 101773705,
+          "result_id": "0a6eb793-db92-4c33-8bd7-ae2cffff5221",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:23.988+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Observation/obs-088",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "ea601ea2-3036-4a32-a354-8b244e5f3383",
+          "index": 101773706,
+          "result_id": "0a6eb793-db92-4c33-8bd7-ae2cffff5221",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:24.002+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/Observation/obs-088",
+          "verb": "get"
+        }
+      ],
+      "result": "pass",
+      "test_id": "us_core_v610-us_core_v610_fhir_api-us_core_v610_diagnostic_report_note-us_core_v610_diagnostic_report_note_reference_resolution_test",
+      "test_run_id": "78dc1e2f-a037-4e6a-a05f-ff6fb089914b",
+      "test_session_id": "benT2Hh9Jk1",
+      "updated_at": "2026-11-10T21:20:23.906+00:00"
+    },
+    {
+      "created_at": "2026-11-10T21:20:22.865+00:00",
+      "id": "fae990ea-73d2-4c8b-b3a5-40443102947d",
+      "inputs": [
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://showfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"name\":\"smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [],
+      "result": "pass",
+      "test_id": "us_core_v610-us_core_v610_fhir_api-us_core_v610_diagnostic_report_note-us_core_v610_diagnostic_report_note_must_support_test",
+      "test_run_id": "78dc1e2f-a037-4e6a-a05f-ff6fb089914b",
+      "test_session_id": "benT2Hh9Jk1",
+      "updated_at": "2026-11-10T21:20:22.865+00:00"
+    },
+    {
+      "created_at": "2026-11-10T21:20:08.380+00:00",
+      "id": "38bf0e10-a22e-4e41-9575-eef6727152dd",
+      "inputs": [
+        {
+          "name": "patient_ids",
+          "type": "text",
+          "value": "101258,101259,101260,101261,101262,101263,101264,101265,101266,101267,101268,101269,101270,101271,101272,101273,101274,101275,101276,101277,101278,101279,101280,101281,101282,101283,101284,101285,101286,101287,101288,101289,101290,101291"
+        },
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://showfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"name\":\"smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [
+        {
+          "direction": "outgoing",
+          "id": "24365979-0e40-4ab4-9d2d-fb71325253fe",
+          "index": 101773586,
+          "result_id": "38bf0e10-a22e-4e41-9575-eef6727152dd",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:08.383+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?category=LP29708-2&date=2021-10-12T14:00:00Z&patient=101258",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "e9e2ecbb-e3d7-4d4a-9429-a96dfe88a47c",
+          "index": 101773587,
+          "result_id": "38bf0e10-a22e-4e41-9575-eef6727152dd",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:08.399+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?category=LP29708-2&date=gt2021-10-11T14:00:00%2B00:00&patient=101258",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "7bcd8579-af2e-40d3-92ea-a087dfdb12f0",
+          "index": 101773588,
+          "result_id": "38bf0e10-a22e-4e41-9575-eef6727152dd",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:08.413+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?category=LP29708-2&date=ge2021-10-11T14:00:00%2B00:00&patient=101258",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "5da6afcd-c4ec-48ae-8fe0-4eaa9a50838a",
+          "index": 101773589,
+          "result_id": "38bf0e10-a22e-4e41-9575-eef6727152dd",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:08.425+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?category=LP29708-2&date=lt2021-10-13T14:00:00%2B00:00&patient=101258",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "005cde4a-8869-4d76-815c-ff91b592283c",
+          "index": 101773590,
+          "result_id": "38bf0e10-a22e-4e41-9575-eef6727152dd",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:08.436+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?category=LP29708-2&date=le2021-10-13T14:00:00%2B00:00&patient=101258",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "216fb40b-c0fe-4f5e-a0a3-168135a4e6ee",
+          "index": 101773591,
+          "result_id": "38bf0e10-a22e-4e41-9575-eef6727152dd",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:08.448+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?category=http://loinc.org%7CLP29708-2&date=2021-10-12T14:00:00Z&patient=101258",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "35a0046e-4636-46e8-8851-0e1396e402e4",
+          "index": 101773592,
+          "result_id": "38bf0e10-a22e-4e41-9575-eef6727152dd",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:08.458+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?category=LP29684-5&date=2026-10-06T14:00:00Z&patient=101282",
+          "verb": "get"
+        }
+      ],
+      "result": "pass",
+      "test_id": "us_core_v610-us_core_v610_fhir_api-us_core_v610_diagnostic_report_note-us_core_v610_diagnostic_report_note_patient_category_date_search_test",
+      "test_run_id": "78dc1e2f-a037-4e6a-a05f-ff6fb089914b",
+      "test_session_id": "benT2Hh9Jk1",
+      "updated_at": "2026-11-10T21:20:08.380+00:00"
+    },
+    {
+      "created_at": "2026-11-10T21:20:08.868+00:00",
+      "id": "fc42647e-efac-4a90-9320-784f9302d589",
+      "inputs": [
+        {
+          "name": "patient_ids",
+          "type": "text",
+          "value": "101258,101259,101260,101261,101262,101263,101264,101265,101266,101267,101268,101269,101270,101271,101272,101273,101274,101275,101276,101277,101278,101279,101280,101281,101282,101283,101284,101285,101286,101287,101288,101289,101290,101291"
+        },
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://showfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"name\":\"smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [
+        {
+          "direction": "outgoing",
+          "id": "8fb17e38-ca9c-408f-a7ec-423aacb2fd9d",
+          "index": 101773593,
+          "result_id": "fc42647e-efac-4a90-9320-784f9302d589",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:08.871+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?code=18748-4&patient=101258",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "a470295d-070e-42ba-84dc-b066a52ebd17",
+          "index": 101773594,
+          "result_id": "fc42647e-efac-4a90-9320-784f9302d589",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:08.885+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?code=http://loinc.org%7C18748-4&patient=101258",
+          "verb": "get"
+        },
+        {
+          "direction": "outgoing",
+          "id": "e6effca3-fcc6-4a5c-afcc-e599e347709e",
+          "index": 101773595,
+          "result_id": "fc42647e-efac-4a90-9320-784f9302d589",
+          "status": 200,
+          "timestamp": "2026-11-10T21:20:08.896+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/DiagnosticReport?code=30746-2&patient=101282",
+          "verb": "get"
+        }
+      ],
+      "result": "pass",
+      "test_id": "us_core_v610-us_core_v610_fhir_api-us_core_v610_diagnostic_report_note-us_core_v610_diagnostic_report_note_patient_code_search_test",
+      "test_run_id": "78dc1e2f-a037-4e6a-a05f-ff6fb089914b",
+      "test_session_id": "benT2Hh9Jk1",
+      "updated_at": "2026-11-10T21:20:08.868+00:00"
+    },
+    {
+      "created_at": "2026-11-10T21:20:24.016+00:00",
+      "id": "31bab5c4-3881-4954-bb57-42e1bdf7c853",
+      "inputs": [
+        {
+          "description": "Comma separated list of patient IDs that in sum contain all MUST SUPPORT elements",
+          "label": "Patient IDs",
+          "name": "patient_ids",
+          "type": "text",
+          "value": "101258,101259,101260,101261,101262,101263,101264,101265,101266,101267,101268,101269,101270,101271,101272,101273,101274,101275,101276,101277,101278,101279,101280,101281,101282,101283,101284,101285,101286,101287,101288,101289,101290,101291"
+        },
+        {
+          "description": "URL of the FHIR endpoint",
+          "label": "FHIR Endpoint",
+          "name": "url",
+          "type": "text",
+          "value": "https://showfhir.vistaplex.org/fhir"
+        },
+        {
+          "description": null,
+          "label": "OAuth Credentials",
+          "name": "smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"name\":\"smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [],
+      "result": "pass",
+      "test_group_id": "us_core_v610-us_core_v610_fhir_api-us_core_v610_diagnostic_report_note",
+      "test_run_id": "78dc1e2f-a037-4e6a-a05f-ff6fb089914b",
+      "test_session_id": "benT2Hh9Jk1",
+      "updated_at": "2026-11-10T21:20:24.016+00:00"
+    }
+  ],
+  "run_id": "78dc1e2f-a037-4e6a-a05f-ff6fb089914b",
+  "session_id": "benT2Hh9Jk1",
+  "session_url": "https://inferno.healthit.gov/suites/us_core_v610/benT2Hh9Jk1",
+  "status": {
+    "id": "78dc1e2f-a037-4e6a-a05f-ff6fb089914b",
+    "inputs": null,
+    "results": null,
+    "status": "done",
+    "test_count": 11,
+    "test_group_id": "us_core_v610-us_core_v610_fhir_api-us_core_v610_diagnostic_report_note",
+    "test_session_id": "benT2Hh9Jk1"
+  },
+  "url": "https://showfhir.vistaplex.org/fhir"
+}
