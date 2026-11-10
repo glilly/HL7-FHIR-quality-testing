@@ -16,8 +16,8 @@ before changing anything they own.
 
 - **Scorecards come from hosted Inferno against a public base**, never from
   a local container. Inferno cannot reach localhost. Ad-hoc runs use
-  `https://devfhir.vistaplex.org`. The Sunday US Quality Core run uses
-  `https://iris2.vistaplex.org/fhir` (`scripts/weekly-iris2-inferno.sh`).
+  `https://devfhir.vistaplex.org`. The nightly US Quality Core run
+  alternates showfhir and iris2 (`scripts/nightly-inferno-rotate.sh`).
 - **Value sets are vendored artifacts.** Never hand-edit
   `2026/measures/*/cqm/value_sets.json`; `VistA-FHIR-Server-Codex/scripts/check-artifacts.sh`
   must stay green and is run every night. Refresh only with the documented
@@ -41,7 +41,8 @@ before changing anything they own.
 | One host's quality stack healthy | `scripts/daily-quality-rotate.sh` (host rotates daily; `QUALITY_REEVAL=0` at night) |
 | Curated SETPOP on fhirdev | `scripts/fhirdev-apply-setpop.sh` |
 | Inferno run | `scripts/inferno-run.py` (hosted Inferno, devfhir base) |
-| Weekly iris2 Inferno | `scripts/weekly-iris2-inferno.sh` (Sunday lane; patients 16–49; evidence under `2026/scorecards/inferno/weekly/`) |
+| Nightly Inferno rotation | `scripts/nightly-inferno-rotate.sh` (UTC day-of-year; showfhir DFNs 101258–101291, then iris2 DFNs 190–223; evidence under `2026/scorecards/inferno/nightly/`) |
+| Weekly iris2 Inferno | `scripts/weekly-iris2-inferno.sh` (manual; patients 190–223; evidence under `2026/scorecards/inferno/weekly/`) |
 
 cds1 (`cds-hooks-on-fhir`, CQL/quality-eval sidecar) may be called at any
 time, including unattended. Shared fleet servers may not be redeployed or
