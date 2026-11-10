@@ -8,11 +8,17 @@ charts later.
 These 34 bundles are what the public Show server returned for the
 US Quality Core v0.5.0 run that passed every test and skipped none.
 The suite was given all 34 patients in one session. No single chart
-holds every example. ZZWill Ford carries the medication administrations,
-ZZVera Ellis the coverage, ZZIvy Ford the pediatric and not-done
-immunization examples, and ZZNell Moss the remaining gap examples.
+holds every example. ZZAda Keene carries a previous name, a previous
+address, and the interpreter-needed extension. ZZWill Ford carries the
+medication administrations, ZZVera Ellis the coverage, ZZIvy Ford the
+pediatric and not-done immunization examples, and ZZNell Moss the
+remaining gap examples.
 
-Inferno session: https://inferno.healthit.gov/suites/us_quality_core_v050/2yWbChvQkWt
+Inferno session: https://inferno.healthit.gov/suites/us_quality_core_v050/Bq25iKdttn
+
+Re-exported 2026-11-09. The suite was 501 tests: all passed, none
+skipped. The same 34 charts passed on iris2 the same night:
+https://inferno.healthit.gov/suites/us_quality_core_v050/RxBg35ppZ3
 
 Each file is the served collection Bundle for that patient,
 `GET https://showfhir.vistaplex.org/fhir?dfn=` .

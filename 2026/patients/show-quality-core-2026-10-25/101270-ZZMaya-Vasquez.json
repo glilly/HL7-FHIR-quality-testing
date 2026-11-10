@@ -1,7 +1,7 @@
 {
   "entry": [
     {
-      "fullUrl": "urn:uuid:fe5ac56e-6dfd-4ebb-b356-d80411b3cdd6",
+      "fullUrl": "urn:uuid:a8c5796b-982e-4de2-98bd-6e0bd487e7f4",
       "resource": {
         "active": true,
         "address": [
@@ -125,7 +125,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:a81db27b-5a85-4c54-99bc-e1111bd7a544",
+      "fullUrl": "urn:uuid:703a628e-0191-43a8-b498-9edcf49b0973",
       "resource": {
         "class": {
           "code": "AMB",
@@ -312,7 +312,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:19939593-0b9b-47c1-8069-eea6a82bfcec",
+      "fullUrl": "urn:uuid:0770ca4c-b805-4419-aa3f-80aba034c4e7",
       "resource": {
         "address": [
           {
@@ -366,7 +366,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:317173b5-908f-4574-ae94-74b922b5963b",
+      "fullUrl": "urn:uuid:90c7c723-51e4-4142-8f9a-5957b0092751",
       "resource": {
         "active": true,
         "address": [
@@ -424,7 +424,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:298c7511-0a3b-44fc-938f-408480dee86d",
+      "fullUrl": "urn:uuid:c178fefc-2edf-4576-af65-4bc2b98dd473",
       "resource": {
         "address": {
           "city": "Albuquerque",
@@ -474,7 +474,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:6867e667-101d-490a-a102-01fcd09ed04d",
+      "fullUrl": "urn:uuid:2b363a71-2a0c-4b17-8798-40f69657c7c8",
       "resource": {
         "author": [
           {
@@ -553,7 +553,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:fa3da886-1ce4-4670-be06-6efa708c017a",
+      "fullUrl": "urn:uuid:bef077e3-2a6a-4fc4-af40-832197f4d613",
       "resource": {
         "class": {
           "code": "AMB",
@@ -715,7 +715,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:a790966d-e03d-4fd3-b7e4-18adfc4111c7",
+      "fullUrl": "urn:uuid:4a35acfe-72d5-4d24-a17a-dabdd903f5e3",
       "resource": {
         "class": {
           "code": "AMB",
@@ -896,7 +896,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:d58d391f-e2a2-49eb-9194-8e4635ca88fe",
+      "fullUrl": "urn:uuid:1afb2ad6-0b1d-4296-b3fb-767edf67e6f6",
       "resource": {
         "class": {
           "code": "AMB",
@@ -1058,7 +1058,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:d31fb791-9dae-4617-a6b1-e7bf58d745e7",
+      "fullUrl": "urn:uuid:1e23d4b3-3978-49a2-a166-f67569db68b5",
       "resource": {
         "class": {
           "code": "AMB",
@@ -1220,7 +1220,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:f9f78815-eaac-436f-bf68-5ecda8b008f3",
+      "fullUrl": "urn:uuid:96ccca00-559a-4ff1-b4b3-c9e4fceedbb0",
       "resource": {
         "class": {
           "code": "AMB",
@@ -1401,7 +1401,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:7392a410-75b1-4bcb-a46b-4c7372ac648f",
+      "fullUrl": "urn:uuid:30e79b34-5875-44a6-8016-d44c57b92c7b",
       "resource": {
         "class": {
           "code": "AMB",
@@ -1582,7 +1582,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:226ade9b-0341-4c10-82f8-3a2aec9a3d7e",
+      "fullUrl": "urn:uuid:3b8734ec-8347-4dcf-a8f0-584a71480a60",
       "resource": {
         "class": {
           "code": "AMB",
@@ -1744,7 +1744,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:862da01e-98be-4507-bb15-57790530e9f1",
+      "fullUrl": "urn:uuid:cc713524-96bd-4f04-bbb9-3fc0e203f27a",
       "resource": {
         "class": {
           "code": "AMB",
@@ -1925,7 +1925,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:2d9450e1-df2e-4a30-a98f-96e088198078",
+      "fullUrl": "urn:uuid:342efabb-bb4d-4ccf-8d09-cb67d99f7a50",
       "resource": {
         "class": {
           "code": "AMB",
@@ -2087,7 +2087,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:724394a1-7d25-4b08-9a38-ad65deec00fd",
+      "fullUrl": "urn:uuid:2de20d12-8f14-4b85-a343-10142abf5b39",
       "resource": {
         "class": {
           "code": "AMB",
@@ -2325,7 +2325,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:affd5011-6325-48ba-86f2-4e16cac077de",
+      "fullUrl": "urn:uuid:70471a0c-ad76-4fb7-8c61-73db97ccd168",
       "resource": {
         "author": [
           {
@@ -2404,7 +2404,154 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:6e259279-5dd7-4b00-b63b-87a8b9252577",
+      "fullUrl": "urn:uuid:e6e1d76c-a842-4f26-b697-430602f459e3",
+      "resource": {
+        "class": {
+          "code": "AMB",
+          "display": "ambulatory",
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode"
+        },
+        "hospitalization": {
+          "dischargeDisposition": {
+            "coding": [
+              {
+                "code": "home",
+                "display": "Home",
+                "system": "http://terminology.hl7.org/CodeSystem/discharge-disposition"
+              }
+            ],
+            "text": "Home"
+          }
+        },
+        "id": "E35712",
+        "identifier": [
+          {
+            "system": "urn:va:visit",
+            "value": "35712"
+          }
+        ],
+        "meta": {
+          "profile": [
+            "http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-encounter"
+          ]
+        },
+        "participant": [
+          {
+            "individual": {
+              "display": "PROGRAMMER,ONE",
+              "reference": "Practitioner/P1"
+            },
+            "period": {
+              "end": "2026-11-01T14:27:30Z",
+              "start": "2026-11-01T14:27:30Z"
+            },
+            "type": [
+              {
+                "coding": [
+                  {
+                    "code": "PPRF",
+                    "display": "primary performer",
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType"
+                  }
+                ],
+                "text": "primary performer"
+              }
+            ]
+          }
+        ],
+        "period": {
+          "end": "2026-11-01T14:27:30Z",
+          "start": "2026-11-01T14:27:30Z"
+        },
+        "priority": {
+          "coding": [
+            {
+              "code": "R",
+              "display": "routine",
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActPriority"
+            }
+          ],
+          "text": "routine"
+        },
+        "resourceType": "Encounter",
+        "serviceProvider": {
+          "display": "CAMP MASTER",
+          "reference": "Organization/STA500"
+        },
+        "status": "finished",
+        "subject": {
+          "display": "VASQUEZ,ZZMAYA",
+          "reference": "Patient/101270"
+        },
+        "text": {
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Encounter E35712</div>",
+          "status": "generated"
+        },
+        "type": [
+          {
+            "coding": [
+              {
+                "code": "185349003",
+                "display": "Encounter for check up",
+                "system": "http://snomed.info/sct"
+              }
+            ],
+            "text": "EVENT (HISTORICAL)"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:0ce7d744-ca10-498f-81a4-8d56da5317fc",
+      "resource": {
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "OTH",
+                "display": "Other",
+                "system": "http://terminology.hl7.org/CodeSystem/v2-0074"
+              }
+            ],
+            "text": "AI Consult"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "ai-consult",
+              "display": "AI Consult Diagnostic Report",
+              "system": "http://vistaplex.org/fhir/CodeSystem/report-category"
+            }
+          ],
+          "text": "AI Consult Diagnostic Report"
+        },
+        "encounter": {
+          "reference": "Encounter/E35712"
+        },
+        "id": "D25556",
+        "issued": "2026-11-01T14:27:30Z",
+        "performer": [
+          {
+            "display": "PROGRAMMER,ONE"
+          }
+        ],
+        "presentedForm": [
+          {
+            "contentType": "text/markdown",
+            "data": "QUkgQ29uc3VsdCAtIFF1YWxpdHkgR2FwIEFuYWx5c2lzIC0gQ01TMTY1djE0CgpDTVMxNjV2MTQ6IFF1YWxpdHkgQUkgQ29uc3VsdCBmb3VuZCBkZW5vbWluYXRvci9udW1lcmF0b3IgZ2FwcyBvciBmb2xsb3ctdXAKb3Bwb3J0dW5pdGllcyBmb3IgY2xpbmljaWFuIHJldmlldy4KQ29uY2x1c2lvbiBjb2RlOiBDTVMxNjV2MTQgQ29udHJvbGxpbmcgSGlnaCBCbG9vZCBQcmVzc3VyZQoKIyBRdWFsaXR5IEFJIENvbnN1bHQgLSBDTVMxNjV2MTQKCkNvbnRyb2xsaW5nIEhpZ2ggQmxvb2QgUHJlc3N1cmUKCkNNUzE2NXYxNDogUXVhbGl0eSBBSSBDb25zdWx0IGZvdW5kIGRlbm9taW5hdG9yL251bWVyYXRvciBnYXBzIG9yIGZvbGxvdy11cApvcHBvcnR1bml0aWVzIGZvciBjbGluaWNpYW4gcmV2aWV3LgoKIyMgUGljay1saXN0IGNhbmRpZGF0ZXMKCi0gUmVjb3JkIGEgY29udHJvbGxlZCBibG9vZCBwcmVzc3VyZSBmb3IgbnVtZXJhdG9yIChPYnNlcnZhdGlvbiwgbnVtZXJhdG9yKToKQ3VycmVudCBibG9vZCBwcmVzc3VyZSBldmlkZW5jZSBpcyBwcmVzZW50IGJ1dCBkb2VzIG5vdCBsb29rIGNvbnRyb2xsZWQKKDwxNDAvPDkwKS4gUmVjb3JkIGEgcmV2aWV3ZWQgY29udHJvbGxlZCByZWFkaW5nIHRvIHNhdGlzZnkgbnVtZXJhdG9yIGV2aWRlbmNlLgotIFJldmlldyBmb2xsb3ctdXAgZm9yIHVuY29udHJvbGxlZCBibG9vZCBwcmVzc3VyZSAoU2VydmljZVJlcXVlc3QsCnN1cHBvcnQtZXZpZGVuY2UpOiBPcHRpb25hbCBmb2xsb3ctdXAgcHJvbXB0LiBTZXJ2aWNlUmVxdWVzdCBmaWxpbmcgaXMgbm90IHlldAp3aXJlZCBvbiB0aGUgVmlzdEEgd3JpdGViYWNrIHBhdGg7IHByZWZlciByZWNvcmRpbmcgYSBjb250cm9sbGVkIEJQIGZvcgpudW1lcmF0b3IgY2xvc3VyZS4KClRoZXNlIGFjdGlvbnMgcmVxdWlyZSBjbGluaWNpYW4gcmV2aWV3IGJlZm9yZSBmaWxpbmcuCg==",
+            "title": "AI Consult Diagnostic Report"
+          }
+        ],
+        "resourceType": "DiagnosticReport",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/101270"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:4080a20b-9fff-4501-947b-2a630c86887a",
       "resource": {
         "category": [
           {
@@ -2485,7 +2632,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:f2a86512-20d2-48ba-9bb5-1fcdaed164d4",
+      "fullUrl": "urn:uuid:2a154b6b-4a71-488d-9042-8543d8528ee1",
       "resource": {
         "category": [
           {
@@ -2556,7 +2703,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:6d8b3459-be0c-4724-bcaa-d1423f895184",
+      "fullUrl": "urn:uuid:c8fb1359-b526-4784-b388-9b4589eba36b",
       "resource": {
         "category": [
           {
@@ -2627,7 +2774,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:d01c8452-e3f5-4908-99a7-db32eb28bf02",
+      "fullUrl": "urn:uuid:a4e01e2f-bea5-402b-a24b-fc5bbc9b3e3e",
       "resource": {
         "category": [
           {
@@ -2698,7 +2845,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:eb60bae3-82d1-4b0b-ada7-fe9e12ba9e1a",
+      "fullUrl": "urn:uuid:82803366-007c-47cf-809c-4315dbcb4edc",
       "resource": {
         "abatementDateTime": "2023-02-28",
         "category": [
@@ -2770,7 +2917,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:e86c1a96-b169-4289-86ad-e9c7eb54e6fe",
+      "fullUrl": "urn:uuid:4ef3803a-8238-4ff2-942e-084b370bb55f",
       "resource": {
         "abatementDateTime": "2026-10-06T14:00:00Z",
         "category": [
@@ -2838,7 +2985,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:6c882236-8a03-4beb-865d-108c77de8ca7",
+      "fullUrl": "urn:uuid:09ce7765-dfa5-49b4-aea5-d912ef63cbca",
       "resource": {
         "abatementDateTime": "2026-10-06T14:00:00Z",
         "category": [
@@ -2906,7 +3053,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:8074e792-ee9c-455a-9976-9bcf387e2dda",
+      "fullUrl": "urn:uuid:1e563930-3e87-4abb-a142-b172859734b7",
       "resource": {
         "abatementDateTime": "2026-03-10T14:00:00Z",
         "category": [
@@ -2974,7 +3121,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:35ba20d1-22e5-4857-9108-1d6f252bf30e",
+      "fullUrl": "urn:uuid:6081cd55-efb2-4271-8adf-fdad7f848d76",
       "resource": {
         "abatementDateTime": "2025-10-14T14:00:00Z",
         "category": [
@@ -3042,7 +3189,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:836cba82-0851-48e2-ad0b-6072b321f1c2",
+      "fullUrl": "urn:uuid:239ae917-726e-4947-ad5c-d2040330e301",
       "resource": {
         "abatementDateTime": "2025-10-14T14:00:00Z",
         "category": [
@@ -3110,7 +3257,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:b86742dc-6202-4e5c-99e7-d00a7089abc9",
+      "fullUrl": "urn:uuid:12e014c1-2fb8-4039-a086-fbd43731c439",
       "resource": {
         "abatementDateTime": "2025-10-12T14:00:00Z",
         "category": [
@@ -3178,7 +3325,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:4810a2ff-b27f-4f93-ab5a-6ac680ef5b02",
+      "fullUrl": "urn:uuid:9d84e6fb-35a4-465a-90b8-a3a11d5760e1",
       "resource": {
         "abatementDateTime": "2025-04-08T14:00:00Z",
         "category": [
@@ -3246,7 +3393,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:bfed3e29-ac78-4d47-b82a-b3143c8579ae",
+      "fullUrl": "urn:uuid:d638ed6e-fdf6-4981-9ecd-b610c92d13f2",
       "resource": {
         "abatementDateTime": "2024-10-15T14:00:00Z",
         "category": [
@@ -3314,7 +3461,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:6f4af374-3108-4fd8-929a-dae9093f86e1",
+      "fullUrl": "urn:uuid:2012c2ef-f452-4471-afab-b6743cc6c2e4",
       "resource": {
         "abatementDateTime": "2024-10-15T14:00:00Z",
         "category": [
@@ -3382,7 +3529,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:e37bd087-0ecb-448e-b7b6-02c51d0282f7",
+      "fullUrl": "urn:uuid:68c1532a-6bc4-4f54-95ef-50765532e1f8",
       "resource": {
         "abatementDateTime": "2023-10-17T14:00:00Z",
         "category": [
@@ -3450,7 +3597,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:3b89c397-2ccd-4937-9639-ffd2f6238263",
+      "fullUrl": "urn:uuid:deb66bb9-2fa3-4c5c-b19f-146e9c0869fa",
       "resource": {
         "abatementDateTime": "2023-10-17T14:00:00Z",
         "category": [
@@ -3518,7 +3665,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:0fc0e66f-ddf8-41de-b724-beba402e2376",
+      "fullUrl": "urn:uuid:83eceb86-ad99-4409-8df0-74e860f89a8b",
       "resource": {
         "abatementDateTime": "2023-02-14T18:30:00Z",
         "category": [
@@ -3586,7 +3733,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:66ecfac1-55ba-424b-a040-d6824d4f0311",
+      "fullUrl": "urn:uuid:c91089f4-11d9-4333-9d81-ec1abf121036",
       "resource": {
         "abatementDateTime": "2022-10-18T14:00:00Z",
         "category": [
@@ -3654,7 +3801,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:fcddef62-6fb8-416d-9afd-5e8f3df34e7c",
+      "fullUrl": "urn:uuid:692104d9-13db-492b-8183-0ce8d5fad12c",
       "resource": {
         "abatementDateTime": "2022-10-18T14:00:00Z",
         "category": [
@@ -3722,7 +3869,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:2d2087fd-4684-4418-8180-3a184291c79f",
+      "fullUrl": "urn:uuid:ce357959-5609-4219-86de-8659e379611d",
       "resource": {
         "abatementDateTime": "2022-05-08T09:00:00Z",
         "category": [
@@ -3790,7 +3937,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:fdfbe031-6fe5-4dc6-bbc9-faa8fda25a7a",
+      "fullUrl": "urn:uuid:bb541bcf-396c-4eb9-9d1b-75abb6eb665f",
       "resource": {
         "abatementDateTime": "2021-10-12T14:00:00Z",
         "category": [
@@ -3858,7 +4005,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:40cc91fa-716e-48fb-866d-d29cc82d41b5",
+      "fullUrl": "urn:uuid:7f43d82f-dfc9-440d-b10d-3c02361963fb",
       "resource": {
         "abatementDateTime": "2021-10-12T14:00:00Z",
         "category": [
@@ -3926,7 +4073,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:8c4fa8a8-300b-47ee-8424-0528fcdb9489",
+      "fullUrl": "urn:uuid:3c455109-4604-4db8-b3e3-22db478dfd3a",
       "resource": {
         "abatementDateTime": "2021-10-12T14:00:00Z",
         "category": [
@@ -3994,7 +4141,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:c7ed86fb-c938-4190-9e69-62019e7020cf",
+      "fullUrl": "urn:uuid:aa6d5d27-381c-4117-988a-1c98aadfe169",
       "resource": {
         "abatementDateTime": "2021-10-12T14:00:00Z",
         "category": [
@@ -4062,7 +4209,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:1bc2a536-f424-4a3c-bcd1-356399e1466a",
+      "fullUrl": "urn:uuid:217064b4-39f2-4001-a0d8-9ccd7d2cdb3a",
       "resource": {
         "abatementDateTime": "2021-10-12T14:00:00Z",
         "category": [
@@ -4130,7 +4277,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:4182562a-6c03-4c44-96e5-24390b3a9c12",
+      "fullUrl": "urn:uuid:a55df125-9d0f-4f26-bd2f-ee17ef2d357b",
       "resource": {
         "category": [
           {
@@ -4208,7 +4355,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:c75b307f-59e0-4fae-bb9b-ff0ccd1b6b0d",
+      "fullUrl": "urn:uuid:6f25d81d-35eb-42f2-824c-b62323fdf737",
       "resource": {
         "category": [
           {
@@ -4256,7 +4403,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:41740a18-7dfe-43be-abc1-c39c4fbd6b6f",
+      "fullUrl": "urn:uuid:4c92cbbb-a724-49a6-b48f-dcddfe5ac3eb",
       "resource": {
         "category": [
           {
@@ -4304,7 +4451,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:14898c48-0a5d-489f-9934-60b66d4ea3cf",
+      "fullUrl": "urn:uuid:2c901218-73f5-42ad-a4bb-bff5bfeecba8",
       "resource": {
         "category": [
           {
@@ -4352,7 +4499,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:f2e42eef-c9f3-4ce8-9609-545deaaaae87",
+      "fullUrl": "urn:uuid:ea459369-f95b-4c1a-beb3-697469b76bb6",
       "resource": {
         "category": [
           {
@@ -4430,7 +4577,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:eb1a2678-9ea5-4284-8ca8-bf4cd6580d7b",
+      "fullUrl": "urn:uuid:ec5da12f-cb42-4f97-be3f-63c9713baedb",
       "resource": {
         "category": [
           {
@@ -4478,7 +4625,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:b1b4b59b-68cc-4b41-bac3-230ed76393ef",
+      "fullUrl": "urn:uuid:82c698ee-6cf3-44fa-9cf6-a9eb80191f83",
       "resource": {
         "category": [
           {
@@ -4526,7 +4673,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:6bc94e3e-716b-4459-9519-5d2a9c8fec5e",
+      "fullUrl": "urn:uuid:d13d9954-44b8-4d48-937d-65f279a2e5d3",
       "resource": {
         "category": [
           {
@@ -4574,7 +4721,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:125c5155-bf30-4b9e-957e-5865ac345b78",
+      "fullUrl": "urn:uuid:70b68522-01ef-454e-aaa6-0d8b515986c4",
       "resource": {
         "category": [
           {
@@ -4652,7 +4799,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:2fa9b7b3-f6f5-4932-a8c8-2789d945f438",
+      "fullUrl": "urn:uuid:00d825e9-44ba-4a60-9a19-f6c98ddb3443",
       "resource": {
         "category": [
           {
@@ -4700,7 +4847,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:25edf775-b732-448b-9dae-1ca8a995bd43",
+      "fullUrl": "urn:uuid:830961c8-58c4-479d-a340-73444897bbb7",
       "resource": {
         "category": [
           {
@@ -4748,7 +4895,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:85b5e84a-a02c-43c7-989a-9e236ccc38ab",
+      "fullUrl": "urn:uuid:9a35afd6-d865-4412-9fe3-009d496165ed",
       "resource": {
         "category": [
           {
@@ -4796,7 +4943,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:cd7e2966-40a9-48b7-beda-0bedcf92f951",
+      "fullUrl": "urn:uuid:36e63b5a-1f5b-4541-b1b9-ca58ef925cb2",
       "resource": {
         "category": [
           {
@@ -4874,7 +5021,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:537e36c8-39ed-4df7-a4a8-814af9913446",
+      "fullUrl": "urn:uuid:71920d27-bc83-4322-b636-ba4c0f17ba4b",
       "resource": {
         "category": [
           {
@@ -4922,7 +5069,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:e332151d-6a88-422e-ae7f-24dffd162a73",
+      "fullUrl": "urn:uuid:9aa525f9-8db0-444f-bea8-21bc8d0cdfb1",
       "resource": {
         "category": [
           {
@@ -4970,7 +5117,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:f520babd-2f92-497b-a88d-ad7b6089d6dd",
+      "fullUrl": "urn:uuid:d75b7b8b-5d01-494d-b589-abb54fdac5bb",
       "resource": {
         "category": [
           {
@@ -5018,7 +5165,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:acf9d5e2-5be9-4cfa-9197-62835a393060",
+      "fullUrl": "urn:uuid:771e527e-3c38-4b2a-8d0b-6f77c2b428a8",
       "resource": {
         "category": [
           {
@@ -5096,7 +5243,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:0a221ce9-eb41-43fd-a51c-ba26ee4bfbbc",
+      "fullUrl": "urn:uuid:0512a6cc-c7de-46e5-964f-438d7d5d3fb9",
       "resource": {
         "category": [
           {
@@ -5144,7 +5291,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:32fc6919-25fe-46d7-8b5a-93da1019e75b",
+      "fullUrl": "urn:uuid:68730141-32f3-4dcf-8b3a-9fdc7cb57290",
       "resource": {
         "category": [
           {
@@ -5192,7 +5339,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:e3f67fbe-f291-4828-bba0-56105ea856ad",
+      "fullUrl": "urn:uuid:84f35f9d-6ce4-4dd7-9e3f-656ec7b7cb5f",
       "resource": {
         "category": [
           {
@@ -5240,7 +5387,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:b36cd6ad-5e22-4b7a-8f26-1460ea746317",
+      "fullUrl": "urn:uuid:530c9ed8-727b-4669-9b8d-5eb884631304",
       "resource": {
         "category": [
           {
@@ -5318,7 +5465,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:bedeb67b-7b49-4fdd-813d-3ab09d5892ee",
+      "fullUrl": "urn:uuid:cccb33d2-2eec-49be-b5c6-b6501393cd85",
       "resource": {
         "category": [
           {
@@ -5366,7 +5513,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:ae5ef972-0044-4197-b138-57d5fd76df49",
+      "fullUrl": "urn:uuid:1927c673-fa1f-4fec-b478-5b0f3204a728",
       "resource": {
         "category": [
           {
@@ -5414,7 +5561,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:19d3faf9-20d8-47a1-959d-72e648f60fee",
+      "fullUrl": "urn:uuid:ca21a4cc-37e5-468c-be3c-feb0b3a89e41",
       "resource": {
         "category": [
           {
@@ -5467,7 +5614,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:70bd8b2c-f14c-49e2-9aad-c734e469a120",
+      "fullUrl": "urn:uuid:21ee9c9b-579d-4cd1-a814-6b032deeb7db",
       "resource": {
         "category": [
           {
@@ -5515,7 +5662,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:77e8208b-cbaf-4cc6-8e6d-e031004bfd84",
+      "fullUrl": "urn:uuid:b0b499ef-d2b0-4e86-8d93-1e974fda6982",
       "resource": {
         "category": [
           {
@@ -5563,7 +5710,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:46091e5f-6f73-431f-a696-bc8a6ae7b228",
+      "fullUrl": "urn:uuid:422f5c3d-7cd5-4ea7-b05f-f4885a108a4f",
       "resource": {
         "category": [
           {
@@ -5641,7 +5788,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:85ee1319-c1dc-4960-8bca-a046f16d004f",
+      "fullUrl": "urn:uuid:2ef2d36b-1cc3-4109-a752-ed98683c4a83",
       "resource": {
         "category": [
           {
@@ -5689,7 +5836,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:d0d436d8-419d-4c4d-b3f3-5e0ec8c1566d",
+      "fullUrl": "urn:uuid:c76eadac-edd8-4501-a5d6-11764613a3a6",
       "resource": {
         "category": [
           {
@@ -5737,7 +5884,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:4ad00b1e-badd-4e48-a57c-ab675cfcc8e7",
+      "fullUrl": "urn:uuid:c18db716-f8fd-489b-9243-64f5c974cb46",
       "resource": {
         "category": [
           {
@@ -5785,7 +5932,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:d98c7fd2-c562-495d-8d2e-10b2329822d9",
+      "fullUrl": "urn:uuid:ddcdb17d-b38b-4a90-8722-e7d8bbff921d",
       "resource": {
         "category": [
           {
@@ -5863,7 +6010,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:4f427a03-04c9-4f34-a287-17cec7598976",
+      "fullUrl": "urn:uuid:2417a463-6f16-4208-84df-3bacc1702669",
       "resource": {
         "category": [
           {
@@ -5911,7 +6058,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:6062a7c7-7947-4ca9-ba50-574e0c7fb731",
+      "fullUrl": "urn:uuid:288716cf-3ef0-48e0-8500-8efdfb0f1693",
       "resource": {
         "category": [
           {
@@ -5959,7 +6106,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:ddd91fb1-1933-420a-8a65-dc1fad8aebc6",
+      "fullUrl": "urn:uuid:8b7e8f79-7766-4fbc-a44a-69ee65f949a1",
       "resource": {
         "category": [
           {
@@ -6007,7 +6154,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:d14f6bf7-c137-44fb-b0a6-a6b615f6bd49",
+      "fullUrl": "urn:uuid:a4a7700b-8b99-40e6-9a5e-15f4d4317de4",
       "resource": {
         "category": [
           {
@@ -6085,7 +6232,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:5e94cfe2-d56a-466d-8ce6-8f9a1995a531",
+      "fullUrl": "urn:uuid:c759d153-5d2e-4f68-92ba-ccdcedf5d8e3",
       "resource": {
         "category": [
           {
@@ -6133,7 +6280,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:0c5747c2-fdae-46cc-875c-27078d32464e",
+      "fullUrl": "urn:uuid:df5a138e-d756-488f-a5f7-28f3a95846fd",
       "resource": {
         "category": [
           {
@@ -6181,7 +6328,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:1d7b172a-ef97-42c1-8a75-0ac6f935eeba",
+      "fullUrl": "urn:uuid:7badff3e-19f8-486c-9789-48ef1318d30b",
       "resource": {
         "category": [
           {
@@ -6229,7 +6376,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:41e7d095-9a94-4d74-90e9-ddfa6743c3d5",
+      "fullUrl": "urn:uuid:43909347-5f4f-4238-be21-9315a11aeecf",
       "resource": {
         "category": [
           {
@@ -6284,7 +6431,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:6cf7bec7-8cf6-4559-a841-c92d15d74713",
+      "fullUrl": "urn:uuid:c7d416ba-3055-49a0-8f91-ff6de8d870e0",
       "resource": {
         "category": [
           "medication"
@@ -6326,7 +6473,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:5f37c168-07a0-443c-aea8-909a917a0733",
+      "fullUrl": "urn:uuid:73053d2e-3bcd-4b9d-8000-61fe8bdfb7d6",
       "resource": {
         "category": [
           "medication"
@@ -6387,7 +6534,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:72317591-ce71-4246-a134-3a4607c6dfd6",
+      "fullUrl": "urn:uuid:235edb22-0de4-4f53-9fe3-7806c0cea921",
       "resource": {
         "authoredOn": "2026-10-26T05:56:33Z",
         "category": [
@@ -6513,7 +6660,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:d698f4a6-fb47-40e9-b1ac-80e19d9e539a",
+      "fullUrl": "urn:uuid:ebe61dab-0097-4b88-a1c3-74ec7032db57",
       "resource": {
         "authoredOn": "2026-10-26T05:56:33Z",
         "category": [
@@ -6639,7 +6786,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:0efe8305-2619-44e4-b8f7-380c86c7eeeb",
+      "fullUrl": "urn:uuid:ba990e74-dc0d-4d6a-9d68-63594992674f",
       "resource": {
         "authoredOn": "2026-10-26T05:56:33Z",
         "category": [
@@ -6765,7 +6912,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:4efc8e8e-33ae-4f9d-82ef-65e1d6d06f9f",
+      "fullUrl": "urn:uuid:ad372883-3733-470e-b958-4fa763e23a90",
       "resource": {
         "authoredOn": "2026-10-26T05:56:34Z",
         "category": [
@@ -6891,7 +7038,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:5f0c0b68-6dab-49fb-927f-6a25b36d89a1",
+      "fullUrl": "urn:uuid:d383e298-6faf-441f-b3a4-4a1c075909ab",
       "resource": {
         "authoredOn": "2026-10-26T05:56:34Z",
         "category": [
@@ -7017,7 +7164,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:38a33d34-1acb-4fe5-95b2-52da020027c1",
+      "fullUrl": "urn:uuid:e1d78674-3453-4171-a8a7-0e432922f660",
       "resource": {
         "encounter": {
           "reference": "Encounter/E34781"
@@ -7076,7 +7223,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:b5cd33d0-0613-4d4b-b07d-546d5ddf0777",
+      "fullUrl": "urn:uuid:2f5b85e3-abfc-45b9-9f5f-74e0f781f0e5",
       "resource": {
         "encounter": {
           "reference": "Encounter/E34779"
@@ -7125,7 +7272,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:87d5793d-27c4-47ff-9a49-874674cabf81",
+      "fullUrl": "urn:uuid:bf060c19-1c80-431e-8761-d9519dd0d347",
       "resource": {
         "encounter": {
           "reference": "Encounter/E34777"
@@ -7174,7 +7321,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:10a7c3bb-9ce6-41ec-80b7-ace95ae8eb60",
+      "fullUrl": "urn:uuid:74eb4cf1-ae41-4148-9fe6-a0dc3dfaa74e",
       "resource": {
         "encounter": {
           "reference": "Encounter/E34775"
@@ -7223,7 +7370,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:b18f0bec-d904-4a1a-a59b-c8958519a408",
+      "fullUrl": "urn:uuid:417eae03-7113-47d2-9923-ee96e4fbd28d",
       "resource": {
         "encounter": {
           "reference": "Encounter/E34775"
@@ -7272,7 +7419,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:e6a2ac91-c666-4e98-ab80-9882d0d66d11",
+      "fullUrl": "urn:uuid:3b68830c-02fb-4d7d-8024-b73c1b60ccda",
       "resource": {
         "encounter": {
           "reference": "Encounter/E34773"
@@ -7321,7 +7468,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:32bab357-71e6-4f75-b5e4-61451b8b0506",
+      "fullUrl": "urn:uuid:19dd26aa-cc01-4a38-ba7f-f70a8ce9f87a",
       "resource": {
         "encounter": {
           "reference": "Encounter/E34771"
@@ -7370,7 +7517,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:770b866c-f410-4e1f-a7ba-4cad5e933d60",
+      "fullUrl": "urn:uuid:8709719a-6229-4cd0-a893-8ab6261852d4",
       "resource": {
         "category": {
           "text": "coded procedure"
@@ -7386,7 +7533,7 @@
           "text": "Psychiatric follow-up (procedure)"
         },
         "encounter": {
-          "reference": "urn:uuid:a81db27b-5a85-4c54-99bc-e1111bd7a544"
+          "reference": "urn:uuid:703a628e-0191-43a8-b498-9edcf49b0973"
         },
         "id": "CPT-40508",
         "identifier": [
@@ -7404,7 +7551,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:893a38c6-613e-4843-927d-7797c73acc98",
+      "fullUrl": "urn:uuid:ccd75da7-fd2d-40c6-858c-66f7001ae8d9",
       "resource": {
         "category": {
           "text": "coded procedure"
@@ -7420,7 +7567,7 @@
           "text": "Mammography (procedure)"
         },
         "encounter": {
-          "reference": "urn:uuid:d58d391f-e2a2-49eb-9194-8e4635ca88fe"
+          "reference": "urn:uuid:1afb2ad6-0b1d-4296-b3fb-767edf67e6f6"
         },
         "id": "CPT-40506",
         "identifier": [
@@ -7438,7 +7585,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:4e6a5ca4-dee3-4daf-9671-1b444a295e43",
+      "fullUrl": "urn:uuid:998375dd-a631-4b7c-addc-818680919cb4",
       "resource": {
         "category": {
           "text": "coded procedure"
@@ -7454,7 +7601,7 @@
           "text": "Diabetic retinal eye exam (procedure)"
         },
         "encounter": {
-          "reference": "urn:uuid:d31fb791-9dae-4617-a6b1-e7bf58d745e7"
+          "reference": "urn:uuid:1e23d4b3-3978-49a2-a166-f67569db68b5"
         },
         "id": "CPT-40507",
         "identifier": [
@@ -7472,7 +7619,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:3b99d80e-756c-4d3d-907a-cc1d03eed421",
+      "fullUrl": "urn:uuid:4fd6a0cd-f070-43cf-8143-ac11d8b97a2f",
       "resource": {
         "category": {
           "text": "coded procedure"
@@ -7488,7 +7635,7 @@
           "text": "Colonoscopy"
         },
         "encounter": {
-          "reference": "urn:uuid:2d9450e1-df2e-4a30-a98f-96e088198078"
+          "reference": "urn:uuid:342efabb-bb4d-4ccf-8d09-cb67d99f7a50"
         },
         "id": "CPT-40505",
         "identifier": [
@@ -11926,7 +12073,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:5d0041ae-d49c-4df9-b4ad-e280aafc282a",
+      "fullUrl": "urn:uuid:e4796c36-ee50-4dc5-9c42-a63b02a38303",
       "resource": {
         "active": true,
         "address": [
@@ -13316,7 +13463,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:34078f06-12e9-4564-a17d-617ed296982e",
+      "fullUrl": "urn:uuid:7591147a-3163-466c-b400-8869f60d7b6a",
       "resource": {
         "category": [
           {
@@ -13378,7 +13525,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:9d3aa19e-d5f5-444e-9fb1-328f544b4bf8",
+      "fullUrl": "urn:uuid:16d23e37-4f56-41f3-babc-315c90e32288",
       "resource": {
         "collection": {
           "collectedDateTime": "2026-10-06T08:00:06Z"
@@ -13402,7 +13549,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:bcf0879c-b352-4d20-9bad-8d3f634e9eb3",
+      "fullUrl": "urn:uuid:eab4fb6c-e710-40dc-b451-d3f0edf32cc0",
       "resource": {
         "category": [
           {
@@ -13459,7 +13606,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:b0293a7b-7ea8-4be4-9c46-fbf4e40d354a",
+      "fullUrl": "urn:uuid:06c93b5e-cc93-40e0-b4b2-c458f51a9aa8",
       "resource": {
         "collection": {
           "collectedDateTime": "2026-10-06T08:00:05Z"
@@ -13483,7 +13630,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:85c7393c-6a99-4064-b7cd-f941dd4055c9",
+      "fullUrl": "urn:uuid:d25c1ec8-8407-4683-bd04-f65a59837da4",
       "resource": {
         "category": [
           {
@@ -13540,7 +13687,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:beddcb73-96d8-4a10-8a60-393e961ddf28",
+      "fullUrl": "urn:uuid:edc0f606-cee7-4185-9366-90f2b33e3d3e",
       "resource": {
         "collection": {
           "collectedDateTime": "2026-10-06T08:00:04Z"
@@ -13564,7 +13711,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:2828cc9a-9427-4d93-bd8a-8bbabb0f0438",
+      "fullUrl": "urn:uuid:8f12e12b-2491-4864-a80b-458f43d1ca5b",
       "resource": {
         "category": [
           {
@@ -13626,7 +13773,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:33b0440c-a4c5-425d-ab71-921f3c930ce2",
+      "fullUrl": "urn:uuid:0a1d819a-f9a3-4e91-93a9-8b125c00a55d",
       "resource": {
         "collection": {
           "collectedDateTime": "2026-10-06T08:00:03Z"
@@ -13650,7 +13797,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:dd18d8e6-0d87-49d1-8be9-ef291475af87",
+      "fullUrl": "urn:uuid:86161947-91ba-4bf2-afca-dffc40334b33",
       "resource": {
         "category": [
           {
@@ -13713,7 +13860,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:589ffbc9-0151-4f10-9599-9d65fc25b8a7",
+      "fullUrl": "urn:uuid:82cdef3d-4106-44ba-af64-66558aa114f2",
       "resource": {
         "collection": {
           "collectedDateTime": "2026-10-06T08:00:02Z"
@@ -13737,7 +13884,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:27c85749-5f58-4cf0-b9ab-c27102913a2c",
+      "fullUrl": "urn:uuid:3cfc354b-703b-4f30-b1a5-0d004f764444",
       "resource": {
         "category": [
           {
@@ -13799,7 +13946,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:de728c08-16b4-4701-803f-122d729b6f3c",
+      "fullUrl": "urn:uuid:51665f82-f914-47ba-9600-ee90d96b8e15",
       "resource": {
         "collection": {
           "collectedDateTime": "2026-10-06T08:00:01Z"
@@ -13823,7 +13970,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:6d03d60d-3a7b-4bb0-b3dc-34714994e9b7",
+      "fullUrl": "urn:uuid:6c452483-70af-4d77-9b87-4be4d515674f",
       "resource": {
         "category": [
           {
@@ -13886,7 +14033,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:e5e96ab2-292a-4d66-aa90-f0a318fe9665",
+      "fullUrl": "urn:uuid:6bfa5c90-b623-4cbe-9291-8ada2c3b0ed3",
       "resource": {
         "collection": {
           "collectedDateTime": "2026-10-06T08:00:00Z"
@@ -13910,7 +14057,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:68d75ce3-eb3e-47c3-be48-d91995271b84",
+      "fullUrl": "urn:uuid:11198f66-7790-4b0d-98ef-a63cd47ec083",
       "resource": {
         "category": [
           {
@@ -13967,7 +14114,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:20bab783-ce15-444e-8932-d2bf4e07f9af",
+      "fullUrl": "urn:uuid:24f6767c-1d3b-4e5f-b912-099b72dda62c",
       "resource": {
         "collection": {
           "collectedDateTime": "2026-03-10T08:00:05Z"
@@ -13991,7 +14138,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:f673bb3f-b309-4f48-b9f8-b01116a419bc",
+      "fullUrl": "urn:uuid:f6322d87-cbab-40ef-88ad-0c57d15f3e2c",
       "resource": {
         "category": [
           {
@@ -14048,7 +14195,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:3b796b03-65e8-406a-b8ee-67fd60a10e05",
+      "fullUrl": "urn:uuid:3cf4874a-8a6a-486f-8308-be9081588bba",
       "resource": {
         "collection": {
           "collectedDateTime": "2026-03-10T08:00:04Z"
@@ -14072,7 +14219,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:a516cdcd-72d9-4ff2-8e7d-6e62489cbfa4",
+      "fullUrl": "urn:uuid:b93936c9-2f8b-4e63-b0d7-320c7ad7c75e",
       "resource": {
         "category": [
           {
@@ -14134,7 +14281,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:a55c5af4-2bbe-4ae1-ab58-375317ad5f8f",
+      "fullUrl": "urn:uuid:7da89f94-a1dc-4d99-b848-a0ac0aff5ed4",
       "resource": {
         "collection": {
           "collectedDateTime": "2026-03-10T08:00:03Z"
@@ -14158,7 +14305,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:9ea71e87-b859-485f-9e2f-f72b5c80f5ef",
+      "fullUrl": "urn:uuid:5f3fdd60-4a93-4229-847a-ece1ab07300d",
       "resource": {
         "category": [
           {
@@ -14221,7 +14368,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:d2048a3c-d5f2-4736-8bd9-fca272f57a96",
+      "fullUrl": "urn:uuid:79db8634-1fb0-471b-9769-6b34e585d864",
       "resource": {
         "collection": {
           "collectedDateTime": "2026-03-10T08:00:02Z"
@@ -14245,7 +14392,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:872d690a-ffb7-4f59-beaf-3e536bcab6ea",
+      "fullUrl": "urn:uuid:57f923cb-9708-4dff-82fe-13a4fde1bed5",
       "resource": {
         "category": [
           {
@@ -14307,7 +14454,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:e6563a6c-e173-4a86-b837-5cf926bec390",
+      "fullUrl": "urn:uuid:9ad74168-4f9a-409e-aee3-95ed9f7d54a1",
       "resource": {
         "collection": {
           "collectedDateTime": "2026-03-10T08:00:01Z"
@@ -14331,7 +14478,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:93617542-ca5c-4a87-9104-6b840b3b8733",
+      "fullUrl": "urn:uuid:8596d57f-714c-4a94-b9fc-db7260563067",
       "resource": {
         "category": [
           {
@@ -14394,7 +14541,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:db3cd3bc-22ab-4b3a-983b-c6956b33009d",
+      "fullUrl": "urn:uuid:b69b2d4f-e572-4b04-b0b1-9bdfaee186f5",
       "resource": {
         "collection": {
           "collectedDateTime": "2026-03-10T08:00:00Z"
@@ -14418,7 +14565,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:2fa615a4-1610-45d9-af25-004a211b8d65",
+      "fullUrl": "urn:uuid:73160767-c02b-48cc-a871-448496233251",
       "resource": {
         "category": [
           {
@@ -14480,7 +14627,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:1d9d4005-61ed-4a45-be3e-16f44092c30d",
+      "fullUrl": "urn:uuid:1109e8a7-aece-4ede-b1f9-0e93b4dd6907",
       "resource": {
         "collection": {
           "collectedDateTime": "2025-10-14T08:00:06Z"
@@ -14504,7 +14651,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:00df772e-926f-4c82-8622-782d010d9ebc",
+      "fullUrl": "urn:uuid:29694980-8c93-41eb-8580-89685051d109",
       "resource": {
         "category": [
           {
@@ -14561,7 +14708,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:674e8c01-3464-484f-99d1-70d1174c4982",
+      "fullUrl": "urn:uuid:665b3f45-792b-4113-b526-f3f0f1390a0c",
       "resource": {
         "collection": {
           "collectedDateTime": "2025-10-14T08:00:05Z"
@@ -14585,7 +14732,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:eb96f902-3005-4854-b7c3-923b48692dcb",
+      "fullUrl": "urn:uuid:4e6b91a8-c00c-46b1-9591-b287acd8493a",
       "resource": {
         "category": [
           {
@@ -14642,7 +14789,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:dcd06be6-e04f-4c20-95b1-566fa97a7781",
+      "fullUrl": "urn:uuid:8961f488-b59c-47c2-810d-011a91ed700d",
       "resource": {
         "collection": {
           "collectedDateTime": "2025-10-14T08:00:04Z"
@@ -14666,7 +14813,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:1b67fbdd-b1e1-4ddb-9779-5717a65ae2b5",
+      "fullUrl": "urn:uuid:8eb0ab7b-9d32-4ed3-99ea-94e55acbbf2d",
       "resource": {
         "category": [
           {
@@ -14723,7 +14870,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:f49b5ee6-30a0-46fc-88d0-cc391fcbc2e5",
+      "fullUrl": "urn:uuid:cf63ac8f-26ec-42b2-8888-43d44d5e389a",
       "resource": {
         "collection": {
           "collectedDateTime": "2025-10-14T08:00:03Z"
@@ -14747,7 +14894,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:db2a6d2c-733b-4211-a94e-ce8dc476cc51",
+      "fullUrl": "urn:uuid:ec912aa0-24ab-43c7-ae03-20cae1dd45b2",
       "resource": {
         "category": [
           {
@@ -14810,7 +14957,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:9b7a4142-0c9e-4d7a-87f9-658b219b3751",
+      "fullUrl": "urn:uuid:178ce26c-6bc3-475b-ba28-99110d2e6e70",
       "resource": {
         "collection": {
           "collectedDateTime": "2025-10-14T08:00:02Z"
@@ -14834,7 +14981,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:55302e14-3eee-426f-90d5-03445146b80e",
+      "fullUrl": "urn:uuid:78a2b56d-4a23-406f-a83f-a79b0425087d",
       "resource": {
         "category": [
           {
@@ -14896,7 +15043,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:0396e69b-01f8-494c-ae65-f6a9d803e068",
+      "fullUrl": "urn:uuid:22c8a7dc-419d-4338-b8c4-21975bef4fc3",
       "resource": {
         "collection": {
           "collectedDateTime": "2025-10-14T08:00:01Z"
@@ -14920,7 +15067,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:e555f58c-0e1b-4d6c-93d5-85cd1e31afe9",
+      "fullUrl": "urn:uuid:f4383844-d46d-4179-8fc4-6422b3f82a20",
       "resource": {
         "category": [
           {
@@ -14983,7 +15130,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:5f619687-7007-4644-a9b2-c1a3e9102444",
+      "fullUrl": "urn:uuid:c168b97d-ca2e-4b18-a447-930420a94eb1",
       "resource": {
         "collection": {
           "collectedDateTime": "2025-10-14T08:00:00Z"
@@ -15007,7 +15154,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:5ce63563-ed5c-4658-90a3-423cda74d590",
+      "fullUrl": "urn:uuid:f14ea148-889a-41e8-9c6b-d08585031f91",
       "resource": {
         "category": [
           {
@@ -15070,7 +15217,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:9aace957-c67d-4bc9-8f99-6b9b582fc5e1",
+      "fullUrl": "urn:uuid:9587223d-922c-43ed-aab0-b34c0898a02d",
       "resource": {
         "collection": {
           "collectedDateTime": "2024-10-15T08:00:08Z"
@@ -15094,7 +15241,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:5a0bdb70-45bc-4a1c-83dc-e3c3cc6ce083",
+      "fullUrl": "urn:uuid:31d84117-622e-44a5-8c99-b01086d60904",
       "resource": {
         "category": [
           {
@@ -15144,7 +15291,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:f6748817-916a-455b-8560-8ec6fa49d4b5",
+      "fullUrl": "urn:uuid:8b5a4238-c768-4621-9eff-103f6f3feba2",
       "resource": {
         "collection": {
           "collectedDateTime": "2024-10-15T08:00:07Z"
@@ -15168,7 +15315,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:e87db24d-a2fa-44fc-a2b8-3a1dd38f49ab",
+      "fullUrl": "urn:uuid:3b175b79-c382-409b-9dcb-eb4b8ea5fb2b",
       "resource": {
         "category": [
           {
@@ -15230,7 +15377,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:d45ee426-7cee-4a2a-a450-13efb3a8d9e7",
+      "fullUrl": "urn:uuid:79cc7762-e410-4018-a22a-31d6c8a6c695",
       "resource": {
         "collection": {
           "collectedDateTime": "2024-10-15T08:00:06Z"
@@ -15254,7 +15401,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:d3911128-fcb9-42f8-9a7c-4e4308a5c3e9",
+      "fullUrl": "urn:uuid:8ad9151a-cd28-426a-bf5c-e6d78abb88a7",
       "resource": {
         "category": [
           {
@@ -15311,7 +15458,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:eaefd2b5-cb65-4c0a-9f76-a651aadf3a5e",
+      "fullUrl": "urn:uuid:519e6b7a-ea53-4fd3-a737-af0e8c192e21",
       "resource": {
         "collection": {
           "collectedDateTime": "2024-10-15T08:00:05Z"
@@ -15335,7 +15482,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:4a6caf65-38a4-4a09-b5ad-4c04a2a7400f",
+      "fullUrl": "urn:uuid:4293d52b-9fbb-4add-a92f-74cc7ab89ba3",
       "resource": {
         "category": [
           {
@@ -15392,7 +15539,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:b72c0ae1-d19b-413e-94f0-ce9db11810da",
+      "fullUrl": "urn:uuid:258f4c1b-1454-40c7-96b4-d91972bb0530",
       "resource": {
         "collection": {
           "collectedDateTime": "2024-10-15T08:00:04Z"
@@ -15416,7 +15563,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:fb2924fc-bcde-4b17-81ca-44c17db72d67",
+      "fullUrl": "urn:uuid:6a41d6bc-0197-4b66-a7cd-3dd62f01a7e0",
       "resource": {
         "category": [
           {
@@ -15478,7 +15625,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:f2e85f46-6513-496b-8af0-f51eb332d6ad",
+      "fullUrl": "urn:uuid:bf637edd-a24a-4161-bc28-08679298fa35",
       "resource": {
         "collection": {
           "collectedDateTime": "2024-10-15T08:00:03Z"
@@ -15502,7 +15649,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:5d1b0894-c561-44bc-b2da-d235b8f9d24a",
+      "fullUrl": "urn:uuid:3788fb00-f9a2-40ab-9186-4309c24d0ae5",
       "resource": {
         "category": [
           {
@@ -15565,7 +15712,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:93471763-fc8d-4c58-ac36-7269f0a99c55",
+      "fullUrl": "urn:uuid:fafc9ce8-05ce-4454-8791-73c9ea4eaa37",
       "resource": {
         "collection": {
           "collectedDateTime": "2024-10-15T08:00:02Z"
@@ -15589,7 +15736,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:45c0bc2a-963d-4dcf-9cdd-922a7ac65849",
+      "fullUrl": "urn:uuid:ef677c88-ad77-464f-9b0c-c5b89d948d00",
       "resource": {
         "category": [
           {
@@ -15646,7 +15793,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:7598af3c-9789-4b29-9473-022d6971b8bd",
+      "fullUrl": "urn:uuid:4d5e2008-2e27-415f-a416-97879d58a919",
       "resource": {
         "collection": {
           "collectedDateTime": "2024-10-15T08:00:01Z"
@@ -15670,7 +15817,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:81b5c87a-1aec-4fe1-bfa4-31cf6b278426",
+      "fullUrl": "urn:uuid:29fd40ec-6285-41b4-92ba-617798722a17",
       "resource": {
         "category": [
           {
@@ -15733,7 +15880,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:90a49244-f13d-4322-acb0-e2ffb3afc6dc",
+      "fullUrl": "urn:uuid:1258977b-6b6f-49ff-99b1-ed48e9dfc7b3",
       "resource": {
         "collection": {
           "collectedDateTime": "2024-10-15T08:00:00Z"
@@ -15757,7 +15904,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:2c0d1e1d-a224-4888-80d0-f94b6cc94308",
+      "fullUrl": "urn:uuid:c71bb86b-1b83-42fe-897e-6abb21d03365",
       "resource": {
         "category": [
           {
@@ -15819,7 +15966,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:fee28e8c-0c20-436a-8196-22973efc0b65",
+      "fullUrl": "urn:uuid:61d26b5a-e002-478e-a21b-2332de3e6a98",
       "resource": {
         "collection": {
           "collectedDateTime": "2023-10-17T08:00:06Z"
@@ -15843,7 +15990,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:e95cb783-942d-41b8-b417-941f7a58474f",
+      "fullUrl": "urn:uuid:1194fd56-4b38-4fd8-8511-8c30c1789c14",
       "resource": {
         "category": [
           {
@@ -15900,7 +16047,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:97e20a30-a11c-45b2-bfba-010c572c2d0f",
+      "fullUrl": "urn:uuid:ec6d8a3d-0bf0-43d5-86dc-22de17d0adce",
       "resource": {
         "collection": {
           "collectedDateTime": "2023-10-17T08:00:05Z"
@@ -15924,7 +16071,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:915cfe80-d1e5-4afb-8216-49bea6dd18fe",
+      "fullUrl": "urn:uuid:050afe74-3cda-4138-9cbe-592d41f84601",
       "resource": {
         "category": [
           {
@@ -15981,7 +16128,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:f81580cc-d9e8-422a-812e-a9e738ff5cdd",
+      "fullUrl": "urn:uuid:2c67abc1-ca24-4009-8bbf-ed3100897474",
       "resource": {
         "collection": {
           "collectedDateTime": "2023-10-17T08:00:04Z"
@@ -16005,7 +16152,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:1aefd1f7-c943-4186-a229-b2636b69fddf",
+      "fullUrl": "urn:uuid:4d70d83f-3dea-4d9c-b01b-ac88b0b69687",
       "resource": {
         "category": [
           {
@@ -16067,7 +16214,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:ed0044fd-7c7a-4f90-8d4d-383ceabadfc1",
+      "fullUrl": "urn:uuid:6133d91e-af00-461d-a33b-43b41203f3ad",
       "resource": {
         "collection": {
           "collectedDateTime": "2023-10-17T08:00:03Z"
@@ -16091,7 +16238,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:f869d521-b4e6-44dd-a2a2-8e60dd37f356",
+      "fullUrl": "urn:uuid:c0a0bc80-1111-4316-825e-32564a612349",
       "resource": {
         "category": [
           {
@@ -16154,7 +16301,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:c64bca26-9a3c-4cef-b1b5-355dfbeb1785",
+      "fullUrl": "urn:uuid:520aeb44-4ea5-479e-b9c7-dd29c1a3e5d3",
       "resource": {
         "collection": {
           "collectedDateTime": "2023-10-17T08:00:02Z"
@@ -16178,7 +16325,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:7f389941-8081-4806-ad00-c0e0ef8f8b21",
+      "fullUrl": "urn:uuid:21a0313b-fba1-47d3-a6b2-a0c35af66a97",
       "resource": {
         "category": [
           {
@@ -16235,7 +16382,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:7f1c4795-0699-48cf-9ec3-e035b34f719b",
+      "fullUrl": "urn:uuid:1607f995-252f-4db9-bacf-2ff9085613fd",
       "resource": {
         "collection": {
           "collectedDateTime": "2023-10-17T08:00:01Z"
@@ -16259,7 +16406,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:fbc28344-9ce5-4e0b-be06-4064bdb64e3e",
+      "fullUrl": "urn:uuid:f9fd5778-88bf-408e-949a-b6c08fc8b793",
       "resource": {
         "category": [
           {
@@ -16322,7 +16469,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:4362293f-6772-4596-bb53-0c0355043f51",
+      "fullUrl": "urn:uuid:1bc127a9-6963-487b-8f4f-0bc58defcbfb",
       "resource": {
         "collection": {
           "collectedDateTime": "2023-10-17T08:00:00Z"
@@ -16346,7 +16493,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:cb96a94d-aff5-4475-8c69-66968dd77210",
+      "fullUrl": "urn:uuid:9d9bd247-fea6-45a4-81ba-e91dcf330a38",
       "resource": {
         "category": [
           {
@@ -16408,7 +16555,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:534ff05b-62e8-4b20-ac5e-ed6a9a65e8bf",
+      "fullUrl": "urn:uuid:1e718045-5b15-4164-8503-dd26a3a07eeb",
       "resource": {
         "collection": {
           "collectedDateTime": "2022-10-18T08:00:06Z"
@@ -16432,7 +16579,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:e9d29d46-c42a-4fdd-9e49-4ac4ec870ff6",
+      "fullUrl": "urn:uuid:fc2c5a3f-8b9e-4f6f-b217-247a96c28c99",
       "resource": {
         "category": [
           {
@@ -16489,7 +16636,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:28c295ce-a8a1-4641-8b28-56296738c7df",
+      "fullUrl": "urn:uuid:f825f1d8-96f9-4f18-93ca-821d473c923b",
       "resource": {
         "collection": {
           "collectedDateTime": "2022-10-18T08:00:05Z"
@@ -16513,7 +16660,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:3bee6470-bf87-4f6c-b4dc-707d8fc04eab",
+      "fullUrl": "urn:uuid:e16b792e-0545-4e66-b049-1d3d81ea3d18",
       "resource": {
         "category": [
           {
@@ -16570,7 +16717,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:f64851fc-d974-445e-960f-7005b15c5050",
+      "fullUrl": "urn:uuid:701666fb-a454-408b-bc7d-94b4380709dc",
       "resource": {
         "collection": {
           "collectedDateTime": "2022-10-18T08:00:04Z"
@@ -16594,7 +16741,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:3056db8f-acde-49e7-800c-209dda5374d0",
+      "fullUrl": "urn:uuid:11e6efc3-db2d-4fba-801e-ece05ff5b718",
       "resource": {
         "category": [
           {
@@ -16656,7 +16803,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:0dc51a4f-68f6-4991-b000-8120c45eba64",
+      "fullUrl": "urn:uuid:c5da5579-efdc-45c3-9db0-452bd5916158",
       "resource": {
         "collection": {
           "collectedDateTime": "2022-10-18T08:00:03Z"
@@ -16680,7 +16827,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:c8566bbc-c751-4221-a3d2-895eb4625b1e",
+      "fullUrl": "urn:uuid:afbbc73c-6ada-4ed1-a5d8-32a5d9518c8b",
       "resource": {
         "category": [
           {
@@ -16743,7 +16890,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:c1b5d28d-81d7-4f13-9c31-188b45ddd662",
+      "fullUrl": "urn:uuid:49d7ddb7-4852-4df4-b5ae-67c08e226b8c",
       "resource": {
         "collection": {
           "collectedDateTime": "2022-10-18T08:00:02Z"
@@ -16767,7 +16914,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:22162d8c-c531-487b-825d-6901501c2099",
+      "fullUrl": "urn:uuid:34479019-2b2d-4fc6-b028-d8974dc3332a",
       "resource": {
         "category": [
           {
@@ -16824,7 +16971,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:f1afa1dd-f809-411b-8ae0-7b1cddbc808a",
+      "fullUrl": "urn:uuid:35b1b82f-62e3-48cb-a46d-48f6a48542e1",
       "resource": {
         "collection": {
           "collectedDateTime": "2022-10-18T08:00:01Z"
@@ -16848,7 +16995,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:861583ea-cab2-440a-8bb4-7c8929ac48f7",
+      "fullUrl": "urn:uuid:fc368ba2-b107-43b6-b7ac-c68ba254cc0b",
       "resource": {
         "category": [
           {
@@ -16911,7 +17058,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:f7bd76cc-865e-4262-8de6-26f6d11a609b",
+      "fullUrl": "urn:uuid:45397a59-c7cd-4b16-ba9c-4c77d99f0fe3",
       "resource": {
         "collection": {
           "collectedDateTime": "2022-10-18T08:00:00Z"
@@ -16935,7 +17082,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:932a14bd-4c14-41e5-a133-bfc1a331391d",
+      "fullUrl": "urn:uuid:06549e21-fb9e-476d-8229-1cb1266c1154",
       "resource": {
         "category": [
           {
@@ -16992,7 +17139,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:2ae03710-462f-41ba-b87f-73848cf7fb01",
+      "fullUrl": "urn:uuid:febe0641-ac06-4c4c-92ff-e417ad7bd220",
       "resource": {
         "collection": {
           "collectedDateTime": "2021-10-12T08:00:05Z"
@@ -17016,7 +17163,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:c622dca1-fc7b-4bec-b3a3-3e43b456c7c7",
+      "fullUrl": "urn:uuid:b833648d-b5ba-4ac3-bf15-d0894422cfd3",
       "resource": {
         "category": [
           {
@@ -17073,7 +17220,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:775f50eb-a53f-4828-bed0-3883005db8f6",
+      "fullUrl": "urn:uuid:76b5848f-a00a-4c22-aedf-5b212ee2d29f",
       "resource": {
         "collection": {
           "collectedDateTime": "2021-10-12T08:00:04Z"
@@ -17097,7 +17244,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:f290f295-00e7-4f65-8da1-1679489b8611",
+      "fullUrl": "urn:uuid:364a71a5-dc5b-4fd7-b6a1-2ff8e6277f97",
       "resource": {
         "category": [
           {
@@ -17154,7 +17301,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:b423bf7e-2446-4217-8955-a9e4b97a4d7a",
+      "fullUrl": "urn:uuid:258ff0a8-39aa-4a24-8a40-ad231d6af45e",
       "resource": {
         "collection": {
           "collectedDateTime": "2021-10-12T08:00:03Z"
@@ -17178,7 +17325,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:65bfe85b-c4f6-407b-8479-8c4b571fbc6f",
+      "fullUrl": "urn:uuid:3134c5cf-9d9b-455b-9e63-66c147b0d0d2",
       "resource": {
         "category": [
           {
@@ -17241,7 +17388,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:1d1bdaa2-7a65-4301-8525-7ee2a55e99e8",
+      "fullUrl": "urn:uuid:bbb8617d-7f22-4373-a64f-e54cca0335a1",
       "resource": {
         "collection": {
           "collectedDateTime": "2021-10-12T08:00:02Z"
@@ -17265,7 +17412,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:823eac33-6dc9-4e28-9e1d-b29ca66f30f6",
+      "fullUrl": "urn:uuid:c70ff447-e182-4b69-99e7-10b7a435be2f",
       "resource": {
         "category": [
           {
@@ -17327,7 +17474,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:60139e83-abd4-45f0-919b-639d1bcb8996",
+      "fullUrl": "urn:uuid:de863ea8-f92a-4fdf-bca3-46dbbaeb7b17",
       "resource": {
         "collection": {
           "collectedDateTime": "2021-10-12T08:00:01Z"
@@ -17351,7 +17498,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:a16743f7-3cce-4236-88c1-693e7d5060f0",
+      "fullUrl": "urn:uuid:f72c02ec-1086-4cbc-8c28-41f0de0e79d7",
       "resource": {
         "category": [
           {
@@ -17419,7 +17566,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:bed8974e-9910-40e8-8700-5c0e88d73b54",
+      "fullUrl": "urn:uuid:efb5f102-57df-47c0-a710-aa6179f8335d",
       "resource": {
         "collection": {
           "collectedDateTime": "2021-10-12T08:00:00Z"
@@ -17443,7 +17590,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:74216315-0016-4b9a-a793-b31153a915a0",
+      "fullUrl": "urn:uuid:97eff6c4-bfde-45b6-8a29-dd3ab4b39231",
       "resource": {
         "category": [
           {
@@ -17464,9 +17611,9 @@
           ],
           "text": "Color of Urine"
         },
-        "effectiveDateTime": "2026-10-26T06:02:26Z",
+        "effectiveDateTime": "2026-11-10T02:10:02Z",
         "id": "LMS-STR-101270",
-        "issued": "2026-10-26T06:02:26Z",
+        "issued": "2026-11-10T02:10:02Z",
         "meta": {
           "profile": [
             "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab",
@@ -17486,7 +17633,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:f24938f7-4a39-434d-aa19-8905fa2c340d",
+      "fullUrl": "urn:uuid:d932c22c-3cc2-4bd6-8154-a7aa0a1ae6b3",
       "resource": {
         "id": "SPC-CH-6999999.000001",
         "resourceType": "Specimen",
@@ -17507,7 +17654,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:ee592681-776b-4261-8f38-2e8c8771122e",
+      "fullUrl": "urn:uuid:3115a7a9-9c2e-4539-8266-5a4264d7d092",
       "resource": {
         "category": [
           {
@@ -17528,9 +17675,9 @@
           ],
           "text": "Glucose [Presence] in Urine by Test strip"
         },
-        "effectiveDateTime": "2026-10-26T06:02:26Z",
+        "effectiveDateTime": "2026-11-10T02:10:02Z",
         "id": "LMS-VCC-101270",
-        "issued": "2026-10-26T06:02:26Z",
+        "issued": "2026-11-10T02:10:02Z",
         "meta": {
           "profile": [
             "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab",
@@ -17722,7 +17869,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:c66a3389-1e96-4dc8-b42a-3a29363c5860",
+      "fullUrl": "urn:uuid:749f42da-b287-4003-a9cd-038d09c18293",
       "resource": {
         "active": true,
         "address": [
@@ -17915,7 +18062,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:1de40013-bc05-441f-a03b-888b5b8981ee",
+      "fullUrl": "urn:uuid:eb962317-773d-4c8c-94ba-213811938d8a",
       "resource": {
         "code": {
           "coding": [
@@ -17928,7 +18075,7 @@
           "text": "Reminders Due"
         },
         "conclusion": "3 reminder(s) due.",
-        "effectiveDateTime": "2026-10-26T06:02:26Z",
+        "effectiveDateTime": "2026-11-10T02:10:02Z",
         "extension": [
           {
             "url": "http://vistaplex.org/fhir/StructureDefinition/va-reminder-location",
@@ -18155,7 +18302,7 @@
           }
         ],
         "id": "REMINDERS-DUE-101270",
-        "issued": "2026-10-26T06:02:26Z",
+        "issued": "2026-11-10T02:10:02Z",
         "performer": [
           {
             "display": "VistA Clinical Reminders"
@@ -18173,7 +18320,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:e9d94bbb-c316-4aab-b6bb-8edf5c2af3e3",
+      "fullUrl": "urn:uuid:8c3aa700-877b-4ebf-abd6-79cfe391f5e0",
       "resource": {
         "active": true,
         "address": [
@@ -18231,7 +18378,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:527aa4d9-94a2-465d-9b08-d1a0301daf30",
+      "fullUrl": "urn:uuid:682ecbd0-49e9-46d8-bfe9-926ccc8a44ed",
       "resource": {
         "address": [
           {
@@ -18285,7 +18432,7 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:d67ab39e-9d37-4ae6-bda9-8083ceb9780f",
+      "fullUrl": "urn:uuid:5ef6f2f7-6920-4c5d-9895-a5c446a57a58",
       "resource": {
         "agent": [
           {
@@ -18334,7 +18481,7 @@
             "http://hl7.org/fhir/us/core/StructureDefinition/us-core-provenance|6.1.0"
           ]
         },
-        "recorded": "2026-10-26T06:02:27Z",
+        "recorded": "2026-11-10T02:10:02Z",
         "resourceType": "Provenance",
         "target": [
           {
@@ -18381,6 +18528,12 @@
           },
           {
             "reference": "DocumentReference/D24664"
+          },
+          {
+            "reference": "Encounter/E35712"
+          },
+          {
+            "reference": "DiagnosticReport/D25556"
           },
           {
             "reference": "Condition/C3405"
