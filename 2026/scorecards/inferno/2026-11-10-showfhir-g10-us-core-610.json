@@ -1,0 +1,1725 @@
+{
+  "api": "https://inferno.healthit.gov/suites/api",
+  "patient_ids": "101258,101259,101260,101261,101262,101263,101264,101265,101266,101267,101268,101269,101270,101271,101272,101273,101274,101275,101276,101277,101278,101279,101280,101281,101282,101283,101284,101285,101286,101287,101288,101289,101290,101291",
+  "results": [
+    {
+      "created_at": "2026-11-10T22:01:00.875+00:00",
+      "id": "d09e195b-fc61-4f2c-93fa-3454f63580a2",
+      "inputs": [
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://showfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "standalone_smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"auth_type\":\"public\",\"use_discovery\":true,\"requested_scopes\":\"launch/patient openid fhirUser offline_access patient/Patient.read\",\"pkce_support\":\"disabled\",\"pkce_code_challenge_method\":\"S256\",\"auth_request_method\":\"GET\",\"name\":\"standalone_smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [
+        {
+          "name": "well_known_configuration",
+          "type": "text",
+          "value": "{\"issue\":[{\"code\":\"processing\",\"diagnostics\":\"Missing or unsupported FHIR resource type\",\"severity\":\"error\"}],\"resourceType\":\"OperationOutcome\"}"
+        },
+        {
+          "name": "smart_authorization_url",
+          "type": "text",
+          "value": ""
+        },
+        {
+          "name": "well_known_management_url",
+          "type": "text",
+          "value": ""
+        },
+        {
+          "name": "well_known_registration_url",
+          "type": "text",
+          "value": ""
+        },
+        {
+          "name": "well_known_revocation_url",
+          "type": "text",
+          "value": ""
+        },
+        {
+          "name": "smart_token_url",
+          "type": "text",
+          "value": ""
+        },
+        {
+          "name": "standalone_smart_auth_info",
+          "type": "text",
+          "value": "{\"auth_type\":\"public\",\"use_discovery\":true,\"requested_scopes\":\"launch/patient openid fhirUser offline_access patient/Patient.read\",\"pkce_support\":\"disabled\",\"pkce_code_challenge_method\":\"S256\",\"auth_request_method\":\"GET\",\"name\":\"standalone_smart_auth_info\"}"
+        }
+      ],
+      "requests": [
+        {
+          "direction": "outgoing",
+          "id": "bb9434f6-3450-4a6d-bc81-befbd0d08d84",
+          "index": 101784486,
+          "result_id": "d09e195b-fc61-4f2c-93fa-3454f63580a2",
+          "status": 200,
+          "timestamp": "2026-11-10T22:01:00.886+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/.well-known/smart-configuration",
+          "verb": "get"
+        }
+      ],
+      "result": "fail",
+      "result_message": "`Content-Type` must be `application/json`, but received: `application/fhir+json`",
+      "test_id": "g10_certification-g10_smart_standalone_patient_app-smart_discovery_stu2_2-well_known_endpoint",
+      "test_run_id": "5e86fcbd-8943-4b2f-828f-ed0c3abcb848",
+      "test_session_id": "2dHYeBHIZVl",
+      "updated_at": "2026-11-10T22:01:00.875+00:00"
+    },
+    {
+      "created_at": "2026-11-10T22:01:00.910+00:00",
+      "id": "4a468ab2-320a-4ef4-97af-15d012dcced5",
+      "inputs": [
+        {
+          "name": "well_known_configuration",
+          "type": "text",
+          "value": "{\"issue\":[{\"code\":\"processing\",\"diagnostics\":\"Missing or unsupported FHIR resource type\",\"severity\":\"error\"}],\"resourceType\":\"OperationOutcome\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [],
+      "result": "fail",
+      "result_message": "Well-known configuration does not include `authorization_endpoint`",
+      "test_id": "g10_certification-g10_smart_standalone_patient_app-smart_discovery_stu2_2-well_known_capabilities_stu2",
+      "test_run_id": "5e86fcbd-8943-4b2f-828f-ed0c3abcb848",
+      "test_session_id": "2dHYeBHIZVl",
+      "updated_at": "2026-11-10T22:01:00.910+00:00"
+    },
+    {
+      "created_at": "2026-11-10T22:01:01.078+00:00",
+      "id": "3077cfac-2244-4126-92b0-4f3ecd48909b",
+      "inputs": [
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://showfhir.vistaplex.org/fhir"
+        }
+      ],
+      "optional": true,
+      "outputs": [],
+      "requests": [
+        {
+          "direction": "outgoing",
+          "id": "31fd13fe-50cb-4151-8f13-a77dee40fc4f",
+          "index": 101784489,
+          "result_id": "3077cfac-2244-4126-92b0-4f3ecd48909b",
+          "status": 200,
+          "timestamp": "2026-11-10T22:01:01.080+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/metadata",
+          "verb": "get"
+        }
+      ],
+      "result": "pass",
+      "test_id": "g10_certification-g10_smart_standalone_patient_app-smart_discovery_stu2_2-smart_cors_metadata_request",
+      "test_run_id": "5e86fcbd-8943-4b2f-828f-ed0c3abcb848",
+      "test_session_id": "2dHYeBHIZVl",
+      "updated_at": "2026-11-10T22:01:01.078+00:00"
+    },
+    {
+      "created_at": "2026-11-10T22:01:01.116+00:00",
+      "id": "3ec4777f-cc23-4847-81fd-6720bb81005f",
+      "inputs": [
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://showfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "standalone_smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"auth_type\":\"public\",\"use_discovery\":true,\"requested_scopes\":\"launch/patient openid fhirUser offline_access patient/Patient.read\",\"pkce_support\":\"disabled\",\"pkce_code_challenge_method\":\"S256\",\"auth_request_method\":\"GET\",\"name\":\"standalone_smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [],
+      "result": "skip",
+      "result_message": "Could not verify when no url provided.",
+      "test_id": "g10_certification-g10_smart_standalone_patient_app-smart_standalone_launch_stu2_2-standalone_auth_tls",
+      "test_run_id": "5e86fcbd-8943-4b2f-828f-ed0c3abcb848",
+      "test_session_id": "2dHYeBHIZVl",
+      "updated_at": "2026-11-10T22:01:01.116+00:00"
+    },
+    {
+      "created_at": "2026-11-10T22:01:01.122+00:00",
+      "id": "51230e38-4a4f-4052-a01b-9497cedded0d",
+      "inputs": [
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://showfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "standalone_smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"auth_type\":\"public\",\"use_discovery\":true,\"requested_scopes\":\"launch/patient openid fhirUser offline_access patient/Patient.read\",\"pkce_support\":\"disabled\",\"pkce_code_challenge_method\":\"S256\",\"auth_request_method\":\"GET\",\"name\":\"standalone_smart_auth_info\"}"
+        },
+        {
+          "name": "standalone_smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"auth_type\":\"public\",\"use_discovery\":true,\"requested_scopes\":\"launch/patient openid fhirUser offline_access patient/Patient.read\",\"pkce_support\":\"disabled\",\"pkce_code_challenge_method\":\"S256\",\"auth_request_method\":\"GET\",\"name\":\"standalone_smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [],
+      "result": "fail",
+      "result_message": "OAuth2 Authorization Endpoint '' is not a valid URI",
+      "test_id": "g10_certification-g10_smart_standalone_patient_app-smart_standalone_launch_stu2_2-smart_app_redirect_stu2",
+      "test_run_id": "5e86fcbd-8943-4b2f-828f-ed0c3abcb848",
+      "test_session_id": "2dHYeBHIZVl",
+      "updated_at": "2026-11-10T22:01:01.122+00:00"
+    },
+    {
+      "created_at": "2026-11-10T22:01:01.142+00:00",
+      "id": "824b7fdc-6601-4063-b93a-a457d053ee1c",
+      "inputs": [],
+      "optional": false,
+      "outputs": [],
+      "requests": [],
+      "result": "skip",
+      "result_message": "Request `standalone_token` was not made in a previous test as expected.",
+      "test_id": "g10_certification-g10_smart_standalone_patient_app-smart_standalone_launch_stu2_2-smart_token_response_headers",
+      "test_run_id": "5e86fcbd-8943-4b2f-828f-ed0c3abcb848",
+      "test_session_id": "2dHYeBHIZVl",
+      "updated_at": "2026-11-10T22:01:01.142+00:00"
+    },
+    {
+      "created_at": "2026-11-10T22:01:01.146+00:00",
+      "id": "7a61764f-65ff-4b7a-bdd7-f9f2fee40ad4",
+      "inputs": [
+        {
+          "name": "standalone_smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"auth_type\":\"public\",\"use_discovery\":true,\"requested_scopes\":\"launch/patient openid fhirUser offline_access patient/Patient.read\",\"pkce_support\":\"disabled\",\"pkce_code_challenge_method\":\"S256\",\"auth_request_method\":\"GET\",\"name\":\"standalone_smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [],
+      "result": "skip",
+      "result_message": "Request `standalone_token` was not made in a previous test as expected.",
+      "test_id": "g10_certification-g10_smart_standalone_patient_app-smart_standalone_launch_stu2_2-smart_cors_token_exchange",
+      "test_run_id": "5e86fcbd-8943-4b2f-828f-ed0c3abcb848",
+      "test_session_id": "2dHYeBHIZVl",
+      "updated_at": "2026-11-10T22:01:01.146+00:00"
+    },
+    {
+      "created_at": "2026-11-10T22:01:01.171+00:00",
+      "id": "d711e7e2-35b5-4bb1-8bea-1beaaf4f5c0a",
+      "inputs": [
+        {
+          "name": "standalone_id_token",
+          "type": "text",
+          "value": null
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [],
+      "result": "skip",
+      "result_message": "Input 'standalone_id_token' is nil, skipping test.",
+      "test_id": "g10_certification-g10_smart_standalone_patient_app-smart_openid_connect_stu2_2-smart_openid_decode_id_token",
+      "test_run_id": "5e86fcbd-8943-4b2f-828f-ed0c3abcb848",
+      "test_session_id": "2dHYeBHIZVl",
+      "updated_at": "2026-11-10T22:01:01.171+00:00"
+    },
+    {
+      "created_at": "2026-11-10T22:01:01.178+00:00",
+      "id": "7cf19270-176f-4f72-9f6e-371b40979347",
+      "inputs": [
+        {
+          "name": "openid_configuration_json",
+          "type": "text",
+          "value": null
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [],
+      "result": "skip",
+      "result_message": "Input 'openid_configuration_json' is nil, skipping test.",
+      "test_id": "g10_certification-g10_smart_standalone_patient_app-smart_openid_connect_stu2_2-smart_openid_required_configuration_fields",
+      "test_run_id": "5e86fcbd-8943-4b2f-828f-ed0c3abcb848",
+      "test_session_id": "2dHYeBHIZVl",
+      "updated_at": "2026-11-10T22:01:01.178+00:00"
+    },
+    {
+      "created_at": "2026-11-10T22:01:01.216+00:00",
+      "id": "e10c49f6-ed8c-42ae-a1ac-3af2a5d36110",
+      "inputs": [
+        {
+          "name": "standalone_received_scopes",
+          "type": "text",
+          "value": null
+        },
+        {
+          "name": "standalone_smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"auth_type\":\"public\",\"use_discovery\":true,\"requested_scopes\":\"launch/patient openid fhirUser offline_access patient/Patient.read\",\"pkce_support\":\"disabled\",\"pkce_code_challenge_method\":\"S256\",\"auth_request_method\":\"GET\",\"name\":\"standalone_smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [],
+      "result": "skip",
+      "result_message": "Input 'standalone_received_scopes' is nil, skipping test.",
+      "test_id": "g10_certification-g10_smart_standalone_patient_app-g10_smart_standalone_token_refresh-g10_token_refresh_with_scopes",
+      "test_run_id": "5e86fcbd-8943-4b2f-828f-ed0c3abcb848",
+      "test_session_id": "2dHYeBHIZVl",
+      "updated_at": "2026-11-10T22:01:01.216+00:00"
+    },
+    {
+      "created_at": "2026-11-10T22:01:01.108+00:00",
+      "id": "7fa07caa-70b1-4fde-9368-fc51d944118a",
+      "inputs": [
+        {
+          "description": "URL of the FHIR endpoint used by SMART applications",
+          "label": "FHIR Endpoint",
+          "name": "url",
+          "type": "text",
+          "value": "https://showfhir.vistaplex.org/fhir"
+        },
+        {
+          "description": null,
+          "label": "Standalone Launch Credentials",
+          "name": "standalone_smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"auth_type\":\"public\",\"use_discovery\":true,\"requested_scopes\":\"launch/patient openid fhirUser offline_access patient/Patient.read\",\"pkce_support\":\"disabled\",\"pkce_code_challenge_method\":\"S256\",\"auth_request_method\":\"GET\",\"name\":\"standalone_smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [],
+      "result": "fail",
+      "test_group_id": "g10_certification-g10_smart_standalone_patient_app-smart_discovery_stu2_2",
+      "test_run_id": "5e86fcbd-8943-4b2f-828f-ed0c3abcb848",
+      "test_session_id": "2dHYeBHIZVl",
+      "updated_at": "2026-11-10T22:01:01.108+00:00"
+    },
+    {
+      "created_at": "2026-11-10T22:01:01.130+00:00",
+      "id": "78f02ca0-0f75-4e3a-81fe-8b469d9e8bac",
+      "inputs": [
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://showfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "standalone_smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"auth_type\":\"public\",\"use_discovery\":true,\"requested_scopes\":\"launch/patient openid fhirUser offline_access patient/Patient.read\",\"pkce_support\":\"disabled\",\"pkce_code_challenge_method\":\"S256\",\"auth_request_method\":\"GET\",\"name\":\"standalone_smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [],
+      "result": "skip",
+      "result_message": "Could not verify when no url provided.",
+      "test_id": "g10_certification-g10_smart_standalone_patient_app-smart_standalone_launch_stu2_2-standalone_token_tls",
+      "test_run_id": "5e86fcbd-8943-4b2f-828f-ed0c3abcb848",
+      "test_session_id": "2dHYeBHIZVl",
+      "updated_at": "2026-11-10T22:01:01.130+00:00"
+    },
+    {
+      "created_at": "2026-11-10T22:01:01.154+00:00",
+      "id": "ed17c9b9-dca7-4b9f-93e5-0f3939c39dbc",
+      "inputs": [
+        {
+          "name": "standalone_patient_id",
+          "type": "text",
+          "value": null
+        },
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://showfhir.vistaplex.org/fhir"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [],
+      "result": "skip",
+      "result_message": "Input 'standalone_patient_id' is nil, skipping test.",
+      "test_id": "g10_certification-g10_smart_standalone_patient_app-smart_standalone_launch_stu2_2-g10_unauthorized_access",
+      "test_run_id": "5e86fcbd-8943-4b2f-828f-ed0c3abcb848",
+      "test_session_id": "2dHYeBHIZVl",
+      "updated_at": "2026-11-10T22:01:01.154+00:00"
+    },
+    {
+      "created_at": "2026-11-10T22:01:01.158+00:00",
+      "id": "d77d8f89-d610-44a1-9cd8-0bef53a8dfe8",
+      "inputs": [
+        {
+          "name": "standalone_patient_id",
+          "type": "text",
+          "value": null
+        },
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://showfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "standalone_smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"auth_type\":\"public\",\"use_discovery\":true,\"requested_scopes\":\"launch/patient openid fhirUser offline_access patient/Patient.read\",\"pkce_support\":\"disabled\",\"pkce_code_challenge_method\":\"S256\",\"auth_request_method\":\"GET\",\"name\":\"standalone_smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [],
+      "result": "skip",
+      "result_message": "Input 'standalone_patient_id' is nil, skipping test.",
+      "test_id": "g10_certification-g10_smart_standalone_patient_app-smart_standalone_launch_stu2_2-g10_patient_context",
+      "test_run_id": "5e86fcbd-8943-4b2f-828f-ed0c3abcb848",
+      "test_session_id": "2dHYeBHIZVl",
+      "updated_at": "2026-11-10T22:01:01.158+00:00"
+    },
+    {
+      "created_at": "2026-11-10T22:01:01.175+00:00",
+      "id": "7bc35a5a-12ce-4af5-a4ae-eeaeccf053f7",
+      "inputs": [
+        {
+          "name": "id_token_payload_json",
+          "type": "text",
+          "value": null
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [],
+      "result": "skip",
+      "result_message": "Input 'id_token_payload_json' is nil, skipping test.",
+      "test_id": "g10_certification-g10_smart_standalone_patient_app-smart_openid_connect_stu2_2-smart_openid_retrieve_configuration",
+      "test_run_id": "5e86fcbd-8943-4b2f-828f-ed0c3abcb848",
+      "test_session_id": "2dHYeBHIZVl",
+      "updated_at": "2026-11-10T22:01:01.175+00:00"
+    },
+    {
+      "created_at": "2026-11-10T22:01:01.181+00:00",
+      "id": "3dc3366a-a6c0-4c64-8948-ffc04bdfa5f4",
+      "inputs": [
+        {
+          "name": "openid_jwks_uri",
+          "type": "text",
+          "value": null
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [],
+      "result": "skip",
+      "result_message": "Input 'openid_jwks_uri' is nil, skipping test.",
+      "test_id": "g10_certification-g10_smart_standalone_patient_app-smart_openid_connect_stu2_2-smart_openid_retrieve_jwks",
+      "test_run_id": "5e86fcbd-8943-4b2f-828f-ed0c3abcb848",
+      "test_session_id": "2dHYeBHIZVl",
+      "updated_at": "2026-11-10T22:01:01.181+00:00"
+    },
+    {
+      "created_at": "2026-11-10T22:01:01.190+00:00",
+      "id": "67e0cacd-2654-4987-8902-c17bf43c9e12",
+      "inputs": [
+        {
+          "name": "standalone_id_token",
+          "type": "text",
+          "value": null
+        },
+        {
+          "name": "openid_configuration_json",
+          "type": "text",
+          "value": null
+        },
+        {
+          "name": "id_token_jwk_json",
+          "type": "text",
+          "value": null
+        },
+        {
+          "name": "standalone_smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"auth_type\":\"public\",\"use_discovery\":true,\"requested_scopes\":\"launch/patient openid fhirUser offline_access patient/Patient.read\",\"pkce_support\":\"disabled\",\"pkce_code_challenge_method\":\"S256\",\"auth_request_method\":\"GET\",\"name\":\"standalone_smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [],
+      "result": "skip",
+      "result_message": "Input 'standalone_id_token' is nil, skipping test.",
+      "test_id": "g10_certification-g10_smart_standalone_patient_app-smart_openid_connect_stu2_2-smart_openid_token_payload",
+      "test_run_id": "5e86fcbd-8943-4b2f-828f-ed0c3abcb848",
+      "test_session_id": "2dHYeBHIZVl",
+      "updated_at": "2026-11-10T22:01:01.190+00:00"
+    },
+    {
+      "created_at": "2026-11-10T22:01:00.976+00:00",
+      "id": "9d334874-ab07-43b8-b820-ca091caf1830",
+      "inputs": [
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://showfhir.vistaplex.org/fhir"
+        }
+      ],
+      "optional": true,
+      "outputs": [],
+      "requests": [
+        {
+          "direction": "outgoing",
+          "id": "30854abf-dbca-424c-b6ee-0ed7e70b5a1d",
+          "index": 101784488,
+          "result_id": "9d334874-ab07-43b8-b820-ca091caf1830",
+          "status": 200,
+          "timestamp": "2026-11-10T22:01:00.978+00:00",
+          "url": "https://showfhir.vistaplex.org/fhir/.well-known/smart-configuration",
+          "verb": "get"
+        }
+      ],
+      "result": "pass",
+      "test_id": "g10_certification-g10_smart_standalone_patient_app-smart_discovery_stu2_2-smart_cors_well_known_endpoint",
+      "test_run_id": "5e86fcbd-8943-4b2f-828f-ed0c3abcb848",
+      "test_session_id": "2dHYeBHIZVl",
+      "updated_at": "2026-11-10T22:01:00.976+00:00"
+    },
+    {
+      "created_at": "2026-11-10T22:01:01.105+00:00",
+      "id": "87c647c8-7c1d-45dc-9b0b-62ba6a80bfe0",
+      "inputs": [
+        {
+          "name": "well_known_configuration",
+          "type": "text",
+          "value": "{\"issue\":[{\"code\":\"processing\",\"diagnostics\":\"Missing or unsupported FHIR resource type\",\"severity\":\"error\"}],\"resourceType\":\"OperationOutcome\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [],
+      "result": "fail",
+      "result_message": "Expected the well-known capabilities to be an Array, but found NilClass",
+      "test_id": "g10_certification-g10_smart_standalone_patient_app-smart_discovery_stu2_2-g10_smart_well_known_capabilities",
+      "test_run_id": "5e86fcbd-8943-4b2f-828f-ed0c3abcb848",
+      "test_session_id": "2dHYeBHIZVl",
+      "updated_at": "2026-11-10T22:01:01.105+00:00"
+    },
+    {
+      "created_at": "2026-11-10T22:01:01.126+00:00",
+      "id": "35dcd304-025d-4329-a0bd-3e83b428db6b",
+      "inputs": [],
+      "optional": false,
+      "outputs": [],
+      "requests": [],
+      "result": "skip",
+      "result_message": "Request `standalone_redirect` was not made in a previous test as expected.",
+      "test_id": "g10_certification-g10_smart_standalone_patient_app-smart_standalone_launch_stu2_2-smart_code_received",
+      "test_run_id": "5e86fcbd-8943-4b2f-828f-ed0c3abcb848",
+      "test_session_id": "2dHYeBHIZVl",
+      "updated_at": "2026-11-10T22:01:01.126+00:00"
+    },
+    {
+      "created_at": "2026-11-10T22:01:01.134+00:00",
+      "id": "07392679-94ea-4a6a-8cd6-12d06a62cfdc",
+      "inputs": [
+        {
+          "name": "standalone_code",
+          "type": "text",
+          "value": null
+        },
+        {
+          "name": "pkce_code_verifier",
+          "type": "text",
+          "value": null
+        },
+        {
+          "name": "standalone_smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"auth_type\":\"public\",\"use_discovery\":true,\"requested_scopes\":\"launch/patient openid fhirUser offline_access patient/Patient.read\",\"pkce_support\":\"disabled\",\"pkce_code_challenge_method\":\"S256\",\"auth_request_method\":\"GET\",\"name\":\"standalone_smart_auth_info\"}"
+        },
+        {
+          "name": "standalone_smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"auth_type\":\"public\",\"use_discovery\":true,\"requested_scopes\":\"launch/patient openid fhirUser offline_access patient/Patient.read\",\"pkce_support\":\"disabled\",\"pkce_code_challenge_method\":\"S256\",\"auth_request_method\":\"GET\",\"name\":\"standalone_smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [],
+      "result": "skip",
+      "result_message": "Input 'standalone_code' is nil, skipping test.",
+      "test_id": "g10_certification-g10_smart_standalone_patient_app-smart_standalone_launch_stu2_2-smart_token_exchange_stu2_2",
+      "test_run_id": "5e86fcbd-8943-4b2f-828f-ed0c3abcb848",
+      "test_session_id": "2dHYeBHIZVl",
+      "updated_at": "2026-11-10T22:01:01.134+00:00"
+    },
+    {
+      "created_at": "2026-11-10T22:01:01.138+00:00",
+      "id": "a08d3cc6-30ab-459d-a546-03f7bfe61afd",
+      "inputs": [
+        {
+          "name": "standalone_smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"auth_type\":\"public\",\"use_discovery\":true,\"requested_scopes\":\"launch/patient openid fhirUser offline_access patient/Patient.read\",\"pkce_support\":\"disabled\",\"pkce_code_challenge_method\":\"S256\",\"auth_request_method\":\"GET\",\"name\":\"standalone_smart_auth_info\"}"
+        },
+        {
+          "name": "standalone_smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"auth_type\":\"public\",\"use_discovery\":true,\"requested_scopes\":\"launch/patient openid fhirUser offline_access patient/Patient.read\",\"pkce_support\":\"disabled\",\"pkce_code_challenge_method\":\"S256\",\"auth_request_method\":\"GET\",\"name\":\"standalone_smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [],
+      "result": "skip",
+      "result_message": "Request `standalone_token` was not made in a previous test as expected.",
+      "test_id": "g10_certification-g10_smart_standalone_patient_app-smart_standalone_launch_stu2_2-smart_token_response_body_stu2_2",
+      "test_run_id": "5e86fcbd-8943-4b2f-828f-ed0c3abcb848",
+      "test_session_id": "2dHYeBHIZVl",
+      "updated_at": "2026-11-10T22:01:01.138+00:00"
+    },
+    {
+      "created_at": "2026-11-10T22:01:01.150+00:00",
+      "id": "ed1b453b-0059-48ee-847a-3007260ce834",
+      "inputs": [
+        {
+          "name": "standalone_smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"auth_type\":\"public\",\"use_discovery\":true,\"requested_scopes\":\"launch/patient openid fhirUser offline_access patient/Patient.read\",\"pkce_support\":\"disabled\",\"pkce_code_challenge_method\":\"S256\",\"auth_request_method\":\"GET\",\"name\":\"standalone_smart_auth_info\"}"
+        },
+        {
+          "name": "standalone_received_scopes",
+          "type": "text",
+          "value": null
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [],
+      "result": "skip",
+      "result_message": "Input 'standalone_received_scopes' is nil, skipping test.",
+      "test_id": "g10_certification-g10_smart_standalone_patient_app-smart_standalone_launch_stu2_2-g10_smart_scopes",
+      "test_run_id": "5e86fcbd-8943-4b2f-828f-ed0c3abcb848",
+      "test_session_id": "2dHYeBHIZVl",
+      "updated_at": "2026-11-10T22:01:01.150+00:00"
+    },
+    {
+      "created_at": "2026-11-10T22:01:01.220+00:00",
+      "id": "aa2fd7cb-52ba-45a5-a81f-ed91bcea853a",
+      "inputs": [
+        {
+          "name": "standalone_received_scopes",
+          "type": "text",
+          "value": null
+        },
+        {
+          "name": "standalone_smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"auth_type\":\"public\",\"use_discovery\":true,\"requested_scopes\":\"launch/patient openid fhirUser offline_access patient/Patient.read\",\"pkce_support\":\"disabled\",\"pkce_code_challenge_method\":\"S256\",\"auth_request_method\":\"GET\",\"name\":\"standalone_smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [],
+      "result": "skip",
+      "result_message": "Input 'standalone_received_scopes' is nil, skipping test.",
+      "test_id": "g10_certification-g10_smart_standalone_patient_app-g10_smart_standalone_token_refresh-g10_token_refresh_body_with_scopes",
+      "test_run_id": "5e86fcbd-8943-4b2f-828f-ed0c3abcb848",
+      "test_session_id": "2dHYeBHIZVl",
+      "updated_at": "2026-11-10T22:01:01.220+00:00"
+    },
+    {
+      "created_at": "2026-11-10T22:01:01.223+00:00",
+      "id": "0b08a280-4fbf-4d93-9de6-8df4bac3b282",
+      "inputs": [
+        {
+          "name": "standalone_patient_id",
+          "type": "text",
+          "value": null
+        },
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://showfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "standalone_smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"auth_type\":\"public\",\"use_discovery\":true,\"requested_scopes\":\"launch/patient openid fhirUser offline_access patient/Patient.read\",\"pkce_support\":\"disabled\",\"pkce_code_challenge_method\":\"S256\",\"auth_request_method\":\"GET\",\"name\":\"standalone_smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [],
+      "result": "skip",
+      "result_message": "Input 'standalone_patient_id' is nil, skipping test.",
+      "test_id": "g10_certification-g10_smart_standalone_patient_app-g10_smart_standalone_token_refresh-g10_patient_context",
+      "test_run_id": "5e86fcbd-8943-4b2f-828f-ed0c3abcb848",
+      "test_session_id": "2dHYeBHIZVl",
+      "updated_at": "2026-11-10T22:01:01.223+00:00"
+    },
+    {
+      "created_at": "2026-11-10T22:01:01.254+00:00",
+      "id": "3fe9db8d-62b3-403d-904b-66c057557eeb",
+      "inputs": [
+        {
+          "name": "standalone_patient_id",
+          "type": "text",
+          "value": null
+        },
+        {
+          "name": "standalone_received_scopes",
+          "type": "text",
+          "value": null
+        },
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://showfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "standalone_smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"auth_type\":\"public\",\"use_discovery\":true,\"requested_scopes\":\"launch/patient openid fhirUser offline_access patient/Patient.read\",\"pkce_support\":\"disabled\",\"pkce_code_challenge_method\":\"S256\",\"auth_request_method\":\"GET\",\"name\":\"standalone_smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [],
+      "result": "skip",
+      "result_message": "Input 'standalone_patient_id' is nil, skipping test.",
+      "test_id": "g10_certification-g10_smart_standalone_patient_app-g10_unrestricted_resource_type_access-g10_care_plan_unrestricted_access",
+      "test_run_id": "5e86fcbd-8943-4b2f-828f-ed0c3abcb848",
+      "test_session_id": "2dHYeBHIZVl",
+      "updated_at": "2026-11-10T22:01:01.254+00:00"
+    },
+    {
+      "created_at": "2026-11-10T22:01:01.269+00:00",
+      "id": "9e94b859-aa5d-421d-a53f-ee093e657e77",
+      "inputs": [
+        {
+          "name": "standalone_patient_id",
+          "type": "text",
+          "value": null
+        },
+        {
+          "name": "standalone_received_scopes",
+          "type": "text",
+          "value": null
+        },
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://showfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "standalone_smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"auth_type\":\"public\",\"use_discovery\":true,\"requested_scopes\":\"launch/patient openid fhirUser offline_access patient/Patient.read\",\"pkce_support\":\"disabled\",\"pkce_code_challenge_method\":\"S256\",\"auth_request_method\":\"GET\",\"name\":\"standalone_smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [],
+      "result": "skip",
+      "result_message": "Input 'standalone_patient_id' is nil, skipping test.",
+      "test_id": "g10_certification-g10_smart_standalone_patient_app-g10_unrestricted_resource_type_access-g10_diagnostic_report_unrestricted_access",
+      "test_run_id": "5e86fcbd-8943-4b2f-828f-ed0c3abcb848",
+      "test_session_id": "2dHYeBHIZVl",
+      "updated_at": "2026-11-10T22:01:01.269+00:00"
+    },
+    {
+      "created_at": "2026-11-10T22:01:01.162+00:00",
+      "id": "29f67702-b213-41fd-ace7-f850dd16fb4b",
+      "inputs": [
+        {
+          "description": "URL of the FHIR endpoint used by standalone applications",
+          "label": "Standalone FHIR Endpoint",
+          "name": "url",
+          "type": "text",
+          "value": "https://showfhir.vistaplex.org/fhir"
+        },
+        {
+          "description": null,
+          "label": "Standalone Launch Credentials",
+          "name": "standalone_smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"auth_type\":\"public\",\"use_discovery\":true,\"requested_scopes\":\"launch/patient openid fhirUser offline_access patient/Patient.read\",\"pkce_support\":\"disabled\",\"pkce_code_challenge_method\":\"S256\",\"auth_request_method\":\"GET\",\"name\":\"standalone_smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [],
+      "result": "fail",
+      "test_group_id": "g10_certification-g10_smart_standalone_patient_app-smart_standalone_launch_stu2_2",
+      "test_run_id": "5e86fcbd-8943-4b2f-828f-ed0c3abcb848",
+      "test_session_id": "2dHYeBHIZVl",
+      "updated_at": "2026-11-10T22:01:01.162+00:00"
+    },
+    {
+      "created_at": "2026-11-10T22:01:01.184+00:00",
+      "id": "a374872d-d60c-4a78-8d85-bf0044b9c50a",
+      "inputs": [
+        {
+          "name": "id_token_header_json",
+          "type": "text",
+          "value": null
+        },
+        {
+          "name": "openid_rsa_keys_json",
+          "type": "text",
+          "value": null
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [],
+      "result": "skip",
+      "result_message": "Input 'id_token_header_json' is nil, skipping test.",
+      "test_id": "g10_certification-g10_smart_standalone_patient_app-smart_openid_connect_stu2_2-smart_openid_token_header",
+      "test_run_id": "5e86fcbd-8943-4b2f-828f-ed0c3abcb848",
+      "test_session_id": "2dHYeBHIZVl",
+      "updated_at": "2026-11-10T22:01:01.184+00:00"
+    },
+    {
+      "created_at": "2026-11-10T22:01:01.200+00:00",
+      "id": "b48d6134-b64d-496c-b470-627f2e46f73b",
+      "inputs": [
+        {
+          "description": null,
+          "label": null,
+          "name": "standalone_id_token",
+          "type": "text",
+          "value": null
+        },
+        {
+          "description": null,
+          "label": "Standalone Launch Credentials",
+          "name": "standalone_smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"auth_type\":\"public\",\"use_discovery\":true,\"requested_scopes\":\"launch/patient openid fhirUser offline_access patient/Patient.read\",\"pkce_support\":\"disabled\",\"pkce_code_challenge_method\":\"S256\",\"auth_request_method\":\"GET\",\"name\":\"standalone_smart_auth_info\"}"
+        },
+        {
+          "description": null,
+          "label": null,
+          "name": "url",
+          "type": "text",
+          "value": "https://showfhir.vistaplex.org/fhir"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [],
+      "result": "skip",
+      "test_group_id": "g10_certification-g10_smart_standalone_patient_app-smart_openid_connect_stu2_2",
+      "test_run_id": "5e86fcbd-8943-4b2f-828f-ed0c3abcb848",
+      "test_session_id": "2dHYeBHIZVl",
+      "updated_at": "2026-11-10T22:01:01.200+00:00"
+    },
+    {
+      "created_at": "2026-11-10T22:01:01.213+00:00",
+      "id": "a157647a-d1b8-49fb-bff1-605748150084",
+      "inputs": [
+        {
+          "name": "standalone_received_scopes",
+          "type": "text",
+          "value": null
+        },
+        {
+          "name": "standalone_smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"auth_type\":\"public\",\"use_discovery\":true,\"requested_scopes\":\"launch/patient openid fhirUser offline_access patient/Patient.read\",\"pkce_support\":\"disabled\",\"pkce_code_challenge_method\":\"S256\",\"auth_request_method\":\"GET\",\"name\":\"standalone_smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [],
+      "result": "skip",
+      "result_message": "Input 'standalone_received_scopes' is nil, skipping test.",
+      "test_id": "g10_certification-g10_smart_standalone_patient_app-g10_smart_standalone_token_refresh-g10_token_refresh_body_without_scopes",
+      "test_run_id": "5e86fcbd-8943-4b2f-828f-ed0c3abcb848",
+      "test_session_id": "2dHYeBHIZVl",
+      "updated_at": "2026-11-10T22:01:01.213+00:00"
+    },
+    {
+      "created_at": "2026-11-10T22:01:01.230+00:00",
+      "id": "a4aca248-77cb-4659-b55f-7a8e57732446",
+      "inputs": [
+        {
+          "description": null,
+          "label": null,
+          "name": "standalone_received_scopes",
+          "type": "text",
+          "value": null
+        },
+        {
+          "description": null,
+          "label": "Standalone Launch Credentials",
+          "name": "standalone_smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"auth_type\":\"public\",\"use_discovery\":true,\"requested_scopes\":\"launch/patient openid fhirUser offline_access patient/Patient.read\",\"pkce_support\":\"disabled\",\"pkce_code_challenge_method\":\"S256\",\"auth_request_method\":\"GET\",\"name\":\"standalone_smart_auth_info\"}"
+        },
+        {
+          "description": null,
+          "label": null,
+          "name": "standalone_patient_id",
+          "type": "text",
+          "value": null
+        },
+        {
+          "description": null,
+          "label": null,
+          "name": "url",
+          "type": "text",
+          "value": "https://showfhir.vistaplex.org/fhir"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [],
+      "result": "skip",
+      "test_group_id": "g10_certification-g10_smart_standalone_patient_app-g10_smart_standalone_token_refresh",
+      "test_run_id": "5e86fcbd-8943-4b2f-828f-ed0c3abcb848",
+      "test_session_id": "2dHYeBHIZVl",
+      "updated_at": "2026-11-10T22:01:01.230+00:00"
+    },
+    {
+      "created_at": "2026-11-10T22:01:01.246+00:00",
+      "id": "52177644-750c-47c2-8862-367126a277a7",
+      "inputs": [
+        {
+          "name": "standalone_patient_id",
+          "type": "text",
+          "value": null
+        },
+        {
+          "name": "standalone_received_scopes",
+          "type": "text",
+          "value": null
+        },
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://showfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "standalone_smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"auth_type\":\"public\",\"use_discovery\":true,\"requested_scopes\":\"launch/patient openid fhirUser offline_access patient/Patient.read\",\"pkce_support\":\"disabled\",\"pkce_code_challenge_method\":\"S256\",\"auth_request_method\":\"GET\",\"name\":\"standalone_smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [],
+      "result": "skip",
+      "result_message": "Input 'standalone_patient_id' is nil, skipping test.",
+      "test_id": "g10_certification-g10_smart_standalone_patient_app-g10_unrestricted_resource_type_access-g10_patient_unrestricted_access",
+      "test_run_id": "5e86fcbd-8943-4b2f-828f-ed0c3abcb848",
+      "test_session_id": "2dHYeBHIZVl",
+      "updated_at": "2026-11-10T22:01:01.246+00:00"
+    },
+    {
+      "created_at": "2026-11-10T22:01:01.261+00:00",
+      "id": "a5bf90cc-a2e5-4024-b626-85acec04ada8",
+      "inputs": [
+        {
+          "name": "standalone_patient_id",
+          "type": "text",
+          "value": null
+        },
+        {
+          "name": "standalone_received_scopes",
+          "type": "text",
+          "value": null
+        },
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://showfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "standalone_smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"auth_type\":\"public\",\"use_discovery\":true,\"requested_scopes\":\"launch/patient openid fhirUser offline_access patient/Patient.read\",\"pkce_support\":\"disabled\",\"pkce_code_challenge_method\":\"S256\",\"auth_request_method\":\"GET\",\"name\":\"standalone_smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [],
+      "result": "skip",
+      "result_message": "Input 'standalone_patient_id' is nil, skipping test.",
+      "test_id": "g10_certification-g10_smart_standalone_patient_app-g10_unrestricted_resource_type_access-g10_condition_unrestricted_access",
+      "test_run_id": "5e86fcbd-8943-4b2f-828f-ed0c3abcb848",
+      "test_session_id": "2dHYeBHIZVl",
+      "updated_at": "2026-11-10T22:01:01.261+00:00"
+    },
+    {
+      "created_at": "2026-11-10T22:01:01.277+00:00",
+      "id": "f5a23f66-f7df-4b87-a0c0-0ecc4ea9bc00",
+      "inputs": [
+        {
+          "name": "standalone_patient_id",
+          "type": "text",
+          "value": null
+        },
+        {
+          "name": "standalone_received_scopes",
+          "type": "text",
+          "value": null
+        },
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://showfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "standalone_smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"auth_type\":\"public\",\"use_discovery\":true,\"requested_scopes\":\"launch/patient openid fhirUser offline_access patient/Patient.read\",\"pkce_support\":\"disabled\",\"pkce_code_challenge_method\":\"S256\",\"auth_request_method\":\"GET\",\"name\":\"standalone_smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [],
+      "result": "skip",
+      "result_message": "Input 'standalone_patient_id' is nil, skipping test.",
+      "test_id": "g10_certification-g10_smart_standalone_patient_app-g10_unrestricted_resource_type_access-g10_goal_unrestricted_access",
+      "test_run_id": "5e86fcbd-8943-4b2f-828f-ed0c3abcb848",
+      "test_session_id": "2dHYeBHIZVl",
+      "updated_at": "2026-11-10T22:01:01.277+00:00"
+    },
+    {
+      "created_at": "2026-11-10T22:01:01.293+00:00",
+      "id": "a3ab1ec1-4b85-4529-8b35-6c8569d4bcb3",
+      "inputs": [
+        {
+          "name": "standalone_patient_id",
+          "type": "text",
+          "value": null
+        },
+        {
+          "name": "standalone_received_scopes",
+          "type": "text",
+          "value": null
+        },
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://showfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "standalone_smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"auth_type\":\"public\",\"use_discovery\":true,\"requested_scopes\":\"launch/patient openid fhirUser offline_access patient/Patient.read\",\"pkce_support\":\"disabled\",\"pkce_code_challenge_method\":\"S256\",\"auth_request_method\":\"GET\",\"name\":\"standalone_smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [],
+      "result": "skip",
+      "result_message": "Input 'standalone_patient_id' is nil, skipping test.",
+      "test_id": "g10_certification-g10_smart_standalone_patient_app-g10_unrestricted_resource_type_access-g10_procedure_unrestricted_access",
+      "test_run_id": "5e86fcbd-8943-4b2f-828f-ed0c3abcb848",
+      "test_session_id": "2dHYeBHIZVl",
+      "updated_at": "2026-11-10T22:01:01.293+00:00"
+    },
+    {
+      "created_at": "2026-11-10T22:01:01.194+00:00",
+      "id": "44b6be45-1185-46b2-a9da-6fd0d6ddd46f",
+      "inputs": [
+        {
+          "name": "id_token_payload_json",
+          "type": "text",
+          "value": null
+        },
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://showfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "standalone_smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"auth_type\":\"public\",\"use_discovery\":true,\"requested_scopes\":\"launch/patient openid fhirUser offline_access patient/Patient.read\",\"pkce_support\":\"disabled\",\"pkce_code_challenge_method\":\"S256\",\"auth_request_method\":\"GET\",\"name\":\"standalone_smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [],
+      "result": "skip",
+      "result_message": "Input 'id_token_payload_json' is nil, skipping test.",
+      "test_id": "g10_certification-g10_smart_standalone_patient_app-smart_openid_connect_stu2_2-smart_openid_fhir_user_claim",
+      "test_run_id": "5e86fcbd-8943-4b2f-828f-ed0c3abcb848",
+      "test_session_id": "2dHYeBHIZVl",
+      "updated_at": "2026-11-10T22:01:01.194+00:00"
+    },
+    {
+      "created_at": "2026-11-10T22:01:01.198+00:00",
+      "id": "d1e1350e-9f80-4e59-9478-6e98f27457d1",
+      "inputs": [
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://showfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "id_token_fhir_user",
+          "type": "text",
+          "value": null
+        },
+        {
+          "name": "standalone_smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"auth_type\":\"public\",\"use_discovery\":true,\"requested_scopes\":\"launch/patient openid fhirUser offline_access patient/Patient.read\",\"pkce_support\":\"disabled\",\"pkce_code_challenge_method\":\"S256\",\"auth_request_method\":\"GET\",\"name\":\"standalone_smart_auth_info\"}"
+        }
+      ],
+      "optional": true,
+      "outputs": [],
+      "requests": [],
+      "result": "skip",
+      "result_message": "Input 'id_token_fhir_user' is nil, skipping test.",
+      "test_id": "g10_certification-g10_smart_standalone_patient_app-smart_openid_connect_stu2_2-smart_cors_openid_fhir_user_claim",
+      "test_run_id": "5e86fcbd-8943-4b2f-828f-ed0c3abcb848",
+      "test_session_id": "2dHYeBHIZVl",
+      "updated_at": "2026-11-10T22:01:01.198+00:00"
+    },
+    {
+      "created_at": "2026-11-10T22:01:01.209+00:00",
+      "id": "ce9e7438-bec0-41e6-854d-4e147bfc7416",
+      "inputs": [
+        {
+          "name": "standalone_received_scopes",
+          "type": "text",
+          "value": null
+        },
+        {
+          "name": "standalone_smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"auth_type\":\"public\",\"use_discovery\":true,\"requested_scopes\":\"launch/patient openid fhirUser offline_access patient/Patient.read\",\"pkce_support\":\"disabled\",\"pkce_code_challenge_method\":\"S256\",\"auth_request_method\":\"GET\",\"name\":\"standalone_smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [],
+      "result": "skip",
+      "result_message": "Input 'standalone_received_scopes' is nil, skipping test.",
+      "test_id": "g10_certification-g10_smart_standalone_patient_app-g10_smart_standalone_token_refresh-g10_token_refresh_without_scopes",
+      "test_run_id": "5e86fcbd-8943-4b2f-828f-ed0c3abcb848",
+      "test_session_id": "2dHYeBHIZVl",
+      "updated_at": "2026-11-10T22:01:01.209+00:00"
+    },
+    {
+      "created_at": "2026-11-10T22:01:01.227+00:00",
+      "id": "47825d07-fef5-4b9e-ae82-ae3797156812",
+      "inputs": [
+        {
+          "name": "standalone_smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"auth_type\":\"public\",\"use_discovery\":true,\"requested_scopes\":\"launch/patient openid fhirUser offline_access patient/Patient.read\",\"pkce_support\":\"disabled\",\"pkce_code_challenge_method\":\"S256\",\"auth_request_method\":\"GET\",\"name\":\"standalone_smart_auth_info\"}"
+        },
+        {
+          "name": "standalone_received_scopes",
+          "type": "text",
+          "value": null
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [],
+      "result": "skip",
+      "result_message": "Input 'standalone_received_scopes' is nil, skipping test.",
+      "test_id": "g10_certification-g10_smart_standalone_patient_app-g10_smart_standalone_token_refresh-g10_invalid_token_refresh",
+      "test_run_id": "5e86fcbd-8943-4b2f-828f-ed0c3abcb848",
+      "test_session_id": "2dHYeBHIZVl",
+      "updated_at": "2026-11-10T22:01:01.227+00:00"
+    },
+    {
+      "created_at": "2026-11-10T22:01:01.250+00:00",
+      "id": "7919ac05-c4e1-4bc9-bd40-3265c0da7d79",
+      "inputs": [
+        {
+          "name": "standalone_patient_id",
+          "type": "text",
+          "value": null
+        },
+        {
+          "name": "standalone_received_scopes",
+          "type": "text",
+          "value": null
+        },
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://showfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "standalone_smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"auth_type\":\"public\",\"use_discovery\":true,\"requested_scopes\":\"launch/patient openid fhirUser offline_access patient/Patient.read\",\"pkce_support\":\"disabled\",\"pkce_code_challenge_method\":\"S256\",\"auth_request_method\":\"GET\",\"name\":\"standalone_smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [],
+      "result": "skip",
+      "result_message": "Input 'standalone_patient_id' is nil, skipping test.",
+      "test_id": "g10_certification-g10_smart_standalone_patient_app-g10_unrestricted_resource_type_access-g10_allergy_intolerance_unrestricted_access",
+      "test_run_id": "5e86fcbd-8943-4b2f-828f-ed0c3abcb848",
+      "test_session_id": "2dHYeBHIZVl",
+      "updated_at": "2026-11-10T22:01:01.250+00:00"
+    },
+    {
+      "created_at": "2026-11-10T22:01:01.265+00:00",
+      "id": "450eaf80-3972-4ce9-b421-b9b189bc3b12",
+      "inputs": [
+        {
+          "name": "standalone_patient_id",
+          "type": "text",
+          "value": null
+        },
+        {
+          "name": "standalone_received_scopes",
+          "type": "text",
+          "value": null
+        },
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://showfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "standalone_smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"auth_type\":\"public\",\"use_discovery\":true,\"requested_scopes\":\"launch/patient openid fhirUser offline_access patient/Patient.read\",\"pkce_support\":\"disabled\",\"pkce_code_challenge_method\":\"S256\",\"auth_request_method\":\"GET\",\"name\":\"standalone_smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [],
+      "result": "skip",
+      "result_message": "Input 'standalone_patient_id' is nil, skipping test.",
+      "test_id": "g10_certification-g10_smart_standalone_patient_app-g10_unrestricted_resource_type_access-g10_device_unrestricted_access",
+      "test_run_id": "5e86fcbd-8943-4b2f-828f-ed0c3abcb848",
+      "test_session_id": "2dHYeBHIZVl",
+      "updated_at": "2026-11-10T22:01:01.265+00:00"
+    },
+    {
+      "created_at": "2026-11-10T22:01:01.281+00:00",
+      "id": "a586309b-ff0c-4d23-bf79-9c05386d79c1",
+      "inputs": [
+        {
+          "name": "standalone_patient_id",
+          "type": "text",
+          "value": null
+        },
+        {
+          "name": "standalone_received_scopes",
+          "type": "text",
+          "value": null
+        },
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://showfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "standalone_smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"auth_type\":\"public\",\"use_discovery\":true,\"requested_scopes\":\"launch/patient openid fhirUser offline_access patient/Patient.read\",\"pkce_support\":\"disabled\",\"pkce_code_challenge_method\":\"S256\",\"auth_request_method\":\"GET\",\"name\":\"standalone_smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [],
+      "result": "skip",
+      "result_message": "Input 'standalone_patient_id' is nil, skipping test.",
+      "test_id": "g10_certification-g10_smart_standalone_patient_app-g10_unrestricted_resource_type_access-g10_immunization_unrestricted_access",
+      "test_run_id": "5e86fcbd-8943-4b2f-828f-ed0c3abcb848",
+      "test_session_id": "2dHYeBHIZVl",
+      "updated_at": "2026-11-10T22:01:01.281+00:00"
+    },
+    {
+      "created_at": "2026-11-10T22:01:01.297+00:00",
+      "id": "2b8a1cde-5cdf-48b8-9049-c6aa76a36eb3",
+      "inputs": [
+        {
+          "name": "standalone_patient_id",
+          "type": "text",
+          "value": null
+        },
+        {
+          "name": "standalone_received_scopes",
+          "type": "text",
+          "value": null
+        },
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://showfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "standalone_smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"auth_type\":\"public\",\"use_discovery\":true,\"requested_scopes\":\"launch/patient openid fhirUser offline_access patient/Patient.read\",\"pkce_support\":\"disabled\",\"pkce_code_challenge_method\":\"S256\",\"auth_request_method\":\"GET\",\"name\":\"standalone_smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [],
+      "result": "skip",
+      "result_message": "Input 'standalone_patient_id' is nil, skipping test.",
+      "test_id": "g10_certification-g10_smart_standalone_patient_app-g10_unrestricted_resource_type_access-g10_us_core_6_encounter_unrestricted_access",
+      "test_run_id": "5e86fcbd-8943-4b2f-828f-ed0c3abcb848",
+      "test_session_id": "2dHYeBHIZVl",
+      "updated_at": "2026-11-10T22:01:01.297+00:00"
+    },
+    {
+      "created_at": "2026-11-10T22:01:01.242+00:00",
+      "id": "bec16e61-2e68-45d7-9206-8cc8da964017",
+      "inputs": [
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://showfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "standalone_patient_id",
+          "type": "text",
+          "value": null
+        },
+        {
+          "name": "standalone_received_scopes",
+          "type": "text",
+          "value": null
+        },
+        {
+          "name": "standalone_smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"auth_type\":\"public\",\"use_discovery\":true,\"requested_scopes\":\"launch/patient openid fhirUser offline_access patient/Patient.read\",\"pkce_support\":\"disabled\",\"pkce_code_challenge_method\":\"S256\",\"auth_request_method\":\"GET\",\"name\":\"standalone_smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [],
+      "result": "skip",
+      "result_message": "Input 'standalone_patient_id' is nil, skipping test.",
+      "test_id": "g10_certification-g10_smart_standalone_patient_app-g10_unrestricted_resource_type_access-Test01",
+      "test_run_id": "5e86fcbd-8943-4b2f-828f-ed0c3abcb848",
+      "test_session_id": "2dHYeBHIZVl",
+      "updated_at": "2026-11-10T22:01:01.242+00:00"
+    },
+    {
+      "created_at": "2026-11-10T22:01:01.258+00:00",
+      "id": "3ef681bb-fb5b-4964-9ab4-d7c89a2f1233",
+      "inputs": [
+        {
+          "name": "standalone_patient_id",
+          "type": "text",
+          "value": null
+        },
+        {
+          "name": "standalone_received_scopes",
+          "type": "text",
+          "value": null
+        },
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://showfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "standalone_smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"auth_type\":\"public\",\"use_discovery\":true,\"requested_scopes\":\"launch/patient openid fhirUser offline_access patient/Patient.read\",\"pkce_support\":\"disabled\",\"pkce_code_challenge_method\":\"S256\",\"auth_request_method\":\"GET\",\"name\":\"standalone_smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [],
+      "result": "skip",
+      "result_message": "Input 'standalone_patient_id' is nil, skipping test.",
+      "test_id": "g10_certification-g10_smart_standalone_patient_app-g10_unrestricted_resource_type_access-g10_care_team_unrestricted_access",
+      "test_run_id": "5e86fcbd-8943-4b2f-828f-ed0c3abcb848",
+      "test_session_id": "2dHYeBHIZVl",
+      "updated_at": "2026-11-10T22:01:01.258+00:00"
+    },
+    {
+      "created_at": "2026-11-10T22:01:01.272+00:00",
+      "id": "1d1384dd-d20f-4068-9d00-8ea5434be676",
+      "inputs": [
+        {
+          "name": "standalone_patient_id",
+          "type": "text",
+          "value": null
+        },
+        {
+          "name": "standalone_received_scopes",
+          "type": "text",
+          "value": null
+        },
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://showfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "standalone_smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"auth_type\":\"public\",\"use_discovery\":true,\"requested_scopes\":\"launch/patient openid fhirUser offline_access patient/Patient.read\",\"pkce_support\":\"disabled\",\"pkce_code_challenge_method\":\"S256\",\"auth_request_method\":\"GET\",\"name\":\"standalone_smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [],
+      "result": "skip",
+      "result_message": "Input 'standalone_patient_id' is nil, skipping test.",
+      "test_id": "g10_certification-g10_smart_standalone_patient_app-g10_unrestricted_resource_type_access-g10_document_reference_unrestricted_access",
+      "test_run_id": "5e86fcbd-8943-4b2f-828f-ed0c3abcb848",
+      "test_session_id": "2dHYeBHIZVl",
+      "updated_at": "2026-11-10T22:01:01.272+00:00"
+    },
+    {
+      "created_at": "2026-11-10T22:01:01.289+00:00",
+      "id": "d3ac98c6-1925-44b3-89a3-808b66170c29",
+      "inputs": [
+        {
+          "name": "standalone_patient_id",
+          "type": "text",
+          "value": null
+        },
+        {
+          "name": "standalone_received_scopes",
+          "type": "text",
+          "value": null
+        },
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://showfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "standalone_smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"auth_type\":\"public\",\"use_discovery\":true,\"requested_scopes\":\"launch/patient openid fhirUser offline_access patient/Patient.read\",\"pkce_support\":\"disabled\",\"pkce_code_challenge_method\":\"S256\",\"auth_request_method\":\"GET\",\"name\":\"standalone_smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [],
+      "result": "skip",
+      "result_message": "Input 'standalone_patient_id' is nil, skipping test.",
+      "test_id": "g10_certification-g10_smart_standalone_patient_app-g10_unrestricted_resource_type_access-g10_observation_unrestricted_access",
+      "test_run_id": "5e86fcbd-8943-4b2f-828f-ed0c3abcb848",
+      "test_session_id": "2dHYeBHIZVl",
+      "updated_at": "2026-11-10T22:01:01.289+00:00"
+    },
+    {
+      "created_at": "2026-11-10T22:01:01.305+00:00",
+      "id": "436eac2e-1ccd-4989-978b-6905f68cf054",
+      "inputs": [
+        {
+          "name": "standalone_patient_id",
+          "type": "text",
+          "value": null
+        },
+        {
+          "name": "standalone_received_scopes",
+          "type": "text",
+          "value": null
+        },
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://showfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "standalone_smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"auth_type\":\"public\",\"use_discovery\":true,\"requested_scopes\":\"launch/patient openid fhirUser offline_access patient/Patient.read\",\"pkce_support\":\"disabled\",\"pkce_code_challenge_method\":\"S256\",\"auth_request_method\":\"GET\",\"name\":\"standalone_smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [],
+      "result": "skip",
+      "result_message": "Input 'standalone_patient_id' is nil, skipping test.",
+      "test_id": "g10_certification-g10_smart_standalone_patient_app-g10_unrestricted_resource_type_access-g10_us_core_6_coverage_unrestricted_access",
+      "test_run_id": "5e86fcbd-8943-4b2f-828f-ed0c3abcb848",
+      "test_session_id": "2dHYeBHIZVl",
+      "updated_at": "2026-11-10T22:01:01.305+00:00"
+    },
+    {
+      "created_at": "2026-11-10T22:01:01.312+00:00",
+      "id": "730c1121-d598-49c0-b80e-82e32caf3fe6",
+      "inputs": [
+        {
+          "description": null,
+          "label": null,
+          "name": "url",
+          "type": "text",
+          "value": "https://showfhir.vistaplex.org/fhir"
+        },
+        {
+          "description": null,
+          "label": null,
+          "name": "standalone_patient_id",
+          "type": "text",
+          "value": null
+        },
+        {
+          "description": null,
+          "label": null,
+          "name": "standalone_received_scopes",
+          "type": "text",
+          "value": null
+        },
+        {
+          "description": null,
+          "label": "Standalone Launch Credentials",
+          "name": "standalone_smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"auth_type\":\"public\",\"use_discovery\":true,\"requested_scopes\":\"launch/patient openid fhirUser offline_access patient/Patient.read\",\"pkce_support\":\"disabled\",\"pkce_code_challenge_method\":\"S256\",\"auth_request_method\":\"GET\",\"name\":\"standalone_smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [],
+      "result": "skip",
+      "test_group_id": "g10_certification-g10_smart_standalone_patient_app-g10_unrestricted_resource_type_access",
+      "test_run_id": "5e86fcbd-8943-4b2f-828f-ed0c3abcb848",
+      "test_session_id": "2dHYeBHIZVl",
+      "updated_at": "2026-11-10T22:01:01.312+00:00"
+    },
+    {
+      "created_at": "2026-11-10T22:01:01.331+00:00",
+      "id": "958d5848-675d-457f-a31e-95965c197851",
+      "inputs": [
+        {
+          "description": "URL of the FHIR endpoint used by SMART applications",
+          "label": "FHIR Endpoint",
+          "name": "url",
+          "type": "text",
+          "value": "https://showfhir.vistaplex.org/fhir"
+        },
+        {
+          "description": null,
+          "label": "Standalone Launch Credentials",
+          "name": "standalone_smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"auth_type\":\"public\",\"use_discovery\":true,\"requested_scopes\":\"launch/patient openid fhirUser offline_access patient/Patient.read\",\"pkce_support\":\"disabled\",\"pkce_code_challenge_method\":\"S256\",\"auth_request_method\":\"GET\",\"name\":\"standalone_smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [],
+      "result": "fail",
+      "test_group_id": "g10_certification-g10_smart_standalone_patient_app",
+      "test_run_id": "5e86fcbd-8943-4b2f-828f-ed0c3abcb848",
+      "test_session_id": "2dHYeBHIZVl",
+      "updated_at": "2026-11-10T22:01:01.331+00:00"
+    },
+    {
+      "created_at": "2026-11-10T22:01:01.285+00:00",
+      "id": "b3c0af23-41a1-4e36-a87b-44a1cb33710a",
+      "inputs": [
+        {
+          "name": "standalone_patient_id",
+          "type": "text",
+          "value": null
+        },
+        {
+          "name": "standalone_received_scopes",
+          "type": "text",
+          "value": null
+        },
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://showfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "standalone_smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"auth_type\":\"public\",\"use_discovery\":true,\"requested_scopes\":\"launch/patient openid fhirUser offline_access patient/Patient.read\",\"pkce_support\":\"disabled\",\"pkce_code_challenge_method\":\"S256\",\"auth_request_method\":\"GET\",\"name\":\"standalone_smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [],
+      "result": "skip",
+      "result_message": "Input 'standalone_patient_id' is nil, skipping test.",
+      "test_id": "g10_certification-g10_smart_standalone_patient_app-g10_unrestricted_resource_type_access-g10_medication_request_access",
+      "test_run_id": "5e86fcbd-8943-4b2f-828f-ed0c3abcb848",
+      "test_session_id": "2dHYeBHIZVl",
+      "updated_at": "2026-11-10T22:01:01.285+00:00"
+    },
+    {
+      "created_at": "2026-11-10T22:01:01.301+00:00",
+      "id": "db3cabb4-64fa-4128-9d55-47e1468305b1",
+      "inputs": [
+        {
+          "name": "standalone_patient_id",
+          "type": "text",
+          "value": null
+        },
+        {
+          "name": "standalone_received_scopes",
+          "type": "text",
+          "value": null
+        },
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://showfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "standalone_smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"auth_type\":\"public\",\"use_discovery\":true,\"requested_scopes\":\"launch/patient openid fhirUser offline_access patient/Patient.read\",\"pkce_support\":\"disabled\",\"pkce_code_challenge_method\":\"S256\",\"auth_request_method\":\"GET\",\"name\":\"standalone_smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [],
+      "result": "skip",
+      "result_message": "Input 'standalone_patient_id' is nil, skipping test.",
+      "test_id": "g10_certification-g10_smart_standalone_patient_app-g10_unrestricted_resource_type_access-g10_us_core_6_service_request_unrestricted_access",
+      "test_run_id": "5e86fcbd-8943-4b2f-828f-ed0c3abcb848",
+      "test_session_id": "2dHYeBHIZVl",
+      "updated_at": "2026-11-10T22:01:01.301+00:00"
+    },
+    {
+      "created_at": "2026-11-10T22:01:01.325+00:00",
+      "id": "13b96131-c277-48e6-8410-a5d3317e0c76",
+      "inputs": [
+        {
+          "name": "auth_incorrectly_permitted_tls_versions_messages",
+          "type": "text",
+          "value": null
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [],
+      "result": "pass",
+      "test_id": "g10_certification-g10_smart_standalone_patient_app-g10_auth_incorrectly_permitted_tls_versions_messages_setup",
+      "test_run_id": "5e86fcbd-8943-4b2f-828f-ed0c3abcb848",
+      "test_session_id": "2dHYeBHIZVl",
+      "updated_at": "2026-11-10T22:01:01.325+00:00"
+    },
+    {
+      "created_at": "2026-11-10T22:01:01.309+00:00",
+      "id": "0db45f49-2dcb-4712-bf3d-0eaca4123e51",
+      "inputs": [
+        {
+          "name": "standalone_patient_id",
+          "type": "text",
+          "value": null
+        },
+        {
+          "name": "standalone_received_scopes",
+          "type": "text",
+          "value": null
+        },
+        {
+          "name": "url",
+          "type": "text",
+          "value": "https://showfhir.vistaplex.org/fhir"
+        },
+        {
+          "name": "standalone_smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"auth_type\":\"public\",\"use_discovery\":true,\"requested_scopes\":\"launch/patient openid fhirUser offline_access patient/Patient.read\",\"pkce_support\":\"disabled\",\"pkce_code_challenge_method\":\"S256\",\"auth_request_method\":\"GET\",\"name\":\"standalone_smart_auth_info\"}"
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [],
+      "result": "skip",
+      "result_message": "Input 'standalone_patient_id' is nil, skipping test.",
+      "test_id": "g10_certification-g10_smart_standalone_patient_app-g10_unrestricted_resource_type_access-g10_us_core_6_medication_dispense_unrestricted_access",
+      "test_run_id": "5e86fcbd-8943-4b2f-828f-ed0c3abcb848",
+      "test_session_id": "2dHYeBHIZVl",
+      "updated_at": "2026-11-10T22:01:01.309+00:00"
+    },
+    {
+      "created_at": "2026-11-10T22:01:01.320+00:00",
+      "id": "3c6e1d7c-115e-42cc-a9cf-82c736545efc",
+      "inputs": [
+        {
+          "name": "standalone_smart_auth_info",
+          "type": "auth_info",
+          "value": "{\"auth_type\":\"public\",\"use_discovery\":true,\"requested_scopes\":\"launch/patient openid fhirUser offline_access patient/Patient.read\",\"pkce_support\":\"disabled\",\"pkce_code_challenge_method\":\"S256\",\"auth_request_method\":\"GET\",\"name\":\"standalone_smart_auth_info\"}"
+        },
+        {
+          "name": "standalone_patient_id",
+          "type": "text",
+          "value": null
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [],
+      "result": "skip",
+      "result_message": "Input 'standalone_patient_id' is nil, skipping test.",
+      "test_id": "g10_certification-g10_smart_standalone_patient_app-g10_standalone_credentials_export",
+      "test_run_id": "5e86fcbd-8943-4b2f-828f-ed0c3abcb848",
+      "test_session_id": "2dHYeBHIZVl",
+      "updated_at": "2026-11-10T22:01:01.320+00:00"
+    },
+    {
+      "created_at": "2026-11-10T22:01:01.328+00:00",
+      "id": "e61c0563-0e53-466e-89ed-feb6d9bd22a4",
+      "inputs": [
+        {
+          "name": "token_incorrectly_permitted_tls_versions_messages",
+          "type": "text",
+          "value": null
+        }
+      ],
+      "optional": false,
+      "outputs": [],
+      "requests": [],
+      "result": "pass",
+      "test_id": "g10_certification-g10_smart_standalone_patient_app-g10_token_incorrectly_permitted_tls_versions_messages_setup",
+      "test_run_id": "5e86fcbd-8943-4b2f-828f-ed0c3abcb848",
+      "test_session_id": "2dHYeBHIZVl",
+      "updated_at": "2026-11-10T22:01:01.328+00:00"
+    }
+  ],
+  "run_id": "5e86fcbd-8943-4b2f-828f-ed0c3abcb848",
+  "session_id": "2dHYeBHIZVl",
+  "session_url": "https://inferno.healthit.gov/suites/g10_certification/2dHYeBHIZVl",
+  "status": {
+    "id": "5e86fcbd-8943-4b2f-828f-ed0c3abcb848",
+    "inputs": null,
+    "results": null,
+    "status": "done",
+    "test_count": 51,
+    "test_group_id": "g10_certification-g10_smart_standalone_patient_app",
+    "test_session_id": "2dHYeBHIZVl"
+  },
+  "suite_options": [
+    {
+      "id": "us_core_version",
+      "value": "us_core_6"
+    },
+    {
+      "id": "smart_app_launch_version",
+      "value": "smart_app_launch_2_2"
+    },
+    {
+      "id": "multi_patient_version",
+      "value": "multi_patient_api_stu2"
+    }
+  ],
+  "test_group_id": "g10_certification-g10_smart_standalone_patient_app",
+  "url": "https://showfhir.vistaplex.org/fhir"
+}
