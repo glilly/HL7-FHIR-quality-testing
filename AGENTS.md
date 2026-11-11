@@ -42,6 +42,7 @@ before changing anything they own.
 | Curated SETPOP on fhirdev | `scripts/fhirdev-apply-setpop.sh` |
 | Inferno run | `scripts/inferno-run.py` (hosted Inferno, devfhir base) |
 | Nightly Inferno rotation | `scripts/nightly-inferno-rotate.sh` (UTC day-of-year; showfhir DFNs 101258–101291, then iris2 DFNs 190–223; evidence under `2026/scorecards/inferno/nightly/`) |
+| Nightly US Core on Show | `scripts/nightly-us-core-show.sh` (Show only, DFNs 101258–101291, suite `us_core_v610`; a fail or skip fails; evidence under `2026/scorecards/inferno/nightly-us-core/`) |
 | Weekly iris2 Inferno | `scripts/weekly-iris2-inferno.sh` (manual; patients 190–223; evidence under `2026/scorecards/inferno/weekly/`) |
 
 cds1 (`cds-hooks-on-fhir`, CQL/quality-eval sidecar) may be called at any
