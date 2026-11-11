@@ -1,50 +1,48 @@
-# Daily quality rotate — 2026-11-10 — `rpmsfhir`
+# Daily quality rotate — 2026-11-11 — `rpms-candidate`
 
-**Verdict:** **PASS**  
-**Base:** `https://rpmsfhir.vistaplex.org`  
-**Stamp (UTC):** `20261110T050113Z`  
-**POPIDX:** populationIndexed=1159, popidxDistinctCodes=1205  
+**Verdict:** **FAIL**  
+**Base:** `http://127.0.0.1:9088`  
+**Stamp (UTC):** `20261111T052135Z`  
+**POPIDX:** populationIndexed=0, popidxDistinctCodes=0  
 **CQL reeval:** skipped  
 
 ## Checks
 
 | Status | Key | Detail |
 |--------|-----|--------|
-| PASS | `fhir-metadata` | HTTP 200 |
-| PASS | `popidx` | populationIndexed=1159 popidxDistinctCodes=1205 |
-| PASS | `c0x-presets` | 6 active measure presets present |
-| PASS | `ipp-CMS165v14` | ippCount=97 |
-| PASS | `ipp-CMS122v14` | ippCount=24 |
-| PASS | `ipp-CMS130v14` | ippCount=172 |
-| PASS | `ipp-CMS125v14` | ippCount=89 |
-| PASS | `ipp-CMS138v14` | ippCount=200 |
-| PASS | `ipp-CMS2v15` | ippCount=200 |
-| PASS | `sum-CMS165v14` | 36/36/22/5 |
-| PASS | `sum-CMS122v14` | 42/42/10/0 |
-| PASS | `sum-CMS130v14` | 7/7/7/0 |
-| PASS | `sum-CMS125v14` | 3/3/3/0 |
-| PASS | `sum-CMS138v14` | 16/16/13/0 |
-| PASS | `sum-CMS2v15` | 12/12/10/0 |
-| PASS | `reeval-skipped` | QUALITY_REEVAL not requested for rpmsfhir |
-| PASS | `json-498` | strict Bundle parse OK |
-| PASS | `json-497` | strict Bundle parse OK |
-| PASS | `json-489` | strict Bundle parse OK |
+| FAIL | `fhir-metadata` | HTTP 000000 |
+| FAIL | `popidx` | HTTP 000000 |
+| FAIL | `c0x-presets` | HTTP 000000 or missing presets |
+| FAIL | `ipp-CMS165v14` | HTTP 000000 |
+| FAIL | `ipp-CMS122v14` | HTTP 000000 |
+| FAIL | `ipp-CMS130v14` | HTTP 000000 |
+| FAIL | `ipp-CMS125v14` | HTTP 000000 |
+| FAIL | `ipp-CMS138v14` | HTTP 000000 |
+| FAIL | `ipp-CMS2v15` | HTTP 000000 |
+| FAIL | `sum-CMS165v14` | dashboard HTTP 000000 |
+| FAIL | `sum-CMS122v14` | dashboard HTTP 000000 |
+| FAIL | `sum-CMS130v14` | dashboard HTTP 000000 |
+| FAIL | `sum-CMS125v14` | dashboard HTTP 000000 |
+| FAIL | `sum-CMS138v14` | dashboard HTTP 000000 |
+| FAIL | `sum-CMS2v15` | dashboard HTTP 000000 |
+| PASS | `reeval-skipped` | QUALITY_REEVAL not requested for rpms-candidate |
+| FAIL | `json-parse` | no sample DFNs |
 
 ## Measure table
 
 | Measure | SPARQL ippCount | SUM IPP/DENOM/NUMER/DENEX |
 |---------|-----------------|---------------------------|
-| CMS165v14 | ippCount=97 | — |
-| CMS122v14 | ippCount=24 | — |
-| CMS130v14 | ippCount=172 | — |
-| CMS125v14 | ippCount=89 | — |
-| CMS138v14 | ippCount=200 | — |
-| CMS2v15 | ippCount=200 | — |
+| CMS165v14 | HTTP 000000 | — |
+| CMS122v14 | HTTP 000000 | — |
+| CMS130v14 | HTTP 000000 | — |
+| CMS125v14 | HTTP 000000 | — |
+| CMS138v14 | HTTP 000000 | — |
+| CMS2v15 | HTTP 000000 | — |
 
 ## Reproduce
 
 ```bash
-cd HL7-FHIR-quality-testing && ./scripts/daily-quality-rotate.sh rpmsfhir
+cd HL7-FHIR-quality-testing && ./scripts/daily-quality-rotate.sh rpms-candidate
 ```
 
-JSON twin: `2026-11-10-rpmsfhir.json`
+JSON twin: `2026-11-11-rpms-candidate.json`
