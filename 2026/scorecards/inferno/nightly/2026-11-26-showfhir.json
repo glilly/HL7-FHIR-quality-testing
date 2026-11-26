@@ -1,0 +1,18 @@
+{
+  "api": "https://inferno.healthit.gov/suites/api",
+  "patient_ids": "101258,101259,101260,101261,101262,101263,101264,101265,101266,101267,101268,101269,101270,101271,101272,101273,101274,101275,101276,101277,101278,101279,101280,101281,101282,101283,101284,101285,101286,101287,101288,101289,101290,101291",
+  "results": [],
+  "run_id": "54c6d3fd-9971-4aaf-96b7-d0ce0d00fb4a",
+  "session_id": "9nbxCRKp2gJ",
+  "session_url": "https://inferno.healthit.gov/suites/us_quality_core_v050/9nbxCRKp2gJ",
+  "status": {
+    "id": "54c6d3fd-9971-4aaf-96b7-d0ce0d00fb4a",
+    "inputs": null,
+    "results": null,
+    "status": "queued",
+    "test_count": 441,
+    "test_group_id": "us_quality_core_v050-us_quality_core_v050_fhir_api",
+    "test_session_id": "9nbxCRKp2gJ"
+  },
+  "url": "https://showfhir.vistaplex.org/fhir"
+}
